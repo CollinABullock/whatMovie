@@ -1,4 +1,4 @@
-import { netflixArray } from './components/netflix'
+import { netflixArray } from './components/movieArray'
 import './App.css'
 import { useState } from 'react'
 
