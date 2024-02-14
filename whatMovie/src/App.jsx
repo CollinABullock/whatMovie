@@ -7,9 +7,12 @@ function App() {
     <>
     <h1>What movie should you watch tonight?</h1>
     {netflixArray.map((item, index) => (
-      <div>
+      <div key={index}>
       <h1>{item.title}</h1>
       <img src={item.poster} alt="This Film's Poster" />
+      {item.actors.map ((actor, actorIndex) => (
+        <p key={actorIndex}>{actor.name}</p>
+      ))}
       </div>
     ))}
     </>
