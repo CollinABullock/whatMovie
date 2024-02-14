@@ -18,7 +18,10 @@ const handleRandomMovie = () => {
   <h1>{randomMovie.title}</h1>
   <img src={randomMovie.poster} alt="This Film's Poster" />
   {randomMovie.actors.map((actor, actorIndex) => (
-    <p key={actorIndex}>{actor.name}</p>
+    <>
+    <img src={actor.image} alt="This is an actor!"/>
+    <p key={actorIndex}><a href={actor.imdb}>{actor.name}</a></p>
+    </>
   ))}
 </div>
     ) : (  <button onClick={handleRandomMovie}>Pick a random movie</button>)}
