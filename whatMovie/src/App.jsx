@@ -16,7 +16,9 @@ const handleRandomMovie = () => {
     {randomMovie ? (
   <div>
   <h1>{randomMovie.title}</h1>
-  <img src={randomMovie.poster} alt="This Film's Poster" />
+  <a href={randomMovie.link}>
+  <img src={randomMovie.poster} alt="This Film's Poster" /></a><br />
+  <h2>The Cast:</h2>
   {randomMovie.actors.map((actor, actorIndex) => (
     <>
     <img src={actor.image} alt="This is an actor!"/>
