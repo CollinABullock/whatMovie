@@ -1,0 +1,4 @@
+const netflixArray = [
+  {"item": "1", "title": "John Wick", "runtime": ""},
+  {"item": "2", "genre": ["action", "adventure", "violent", "suspenseful"], "title": "The Equalizer 3", "release-year": "2023", "runtime": "119", "MPAA-rating": "R", "description": "Robert McCall vows to stop an Italian crime syndicate from brutalizing and extorting the residents of a small coastal town that has won his heart.", "actors": [{"name": "Denzel Washington", "image": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2022%2F01%2Fdenzel-washington-the-equalizer-3-currently-in-the-works-confirmed-001.jpg?cbr=1&q=90", "imdb": "https://www.imdb.com/name/nm0000243/"} ]}
+]
