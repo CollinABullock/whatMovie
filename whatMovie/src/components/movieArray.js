@@ -258,9 +258,9 @@ const moviesArray = [
 	"genre": ["action", "science-fiction"],
     "link": "https://www.netflix.com/title/81520516",
     "director": [{
-    "name": "",
-    "image": "",
-    "imdb": "",
+    "name": "Scott Beck and Bryan Woods",
+    "image": "https://www.hollywoodreporter.com/wp-content/uploads/2023/03/IMG_4294.jpg?w=1296",
+    "imdb": "https://www.imdb.com/name/nm1399714/?ref_=tt_ov_dr",
     }],
     "actors": [{
       "name": "Adam Driver",
@@ -276,31 +276,64 @@ const moviesArray = [
     {    
       "item": "16",
       "title": "The Meg",
-      "runtime": "",
+      "runtime": "113",
       "mpaa": "PG-13",
       "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABaJLrF0O0oiu3lM1oAc5km8es_xCGHoczjV1GnQ6oHY9_JWnmup3y3nqKOid1BndRWAkxPMOse97q-2imuOs7S0TPmtmxJeRlcg.jpg?r=c5e",
-      "description": "",
-	"genre": [""],
-    "link": "",
+      "description": "When an attack leaves a research crew trapped at the bottom of the sea, a rescue diver must face a massive predator long presumed extinct to save them",
+	"genre": ["action", "science-fiction", "comedy"],
+    "link": "https://www.netflix.com/watch/80237937?trackId=255824129&tctx=0%2C0%2Ce5dd4c43-e606-4d1a-8623-62194cccc475-13659244%2Ce5dd4c43-e606-4d1a-8623-62194cccc475-13659244%7C2%2Cunknown%2C%2C%2CtitlesResults%2C80237937%2CVideo%3A80237937%2CminiDpPlayButton",
     "director": [{
-    "name": "",
-    "image": "",
-    "imdb": "",
+    "name": "Jon Turteltaub",
+    "image": "https://www.hollywoodreporter.com/wp-content/uploads/2016/03/gettyimages-455770877.jpg",
+    "imdb": "https://www.imdb.com/name/nm0005509/bio/",
     }],
     "actors": [{
       "name": "Jason Statham",
       "image": "https://ew.com/thmb/bbpeT-u7BO2qVG43YbrTdg9arNo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/meg-fp-0002-2000-7ed63879f64c475b821774b972f82ae5.jpg",
       "imdb": "https://www.imdb.com/name/nm0005458/?ref_=nv_sr_srsg_0_tt_3_nm_5_q_jason%2520stath"
     }, {
-      "name": "",
-      "image": "",
-      "imdb": ""
+      "name": "Li Bingbing",
+      "image": "https://static.wikia.nocookie.net/megbookseries/images/e/e7/Li-Bingbing.jpg/revision/latest?cb=20180628171918",
+      "imdb": "https://www.imdb.com/name/nm0508356/"
     }, {
-      "name": "",
-      "image": "",
-      "imdb": "",
+      "name": "Rainn Wilson",
+      "image": "https://variety.com/wp-content/uploads/2023/04/TCDOFFI_EC251.jpg",
+      "imdb": "https://www.imdb.com/name/nm0933988/",
     }]
     },
+
+    {    
+      "item": "17",
+      "title": "Dredd",
+      "runtime": "95",
+      "mpaa": "R",
+      "poster": "https://www.digitaltrends.com/wp-content/uploads/2023/09/Dredd-Karl-Urban.jpg?p=1",
+      "description": "Enforcing the law in a violent dystopian society, Judge Dredd and a new trainee fight their way through a tower block to bring down a drug boss.",
+	"genre": ["action", "science-fiction", "comic-book"],
+    "link": "https://www.netflix.com/title/70242801",
+    "director": [{
+    "name": "Pete Travis",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTg3MjczOTI3OV5BMl5BanBnXkFtZTcwNzQ4NTg1MQ@@._V1_.jpg",
+    "imdb": "https://www.imdb.com/name/nm0871428/?ref_=tt_ov_dr",
+    }],
+    "actors": [{
+      "name": "Karl Urban",
+      "image": "https://m.media-amazon.com/images/M/MV5BYzBjZTM0NWMtYTljMS00NTY3LWI5ZTQtN2Q3OWQ0ZTVlZTE4XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._CR441,1266,4800,2700_UX1248_UY702_QL75_UX500_CR0,0,500,281_.jpg",
+      "imdb": "https://www.imdb.com/name/nm0881631/"
+    }, 
+    {
+      "name": "Lena Headey",
+      "image": "https://static.independent.co.uk/2023/05/11/19/newFile-2.jpg",
+      "imdb": "https://www.imdb.com/name/nm0372176/",
+    }, 
+    {
+      "name": "Olivia Thrilby",
+      "image": "https://www.the-sun.com/wp-content/uploads/sites/6/2023/06/newspress-collage-8305699-1686131265207.jpg?w=620",
+      "imdb": "https://www.imdb.com/name/nm1880888/",
+    }]
+    },
+
+
 
 
 
