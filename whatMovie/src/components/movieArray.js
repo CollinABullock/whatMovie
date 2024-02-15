@@ -242,11 +242,38 @@ const moviesArray = [
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRo-ENpCC-i10TwG6emtus3b4Ug8N9_GHUuw&usqp=CAU",
         "imdb": "https://www.imdb.com/name/nm1165110/",
       }, {
-      "name": "Rudhraksh Jaiswal,",
+      "name": "Rudhraksh Jaiswal",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWTS1jrrMMalPs5F2BtgV26j-6pwFNaAivlw&usqp=CAU",
+      "imdb": "https://www.imdb.com/name/nm7287299/"
+    }]
+    },
+
+    {    
+      "item": "15",
+      "title": "65",
+      "runtime": "92",
+      "mpaa": "PG-13",
+      "poster": "",
+      "description": "After surviving a crash landing, an astronaut and his passenger must outlast the perils of prehistoric Earth to reach their only hope for escape.",
+	"genre": ["action", "science-fiction"],
+    "link": "https://www.netflix.com/title/81520516",
+    "director": [{
+    "name": "",
+    "image": "",
+    "imdb": "",
+    }],
+    "actors": [{
+      "name": "Adam Driver",
+      "image": "",
+      "imdb": "",
+    }, {
+      "name": "Ariana Greenblat",
       "image": "",
       "imdb": ""
     }]
     },
+
+
 
 
 
