@@ -17,6 +17,7 @@ const handleRandomMovie = () => {
     <h1>What movie should you watch tonight?</h1>
     {randomMovie ? (
   <div>
+    <button onClick={handleRandomMovie}>I'm not feeling it, give me another</button>
   <h1>{randomMovie.title}</h1>
   <a href={randomMovie.link}>
   <img src={randomMovie.poster} alt="This Film's Poster" /></a><br />
