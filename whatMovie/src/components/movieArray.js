@@ -343,6 +343,31 @@ const moviesArray = [
 	"genre": ["action", "fantasy", "comic-book"],
     "link": "https://www.netflix.com/title/81416258",
     "director": [{
+    "name": "Jaume Collet-Serra",
+    "image": "https://www.looper.com/img/gallery/jaume-collet-serra-apparently-studied-for-six-months-to-load-black-adam-with-deep-cut-easter-eggs/l-intro-1667616728.jpg",
+    "imdb": "https://www.imdb.com/name/nm1429471/"
+    }],
+    "actors": [{
+      "name": "Dwayne 'The Rock' Johnson",
+      "image": "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F3bdb2575-9a92-42f8-8472-bb78c7bd118a_720x405.jpeg",
+      "imdb": "https://www.imdb.com/name/nm0425005/",
+    }, {
+      "name": "Pierce Brosnan",
+      "image": "https://parade.com/.image/t_share/MjAyOTA4NzM0NDcxNTQ1OTI0/the-2023-met-gala-celebrating-karl-lagerfeld-a-line-of-beauty---arrivals.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000112/bio/"
+    }]
+    },
+
+    {    
+      "item": "",
+      "title": "",
+      "runtime": "",
+      "mpaa": "",
+      "poster": "",
+      "description": "",
+	"genre": [""],
+    "link": "",
+    "director": [{
     "name": "",
     "image": "",
     "imdb": "",
@@ -361,6 +386,8 @@ const moviesArray = [
       "imdb": "",
     }]
     },
+
+
 
 
 
