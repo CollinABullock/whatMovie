@@ -333,6 +333,37 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "18",
+      "title": "Black Adam",
+      "runtime": "124",
+      "mpaa": "PG-13",
+      "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABUCP2OWsUC_nT0_RY6hkC2AMYzGAs0KGgONfUSZ9v7_gxCLh1ykF9iIoHpIS8_blqx8b5oUI6bM-KZzAZXBeBgcghsng0UaGlBY.jpg?r=a31",
+      "description": "Freed from his magical prison, a champion with the powers of the gods toes the line between good and evil as the Justice Society tries to contain him.",
+	"genre": ["action", "fantasy", "comic-book"],
+    "link": "https://www.netflix.com/title/81416258",
+    "director": [{
+    "name": "",
+    "image": "",
+    "imdb": "",
+    }],
+    "actors": [{
+      "name": "",
+      "image": "",
+      "imdb": "",
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": ""
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": "",
+    }]
+    },
+
+
+
 
 
 
