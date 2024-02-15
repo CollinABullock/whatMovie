@@ -1,6 +1,7 @@
 import { netflixArray } from './components/movieArray'
 import './App.css'
 import { useState } from 'react'
+import NavBar from './components/navbar';
 
 function App() {
   const [randomMovie, setRandomMovie] = useState(null);
@@ -12,6 +13,7 @@ const handleRandomMovie = () => {
 
   return (
     <>
+    <NavBar />
     <h1>What movie should you watch tonight?</h1>
     {randomMovie ? (
   <div>
