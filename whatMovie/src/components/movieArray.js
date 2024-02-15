@@ -18,7 +18,7 @@ const moviesArray = [
 
   {"item": "5", "title": "Meg 2: The Trench", "mpaa": "PG-13", "runtime": "115", "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABXA08yhKXmcOdp-3Fz7LCCvvkGEo7J0b-p-56FJzB4V8YvoRJrLJ9KGXDeKnIm-FnNtBeBrZa_c2zffyoOimR7b_tqVc0FGIbjA.jpg?r=cd5",  "director": [{
     "name": "Ben Wheatley",
-    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2F%40Film4%2Fgetting-to-know-ben-wheatley-f30b97419548&psig=AOvVaw3aU0c2lcjtrYuqYg-jZ_AD&ust=1708098526315000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCJi5yYHZrYQDFQAAAAAdAAAAABAI",
+    "image": "https://miro.medium.com/v2/resize:fit:1200/1*3LHqGuCQXorll7fYrzDJPw.jpeg",
     "imdb": "https://www.imdb.com/name/nm1296554/?ref_=tt_ov_dr",
     }],
     "actors": [{
@@ -166,6 +166,35 @@ const moviesArray = [
       "name": "Aaron Taylor-Johnson",
       "image": "https://manofmany.com/wp-content/uploads/2022/12/Aaron-Taylor-Honson-Bond-1200x900.png",
       "imdb": "https://www.imdb.com/name/nm1093951/bio/",
+    }]
+    },
+
+    {    
+      "item": "12",
+      "title": "Anaconda",
+      "runtime": "89",
+      "mpaa": "PG-13",
+      "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABVcTCb2znlXwXdxh053xIazo-ESecP8gj3FDlTovc3yciASqfFWZaXMO3zuEQh2T0j339Kx53Hfs4RskMs2Nq5N4NlFiAF2AWMI.jpg?r=636",
+      "description": "A documentary film crew on a boat in the Amazon picks up a mysterious stranger who dupes them into pursuing a monstrous and deadly 40-foot-long snake.",
+	"genre": ["action", "horror", "comedy"],
+    "link": "https://www.netflix.com/title/1153328",
+    "director": [{
+    "name": "Luis Llosa Urquidi ",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTQ1ODM5NDQzOF5BMl5BanBnXkFtZTcwNzEzNjgwMw@@._V1_.jpg",
+    "imdb": "https://www.imdb.com/name/nm0515891/",
+    }],
+    "actors": [{
+      "name": "Jennifer Lopez",
+      "image": "https://variety.com/wp-content/uploads/2024/02/Jennifer-Lopez-Variety-Cover-Story-1.jpg?crop=0px%2C178px%2C1918px%2C1080px&resize=1920%2C1080",
+      "imdb": "https://www.imdb.com/name/nm0000182/?ref_=tt_cl_t_2",
+    }, {
+      "name": "Ice Cube",
+      "image": "https://i.guim.co.uk/img/media/67eec8ab7e348a4152ff3f0ea2a3fc1060f38e28/493_44_4711_2827/master/4711.jpg?width=700&quality=85&auto=format&fit=max&s=da2aa1a6318e94a58e1272821e01b42c",
+      "imdb": "https://www.imdb.com/name/nm0001084/?ref_=tt_cl_t_4"
+    }, {
+      "name": "Jon Voight",
+      "image": "https://www.24spoilers.com/wp-content/uploads/2008/06/Jon-Voight-Transformers.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000685/?ref_=tt_cl_t_1",
     }]
     },
 
