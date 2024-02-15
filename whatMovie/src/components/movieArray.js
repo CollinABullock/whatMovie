@@ -117,6 +117,7 @@ const moviesArray = [
       "title": "The Woman King",
       "runtime": "135",
       "mpaa": "PG-13",
+      "genre": ["action", "adventure", "historical", "feminist"],
       "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABWmSM4caGjbMlGUBF8fAsHjJ7FsuibUYXwNOJj-dwWPUBiBDrDT2Fi7Sxba5VOYQCyfAC9uShz_z9A1EtpA5Jv_TU8qceM9YvH4.jpg?r=96f",
       "description": "In the 1820s, a battle-tested general trains a new generation of female warriors to protect their kingdom from a powerful foe. Inspired by true events.",
     "link": "https://www.netflix.com/title/80218506",
@@ -137,9 +138,39 @@ const moviesArray = [
       "name": "Thuso Mbedu",
       "image": "https://deadline.com/wp-content/uploads/2022/04/Thuso-Mbedu_Gari-Askew-BS1.jpg",
       "imdb": "https://www.imdb.com/name/nm9096847/",
+    }]},
+  
+    {    
+      "item": "11",
+      "title": "Bullet Train",
+      "runtime": "126",
+      "mpaa": "R",
+      "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABdKD_7ZiQTuhiW2RKxTF7Z_YjUuid1J_13cAcINFMBFahgf067RXmvbLE6vqRzLq19JJgCqcc-gY3G9_QuW_ca62SJzIvh-IAzc.jpg?r=397",
+      "description": "Five assassins board a Japanese bullet train bound for Kyoto and come to discover that their seemingly separate missions are mysteriously linked.",
+	"genre": ["action", "comedy", "offbeat", "Japan"],
+    "link": "https://www.netflix.com/title/81511779",
+    "director": [{
+    "name": "David Leitch",
+    "image": "https://www.hollywoodreporter.com/wp-content/uploads/2022/08/David-Leitch-Bullet-Train-Premiere-Carpet-GettyImages-1412353499-H-2022.jpg?w=1296",
+    "imdb": "https://www.imdb.com/name/nm0500610/",
+    }],
+    "actors": [{
+      "name": "Brad Pitt",
+      "image": "https://m.media-amazon.com/images/M/MV5BMWRkMDE5MjUtN2MyYi00MzAyLWIwOWMtNWU0NzNkZDczOWUyXkEyXkFqcGdeQUlNRGJWaWRlb1RodW1ibmFpbFNlcnZpY2U@._V1_QL75_UX500_CR0,0,500,281_.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000093/",
+    }, {
+      "name": "Joey King",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/joey-king-attends-the-premiere-of-20th-century-studios-news-photo-1696442067.jpg",
+      "imdb": "https://www.imdb.com/name/nm1428821/"
+    }, {
+      "name": "Aaron Taylor-Johnson",
+      "image": "https://manofmany.com/wp-content/uploads/2022/12/Aaron-Taylor-Honson-Bond-1200x900.png",
+      "imdb": "https://www.imdb.com/name/nm1093951/bio/",
     }]
     },
-]
+
+
+  ],
 ]
 
 const netflixArray = moviesArray[0];
