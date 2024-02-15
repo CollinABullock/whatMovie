@@ -86,7 +86,7 @@ const moviesArray = [
     "mpaa": "R",
     "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABSevQRNdhAYxJc0cIiJIRvDVl52yCvdjv8Lp_SawSjxOKdTt4k6PDlmjSP_CN3pJ5L1Ha3_kLLzV9Nf862FhUCWX3X8wxwAqt2WV.jpg?r=78e",
     "link": "https://www.netflix.com/title/437266",
-    "director" [{
+    "director": [{
     "name": "Robert Rodriguez",
     "image": "https://ca-times.brightspotcdn.com/dims4/default/332357d/2147483647/strip/true/crop/6000x4000+0+0/resize/1200x800!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Ffb%2F13%2F0c4a3c7f45259b80d91f68ff6f35%2Fla-et-we-can-be-heroes-netflix-29.JPG",
     "imdb": "https://www.imdb.com/name/nm0001675/",
@@ -103,22 +103,7 @@ const moviesArray = [
     }]
     },
 
-    "poster": "",
-    "link": "",
-    "director" [{
-    "name": "",
-    "image": "",
-    "imdb": "",
-    }],
-    "actors" [{
-      "name": "",
-      "image": "",
-      "imdb": "",
-    }],
-    },
-
     
-
 ]
 ]
 
