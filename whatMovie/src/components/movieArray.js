@@ -16,23 +16,28 @@ const moviesArray = [
   {"item": "8", "title": "Lucy", "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABTQyKvI3VeRem-3y8Gal7XK3zG-ZkMGkQ9Nt1kON_zJsY2keO4vEeqaEr00zZFERCUYpa1iDKMfa2rkDJ4ixsPq3s2wz-8KHJHc.jpg?r=dbf", "runtime": "89", "mpaa": "R", "genre": ["action", "science-fiction", "violent", "exciting"], "director": "Luc Besson", "link": "https://www.netflix.com/title/70307658"},
 
   { 
-    "item": "",
-    "title": "",
-    "runtime": "",
-    "description": "",
-    "genre": "",
-    "mpaa": "",
-    "poster": "",
-    "link": "",
+    "item": "9",
+    "title": "Desperado",
+    "runtime": "104",
+    "description": "To avenge the death of his girlfriend, a mysterious guitar player hunts down the villainous drug lord responsible and forces him to face the music.",
+    "genre": ["action", "excting", "foreign", "Mexico"],
+    "mpaa": "R",
+    "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABSevQRNdhAYxJc0cIiJIRvDVl52yCvdjv8Lp_SawSjxOKdTt4k6PDlmjSP_CN3pJ5L1Ha3_kLLzV9Nf862FhUCWX3X8wxwAqt2WV.jpg?r=78e",
+    "link": "https://www.netflix.com/title/437266",
     "director" [{
-    "name": "",
-    "image": "",
-    "imdb": "",
+    "name": "Robert Rodriguez",
+    "image": "https://ca-times.brightspotcdn.com/dims4/default/332357d/2147483647/strip/true/crop/6000x4000+0+0/resize/1200x800!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Ffb%2F13%2F0c4a3c7f45259b80d91f68ff6f35%2Fla-et-we-can-be-heroes-netflix-29.JPG",
+    "imdb": "https://www.imdb.com/name/nm0001675/",
     }],
-    "actors" [{
-      "name": "",
-      "image": "",
-      "imdb": "",
+    "actors": [{
+      "name": "Antonio Banderas",
+      "image": "https://www.undp.org/sites/g/files/zskgke326/files/styles/image_with_credit_caption_1392_x_651_/public/2021-05/shutterstock-Antonio-Banderas-95326390.jpg?itok=g_85lbar",
+      "imdb": "https://www.imdb.com/name/nm0000104/?ref_=fn_al_nm_1",
+    },
+    {
+      "name": "Salma Hayek",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/salma-hayek-attends-the-2023-academy-museum-gala-at-academy-news-photo-1702312165.jpg?crop=1xw:0.45xh;center,top",
+      "imdb": "https://www.imdb.com/name/nm0000161/",
     }]
     },
 
