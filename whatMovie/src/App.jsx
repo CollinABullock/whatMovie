@@ -20,6 +20,22 @@ const handleRandomMovie = () => {
   <h1>{randomMovie.title}</h1>
   <a href={randomMovie.link}>
   <img src={randomMovie.poster} alt="This Film's Poster" /></a><br />
+
+  <h2>The Director: </h2><br />
+  {Array.isArray(randomMovie.director) ? ( // Check if director is an array
+      randomMovie.director.map((director, index) => (
+        <div key={index}>
+          <img src={director.image} alt="This person directed the movie" />
+          <p><a href={director.imdb}>{director.name}</a></p>
+        </div>
+      ))
+    ) : (
+      <div>
+        <img src={randomMovie.director.image} alt="This person directed the movie" />
+        <p><a href={randomMovie.director.imdb}>{randomMovie.director.name}</a></p>
+      </div>
+    )}
+
   <h2>The Cast:</h2>
   {randomMovie.actors.map((actor, actorIndex) => (
     <>

@@ -103,7 +103,33 @@ const moviesArray = [
     }]
     },
 
-    
+    {    
+      "item": "10",
+      "title": "The Woman King",
+      "runtime": "135",
+      "mpaa": "PG-13",
+      "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABWmSM4caGjbMlGUBF8fAsHjJ7FsuibUYXwNOJj-dwWPUBiBDrDT2Fi7Sxba5VOYQCyfAC9uShz_z9A1EtpA5Jv_TU8qceM9YvH4.jpg?r=96f",
+      "description": "In the 1820s, a battle-tested general trains a new generation of female warriors to protect their kingdom from a powerful foe. Inspired by true events.",
+    "link": "https://www.netflix.com/title/80218506",
+    "director": [{
+    "name": "Gina Prince-Bythewood",
+    "image": "https://variety.com/wp-content/uploads/2023/02/gina-prince-bythewood-naacp.jpg?w=1000&h=563&crop=1",
+    "imdb": "https://www.imdb.com/name/nm0697656/",
+    }],
+    "actors": [{
+      "name": "Viola Davis",
+      "image": "https://m.media-amazon.com/images/M/MV5BNWNlNTk0ZWEtN2EyYi00YWM5LTlmYWItNjkyNmZjYjQzMzdmXkEyXkFqcGdeQXJoYW5uYWg@._V1_.jpg",
+      "imdb": "https://www.imdb.com/name/nm0205626/",
+    }, {
+      "name": "Lashana Lynch",
+      "image": "https://d.newsweek.com/en/full/1512062/lashana-lynch-007.jpg",
+      "imdb": "https://www.imdb.com/name/nm2736476/"
+    }, {
+      "name": "Thuso Mbedu",
+      "image": "https://deadline.com/wp-content/uploads/2022/04/Thuso-Mbedu_Gari-Askew-BS1.jpg",
+      "imdb": "https://www.imdb.com/name/nm9096847/",
+    }]
+    },
 ]
 ]
 
