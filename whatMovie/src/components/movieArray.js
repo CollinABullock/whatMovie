@@ -7,13 +7,75 @@ const moviesArray = [
 
   {"item": "4", "title": "Ready Player One", "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABYvrba6Z7rACiS5YwCgXPpkSRwFpOyrD8Eqazld4fiJBtSP2qwTMV1YdwZ5rNQNX0-wW6JZHQn9f6KvPMTxw-kyuTpXmzqUN__uk2G3Xkgq5CBNsZ3j3piye6DMkzm09immx7vMMoEUQgvCBQlpqDQ4F5l1ooPUL12U.jpg?r=9fe", "runtime": "140", "description":  "In a world on the brink of collapse, a talented gamer takes the lead in a series of challenges to win ownership of a massive virtual reality universe.", "genre": ["action", "adventure", "science-fiction"], "actors": [{"name": "Tye Sheridan", "image": "https://media.gq.com/photos/61cb80223e3e89c4022d9a9e/16:9/w_2560%2Cc_limit/1153779397", "imdb": "https://www.imdb.com/name/nm4446467/"}, {"name": "Olivia Cooke", "image": "https://www.thetimes.co.uk/imageserver/image/%2Fmethode%2Ftimes%2Fprod%2Fweb%2Fbin%2F013b73be-328e-11e8-b10c-795428ac06a8.jpg?crop=5449%2C3065%2C16%2C244&resize=1200", "imdb": "https://www.imdb.com/name/nm4972453/"}, {"name": "Ben Mendelsohn", "image": "https://media.gq.com/photos/65bd17467747117a19fec483/master/w_2560%2Cc_limit/ben.jpg", "imdb": "https://www.imdb.com/name/nm0578853/"}], "link": "https://www.netflix.com/title/80211726", "director": "Steven Spielberg"},
 
-  {"item": "5", "title": "Meg 2: The Trench", "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABXA08yhKXmcOdp-3Fz7LCCvvkGEo7J0b-p-56FJzB4V8YvoRJrLJ9KGXDeKnIm-FnNtBeBrZa_c2zffyoOimR7b_tqVc0FGIbjA.jpg?r=cd5", "director": "Ben Wheatly"},
+  {"item": "5", "title": "Meg 2: The Trench", "mpaa": "PG-13", "runtime": "115", "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABXA08yhKXmcOdp-3Fz7LCCvvkGEo7J0b-p-56FJzB4V8YvoRJrLJ9KGXDeKnIm-FnNtBeBrZa_c2zffyoOimR7b_tqVc0FGIbjA.jpg?r=cd5",  "director": [{
+    "name": "Ben Wheatley",
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2F%40Film4%2Fgetting-to-know-ben-wheatley-f30b97419548&psig=AOvVaw3aU0c2lcjtrYuqYg-jZ_AD&ust=1708098526315000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCJi5yYHZrYQDFQAAAAAdAAAAABAI",
+    "imdb": "https://www.imdb.com/name/nm1296554/?ref_=tt_ov_dr",
+    }],
+    "actors": [{
+      "name": "Jason Statham",
+      "image": "https://ew.com/thmb/bbpeT-u7BO2qVG43YbrTdg9arNo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/meg-fp-0002-2000-7ed63879f64c475b821774b972f82ae5.jpg",
+      "imdb": "https://www.imdb.com/name/nm0005458/?ref_=nv_sr_srsg_0_tt_3_nm_5_q_jason%2520stath",
+    },
+    {
+      "name": "Jing Wu",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTk5Mzc0NjgyOV5BMl5BanBnXkFtZTgwNDAyOTEzMjE@._V1_.jpg",
+      "imdb": "https://www.imdb.com/name/nm0943104/?ref_=tt_cl_t_2",
+    }]},
 
-  {"item": "6", "title": "Rebel Moon — Part One: A Child of Fire", "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABTb83RN3VhDCH8tVBV5GPva_qAulKy1DQclvAOCVza7Xe_Waz-TdBZsfAZB0vWxpY9ky8jV9HGzalrnDhT8XALZjaMAa6Mp2u7GNtK9WcWeYUpVt-0HunLKKeTNFxNfVs2w_.jpg?r=7c8", "director": "Zack Synder" },
+  {"item": "6", "title": "Rebel Moon — Part One: A Child of Fire", "runtime": "136", "mpaa": "PG-13", "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABTb83RN3VhDCH8tVBV5GPva_qAulKy1DQclvAOCVza7Xe_Waz-TdBZsfAZB0vWxpY9ky8jV9HGzalrnDhT8XALZjaMAa6Mp2u7GNtK9WcWeYUpVt-0HunLKKeTNFxNfVs2w_.jpg?r=7c8", "director": [{
+    "name": "Zack Synder",
+    "image": "https://dnm.nflximg.net/api/v6/2DuQlx0fM4wd1nzqm5BFBi6ILa8/AAAAQRkG0o6H2e9srDoKgYVGPoqGMQGX2DpEahimbzps-XdXK2Qc_sby0nJiRw3V0bePHNFOGKK3PdNwy1Z825FXZwDjmxVEuYKYQlsRdnmEnmK0XIzCGQ-PHCNrD8wJVCvhOqggGXSKLFhPBK7DxoiMtrO9.jpg?r=4ca",
+    "imdb": "https://www.imdb.com/name/nm0811583/",
+    }],
+    "actors": [{
+      "name": "Sofia Boutella",
+      "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/12/13/15/sofia-boutella.jpg",
+      "imdb": "https://www.imdb.com/name/nm1154749/",
+    },
+    {
+      "name": "Djimon Hounsou",
+      "image": "https://deadline.com/wp-content/uploads/2023/03/Djimon-Honsou.jpg",
+      "imdb": "https://www.imdb.com/name/nm0005023/",
+    }]},
 
-  {"item": "7", "title": "Hunter Killer", "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABfT9Ic9TKkum7wLhKIwz-OAQCDdLh8o91uykSzYY4uql-q9GbMLmBP6fjJhLZeZTJqmGr2eRV09gOdHqNtjQpvDav8tfCXUomvw.jpg?r=4c9", "runtime": "121", "description": "When the Russian president gets kidnapped in a coup, an American submarine captain leads a rescue mission in the hopes of avoiding all-out war.", "genre": ["action", "military", "exciting", "suspensful"], "mpaa": "R"},
+  {"item": "7", "title": "Hunter Killer", "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABfT9Ic9TKkum7wLhKIwz-OAQCDdLh8o91uykSzYY4uql-q9GbMLmBP6fjJhLZeZTJqmGr2eRV09gOdHqNtjQpvDav8tfCXUomvw.jpg?r=4c9", "runtime": "121", "description": "When the Russian president gets kidnapped in a coup, an American submarine captain leads a rescue mission in the hopes of avoiding all-out war.", "genre": ["action", "military", "exciting", "suspensful"], "mpaa": "R", "runtime": "121", "director": [{
+    "name": "Donovan Marsh",
+    "image": "https://media.gettyimages.com/id/114725255/photo/johannesburg-south-africa-south-african-filmmaker-donovan-marsh-poses-for-photograph-on-may-13.jpg?s=612x612&w=gi&k=20&c=DFr1V1o77803aCKrg1nt617OaI9LHHEkahXGi5tu3vM=",
+    "imdb": "https://www.imdb.com/name/nm1804518/?ref_=tt_ov_dr",
+    }],
+    "actors": [{
+      "name": "Sofia Boutella",
+      "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/12/13/15/sofia-boutella.jpg",
+      "imdb": "https://www.imdb.com/name/nm1154749/",
+    },
+    {
+      "name": "Djimon Hounsou",
+      "image": "https://deadline.com/wp-content/uploads/2023/03/Djimon-Honsou.jpg",
+      "imdb": "https://www.imdb.com/name/nm0005023/",
+    }]},
 
-  {"item": "8", "title": "Lucy", "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABTQyKvI3VeRem-3y8Gal7XK3zG-ZkMGkQ9Nt1kON_zJsY2keO4vEeqaEr00zZFERCUYpa1iDKMfa2rkDJ4ixsPq3s2wz-8KHJHc.jpg?r=dbf", "runtime": "89", "mpaa": "R", "genre": ["action", "science-fiction", "violent", "exciting"], "director": "Luc Besson", "link": "https://www.netflix.com/title/70307658"},
+  {"item": "8", "title": "Lucy", "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABTQyKvI3VeRem-3y8Gal7XK3zG-ZkMGkQ9Nt1kON_zJsY2keO4vEeqaEr00zZFERCUYpa1iDKMfa2rkDJ4ixsPq3s2wz-8KHJHc.jpg?r=dbf", "runtime": "89", "mpaa": "R", "genre": ["action", "science-fiction", "violent", "exciting"], "link": "https://www.netflix.com/title/70307658", "director": [{
+    "name": "Luc Besson",
+    "image": "https://deadline.com/wp-content/uploads/2023/12/Luc-Besson.jpg",
+    "imdb": "https://www.imdb.com/name/nm0000108/",
+    }],
+    "actors": [{
+      "name": "Scarlett Johansson",
+      "image": "https://dmn-dallas-news-prod.cdn.arcpublishing.com/resizer/UQ836S9qDWRgX1TYCkzykIuWIK8=/1660x1107/smart/filters:no_upscale()/cloudfront-us-east-1.images.arcpublishing.com/dmn/63MMCIXPOAOUKAMXJMW7HTAWCU.jpg",
+      "imdb": "https://www.imdb.com/name/nm0424060/",
+    },
+    {
+      "name": "Morgan Freeman",
+      "image": "https://mediaproxy.salon.com/width/1200/height/675/https://media2.salon.com/2014/06/morgan_freeman.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000151/",
+    },
+  {
+    "name": "Choi Min-sik",
+    "image": "https://nextshark.b-cdn.net/wp-content/uploads/2023/02/Choi-Min-sik-Interview.jpg?width=1536&auto_optimize=medium",
+    "imdb": "https://www.imdb.com/name/nm0158856/?ref_=nv_sr_srsg_0_tt_0_nm_8_q_choi%2520min"
+  }
+  ]},
 
   { 
     "item": "9",
@@ -52,7 +114,7 @@ const moviesArray = [
       "name": "",
       "image": "",
       "imdb": "",
-    }]
+    }],
     },
 
     
