@@ -24,7 +24,7 @@ const moviesArray = [
     "actors": [{
       "name": "Jason Statham",
       "image": "https://ew.com/thmb/bbpeT-u7BO2qVG43YbrTdg9arNo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/meg-fp-0002-2000-7ed63879f64c475b821774b972f82ae5.jpg",
-      "imdb": "https://www.imdb.com/name/nm0005458/?ref_=nv_sr_srsg_0_tt_3_nm_5_q_jason%2520stath",
+      "imdb": "https://www.imdb.com/name/nm0005458/?ref_=nv_sr_srsg_0_tt_3_nm_5_q_jason%2520stath"
     },
     {
       "name": "Jing Wu",
@@ -253,7 +253,7 @@ const moviesArray = [
       "title": "65",
       "runtime": "92",
       "mpaa": "PG-13",
-      "poster": "",
+      "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABYl2Ees15ICNqtuZkh3Ggm3sZZAIpOQEercxsv5OM0IeW0Z66HOBP-JVSnMjPrD5rdF-ueBsS4HnmeGIbCZ1dORA6XVwyq9KI-o.jpg?r=420",
       "description": "After surviving a crash landing, an astronaut and his passenger must outlast the perils of prehistoric Earth to reach their only hope for escape.",
 	"genre": ["action", "science-fiction"],
     "link": "https://www.netflix.com/title/81520516",
@@ -264,14 +264,45 @@ const moviesArray = [
     }],
     "actors": [{
       "name": "Adam Driver",
-      "image": "",
-      "imdb": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfHXwIoFRZIuw12sbWKGf6w0IEQ5wdnZzopg&usqp=CAU",
+      "imdb": "https://www.imdb.com/name/nm3485845/",
     }, {
       "name": "Ariana Greenblat",
-      "image": "",
-      "imdb": ""
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3i8tkG8XLq0SiMUdxFhhY_2pawyyovZN4nw&usqp=CAU",
+      "imdb": "https://www.imdb.com/name/nm7567556/"
     }]
     },
+
+    {    
+      "item": "16",
+      "title": "The Meg",
+      "runtime": "",
+      "mpaa": "PG-13",
+      "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABaJLrF0O0oiu3lM1oAc5km8es_xCGHoczjV1GnQ6oHY9_JWnmup3y3nqKOid1BndRWAkxPMOse97q-2imuOs7S0TPmtmxJeRlcg.jpg?r=c5e",
+      "description": "",
+	"genre": [""],
+    "link": "",
+    "director": [{
+    "name": "",
+    "image": "",
+    "imdb": "",
+    }],
+    "actors": [{
+      "name": "Jason Statham",
+      "image": "https://ew.com/thmb/bbpeT-u7BO2qVG43YbrTdg9arNo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/meg-fp-0002-2000-7ed63879f64c475b821774b972f82ae5.jpg",
+      "imdb": "https://www.imdb.com/name/nm0005458/?ref_=nv_sr_srsg_0_tt_3_nm_5_q_jason%2520stath"
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": ""
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": "",
+    }]
+    },
+
+
 
 
 
