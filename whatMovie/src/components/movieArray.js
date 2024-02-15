@@ -198,6 +198,57 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "13",
+      "title": "Extraction 2",
+      "runtime": "22",
+      "mpaa": "R",
+      "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABSWevXq-2HZjLz10nifg7t5eH4RqaVlnnDaCELyXFmw0oLvntZBXngdglBl5Iz7iuz43_W6lI0_96zmgIHIUMLMK8oUq5zfO9vyUFmFiXMVjKeSV17SbCayGl0M06QAsU0Wx.jpg?r=a98",
+      "description": "Back from the brink of death, highly skilled commando Tyler Rake takes on another dangerous mission: saving the imprisoned family of a ruthless gangster.",
+	"genre": ["action", "violent"],
+    "link": "https://www.netflix.com/title/81098494",
+    "director": [{
+    "name": "Sam Hargrave",
+    "image": "https://www.netflix.com/tudum/videos/extraction-2-fight-sequence-break-down",
+    "imdb": "https://www.imdb.com/name/nm1092087/",
+    }],
+    "actors": [{
+      "name": "Chris Hemsworth",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRo-ENpCC-i10TwG6emtus3b4Ug8N9_GHUuw&usqp=CAU",
+      "imdb": "https://www.imdb.com/name/nm1165110/",
+    }, {
+      "name": "Golshifteh Farahani",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYir-y2FpjwtZUO6ROiW4lexfmUedv_-_Tbg&usqp=CAU",
+      "imdb": "https://www.imdb.com/name/nm0267042/"
+    }]
+    },
+
+    {    
+      "item": "14",
+      "title": "Extraction",
+      "runtime": "118",
+      "mpaa": "R",
+      "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABeAGTIHwDqrikWfk98_xqZhnPzJoiufhjavBREs2mXPqX950ulbC7n9-_KOU_8PFJVT7Eb4wQdLeR6WnB6s3pO6BzrngTPrA9VRsSlIT0q2_Q6ouFyxn-AwEGdInqb2_jt26Gw.jpg?r=362",
+      "description": "A hardened gun-for-hire's latest mission becomes a soul-searching race to survive when he's sent into Bangladesh to rescue a drug lord's kidnapped son.",
+	"genre": ["action", "gritty"],
+    "link": "https://www.netflix.com/title/80230399",
+    "director": [{
+      "name": "Sam Hargrave",
+      "image": "https://www.netflix.com/tudum/videos/extraction-2-fight-sequence-break-down",
+      "imdb": "https://www.imdb.com/name/nm1092087/",
+      }],
+      "actors": [{
+        "name": "Chris Hemsworth",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRo-ENpCC-i10TwG6emtus3b4Ug8N9_GHUuw&usqp=CAU",
+        "imdb": "https://www.imdb.com/name/nm1165110/",
+      }, {
+      "name": "Rudhraksh Jaiswal,",
+      "image": "",
+      "imdb": ""
+    }]
+    },
+
+
 
   ],
 ]
