@@ -359,33 +359,64 @@ const moviesArray = [
     },
 
     {    
-      "item": "",
-      "title": "",
-      "runtime": "",
-      "mpaa": "",
-      "poster": "",
-      "description": "",
-	"genre": [""],
-    "link": "",
+      "item": "19",
+      "title": "Sausage Party",
+      "runtime": "88",
+      "mpaa": "R",
+      "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABb_IuA-aEPrODgc-QO_s0MWtGCX4voxQelPoMZDghD3UUDnhfbzjIor6FX4vb_h5cbU43qy22QCcHAZHegyE3Fk6p_nChCpUKzA.jpg?r=09d",
+      "description": "After making a gruesome discovery about life beyond the supermarket, an affable sausage strives to save his fellow foods in this raunchy comedy.",
+	"genre": ["comedy", "animated"],
+    "link": "https://www.netflix.com/title/80098100",
     "director": [{
-    "name": "",
-    "image": "",
-    "imdb": "",
+    "name": "Conrad Vernon",
+    "image": "https://www.thewrap.com/wp-content/uploads/2016/09/conradvernon.jpg",
+    "imdb": "https://www.imdb.com/name/nm0970447/",
     }],
     "actors": [{
-      "name": "",
-      "image": "",
-      "imdb": "",
+      "name": "Seth Rogen",
+      "image": "https://media.gq.com/photos/5cd9879fb41d09d10bcd7657/16:9/w_2560%2Cc_limit/seth-rogen-gq-cover-june-july-2019-11.jpg",
+      "imdb": "https://www.imdb.com/name/nm0736622/?ref_=nv_sr_srsg_0_tt_6_nm_2_q_seth%2520rogen",
     }, {
-      "name": "",
-      "image": "",
-      "imdb": ""
+      "name": "Kristen Wiig",
+      "image": "https://people.com/thmb/0dDxscDgChqOghle1f4GF2tzVKY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(937x499:939x501)/kristen-wiig-1-a6ece2c7e8d943b6b5c93be0a25878f1.jpg",
+      "imdb": "https://www.imdb.com/name/nm1325419/?ref_=nv_sr_srsg_0_tt_2_nm_6_q_kristen%2520wi"
     }, {
-      "name": "",
-      "image": "",
-      "imdb": "",
+      "name": "Nick Kroll",
+      "image": "https://www.nickiswift.com/img/gallery/who-is-nick-krolls-wife-lily-kwong/intro-1671142154.jpg",
+      "imdb": "https://www.imdb.com/name/nm1802209/?ref_=fn_al_nm_1",
     }]
     },
+
+    {    
+      "item": "20",
+      "title": "Fury",
+      "runtime": "135",
+      "mpaa": "R",
+      "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABRlU6_tZczRFnkjYyv78xlumQl17IlP2b2lNjDtA9KqsrfMv0lBTFpUyrTjjOINLPxcL36ZtWAEd2-4INO5A4w6jPaRWVYke5Ok.jpg?r=a18",
+      "description": "In the chaotically violent final days of World War II, an American tank commander and his crew venture behind enemy lines on a life-or-death mission.",
+	"genre": ["action", "war"],
+    "link": "https://www.netflix.com/title/70305907",
+    "director": [{
+    "name": "David Ayer",
+    "image": "https://deadline.com/wp-content/uploads/2023/08/david-ayer-the-suicide-squad.jpg",
+    "imdb": "https://www.imdb.com/name/nm0043742/?ref_=fn_al_nm_1",
+    }],
+    "actors": [{
+      "name": "Brad Pitt",
+      "image": "https://m.media-amazon.com/images/M/MV5BMWRkMDE5MjUtN2MyYi00MzAyLWIwOWMtNWU0NzNkZDczOWUyXkEyXkFqcGdeQUlNRGJWaWRlb1RodW1ibmFpbFNlcnZpY2U@._V1_QL75_UX500_CR0,0,500,281_.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000093/",
+    }, {
+      "name": "Shia Lebouf",
+      "image": "https://media.gq.com/photos/5f4952b38dc8847e289114e8/4:3/w_1024%2Cc_limit/GQ-Shia-Grooming-082820.jpeg",
+      "imdb": "https://www.imdb.com/name/nm0479471/?ref_=nv_sr_srsg_0_tt_2_nm_6_q_shia%2520leb"
+    }, {
+      "name": "Jon Bernthal",
+      "image": "https://www.hollywoodreporter.com/wp-content/uploads/2016/10/gettyimages-529083674-h_2016.jpg?w=1296",
+      "imdb": "https://www.imdb.com/name/nm1256532/",
+    }]
+    },
+
+
 
 
 
