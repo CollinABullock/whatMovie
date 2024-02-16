@@ -445,6 +445,33 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "22",
+      "title": "Jurassic Park",
+      "runtime": "126",
+      "mpaa": "PG-13",
+      "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABcVUa1bV4GFKwUFBxthBZjyMOJPkkg9RB9_uNOJBN7kG7zZX2JQ2kJrRr38EzvtP61bz-kxIbxbIjNBJPVdlENeMJkc2tKBAidw.jpg?r=9a8",
+      "description": "Science, sabotage and prehistoric DNA collide when cloned dinosaurs escape their enclosures at a top-secret theme park and begin preying on the guests.",
+	"genre": ["action", "science-fiction"],
+    "link": "https://www.netflix.com/title/60002360",
+    "director": [{"name": "Steven Spielberg", "image": "https://www.giantfreakinrobot.com/wp-content/uploads/2021/05/steven-spielberg.jpg", "imdb": "https://www.imdb.com/name/nm0000229/"}],
+    "actors": [{
+      "name": "Sam Neill",
+      "image": "https://www.hollywoodreporter.com/wp-content/uploads/2023/10/Sam-Neill-Sitges-Film-Festival-NEW-GettyImages-1180442124-H-2023.jpg?w=1296",
+      "imdb": "https://www.imdb.com/name/nm0000554/?ref_=nv_sr_srsg_0_tt_4_nm_4_q_sam%2520neill",
+    }, {
+      "name": "Laura Dern",
+      "image": "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-181307-129738520.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000368/?ref_=nv_sr_srsg_0_tt_3_nm_5_q_laura%2520dern"
+    }, {
+      "name": "Jeff Goldblum",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/goldblum-1652377492.jpeg",
+      "imdb": "https://www.imdb.com/find/?q=jeff%20goldblum&ref_=nv_sr_smg",
+    }]
+    },
+
+
+
 
 
 
