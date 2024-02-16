@@ -66,7 +66,9 @@ const moviesArray = [
       "imdb": "https://www.imdb.com/name/nm0005023/",
     }]},
 
-  {"item": "8", "title": "Lucy", "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABTQyKvI3VeRem-3y8Gal7XK3zG-ZkMGkQ9Nt1kON_zJsY2keO4vEeqaEr00zZFERCUYpa1iDKMfa2rkDJ4ixsPq3s2wz-8KHJHc.jpg?r=dbf", "runtime": "89", "mpaa": "R", "genre": ["action", "science-fiction", "violent", "exciting"], "link": "https://www.netflix.com/title/70307658", "director": [{
+  {"item": "8", "title": "Lucy", "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABTQyKvI3VeRem-3y8Gal7XK3zG-ZkMGkQ9Nt1kON_zJsY2keO4vEeqaEr00zZFERCUYpa1iDKMfa2rkDJ4ixsPq3s2wz-8KHJHc.jpg?r=dbf", "runtime": "89", "mpaa": "R", "genre": ["action", "science-fiction", "violent", "exciting"], "link": "https://www.netflix.com/title/70307658", 
+  "description": "A woman, accidentally caught in a dark deal, turns the tables on her captors and transforms into a merciless warrior evolved beyond human logic",
+  "director": [{
     "name": "Luc Besson",
     "image": "https://deadline.com/wp-content/uploads/2023/12/Luc-Besson.jpg",
     "imdb": "https://www.imdb.com/name/nm0000108/",
@@ -558,6 +560,36 @@ const moviesArray = [
       "imdb": "https://www.imdb.com/name/nm0609114/?ref_=tt_cl_t_7",
     }]
     },
+
+    {    
+      "item": "26",
+      "title": "Minions",
+      "runtime": "90",
+      "mpaa": "G",
+      "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABdaEMvIGiJT0glP97Iu-2yTFYZIIAyqcOaO0ooytpnMQFZtXdzBgaNwNdSc-5pqoRdyZP09ArxkCPVcNiKHB6B0-m87Lt3j3iVeCVMRMhWVseL8Y5wy4uNIyvAQr32D83PtnAIrkDsgYX9927jhbEoQh8XItxNUeNiI.jpg?r=7d5",
+      "description": "",
+	"genre": ["kids", "animated", "comedy"],
+    "link": "https://www.netflix.com/title/80033394",
+    "director": [{
+    "name": "Pierre Coffin",
+    "image": "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/6/22/1434983738701/Pierre-Coffin-with-Minion-009.jpg?width=700&quality=85&auto=format&fit=max&s=ba4289a18ecab7396e4e912106ec8fb5",
+    "imdb": "https://www.imdb.com/name/nm1853544/?ref_=tt_ov_dr",
+    }],
+    "actors": [{
+      "name": "Sandra Bullock",
+      "image": "https://media.vanityfair.com/photos/623353678ca53d3267e25b7c/16:9/w_3599,h_2024,c_limit/1384684341",
+      "imdb": "https://www.imdb.com/name/nm0000113/?ref_=tt_cl_t_1",
+    }, {
+      "name": "Jon Hamm",
+      "image": "https://dbuff82.files.wordpress.com/2019/03/jon-hamm-1494357063.jpg?w=1024&h=666&crop=1",
+      "imdb": "https://www.imdb.com/name/nm0358316/?ref_=tt_cl_t_2"
+    }, {
+      "name": "Michael Keaton", "image": "https://media.vanityfair.com/photos/62e92ee5e157986bb4f403e4/master/w_2560%2Cc_limit/1402978977", "imdb": "https://www.imdb.com/name/nm0000474/"
+    }]
+    },
+
+
+
 
 
 

@@ -8,6 +8,14 @@
   color: #E4C3AD;
 }
 
+navbar {
+  margin-bottom: 20px;
+}
+
+card {
+  margin-top: 20px;
+}
+
 body, html {
   margin: 0;
   padding: 0;

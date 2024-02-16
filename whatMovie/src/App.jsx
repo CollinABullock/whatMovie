@@ -1,4 +1,4 @@
-import { netflixArray } from './components/movieArray'
+import { netflixArray } from './components/movieArray';
 import './App.css'
 import { useState } from 'react'
 import NavBar from './components/navbar';
@@ -19,7 +19,7 @@ const handleRandomMovie = () => {
     {randomMovie ? (
    <Card style={{ width: "40%", marginTop: "20px", margin: "0 auto"}}>
    <Card.Body>
-   <Card.Img variant="top" src={randomMovie.poster} style={{width: "100%", objectFit: "cover"}} />
+   <Card.Img src={randomMovie.poster} style={{width: "100%", }} />
      <Card.Title>{randomMovie.title}</Card.Title>
      {randomMovie.director && randomMovie.director.length > 0 ? (
       <Card.Subtitle className="mb-2 text-muted">
