@@ -751,6 +751,37 @@ const moviesArray = [
     },]
     },
 
+    {    
+      "item": "31",
+      "title": "A Bad Mom's Christmas",
+      "runtime": "104",
+      "mpaa": "R",
+      "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABXObR5eQlG4zRlefdTfrJJfYSNhYS-Zi670Dybl1UVN0EiMpvWaV5vtdeWQqOQu6tFsq8g_a5XnRZMgWzYPB6Bcjh-S3esIOhKU.jpg?r=612",
+      "description": "Stressed-out moms Amy, Carla and Kiki are back, and the looming Christmas holiday gets even more daunting when their mothers show up for a visit.",
+	"genre": ["comedy", "christmas", ],
+    "link": "https://www.netflix.com/title/80177872",
+    "director": [{
+    "name": "Jon Lucas and Scott Moore",
+    "image": "https://i.ytimg.com/vi/w5lk9erkHXg/hqdefault.jpg",
+    "imdb": "https://www.imdb.com/name/nm0524190/?ref_=tt_ov_dr",
+    }],
+    "actors": [{
+      "name": "Mila Kunis",
+      "image": "https://cdn.i-scmp.com/sites/default/files/d8/images/canvas/2022/03/16/d9293f6f-1f67-4f05-a8a6-768eb2c5b153_5b9b4d1a.jpg",
+      "imdb": "https://www.imdb.com/name/nm0005109/?ref_=tt_ov_st",
+    }, {
+      "name": "Kirsten Bell",
+      "image": "https://www.hollywoodreporter.com/wp-content/uploads/2023/03/Kristen_Bell-Photo-by-Ricky-Middlesworth-H-2023.jpg?w=1296",
+      "imdb": "https://www.imdb.com/name/nm0068338/?ref_=tt_ov_st"
+    }, {
+      "name": "Kathyrn Hahn",
+      "image": "https://www.hollywoodreporter.com/wp-content/uploads/2023/08/GettyImages-1433881004-H-2023.jpg",
+      "imdb": "https://www.imdb.com/name/nm1063517/?ref_=tt_ov_st",
+    }]
+    },
+
+
+
 
 
 
