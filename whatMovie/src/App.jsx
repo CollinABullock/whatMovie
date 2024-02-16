@@ -21,7 +21,15 @@ const handleRandomMovie = () => {
    <Card style={{ width: '18rem' }}>
    <Card.Body>
      <Card.Title>{randomMovie.title}</Card.Title>
-     <Card.Subtitle className="mb-2 text-muted">Directed by {randomMovie.director[0].name}</Card.Subtitle>
+     {randomMovie.director && randomMovie.director.length > 0 ? (
+      <Card.Subtitle className="mb-2 text-muted">
+        Directed by {randomMovie.director[0].name}
+      </Card.Subtitle>
+    ) : (
+      <Card.Subtitle className="mb-2 text-muted">
+        Director information not available
+      </Card.Subtitle>
+    )}
      <Card.Text>
        {randomMovie.description}
      </Card.Text>
@@ -30,20 +38,6 @@ const handleRandomMovie = () => {
    </Card.Body>
  </Card>
       
-    ) : (
-      <div>
-        <img src={randomMovie.director.image} alt="This person directed the movie" />
-        <p><a href={randomMovie.director.imdb}>{randomMovie.director.name}</a></p>
-      </div>
-    )}
-
-  <h2>The Cast:</h2>
-  {randomMovie.actors.map((actor, actorIndex) => (
-    <>
-    <img src={actor.image} alt="This is an actor!"/>
-    <p key={actorIndex}><a href={actor.imdb}>{actor.name}</a></p>
-    </>
-  ))}
 
     ) : (  <button onClick={handleRandomMovie}>Pick a random movie</button>)}
     </>
