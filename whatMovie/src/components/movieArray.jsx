@@ -695,7 +695,7 @@ const moviesArray = [
       "name": "Joan Cusack",
       "image": "https://www.tvguide.com/a/img/resize/dc8c2916c9153995813524b211dadcad3ca61711/catalog/provider/10/9/10-1BB60CDB-6198-4C75-AE88-FBBEDCB19C13.png?auto=webp&fit=crop&height=675&width=1200",
       "imdb": "https://www.imdb.com/name/nm0000349/?ref_=tt_ov_st"
-    },]
+    },]},
 
     {    
       "item": "29",

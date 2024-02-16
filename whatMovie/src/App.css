@@ -6,6 +6,13 @@
   text-align: center;
   background-color: #0D1F2D;
   color: #E4C3AD;
+  font-family: Poster;
+}
+
+@font-face {
+  font-family: "Poster";   
+  src: local("PostersItalicPersonalUseBoldItalic-ALqx6"),
+    url("./PostersItalicPersonalUseBoldItalic-ALqx6.ttf") format("truetype");
 }
 
 navbar {
