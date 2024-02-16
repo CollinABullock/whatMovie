@@ -697,7 +697,36 @@ const moviesArray = [
       "imdb": "https://www.imdb.com/name/nm0000349/?ref_=tt_ov_st"
     },]
 
+    {    
+      "item": "29",
+      "title": "Mamma Mia!",
+      "runtime": "108",
+      "mpaa": "PG-13",
+      "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABSjhYa8x89TuapdPqtzCahGtxfrgNEWX_IChbnSn8GC9DEO7swlzSPc_OH7jl_6HR_HzEh4YmJlftU8chBH-49lNkiy383jLTo0.jpg?r=58e",
+      "description": "A young woman invites three of her free-spirited mom's former flings to her Greek island wedding, hoping to discover which one of them is her father.",
+	"genre": ["comedy", "romance", "musical"],
+    "link": "https://www.netflix.com/title/70097579",
+    "director": [{
+    "name": "Phyllida Lloyd",
+    "image": "https://i.guim.co.uk/img/static/sys-images/Film/Pix/pictures/2012/1/4/1325688238811/Phyllida-Lloyd-007.jpg?width=620&quality=85&auto=format&fit=max&s=e708a04bc9b2a9c6bbad8167b39b4aef",
+    "imdb": "",
+    }],
+    "actors": [{
+      "name": "Meryl Streep",
+      "image": "https://ew.com/thmb/OnGb568VYP6eVGvjYBDiZQTSQC4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Meryl-Streep-mamma-Mia-493688affb3e4be0a73d734baaec58e9.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000658/?ref_=tt_ov_st",
+    }, {
+      "name": "Amanda Seyfried",
+      "image": "https://www.hollywoodreporter.com/wp-content/uploads/2022/02/Amanda_Seyfried_David_Needleman_THR_A_369-Splash-2022.jpg?w=1024",
+      "imdb": "https://www.imdb.com/name/nm1086543/?ref_=tt_ov_st"
+    }, {
+      "name": "Pierce Brosnan",
+      "image": "https://parade.com/.image/t_share/MjAyOTA4NzM0NDcxNTQ1OTI0/the-2023-met-gala-celebrating-karl-lagerfeld-a-line-of-beauty---arrivals.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000112/bio/"
+    }]
     },
+
+
 
   ],
 ]
