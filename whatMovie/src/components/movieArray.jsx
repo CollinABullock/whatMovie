@@ -726,6 +726,33 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "30",
+      "title": "Twins",
+      "runtime": "106",
+      "mpaa": "G",
+      "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABVY_QnTCZXvDBeJSgy1q4zupeUOERLRjbvCuP8i2VXhJ1zEgEps9czOwJVvxu2dUdP12Iuq0DPU2Cd8Hib592ny3PqORMJaMYY0.jpg?r=40d",
+      "description": "Separated at birth after a genetic experiment gone awry, long-lost twin brothers reunite in this comedy starring Arnold Schwarzenegger and Danny DeVito",
+	"genre": ["comedy", "action"],
+    "link": "https://www.netflix.com/title/1072091",
+    "director": [{
+    "name": "Ivan Reitman",
+    "image": "https://www.syfy.com/sites/syfy/files/2022/02/gettyimages-1353504563_0.jpg",
+    "imdb": "https://www.imdb.com/name/nm0718645/?ref_=tt_ov_dr",
+    }],
+    "actors": [{
+      "name": "Arnold Schwarzenegger",
+      "image": "https://cdn.sanity.io/images/dm4o0ui7/production/ab8622774dfd8bc6b2107656cc1d648ff48279b3-1200x600.png",
+      "imdb": "https://www.imdb.com/name/nm0000216/?ref_=tt_ov_st",
+    }, {
+      "name": "Danny DeVito",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/60fa1c9e5ef6dd2f9a8f0946/Danny-DeVito-at--Dumbo--European-Premiere---Red-Carpet-Arrivals/960x0.jpg?format=jpg&width=960",
+      "imdb": "https://www.imdb.com/name/nm0000362/?ref_=tt_ov_st"
+    },]
+    },
+
+
+
 
 
   ],
