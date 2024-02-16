@@ -470,6 +470,37 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "23",
+      "title": "Cold Pursuit",
+      "runtime": "118",
+      "mpaa": "R",
+      "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABdgN-I0_Dq-TAOKVQCqEkUfR-wYiA9eESTKjljr5-mVjzxIZYtT9aGhgc_5dP0BXxttxPYSS2JYswpVU3SDDW0IgDcLVBj87bKE.jpg?r=de8",
+      "description": "When his son's mysterious death shakes up his quiet life, a snowplow driver targets a local drug cartel and sets out on a vengeful killing spree.",
+	"genre": ["Action", "Comedy" ],
+    "link": "https://www.netflix.com/title/81079733",
+    "director": [{
+    "name": "Hans Petter Moland",
+    "image": "https://i.ytimg.com/vi/V6BYC0aLtBg/sddefault.jpg",
+    "imdb": "https://www.imdb.com/name/nm0596407/",
+    }],
+    "actors": [{
+      "name": "Liam Neeson",
+      "image": "https://cdn01.justjared.com/wp-content/uploads/headlines/2008/05/liam-neeson-pees-in-his-pants.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000553/?ref_=fn_al_nm_1",
+    }, {
+      "name": "Tom Bateman",
+      "image": "https://www.hollywoodreporter.com/wp-content/uploads/2016/08/tom_bateman_-_the_entertainer_-_getty_-_h_2016.jpg",
+      "imdb": "https://www.imdb.com/name/nm5290643/?ref_=nv_sr_srsg_0_tt_0_nm_8_q_tom%2520bateman"
+    }, {
+      "name": "Emmy Rossum",
+      "image": "https://media.glamour.com/photos/5942abfb1bd81a664b29ce89/master/w_2560%2Cc_limit/GettyImages-513562652.jpg",
+      "imdb": "https://www.imdb.com/name/nm0002536/?ref_=nv_sr_srsg_0_tt_7_nm_1_q_emmy%2520rossum",
+    }]
+    },
+
+
+
 
 
 
