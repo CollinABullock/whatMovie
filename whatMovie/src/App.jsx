@@ -15,12 +15,11 @@ const handleRandomMovie = () => {
   return (
     <>
     <NavBar />
-    <h1>What movie should you watch tonight?</h1>
     
     {randomMovie ? (
-   <Card style={{ width: '18rem' }}>
+   <Card style={{ width: "40%", marginTop: "20px", margin: "0 auto"}}>
    <Card.Body>
-   <Card.Img variant="top" src={randomMovie.poster} style={{width: "100%"}} />
+   <Card.Img variant="top" src={randomMovie.poster} style={{width: "100%", objectFit: "cover"}} />
      <Card.Title>{randomMovie.title}</Card.Title>
      {randomMovie.director && randomMovie.director.length > 0 ? (
       <Card.Subtitle className="mb-2 text-muted">
@@ -40,7 +39,12 @@ const handleRandomMovie = () => {
  </Card>
       
 
-    ) : (  <button onClick={handleRandomMovie}>Pick a random movie</button>)}
+    ) : (  
+    <>
+      <h1>What movie should you watch tonight?</h1>
+    <button onClick={handleRandomMovie}>Pick a random movie</button>
+    </>
+    )}
     </>
   )
 }
