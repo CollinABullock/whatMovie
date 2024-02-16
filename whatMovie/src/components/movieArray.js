@@ -416,6 +416,37 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "21",
+      "title": "The Other Guys",
+      "runtime": "107",
+      "mpaa": "PG-13",
+      "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABYvlnLajzMSrdXBLsKXytXZhJJmhuxUISbr002ccLS5FfrqY5wnMbSHGTfeq-CTkuLTXIt9neN4hkvsFfeq-qDvx0Swnsf5mIKM.jpg?r=68f",
+      "description": "Desperate to be the top cops on the force, two misfit detectives break free from their desk jobs and stumble onto the biggest case of their careers.",
+	"genre": ["action", "comedy"],
+    "link": "https://www.netflix.com/title/70127228",
+    "director": [{
+    "name": "Adam McKay",
+    "image": "https://media.gq.com/photos/61ae8c6b5f5bc36144ea4ec9/16:9/w_2560%2Cc_limit/AMCKAY-22_R.jpg",
+    "imdb": "https://www.imdb.com/name/nm0570912/",
+    }],
+    "actors": [{
+      "name": "Will Ferrell",
+      "image": "https://ca-times.brightspotcdn.com/dims4/default/076a75b/2147483647/strip/false/crop/3500x1969+0+176/resize/1200x675!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F35%2F0c%2F568646e5482e8f5ce52d1d84b1cd%2Fny-premiere-of-apple-tvs-the-shrink-next-door-90227.jpg",
+      "imdb": "https://www.imdb.com/name/nm0002071/?ref_=nv_sr_srsg_0_tt_6_nm_2_q_will%2520ferrell",
+    }, {
+      "name": "Mark Whalberg",
+      "image": "https://cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/6cfa3810-fdb0-4f9e-a7e1-72dca5b4e25b/73639a9e-2747-4d85-9626-edd01a17a1aa/1280x720/match/image.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000242/"
+    }, {
+      "name": "Eva Mendes",
+      "image": "https://images.hola.com/us/images/0284-18a261c0ed85-736b2cc201e9-1000/horizontal-480/screenshot-2023-08-01-at-2-55-15-pm.png",
+      "imdb": "https://www.imdb.com/name/nm0578949/",
+    }]
+    },
+
+
+
 
 
 
