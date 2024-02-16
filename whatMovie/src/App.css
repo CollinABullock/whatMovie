@@ -1,8 +1,21 @@
 #root {
-  max-width: 100vw;
+  width: 100%;
+  height: 100%;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: #bc6c25;
+  color: #fefae0;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+a {
+  color: black;
 }
 
 img {
