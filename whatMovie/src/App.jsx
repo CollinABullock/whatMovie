@@ -15,7 +15,7 @@ const handleRandomMovie = () => {
   return (
     <>
     <NavBar />
-    
+    <div style={{marginTop: "20px"}}>
     {randomMovie ? (
    <Card style={{ width: "40%", marginTop: "20px", margin: "0 auto"}}>
    <Card.Body>
@@ -36,6 +36,7 @@ const handleRandomMovie = () => {
     <button onClick={handleRandomMovie}>Pick a random movie</button>
     </>
     )}
+    </div>
     </>
   )
 }

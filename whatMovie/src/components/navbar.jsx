@@ -25,9 +25,6 @@ return (
           <a class="dropdown-item" href="http://www.collinbullock.com">Who built this?</a>
         </div>
       </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
-      </li>
     </ul>
   </div>
 </nav>

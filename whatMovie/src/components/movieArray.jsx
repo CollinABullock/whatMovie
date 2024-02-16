@@ -567,7 +567,7 @@ const moviesArray = [
       "runtime": "90",
       "mpaa": "G",
       "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABdaEMvIGiJT0glP97Iu-2yTFYZIIAyqcOaO0ooytpnMQFZtXdzBgaNwNdSc-5pqoRdyZP09ArxkCPVcNiKHB6B0-m87Lt3j3iVeCVMRMhWVseL8Y5wy4uNIyvAQr32D83PtnAIrkDsgYX9927jhbEoQh8XItxNUeNiI.jpg?r=7d5",
-      "description": "",
+      "description": "Travel back in time with Kevin, Stuart and Bob in this prequel that follows the Minions as they try to win the favor of supervillain Scarlet Overkill.",
 	"genre": ["kids", "animated", "comedy"],
     "link": "https://www.netflix.com/title/80033394",
     "director": [{
