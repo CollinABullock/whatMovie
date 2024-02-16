@@ -528,6 +528,37 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "25",
+      "title": "No Hard Feelings",
+      "runtime": "103",
+      "mpaa": "R",
+      "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABdjIRcE2B9G7So_x32wF49c8psg9bFatBlH9ZSE1LX40CSzFeUhdS-UbI1KtE7ZQ1hTDTpXfZlB4Nb04sEwnWvC579S3eSA9Kmw.jpg?r=41e",
+      "description": "A bartender who's down on her luck takes on an unusual challenge when a wealthy couple hires her to romance their socially awkward son.",
+	"genre": ["comedy", "romance", "raunchy"],
+    "link": "https://www.netflix.com/title/81659034",
+    "director": [{
+    "name": "Gene Stupnitsky",
+    "image": "https://media.gettyimages.com/id/1258717464/photo/berlin-germany-gene-stupnitsky-attends-the-berlin-premiere-of-no-hard-feelings-at-zoo-palast.jpg?s=612x612&w=gi&k=20&c=b2JpuisaDHmHfPJoMtnjXgf7RsNkDSTlI26Sea-DBME=",
+    "imdb": "https://www.imdb.com/name/nm1969144/?ref_=tt_ov_dr",
+    }],
+    "actors": [{
+      "name": "Jennifer Lawrence",
+      "image": "https://media.vanityfair.com/photos/618c0614fdf674f0522a9fb7/master/w_2560%2Cc_limit/LBY_210805_JENNIFER_LAWRENCE_VF_09G_Shot_10_028_QC_sRGB_LR.jpg",
+      "imdb": "https://www.imdb.com/name/nm2225369/?ref_=tt_ov_st",
+    }, {
+      "name": "Andrew Barth Feldman",
+      "image": "https://imaging.broadway.com/images/regular-43/w735/106373-17.jpg",
+      "imdb": "https://www.imdb.com/name/nm10574081/?ref_=tt_cl_t_2"
+    }, {
+      "name": "Ebon Moss-Bachrach",
+      "image": "https://m.media-amazon.com/images/M/MV5BODJiNzIyMDktZDc5MC00ZDVmLTg1NWUtNzgyNzNhNGY3ZTJjXkEyXkFqcGdeQXVyMTI2Nzk3NzI4._V1_FMjpg_UX1000_.jpg",
+      "imdb": "https://www.imdb.com/name/nm0609114/?ref_=tt_cl_t_7",
+    }]
+    },
+
+
+
 
 
 
