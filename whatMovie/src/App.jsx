@@ -21,16 +21,7 @@ const handleRandomMovie = () => {
    <Card.Body>
    <Card.Img src={randomMovie.poster} style={{width: "100%", }} />
      <Card.Title>{randomMovie.title}</Card.Title>
-     {randomMovie.director && randomMovie.director.length > 0 ? (
-      <Card.Subtitle className="mb-2 text-muted">
-        Directed by {randomMovie.director[0].name}
-      </Card.Subtitle>
-    ) : (
-      <Card.Subtitle className="mb-2 text-muted">
-        Director information not available
-      </Card.Subtitle>
-    )}
-     <Card.Text>
+     <Card.Text style={{textAlign: "start"}}>
        {randomMovie.description}
      </Card.Text>
      <Card.Link href="#">More Details</Card.Link>

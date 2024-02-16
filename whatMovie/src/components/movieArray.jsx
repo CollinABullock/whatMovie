@@ -588,6 +588,37 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "27",
+      "title": "Neighbors",
+      "runtime": "96",
+      "mpaa": "R",
+      "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABSPjZEJvQaaCgpI-ucUDFhZJXKCdbF3h1q4R0d9JVNcq5CmtlliVjAgvslRP9kWoOFhhUBNx5Xd3q7q3jbgpO0XzcYT-2RP-Bes.jpg?r=0bb",
+      "description": "New parents Kelly and Mac find they aren't quite ready to embrace adulthood when they land in a messy war with the hard-partying fraternity next door.",
+	"genre": ["comedy", "raunchy"],
+    "link": "https://www.netflix.com/title/70297085",
+    "director": [{
+    "name": "Nicholas Stoller",
+    "image": "https://wegotthiscovered.com/wp-content/uploads/2022/10/nicholas-stoller-Getty-Images-scaled.jpg",
+    "imdb": "https://www.imdb.com/name/nm0831557/?ref_=tt_ov_dr",
+    }],
+    "actors": [{
+      "name": "Seth Rogen",
+      "image": "https://media.gq.com/photos/5cd9879fb41d09d10bcd7657/16:9/w_2560%2Cc_limit/seth-rogen-gq-cover-june-july-2019-11.jpg",
+      "imdb": "https://www.imdb.com/name/nm0736622/?ref_=nv_sr_srsg_0_tt_6_nm_2_q_seth%2520rogen",
+    }, {
+      "name": "Rose Byrne",
+      "image": "https://static.independent.co.uk/2022/07/08/14/shutterstock_editorial_12845769bn.jpg",
+      "imdb": "https://www.imdb.com/name/nm0126284/?ref_=tt_ov_st"
+    }, {
+      "name": "Zac Efron",
+      "image": "https://stylecaster.com/wp-content/uploads/2022/05/Zac-Efron-3.jpg?w=600&h=337&crop=1",
+      "imdb": "https://www.imdb.com/name/nm1374980/?ref_=tt_ov_st",
+    }]
+    },
+
+
+
 
 
 
