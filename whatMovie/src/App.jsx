@@ -19,7 +19,7 @@ const handleRandomMovie = () => {
     {randomMovie ? (
    <Card style={{ width: "40%", marginTop: "20px", margin: "0 auto"}}>
    <Card.Body>
-   <Card.Img src={randomMovie.poster} style={{width: "100%", }} />
+   <Card.Img src={randomMovie.poster} style={{width: "100%", height: "100%", objectFit: "cover"}} />
      <Card.Title>{randomMovie.title}</Card.Title>
      <Card.Text style={{textAlign: "start"}}>
        {randomMovie.description}

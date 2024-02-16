@@ -617,34 +617,85 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "27",
+      "title": "The Suicide Squad",
+      "runtime": "132",
+      "mpaa": "R",
+      "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABU63O7mS5nRBhNeTpNlMkF_P8fndo7eQ6r2tB4bZoGxOJ5ZjJcH4U6J5g_7KjdsO4oBdDW4YNJ8BmytpXppd8HSpqfvc4mYhog8.jpg?r=48a",
+      "description": "A dysfunctional squad of supervillains infiltrates a remote island on a mission to destroy a secret government experiment.",
+	"genre": ["action", "comedy", "comic-book"],
+    "link": "https://www.netflix.com/title/81414001",
+    "director": [{
+    "name": "James Gunn",
+    "image": "https://people.com/thmb/GmyaejWdCqeibxv5oDJRfJ4AUWA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(674x159:676x161)/James-Gunn-2-d8e531ba64ce42d0a812411302f4e4c0.jpg",
+    "imdb": "https://www.imdb.com/name/nm0348181/?ref_=tt_ov_dr",
+    }],
+    "actors": [{
+      "name": "Margot Robie",
+      "image": "https://media.npr.org/assets/img/2015/03/02/margotrobbie-eb727edf7b18cbe8b755d8372cf271d4f4d6e3a7-s1100-c50.jpg",
+      "imdb": "https://www.imdb.com/name/nm3053338/?ref_=tt_ov_st",
+    }, {
+      "name": "Idris Elba",
+      "image": "https://img.buzzfeed.com/buzzfeed-static/complex/images/c6pfzxavof3nf6emlmmb/idris-elba.jpg?output-format=jpg&output-quality=auto",
+      "imdb": "https://www.imdb.com/name/nm0252961/?ref_=tt_ov_st"
+    }, {
+      "name": "John Cena",
+      "image": "https://deadline.com/wp-content/uploads/2023/09/john-cena-wwe.jpg?w=1024",
+      "imdb": "https://www.imdb.com/name/nm1078479/?ref_=tt_ov_st",
+    }]
+    },
 
+    {    
+      "item": "28",
+      "title": "Blazing Saddles",
+      "runtime": "92",
+      "mpaa": "R",
+      "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABan-UMchxm7-rYwOOX6KbvoSD7kTEEHO6hjtg9wrt3TzUI617nim1C-hvxOUtZjo5lluu4U5wxaSWoLPZpqeTpw0sO1iKoER_rI.jpg?r=793",
+      "description": "A greedy villain's scheme to destroy a frontier town by appointing a Black sheriff goes off the rails in Mel Brooks' outrageous Western spoof.",
+	"genre": ["comedy", "western"],
+    "link": "https://www.netflix.com/title/70000380",
+    "director": [{
+    "name": "Mel Brooks",
+    "image": "https://cdn.aarp.net/content/dam/aarp/entertainment/celebrities/2022/01/1140-mel-brooks-2016.jpg",
+    "imdb": "https://www.imdb.com/name/nm0000316/?ref_=tt_ov_dr",
+    }],
+    "actors": [{
+      "name": "Gene Wilder",
+      "image": "https://cdn.britannica.com/44/193544-050-E82B9560/comic-actor-Gene-Wilder.jpg?w=400&h=300&c=crop",
+      "imdb": "https://www.imdb.com/name/nm0000698/?ref_=tt_ov_st",
+    }, {
+      "name": "Cleavon Little",
+      "image": "https://www.cowboysindians.com/wp-content/uploads/2017/01/cleavon-little-blazing-saddles.jpg",
+      "imdb": "https://www.imdb.com/name/nm0001476/?ref_=tt_ov_st"
+    }]
+    },
 
+    {    
+      "item": "29",
+      "title": "School Of Rock",
+      "runtime": "109",
+      "mpaa": "PG-13",
+      "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABQ_oVgCiaXkABSAjkDrwiddYBOinRQ3Q6XdRAOFOsiYWfDxR2zgjRGuEXkL6nDGCI_7uqq7i6pwQd1IVcrz0K95JV-V799m06ko.jpg?r=176",
+      "description": "Posing as a schoolteacher, a down-on-his-luck guitarist secretly turns his class into a rock band — and shows them the liberating power of rock 'n' roll.",
+	"genre": ["comedy", "kids"],
+    "link": "https://www.netflix.com/title/60031226",
+    "director": [{
+    "name": "Richard Linklater",
+    "image": "https://www.rollingstone.com/wp-content/uploads/2020/11/dazed-and-confused-book.jpg",
+    "imdb": "https://www.imdb.com/name/nm0000500/?ref_=tt_ov_dr",
+    }],
+    "actors": [{
+      "name": "Jack Black",
+      "image": "https://static.foxnews.com/foxnews.com/content/uploads/2019/12/Jack-Black.jpg",
+      "imdb": "https://www.imdb.com/name/nm0085312/?ref_=tt_ov_st",
+    }, {
+      "name": "Joan Cusack",
+      "image": "https://www.tvguide.com/a/img/resize/dc8c2916c9153995813524b211dadcad3ca61711/catalog/provider/10/9/10-1BB60CDB-6198-4C75-AE88-FBBEDCB19C13.png?auto=webp&fit=crop&height=675&width=1200",
+      "imdb": "https://www.imdb.com/name/nm0000349/?ref_=tt_ov_st"
+    },]
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    },
 
   ],
 ]
