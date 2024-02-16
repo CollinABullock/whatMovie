@@ -209,7 +209,7 @@ const moviesArray = [
     "link": "https://www.netflix.com/title/81098494",
     "director": [{
     "name": "Sam Hargrave",
-    "image": "https://www.netflix.com/tudum/videos/extraction-2-fight-sequence-break-down",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSyDPtFrjP54KJY9LJei65qfHDBYwrDCbGqw&usqp=CAU",
     "imdb": "https://www.imdb.com/name/nm1092087/",
     }],
     "actors": [{
@@ -234,7 +234,7 @@ const moviesArray = [
     "link": "https://www.netflix.com/title/80230399",
     "director": [{
       "name": "Sam Hargrave",
-      "image": "https://www.netflix.com/tudum/videos/extraction-2-fight-sequence-break-down",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSyDPtFrjP54KJY9LJei65qfHDBYwrDCbGqw&usqp=CAU",
       "imdb": "https://www.imdb.com/name/nm1092087/",
       }],
       "actors": [{
@@ -498,6 +498,37 @@ const moviesArray = [
       "imdb": "https://www.imdb.com/name/nm0002536/?ref_=nv_sr_srsg_0_tt_7_nm_1_q_emmy%2520rossum",
     }]
     },
+
+    {    
+      "item": "24",
+      "title": "Lone Survivor",
+      "runtime": "121",
+      "mpaa": "R",
+      "poster": "https://occ-0-7091-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABbbg3Bew3zDbLq95y7dFb-NpUpr74gVza_peZnPwTcCLfX9KKxjd-mIJiR3f42WJuMfN9vSwu_xyJc4oS3HZa1tMs1z77o5pHGw.jpg?r=0f6",
+      "description": "In the mountains of Afghanistan, a Navy SEAL fights for survival after his team's top-secret mission is compromised. Based on a true story.",
+	"genre": ["action", "war"],
+    "link": "https://www.netflix.com/title/70259795",
+    "director": [{
+    "name": "Peter Berg",
+    "image": "https://www.hollywoodreporter.com/wp-content/uploads/2015/01/peter_berg_0.jpg?w=3000",
+    "imdb": "https://www.imdb.com/name/nm0000916/?ref_=fn_al_nm_1",
+    }],
+    "actors": [{
+      "name": "Mark Whalberg",
+      "image": "https://cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/6cfa3810-fdb0-4f9e-a7e1-72dca5b4e25b/73639a9e-2747-4d85-9626-edd01a17a1aa/1280x720/match/image.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000242/"
+    }, {
+      "name": "Taylor Kitsch",
+      "image": "https://images.seattletimes.com/wp-content/uploads/2019/11/urn-publicid-ap-org-74873b2e3bff4bccb5e0a896438a8e2bTaylor_Kitsch_Portrait_Session_86121.jpg?d=2040x1360",
+      "imdb": "https://www.imdb.com/name/nm2018237/?ref_=nv_sr_srsg_0_tt_1_nm_7_q_taylor%2520kit"
+    }, {
+      "name": "Emile Hirsch",
+      "image": "https://ew.com/thmb/sN2bcgci0G_CIrMhXY39TMrSbrY=/800x524/filters:no_upscale():max_bytes(150000):strip_icc()/Emile-Hirsch-061623-d3d29995d627474d931af09646cb6ea6.jpg",
+      "imdb": "https://www.imdb.com/name/nm0386472/?ref_=nv_sr_srsg_0_tt_0_nm_8_q_emile%2520hirsch",
+    }]
+    },
+
+
 
 
 
