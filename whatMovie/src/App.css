@@ -6,7 +6,7 @@
   text-align: center;
   background-color: #0D1F2D;
   color: #E4C3AD;
-  font-family: Poster;
+  font-family: Signwood;
 }
 
 @font-face {
@@ -17,8 +17,20 @@
 
 @font-face {
   font-family: "Banner";   
-  src: local("PostersItalicPersonalUseBoldItalic-ALqx6"),
-    url("./fonts/posters-italic-font/PostersItalicPersonalUseBoldItalic-ALqx6.ttf") format("truetype");
+  src: local("Banner-DOqK0"),
+    url("./fonts/banner-font/Banner-DOqK0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Signwood";   
+  src: local("Signwood-2Om7l"),
+    url("./fonts/signwood-font/Signwood-2Om7l.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Nemo";   
+  src: local("LostFish-5DOz"),
+    url("./fonts/lost-fish-font/LostFish-5DOz.ttf") format("truetype");
 }
 
 navbar {
