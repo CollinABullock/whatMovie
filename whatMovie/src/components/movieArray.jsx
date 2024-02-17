@@ -888,6 +888,34 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "36",
+      "title": "My Best Friend's Wedding",
+      "runtime": "104",
+      "mpaa": "PG-13",
+      "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABROYI1dmbpPy_EtDF8v1p76OAzHmZmrVS4Tm0CbF64Iw8Iy523vZjc3oXzyW749k7vow1d7juEcLj2JKgebtNHHe64iCZwsDP8Tl.jpg?r=bdf",
+      "description": "Food critic Julianne does her sneaky best to sabotage her pal Michael's wedding to a wealthy college student after realizing she wants him for herself.",
+	"genre": ["comedy", "romance"],
+    "link": "https://www.netflix.com/title/1154359",
+    "director": [{
+    "name": "PJ Hogan",
+    "image": "https://thereelbits.com/wp-content/uploads/2012/09/pj-hogan001f.jpeg",
+    "imdb": "https://www.imdb.com/name/nm0389591/?ref_=tt_ov_dr",
+    }],
+    "actors": [{
+      "name": "Julia Roberts",
+      "image": "https://people.com/thmb/IhNIeEk1h5D2I6URYBtwRXb-S5s=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(703x165:705x167)/Julia-Roberts-on-the-tonight-show-tout-120623-7c30d086ccb44f09a9563abdb0427af6.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000210/?ref_=tt_ov_st",
+    }, {
+      "name": "cameron Diaz",
+      "image": "https://nationaltoday.com/wp-content/uploads/2022/10/42-Cameron-Diaz-1200x834.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000139/?ref_=tt_ov_st"
+    }, {
+      "name": "Rupert Everett",
+      "image": "https://www.washingtonblade.com/content/files/2020/10/Rupert_Everett_in_Another_Country_insert_courtesy_20th_Century_Fox.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000391/?ref_=tt_cl_t_4",
+    }]
+    },
 
 
 
