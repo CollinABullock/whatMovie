@@ -780,6 +780,34 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "32",
+      "title": "She's The Man",
+      "runtime": "105",
+      "mpaa": "PG-13",
+      "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABR_IrfJfJu97SMQ6rldthXMbrpjwFvs4wSPayxO0oKj5mhli_3uHSzOxB0oEV5JdEDixtDPIhVhGtkESRN46EDigX9DuV4wQVlE.jpg?r=309",
+      "description": "Teenager Viola tries to convince the students at her twin brother's school that she's actually him in this twist on Shakespeare's Twelfth Night.",
+	"genre": ["comedy", "romance", "sport"],
+    "link": "",
+    "director": [{
+    "name": "",
+    "image": "",
+    "imdb": "",
+    }],
+    "actors": [{
+      "name": "",
+      "image": "",
+      "imdb": "",
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": ""
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": "",
+    }]
+    },
 
 
 

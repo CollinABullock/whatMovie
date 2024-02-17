@@ -16,12 +16,16 @@ const handleRandomMovie = () => {
    <Card style={{ width: "40%", marginTop: "20px", margin: "0 auto"}}>
    <Card.Body>
    <Card.Img src={randomMovie.poster} style={{width: "100%", height: "100%", objectFit: "cover"}} />
-     <Card.Title>{randomMovie.title}</Card.Title>
-     <Card.Text style={{textAlign: "start"}}>
-       {randomMovie.description}
+     <Card.Title><h1>{randomMovie.title}</h1></Card.Title>
+     <Card.Text style={{textAlign: "start", fontFamily: "Helvetica"}}>
+       <h3>{randomMovie.description}<br />
+       <div style={{width: "100%", margin: "0 auto", padding: "10px", textAlign: "center"}}>
+       <a href={randomMovie.link}>Watch Now</a> // <a href="">More Details</a>
+       </div>
+       </h3>
+       
      </Card.Text>
-     <Card.Link href="#">More Details</Card.Link>
-     <Card.Link onClick={handleRandomMovie}>I'm not feeling it, give me another</Card.Link>
+     <button onClick={handleRandomMovie} style={{backgroundColor: "red", fontSize: "2em"}}>I'm not feeling it, give me another</button>
    </Card.Body>
  </Card>
       
