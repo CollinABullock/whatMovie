@@ -1058,6 +1058,31 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "42",
+      "title": "Blackhat",
+      "runtime": "132",
+      "mpaa": "R",
+      "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABc18kOzBzoRQjWNuoE98J1wuEn7ctE2G8JhzszvTLV7gvhPr-Y8p1njiAiUtIRBFCnNaVyUo86MWYJFsuKy9ZHC71xXfnxMtheI.jpg?r=7a8",
+      "description": "In exchange for his freedom, an imprisoned hacker agrees to help government agents track down the terrorist behind an explosion at a nuclear power plant.",
+	"genre": ["action", "drama"],
+    "link": "https://www.netflix.com/title/80013273",
+    "director": [{
+    "name": "Michael Mann",
+    "image": "https://www.hollywoodreporter.com/wp-content/uploads/2024/01/GettyImages-1830804960-H-2024.jpg?w=1296",
+    "imdb": "https://www.imdb.com/name/nm0000520/",
+    }],
+    "actors": [{
+      "name": "Chris Hemsworth",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRo-ENpCC-i10TwG6emtus3b4Ug8N9_GHUuw&usqp=CAU",
+      "imdb": "https://www.imdb.com/name/nm1165110/",
+    }, {
+      "name": "Tang Wei",
+      "image": "https://ca-times.brightspotcdn.com/dims4/default/8285503/2147483647/strip/true/crop/1600x900+0+0/resize/1200x675!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F31%2F88%2Ff194e1c74f77f92416aaee3dda5b%2Fla-1503576083-fhk065ufuy-snap-image",
+      "imdb": "https://www.imdb.com/name/nm2325018/"
+    }]
+    },
+
 
   ],
 ]
