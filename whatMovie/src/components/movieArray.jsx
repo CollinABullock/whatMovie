@@ -1033,6 +1033,30 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "41",
+      "title": "Where The Crawdads Sing",
+      "runtime": "125",
+      "mpaa": "PG-13",
+      "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABe1IDcnP_ikWJ55NXjTk_A-H7UiGtJpBU1bI4jsG62i6pKULPNOV_hPsuQkfZPkA3L5WlMfS_kOMMBKrdBpldqN2XE8dgvntw-s.jpg?r=c1a",
+      "description": "A woman who grew up alone in the wild North Carolina marshes becomes a suspect in the murder of a well-to-do young man from the nearby town.",
+	"genre": ["drama", "mystery"],
+    "link": "https://www.netflix.com/title/81564396",
+    "director": [{
+    "name": "Olivia Newman",
+    "image": "",
+    "imdb": "https://www.imdb.com/name/nm3229507/?ref_=tt_ov_dr",
+    }],
+    "actors": [{
+      "name": "Daisy Edgar-Jones",
+      "image": "https://www.nme.com/wp-content/uploads/2022/03/Daisy_Edgar_Jones_Jason_Hetherington.jpg",
+      "imdb": "https://www.imdb.com/name/nm8402992/?ref_=tt_cl_t_1",
+    }, {
+      "name": "Harris Dickinson",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/harris-dickinson-attends-the-photocall-for-triangle-of-news-photo-1703021836.jpg?crop=0.676xw:0.445xh;0.147xw,0.0359xh&resize=1200:*",
+      "imdb": "https://www.imdb.com/name/nm6170168/?ref_=tt_cl_t_3"
+    }]
+    },
 
 
   ],
