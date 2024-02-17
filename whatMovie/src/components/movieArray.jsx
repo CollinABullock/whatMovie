@@ -35,8 +35,8 @@ const moviesArray = [
     }]},
 
   {"item": "6", "title": "Rebel Moon — Part One: A Child of Fire", "runtime": "136", "mpaa": "PG-13", "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABTb83RN3VhDCH8tVBV5GPva_qAulKy1DQclvAOCVza7Xe_Waz-TdBZsfAZB0vWxpY9ky8jV9HGzalrnDhT8XALZjaMAa6Mp2u7GNtK9WcWeYUpVt-0HunLKKeTNFxNfVs2w_.jpg?r=7c8", 
-  "description": "When a colony on the edge of the galaxy finds itself threatened by the armies of the tyrannical Regent Balisarius, they dispatch a young woman with a mysterious past to seek out warriors from neighbouring planets to help them take a stand.",
-  "director": [{
+  "description": "When the ruthless forces of the Motherworld threaten a quiet farming village on a distant moon, a mysterious outsider becomes its best hope for survival.",
+  "Director": [{
     "name": "Zack Synder",
     "image": "https://dnm.nflximg.net/api/v6/2DuQlx0fM4wd1nzqm5BFBi6ILa8/AAAAQRkG0o6H2e9srDoKgYVGPoqGMQGX2DpEahimbzps-XdXK2Qc_sby0nJiRw3V0bePHNFOGKK3PdNwy1Z825FXZwDjmxVEuYKYQlsRdnmEnmK0XIzCGQ-PHCNrD8wJVCvhOqggGXSKLFhPBK7DxoiMtrO9.jpg?r=4ca",
     "imdb": "https://www.imdb.com/name/nm0811583/",
@@ -787,28 +787,81 @@ const moviesArray = [
       "mpaa": "PG-13",
       "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABR_IrfJfJu97SMQ6rldthXMbrpjwFvs4wSPayxO0oKj5mhli_3uHSzOxB0oEV5JdEDixtDPIhVhGtkESRN46EDigX9DuV4wQVlE.jpg?r=309",
       "description": "Teenager Viola tries to convince the students at her twin brother's school that she's actually him in this twist on Shakespeare's Twelfth Night.",
-	"genre": ["comedy", "romance", "sport"],
-    "link": "",
+	"genre": ["comedy", "romance", "sports"],
+    "link": "https://www.netflix.com/title/70044873",
+    "director": [{
+    "name": "Andy Fickman",
+    "image": "",
+    "imdb": "https://www.imdb.com/name/nm0275698/?ref_=tt_ov_dr",
+    }],
+    "actors": [{
+      "name": "Amanda Bynes",
+      "image": "https://d1fegwn2wjh0cs.cloudfront.net/12-20-2023/t_d2e98dfc5386435aa5b4d1826d1dea11_name_6d9455547295460aabac672c03f5c4e5.jpeg",
+      "imdb": "https://www.imdb.com/name/nm0004789/?ref_=tt_ov_st",
+    }, {
+      "name": "Channing Tatum",
+      "image": "https://variety.com/wp-content/uploads/2022/02/Channing-Tatum-Variety-Cover-Story-6-16x9-1.jpg",
+      "imdb": "https://www.imdb.com/name/nm1475594/?ref_=tt_ov_st",
+    }]
+    },
+
+    {    
+      "item": "33",
+      "title": "Meet The Parents",
+      "runtime": "107",
+      "mpaa": "PG-13",
+      "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABfWNcA8VCMRTAhgVwUJ3O3_g8lpeCZafXh7mxsaOrzubrycs5hTWFQ-sNdEMiwDstHffJb0_GtXsz-piN4wKpnzW5RxwpWYy-GU.jpg?r=0a2",
+      "description": "Greg Focker is ready to marry his girlfriend, but before he pops the question, he must win over her formidable father, a humorless former CIA agent.",
+	"genre": ["comedy", "romance"],
+    "link": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABfWNcA8VCMRTAhgVwUJ3O3_g8lpeCZafXh7mxsaOrzubrycs5hTWFQ-sNdEMiwDstHffJb0_GtXsz-piN4wKpnzW5RxwpWYy-GU.jpg?r=0a2",
+    "director": [{
+    "name": "jay Roach",
+    "image": "https://wrapwomen.thewrap.com/wp-content/uploads/2019/10/JAY-ROACH.jpg",
+    "imdb": "https://www.imdb.com/name/nm0005366/?ref_=tt_ov_dr",
+    }],
+    "actors": [{
+      "name": "Ben Stiller",
+      "image": "https://www.indiewire.com/wp-content/uploads/2022/08/Ben-Stiller.jpg",
+      "imdb": "https://www.imdb.com/name/nm0001774/?ref_=tt_ov_st",
+    }, {
+      "name": "Robert DeNiro",
+      "image": "https://www.usatoday.com/gcdn/presto/2020/08/17/USAT/7a0449c7-ffa8-450d-b65f-77a920a61757-Robert_De_Niro.JPG",
+      "imdb": "https://www.imdb.com/name/nm0000134/?ref_=tt_ov_st"
+    }, {
+      "name": "Teri Polo",
+      "image": "https://facts.net/wp-content/uploads/2023/09/38-facts-about-teri-polo-1695436101.jpg",
+      "imdb": "https://www.imdb.com/name/nm0001632/?ref_=tt_ov_st",
+    }]
+    },
+  
+    {    
+      "item": "34",
+      "title": "The House Bunny",
+      "runtime": "97",
+      "mpaa": "PG-13",
+      "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABUlN5s3w66-zHL0eIUjJ8JwMaXvZ2AUPLGyg2NzJBNgJQeaOy18JqCOF0mnUcuZCNlFfrFafl_uxSt1Afoc5_NijesfXr3-cGLY.jpg?r=9ce",
+      "description": "After getting dumped from the Playboy Mansion, aspiring centerfold Shelley signs on to make over the hopelessly uncool sisters of a struggling sorority.",
+	"genre": ["comedy", "romance"],
+    "link": "https://www.netflix.com/title/70098895",
     "director": [{
     "name": "",
     "image": "",
     "imdb": "",
     }],
     "actors": [{
-      "name": "",
+      "name": "Anna Faris",
       "image": "",
       "imdb": "",
     }, {
-      "name": "",
+      "name": "Emma Stone",
       "image": "",
       "imdb": ""
     }, {
-      "name": "",
+      "name": "Colin Hanks",
       "image": "",
       "imdb": "",
     }]
     },
-
 
 
 
