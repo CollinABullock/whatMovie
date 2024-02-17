@@ -863,6 +863,30 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "35",
+      "title": "13 Going On 30",
+      "runtime": "97",
+      "mpaa": "PG-13",
+      "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABeywrqOWuUiQGarXoeIVLhOc7E6re6JwBDfJmWUUsVL94O_7uVTQs8JxYKZc7Yw4jABG_X3JdKAdYkxfF1zuOvHheF95YXJBEeE.jpg?r=21d",
+      "description": "Jenna Rink wishes she could just grow up after being humiliated at her 13th birthday party — only to wake up as a 30-year-old fashion magazine editor.",
+	"genre": ["comedy", "romance", "teen"],
+    "link": "https://www.netflix.com/title/60034573",
+    "director": [{
+    "name": "Gary Winick",
+    "image": "https://media.baselineresearch.com/images/370880/370880_full.jpg",
+    "imdb": "https://www.imdb.com/name/nm0935095/?ref_=tt_ov_dr",
+    }],
+    "actors": [{
+      "name": "Jennifer Garner",
+      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/newscms/2023_26/2008627/230629-shopping-diaries-jennifer-garner-kb-2x1.jpg",
+      "imdb": "https://www.imdb.com/name/nm0004950/?ref_=tt_ov_st",
+    }, {
+      "name": "Mark Ruffalo",
+      "image": "https://d.newsweek.com/en/full/2298700/mark-ruffalo-june-2023.png?w=1200&f=7082c879b50355fdc025b4e12f2a43d5",
+      "imdb": "https://www.imdb.com/name/nm0749263/?ref_=tt_ov_st"
+    }]
+    },
 
 
 
