@@ -12,7 +12,13 @@
 @font-face {
   font-family: "Poster";   
   src: local("PostersItalicPersonalUseBoldItalic-ALqx6"),
-    url("./posters-italic-font/PostersItalicPersonalUseBoldItalic-ALqx6.ttf") format("truetype");
+    url("./fonts/posters-italic-font/PostersItalicPersonalUseBoldItalic-ALqx6.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Banner";   
+  src: local("PostersItalicPersonalUseBoldItalic-ALqx6"),
+    url("./fonts/posters-italic-font/PostersItalicPersonalUseBoldItalic-ALqx6.ttf") format("truetype");
 }
 
 navbar {
