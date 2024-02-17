@@ -1083,6 +1083,35 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "43",
+      "title": "Joker",
+      "runtime": "121",
+      "mpaa": "R",
+      "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABTYcZRD-94Zapbubx0PZiwLkQnlWn3pRfr2NABcEo0uAuo_E9Jfo8TtSrkoiPrCMf_oTkrs5JPBAZCRxabq0O0_Tj2aCsr9VmFc.jpg?r=e68",
+      "description": "In 1981 Gotham City, a struggling, mentally ill comic battles to be seen. His life takes a dark, gut-wrenching turn after he lashes back at attackers.",
+	"genre": ["drama", "thriller", "comic-book"],
+    "link": "https://www.netflix.com/title/81092221",
+    "director": [{
+    "name": "Todd Phillips",
+    "image": "https://m.media-amazon.com/images/M/MV5BNGY5MWRjM2MtNDkzNC00MDcwLWE2ZjYtOWNlZmM3MWIyNGZmXkEyXkFqcGdeQXVyMTAxMjM5NTA4._V1_.jpg",
+    "imdb": "https://www.imdb.com/name/nm0680846/?ref_=tt_ov_dr",
+    }],
+    "actors": [{
+      "name": "Joaquin Phoenix",
+      "image": "https://variety.com/wp-content/uploads/2018/03/shutterstock_editorial_9886170h.jpg?w=1000",
+      "imdb": "https://www.imdb.com/name/nm0001618/?ref_=tt_ov_st",
+    }, {
+      "name": "Robert DeNiro",
+      "image": "https://www.usatoday.com/gcdn/presto/2020/08/17/USAT/7a0449c7-ffa8-450d-b65f-77a920a61757-Robert_De_Niro.JPG",
+      "imdb": "https://www.imdb.com/name/nm0000134/?ref_=tt_ov_st"
+    }, {
+      "name": "Zazie Beetz",
+      "image": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fwp-content%2Fblogs.dir%2F6%2Ffiles%2F2019%2F10%2Fzazie-beetz-facts-actress-joker-atlanta-deadpool-feminist-activist-david-rysdahl-boyfriend-1.jpg?cbr=1&q=90",
+      "imdb": "https://www.imdb.com/name/nm5939164/?ref_=tt_ov_st",
+    }]
+    },
+  
 
   ],
 ]
