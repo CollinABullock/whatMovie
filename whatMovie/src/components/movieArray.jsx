@@ -844,22 +844,22 @@ const moviesArray = [
 	"genre": ["comedy", "romance"],
     "link": "https://www.netflix.com/title/70098895",
     "director": [{
-    "name": "",
-    "image": "",
-    "imdb": "",
+    "name": "Fred Wolf",
+    "image": "https://variety.com/wp-content/uploads/2019/11/img_5065.jpg",
+    "imdb": "https://www.imdb.com/name/nm0937748/?ref_=tt_ov_dr",
     }],
     "actors": [{
       "name": "Anna Faris",
-      "image": "",
-      "imdb": "",
+      "image": "https://nationaltoday.com/wp-content/uploads/2022/09/Anna-Faris-1200x834.jpg",
+      "imdb": "https://www.imdb.com/name/nm0267506/?ref_=tt_ov_st",
     }, {
       "name": "Emma Stone",
-      "image": "",
-      "imdb": ""
+      "image": "https://variety.com/wp-content/uploads/2023/12/Emma-Stone-Variety-Actors-on-Actors.jpg?w=1024",
+      "imdb": "https://www.imdb.com/name/nm1297015/?ref_=tt_ov_st"
     }, {
       "name": "Colin Hanks",
-      "image": "",
-      "imdb": "",
+      "image": "https://www.hollywoodreporter.com/wp-content/uploads/2015/02/colin_hanks.jpg",
+      "imdb": "https://www.imdb.com/name/nm0004988/?ref_=tt_ov_st",
     }]
     },
 

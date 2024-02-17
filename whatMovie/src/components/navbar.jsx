@@ -4,7 +4,7 @@ export default function NavBar() {
   
 return (
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" style={{"padding": "10px", marginBottom: "20px", background: "transparent"}}>
-  <a class="navbar-brand" style={{color: "whitesmoke", fontSize: "2em"}}>Let's Choose a Damn Movie Already!</a>
+  <a class="navbar-brand" style={{color: "whitesmoke", fontSize: "1em"}}>Let's Choose a Damn Movie Already!</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
