@@ -917,6 +917,35 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "37",
+      "title": "She's All That",
+      "runtime": "95",
+      "mpaa": "PG-13",
+      "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABQpkB9oRXj261sApVFLba9FOuWTB6F2kevZv9bJ105pCo0HlHPMF1ryw4jFtbQQCojux3MVPU4Wcx9kdG3nzdUhnNrcTEe9ZoEnj.jpg?r=3e1",
+      "description": "High school class president Zack Siler makes a bet with his friends that he can turn artistic, bespectacled nobody Laney Boggs into prom queen.",
+	"genre": ["comedy", "romance", "teen"],
+    "link": "https://www.netflix.com/title/18957298",
+    "director": [{
+    "name": "Robert Iscove",
+    "image": "https://media.gettyimages.com/id/86472251/photo/los-angeles-ca-director-robert-iscove-arrives-at-the-premiere-of-screen-media-films-love.jpg?s=612x612&w=gi&k=20&c=QU_rIATXHMJ7wcovWsrvUUuGTkhTuAG-B-Dz_SI7hN8=",
+    "imdb": "https://www.imdb.com/name/nm0410769/?ref_=tt_ov_dr",
+    }],
+    "actors": [{
+      "name": "Freddie Prinze Jr",
+      "image": "https://www.goalcast.com/wp-content/uploads/2022/01/Freddie-Prinze-Jr..jpg",
+      "imdb": "https://www.imdb.com/name/nm0005327/?ref_=tt_ov_st",
+    }, {
+      "name": "rachel Leigh Cook",
+      "image": "https://deadline.com/wp-content/uploads/2020/12/MEGA474268_016-1-e1607989292851.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000337/?ref_=tt_ov_st"
+    }, {
+      "name": "Matthew Lillard",
+      "image": "https://facts.net/wp-content/uploads/2023/08/40-facts-about-matthew-lillard-1691407781.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000498/?ref_=tt_ov_st",
+    }]
+    },
+  
 
 
   ],
