@@ -975,6 +975,35 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "39",
+      "title": "The Great Gatsby",
+      "runtime": "142",
+      "mpaa": "PG-13",
+      "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABebyn8XblSaVJZ3514SdfNUQmdk0qVtlqKvsVnUHpnOobgt1z3dg8Qx07RXoB3Y_SozdDfxE7HTTGXIGiqDGrxMMNlROUgNNM5AQ.jpg?r=586",
+      "description": "Fascinated by his mysterious and affluent neighbor, salesman Nick Carraway bears witness to Jay Gatsby's spiral into love and tragedy.",
+	"genre": ["drama", "romance"],
+    "link": "https://www.netflix.com/title/70244437",
+    "director": [{
+    "name": "Baz Luhrmann",
+    "image": "https://variety.com/wp-content/uploads/2022/09/Collage-Maker-07-Sep-2022-09.59-AM.jpg",
+    "imdb": "https://www.imdb.com/name/nm0525303/?ref_=tt_ov_wr",
+    }],
+    "actors": [{
+      "name": "Leonardo DiCaprio",
+      "image": "https://phantom-marca.unidadeditorial.es/0e1996b37d1147008cea1fb6be3dc73a/resize/828/f/jpg/assets/multimedia/imagenes/2023/07/14/16893608205539.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000138/",
+    }, {
+      "name": "Tobey Maguire",
+      "image": "https://m.economictimes.com/thumb/msid-105635855,width-1600,height-900,resizemode-4,imgsize-52340/spider-man-4-is-tobey-maguires-return-on-the-cards-heres-what-we-know-so-far.jpg",
+      "imdb": "https://www.imdb.com/name/nm0001497/?ref_=tt_cl_t_4"
+    }, {
+      "name": "Carey Mulligan",
+      "image": "https://d26oc3sg82pgk3.cloudfront.net/files/media/edit/image/14862/article_full%401x.jpg",
+      "imdb": "https://www.imdb.com/name/nm1659547/?ref_=tt_cl_t_2",
+    }]
+    },
+
 
 
   ],
