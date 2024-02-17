@@ -1004,6 +1004,35 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "40",
+      "title": "Glass Onion, A Knives Out Mystery",
+      "runtime": "142",
+      "mpaa": "PG-13",
+      "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABeOrhdb7Hx-4aOrI6LLOpeGdwn1sfzqJvMwV3CwAE9ixj1cXniTONYYrRspBQ520vn2TKNQtgKD6sTWPTt0AKIIjCLGYBLCRqDbq2jF59TtdFMeTH3s311TfeLuCId6DK_u63w.jpg?r=a9b",
+      "description": "World-famous detective Benoit Blanc heads to Greece to peel back the layers of a mystery surrounding a tech billionaire and his eclectic crew of friends.",
+	"genre": ["comedy", "mystery"],
+    "link": "https://www.netflix.com/title/81458416",
+    "director": [{
+    "name": "Rian Johnson",
+    "image": "https://media.newyorker.com/photos/6377bc34da27cea69260aa08/master/pass/Chotiner-RianJohnson-1.jpg",
+    "imdb": "https://www.imdb.com/name/nm0426059/?ref_=tt_ov_dr",
+    }],
+    "actors": [{
+      "name": "Daniel Craig",
+      "image": "https://64.media.tumblr.com/03d669f25cedc9d22cd392d52e75fe66/tumblr_inline_nxaqxfs4Y21sgm97w_500.jpg",
+      "imdb": "https://www.imdb.com/name/nm0185819/?ref_=tt_cl_t_1",
+    }, {
+      "name": "Edward Norton",
+      "image": "https://images.hellomagazine.com/horizon/landscape/453850f68ae5-edward-norton.jpg",
+      "imdb": "https://www.imdb.com/name/nm0001570/?ref_=tt_cl_t_2"
+    }, {
+      "name": "Janelle Monae",
+      "image": "https://media.allure.com/photos/64b7fe8b7da2db5de4be3871/16:9/w_2992,h_1683,c_limit/janelle%20monae%20blonde%20locs.jpg",
+      "imdb": "https://www.imdb.com/name/nm1847117/?ref_=tt_cl_t_5",
+    }]
+    },
+
 
 
   ],
