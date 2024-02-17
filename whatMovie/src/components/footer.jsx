@@ -1,4 +1,5 @@
 import React from "react"
+import { FaLinkedin, FaGithub, MdEmail } from 'react-icons/fa';
 
 const Footer = () => <footer className="page-footer font-small blue pt-4">
     <div className="container-fluid text-center text-md-left">
@@ -13,17 +14,23 @@ const Footer = () => <footer className="page-footer font-small blue pt-4">
             <div className="col-md-3 mb-md-0 mb-3">
                 <ul className="list-unstyled">
                     <li><a href="http://www.collinbullock.com" target="_blank">CollinBullock.com</a></li>
-                    <li><a href="#!">Link 2</a></li>
-                    <li><a href="#!">Link 3</a></li>
-                    <li><a href="#!">Link 4</a></li>
+                    <li><a href="https://collinspuppybowl.netlify.app/" target="_blank">Puppy Bowl</a></li>
+                    <li><a href="https://strangersthingscfrt.netlify.app/" target="_blank">Stranger's Things</a></li>
+                    <li><a href="https://simpsonspedia.netlify.app/" target="_blank">SimpsonsPedia</a></li>
                 </ul>
             </div>
 
         </div>
     </div>
 
-    <div className="footer-copyright text-center py-3">© 2020 Copyright:
-        <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+    <div className="footer-copyright text-center py-3" style={{fontSize: "2em",}}>© 2024 Copyright:
+        <a className="footer-a" href="www.collinbullock.com"> Collin A Bullock</a><br />
+        <a className= "footer-a" href="https://www.linkedin.com/in/collin-bullock/" target="_blank" rel="noopener noreferrer">
+      <FaLinkedin />
+    </a>
+    <a href="https://github.com/CollinABullock" target="_blank" rel="noopener noreferrer">
+      <FaGithub />
+    </a>
     </div>
 
 </footer>
