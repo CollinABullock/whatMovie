@@ -946,6 +946,35 @@ const moviesArray = [
     }]
     },
   
+    {    
+      "item": "38",
+      "title": "Don't Look Up",
+      "runtime": "143",
+      "mpaa": "R",
+      "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABeEb2lWd-JuI5rSKjLf1xnqb1fGSWq3d2--CBkT2hVDFRnqP3JaUYtQf_FE-q1m5frfTNm1lnqZ-4brfdgLb980oFIbclAS5aCyJ32woJB1HYECfH5cAVPAyx5hCjUtVidIt.jpg?r=116",
+      "description": "Two astronomers go on a media tour to warn humankind of a planet-killing comet hurtling toward Earth. The response from a distracted world: Meh.",
+	"genre": ["comedy", "drama", "science-fiction"],
+    "link": "https://www.netflix.com/title/81252357",
+    "director": [{
+      "name": "Adam McKay",
+      "image": "https://media.gq.com/photos/61ae8c6b5f5bc36144ea4ec9/16:9/w_2560%2Cc_limit/AMCKAY-22_R.jpg",
+      "imdb": "https://www.imdb.com/name/nm0570912/",
+      }],
+    "actors": [{
+      "name": "Leonardo DiCaprio",
+      "image": "https://phantom-marca.unidadeditorial.es/0e1996b37d1147008cea1fb6be3dc73a/resize/828/f/jpg/assets/multimedia/imagenes/2023/07/14/16893608205539.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000138/",
+    }, {
+      "name": "Jennifer Lawrence",
+      "image": "https://media.vanityfair.com/photos/618c0614fdf674f0522a9fb7/master/w_2560%2Cc_limit/LBY_210805_JENNIFER_LAWRENCE_VF_09G_Shot_10_028_QC_sRGB_LR.jpg",
+      "imdb": "https://www.imdb.com/name/nm2225369/?ref_=tt_ov_st",
+    }, {
+      "name": "Meryl Streep",
+      "image": "https://ew.com/thmb/OnGb568VYP6eVGvjYBDiZQTSQC4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Meryl-Streep-mamma-Mia-493688affb3e4be0a73d734baaec58e9.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000658/?ref_=tt_ov_st",
+    }]
+    },
+
 
 
   ],
