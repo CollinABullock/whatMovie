@@ -13,7 +13,7 @@ export default function RandomMovie() {
   return (
     <div style={{ marginTop: "40px", textAlign: "center" }}>
       {randomMovie ? (
-        <Card style={{ width: "80%", maxWidth: "600px", margin: "0 auto", marginTop: "20px" }}>
+        <Card style={{ width: "100%", maxWidth: "600px", margin: "0 auto", marginTop: "200px", maxHeight: "1000px" }}>
           <Card.Body>
             <Card.Img src={randomMovie.poster} style={{ width: "100%", height: "auto", objectFit: "cover" }} />
             <Card.Title><h1>{randomMovie.title}</h1></Card.Title>

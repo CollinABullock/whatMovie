@@ -35,6 +35,7 @@ const moviesArray = [
     }]},
 
   {"item": "6", "title": "Rebel Moon — Part One: A Child of Fire", "runtime": "136", "mpaa": "PG-13", "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABTb83RN3VhDCH8tVBV5GPva_qAulKy1DQclvAOCVza7Xe_Waz-TdBZsfAZB0vWxpY9ky8jV9HGzalrnDhT8XALZjaMAa6Mp2u7GNtK9WcWeYUpVt-0HunLKKeTNFxNfVs2w_.jpg?r=7c8", 
+  "link": "https://www.netflix.com/title/81464239",
   "description": "When the ruthless forces of the Motherworld threaten a quiet farming village on a distant moon, a mysterious outsider becomes its best hope for survival.",
   "Director": [{
     "name": "Zack Synder",
@@ -1217,6 +1218,37 @@ const moviesArray = [
       "imdb": "https://www.imdb.com/name/nm0000168/",
     }]
     },
+
+    {    
+      "item": "48",
+      "title": "",
+      "runtime": "",
+      "mpaa": "",
+      "poster": "",
+      "description": "",
+	"genre": [""],
+    "link": "",
+    "director": [{
+    "name": "",
+    "image": "",
+    "imdb": "",
+    }],
+    "actors": [{
+      "name": "",
+      "image": "",
+      "imdb": "",
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": ""
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": "",
+    }]
+    },
+
+
 
 
 
