@@ -18,6 +18,7 @@ const moviesArray = [
 
   {"item": "5", "title": "Meg 2: The Trench", "mpaa": "PG-13", "runtime": "115", "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABXA08yhKXmcOdp-3Fz7LCCvvkGEo7J0b-p-56FJzB4V8YvoRJrLJ9KGXDeKnIm-FnNtBeBrZa_c2zffyoOimR7b_tqVc0FGIbjA.jpg?r=cd5",
   "description": "A research team encounters multiple threats while exploring the depths of the ocean, including a malevolent mining operation.",
+  "link": "https://www.netflix.com/title/81670643",
   "director": [{
     "name": "Ben Wheatley",
     "image": "https://miro.medium.com/v2/resize:fit:1200/1*3LHqGuCQXorll7fYrzDJPw.jpeg",
@@ -1394,59 +1395,55 @@ const moviesArray = [
 
     {    
       "item": "54",
-      "title": "",
-      "runtime": "",
-      "mpaa": "",
-      "poster": "",
-      "description": "",
-	"genre": [""],
-    "link": "",
+      "title": "The Outsider",
+      "runtime": "120",
+      "mpaa": "R",
+      "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABbg3296Qv8PD5hfZRCWQbClwNFT1QaLqK19Tr6RBMExLoGlCXqiKCnWfAaLwYbByGZ_K1HK3wyCi4HRFB2XbJc6sAielGmPtQANenhkHPNiK_IYCpiG5N5z6z9NK396Smm1bDw.jpg?r=3f0",
+      "description": "An American soldier imprisoned in postwar Japan enters the dark world of the yakuza, adopting their way of life in repayment for his freedom.",
+	"genre": ["drama", "thriller", "gangster"],
+    "link": "https://www.netflix.com/title/80152434",
     "director": [{
-    "name": "",
-    "image": "",
-    "imdb": "",
+    "name": "Martin Zandvliet",
+    "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQzgooMTHERUMuS9x0MzDIDSLzGLEQ0sZnfeW99BtuakgkIkd4McZWBsSVHsKaHD6mzt79B_foG9TOQX_I",
+    "imdb": "https://www.imdb.com/name/nm1324710/",
     }],
     "actors": [{
-      "name": "",
-      "image": "",
-      "imdb": "",
+      "name": "Jared Leto",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-GdNdn_M37DIDG3wY5UAepg5OMJxLw0yGJ8aIvRHTixdTxAUn",
+      "imdb": "https://www.imdb.com/name/nm0001467/",
     }, {
-      "name": "",
-      "image": "",
-      "imdb": ""
-    }, {
-      "name": "",
-      "image": "",
-      "imdb": "",
+      "name": "Tadanobu Asano",
+      "image": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSZ8DK0Rx75bz488KV1LscdgPYi4xwFYI5EPYGygNanqyddl5n2fXt-3fRBQ3k1qQRr0Xdw-hvhtXp0AUE",
+      "imdb": "https://www.imdb.com/name/nm0038355/"
     }]
     },
 
     {    
       "item": "55",
-      "title": "",
-      "runtime": "",
-      "mpaa": "",
-      "poster": "",
-      "description": "",
-	"genre": [""],
-    "link": "",
+      "title": "Pacific Rim",
+      "runtime": "131",
+      "mpaa": "PG-13",
+      "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABemdnFMMyhACmt8RYXCPivHIlGvqFLOKwLdBudWxtEPk5INIK1qm30y5vYZfoA3RhNIkL_DVKvKMG9fEElRnPaJdPNqNSSiFxgk.jpg?r=5c4",
+      "description": "When the world's defenses fail against the threat of alien sea creatures, the task of saving the planet falls to a former pilot and a raw trainee.",
+	"genre": ["science-ftcion", "action"],
+    "link": "https://www.netflix.com/title/70267241",
     "director": [{
-    "name": "",
-    "image": "",
-    "imdb": "",
+    "name": "Guillermo del Toro",
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQk5p15dyELCnVtHIz0MUu8YGmE3mW0XTDn5kLqqS-jCIc5IGmz",
+    "imdb": "https://www.imdb.com/name/nm0868219/",
     }],
     "actors": [{
-      "name": "",
-      "image": "",
-      "imdb": "",
+      "name": "Charlie Hunnam",
+      "image": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSdGuUN9FOqOsqPFh3rmtiQVE8p0aaLfgGx-n9_IfJ0H8op2S6G_bZ3pIFhCt_QlUAG8iQlemfwWTLQjhE",
+      "imdb": "https://www.imdb.com/name/nm0402271/",
     }, {
-      "name": "",
-      "image": "",
-      "imdb": ""
+      "name": "Idris Elba",
+      "image": "https://img.buzzfeed.com/buzzfeed-static/complex/images/c6pfzxavof3nf6emlmmb/idris-elba.jpg?output-format=jpg&output-quality=auto",
+      "imdb": "https://www.imdb.com/name/nm0252961/?ref_=tt_ov_st"
     }, {
-      "name": "",
-      "image": "",
-      "imdb": "",
+      "name": "Rinko Kikuchi",
+      "image": "https://images.businessoffashion.com/profiles/asset/402/5ec801e69c77afd89ef95fc73a8c9217d4b4c153.jpeg?auto=format%2Ccompress&fit=crop&h=360&w=660",
+      "imdb": "https://www.imdb.com/name/nm0452860/",
     }]
     },
 
