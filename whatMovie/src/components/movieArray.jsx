@@ -1112,6 +1112,38 @@ const moviesArray = [
     }]
     },
   
+    {    
+      "item": "44",
+      "title": "Boyz N The Hood",
+      "runtime": "112",
+      "mpaa": "R",
+      "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABXCvB4mULiHXeIr9IMOFcvGgZtwr98YdxwBVZiAVuOHUvofoIbMiIGMmWmzc3x1u4w3KlxK-g4zmq0Qe4sl6gXbTtSoFCO03l1gI.jpg?r=f14",
+      "description": "A high school student living with his stern, loving father in South Central Los Angeles gets drawn into the neighborhood's gangs, drugs and violence.",
+	"genre": ["drama", "classic"],
+    "link": "https://www.netflix.com/title/328438",
+    "director": [{
+    "name": "John Singleton",
+    "image": "https://media.vanityfair.com/photos/5cc75e77aa8a176cc69e3bb5/master/pass/John-Singleton-Obit.jpg",
+    "imdb": "https://www.imdb.com/name/nm0005436/?ref_=tt_ov_dr",
+    }],
+    "actors": [{
+      "name": "Cuba Gooding Jr",
+      "image": "https://cdn.abcotvs.com/dip/images/5345939_061319-wabc-ap-cuba-gooding-jr-img.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000421/?ref_=tt_ov_st",
+    }, {
+      "name": "Laurence Fishburne",
+      "image": "https://atlantablackstar.com/wp-content/uploads/2022/10/GettyImages-1434655767-scaled.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000401/?ref_=tt_ov_st"
+    }, {
+      "name": "Ice Cube",
+      "image": "https://i.guim.co.uk/img/media/67eec8ab7e348a4152ff3f0ea2a3fc1060f38e28/493_44_4711_2827/master/4711.jpg?width=700&quality=85&auto=format&fit=max&s=da2aa1a6318e94a58e1272821e01b42c",
+      "imdb": "https://www.imdb.com/name/nm0001084/?ref_=tt_cl_t_4"
+    }]
+    },
+
+
+
+
 
   ],
 ]

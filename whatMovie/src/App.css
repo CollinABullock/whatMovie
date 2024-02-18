@@ -9,6 +9,24 @@
   font-family: Signwood;
 }
 
+.navbar {
+background-color: pink;
+}
+
+.footer-a {
+  padding: 10px;
+}
+
+@media (max-width: 767px) {
+  .card {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: .75em;
+    padding: 0;
+  }
+}
+
 @font-face {
   font-family: "Poster";   
   src: local("PostersItalicPersonalUseBoldItalic-ALqx6"),
