@@ -1448,6 +1448,37 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "56",
+      "title": "The Boss Baby",
+      "runtime": "97",
+      "mpaa": "PG",
+      "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABZHnzonBe7rJTMz4EqVPkwS65oio9cGyFO_IJp8HWdOYT0gJDhXISMoLWo7GzvowHkBc7J8YE3CM0iEizVn7IJPa0Wj4eOy2kEc.jpg?r=860",
+      "description": "A kid finds himself at the center of a sinister corporate plot when his parents bring home a baby who only talks business when they're not around.",
+	"genre": ["animation", "comedy", "kids"],
+    "link": "https://www.netflix.com/title/80146758",
+    "director": [{
+    "name": "Tom McGrath",
+    "image": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcSBP7b5Va4Ym_QZJvxZ1x3pabFxxD6QF47DgwqlE5zAJoT9bO7cNl2-O8jXzKspJfhpV-vBCXB7XsCrJJc",
+    "imdb": "https://www.imdb.com/name/nm0569891/?ref_=tt_ov_dr",
+    }],
+    "actors": [{
+      "name": "Alec Baldwin",
+      "image": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSuYBOiGP2ZAxJotmeQcYxn3DjFBL0zoMmurQS0QLxYVn9zGwvQoFUMQVjt4cgb-se_wUvvZhQdkblI2aA",
+      "imdb": "https://www.imdb.com/name/nm0000285/",
+    }, {
+      "name": "Lisa Kudrow",
+      "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSJiqTGOQYSiL7l5wkM_8u9UaTBykM4DjxKgo-T6aZH8X_Q8QZA0JpHor26Oh-ZNJzuo3-8d5KgxwV-dUg",
+      "imdb": "https://www.imdb.com/name/nm0001435/"
+    }, {
+      "name": "Jimmy Kimmel",
+      "image": "https://www.hollywoodreporter.com/wp-content/uploads/2022/09/Jimmy-Kimmel-Show-ABC-165168_0222-Publicity-H-2022.jpg?w=1296",
+      "imdb": "https://www.imdb.com/name/nm0453994/",
+    }]
+    },
+
+
+
 
 
 
