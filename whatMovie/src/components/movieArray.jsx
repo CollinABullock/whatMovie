@@ -6,7 +6,7 @@ const moviesArray = [
     "imdb": "https://www.imdb.com/name/nm0821432/",
     }]},
 
-  {"item": "2", "genre": ["thriller", "action", "adventure", "violent", "suspenseful"], "title": "The Equalizer 3", "release-year": "2023", "runtime": "119", "mpaa": "R", "description": "Robert McCall vows to stop an Italian crime syndicate from brutalizing and extorting the residents of a small coastal town that has won his heart.", "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABXigXUjgvpYUaCNtoSXvdJ3MSjIQMsiHrJByYBdUvmVpW-s6Rc4lKY7VzVabpqAnXrG16_Scp9swRqGC_EO4cOV45udZ2H0sx1Q.jpg?r=653", "actors": [{"name": "Denzel Washington", "image": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2022%2F01%2Fdenzel-washington-the-equalizer-3-currently-in-the-works-confirmed-001.jpg?cbr=1&q=90", "imdb": "https://www.imdb.com/name/nm0000243/"}, {"name": "Dakota Fanning", "image": "https://www.etonline.com/sites/default/files/images/2016-03/1280_dakota_fanning_160309_514299728.jpg", "imdb": "https://www.imdb.com/name/nm0266824/"}], "link": "https://www.netflix.com/title/81674658",  "director": [{
+  {"item": "2", "genre": ["thriller", "action", "adventure", "violent", "suspenseful", "sequel"], "title": "The Equalizer 3", "release-year": "2023", "runtime": "119", "mpaa": "R", "description": "Robert McCall vows to stop an Italian crime syndicate from brutalizing and extorting the residents of a small coastal town that has won his heart.", "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABXigXUjgvpYUaCNtoSXvdJ3MSjIQMsiHrJByYBdUvmVpW-s6Rc4lKY7VzVabpqAnXrG16_Scp9swRqGC_EO4cOV45udZ2H0sx1Q.jpg?r=653", "actors": [{"name": "Denzel Washington", "image": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2022%2F01%2Fdenzel-washington-the-equalizer-3-currently-in-the-works-confirmed-001.jpg?cbr=1&q=90", "imdb": "https://www.imdb.com/name/nm0000243/"}, {"name": "Dakota Fanning", "image": "https://www.etonline.com/sites/default/files/images/2016-03/1280_dakota_fanning_160309_514299728.jpg", "imdb": "https://www.imdb.com/name/nm0266824/"}], "link": "https://www.netflix.com/title/81674658",  "director": [{
     "name": "Antoine Fuqua",
     "image": "https://deadline.com/wp-content/uploads/2021/12/Antoine-Fuqua-e1638564950313.jpg?w=681&h=383&crop=1",
     "imdb": "https://www.imdb.com/name/nm0298807/",
@@ -18,6 +18,7 @@ const moviesArray = [
 
   {"item": "5", "title": "Meg 2: The Trench", "mpaa": "PG-13", "runtime": "115", "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABXA08yhKXmcOdp-3Fz7LCCvvkGEo7J0b-p-56FJzB4V8YvoRJrLJ9KGXDeKnIm-FnNtBeBrZa_c2zffyoOimR7b_tqVc0FGIbjA.jpg?r=cd5",
   "description": "A research team encounters multiple threats while exploring the depths of the ocean, including a malevolent mining operation.",
+  "genre": ["comedy", "action", "science-fiction", "sequel"],
   "link": "https://www.netflix.com/title/81670643",
   "director": [{
     "name": "Ben Wheatley",
@@ -99,7 +100,7 @@ const moviesArray = [
     "title": "Desperado",
     "runtime": "104",
     "description": "To avenge the death of his girlfriend, a mysterious guitar player hunts down the villainous drug lord responsible and forces him to face the music.",
-    "genre": ["action", "excting", "foreign", "Mexico"],
+    "genre": ["action", "excting", "foreign", "Mexico", "sequel"],
     "mpaa": "R",
     "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABSevQRNdhAYxJc0cIiJIRvDVl52yCvdjv8Lp_SawSjxOKdTt4k6PDlmjSP_CN3pJ5L1Ha3_kLLzV9Nf862FhUCWX3X8wxwAqt2WV.jpg?r=78e",
     "link": "https://www.netflix.com/title/437266",
@@ -213,7 +214,7 @@ const moviesArray = [
       "mpaa": "R",
       "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABSWevXq-2HZjLz10nifg7t5eH4RqaVlnnDaCELyXFmw0oLvntZBXngdglBl5Iz7iuz43_W6lI0_96zmgIHIUMLMK8oUq5zfO9vyUFmFiXMVjKeSV17SbCayGl0M06QAsU0Wx.jpg?r=a98",
       "description": "Back from the brink of death, highly skilled commando Tyler Rake takes on another dangerous mission: saving the imprisoned family of a ruthless gangster.",
-	"genre": ["action", "violent"],
+	"genre": ["action", "violent", "sequel"],
     "link": "https://www.netflix.com/title/81098494",
     "director": [{
     "name": "Sam Hargrave",
@@ -1339,7 +1340,7 @@ const moviesArray = [
       "runtime": "141",
       "mpaa": "PG-13",
       "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABd4KfGZ85jP3YUZ4DU5JTi9kTgYDk9FkBanIIEUmxQNFHD_Qyx1LMKgmO8d9wb1d55kJCO3Jjbtzwk5mmGgEP57PNbaI6sLrdKXq.jpg?r=34a",
-      "description": "",
+      "description": "A warrior princess leaves the relative safety of her sheltered island home in hopes of putting an end to a devastating war in the outside world.",
 	"genre": ["action", "fantasy", "war", "comic-book"],
     "link": "https://www.netflix.com/title/80157091",
     "director": [{
@@ -1365,32 +1366,32 @@ const moviesArray = [
 
     {    
       "item": "53",
-      "title": "",
-      "runtime": "",
-      "mpaa": "",
-      "poster": "",
-      "description": "",
-	"genre": [""],
-    "link": "",
-    "director": [{
-    "name": "",
-    "image": "",
-    "imdb": "",
-    }],
-    "actors": [{
-      "name": "",
-      "image": "",
-      "imdb": "",
-    }, {
-      "name": "",
-      "image": "",
-      "imdb": ""
-    }, {
-      "name": "",
-      "image": "",
-      "imdb": "",
-    }]
-    },
+      "title": "Wonder Woman 1984",
+      "runtime": "151",
+      "mpaa": "PG-13",
+      "poster": "https://www.netflix.com/title/81198904",
+      "description": "While working at the Smithsonian, secret superhero Diana Prince discovers the miracle — and menace — of a mysterious artifact’s staggering powers.",
+      "genre": ["action", "fantasy", "war", "comic-book", "sequel"],
+      "link": "https://www.netflix.com/title/80157091",
+      "director": [{
+      "name": "Patty Jenkins",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT_g013e6ri2TSJV4m0P4vjc_KdgQDtQ4Db44PGDYn3itA0ZDix",
+      "imdb": "https://www.imdb.com/name/nm0420941/",
+      }],
+      "actors": [{
+        "name": "Gal Gadot",
+        "image": "https://d.newsweek.com/en/full/2305821/gal-gadot.jpg",
+        "imdb": "https://www.imdb.com/name/nm2933757/",
+      }, {
+        "name": "Chris Pine",
+        "image": "https://deadline.com/wp-content/uploads/2023/04/GettyImages-1482564450-e1701543056191.jpg",
+        "imdb": "https://www.imdb.com/name/nm1517976/"
+      }, {
+        "name": "Pedro Pascal",
+        "image": "https://variety.com/wp-content/uploads/2023/06/Variety-Actors-on-Actors-16x9-Pedro-Pascal.jpg?w=681&h=383&crop=1",
+        "imdb": "https://www.imdb.com/name/nm0050959/",
+      }]
+      },
 
 
     {    
