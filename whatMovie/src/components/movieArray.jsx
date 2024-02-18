@@ -1221,6 +1221,90 @@ const moviesArray = [
 
     {    
       "item": "48",
+      "title": "L.A. Confidential",
+      "runtime": "137",
+      "mpaa": "R",
+      "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABST75AW5puvY6dCw1dp9Z4KvqbVqaAS8EYiMgIVZuRyzWYFg326WbsXMysnyc_jUx5PcJ63xWUSOZx76xZAhdygYRkECs6R2U1zy.jpg?r=d9a",
+      "description": "In gritty, glamorous 1950s Los Angeles, three cops each have their own motives for digging deeper into a gruesome shooting that doesn't quite add up.",
+	"genre": ["drama", "thriller", "film-noir", "mystery"],
+    "link": "https://www.netflix.com/title/1154856",
+    "director": [{
+    "name": "Curtis Hanson",
+    "image": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcTTVGOFnuatXBvuyQlXLWd-uhgqkNhMhCCmcHiNsAhU9YfL-CjRtGHLjL5qVP17Yhi47lQJlPtD6gIga9Y",
+    "imdb": "https://www.imdb.com/name/nm0000436/",
+    }],
+    "actors": [{
+      "name": "Guy Pierce",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYzXcT3BKfuF0l_nE8R5nLfeGAULDsvuSFSG4YlP3ZHfn4rN3p",
+      "imdb": "https://www.imdb.com/name/nm0001602/",
+    }, {
+      "name": "Russell Crowe",
+      "image": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQQVu1IWPd39PkC0RTEJIXA3yW1ReLsHKPW2bz3b6Ja51Ycroi6htQO6uE90FmckK3KpN082yblaMb9bDs",
+      "imdb": "https://www.imdb.com/name/nm0000128/"
+    }, {
+      "name": "Kevin Spacey",
+      "image": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcTiyOulQsurY8yWv0QU0iGMagYmHcchpbMwH886xg98ySkrTPeLi6ptfXyIrbt6cOadxy0x8TldEiIntqU",
+      "imdb": "https://www.imdb.com/name/nm0000228/",
+    }]
+    },
+
+    {    
+      "item": "49",
+      "title": "The Nice Guys",
+      "runtime": "115",
+      "mpaa": "R",
+      "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABcdoI9wt06-b37uAmT-eoylZeffyB-oSDNTB-mr4VmKOYKhANjWcx3waQ7WBX6tiMLh25WJt6-mIILD0XmYbCz_EUqwmGmgNYTps.jpg?r=54f",
+      "description": "A private eye and a tough guy for hire get tangled up in the seamy side of 1970s Los Angeles as they investigate an adult film star's mysterious death.",
+	"genre": ["comedy", "action", "film-noir", "mystery"],
+    "link": "https://www.netflix.com/title/80049284",
+    "director": [{
+    "name": "Shane Black",
+    "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQbQwNNbC-aJN-JLsVzfK5zzSLnMtIVCCWVWQ6gqR7YHFm6l0A2IVR2McHb6tdbX1Z7jJIZE_HAz3UlZFM",
+    "imdb": "https://www.imdb.com/name/nm0000948/",
+    }],
+    "actors": [{
+      "name": "Ryan Gosling",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQo19mduM602yfQenqFCY0mcAVU-KFkgrnBJJ4O8F4gIM_SZIVX",
+      "imdb": "https://www.imdb.com/name/nm0331516/",
+    }, {
+      "name": "Russell Crowe",
+      "image": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQQVu1IWPd39PkC0RTEJIXA3yW1ReLsHKPW2bz3b6Ja51Ycroi6htQO6uE90FmckK3KpN082yblaMb9bDs",
+      "imdb": "https://www.imdb.com/name/nm0000128/"
+    }]
+    },
+
+
+    {    
+      "item": "50",
+      "title": "The Irishman",
+      "runtime": "210",
+      "mpaa": "R",
+      "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABcC0ciRFU88M-2UHTuCys-nlCoqzA-8gkOjXKZ07P9Af9AFFirq9Smsp_1Mpvsf1LQSP9mbk_M2YwKabjawBfGvskV36wOZ_s45Oi9yAznIF7j7GCOGHGw1BZ5onJwAsds6aRw.jpg?r=51e",
+      "description": "Hit man Frank Sheeran looks back at the secrets he kept as a loyal member of the Bufalino crime family in this acclaimed film from Martin Scorsese",
+	"genre": ["drama", "gangster"],
+    "link": "https://www.netflix.com/title/80175798",
+    "director": [{
+    "name": "Martin Scorcese",
+    "image": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcR1NJymJZn54PqU9sumBPD-jjHCZUugpfGsKqTYXfoQnuVnXu4isGUtC7ghUZwG2DWZq02eAdGG5bgNeUE",
+    "imdb": "https://www.imdb.com/name/nm0000217/",
+    }],
+    "actors": [{
+      "name": "Robert DeNiro",
+      "image": "https://www.usatoday.com/gcdn/presto/2020/08/17/USAT/7a0449c7-ffa8-450d-b65f-77a920a61757-Robert_De_Niro.JPG",
+      "imdb": "https://www.imdb.com/name/nm0000134/?ref_=tt_ov_st"
+    }, {
+      "name": "Joe Pesci",
+      "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRiAMltz7sjIK5gfzBWYiFQc6q6e6DfVQLWvTksNYlN8lk9KZUjftwWyWw8wCqcSmv4_y_3JU49gacKkV4",
+      "imdb": "https://www.imdb.com/name/nm0000582/"
+    }, {
+      "name": "Al Pacino",
+      "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSvNvCnfwhUJomL6srW4j0x21ntqd2R0HDGGyD-MLZA7OUZ52_3XZtjGq_B4G0dmM9-WfF0zMp6seOS_BM",
+      "imdb": "https://www.imdb.com/name/nm0000199/",
+    }]
+    },
+
+    {    
+      "item": "51",
       "title": "",
       "runtime": "",
       "mpaa": "",
@@ -1247,6 +1331,135 @@ const moviesArray = [
       "imdb": "",
     }]
     },
+
+    {    
+      "item": "52",
+      "title": "",
+      "runtime": "",
+      "mpaa": "",
+      "poster": "",
+      "description": "",
+	"genre": [""],
+    "link": "",
+    "director": [{
+    "name": "",
+    "image": "",
+    "imdb": "",
+    }],
+    "actors": [{
+      "name": "",
+      "image": "",
+      "imdb": "",
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": ""
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": "",
+    }]
+    },
+
+
+    {    
+      "item": "53",
+      "title": "",
+      "runtime": "",
+      "mpaa": "",
+      "poster": "",
+      "description": "",
+	"genre": [""],
+    "link": "",
+    "director": [{
+    "name": "",
+    "image": "",
+    "imdb": "",
+    }],
+    "actors": [{
+      "name": "",
+      "image": "",
+      "imdb": "",
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": ""
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": "",
+    }]
+    },
+
+
+    {    
+      "item": "54",
+      "title": "",
+      "runtime": "",
+      "mpaa": "",
+      "poster": "",
+      "description": "",
+	"genre": [""],
+    "link": "",
+    "director": [{
+    "name": "",
+    "image": "",
+    "imdb": "",
+    }],
+    "actors": [{
+      "name": "",
+      "image": "",
+      "imdb": "",
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": ""
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": "",
+    }]
+    },
+
+    {    
+      "item": "55",
+      "title": "",
+      "runtime": "",
+      "mpaa": "",
+      "poster": "",
+      "description": "",
+	"genre": [""],
+    "link": "",
+    "director": [{
+    "name": "",
+    "image": "",
+    "imdb": "",
+    }],
+    "actors": [{
+      "name": "",
+      "image": "",
+      "imdb": "",
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": ""
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": "",
+    }]
+    },
+
+
+
+
+
+
+
+
+
+
+
 
 
 
