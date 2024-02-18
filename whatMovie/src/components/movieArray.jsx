@@ -1306,59 +1306,59 @@ const moviesArray = [
 
     {    
       "item": "51",
-      "title": "",
-      "runtime": "",
-      "mpaa": "",
-      "poster": "",
-      "description": "",
-	"genre": [""],
-    "link": "",
+      "title": "Man Of Steel",
+      "runtime": "142",
+      "mpaa": "PG-13",
+      "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABUGkWwY8YxbqtC6mb-6btarGCUjNdpocKX-yx1YR5wwCAHGd5ooBwbClMk5xG4OTgcSFdmw1tMR599eTSdpp5LEfB7cAMdPgnqu1.jpg?r=628",
+      "description": "Drifter Clark Kent must keep his powers hidden from the world, but when an evil general plans to destroy Earth, the Man of Steel springs into action.",
+	"genre": ["science-fiction", "action", "comic-book"],
+    "link": "https://www.netflix.com/title/70264797",
     "director": [{
-    "name": "",
-    "image": "",
-    "imdb": "",
+      "name": "Zack Synder",
+      "image": "https://dnm.nflximg.net/api/v6/2DuQlx0fM4wd1nzqm5BFBi6ILa8/AAAAQRkG0o6H2e9srDoKgYVGPoqGMQGX2DpEahimbzps-XdXK2Qc_sby0nJiRw3V0bePHNFOGKK3PdNwy1Z825FXZwDjmxVEuYKYQlsRdnmEnmK0XIzCGQ-PHCNrD8wJVCvhOqggGXSKLFhPBK7DxoiMtrO9.jpg?r=4ca",
+      "imdb": "https://www.imdb.com/name/nm0811583/",
     }],
     "actors": [{
-      "name": "",
-      "image": "",
-      "imdb": "",
+      "name": "Henry Cavill",
+      "image": "https://people.com/thmb/ADnDFyFZo356CcxH-4zHTR9ExG0=/400x262/filters:no_upscale():max_bytes(150000):strip_icc():focal(719x9:721x11)/Henry-Cavill-Announces-Next-Project-After-Superman-Exit-Natalie-Viscuso-121622-1-95ca52d1d1c9429491654178637087ad.jpg",
+      "imdb": "https://www.imdb.com/name/nm0147147/",
     }, {
-      "name": "",
-      "image": "",
-      "imdb": ""
+      "name": "Amy Adams",
+      "image": "https://akns-images.eonline.com/eol_images/Entire_Site/2023718/rs_1200x1200-230818082417-1200.enchanted-premiere-amy-adams-thumbnail-tb-081823.jpg?fit=around%7C660:372&output-quality=90&crop=660:372;center,top",
+      "imdb": "https://www.imdb.com/name/nm0010736/"
     }, {
-      "name": "",
-      "image": "",
-      "imdb": "",
+      "name": "Michael Shannon",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRq4w4om64dz_90TYNuiu6sqEXWBN1Xoky_aV5hreDCTKg5c2iJ",
+      "imdb": "https://www.imdb.com/name/nm0788335/",
     }]
     },
 
     {    
       "item": "52",
-      "title": "",
-      "runtime": "",
-      "mpaa": "",
-      "poster": "",
+      "title": "Wonder Woman",
+      "runtime": "141",
+      "mpaa": "PG-13",
+      "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABd4KfGZ85jP3YUZ4DU5JTi9kTgYDk9FkBanIIEUmxQNFHD_Qyx1LMKgmO8d9wb1d55kJCO3Jjbtzwk5mmGgEP57PNbaI6sLrdKXq.jpg?r=34a",
       "description": "",
-	"genre": [""],
-    "link": "",
+	"genre": ["action", "fantasy", "war", "comic-book"],
+    "link": "https://www.netflix.com/title/80157091",
     "director": [{
-    "name": "",
-    "image": "",
-    "imdb": "",
+    "name": "Patty Jenkins",
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT_g013e6ri2TSJV4m0P4vjc_KdgQDtQ4Db44PGDYn3itA0ZDix",
+    "imdb": "https://www.imdb.com/name/nm0420941/",
     }],
     "actors": [{
-      "name": "",
-      "image": "",
-      "imdb": "",
+      "name": "Gal Gadot",
+      "image": "https://d.newsweek.com/en/full/2305821/gal-gadot.jpg",
+      "imdb": "https://www.imdb.com/name/nm2933757/",
     }, {
-      "name": "",
-      "image": "",
-      "imdb": ""
+      "name": "Chris Pine",
+      "image": "https://deadline.com/wp-content/uploads/2023/04/GettyImages-1482564450-e1701543056191.jpg",
+      "imdb": "https://www.imdb.com/name/nm1517976/"
     }, {
-      "name": "",
-      "image": "",
-      "imdb": "",
+      "name": "David Thewlis",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcShJkMx47boXb3zDT_ofOwhGa5QhCk8D_DGv7j8CLkGohb3L4Fh",
+      "imdb": "https://www.imdb.com/name/nm0000667/",
     }]
     },
 
