@@ -1189,6 +1189,37 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "47",
+      "title": "Jackie Brown",
+      "runtime": "154",
+      "mpaa": "R",
+      "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABeDM2ocWL45aTorVxoUWClZWNi8Zd8E4f_YT4WseCcBoRu_oR49cseR9cD7BbPGHPQb5vBHw8uve0Ru_yzYB72Bosjfvy0Drt59_.jpg?r=3a7",
+      "description": "A flight attendant is pressured into helping the FBI nab an arms dealer. But she'll need to play both sides to secure funds — and her future.",
+	"genre": ["drama", "thriller"],
+    "link": "https://www.netflix.com/title/60010514",
+    "director": [{
+    "name": "Quentin Tarantino",
+    "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTfp1z_B7M3pWBZ__wU1PSwBAhIZRd6MyxYbc_25PDvGs6MlzsTLejJDtdOh772ILYJch3Fn-hOq8woi-o",
+    "imdb": "https://www.imdb.com/name/nm0000233/",
+    }],
+    "actors": [{
+      "name": "Pam Grier",
+      "image": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQNnoCH7aLvly8daVv9XSxQOqSEQMXlosliMVbqm24VBJoH9S1OggVzll9eiTEx7JWkfM3tvlynmrWDYwc",
+      "imdb": "https://www.imdb.com/name/nm0000427/",
+    }, {
+      "name": "Robert Forster",
+      "image": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSVIoYFxVqE4aUCGWF3cPpeoOJgh-yYe8dACJXGns81moKd8JMU9cDIAl9FGgkEzBm2ccP4GaB1FlPmyyE",
+      "imdb": "https://www.imdb.com/name/nm0001233/"
+    }, {
+      "name": "Samuel L Jackson",
+      "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSz_lJ-KbT6_kugv-NHRDoMVxpXtuS2XoD53cD6j6n1sIohIo1Qf9ESbwAfN5OO_r4kj8_TxeN17dGr_rQ",
+      "imdb": "https://www.imdb.com/name/nm0000168/",
+    }]
+    },
+
+
+
 
 
 
