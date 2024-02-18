@@ -11,7 +11,7 @@ export default function RandomMovie() {
   };
 
   return (
-    <div style={{ marginTop: "10px", textAlign: "center" }}>
+    <div style={{ marginTop: "40px", textAlign: "center" }}>
       {randomMovie ? (
         <Card style={{ width: "80%", maxWidth: "600px", margin: "0 auto", marginTop: "20px" }}>
           <Card.Body>
