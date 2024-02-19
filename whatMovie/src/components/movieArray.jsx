@@ -1632,7 +1632,7 @@ const moviesArray = [
       "runtime": 113,
       "mpaa": "PG-13",
       "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABdKWBel72DhObcz1HOrOOiYGmB_6vR6O2rVBd3LHAJjHg0b7KBJB4s5c5qZ3z7JG9W7cJO6bvmCPMvoe-QM1MzmgiVagS-3d6OE.jpg?r=563",
-      "description": "https://www.netflix.com/title/80235214",
+      "description": "Looking back at her free-spirited mother’s life and dancing towards her next chapter, Sophie throws open the doors of the new Hotel Bella Donna.",
 	"genre": ["musical", "romance", "comedy"],
     "link": "https://www.netflix.com/title/80235214",
     "director": [{
