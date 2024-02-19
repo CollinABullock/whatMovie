@@ -1714,6 +1714,30 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "66",
+      "title": "Lights Out",
+      "runtime": 81,
+      "mpaa": "PG-13",
+      "poster": "https://occ-0-90-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABer1ZqFYh1CKVABaxS2TGi5PilOkzzTrSvnHzoyrzWV1NmWZmqzebsiITavwjKzwqnnv8Jm1MFp39oBd6ZbtPcPNKTybdbw3wEeK.jpg?r=2c8",
+      "description": "When a terrifying force arises from her family’s past, a woman must protect her young stepbrother from a spirit that kills its victims in the dark.",
+	"genre": ["horror"],
+    "link": "https://www.netflix.com/title/80084131",
+    "director": [{
+    "name": "David F. Sanberg",
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTYIqNlYD5bDLLVco_BGb9c74sq1ifUrAOq5mU9Y_JaMVnE4qCf",
+    "imdb": "https://www.imdb.com/name/nm2497546/?ref_=tt_ov_dr",
+    }],
+    "actors": [{
+      "name": "Teresa Palmer",
+      "image": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcTEyEOQnOECtGMZuu2RNmM-VPi3ksX96GaJqRkQSRO06m_g29gdstFJrRiz-dfuyA-4mt3iJsJdqa94nEY",
+      "imdb": "https://www.imdb.com/name/nm1954240/",
+    }, {
+      "name": "Gabriel Bateman,",
+      "image": "https://i.ytimg.com/vi/bGjAOzW959c/maxresdefault.jpg",
+      "imdb": "https://www.imdb.com/name/nm5145655/"
+    }]
+    },
 
 
 
