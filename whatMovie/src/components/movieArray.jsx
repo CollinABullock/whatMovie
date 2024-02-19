@@ -1626,6 +1626,35 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "63",
+      "title": "Mamma Mia:  Here We Go Again",
+      "runtime": 113,
+      "mpaa": "PG-13",
+      "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABdKWBel72DhObcz1HOrOOiYGmB_6vR6O2rVBd3LHAJjHg0b7KBJB4s5c5qZ3z7JG9W7cJO6bvmCPMvoe-QM1MzmgiVagS-3d6OE.jpg?r=563",
+      "description": "https://www.netflix.com/title/80235214",
+	"genre": ["musical", "romance", "comedy"],
+    "link": "https://www.netflix.com/title/80235214",
+    "director": [{
+    "name": "Ol Parker",
+    "image": "https://variety.com/wp-content/uploads/2019/06/ol-parker-the-giver-of-stars.jpg?w=1000",
+    "imdb": "https://www.imdb.com/name/nm0662530/",
+    }],
+    "actors": [{
+      "name": "Meryl Streep",
+      "image": "https://ew.com/thmb/OnGb568VYP6eVGvjYBDiZQTSQC4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Meryl-Streep-mamma-Mia-493688affb3e4be0a73d734baaec58e9.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000658/?ref_=tt_ov_st",
+    }, {
+      "name": "Amanda Seyfried",
+      "image": "https://www.hollywoodreporter.com/wp-content/uploads/2022/02/Amanda_Seyfried_David_Needleman_THR_A_369-Splash-2022.jpg?w=1024",
+      "imdb": "https://www.imdb.com/name/nm1086543/?ref_=tt_ov_st"
+    }, {
+      "name": "Lily James",
+      "image": "https://deadline.com/wp-content/uploads/2023/08/GettyImages-1388098661.jpg",
+      "imdb": "https://www.imdb.com/name/nm4141252/",
+    }]
+    },
+
 
 
 
