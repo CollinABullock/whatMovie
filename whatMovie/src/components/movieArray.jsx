@@ -1656,6 +1656,35 @@ const moviesArray = [
     },
 
 
+    {    
+      "item": "64",
+      "title": "Thanksgiving",
+      "runtime": 106,
+      "mpaa": "R",
+      "poster": "https://occ-0-90-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABeqp1toSi5fekSdgPvZBQFdBVKvyF2PLiF4xYj8tvUC-1qv8p8FVAqHj2W1tUpHA2hQybpHzIjUlnMlfkGT4fEl92x-QFlTbHFEh5gWQCiVDdbdtqFfWGixG29h-SPYcfa2HzBpvVkhsbqRGz0fMxTlOZUpdy0g68-KFIUCfzYUZeSJWmhrDIkPmO9ktm_mdHapL3mWZhYI_GjCfSvEV8yh6uvpU56Nn6YWod52FLbNjf5gfSEME7Q-t9AwIYmEe8dA8wuMybo7MCyuCW_8SzGP-6vSaq3Ca_0IysnrUxX8hoRIuyRtcaVWQjW6p5a36pVH20KnyrYYRWmH_QI7Sgmw.jpg?r=858",
+      "description": "One year after a Black Friday tragedy, a ruthless killer stalks Plymouth, Massachusetts, to exact bloody revenge — one complicit resident at a time.",
+	"genre": ["horror"],
+    "link": "https://www.netflix.com/title/81753224",
+    "director": [{
+    "name": "Eli Roth",
+    "image": "https://hips.hearstapps.com/hmg-prod/images/eli-roth-attends-the-pearl-premiere-during-the-2022-toronto-news-photo-1699902004.jpg?crop=1.00xw:0.335xh;0,0.0722xh&resize=1200:*",
+    "imdb": "https://www.imdb.com/name/nm0744834/",
+    }],
+    "actors": [{
+      "name": "Patrick Dempsey",
+      "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcS8CDscSygYmgcXVXr90v2H0XG-n12Z8CA52NkqcrtD8K_Awc3JSPOm3hZay_aSDIXoPGN3kpuU4ryF7vE",
+      "imdb": "https://www.imdb.com/name/nm0001131/",
+    }, {
+      "name": "Nell Verlaque",
+      "image": "https://netstorage-legit.akamaized.net/images/5f71e92b4696eec9.jpg?imwidth=900",
+      "imdb": "https://www.imdb.com/name/nm9321325/"
+    }, {
+      "name": "Rick Hoffman",
+      "image": "https://www.nickiswift.com/img/gallery/whatever-happened-to-suits-star-rick-hoffman/l-intro-1700243221.jpg",
+      "imdb": "https://www.imdb.com/name/nm0389069/",
+    }]
+    },
+
 
 
 
