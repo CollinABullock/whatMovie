@@ -1,22 +1,22 @@
 const moviesArray = [
-  [{"item": "1", "title": "John Wick", "runtime": "101", "description": "When a gangster's son steals his car and kills his dog, fearless ex-assassin John Wick takes on the entire mob to get his revenge.", "genre": ["Film Nour", "Action", "Adventure", "Violent", "Gritty"], "mpaa": "R", "poster": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABd82SjUzYAkpfT3wMv9DPApULQDaJGDEwZSDRkGP3x4UUk_66soLbnz9JGctOeact-aS1owjJoWYh73XU3nkO9KbNYnRpF4y14bv.jpg?r=dc8", "actors": [{"name": "Keanu Reeves", "image": "https://www.rollingstone.com/wp-content/uploads/2023/05/GettyImages-1493917424-2.jpg?w=1024", "imdb": "https://www.imdb.com/name/nm0000206/"}, {"name": "Michael Nyqvist", "image": "https://variety.com/wp-content/uploads/2017/06/michael-nyqvist-dead.jpg", "imdb": "https://www.imdb.com/name/nm0638824/"}, {"name": "Aflie Allen", "image": "https://static.foxnews.com/foxnews.com/content/uploads/2019/12/alfie-allen-getty.jpg"}], "link": "https://www.netflix.com/title/80013762", 
+  [{"item": "1", "title": "John Wick", "runtime": 101, "description": "When a gangster's son steals his car and kills his dog, fearless ex-assassin John Wick takes on the entire mob to get his revenge.", "genre": ["Film Nour", "Action", "Adventure", "Violent", "Gritty"], "mpaa": "R", "poster": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABd82SjUzYAkpfT3wMv9DPApULQDaJGDEwZSDRkGP3x4UUk_66soLbnz9JGctOeact-aS1owjJoWYh73XU3nkO9KbNYnRpF4y14bv.jpg?r=dc8", "actors": [{"name": "Keanu Reeves", "image": "https://www.rollingstone.com/wp-content/uploads/2023/05/GettyImages-1493917424-2.jpg?w=1024", "imdb": "https://www.imdb.com/name/nm0000206/"}, {"name": "Michael Nyqvist", "image": "https://variety.com/wp-content/uploads/2017/06/michael-nyqvist-dead.jpg", "imdb": "https://www.imdb.com/name/nm0638824/"}, {"name": "Aflie Allen", "image": "https://static.foxnews.com/foxnews.com/content/uploads/2019/12/alfie-allen-getty.jpg"}], "link": "https://www.netflix.com/title/80013762", 
   "director": [{
     "name": "Chad Stahelski",
     "image": "https://www.looper.com/img/gallery/john-wick-4-director-chad-stahelski-talks-the-franchises-past-future-and-more-exclusive-interview/l-intro-1679324141.jpg",
     "imdb": "https://www.imdb.com/name/nm0821432/",
     }]},
 
-  {"item": "2", "genre": ["thriller", "action", "adventure", "violent", "suspenseful", "sequel"], "title": "The Equalizer 3", "release-year": "2023", "runtime": "119", "mpaa": "R", "description": "Robert McCall vows to stop an Italian crime syndicate from brutalizing and extorting the residents of a small coastal town that has won his heart.", "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABXigXUjgvpYUaCNtoSXvdJ3MSjIQMsiHrJByYBdUvmVpW-s6Rc4lKY7VzVabpqAnXrG16_Scp9swRqGC_EO4cOV45udZ2H0sx1Q.jpg?r=653", "actors": [{"name": "Denzel Washington", "image": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2022%2F01%2Fdenzel-washington-the-equalizer-3-currently-in-the-works-confirmed-001.jpg?cbr=1&q=90", "imdb": "https://www.imdb.com/name/nm0000243/"}, {"name": "Dakota Fanning", "image": "https://www.etonline.com/sites/default/files/images/2016-03/1280_dakota_fanning_160309_514299728.jpg", "imdb": "https://www.imdb.com/name/nm0266824/"}], "link": "https://www.netflix.com/title/81674658",  "director": [{
+  {"item": "2", "genre": ["thriller", "action", "adventure", "violent", "suspenseful", "sequel"], "title": "The Equalizer 3", "release-year": "2023", "runtime": 119, "mpaa": "R", "description": "Robert McCall vows to stop an Italian crime syndicate from brutalizing and extorting the residents of a small coastal town that has won his heart.", "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABXigXUjgvpYUaCNtoSXvdJ3MSjIQMsiHrJByYBdUvmVpW-s6Rc4lKY7VzVabpqAnXrG16_Scp9swRqGC_EO4cOV45udZ2H0sx1Q.jpg?r=653", "actors": [{"name": "Denzel Washington", "image": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2022%2F01%2Fdenzel-washington-the-equalizer-3-currently-in-the-works-confirmed-001.jpg?cbr=1&q=90", "imdb": "https://www.imdb.com/name/nm0000243/"}, {"name": "Dakota Fanning", "image": "https://www.etonline.com/sites/default/files/images/2016-03/1280_dakota_fanning_160309_514299728.jpg", "imdb": "https://www.imdb.com/name/nm0266824/"}], "link": "https://www.netflix.com/title/81674658",  "director": [{
     "name": "Antoine Fuqua",
     "image": "https://deadline.com/wp-content/uploads/2021/12/Antoine-Fuqua-e1638564950313.jpg?w=681&h=383&crop=1",
     "imdb": "https://www.imdb.com/name/nm0298807/",
     }]},
 
-  {"item": "3", "title": "American Assassin", "runtime": "111", "description": "After grad student Mitch Rapp suffers a tragic loss during a terrorist attack, his single-minded thirst for vengeance catches the interest of the CIA.", "genre": ["action", "violent", "exciting"], "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABY3VqF_GQGCsH-rAC80jWpzSVJLq18ftK7H40hBgzSy2r8uLDP8qbR19oDz5-rxCq93cunozLRJd2ZeLLoL5Qz70ZsE_vsHnNaSlJyl9bM9ca68UnkRnnq16clBTmspIUIMeWZnlym26SrHxcCrsL5VGtIm8VbInOdE.jpg?r=8df", "actors": [{"name": "Dylan O'Brien", "image": "https://variety.com/wp-content/uploads/2022/03/Dylan-OBrien.jpg?w=1000", "imdb": "https://www.imdb.com/name/nm3729721/"}, {"name": "Michael Keaton", "image": "https://media.vanityfair.com/photos/62e92ee5e157986bb4f403e4/master/w_2560%2Cc_limit/1402978977", "imdb": "https://www.imdb.com/name/nm0000474/"}], "link": "https://www.netflix.com/title/80182951", "director": [{"name": "Michael Cuesta", "image": "https://i.ytimg.com/vi/LHNiRi5t_Ec/maxresdefault.jpg", "imdb": "https://www.imdb.com/name/nm0191147/?ref_=tt_ov_dr"}]},
+  {"item": "3", "title": "American Assassin", "runtime": 111, "description": "After grad student Mitch Rapp suffers a tragic loss during a terrorist attack, his single-minded thirst for vengeance catches the interest of the CIA.", "genre": ["action", "violent", "exciting"], "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABY3VqF_GQGCsH-rAC80jWpzSVJLq18ftK7H40hBgzSy2r8uLDP8qbR19oDz5-rxCq93cunozLRJd2ZeLLoL5Qz70ZsE_vsHnNaSlJyl9bM9ca68UnkRnnq16clBTmspIUIMeWZnlym26SrHxcCrsL5VGtIm8VbInOdE.jpg?r=8df", "actors": [{"name": "Dylan O'Brien", "image": "https://variety.com/wp-content/uploads/2022/03/Dylan-OBrien.jpg?w=1000", "imdb": "https://www.imdb.com/name/nm3729721/"}, {"name": "Michael Keaton", "image": "https://media.vanityfair.com/photos/62e92ee5e157986bb4f403e4/master/w_2560%2Cc_limit/1402978977", "imdb": "https://www.imdb.com/name/nm0000474/"}], "link": "https://www.netflix.com/title/80182951", "director": [{"name": "Michael Cuesta", "image": "https://i.ytimg.com/vi/LHNiRi5t_Ec/maxresdefault.jpg", "imdb": "https://www.imdb.com/name/nm0191147/?ref_=tt_ov_dr"}]},
 
-  {"item": "4", "title": "Ready Player One", "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABYvrba6Z7rACiS5YwCgXPpkSRwFpOyrD8Eqazld4fiJBtSP2qwTMV1YdwZ5rNQNX0-wW6JZHQn9f6KvPMTxw-kyuTpXmzqUN__uk2G3Xkgq5CBNsZ3j3piye6DMkzm09immx7vMMoEUQgvCBQlpqDQ4F5l1ooPUL12U.jpg?r=9fe", "runtime": "140", "description":  "In a world on the brink of collapse, a talented gamer takes the lead in a series of challenges to win ownership of a massive virtual reality universe.", "genre": ["action", "adventure", "science-fiction"], "actors": [{"name": "Tye Sheridan", "image": "https://media.gq.com/photos/61cb80223e3e89c4022d9a9e/16:9/w_2560%2Cc_limit/1153779397", "imdb": "https://www.imdb.com/name/nm4446467/"}, {"name": "Olivia Cooke", "image": "https://www.thetimes.co.uk/imageserver/image/%2Fmethode%2Ftimes%2Fprod%2Fweb%2Fbin%2F013b73be-328e-11e8-b10c-795428ac06a8.jpg?crop=5449%2C3065%2C16%2C244&resize=1200", "imdb": "https://www.imdb.com/name/nm4972453/"}, {"name": "Ben Mendelsohn", "image": "https://media.gq.com/photos/65bd17467747117a19fec483/master/w_2560%2Cc_limit/ben.jpg", "imdb": "https://www.imdb.com/name/nm0578853/"}], "link": "https://www.netflix.com/title/80211726", "director": [{"name": "Steven Spielberg", "image": "https://www.giantfreakinrobot.com/wp-content/uploads/2021/05/steven-spielberg.jpg", "imdb": "https://www.imdb.com/name/nm0000229/"}]},
+  {"item": "4", "title": "Ready Player One", "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABYvrba6Z7rACiS5YwCgXPpkSRwFpOyrD8Eqazld4fiJBtSP2qwTMV1YdwZ5rNQNX0-wW6JZHQn9f6KvPMTxw-kyuTpXmzqUN__uk2G3Xkgq5CBNsZ3j3piye6DMkzm09immx7vMMoEUQgvCBQlpqDQ4F5l1ooPUL12U.jpg?r=9fe", "runtime": 140, "description":  "In a world on the brink of collapse, a talented gamer takes the lead in a series of challenges to win ownership of a massive virtual reality universe.", "genre": ["action", "adventure", "science-fiction"], "actors": [{"name": "Tye Sheridan", "image": "https://media.gq.com/photos/61cb80223e3e89c4022d9a9e/16:9/w_2560%2Cc_limit/1153779397", "imdb": "https://www.imdb.com/name/nm4446467/"}, {"name": "Olivia Cooke", "image": "https://www.thetimes.co.uk/imageserver/image/%2Fmethode%2Ftimes%2Fprod%2Fweb%2Fbin%2F013b73be-328e-11e8-b10c-795428ac06a8.jpg?crop=5449%2C3065%2C16%2C244&resize=1200", "imdb": "https://www.imdb.com/name/nm4972453/"}, {"name": "Ben Mendelsohn", "image": "https://media.gq.com/photos/65bd17467747117a19fec483/master/w_2560%2Cc_limit/ben.jpg", "imdb": "https://www.imdb.com/name/nm0578853/"}], "link": "https://www.netflix.com/title/80211726", "director": [{"name": "Steven Spielberg", "image": "https://www.giantfreakinrobot.com/wp-content/uploads/2021/05/steven-spielberg.jpg", "imdb": "https://www.imdb.com/name/nm0000229/"}]},
 
-  {"item": "5", "title": "Meg 2: The Trench", "mpaa": "PG-13", "runtime": "115", "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABXA08yhKXmcOdp-3Fz7LCCvvkGEo7J0b-p-56FJzB4V8YvoRJrLJ9KGXDeKnIm-FnNtBeBrZa_c2zffyoOimR7b_tqVc0FGIbjA.jpg?r=cd5",
+  {"item": "5", "title": "Meg 2: The Trench", "mpaa": "PG-13", "runtime": 115, "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABXA08yhKXmcOdp-3Fz7LCCvvkGEo7J0b-p-56FJzB4V8YvoRJrLJ9KGXDeKnIm-FnNtBeBrZa_c2zffyoOimR7b_tqVc0FGIbjA.jpg?r=cd5",
   "description": "A research team encounters multiple threats while exploring the depths of the ocean, including a malevolent mining operation.",
   "genre": ["comedy", "action", "science-fiction", "sequel"],
   "link": "https://www.netflix.com/title/81670643",
@@ -36,7 +36,7 @@ const moviesArray = [
       "imdb": "https://www.imdb.com/name/nm0943104/?ref_=tt_cl_t_2",
     }]},
 
-  {"item": "6", "title": "Rebel Moon — Part One: A Child of Fire", "runtime": "136", "mpaa": "PG-13", "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABTb83RN3VhDCH8tVBV5GPva_qAulKy1DQclvAOCVza7Xe_Waz-TdBZsfAZB0vWxpY9ky8jV9HGzalrnDhT8XALZjaMAa6Mp2u7GNtK9WcWeYUpVt-0HunLKKeTNFxNfVs2w_.jpg?r=7c8", 
+  {"item": "6", "title": "Rebel Moon — Part One: A Child of Fire", "runtime": 136, "mpaa": "PG-13", "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABTb83RN3VhDCH8tVBV5GPva_qAulKy1DQclvAOCVza7Xe_Waz-TdBZsfAZB0vWxpY9ky8jV9HGzalrnDhT8XALZjaMAa6Mp2u7GNtK9WcWeYUpVt-0HunLKKeTNFxNfVs2w_.jpg?r=7c8", 
   "link": "https://www.netflix.com/title/81464239",
   "description": "When the ruthless forces of the Motherworld threaten a quiet farming village on a distant moon, a mysterious outsider becomes its best hope for survival.",
   "Director": [{
@@ -55,25 +55,9 @@ const moviesArray = [
       "imdb": "https://www.imdb.com/name/nm0005023/",
     }]},
 
-  {"item": "7", "title": "Hunter Killer", 
-  "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABfT9Ic9TKkum7wLhKIwz-OAQCDdLh8o91uykSzYY4uql-q9GbMLmBP6fjJhLZeZTJqmGr2eRV09gOdHqNtjQpvDav8tfCXUomvw.jpg?r=4c9", 
-  "runtime": "121", "description": "When the Russian president gets kidnapped in a coup, an American submarine captain leads a rescue mission in the hopes of avoiding all-out war.", "genre": ["action", "military", "exciting", "suspensful"], "mpaa": "R", "runtime": "121", "director": [{
-    "name": "Donovan Marsh",
-    "image": "https://media.gettyimages.com/id/114725255/photo/johannesburg-south-africa-south-african-filmmaker-donovan-marsh-poses-for-photograph-on-may-13.jpg?s=612x612&w=gi&k=20&c=DFr1V1o77803aCKrg1nt617OaI9LHHEkahXGi5tu3vM=",
-    "imdb": "https://www.imdb.com/name/nm1804518/?ref_=tt_ov_dr",
-    }],
-    "actors": [{
-      "name": "Sofia Boutella",
-      "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/12/13/15/sofia-boutella.jpg",
-      "imdb": "https://www.imdb.com/name/nm1154749/",
-    },
-    {
-      "name": "Djimon Hounsou",
-      "image": "https://deadline.com/wp-content/uploads/2023/03/Djimon-Honsou.jpg",
-      "imdb": "https://www.imdb.com/name/nm0005023/",
-    }]},
 
-  {"item": "8", "title": "Lucy", "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABTQyKvI3VeRem-3y8Gal7XK3zG-ZkMGkQ9Nt1kON_zJsY2keO4vEeqaEr00zZFERCUYpa1iDKMfa2rkDJ4ixsPq3s2wz-8KHJHc.jpg?r=dbf", "runtime": "89", "mpaa": "R", "genre": ["action", "science-fiction", "violent", "exciting"], "link": "https://www.netflix.com/title/70307658", 
+
+  {"item": "8", "title": "Lucy", "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABTQyKvI3VeRem-3y8Gal7XK3zG-ZkMGkQ9Nt1kON_zJsY2keO4vEeqaEr00zZFERCUYpa1iDKMfa2rkDJ4ixsPq3s2wz-8KHJHc.jpg?r=dbf", "runtime": 89, "mpaa": "R", "genre": ["action", "science-fiction", "violent", "exciting"], "link": "https://www.netflix.com/title/70307658", 
   "description": "A woman, accidentally caught in a dark deal, turns the tables on her captors and transforms into a merciless warrior evolved beyond human logic",
   "director": [{
     "name": "Luc Besson",
@@ -100,7 +84,7 @@ const moviesArray = [
   { 
     "item": "9",
     "title": "Desperado",
-    "runtime": "104",
+    "runtime": 104,
     "description": "To avenge the death of his girlfriend, a mysterious guitar player hunts down the villainous drug lord responsible and forces him to face the music.",
     "genre": ["action", "excting", "foreign", "Mexico", "sequel"],
     "mpaa": "R",
@@ -126,7 +110,7 @@ const moviesArray = [
     {    
       "item": "10",
       "title": "The Woman King",
-      "runtime": "135",
+      "runtime": 135,
       "mpaa": "PG-13",
       "genre": ["action", "adventure", "historical", "feminist"],
       "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABWmSM4caGjbMlGUBF8fAsHjJ7FsuibUYXwNOJj-dwWPUBiBDrDT2Fi7Sxba5VOYQCyfAC9uShz_z9A1EtpA5Jv_TU8qceM9YvH4.jpg?r=96f",
@@ -154,7 +138,7 @@ const moviesArray = [
     {    
       "item": "11",
       "title": "Bullet Train",
-      "runtime": "126",
+      "runtime": 126,
       "mpaa": "R",
       "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABdKD_7ZiQTuhiW2RKxTF7Z_YjUuid1J_13cAcINFMBFahgf067RXmvbLE6vqRzLq19JJgCqcc-gY3G9_QuW_ca62SJzIvh-IAzc.jpg?r=397",
       "description": "Five assassins board a Japanese bullet train bound for Kyoto and come to discover that their seemingly separate missions are mysteriously linked.",
@@ -183,7 +167,7 @@ const moviesArray = [
     {    
       "item": "12",
       "title": "Anaconda",
-      "runtime": "89",
+      "runtime": 89,
       "mpaa": "PG-13",
       "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABVcTCb2znlXwXdxh053xIazo-ESecP8gj3FDlTovc3yciASqfFWZaXMO3zuEQh2T0j339Kx53Hfs4RskMs2Nq5N4NlFiAF2AWMI.jpg?r=636",
       "description": "A documentary film crew on a boat in the Amazon picks up a mysterious stranger who dupes them into pursuing a monstrous and deadly 40-foot-long snake.",
@@ -212,7 +196,7 @@ const moviesArray = [
     {    
       "item": "13",
       "title": "Extraction 2",
-      "runtime": "22",
+      "runtime": 22,
       "mpaa": "R",
       "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABSWevXq-2HZjLz10nifg7t5eH4RqaVlnnDaCELyXFmw0oLvntZBXngdglBl5Iz7iuz43_W6lI0_96zmgIHIUMLMK8oUq5zfO9vyUFmFiXMVjKeSV17SbCayGl0M06QAsU0Wx.jpg?r=a98",
       "description": "Back from the brink of death, highly skilled commando Tyler Rake takes on another dangerous mission: saving the imprisoned family of a ruthless gangster.",
@@ -237,7 +221,7 @@ const moviesArray = [
     {    
       "item": "14",
       "title": "Extraction",
-      "runtime": "118",
+      "runtime": 118,
       "mpaa": "R",
       "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABeAGTIHwDqrikWfk98_xqZhnPzJoiufhjavBREs2mXPqX950ulbC7n9-_KOU_8PFJVT7Eb4wQdLeR6WnB6s3pO6BzrngTPrA9VRsSlIT0q2_Q6ouFyxn-AwEGdInqb2_jt26Gw.jpg?r=362",
       "description": "A hardened gun-for-hire's latest mission becomes a soul-searching race to survive when he's sent into Bangladesh to rescue a drug lord's kidnapped son.",
@@ -262,7 +246,7 @@ const moviesArray = [
     {    
       "item": "15",
       "title": "65",
-      "runtime": "92",
+      "runtime": 92,
       "mpaa": "PG-13",
       "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABYl2Ees15ICNqtuZkh3Ggm3sZZAIpOQEercxsv5OM0IeW0Z66HOBP-JVSnMjPrD5rdF-ueBsS4HnmeGIbCZ1dORA6XVwyq9KI-o.jpg?r=420",
       "description": "After surviving a crash landing, an astronaut and his passenger must outlast the perils of prehistoric Earth to reach their only hope for escape.",
@@ -287,7 +271,7 @@ const moviesArray = [
     {    
       "item": "16",
       "title": "The Meg",
-      "runtime": "113",
+      "runtime": 113,
       "mpaa": "PG-13",
       "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABaJLrF0O0oiu3lM1oAc5km8es_xCGHoczjV1GnQ6oHY9_JWnmup3y3nqKOid1BndRWAkxPMOse97q-2imuOs7S0TPmtmxJeRlcg.jpg?r=c5e",
       "description": "When an attack leaves a research crew trapped at the bottom of the sea, a rescue diver must face a massive predator long presumed extinct to save them",
@@ -316,7 +300,7 @@ const moviesArray = [
     {    
       "item": "17",
       "title": "Dredd",
-      "runtime": "95",
+      "runtime": 95,
       "mpaa": "R",
       "poster": "https://www.digitaltrends.com/wp-content/uploads/2023/09/Dredd-Karl-Urban.jpg?p=1",
       "description": "Enforcing the law in a violent dystopian society, Judge Dredd and a new trainee fight their way through a tower block to bring down a drug boss.",
@@ -347,7 +331,7 @@ const moviesArray = [
     {    
       "item": "18",
       "title": "Black Adam",
-      "runtime": "124",
+      "runtime": 124,
       "mpaa": "PG-13",
       "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABUCP2OWsUC_nT0_RY6hkC2AMYzGAs0KGgONfUSZ9v7_gxCLh1ykF9iIoHpIS8_blqx8b5oUI6bM-KZzAZXBeBgcghsng0UaGlBY.jpg?r=a31",
       "description": "Freed from his magical prison, a champion with the powers of the gods toes the line between good and evil as the Justice Society tries to contain him.",
@@ -372,7 +356,7 @@ const moviesArray = [
     {    
       "item": "19",
       "title": "Sausage Party",
-      "runtime": "88",
+      "runtime": 88,
       "mpaa": "R",
       "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABb_IuA-aEPrODgc-QO_s0MWtGCX4voxQelPoMZDghD3UUDnhfbzjIor6FX4vb_h5cbU43qy22QCcHAZHegyE3Fk6p_nChCpUKzA.jpg?r=09d",
       "description": "After making a gruesome discovery about life beyond the supermarket, an affable sausage strives to save his fellow foods in this raunchy comedy.",
@@ -401,7 +385,7 @@ const moviesArray = [
     {    
       "item": "20",
       "title": "Fury",
-      "runtime": "135",
+      "runtime": 135,
       "mpaa": "R",
       "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABRlU6_tZczRFnkjYyv78xlumQl17IlP2b2lNjDtA9KqsrfMv0lBTFpUyrTjjOINLPxcL36ZtWAEd2-4INO5A4w6jPaRWVYke5Ok.jpg?r=a18",
       "description": "In the chaotically violent final days of World War II, an American tank commander and his crew venture behind enemy lines on a life-or-death mission.",
@@ -430,7 +414,7 @@ const moviesArray = [
     {    
       "item": "21",
       "title": "The Other Guys",
-      "runtime": "107",
+      "runtime": 107,
       "mpaa": "PG-13",
       "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABYvlnLajzMSrdXBLsKXytXZhJJmhuxUISbr002ccLS5FfrqY5wnMbSHGTfeq-CTkuLTXIt9neN4hkvsFfeq-qDvx0Swnsf5mIKM.jpg?r=68f",
       "description": "Desperate to be the top cops on the force, two misfit detectives break free from their desk jobs and stumble onto the biggest case of their careers.",
@@ -459,7 +443,7 @@ const moviesArray = [
     {    
       "item": "22",
       "title": "Jurassic Park",
-      "runtime": "126",
+      "runtime": 126,
       "mpaa": "PG-13",
       "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABcVUa1bV4GFKwUFBxthBZjyMOJPkkg9RB9_uNOJBN7kG7zZX2JQ2kJrRr38EzvtP61bz-kxIbxbIjNBJPVdlENeMJkc2tKBAidw.jpg?r=9a8",
       "description": "Science, sabotage and prehistoric DNA collide when cloned dinosaurs escape their enclosures at a top-secret theme park and begin preying on the guests.",
