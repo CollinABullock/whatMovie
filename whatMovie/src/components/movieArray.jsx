@@ -1533,6 +1533,34 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "59",
+      "title": "Annie",
+      "runtime": "127",
+      "mpaa": "PG",
+      "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABZw-Zzc5ePeMyE6S7ad-a2toD_egED2rbZZ26tEVUah2BsZHqGiqcqkANM-2owaeM0cGcsu5vBMhr30MO9RrsyyvHRycFFiQHwEQ.jpg?r=dd2",
+      "description": "https://www.netflix.com/title/60031747",
+	"genre": ["kids", "musical"],
+    "link": "https://www.netflix.com/title/60031747",
+    "director": [{
+    "name": "John Huston",
+    "image": "https://cdn.britannica.com/45/177145-050-E4CC92B8/John-Huston-Chinatown-Jack-Nicholson-Roman-Polanski.jpg",
+    "imdb": "https://www.imdb.com/name/nm0001379/?ref_=tt_ov_dr",
+    }],
+    "actors": [{
+      "name": "Aileen Quinn",
+      "image": "https://nypost.com/wp-content/uploads/sites/2/2022/04/Aileen-Quinn-63-copy-2.jpg",
+      "imdb": "https://www.imdb.com/name/nm0703747/?ref_=tt_ov_st",
+    }, {
+      "name": "Albert Finney",
+      "image": "https://www.hollywoodreporter.com/wp-content/uploads/2017/07/before_the_devil_knows_youre_dead_albert_finney.jpg?w=1296",
+      "imdb": "https://www.imdb.com/name/nm0001215/?ref_=tt_ov_st"
+    }, {
+      "name": "Carol Burnett",
+      "image": "https://www.hollywoodreporter.com/wp-content/uploads/2020/03/carol_burnett.jpg?w=1024",
+      "imdb": "https://www.imdb.com/name/nm0000993/?ref_=tt_ov_st",
+    }]
+    },
 
 
 
