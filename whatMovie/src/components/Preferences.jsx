@@ -1,14 +1,15 @@
+// MoviePreferenceComponent.js
 import React, { useState } from 'react';
 
-export default function Preferences({ onRuntimeChange }) {
+export default function MoviePreferenceComponent({ onPreferenceChange }) {
   const [runtime, setRuntime] = useState(120); // default runtime
 
   const handleSliderChange = (event) => {
     setRuntime(event.target.value);
   };
 
-  const handleApplyPreferences = () => {
-    onRuntimeChange(runtime);
+  const handlePreferenceChange = () => {
+    onPreferenceChange(runtime);
   };
 
   return (
@@ -26,7 +27,7 @@ export default function Preferences({ onRuntimeChange }) {
         onChange={handleSliderChange}
       />
       <p>Max Runtime: {runtime} minutes</p>
-      <button onClick={handleApplyPreferences}>Apply Preferences</button>
+      <button onClick={handlePreferenceChange}>Apply Preferences</button>
     </div>
   );
 }

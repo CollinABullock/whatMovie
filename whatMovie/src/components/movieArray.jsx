@@ -1469,7 +1469,7 @@ const moviesArray = [
       "runtime": 86,
       "mpaa": "PG",
       "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABVMCae8ValL5fmp_ZRgI3_7VLZQKFaFt2jNZ-7XC5Yi5Ft4lZQMcyUbCBa9o62c9fywuiCg6yA_AtG_O_iGVF187o-G3ZcFdzAQ.jpg?r=05d",
-      "description": "https://www.netflix.com/title/292876",
+      "description": "A father reluctantly agrees to let his children keep a Saint Bernard puppy, but the playful pooch soon turns into a full-grown engine of destruction.",
 	"genre": ["kids", "comedy"],
     "link": "https://www.netflix.com/title/292876",
     "director": [{

@@ -1,13 +1,20 @@
 import { netflixArray } from './movieArray'; 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Card from 'react-bootstrap/Card';
 
-export default function RandomMovie() {
+export default function RandomMovie({selectedRuntime}) {
   const [randomMovie, setRandomMovie] = useState(null);
+  const [filteredMovies, setFilteredMovies] = useState([]);
+
+  useEffect(() => {
+    // Filter movies based on selected runtime
+    const filtered = netflixArray.filter(movie => movie.runtime <= selectedRuntime);
+    setFilteredMovies(filtered);
+  }, [selectedRuntime]);
 
   const handleRandomMovie = () => {
-    const randomIndex = Math.floor(Math.random() * netflixArray.length);
-    setRandomMovie(netflixArray[randomIndex]);
+    const randomIndex = Math.floor(Math.random() * filteredMovies.length);
+    setRandomMovie(filteredMovies[randomIndex]);
   };
 
   return (
