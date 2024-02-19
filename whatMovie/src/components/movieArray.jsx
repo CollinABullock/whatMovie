@@ -1587,6 +1587,30 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "61",
+      "title": "Burlesque",
+      "runtime": "119",
+      "mpaa": "PG-13",
+      "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABRyj2oD4-Bc05GbCyD-WeICLGEXMXwtkq1nZePy11Tt76rjHwrZ-L69bVd_WMy8Fwd9bYbGbnXjP1kztxiTwkPLZDg7DlfXn5ToR.jpg?r=8f1",
+      "description": "",
+	"genre": ["drama", "romance", "musical"],
+    "link": "https://www.netflix.com/title/70137790",
+    "director": [{
+    "name": "Steve Antin",
+    "image": "",
+    "imdb": "https://www.imdb.com/name/nm0031078/?ref_=tt_ov_dr",
+    }],
+    "actors": [{
+      "name": "Cher",
+      "image": "https://www.hollywoodreporter.com/wp-content/uploads/2023/12/GettyImages-1854395647-H-2023.jpg?w=1296",
+      "imdb": "https://www.imdb.com/name/nm0000333/?ref_=ttfc_fc_cl_t1"
+    }, {
+      "name": "	Christina Aguilera",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/christina-aguilera-lube-6426d2b8ee20f.jpg?crop=1xw:0.8433382137628112xh;center,top",
+      "imdb": "https://www.imdb.com/name/nm0000333/?ref_=ttfc_fc_cl_t1",
+    }]
+    },
 
 
 
