@@ -1480,31 +1480,27 @@ const moviesArray = [
     },
 
     {    
-      "item": "",
-      "title": "",
-      "runtime": "",
-      "mpaa": "",
-      "poster": "",
-      "description": "",
-	"genre": [""],
-    "link": "",
+      "item": "57",
+      "title": "Beethoven",
+      "runtime": "86",
+      "mpaa": "PG",
+      "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABVMCae8ValL5fmp_ZRgI3_7VLZQKFaFt2jNZ-7XC5Yi5Ft4lZQMcyUbCBa9o62c9fywuiCg6yA_AtG_O_iGVF187o-G3ZcFdzAQ.jpg?r=05d",
+      "description": "https://www.netflix.com/title/292876",
+	"genre": ["kids", "comedy"],
+    "link": "https://www.netflix.com/title/292876",
     "director": [{
-    "name": "",
-    "image": "",
-    "imdb": "",
+    "name": "Brian Levant",
+    "image": "https://static.wikia.nocookie.net/scoobydoo/images/3/33/Brian_Levant.png/revision/latest?cb=20130120182346",
+    "imdb": "https://www.imdb.com/name/nm0505152/?ref_=tt_ov_dr",
     }],
     "actors": [{
-      "name": "",
-      "image": "",
-      "imdb": "",
+      "name": "Charles Grodin",
+      "image": "https://dims.apnews.com/dims4/default/c0d141c/2147483647/strip/false/crop/1334x998+0+0/resize/1334x998!/quality/90/?url=https%3A%2F%2Fstorage.googleapis.com%2Fafs-prod%2Fmedia%2F978ef4e7c9f640c3a43625988e9c25df%2F1334.jpeg",
+      "imdb": "https://www.imdb.com/name/nm0001301/",
     }, {
-      "name": "",
-      "image": "",
-      "imdb": ""
-    }, {
-      "name": "",
-      "image": "",
-      "imdb": "",
+      "name": "Bonnie Hunt",
+      "image": "https://www.emmys.com/sites/default/files/photos-article/bonnie-hunt-900x600.jpg",
+      "imdb": "https://www.imdb.com/name/nm0001372/"
     }]
     },
 
