@@ -1050,7 +1050,7 @@ const moviesArray = [
     {    
       "item": "42",
       "title": "Blackhat",
-      "runtime": "132",
+      "runtime": 132,
       "mpaa": "R",
       "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABc18kOzBzoRQjWNuoE98J1wuEn7ctE2G8JhzszvTLV7gvhPr-Y8p1njiAiUtIRBFCnNaVyUo86MWYJFsuKy9ZHC71xXfnxMtheI.jpg?r=7a8",
       "description": "In exchange for his freedom, an imprisoned hacker agrees to help government agents track down the terrorist behind an explosion at a nuclear power plant.",
@@ -1075,7 +1075,7 @@ const moviesArray = [
     {    
       "item": "43",
       "title": "Joker",
-      "runtime": "121",
+      "runtime": 121,
       "mpaa": "R",
       "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABTYcZRD-94Zapbubx0PZiwLkQnlWn3pRfr2NABcEo0uAuo_E9Jfo8TtSrkoiPrCMf_oTkrs5JPBAZCRxabq0O0_Tj2aCsr9VmFc.jpg?r=e68",
       "description": "In 1981 Gotham City, a struggling, mentally ill comic battles to be seen. His life takes a dark, gut-wrenching turn after he lashes back at attackers.",
@@ -1104,7 +1104,7 @@ const moviesArray = [
     {    
       "item": "44",
       "title": "Boyz N The Hood",
-      "runtime": "112",
+      "runtime": 112,
       "mpaa": "R",
       "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABXCvB4mULiHXeIr9IMOFcvGgZtwr98YdxwBVZiAVuOHUvofoIbMiIGMmWmzc3x1u4w3KlxK-g4zmq0Qe4sl6gXbTtSoFCO03l1gI.jpg?r=f14",
       "description": "A high school student living with his stern, loving father in South Central Los Angeles gets drawn into the neighborhood's gangs, drugs and violence.",
@@ -1133,7 +1133,7 @@ const moviesArray = [
     {    
       "item": "45",
       "title": "Training Day",
-      "runtime": "122",
+      "runtime": 122,
       "mpaa": "R",
       "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABcc80J3zsl4KkTcmA8-DoEn9ShaehP1Gdc_UMe1-WsZHL27CiyxZnBDt7Nuj4y_t3gUxwkebU-MoVdOG6RoIUvmXruhlla4UgIx4.jpg?r=108",
       "description": "A rookie cop with one day to prove himself to a veteran LAPD narcotics officer receives a crash course in his mentor's questionable brand of justice.",
@@ -1156,7 +1156,7 @@ const moviesArray = [
     {    
       "item": "46",
       "title": "Gravity",
-      "runtime": "90",
+      "runtime": 90,
       "mpaa": "PG-13",
       "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABZg18wquH4ivi2STVibYaqLpp28cQw6Ea6oSE8OdfOKCn5bPu12UzyL8RXpgcBR1hnt-xz56j-iAYY-_Z49Vud81A96lAeqNdO2B.jpg?r=256",
       "description": "When debris destroys their shuttle, a medical engineer and a seasoned astronaut find themselves floating through space with no connection to Earth.",
@@ -1181,7 +1181,7 @@ const moviesArray = [
     {    
       "item": "47",
       "title": "Jackie Brown",
-      "runtime": "154",
+      "runtime": 154,
       "mpaa": "R",
       "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABeDM2ocWL45aTorVxoUWClZWNi8Zd8E4f_YT4WseCcBoRu_oR49cseR9cD7BbPGHPQb5vBHw8uve0Ru_yzYB72Bosjfvy0Drt59_.jpg?r=3a7",
       "description": "A flight attendant is pressured into helping the FBI nab an arms dealer. But she'll need to play both sides to secure funds — and her future.",
@@ -1210,7 +1210,7 @@ const moviesArray = [
     {    
       "item": "48",
       "title": "L.A. Confidential",
-      "runtime": "137",
+      "runtime": 137,
       "mpaa": "R",
       "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABST75AW5puvY6dCw1dp9Z4KvqbVqaAS8EYiMgIVZuRyzWYFg326WbsXMysnyc_jUx5PcJ63xWUSOZx76xZAhdygYRkECs6R2U1zy.jpg?r=d9a",
       "description": "In gritty, glamorous 1950s Los Angeles, three cops each have their own motives for digging deeper into a gruesome shooting that doesn't quite add up.",
@@ -1239,7 +1239,7 @@ const moviesArray = [
     {    
       "item": "49",
       "title": "The Nice Guys",
-      "runtime": "115",
+      "runtime": 115,
       "mpaa": "R",
       "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABcdoI9wt06-b37uAmT-eoylZeffyB-oSDNTB-mr4VmKOYKhANjWcx3waQ7WBX6tiMLh25WJt6-mIILD0XmYbCz_EUqwmGmgNYTps.jpg?r=54f",
       "description": "A private eye and a tough guy for hire get tangled up in the seamy side of 1970s Los Angeles as they investigate an adult film star's mysterious death.",
@@ -1265,7 +1265,7 @@ const moviesArray = [
     {    
       "item": "50",
       "title": "The Irishman",
-      "runtime": "210",
+      "runtime": 210,
       "mpaa": "R",
       "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABcC0ciRFU88M-2UHTuCys-nlCoqzA-8gkOjXKZ07P9Af9AFFirq9Smsp_1Mpvsf1LQSP9mbk_M2YwKabjawBfGvskV36wOZ_s45Oi9yAznIF7j7GCOGHGw1BZ5onJwAsds6aRw.jpg?r=51e",
       "description": "Hit man Frank Sheeran looks back at the secrets he kept as a loyal member of the Bufalino crime family in this acclaimed film from Martin Scorsese",
@@ -1294,7 +1294,7 @@ const moviesArray = [
     {    
       "item": "51",
       "title": "Man Of Steel",
-      "runtime": "142",
+      "runtime": 142,
       "mpaa": "PG-13",
       "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABUGkWwY8YxbqtC6mb-6btarGCUjNdpocKX-yx1YR5wwCAHGd5ooBwbClMk5xG4OTgcSFdmw1tMR599eTSdpp5LEfB7cAMdPgnqu1.jpg?r=628",
       "description": "Drifter Clark Kent must keep his powers hidden from the world, but when an evil general plans to destroy Earth, the Man of Steel springs into action.",
@@ -1323,7 +1323,7 @@ const moviesArray = [
     {    
       "item": "52",
       "title": "Wonder Woman",
-      "runtime": "141",
+      "runtime": 141,
       "mpaa": "PG-13",
       "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABd4KfGZ85jP3YUZ4DU5JTi9kTgYDk9FkBanIIEUmxQNFHD_Qyx1LMKgmO8d9wb1d55kJCO3Jjbtzwk5mmGgEP57PNbaI6sLrdKXq.jpg?r=34a",
       "description": "A warrior princess leaves the relative safety of her sheltered island home in hopes of putting an end to a devastating war in the outside world.",
@@ -1353,7 +1353,7 @@ const moviesArray = [
     {    
       "item": "53",
       "title": "Wonder Woman 1984",
-      "runtime": "151",
+      "runtime": 151,
       "mpaa": "PG-13",
       "poster": "https://www.netflix.com/title/81198904",
       "description": "While working at the Smithsonian, secret superhero Diana Prince discovers the miracle — and menace — of a mysterious artifact’s staggering powers.",
@@ -1383,7 +1383,7 @@ const moviesArray = [
     {    
       "item": "54",
       "title": "The Outsider",
-      "runtime": "120",
+      "runtime": 120,
       "mpaa": "R",
       "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABbg3296Qv8PD5hfZRCWQbClwNFT1QaLqK19Tr6RBMExLoGlCXqiKCnWfAaLwYbByGZ_K1HK3wyCi4HRFB2XbJc6sAielGmPtQANenhkHPNiK_IYCpiG5N5z6z9NK396Smm1bDw.jpg?r=3f0",
       "description": "An American soldier imprisoned in postwar Japan enters the dark world of the yakuza, adopting their way of life in repayment for his freedom.",
@@ -1408,7 +1408,7 @@ const moviesArray = [
     {    
       "item": "55",
       "title": "Pacific Rim",
-      "runtime": "131",
+      "runtime": 131,
       "mpaa": "PG-13",
       "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABemdnFMMyhACmt8RYXCPivHIlGvqFLOKwLdBudWxtEPk5INIK1qm30y5vYZfoA3RhNIkL_DVKvKMG9fEElRnPaJdPNqNSSiFxgk.jpg?r=5c4",
       "description": "When the world's defenses fail against the threat of alien sea creatures, the task of saving the planet falls to a former pilot and a raw trainee.",
@@ -1437,7 +1437,7 @@ const moviesArray = [
     {    
       "item": "56",
       "title": "The Boss Baby",
-      "runtime": "97",
+      "runtime": 97",
       "mpaa": "PG",
       "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABZHnzonBe7rJTMz4EqVPkwS65oio9cGyFO_IJp8HWdOYT0gJDhXISMoLWo7GzvowHkBc7J8YE3CM0iEizVn7IJPa0Wj4eOy2kEc.jpg?r=860",
       "description": "A kid finds himself at the center of a sinister corporate plot when his parents bring home a baby who only talks business when they're not around.",
