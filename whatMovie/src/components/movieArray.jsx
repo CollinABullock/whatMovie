@@ -1437,7 +1437,7 @@ const moviesArray = [
     {    
       "item": "56",
       "title": "The Boss Baby",
-      "runtime": 97",
+      "runtime": 97,
       "mpaa": "PG",
       "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABZHnzonBe7rJTMz4EqVPkwS65oio9cGyFO_IJp8HWdOYT0gJDhXISMoLWo7GzvowHkBc7J8YE3CM0iEizVn7IJPa0Wj4eOy2kEc.jpg?r=860",
       "description": "A kid finds himself at the center of a sinister corporate plot when his parents bring home a baby who only talks business when they're not around.",
@@ -1466,7 +1466,7 @@ const moviesArray = [
     {    
       "item": "57",
       "title": "Beethoven",
-      "runtime": "86",
+      "runtime": 86,
       "mpaa": "PG",
       "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABVMCae8ValL5fmp_ZRgI3_7VLZQKFaFt2jNZ-7XC5Yi5Ft4lZQMcyUbCBa9o62c9fywuiCg6yA_AtG_O_iGVF187o-G3ZcFdzAQ.jpg?r=05d",
       "description": "https://www.netflix.com/title/292876",
@@ -1491,7 +1491,7 @@ const moviesArray = [
     {    
       "item": "58",
       "title": "Paddington",
-      "runtime": "95",
+      "runtime": 95,
       "mpaa": "PG",
       "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABTJ-URXraSKi9O0HJjsWfKZljaCyI5o9vkzO-h3GWJ9kKcsZKR9lrTs3lk_OsbpyxMwdv5jLljFm9cpG-yYmoMIue_RDI_Mq31dL.jpg?r=697",
       "description": "A lovable young bear from the jungles of Peru lands in London in search of a new home — and soon finds family while settling into city life.",
@@ -1520,7 +1520,7 @@ const moviesArray = [
     {    
       "item": "59",
       "title": "Annie",
-      "runtime": "127",
+      "runtime": 127,
       "mpaa": "PG",
       "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABZw-Zzc5ePeMyE6S7ad-a2toD_egED2rbZZ26tEVUah2BsZHqGiqcqkANM-2owaeM0cGcsu5vBMhr30MO9RrsyyvHRycFFiQHwEQ.jpg?r=dd2",
       "description": "https://www.netflix.com/title/60031747",
@@ -1549,7 +1549,7 @@ const moviesArray = [
     {    
       "item": "60",
       "title": "Elvis",
-      "runtime": "159",
+      "runtime": 159,
       "mpaa": "PG-13",
       "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABbW2t0Pn2A4mKJhQJ9ocHD7iUY1RaPNf-myGKBnCPyT7RvojKrrk_tLJ_nBU2iFRFwOWjJ4hDNv939kqS1o-PHAUTpV7XpmzyYg.jpg?r=383",
       "description": "Elvis Presley finds fame and fortune as the King of Rock and Roll while struggling to escape the control of his controversial manager.",
@@ -1574,7 +1574,7 @@ const moviesArray = [
     {    
       "item": "61",
       "title": "Burlesque",
-      "runtime": "119",
+      "runtime": 119,
       "mpaa": "PG-13",
       "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABRyj2oD4-Bc05GbCyD-WeICLGEXMXwtkq1nZePy11Tt76rjHwrZ-L69bVd_WMy8Fwd9bYbGbnXjP1kztxiTwkPLZDg7DlfXn5ToR.jpg?r=8f1",
       "description": "",
