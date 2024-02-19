@@ -1562,6 +1562,32 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "60",
+      "title": "Elvis",
+      "runtime": "159",
+      "mpaa": "PG-13",
+      "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABbW2t0Pn2A4mKJhQJ9ocHD7iUY1RaPNf-myGKBnCPyT7RvojKrrk_tLJ_nBU2iFRFwOWjJ4hDNv939kqS1o-PHAUTpV7XpmzyYg.jpg?r=383",
+      "description": "Elvis Presley finds fame and fortune as the King of Rock and Roll while struggling to escape the control of his controversial manager.",
+	"genre": ["drama", "biopic", "musical"],
+    "link": "https://www.netflix.com/title/81591116",
+    "director": [{
+      "name": "Baz Luhrmann",
+      "image": "https://variety.com/wp-content/uploads/2022/09/Collage-Maker-07-Sep-2022-09.59-AM.jpg",
+      "imdb": "https://www.imdb.com/name/nm0525303/?ref_=tt_ov_wr"
+    }],
+    "actors": [{
+      "name": "Austin Butler",
+      "image": "https://media.glamour.com/photos/65d0e42c2edbfa4a616b6a90/master/w_2560%2Cc_limit/1469454324",
+      "imdb": "https://www.imdb.com/name/nm2581521/",
+    }, {
+      "name": "Tom Hanks",
+      "image": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcSAH3LQht3_OypUB0nTtNJyUvK0Ioa0F5NdL5ICq_QLNe6D0-aCEFTrjuxecO3rPMXj0ZeXV2mHqjvshJo",
+      "imdb": "https://www.imdb.com/name/nm0000158/",
+    }]
+    },
+
+
 
 
 
