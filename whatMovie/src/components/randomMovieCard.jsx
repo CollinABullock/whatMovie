@@ -30,7 +30,7 @@ export default function RandomMovie() {
       ) : (
         <>
           <h1>What movie should you watch tonight?</h1>
-          <button onClick={handleRandomMovie}>Pick a random movie</button>
+          <button onClick={handleRandomMovie} style={{width: "60%", fontSize: "4em", backgroundColor: "red", color: "white", textShadow: "2px 2px 2px black", margin: "75px"}}>Pick a random movie</button>
         </>
       )}
     </div>

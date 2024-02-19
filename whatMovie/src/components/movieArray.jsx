@@ -55,7 +55,9 @@ const moviesArray = [
       "imdb": "https://www.imdb.com/name/nm0005023/",
     }]},
 
-  {"item": "7", "title": "Hunter Killer", "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABfT9Ic9TKkum7wLhKIwz-OAQCDdLh8o91uykSzYY4uql-q9GbMLmBP6fjJhLZeZTJqmGr2eRV09gOdHqNtjQpvDav8tfCXUomvw.jpg?r=4c9", "runtime": "121", "description": "When the Russian president gets kidnapped in a coup, an American submarine captain leads a rescue mission in the hopes of avoiding all-out war.", "genre": ["action", "military", "exciting", "suspensful"], "mpaa": "R", "runtime": "121", "director": [{
+  {"item": "7", "title": "Hunter Killer", 
+  "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABfT9Ic9TKkum7wLhKIwz-OAQCDdLh8o91uykSzYY4uql-q9GbMLmBP6fjJhLZeZTJqmGr2eRV09gOdHqNtjQpvDav8tfCXUomvw.jpg?r=4c9", 
+  "runtime": "121", "description": "When the Russian president gets kidnapped in a coup, an American submarine captain leads a rescue mission in the hopes of avoiding all-out war.", "genre": ["action", "military", "exciting", "suspensful"], "mpaa": "R", "runtime": "121", "director": [{
     "name": "Donovan Marsh",
     "image": "https://media.gettyimages.com/id/114725255/photo/johannesburg-south-africa-south-african-filmmaker-donovan-marsh-poses-for-photograph-on-may-13.jpg?s=612x612&w=gi&k=20&c=DFr1V1o77803aCKrg1nt617OaI9LHHEkahXGi5tu3vM=",
     "imdb": "https://www.imdb.com/name/nm1804518/?ref_=tt_ov_dr",
@@ -1477,6 +1479,34 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "",
+      "title": "",
+      "runtime": "",
+      "mpaa": "",
+      "poster": "",
+      "description": "",
+	"genre": [""],
+    "link": "",
+    "director": [{
+    "name": "",
+    "image": "",
+    "imdb": "",
+    }],
+    "actors": [{
+      "name": "",
+      "image": "",
+      "imdb": "",
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": ""
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": "",
+    }]
+    },
 
 
 
