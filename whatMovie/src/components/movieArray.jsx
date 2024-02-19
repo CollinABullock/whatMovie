@@ -1504,6 +1504,34 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "58",
+      "title": "Paddington",
+      "runtime": "95",
+      "mpaa": "PG",
+      "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABTJ-URXraSKi9O0HJjsWfKZljaCyI5o9vkzO-h3GWJ9kKcsZKR9lrTs3lk_OsbpyxMwdv5jLljFm9cpG-yYmoMIue_RDI_Mq31dL.jpg?r=697",
+      "description": "A lovable young bear from the jungles of Peru lands in London in search of a new home — and soon finds family while settling into city life.",
+	"genre": ["comedy", "kids", "fantasy"],
+    "link": "https://www.netflix.com/title/70305929",
+    "director": [{
+    "name": "Paul King",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTUxOTk3MzQ2MF5BMl5BanBnXkFtZTgwNDU4MTkwNDI@._V1_.jpg",
+    "imdb": "https://www.imdb.com/name/nm1653753/",
+    }],
+    "actors": [{
+      "name": "Ben Whishaw",
+      "image": "https://nypost.com/wp-content/uploads/sites/2/2022/01/ben-whishaw-q-bond-01.jpg?quality=75&strip=all",
+      "imdb": "https://www.imdb.com/name/nm0924210/",
+    }, {
+      "name": "Hugh Bonneville",
+      "image": "https://cdn.comedy.co.uk/images/library/people/900x450/h/hugh_bonneville.jpg",
+      "imdb": "https://www.imdb.com/name/nm0095017/"
+    }, {
+      "name": "Sally Hawkins",
+      "image": "https://deadline.com/wp-content/uploads/2023/07/GettyImages-635484128-e1690825268601.jpg",
+      "imdb": "https://www.imdb.com/name/nm1020089/",
+    }]
+    },
 
 
 
