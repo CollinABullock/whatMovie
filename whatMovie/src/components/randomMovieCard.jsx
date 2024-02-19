@@ -13,18 +13,18 @@ export default function RandomMovie() {
   return (
     <div style={{ marginTop: "40px", textAlign: "center" }}>
       {randomMovie ? (
-        <Card style={{ width: "100%", maxWidth: "600px", margin: "0 auto", marginTop: "200px", maxHeight: "1000px" }}>
+        <Card style={{ width: "100%", maxWidth: "600px", margin: "0 auto", marginTop: "200px", maxHeight: "1000px", backgroundColor: "#2d210d", color: "whitesmoke" }}>
           <Card.Body>
             <Card.Img src={randomMovie.poster} style={{ width: "100%", height: "auto", objectFit: "cover" }} />
-            <Card.Title><h1>{randomMovie.title}</h1></Card.Title>
-            <Card.Text style={{ textAlign: "start", fontFamily: "Helvetica" }}>
+            <Card.Title style={{padding: "10px"}}><h1>{randomMovie.title}</h1></Card.Title>
+            <Card.Text style={{ textAlign: "start", fontFamily: "Helvetica", padding: "10px" }}>
               <h3>{randomMovie.description}<br />
-              <div style={{ width: "100%", margin: "0 auto", padding: "10px", textAlign: "center" }}>
+              <div style={{ width: "100%", margin: "0 auto", padding: "20px", textAlign: "center" }}>
                 <a href={randomMovie.link}>Watch Now</a> // <a href="">More Details</a>
               </div>
               </h3>
             </Card.Text>
-            <button onClick={handleRandomMovie} style={{ backgroundColor: "red", fontSize: "1.5em" }}>I'm not feeling it, give me another</button>
+            <button onClick={handleRandomMovie} style={{ backgroundColor: "red", color: "white", textShadow: "2px 2px 2px black", fontSize: "1.5em" }}>I'm not feeling it, give me another</button>
           </Card.Body>
         </Card>
       ) : (
