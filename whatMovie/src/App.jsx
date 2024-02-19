@@ -16,8 +16,11 @@ function App() {
   return (
     <>
     <NavBar />
-    <MoviePreferenceComponent onPreferenceChange={handlePreferenceChange} />
+    
       <RandomMovie selectedRuntime={selectedRuntime} />
+
+      <MoviePreferenceComponent onPreferenceChange={handlePreferenceChange} />
+
     <Footer />
     </>
   )
