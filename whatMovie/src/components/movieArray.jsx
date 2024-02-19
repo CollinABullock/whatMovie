@@ -1739,6 +1739,34 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "67",
+      "title": "The Pope's Exorcist",
+      "runtime": 103,
+      "mpaa": "R",
+      "poster": "https://occ-0-90-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABaUtBOy1cBn4LcXdlqwFLqYQfHCWOFd2hGG-8DhuV51U0PdMAlETEeM0W_hO7dwl9HBG3cN1l8pfEMXx5035AnOTdq-vgHTAIIAY.jpg?r=947",
+      "description": "The Vatican's chief exorcist uncovers an evil unlike any he's ever faced when he investigates the possession of a boy living at an ancient Spanish abbey.",
+	"genre": ["horror"],
+    "link": "https://www.netflix.com/title/81641219",
+    "director": [{
+    "name": "Julius Avery",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY4OTg4MTIxOV5BMl5BanBnXkFtZTgwMzI2NjkzNjM@._V1_.jpg",
+    "imdb": "https://www.imdb.com/name/nm1170339/",
+    }],
+    "actors": [{
+      "name": "Russell Crowe",
+      "image": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQQVu1IWPd39PkC0RTEJIXA3yW1ReLsHKPW2bz3b6Ja51Ycroi6htQO6uE90FmckK3KpN082yblaMb9bDs",
+      "imdb": "https://www.imdb.com/name/nm0000128/"
+    }, {
+      "name": "Alexandra Essoe",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTliODdmNjMtNjM4OS00OGRhLTk2NzYtYzNlODkyYTlkMzc3XkEyXkFqcGdeQXRoaXJkLXBhcnR5LXZpZGVvLXVwZGF0ZXI@._V1_QL75_UX500_CR0,47,500,281_.jpg",
+      "imdb": "https://www.imdb.com/name/nm3012273/"
+    }, {
+      "name": "Franco Nero",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ-bp_dPfT-T0s6lOBmYcxK5de6qKpJaIlkMmE1HME3xCkYx2cK",
+      "imdb": "https://www.imdb.com/name/nm0626259/",
+    }]
+    },
 
 
 
