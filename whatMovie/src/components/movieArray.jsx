@@ -468,7 +468,7 @@ const moviesArray = [
     {    
       "item": "23",
       "title": "Cold Pursuit",
-      "runtime": "118",
+      "runtime": 118,
       "mpaa": "R",
       "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABdgN-I0_Dq-TAOKVQCqEkUfR-wYiA9eESTKjljr5-mVjzxIZYtT9aGhgc_5dP0BXxttxPYSS2JYswpVU3SDDW0IgDcLVBj87bKE.jpg?r=de8",
       "description": "When his son's mysterious death shakes up his quiet life, a snowplow driver targets a local drug cartel and sets out on a vengeful killing spree.",
@@ -497,7 +497,7 @@ const moviesArray = [
     {    
       "item": "24",
       "title": "Lone Survivor",
-      "runtime": "121",
+      "runtime": 121,
       "mpaa": "R",
       "poster": "https://occ-0-7091-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABbbg3Bew3zDbLq95y7dFb-NpUpr74gVza_peZnPwTcCLfX9KKxjd-mIJiR3f42WJuMfN9vSwu_xyJc4oS3HZa1tMs1z77o5pHGw.jpg?r=0f6",
       "description": "In the mountains of Afghanistan, a Navy SEAL fights for survival after his team's top-secret mission is compromised. Based on a true story.",
@@ -526,7 +526,7 @@ const moviesArray = [
     {    
       "item": "25",
       "title": "No Hard Feelings",
-      "runtime": "103",
+      "runtime": 103,
       "mpaa": "R",
       "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABdjIRcE2B9G7So_x32wF49c8psg9bFatBlH9ZSE1LX40CSzFeUhdS-UbI1KtE7ZQ1hTDTpXfZlB4Nb04sEwnWvC579S3eSA9Kmw.jpg?r=41e",
       "description": "A bartender who's down on her luck takes on an unusual challenge when a wealthy couple hires her to romance their socially awkward son.",
@@ -555,7 +555,7 @@ const moviesArray = [
     {    
       "item": "26",
       "title": "Minions",
-      "runtime": "90",
+      "runtime": 90,
       "mpaa": "G",
       "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABdaEMvIGiJT0glP97Iu-2yTFYZIIAyqcOaO0ooytpnMQFZtXdzBgaNwNdSc-5pqoRdyZP09ArxkCPVcNiKHB6B0-m87Lt3j3iVeCVMRMhWVseL8Y5wy4uNIyvAQr32D83PtnAIrkDsgYX9927jhbEoQh8XItxNUeNiI.jpg?r=7d5",
       "description": "Travel back in time with Kevin, Stuart and Bob in this prequel that follows the Minions as they try to win the favor of supervillain Scarlet Overkill.",
@@ -582,7 +582,7 @@ const moviesArray = [
     {    
       "item": "27",
       "title": "Neighbors",
-      "runtime": "96",
+      "runtime": 96,
       "mpaa": "R",
       "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABSPjZEJvQaaCgpI-ucUDFhZJXKCdbF3h1q4R0d9JVNcq5CmtlliVjAgvslRP9kWoOFhhUBNx5Xd3q7q3jbgpO0XzcYT-2RP-Bes.jpg?r=0bb",
       "description": "New parents Kelly and Mac find they aren't quite ready to embrace adulthood when they land in a messy war with the hard-partying fraternity next door.",
@@ -611,7 +611,7 @@ const moviesArray = [
     {    
       "item": "27",
       "title": "The Suicide Squad",
-      "runtime": "132",
+      "runtime": 132,
       "mpaa": "R",
       "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABU63O7mS5nRBhNeTpNlMkF_P8fndo7eQ6r2tB4bZoGxOJ5ZjJcH4U6J5g_7KjdsO4oBdDW4YNJ8BmytpXppd8HSpqfvc4mYhog8.jpg?r=48a",
       "description": "A dysfunctional squad of supervillains infiltrates a remote island on a mission to destroy a secret government experiment.",
@@ -640,7 +640,7 @@ const moviesArray = [
     {    
       "item": "28",
       "title": "Blazing Saddles",
-      "runtime": "92",
+      "runtime": 92,
       "mpaa": "R",
       "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABan-UMchxm7-rYwOOX6KbvoSD7kTEEHO6hjtg9wrt3TzUI617nim1C-hvxOUtZjo5lluu4U5wxaSWoLPZpqeTpw0sO1iKoER_rI.jpg?r=793",
       "description": "A greedy villain's scheme to destroy a frontier town by appointing a Black sheriff goes off the rails in Mel Brooks' outrageous Western spoof.",
@@ -665,7 +665,7 @@ const moviesArray = [
     {    
       "item": "29",
       "title": "School Of Rock",
-      "runtime": "109",
+      "runtime": 109,
       "mpaa": "PG-13",
       "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABQ_oVgCiaXkABSAjkDrwiddYBOinRQ3Q6XdRAOFOsiYWfDxR2zgjRGuEXkL6nDGCI_7uqq7i6pwQd1IVcrz0K95JV-V799m06ko.jpg?r=176",
       "description": "Posing as a schoolteacher, a down-on-his-luck guitarist secretly turns his class into a rock band — and shows them the liberating power of rock 'n' roll.",
@@ -689,7 +689,7 @@ const moviesArray = [
     {    
       "item": "29",
       "title": "Mamma Mia!",
-      "runtime": "108",
+      "runtime": 108,
       "mpaa": "PG-13",
       "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABSjhYa8x89TuapdPqtzCahGtxfrgNEWX_IChbnSn8GC9DEO7swlzSPc_OH7jl_6HR_HzEh4YmJlftU8chBH-49lNkiy383jLTo0.jpg?r=58e",
       "description": "A young woman invites three of her free-spirited mom's former flings to her Greek island wedding, hoping to discover which one of them is her father.",
@@ -718,7 +718,7 @@ const moviesArray = [
     {    
       "item": "30",
       "title": "Twins",
-      "runtime": "106",
+      "runtime": 106,
       "mpaa": "G",
       "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABVY_QnTCZXvDBeJSgy1q4zupeUOERLRjbvCuP8i2VXhJ1zEgEps9czOwJVvxu2dUdP12Iuq0DPU2Cd8Hib592ny3PqORMJaMYY0.jpg?r=40d",
       "description": "Separated at birth after a genetic experiment gone awry, long-lost twin brothers reunite in this comedy starring Arnold Schwarzenegger and Danny DeVito",
@@ -743,7 +743,7 @@ const moviesArray = [
     {    
       "item": "31",
       "title": "A Bad Mom's Christmas",
-      "runtime": "104",
+      "runtime": 104,
       "mpaa": "R",
       "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABXObR5eQlG4zRlefdTfrJJfYSNhYS-Zi670Dybl1UVN0EiMpvWaV5vtdeWQqOQu6tFsq8g_a5XnRZMgWzYPB6Bcjh-S3esIOhKU.jpg?r=612",
       "description": "Stressed-out moms Amy, Carla and Kiki are back, and the looming Christmas holiday gets even more daunting when their mothers show up for a visit.",
@@ -772,7 +772,7 @@ const moviesArray = [
     {    
       "item": "32",
       "title": "She's The Man",
-      "runtime": "105",
+      "runtime": 105,
       "mpaa": "PG-13",
       "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABR_IrfJfJu97SMQ6rldthXMbrpjwFvs4wSPayxO0oKj5mhli_3uHSzOxB0oEV5JdEDixtDPIhVhGtkESRN46EDigX9DuV4wQVlE.jpg?r=309",
       "description": "Teenager Viola tries to convince the students at her twin brother's school that she's actually him in this twist on Shakespeare's Twelfth Night.",
@@ -797,7 +797,7 @@ const moviesArray = [
     {    
       "item": "33",
       "title": "Meet The Parents",
-      "runtime": "107",
+      "runtime": 107,
       "mpaa": "PG-13",
       "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABfWNcA8VCMRTAhgVwUJ3O3_g8lpeCZafXh7mxsaOrzubrycs5hTWFQ-sNdEMiwDstHffJb0_GtXsz-piN4wKpnzW5RxwpWYy-GU.jpg?r=0a2",
       "description": "Greg Focker is ready to marry his girlfriend, but before he pops the question, he must win over her formidable father, a humorless former CIA agent.",
@@ -826,7 +826,7 @@ const moviesArray = [
     {    
       "item": "34",
       "title": "The House Bunny",
-      "runtime": "97",
+      "runtime": 97,
       "mpaa": "PG-13",
       "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABUlN5s3w66-zHL0eIUjJ8JwMaXvZ2AUPLGyg2NzJBNgJQeaOy18JqCOF0mnUcuZCNlFfrFafl_uxSt1Afoc5_NijesfXr3-cGLY.jpg?r=9ce",
       "description": "After getting dumped from the Playboy Mansion, aspiring centerfold Shelley signs on to make over the hopelessly uncool sisters of a struggling sorority.",
@@ -855,7 +855,7 @@ const moviesArray = [
     {    
       "item": "35",
       "title": "13 Going On 30",
-      "runtime": "97",
+      "runtime": 97,
       "mpaa": "PG-13",
       "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABeywrqOWuUiQGarXoeIVLhOc7E6re6JwBDfJmWUUsVL94O_7uVTQs8JxYKZc7Yw4jABG_X3JdKAdYkxfF1zuOvHheF95YXJBEeE.jpg?r=21d",
       "description": "Jenna Rink wishes she could just grow up after being humiliated at her 13th birthday party — only to wake up as a 30-year-old fashion magazine editor.",
@@ -880,7 +880,7 @@ const moviesArray = [
     {    
       "item": "36",
       "title": "My Best Friend's Wedding",
-      "runtime": "104",
+      "runtime": 104,
       "mpaa": "PG-13",
       "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABROYI1dmbpPy_EtDF8v1p76OAzHmZmrVS4Tm0CbF64Iw8Iy523vZjc3oXzyW749k7vow1d7juEcLj2JKgebtNHHe64iCZwsDP8Tl.jpg?r=bdf",
       "description": "Food critic Julianne does her sneaky best to sabotage her pal Michael's wedding to a wealthy college student after realizing she wants him for herself.",
@@ -909,7 +909,7 @@ const moviesArray = [
     {    
       "item": "37",
       "title": "She's All That",
-      "runtime": "95",
+      "runtime": 95,
       "mpaa": "PG-13",
       "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABQpkB9oRXj261sApVFLba9FOuWTB6F2kevZv9bJ105pCo0HlHPMF1ryw4jFtbQQCojux3MVPU4Wcx9kdG3nzdUhnNrcTEe9ZoEnj.jpg?r=3e1",
       "description": "High school class president Zack Siler makes a bet with his friends that he can turn artistic, bespectacled nobody Laney Boggs into prom queen.",
@@ -938,7 +938,7 @@ const moviesArray = [
     {    
       "item": "38",
       "title": "Don't Look Up",
-      "runtime": "143",
+      "runtime": 143,
       "mpaa": "R",
       "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABeEb2lWd-JuI5rSKjLf1xnqb1fGSWq3d2--CBkT2hVDFRnqP3JaUYtQf_FE-q1m5frfTNm1lnqZ-4brfdgLb980oFIbclAS5aCyJ32woJB1HYECfH5cAVPAyx5hCjUtVidIt.jpg?r=116",
       "description": "Two astronomers go on a media tour to warn humankind of a planet-killing comet hurtling toward Earth. The response from a distracted world: Meh.",
@@ -967,7 +967,7 @@ const moviesArray = [
     {    
       "item": "39",
       "title": "The Great Gatsby",
-      "runtime": "142",
+      "runtime": 142,
       "mpaa": "PG-13",
       "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABebyn8XblSaVJZ3514SdfNUQmdk0qVtlqKvsVnUHpnOobgt1z3dg8Qx07RXoB3Y_SozdDfxE7HTTGXIGiqDGrxMMNlROUgNNM5AQ.jpg?r=586",
       "description": "Fascinated by his mysterious and affluent neighbor, salesman Nick Carraway bears witness to Jay Gatsby's spiral into love and tragedy.",
@@ -996,7 +996,7 @@ const moviesArray = [
     {    
       "item": "40",
       "title": "Glass Onion, A Knives Out Mystery",
-      "runtime": "142",
+      "runtime": 142,
       "mpaa": "PG-13",
       "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABeOrhdb7Hx-4aOrI6LLOpeGdwn1sfzqJvMwV3CwAE9ixj1cXniTONYYrRspBQ520vn2TKNQtgKD6sTWPTt0AKIIjCLGYBLCRqDbq2jF59TtdFMeTH3s311TfeLuCId6DK_u63w.jpg?r=a9b",
       "description": "World-famous detective Benoit Blanc heads to Greece to peel back the layers of a mystery surrounding a tech billionaire and his eclectic crew of friends.",
@@ -1025,7 +1025,7 @@ const moviesArray = [
     {    
       "item": "41",
       "title": "Where The Crawdads Sing",
-      "runtime": "125",
+      "runtime": 125,
       "mpaa": "PG-13",
       "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABe1IDcnP_ikWJ55NXjTk_A-H7UiGtJpBU1bI4jsG62i6pKULPNOV_hPsuQkfZPkA3L5WlMfS_kOMMBKrdBpldqN2XE8dgvntw-s.jpg?r=c1a",
       "description": "A woman who grew up alone in the wild North Carolina marshes becomes a suspect in the murder of a well-to-do young man from the nearby town.",
