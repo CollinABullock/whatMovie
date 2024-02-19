@@ -15,12 +15,11 @@ export default function MoviePreferenceComponent({ onPreferenceChange }) {
   return (
     <div>
       <h2>Movie Preferences</h2>
-      <label htmlFor="runtimeSlider">Select maximum runtime:</label>
       <input
         type="range"
         id="runtimeSlider"
         name="runtime"
-        min="60"
+        min="90"
         max="240"
         step="15"
         value={runtime}

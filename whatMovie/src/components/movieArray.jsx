@@ -196,7 +196,7 @@ const moviesArray = [
     {    
       "item": "13",
       "title": "Extraction 2",
-      "runtime": 22,
+      "runtime": 123,
       "mpaa": "R",
       "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABSWevXq-2HZjLz10nifg7t5eH4RqaVlnnDaCELyXFmw0oLvntZBXngdglBl5Iz7iuz43_W6lI0_96zmgIHIUMLMK8oUq5zfO9vyUFmFiXMVjKeSV17SbCayGl0M06QAsU0Wx.jpg?r=a98",
       "description": "Back from the brink of death, highly skilled commando Tyler Rake takes on another dangerous mission: saving the imprisoned family of a ruthless gangster.",
@@ -1577,7 +1577,7 @@ const moviesArray = [
       "runtime": 119,
       "mpaa": "PG-13",
       "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABRyj2oD4-Bc05GbCyD-WeICLGEXMXwtkq1nZePy11Tt76rjHwrZ-L69bVd_WMy8Fwd9bYbGbnXjP1kztxiTwkPLZDg7DlfXn5ToR.jpg?r=8f1",
-      "description": "",
+      "description": "After leaving Iowa with stars in her eyes, Ali arrives at a Los Angeles burlesque lounge with dreams of taking the stage with her soaring voice.",
 	"genre": ["drama", "romance", "musical"],
     "link": "https://www.netflix.com/title/70137790",
     "director": [{
