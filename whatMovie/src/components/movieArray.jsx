@@ -1613,6 +1613,34 @@ const moviesArray = [
     },
 
 
+    {    
+      "item": "62",
+      "title": "Cats",
+      "runtime": 109,
+      "mpaa": "PG",
+      "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABdUUFHE-sXoE-3Jxh_e8yZN2csU0iCg9YgnesNdR58-GqxFrt1x1_OdiAvtIOlp3j8aPLG8Y0aik5NLLt48zUvA8ACdyqKsfWGI.jpg?r=d14",
+      "description": "Andrew Lloyd Webber’s iconic musical finds new life in this adaptation that follows a community of magical cats on the evening of their annual ball.",
+	"genre": ["drama", "musical", "nightmare"],
+    "link": "https://www.netflix.com/title/81140928",
+    "director": [{
+    "name": "Tom Hooper",
+    "image": "https://variety.com/wp-content/uploads/2019/12/tom-hooper.jpg",
+    "imdb": "https://www.imdb.com/name/nm0393799/",
+    }],
+    "actors": [{
+      "name": "Francesca Hayward",
+      "image": "https://images.prismic.io/royal-opera-house/7163d1c8-9fda-45b8-93ca-b888c965689f_Francesca+Hayward+in+Ondine_+photo+Andrej+Uspenski+ROH.jpg?auto=compress,format&rect=0,0,4689,3517&w=1280&h=960",
+      "imdb": "https://www.imdb.com/name/nm8667557/",
+    }, {
+      "name": "Jennifer Hudson",
+      "image": "https://static.independent.co.uk/2021/08/19/07/cats-jennifer-hudson.jpeg?width=1200",
+      "imdb": "https://www.imdb.com/name/nm1617685/"
+    }, {
+      "name": "Judi Dench",
+      "image": "https://static.standard.co.uk/s3fs-public/thumbnails/image/2017/11/07/16/damejudidench0711a.jpg?crop=8:5,smart&quality=75&auto=webp&width=960",
+      "imdb": "https://www.imdb.com/name/nm0001132/",
+    }]
+    },
 
 
 
