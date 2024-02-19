@@ -1685,6 +1685,34 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "65",
+      "title": "The Rental",
+      "runtime": 118,
+      "mpaa": "R",
+      "poster": "https://occ-0-90-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABc2Pp3uPW6y25WcK_3vZG-E5yH8eQsymEjA6brCkE25Fby7w2LDWjxkdj6VwtUczEOz12sNP5_yj55ORglc7hYm_gGpt2KWdc4Ps.jpg?r=8b3",
+      "description": "A dreamy weekend getaway at a gorgeous and remote seaside rental takes a nightmarish turn for two couples when their secrets emerge and fear creeps in.",
+	"genre": ["horror", "thriller"],
+    "link": "https://www.netflix.com/title/81224625",
+    "director": [{
+    "name": "Dave Franco",
+    "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQVGM4i5lk95Te-6hZ9TcECNSdi9z8CQTwUi1hrl8-BYICV_K-f",
+    "imdb": "https://www.imdb.com/name/nm2002649/",
+    }],
+    "actors": [{
+      "name": "Alison Brie",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ6id550x5T8hH4DQsm3JoTGwa7FmnXV7gNnOV28TJzZ1ASYxIt",
+      "imdb": "https://www.imdb.com/name/nm1555340/",
+    }, {
+      "name": "Dan Stevens",
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.thewrap.com%2Fdan-stevens-im-your-man%2F&psig=AOvVaw2KFZvCiYDFtv2aDcLDmlcn&ust=1708458026473000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCKi8yaKUuIQDFQAAAAAdAAAAABAD",
+      "imdb": "https://www.imdb.com/name/nm1405398/"
+    }, {
+      "name": "Jeremy Allen White",
+      "image": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcSU7xjIMwxfd0P2heBKC5efZhpWfSdE53vKUWmpbTLL4LSQWn_FxT1rDF04WgICaQGS_btfXkAYLz-zBIA",
+      "imdb": "https://en.wikipedia.org/wiki/Jeremy_Allen_White",
+    }]
+    },
 
 
 
