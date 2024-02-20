@@ -1847,7 +1847,30 @@ const moviesArray = [
     },]
     },
 
-
+{    
+      "item": "71",
+      "title": "Society Of The Snow",
+      "runtime": 145,
+      "mpaa": "R",
+      "poster": "https://occ-0-90-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABd8_5-idZGxed8deJqlDZAKD8ylJi4npoNBgmLl8LIdx2HRsXBYtFmobJYVCr1fg1QjrzQsY1Uc9-wWw1RpMnjoAg30rRBdfRQRsDL6hkQ1EFfmwikjyaJv5BXi6nnE1OnLsx_6eywS5deRuYlNvF-whkf7hLU_QDRnf0EEZaM5vqU-9dEFVMBD1Kp_gSLzB3mmBWcbb4D1j9fZZ6t5zmcycdRcQv9mF7A.jpg?r=e61",
+      "description": "Following a plane crash in the remote heart of the Andes, survivors join forces and become each other's best hope as they navigate their way back home.",
+	"genre": ["drama", "foreign"],
+    "link": "https://www.netflix.com/title/81268316",
+    "director": [{
+    "name": "JA Bayona",
+    "image": "https://www.indiewire.com/wp-content/uploads/2019/07/JA-Bayona.jpg",
+    "imdb": "https://www.imdb.com/name/nm1291105/?ref_=tt_ov_dr",
+    }],
+    "actors": [{
+      "name": "Enzo Vogrincic",
+      "image": "https://media.gq-magazine.co.uk/photos/65d2511d852ddbafe910164c/16:9/w_2560%2Cc_limit/240218_NETFLIX_ENZO_VOGRINCIC_SHOT_01_0083.jpg%2C240218_NETFLIX_ENZO_VOGRINCIC_SHOT_01_0083.jpg",
+      "imdb": "https://www.imdb.com/name/nm11193967/?ref_=tt_ov_st",
+    }, {
+      "name": "Agustín Pardella",
+      "image": "https://i0.wp.com/www.homosensual.com/wp-content/uploads/2024/01/agustin-pardella-actor-la-sociedad-de-la-nieve-transformacion-sin-playera-biografia-pareja-nando.jpg?fit=1280%2C720&ssl=1",
+      "imdb": "https://www.imdb.com/name/nm5542067/?ref_=tt_ov_st"
+    }]
+    },
 
 
 
