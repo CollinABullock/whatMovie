@@ -24,10 +24,11 @@ export default function RandomMovie({selectedRuntime}) {
           <Card.Body>
             <Card.Img src={randomMovie.poster} style={{ width: "100%", height: "auto", objectFit: "cover", marginBottom: "20px" }} />
                {/* Mapping through genres and rendering each genre */}
-      <div style={{ display: "flex", flexWrap: "wrap" }}>
-        {randomMovie.genre.map((genre, index) => (
-          <span key={index} style={{ marginRight: "5px" }}>{genre}</span>
-        ))}
+               <div style={{ display: "flex", flexWrap: "wrap" }}>
+              {randomMovie.genre && randomMovie.genre.map((genre, index) => (
+                <span key={index} style={{ marginRight: "5px" }}>{genre}</span>
+              ))}
+            </div>
       </div>
             <Card.Text style={{ textAlign: "start", fontFamily: "Helvetica"}}>
               <h3>{randomMovie.description}<br />

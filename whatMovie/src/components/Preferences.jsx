@@ -7,26 +7,28 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
   const [uniqueGenres, setUniqueGenres] = useState([])
 
   useEffect(() => {
-    onPreferenceChange(240);
+    onPreferenceChange(runtime);
     const genresSet = new Set();
     data.forEach(movie => {
-      if (movie.genre) { // Check if movie.genre is defined
+      if (movie.genre) {
         movie.genre.forEach(genre => {
           genresSet.add(genre);
         });
       }
     });
     setUniqueGenres(Array.from(genresSet));
-  }, [data, onPreferenceChange]);
+  }, [data, onPreferenceChange, runtime]);
   
   const handleSliderChange = (event) => {
-    setRuntime(event.target.value);
+    const value = event.target.value;
+    setRuntime(value);
+    localStorage.setItem('selectedRuntime', value);
   };
 
- const handlePreferenceChange = () => {
-    // Filter movies based on runtime and exclude the selected genre
+  const handlePreferenceChange = () => {
+    localStorage.setItem('selectedGenre', selectedGenre);
     const filteredData = data.filter(movie => {
-      return !movie.genre.includes(selectedGenre) && movie.runtime <= runtime;
+      return !movie.genre.some(genre => genre === selectedGenre) && movie.runtime <= runtime;
     });
     onPreferenceChange(filteredData);
   };
