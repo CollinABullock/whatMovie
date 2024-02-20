@@ -4,6 +4,7 @@ import RandomMovie from './components/randomMovieCard';
 import Footer from './components/footer';
 import MoviePreferenceComponent from './components/Preferences';
 import { useState, useEffect } from 'react';
+import { netflixArray } from './components/movieArray';
 
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
     
       <RandomMovie selectedRuntime={selectedRuntime} />
 
-      <MoviePreferenceComponent onPreferenceChange={handlePreferenceChange} />
+      <MoviePreferenceComponent onPreferenceChange={handlePreferenceChange} data={netflixArray}/>
 
     <Footer />
     </>
