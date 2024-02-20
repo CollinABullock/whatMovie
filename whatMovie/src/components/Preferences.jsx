@@ -29,7 +29,7 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
       <select id="genreSelect" value={selectedGenre} onChange={(e) => setSelectedGenre(e.target.value)}>
   <option value="">-- Select a Genre --</option>
   {data.map(movie => (
-    movie.genre.map(genre => (
+    movie.genre?.map(genre => (  // Use optional chaining operator here
       <option key={genre} value={genre}>{genre}</option>
     ))
   ))}
