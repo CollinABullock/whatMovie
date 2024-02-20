@@ -4,11 +4,20 @@ import React, { useState, useEffect } from 'react';
 export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
   const [runtime, setRuntime] = useState(240); // start with a default of the maximum so it doesn't filter anything out automatically
   const [selectedGenre, setSelectedGenre] = useState('')
+  const [uniqueGenres, setUniqueGenres] = useState([])
 
   useEffect(() => {
-    // Call onPreferenceChange with the maximum runtime when the component mounts so people can click right away
     onPreferenceChange(240);
-  }, [onPreferenceChange]);
+    const genresSet = new Set();
+    data.forEach(movie => {
+      if (movie.genre) { // Check if movie.genre is defined
+        movie.genre.forEach(genre => {
+          genresSet.add(genre);
+        });
+      }
+    });
+    setUniqueGenres(Array.from(genresSet));
+  }, [data, onPreferenceChange]);
   
   const handleSliderChange = (event) => {
     setRuntime(event.target.value);
@@ -27,13 +36,11 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
       <h2>Movie Preferences</h2>
       <label htmlFor="genreSelect">Select Genre to Exclude:</label>
       <select id="genreSelect" value={selectedGenre} onChange={(e) => setSelectedGenre(e.target.value)}>
-  <option value="">-- Select a Genre --</option>
-  {data.map(movie => (
-    movie.genre?.map(genre => (  // Use optional chaining operator here
-      <option key={genre} value={genre}>{genre}</option>
-    ))
-  ))}
-</select>
+        <option value="">-- Select a Genre --</option>
+        {uniqueGenres.map(genre => (
+          <option key={genre} value={genre}>{genre}</option>
+        ))}
+      </select>
       <br />
       <br />
       <input
