@@ -7,14 +7,25 @@ export default function RandomMovie({selectedRuntime}) {
   const [filteredMovies, setFilteredMovies] = useState([]);
 
   useEffect(() => {
+    // Ensure randomMovie is reset when filteredMovies change
+    setRandomMovie(null);
+  }, [filteredMovies]);
+
+  useEffect(() => {
     // Filter movies based on selected runtime
     const filtered = netflixArray.filter(movie => movie.runtime <= selectedRuntime);
     setFilteredMovies(filtered);
   }, [selectedRuntime]);
 
   const handleRandomMovie = () => {
-    const randomIndex = Math.floor(Math.random() * filteredMovies.length);
-    setRandomMovie(filteredMovies[randomIndex]);
+    // Ensure there are filtered movies to select from
+    if (filteredMovies.length > 0) {
+      const randomIndex = Math.floor(Math.random() * filteredMovies.length);
+      setRandomMovie(filteredMovies[randomIndex]);
+    } else {
+      // Handle case when there are no filtered movies
+      setRandomMovie(null);
+    }
   };
 
   return (
@@ -28,7 +39,7 @@ export default function RandomMovie({selectedRuntime}) {
               {randomMovie.genre && randomMovie.genre.map((genre, index) => (
                 <span key={index} style={{ marginRight: "5px" }}>{genre}</span>
               ))}
-            </div>
+
       </div>
             <Card.Text style={{ textAlign: "start", fontFamily: "Helvetica"}}>
               <h3>{randomMovie.description}<br />

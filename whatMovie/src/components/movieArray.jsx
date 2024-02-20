@@ -1523,7 +1523,7 @@ const moviesArray = [
       "runtime": 127,
       "mpaa": "PG",
       "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABZw-Zzc5ePeMyE6S7ad-a2toD_egED2rbZZ26tEVUah2BsZHqGiqcqkANM-2owaeM0cGcsu5vBMhr30MO9RrsyyvHRycFFiQHwEQ.jpg?r=dd2",
-      "description": "https://www.netflix.com/title/60031747",
+      "description": "It's a hard-knock life, but scrappy young Annie is driven by the dream of finding her parents and the promise of tomorrow.",
 	"genre": ["kids", "musical"],
     "link": "https://www.netflix.com/title/60031747",
     "director": [{
