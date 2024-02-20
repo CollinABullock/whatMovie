@@ -1822,6 +1822,31 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "70",
+      "title": "The Babadook",
+      "runtime": 93,
+      "mpaa": "R",
+      "poster": "https://occ-0-90-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABRNAvl0t10ynkBAt8HirOCFWl8Zab_Ku0gaieS8SrQCsY0CrkgbTRKRWpn6B-am5ru4hQ3mDy4BHat9vr6o8uW5F5yW8zsp61V7w.jpg?r=25b",
+      "description": "Sam's frequent tantrums turn sinister when a creepy children's book mysteriously appears in his room and he asks his mother, Do you want to die?",
+	"genre": ["horror", "drama"],
+    "link": "https://www.netflix.com/title/70300205",
+    "director": [{
+    "name": "Jennifer Kent",
+    "image": "https://www.hollywoodreporter.com/wp-content/uploads/2018/09/gettyimages-1027609614-h_2018.jpg?w=1296",
+    "imdb": "https://www.imdb.com/name/nm0448768/?ref_=tt_ov_dr",
+    }],
+    "actors": [{
+      "name": "Essie Davis",
+      "image": "https://media.npr.org/assets/img/2014/03/31/phryne2_custom-7475e3b06658722935c36e5813f20f815d7d8801.jpg",
+      "imdb": "https://www.imdb.com/name/nm0204583/?ref_=tt_ov_st",
+    }, {
+      "name": "Noah Wiseman",
+      "image": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iUJPjliUzh.c/v1/1200x800.jpg",
+      "imdb": "https://www.imdb.com/name/nm5231168/?ref_=tt_ov_st"
+    },]
+    },
+
 
 
 
