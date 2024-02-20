@@ -15,7 +15,9 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
         });
       }
     });
-    setUniqueGenres(Array.from(genresSet));
+    // Convert set to array and sort alphabetically
+    const sortedGenres = Array.from(genresSet).sort();
+    setUniqueGenres(sortedGenres);
   }, [data, onPreferenceChange, runtime]);
   
   const handleSliderChange = (event) => {
