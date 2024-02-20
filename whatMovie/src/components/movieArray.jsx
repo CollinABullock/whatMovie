@@ -12,7 +12,7 @@ const moviesArray = [
     "imdb": "https://www.imdb.com/name/nm0298807/",
     }]},
 
-  {"item": "3", "title": "American Assassin", "runtime": 111, "description": "After grad student Mitch Rapp suffers a tragic loss during a terrorist attack, his single-minded thirst for vengeance catches the interest of the CIA.", "genre": ["action", "violent", "exciting"], "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABY3VqF_GQGCsH-rAC80jWpzSVJLq18ftK7H40hBgzSy2r8uLDP8qbR19oDz5-rxCq93cunozLRJd2ZeLLoL5Qz70ZsE_vsHnNaSlJyl9bM9ca68UnkRnnq16clBTmspIUIMeWZnlym26SrHxcCrsL5VGtIm8VbInOdE.jpg?r=8df", "actors": [{"name": "Dylan O'Brien", "image": "https://variety.com/wp-content/uploads/2022/03/Dylan-OBrien.jpg?w=1000", "imdb": "https://www.imdb.com/name/nm3729721/"}, {"name": "Michael Keaton", "image": "https://media.vanityfair.com/photos/62e92ee5e157986bb4f403e4/master/w_2560%2Cc_limit/1402978977", "imdb": "https://www.imdb.com/name/nm0000474/"}], "link": "https://www.netflix.com/title/80182951", "director": [{"name": "Michael Cuesta", "image": "https://i.ytimg.com/vi/LHNiRi5t_Ec/maxresdefault.jpg", "imdb": "https://www.imdb.com/name/nm0191147/?ref_=tt_ov_dr"}]},
+  {"item": "3", "title": "American Assassin", "runtime": 111, "description": "After grad student Mitch Rapp suffers a tragic loss during a terrorist attack, his single-minded thirst for vengeance catches the interest of the CIA.", "genre": ["action", "violent"], "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABY3VqF_GQGCsH-rAC80jWpzSVJLq18ftK7H40hBgzSy2r8uLDP8qbR19oDz5-rxCq93cunozLRJd2ZeLLoL5Qz70ZsE_vsHnNaSlJyl9bM9ca68UnkRnnq16clBTmspIUIMeWZnlym26SrHxcCrsL5VGtIm8VbInOdE.jpg?r=8df", "actors": [{"name": "Dylan O'Brien", "image": "https://variety.com/wp-content/uploads/2022/03/Dylan-OBrien.jpg?w=1000", "imdb": "https://www.imdb.com/name/nm3729721/"}, {"name": "Michael Keaton", "image": "https://media.vanityfair.com/photos/62e92ee5e157986bb4f403e4/master/w_2560%2Cc_limit/1402978977", "imdb": "https://www.imdb.com/name/nm0000474/"}], "link": "https://www.netflix.com/title/80182951", "director": [{"name": "Michael Cuesta", "image": "https://i.ytimg.com/vi/LHNiRi5t_Ec/maxresdefault.jpg", "imdb": "https://www.imdb.com/name/nm0191147/?ref_=tt_ov_dr"}]},
 
   {"item": "4", "title": "Ready Player One", "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABYvrba6Z7rACiS5YwCgXPpkSRwFpOyrD8Eqazld4fiJBtSP2qwTMV1YdwZ5rNQNX0-wW6JZHQn9f6KvPMTxw-kyuTpXmzqUN__uk2G3Xkgq5CBNsZ3j3piye6DMkzm09immx7vMMoEUQgvCBQlpqDQ4F5l1ooPUL12U.jpg?r=9fe", "runtime": 140, "description":  "In a world on the brink of collapse, a talented gamer takes the lead in a series of challenges to win ownership of a massive virtual reality universe.", "genre": ["action", "adventure", "science-fiction"], "actors": [{"name": "Tye Sheridan", "image": "https://media.gq.com/photos/61cb80223e3e89c4022d9a9e/16:9/w_2560%2Cc_limit/1153779397", "imdb": "https://www.imdb.com/name/nm4446467/"}, {"name": "Olivia Cooke", "image": "https://www.thetimes.co.uk/imageserver/image/%2Fmethode%2Ftimes%2Fprod%2Fweb%2Fbin%2F013b73be-328e-11e8-b10c-795428ac06a8.jpg?crop=5449%2C3065%2C16%2C244&resize=1200", "imdb": "https://www.imdb.com/name/nm4972453/"}, {"name": "Ben Mendelsohn", "image": "https://media.gq.com/photos/65bd17467747117a19fec483/master/w_2560%2Cc_limit/ben.jpg", "imdb": "https://www.imdb.com/name/nm0578853/"}], "link": "https://www.netflix.com/title/80211726", "director": [{"name": "Steven Spielberg", "image": "https://www.giantfreakinrobot.com/wp-content/uploads/2021/05/steven-spielberg.jpg", "imdb": "https://www.imdb.com/name/nm0000229/"}]},
 
@@ -57,7 +57,7 @@ const moviesArray = [
 
 
 
-  {"item": "8", "title": "Lucy", "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABTQyKvI3VeRem-3y8Gal7XK3zG-ZkMGkQ9Nt1kON_zJsY2keO4vEeqaEr00zZFERCUYpa1iDKMfa2rkDJ4ixsPq3s2wz-8KHJHc.jpg?r=dbf", "runtime": 89, "mpaa": "R", "genre": ["action", "science-fiction", "violent", "exciting"], "link": "https://www.netflix.com/title/70307658", 
+  {"item": "8", "title": "Lucy", "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABTQyKvI3VeRem-3y8Gal7XK3zG-ZkMGkQ9Nt1kON_zJsY2keO4vEeqaEr00zZFERCUYpa1iDKMfa2rkDJ4ixsPq3s2wz-8KHJHc.jpg?r=dbf", "runtime": 89, "mpaa": "R", "genre": ["action", "science-fiction"], "link": "https://www.netflix.com/title/70307658", 
   "description": "A woman, accidentally caught in a dark deal, turns the tables on her captors and transforms into a merciless warrior evolved beyond human logic",
   "director": [{
     "name": "Luc Besson",
@@ -86,7 +86,7 @@ const moviesArray = [
     "title": "Desperado",
     "runtime": 104,
     "description": "To avenge the death of his girlfriend, a mysterious guitar player hunts down the villainous drug lord responsible and forces him to face the music.",
-    "genre": ["action", "excting", "foreign", "sequel"],
+    "genre": ["action", "sequel"],
     "mpaa": "R",
     "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABSevQRNdhAYxJc0cIiJIRvDVl52yCvdjv8Lp_SawSjxOKdTt4k6PDlmjSP_CN3pJ5L1Ha3_kLLzV9Nf862FhUCWX3X8wxwAqt2WV.jpg?r=78e",
     "link": "https://www.netflix.com/title/437266",
@@ -1412,7 +1412,7 @@ const moviesArray = [
       "mpaa": "PG-13",
       "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABemdnFMMyhACmt8RYXCPivHIlGvqFLOKwLdBudWxtEPk5INIK1qm30y5vYZfoA3RhNIkL_DVKvKMG9fEElRnPaJdPNqNSSiFxgk.jpg?r=5c4",
       "description": "When the world's defenses fail against the threat of alien sea creatures, the task of saving the planet falls to a former pilot and a raw trainee.",
-	"genre": ["science-ftcion", "action"],
+	"genre": ["science-fiction", "action"],
     "link": "https://www.netflix.com/title/70267241",
     "director": [{
     "name": "Guillermo del Toro",
