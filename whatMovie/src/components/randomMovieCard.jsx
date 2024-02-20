@@ -20,7 +20,7 @@ export default function RandomMovie({selectedRuntime}) {
   return (
     <div style={{ marginTop: "100px", textAlign: "center" }}>
       {randomMovie ? (
-        <Card style={{ width: "100%", maxWidth: "600px", margin: "0 auto", marginTop: "400px", maxHeight: "1000px", backgroundColor: "#2d210d", color: "whitesmoke" }}>
+        <Card style={{ width: "100%", maxWidth: "600px", margin: "0 auto", marginTop: "200px", maxHeight: "1000px", backgroundColor: "#2d210d", color: "whitesmoke" }}>
           <Card.Body>
             <Card.Img src={randomMovie.poster} style={{ width: "100%", height: "auto", objectFit: "cover" }} />
             
@@ -36,7 +36,7 @@ export default function RandomMovie({selectedRuntime}) {
         </Card>
       ) : (
         <>
-          <Card style={{backgroundColor: "#0D1F2D", alignItems: "center", marginTop: "300px"}}>
+          <Card style={{backgroundColor: "#0D1F2D", alignItems: "center", marginTop: "200px"}}>
           <h1 style={{color: "white", textShadow: "2px 2px 2px black"}}>What movie should you watch tonight?</h1>
           <button onClick={handleRandomMovie} style={{width: "60%", fontSize: "5em", backgroundColor: "red", color: "white", textShadow: "2px 2px 2px black", margin: "75px"}}>Pick a random movie</button>
           </Card>
