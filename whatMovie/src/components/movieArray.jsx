@@ -1,5 +1,5 @@
 const moviesArray = [
-  [{"item": "1", "title": "John Wick", "runtime": 101, "description": "When a gangster's son steals his car and kills his dog, fearless ex-assassin John Wick takes on the entire mob to get his revenge.", "genre": ["Film Nour", "action", "adventure", "Violent", "Gritty"], "mpaa": "R", "poster": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABd82SjUzYAkpfT3wMv9DPApULQDaJGDEwZSDRkGP3x4UUk_66soLbnz9JGctOeact-aS1owjJoWYh73XU3nkO9KbNYnRpF4y14bv.jpg?r=dc8", "actors": [{"name": "Keanu Reeves", "image": "https://www.rollingstone.com/wp-content/uploads/2023/05/GettyImages-1493917424-2.jpg?w=1024", "imdb": "https://www.imdb.com/name/nm0000206/"}, {"name": "Michael Nyqvist", "image": "https://variety.com/wp-content/uploads/2017/06/michael-nyqvist-dead.jpg", "imdb": "https://www.imdb.com/name/nm0638824/"}, {"name": "Aflie Allen", "image": "https://static.foxnews.com/foxnews.com/content/uploads/2019/12/alfie-allen-getty.jpg"}], "link": "https://www.netflix.com/title/80013762", 
+  [{"item": "1", "title": "John Wick", "runtime": 101, "description": "When a gangster's son steals his car and kills his dog, fearless ex-assassin John Wick takes on the entire mob to get his revenge.", "genre": ["film-noir", "action", "adventure", "violent", "gritty"], "mpaa": "R", "poster": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABd82SjUzYAkpfT3wMv9DPApULQDaJGDEwZSDRkGP3x4UUk_66soLbnz9JGctOeact-aS1owjJoWYh73XU3nkO9KbNYnRpF4y14bv.jpg?r=dc8", "actors": [{"name": "Keanu Reeves", "image": "https://www.rollingstone.com/wp-content/uploads/2023/05/GettyImages-1493917424-2.jpg?w=1024", "imdb": "https://www.imdb.com/name/nm0000206/"}, {"name": "Michael Nyqvist", "image": "https://variety.com/wp-content/uploads/2017/06/michael-nyqvist-dead.jpg", "imdb": "https://www.imdb.com/name/nm0638824/"}, {"name": "Aflie Allen", "image": "https://static.foxnews.com/foxnews.com/content/uploads/2019/12/alfie-allen-getty.jpg"}], "link": "https://www.netflix.com/title/80013762", 
   "director": [{
     "name": "Chad Stahelski",
     "image": "https://www.looper.com/img/gallery/john-wick-4-director-chad-stahelski-talks-the-franchises-past-future-and-more-exclusive-interview/l-intro-1679324141.jpg",
@@ -86,7 +86,7 @@ const moviesArray = [
     "title": "Desperado",
     "runtime": 104,
     "description": "To avenge the death of his girlfriend, a mysterious guitar player hunts down the villainous drug lord responsible and forces him to face the music.",
-    "genre": ["action", "excting", "foreign", "Mexico", "sequel"],
+    "genre": ["action", "excting", "foreign", "sequel"],
     "mpaa": "R",
     "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABSevQRNdhAYxJc0cIiJIRvDVl52yCvdjv8Lp_SawSjxOKdTt4k6PDlmjSP_CN3pJ5L1Ha3_kLLzV9Nf862FhUCWX3X8wxwAqt2WV.jpg?r=78e",
     "link": "https://www.netflix.com/title/437266",
@@ -142,7 +142,7 @@ const moviesArray = [
       "mpaa": "R",
       "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABdKD_7ZiQTuhiW2RKxTF7Z_YjUuid1J_13cAcINFMBFahgf067RXmvbLE6vqRzLq19JJgCqcc-gY3G9_QuW_ca62SJzIvh-IAzc.jpg?r=397",
       "description": "Five assassins board a Japanese bullet train bound for Kyoto and come to discover that their seemingly separate missions are mysteriously linked.",
-	"genre": ["action", "comedy", "offbeat", "Japan"],
+	"genre": ["action", "comedy"],
     "link": "https://www.netflix.com/title/81511779",
     "director": [{
     "name": "David Leitch",
@@ -360,7 +360,7 @@ const moviesArray = [
       "mpaa": "R",
       "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABb_IuA-aEPrODgc-QO_s0MWtGCX4voxQelPoMZDghD3UUDnhfbzjIor6FX4vb_h5cbU43qy22QCcHAZHegyE3Fk6p_nChCpUKzA.jpg?r=09d",
       "description": "After making a gruesome discovery about life beyond the supermarket, an affable sausage strives to save his fellow foods in this raunchy comedy.",
-	"genre": ["comedy", "animated"],
+	"genre": ["comedy", "animation"],
     "link": "https://www.netflix.com/title/80098100",
     "director": [{
     "name": "Conrad Vernon",
@@ -559,7 +559,7 @@ const moviesArray = [
       "mpaa": "G",
       "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABdaEMvIGiJT0glP97Iu-2yTFYZIIAyqcOaO0ooytpnMQFZtXdzBgaNwNdSc-5pqoRdyZP09ArxkCPVcNiKHB6B0-m87Lt3j3iVeCVMRMhWVseL8Y5wy4uNIyvAQr32D83PtnAIrkDsgYX9927jhbEoQh8XItxNUeNiI.jpg?r=7d5",
       "description": "Travel back in time with Kevin, Stuart and Bob in this prequel that follows the Minions as they try to win the favor of supervillain Scarlet Overkill.",
-	"genre": ["kids", "animated", "comedy"],
+	"genre": ["kids", "animation", "comedy"],
     "link": "https://www.netflix.com/title/80033394",
     "director": [{
     "name": "Pierre Coffin",
