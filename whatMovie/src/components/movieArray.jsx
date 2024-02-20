@@ -1793,6 +1793,34 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "69",
+      "title": "Beverly Hills Cop",
+      "runtime": 105,
+      "mpaa": "R",
+      "poster": "https://occ-0-90-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABb-hMhh658rwyOnSYGhbYbj4jf09kKZukwNX627q2--lET_OewLVTyoxH07Gx84_HdhGbbc3NSouBrxO2BK17IvtIUWwhqwk7L4r.jpg?r=ad4",
+      "description": "",
+	"genre": ["comedy", "action"],
+    "link": "https://www.netflix.com/title/60010139",
+    "director": [{
+    "name": "Martin Brest",
+    "image": "https://m.media-amazon.com/images/M/MV5BZmE0ODAyZGYtNTczNS00ZDc0LWFlMmQtMmZhOWRlNmZlYTYxXkEyXkFqcGdeQXVyMjA0MTYzNzI@._V1_.jpg",
+    "imdb": "https://www.imdb.com/name/nm0000976/",
+    }],
+    "actors": [{
+      "name": "Eddie Murphy",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ8fkdQvOZNVBowGHqmC6ZxWGY9C38ksf_oX6nCRbfkrxNyYxcX",
+      "imdb": "https://www.imdb.com/name/nm0000552/",
+    }, {
+      "name": "Judge Reinhold",
+      "image": "https://images.discovery-prod.axs.com/2023/12/uploadedimage_65708e005a38f.jpg",
+      "imdb": "https://www.imdb.com/name/nm0001662/"
+    }, {
+      "name": "Bronson Pinchot",
+      "image": "https://deadline.com/wp-content/uploads/2018/03/bronson-pinchot-2.jpg?w=670&h=383&crop=1",
+      "imdb": "https://www.imdb.com/name/nm0001621/",
+    }]
+    },
 
 
 
