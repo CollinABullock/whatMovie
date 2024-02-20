@@ -24,6 +24,21 @@ background-color: pink;
   }
 }
 
+.randomMovie {
+  width: 50%;
+  font-size: 5em; 
+  background-color: red;
+  color: whitesmoke; 
+  text-shadow: 2px 2px 2px black;  
+  margin: 50px;
+  @media (max-width: 768px) {
+    
+      width: 100%;
+      font-size: 3em;
+    
+  }
+}
+
 @font-face {
   font-family: "Poster";   
   src: local("PostersItalicPersonalUseBoldItalic-ALqx6"),
