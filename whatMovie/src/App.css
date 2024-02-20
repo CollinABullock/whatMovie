@@ -35,8 +35,16 @@ background-color: pink;
     
       width: 100%;
       font-size: 3em;
-    
   }
+}
+
+.randomCard {
+  margin: 0 auto;
+  margin-top: 400px;
+  @media (max-width: 768px) {
+    
+   margin-top: 25px;
+}
 }
 
 @font-face {
