@@ -1799,7 +1799,7 @@ const moviesArray = [
       "runtime": 105,
       "mpaa": "R",
       "poster": "https://occ-0-90-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABb-hMhh658rwyOnSYGhbYbj4jf09kKZukwNX627q2--lET_OewLVTyoxH07Gx84_HdhGbbc3NSouBrxO2BK17IvtIUWwhqwk7L4r.jpg?r=ad4",
-      "description": "",
+      "description": "When freewheeling Detroit detective Axel Foley tracks his friend's killer to sunny Beverly Hills, his street-smart attitude clashes with LA culture.",
 	"genre": ["comedy", "action"],
     "link": "https://www.netflix.com/title/60010139",
     "director": [{
