@@ -1,10 +1,9 @@
-// MoviePreferenceComponent.js
 import React, { useState, useEffect } from 'react';
 
 export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
-  const [runtime, setRuntime] = useState(240); // start with a default of the maximum so it doesn't filter anything out automatically
-  const [selectedGenre, setSelectedGenre] = useState('')
-  const [uniqueGenres, setUniqueGenres] = useState([])
+  const [runtime, setRuntime] = useState(localStorage.getItem('selectedRuntime') || 240);
+  const [selectedGenre, setSelectedGenre] = useState(localStorage.getItem('selectedGenre') || '');
+  const [uniqueGenres, setUniqueGenres] = useState([]);
 
   useEffect(() => {
     onPreferenceChange(runtime);
@@ -28,10 +27,13 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
   const handlePreferenceChange = () => {
     localStorage.setItem('selectedGenre', selectedGenre);
     const filteredData = data.filter(movie => {
-      return !movie.genre.some(genre => genre === selectedGenre) && movie.runtime <= runtime;
+      // Check if movie.genre is defined before using some method
+      const shouldBeFiltered = (!movie.genre || !movie.genre.some(genre => genre === selectedGenre)) && movie.runtime <= runtime;
+      return shouldBeFiltered;
     });
     onPreferenceChange(filteredData);
   };
+  
 
   return (
     <div>
