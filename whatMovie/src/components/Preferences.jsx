@@ -27,11 +27,13 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
       <h2>Movie Preferences</h2>
       <label htmlFor="genreSelect">Select Genre to Exclude:</label>
       <select id="genreSelect" value={selectedGenre} onChange={(e) => setSelectedGenre(e.target.value)}>
-        <option value="">-- Select a Genre --</option>
-        {data.map(movie => movie.genre.map(genre => (
-          <option key={genre} value={genre}>{genre}</option>
-        )))}
-      </select>
+  <option value="">-- Select a Genre --</option>
+  {data.map(movie => (
+    movie.genre.map(genre => (
+      <option key={genre} value={genre}>{genre}</option>
+    ))
+  ))}
+</select>
       <br />
       <br />
       <input

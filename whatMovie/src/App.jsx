@@ -20,7 +20,7 @@ function App() {
     
       <RandomMovie selectedRuntime={selectedRuntime} />
 
-      <MoviePreferenceComponent onPreferenceChange={handlePreferenceChange} data={netflixArray}/>
+      <MoviePreferenceComponent data={netflixArray} onPreferenceChange={handlePreferenceChange} />
 
     <Footer />
     </>
