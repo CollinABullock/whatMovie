@@ -1,10 +1,13 @@
 import { useState, useEffect } from 'react';
 import Card from 'react-bootstrap/Card';
+import Modal from 'react-bootstrap/Modal';
+import Button from 'react-bootstrap/Button';
 import { netflixArray } from './movieArray';
 
 export default function RandomMovie({ selectedRuntime, selectedGenres }) {
   const [randomMovie, setRandomMovie] = useState(null);
   const [filteredMovies, setFilteredMovies] = useState([]);
+  const [showModal, setShowModal] = useState(false);
 
   useEffect(() => {
     // Filter movies based on selected runtime
@@ -34,6 +37,14 @@ export default function RandomMovie({ selectedRuntime, selectedGenres }) {
     }
   };
 
+  const handleDetails = () => {
+setShowModal(true);
+  };
+
+  const handleModalClose = () => {
+    setShowModal(false);
+  };
+
   return (
     <div style={{ marginTop: "100px", textAlign: "center" }}>
       {randomMovie ? (
@@ -48,7 +59,7 @@ export default function RandomMovie({ selectedRuntime, selectedGenres }) {
             <Card.Text style={{ textAlign: "start", fontFamily: "Helvetica"}}>
               <h3>{randomMovie.description}<br />
               <div style={{ width: "100%", margin: "0 auto", padding: "10px", textAlign: "center" }}>
-                <a href={randomMovie.link}>Watch Now</a>
+              <a href={randomMovie.link}>Watch Now</a> // <a onClick={handleDetails}>More Details</a>
               </div>
               </h3>
             </Card.Text>
@@ -61,6 +72,11 @@ export default function RandomMovie({ selectedRuntime, selectedGenres }) {
           <button className="randomMovie" onClick={handleRandomMovie}>Pick a random movie</button>
         </Card>
       )}
+      <Modal show={showModal} onHide={handleModalClose}>
+        <Modal.Header>
+          <h1>Fart</h1>
+        </Modal.Header>
+      </Modal>
     </div>
   );
 }
