@@ -56,14 +56,40 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
     <div>
       <h2>Movie Preferences</h2>
       <label htmlFor="genreSelect">What do you NOT want to see:  {selectedGenres.join(', ')}</label><br />
-      <select id="genreSelect" multiple value={selectedGenres} onChange={(e) => {
-  const selectedOptions = Array.from(e.target.selectedOptions, option => option.value);
-  setSelectedGenres(selectedOptions);
-}}>
-  {uniqueGenres.map(genre => (
-    <option key={genre} value={genre}>{genre}</option>
+      <select
+  id="genreSelect"
+  multiple
+  value={selectedGenres}
+  onChange={(e) => {
+    const selectedOptions = Array.from(
+      e.target.selectedOptions,
+      (option) => option.value
+    );
+    setSelectedGenres(selectedOptions);
+  }}
+  onClick={(e) => {
+    const selectedOption = e.target.value;
+    const selectedIndex = selectedGenres.indexOf(selectedOption);
+    let newSelectedGenres = [...selectedGenres];
+
+    if (selectedIndex === -1) {
+      // Genre not found, add it to the list
+      newSelectedGenres.push(selectedOption);
+    } else {
+      // Genre found, remove it from the list
+      newSelectedGenres.splice(selectedIndex, 1);
+    }
+
+    setSelectedGenres(newSelectedGenres);
+  }}
+>
+  {uniqueGenres.map((genre) => (
+    <option key={genre} value={genre}>
+      {genre}
+    </option>
   ))}
 </select>
+
       <br />
       <br />
       <input
