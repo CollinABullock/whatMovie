@@ -802,7 +802,7 @@ const moviesArray = [
       "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABfWNcA8VCMRTAhgVwUJ3O3_g8lpeCZafXh7mxsaOrzubrycs5hTWFQ-sNdEMiwDstHffJb0_GtXsz-piN4wKpnzW5RxwpWYy-GU.jpg?r=0a2",
       "description": "Greg Focker is ready to marry his girlfriend, but before he pops the question, he must win over her formidable father, a humorless former CIA agent.",
 	"genre": ["comedy", "romance"],
-    "link": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABfWNcA8VCMRTAhgVwUJ3O3_g8lpeCZafXh7mxsaOrzubrycs5hTWFQ-sNdEMiwDstHffJb0_GtXsz-piN4wKpnzW5RxwpWYy-GU.jpg?r=0a2",
+    "link": "https://www.netflix.com/title/60002139",
     "director": [{
     "name": "jay Roach",
     "image": "https://wrapwomen.thewrap.com/wp-content/uploads/2019/10/JAY-ROACH.jpg",

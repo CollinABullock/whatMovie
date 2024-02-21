@@ -56,11 +56,10 @@ setShowModal(true);
       return (
         <>
         <a href={link} target="_blank" rel="noopener noreferrer">
-          Watch on{' '}
             <img
               src="https://cdn.vox-cdn.com/thumbor/pNxD2NFOCjbljnMPUSGdkFWeDjI=/0x0:3151x2048/1400x788/filters:focal(1575x1024:1576x1025)/cdn.vox-cdn.com/uploads/chorus_asset/file/15844974/netflixlogo.0.0.1466448626.png"
               alt="Netflix Logo"
-              style={{ width: '50px', height: 'auto' }}
+              style={{ width: '75px', height: 'auto' }}
             />
           </a>
         </>
@@ -82,10 +81,10 @@ setShowModal(true);
             
             <Card.Text style={{ textAlign: "start", fontFamily: "Helvetica"}}>
               <h3>{randomMovie.description}<br />
-              <div style={{ width: "100%", margin: "0 auto", padding: "10px", textAlign: "center" }}>
-              {renderWatchOnLink()} // <a onClick={handleDetails} style={{ color: 'blue', cursor: 'pointer' }}>More Details</a>
-
-              </div>
+              <div style={{ width: "100%", margin: "0 auto", padding: "10px", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+              {renderWatchOnLink()}    
+              <a onClick={handleDetails} style={{ color: 'blue', cursor: 'pointer' }}>More Details</a>
+            </div>
               </h3>
             </Card.Text>
             <button onClick={handleRandomMovie} style={{ backgroundColor: "red", color: "white", textShadow: "2px 2px 2px black", fontSize: "1.25em" }}>I'm not feeling it, give me another</button>
@@ -97,11 +96,23 @@ setShowModal(true);
           <button className="randomMovie" onClick={handleRandomMovie}>Pick a random movie</button>
         </Card>
       )}
-      <Modal show={showModal} onHide={handleModalClose}>
-        <Modal.Header>
-          <h1>Fart</h1>
-        </Modal.Header>
-      </Modal>
+     <Modal show={showModal} onHide={handleModalClose}>
+  <Modal.Header closeButton>
+    <Modal.Title>{randomMovie ? randomMovie.title : 'Movie Title'}</Modal.Title>
+  </Modal.Header>
+  <Modal.Body>
+    {randomMovie && randomMovie.poster && (
+      <img src={randomMovie.poster} alt="Movie Poster" style={{ width: '100%', height: 'auto' }} />
+    )}
+    <p>{randomMovie ? randomMovie.description : 'No description available'}</p>
+    {/* Add more details as needed */}
+  </Modal.Body>
+  <Modal.Footer>
+    <Button variant="secondary" onClick={handleModalClose}>
+      Close
+    </Button>
+  </Modal.Footer>
+</Modal>
     </div>
   );
 }
