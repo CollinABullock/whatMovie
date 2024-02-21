@@ -1872,6 +1872,34 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "72",
+      "title": "Oldboy",
+      "runtime": 120,
+      "mpaa": "R",
+      "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABcs5uBmVeR6zx4w_IWff7wuw7WxmY_P2rd9swe4mVp-WBY37iwGUFPZGO9Uk14PmghrTOBZeh_Fj1yUR_P-VrAQKenXQwusjTjw.jpg?r=791",
+      "description": "With no clue how he came to be imprisoned, drugged and tortured for 15 years, a desperate businessman seeks revenge on his captors.",
+	"genre": ["foreign", "action", "drama"],
+    "link": "https://www.netflix.com/title/70024111",
+    "director": [{
+    "name": "Park Chan Wook",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/20130925%E2%80%94Park_Chan-wook_%EB%B0%95%EC%B0%AC%EC%9A%B1_Marie_Claire_Korea_photo_shoot_screenshot_%2800m01s%29_%28cropped%29.jpg/800px-20130925%E2%80%94Park_Chan-wook_%EB%B0%95%EC%B0%AC%EC%9A%B1_Marie_Claire_Korea_photo_shoot_screenshot_%2800m01s%29_%28cropped%29.jpg",
+    "imdb": "https://www.imdb.com/name/nm0661791/",
+    }],
+    "actors": [{
+      "name": "Choi Min-sik",
+    "image": "https://nextshark.b-cdn.net/wp-content/uploads/2023/02/Choi-Min-sik-Interview.jpg?width=1536&auto_optimize=medium",
+    "imdb": "https://www.imdb.com/name/nm0158856/?ref_=nv_sr_srsg_0_tt_0_nm_8_q_choi%2520min"
+    }, {
+      "name": "Yoo Ji-tae",
+      "image": "https://asianwiki.com/images/b/be/Yoo_Ji-Tae-1976-p1.jpeg",
+      "imdb": "https://www.imdb.com/name/nm0949167/"
+    }, {
+      "name": "Kang Hye-jeong",
+      "image": "https://m.media-amazon.com/images/M/MV5BOTNmNTZjMDgtYWMzMC00ZWUyLTk4ODYtMTA5NTYwNjU5ZmEwXkEyXkFqcGdeQXVyNzU1NzE3NTg@._V1_QL75_UX500_CR0,47,500,281_.jpg",
+      "imdb": "https://www.imdb.com/name/nm1367246/",
+    }]
+    },
 
 
 
