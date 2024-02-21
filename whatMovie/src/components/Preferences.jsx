@@ -48,13 +48,14 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
     sessionStorage.setItem('selectedGenres', JSON.stringify(selectedGenres));
     const filteredData = data.filter(movie => {
       // Check if movie.genre is defined before using some method
-      const shouldBeFiltered = (!movie.genre || !movie.genre.some(genre => selectedGenres.includes(genre))) && movie.runtime <= runtime;
-      return shouldBeFiltered;
+      const shouldBeFiltered = (!movie.genre || !selectedGenres.some(genre => movie.genre.includes(genre))) && movie.runtime <= runtime;
+      return !shouldBeFiltered;
     });
     onPreferenceChange(filteredData);
     // when preferences are applied, people are shown a (hopefully) aesthetically pleasing modal
     setShowModal(true);
   };
+  
 
   // moving the window reload to the close modal, which does make more sense.
   const handleCloseModal = () => {
