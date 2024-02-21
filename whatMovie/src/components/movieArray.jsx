@@ -1901,6 +1901,34 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "73",
+      "title": "All Quiet On The Western Front",
+      "runtime": 148,
+      "mpaa": "R",
+      "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABexIHhD-qlzBiG6GxCJ8XzTad2nxdnHw2bI67hdOv4mvI_uETIyyeSvS_dfet9WlZpRpUuWMfsBwn4ejLzdMpq0rT9EK84aneMR9Oh2XAvBUnUppt30xknoZff8RJo3ECRmC.jpg?r=af1",
+      "description": "When 17-year-old Paul joins the Western Front in World War I, his initial excitement is soon shattered by the grim reality of life in the trenches.",
+	"genre": ["war", "foreign"],
+    "link": "https://www.netflix.com/title/81260280",
+    "director": [{
+    "name": "Edward Berger",
+    "image": "https://www.imdb.com/name/nm0074163/",
+    "imdb": "https://www.imdb.com/name/nm0074163/?ref_=tt_ov_dr",
+    }],
+    "actors": [{
+      "name": "Felix Kammerer",
+      "image": "https://www.hollywoodreporter.com/wp-content/uploads/2022/11/Print-Issue-33A-rep_NBT-MAIN-Kammerer-Publicity-H-2022.jpg?w=1296",
+      "imdb": "https://www.imdb.com/name/nm0436835/",
+    }, {
+      "name": "Albrecht Schuch",
+      "image": "https://i.ytimg.com/vi/_Lwj_7dVlYU/maxresdefault.jpg",
+      "imdb": "https://www.imdb.com/name/nm3477129/"
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": "",
+    }]
+    },
 
 
 
