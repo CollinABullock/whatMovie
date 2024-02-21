@@ -40,7 +40,7 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
   return (
     <div>
       <h2>Movie Preferences</h2>
-      <label htmlFor="genreSelect">Select Genre to Exclude:</label>
+      <label htmlFor="genreSelect">What do you NOT want to see:  {selectedGenre}</label><br />
       <select id="genreSelect" value={selectedGenre} onChange={(e) => setSelectedGenre(e.target.value)}>
         <option value="">-- Select a Genre --</option>
         {uniqueGenres.map(genre => (
