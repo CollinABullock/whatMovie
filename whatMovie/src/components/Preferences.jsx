@@ -34,6 +34,8 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
       return shouldBeFiltered;
     });
     onPreferenceChange(filteredData);
+    window.alert('Preferences Applied'); // Display alert
+  window.location.reload(); // Reload the page
   };
   
 
