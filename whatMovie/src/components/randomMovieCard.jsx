@@ -102,7 +102,7 @@ setShowModal(true);
     <div className='modal-details'>
        {randomMovie && randomMovie.runtime && (<p>{randomMovie.runtime} minutes</p>)}
        {randomMovie && randomMovie.mpaa && (<p>{randomMovie.mpaa}</p>)}
-       {randomMovie.genre && randomMovie.genre.map((genre, index) => (
+       {randomMovie && randomMovie.genre.map((genre, index) => (
   <span key={index}>
     {genre}
     {index !== randomMovie.genre.length - 1 && ', '}
