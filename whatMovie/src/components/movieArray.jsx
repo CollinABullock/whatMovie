@@ -1932,7 +1932,7 @@ const moviesArray = [
       "runtime": 100,
       "mpaa": "R",
       "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABQyTxZBWueRw1ATbAkzB9pJLwFlN1YjOELTXwUaWlBOUkzx6FOZbneN_NsrjONARMMNBmEJ09MgwQmrdLSTTI41W0sdLtd7uXys.jpg?r=7d0",
-      "description": "https://www.netflix.com/title/70228043",
+      "description": "Trapped in a tenement building during a raid, a SWAT team must fight its way out against the forces of a drug lord they were trying to assassinate.",
 	"genre": ["foreign", "action"],
     "link": "https://www.netflix.com/title/70228043",
     "director": [{
