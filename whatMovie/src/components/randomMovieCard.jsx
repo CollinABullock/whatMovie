@@ -45,21 +45,46 @@ setShowModal(true);
     setShowModal(false);
   };
 
+  const renderWatchOnLink = () => {
+    if (!randomMovie) return null;
+
+    const { link } = randomMovie;
+    const url = new URL(link);
+    const { hostname } = url;
+
+    if (hostname === 'www.netflix.com') {
+      return (
+        <>
+        <a href={link} target="_blank" rel="noopener noreferrer">
+          Watch on{' '}
+            <img
+              src="https://cdn.vox-cdn.com/thumbor/pNxD2NFOCjbljnMPUSGdkFWeDjI=/0x0:3151x2048/1400x788/filters:focal(1575x1024:1576x1025)/cdn.vox-cdn.com/uploads/chorus_asset/file/15844974/netflixlogo.0.0.1466448626.png"
+              alt="Netflix Logo"
+              style={{ width: '50px', height: 'auto' }}
+            />
+          </a>
+        </>
+      );
+    }
+    return (
+      <>
+        <a href={link} style={{ color: 'blue', textDecoration: 'none', cursor: 'pointer' }}>Watch Now</a>
+      </>
+    );
+  };
+
   return (
     <div style={{ marginTop: "100px", textAlign: "center" }}>
       {randomMovie ? (
         <Card className="randomCard" style={{ width: "100%", maxWidth: "600px", maxHeight: "1000px", backgroundColor: "#2d210d", color: "whitesmoke", borderRadius: "30px" }}>
           <Card.Body>
             <Card.Img src={randomMovie.poster} style={{ width: "100%", height: "auto", objectFit: "cover", marginBottom: "20px" }} />
-            <div style={{ display: "flex", flexWrap: "wrap" }}>
-              {randomMovie.genre && randomMovie.genre.map((genre, index) => (
-                <span key={index} style={{ marginRight: "5px" }}>{genre}</span>
-              ))}
-            </div>
+            
             <Card.Text style={{ textAlign: "start", fontFamily: "Helvetica"}}>
               <h3>{randomMovie.description}<br />
               <div style={{ width: "100%", margin: "0 auto", padding: "10px", textAlign: "center" }}>
-              <a href={randomMovie.link}>Watch Now</a> // <a onClick={handleDetails}>More Details</a>
+              {renderWatchOnLink()} // <a onClick={handleDetails} style={{ color: 'blue', cursor: 'pointer' }}>More Details</a>
+
               </div>
               </h3>
             </Card.Text>
