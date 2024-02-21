@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from 'react';
+import Modal from 'react-bootstrap/Modal';
+import Button from 'react-bootstrap/Button';
 
 export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
   const [runtime, setRuntime] = useState(localStorage.getItem('selectedRuntime') || 240);
   const [selectedGenre, setSelectedGenre] = useState(localStorage.getItem('selectedGenre') || '');
   const [uniqueGenres, setUniqueGenres] = useState([]);
+  const [showModal, setShowModal] = useState(false);
 
   useEffect(() => {
     onPreferenceChange(runtime);
@@ -34,8 +37,14 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
       return shouldBeFiltered;
     });
     onPreferenceChange(filteredData);
-    window.alert('Preferences Applied'); // Display alert
-  window.location.reload(); // Reload the page
+    // when preferences are applied, people are shown a (hopefully) asthetically pleasing modal
+    setShowModal(true);
+  };
+
+  // moving the window reload to the close modal, which does make more sense.
+  const handleCloseModal = () => {
+    setShowModal(false);
+    window.location.reload();
   };
   
 
@@ -63,6 +72,17 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
       />
       <p>Max Runtime: {runtime} minutes</p>
       <button onClick={handlePreferenceChange}>Apply Preferences</button>
+      <Modal style={{fontFamily: "Signwood", textShadow: "2px 2px 2px black", color: "white"}} show={showModal} onHide={handleCloseModal}>
+        <Modal.Header style={{backgroundColor: "red"}}>
+          <Modal.Title>Preferences Applied</Modal.Title>
+        </Modal.Header>
+        <Modal.Body style={{backgroundColor: "red"}}>You don't wanna see a {selectedGenre}, and you don't wanna watch a movie longer than {runtime} minutes.</Modal.Body>
+        <Modal.Footer style={{backgroundColor: "red"}}>
+          <Button variant="secondary" onClick={handleCloseModal}>
+            Close
+          </Button>
+        </Modal.Footer>
+      </Modal>
     </div>
   );
 }
