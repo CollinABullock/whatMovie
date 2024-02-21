@@ -96,9 +96,16 @@ setShowModal(true);
           <button className="randomMovie" onClick={handleRandomMovie}>Pick a random movie</button>
         </Card>
       )}
-     <Modal show={showModal} onHide={handleModalClose}>
-  <Modal.Header closeButton>
+     <Modal show={showModal} onHide={handleModalClose} style={{fontFamily: "Signwood"}}>
+  <Modal.Header>
     <Modal.Title>{randomMovie ? randomMovie.title : 'Movie Title'}</Modal.Title>
+    <div className='modal-details'>
+       {randomMovie && randomMovie.runtime && (<p>Runtime: {randomMovie.runtime} minutes</p>)}
+       {randomMovie && randomMovie.mpaa && (<p>MPAA Rating:  {randomMovie.mpaa}</p>)}
+       {randomMovie.genre && randomMovie.genre.map((genre, index) => (
+                <span key={index} style={{ marginRight: "5px" }}>{genre}</span>
+              ))}
+    </div>
   </Modal.Header>
   <Modal.Body>
     {randomMovie && randomMovie.poster && (
@@ -113,6 +120,7 @@ setShowModal(true);
     </Button>
   </Modal.Footer>
 </Modal>
+
     </div>
   );
 }
