@@ -1980,6 +1980,30 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "76",
+      "title": "Forgotten Love",
+      "runtime": 140,
+      "mpaa": "PG-13",
+      "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABX16_BH_o0489cxvwgG4aazyv6bc-GN_K1q5SnyX34cb-64jyhZ26f3IZL88AL2mdJvaAck4Rq5bgCkNHQCTD3i7PRe29py13KmxEQpZULlvOvm55eupz8zY5xYxarRsciLl.jpg?r=e4d",
+      "description": "A once-respected surgeon who's lost his family and his memory gets a chance at redemption when he reconnects with someone from his forgotten past.",
+	"genre": ["drama", "foreign"],
+    "link": "https://www.netflix.com/title/81516046",
+    "director": [{
+    "name": "Michal Gazda",
+    "image": "https://m.media-amazon.com/images/M/MV5BNjhmNTUwZGUtZWI0NS00YmRkLThiZjMtMWIzOGY2ZWU1ZGQxXkEyXkFqcGdeQXVyMTc4MzI2NQ@@._V1_.jpg",
+    "imdb": "https://www.imdb.com/name/nm3466405/",
+    }],
+    "actors": [{
+      "name": "Leszek Lichota",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPEBUVAJGmeriabxeMpk5FjXuCfL7r5KuI269fEZ8z860WmjV1",
+      "imdb": "https://www.imdb.com/name/nm2643206/",
+    }, {
+      "name": "Maria Kowalska",
+      "image": "https://ocdn.eu/pulscms-transforms/1/ly_k9kpTURBXy9lYWVmZjIyMDFjNmZkNDhlNTY2NmIxMDQ3YjczM2E3My5qcGeTlQMAAM0HgM0EOJUCzQSwAMPDkwmmNjAzMDViBt4AAaEwAQ/maria-kowalska-na-premierze-filmu-znachor.jpeg",
+      "imdb": "https://www.imdb.com/name/nm9951549/"
+    }]
+    },
 
 
 
