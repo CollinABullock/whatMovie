@@ -1,33 +1,10 @@
-import { netflixArray } from './movieArray'; 
 import { useState, useEffect } from 'react';
 import Card from 'react-bootstrap/Card';
+import { netflixArray } from './movieArray';
 
-export default function RandomMovie() {
+export default function RandomMovie({ selectedRuntime, selectedGenres }) {
   const [randomMovie, setRandomMovie] = useState(null);
   const [filteredMovies, setFilteredMovies] = useState([]);
-  const [selectedGenre, setSelectedGenre] = useState('');
-  const [selectedRuntime, setSelectedRuntime] = useState(240);
-
-  useEffect(() => {
-    // Retrieve selected runtime from local storage
-    const storedRuntime = sessionStorage.getItem('selectedRuntime');
-    if (storedRuntime) {
-      setSelectedRuntime(parseInt(storedRuntime));
-    }
-  }, []);
-
-  useEffect(() => {
-    // Retrieve selected genre from local storage
-    const storedGenre = sessionStorage.getItem('selectedGenre');
-    if (storedGenre) {
-      setSelectedGenre(storedGenre);
-    }
-  }, []);
-
-  useEffect(() => {
-    // Ensure randomMovie is reset when filteredMovies change
-    setRandomMovie(null);
-  }, [filteredMovies]);
 
   useEffect(() => {
     // Filter movies based on selected runtime
@@ -36,10 +13,11 @@ export default function RandomMovie() {
   }, [selectedRuntime]);
 
   const handleRandomMovie = () => {
-    // Filter movies based on selected runtime and genre
+    // Filter movies based on selected runtime and genres
     let filtered = filteredMovies.filter(movie => movie.runtime <= selectedRuntime);
-    if (selectedGenre) {
-      filtered = filtered.filter(movie => !movie.genre.includes(selectedGenre));
+    if (selectedGenres && selectedGenres.length > 0) {
+      // Filter out movies with any genre included in selected genres
+      filtered = filtered.filter(movie => !selectedGenres.some(genre => movie.genre.includes(genre)));
     }
   
     // Ensure there are filtered movies to select from
@@ -48,20 +26,13 @@ export default function RandomMovie() {
       const randomIndex = Math.floor(Math.random() * filtered.length);
       const selectedMovie = filtered[randomIndex];
   
-      // Check if the selected movie meets the criteria
-      if (!selectedMovie.genre.includes(selectedGenre) && selectedMovie.runtime <= selectedRuntime) {
-        setRandomMovie(selectedMovie);
-      } else {
-        // If the selected movie does not meet the criteria, try again
-        handleRandomMovie();
-      }
+      // Set the randomly selected movie
+      setRandomMovie(selectedMovie);
     } else {
       // Handle case when there are no filtered movies
       setRandomMovie(null);
     }
   };
-  
-  
 
   return (
     <div style={{ marginTop: "100px", textAlign: "center" }}>
@@ -69,17 +40,15 @@ export default function RandomMovie() {
         <Card className="randomCard" style={{ width: "100%", maxWidth: "600px", maxHeight: "1000px", backgroundColor: "#2d210d", color: "whitesmoke", borderRadius: "30px" }}>
           <Card.Body>
             <Card.Img src={randomMovie.poster} style={{ width: "100%", height: "auto", objectFit: "cover", marginBottom: "20px" }} />
-               {/* Mapping through genres and rendering each genre */}
-               <div style={{ display: "flex", flexWrap: "wrap" }}>
+            <div style={{ display: "flex", flexWrap: "wrap" }}>
               {randomMovie.genre && randomMovie.genre.map((genre, index) => (
                 <span key={index} style={{ marginRight: "5px" }}>{genre}</span>
               ))}
-
-      </div>
+            </div>
             <Card.Text style={{ textAlign: "start", fontFamily: "Helvetica"}}>
               <h3>{randomMovie.description}<br />
               <div style={{ width: "100%", margin: "0 auto", padding: "10px", textAlign: "center" }}>
-                <a href={randomMovie.link}>Watch Now</a> // <a href="">More Details</a>
+                <a href={randomMovie.link}>Watch Now</a>
               </div>
               </h3>
             </Card.Text>
@@ -87,12 +56,10 @@ export default function RandomMovie() {
           </Card.Body>
         </Card>
       ) : (
-        <>
-          <Card className='randomCard' style={{backgroundColor: "#0D1F2D", alignItems: "center"}}>
+        <Card className='randomCard' style={{backgroundColor: "#0D1F2D", alignItems: "center"}}>
           <h1 style={{color: "white", textShadow: "2px 2px 2px black"}}>What movie should you watch tonight?</h1>
           <button className="randomMovie" onClick={handleRandomMovie}>Pick a random movie</button>
-          </Card>
-        </>
+        </Card>
       )}
     </div>
   );

@@ -9,17 +9,18 @@ import { netflixArray } from './components/movieArray';
 
 function App() {
   const [selectedRuntime, setSelectedRuntime] = useState(null);
-  
+  const [selectedGenres, setSelectedGenres] = useState(null);
 
-  const handlePreferenceChange = (runtime) => {
+  const handlePreferenceChange = (runtime, genres) => {
     setSelectedRuntime(runtime);
+    setSelectedGenres(genres);
   };
 
   return (
     <>
       <NavBar data={netflixArray} onPreferenceChange={handlePreferenceChange} />
     
-      <RandomMovie selectedRuntime={selectedRuntime} />
+      <RandomMovie selectedRuntime={selectedRuntime} selectedGenres={selectedGenres} />
 
    
 

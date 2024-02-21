@@ -56,6 +56,7 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
     setShowModal(true);
   };
   
+  
 
   // moving the window reload to the close modal, which does make more sense.
   const handleCloseModal = () => {
