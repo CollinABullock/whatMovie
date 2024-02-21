@@ -105,6 +105,15 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
       />
       <p>Max Runtime: {runtime} minutes</p>
       <button onClick={handlePreferenceChange}>Apply Preferences</button>
+      {/* reset preferences button removes everything from session storage and resets selected genre to an empty array and runtime to the max */}
+      <button onClick={() => {
+      sessionStorage.removeItem('selectedGenres');
+      sessionStorage.removeItem('selectedRuntime');
+      setSelectedGenres([]);
+      setRuntime(240); // Assuming default runtime is 240 minutes
+    }} style={{ marginLeft: '10px' }}>
+      Reset Preferences
+    </button>
       <Modal style={{fontFamily: "Signwood", textShadow: "2px 2px 2px black", color: "white"}} show={showModal} onHide={handleCloseModal}>
         <Modal.Header style={{backgroundColor: "red"}}>
           <Modal.Title>Preferences Applied</Modal.Title>
