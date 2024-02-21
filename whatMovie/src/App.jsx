@@ -17,11 +17,11 @@ function App() {
 
   return (
     <>
-      <NavBar onPreferenceChange={handlePreferenceChange} />
+      <NavBar data={netflixArray} onPreferenceChange={handlePreferenceChange} />
     
       <RandomMovie selectedRuntime={selectedRuntime} />
 
-      <MoviePreferenceComponent data={netflixArray} onPreferenceChange={handlePreferenceChange} />
+   
 
     <Footer />
     </>

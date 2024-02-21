@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import MoviePreferenceComponent from "./Preferences";
+import { netflixArray } from './movieArray';
 
-export default function NavBar({ onPreferenceChange }) {
+export default function NavBar({ onPreferenceChange, uniqueGenres }) {
   const [showPreferences, setShowPreferences] = useState(false);
 
   const handlePreferencesClick = (event) => {
@@ -23,8 +24,8 @@ export default function NavBar({ onPreferenceChange }) {
             <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" onClick={handlePreferencesClick} aria-haspopup="true" aria-expanded="false" style={{ color: "whitesmoke" }}>
               Preferences
             </a>
-            <div className={`dropdown-menu ${showPreferences ? 'show' : ''}`} aria-labelledby="navbarDropdown">
-              <MoviePreferenceComponent onPreferenceChange={onPreferenceChange} />
+            <div className={`dropdown-menu ${showPreferences ? 'show' : ''}`} aria-labelledby="navbarDropdown" style={{ minWidth: "auto", width: "50vw", margin: "0 auto", backgroundColor: "#0D1F2D", color: "#E4C3AD", border: "5px solid red", padding: "10px" }}>
+              <MoviePreferenceComponent data={netflixArray} onPreferenceChange={onPreferenceChange} uniqueGenres={uniqueGenres} />
             </div>
           </li>
         </ul>

@@ -65,7 +65,7 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
 
   return (
     <div>
-      <h2 style={{width: "100%", margin: "0 auto", textAlign: "center", marginBottom: "50px"}}>Movie Preferences</h2>
+      <h2 style={{width: "100%", margin: "0 auto", textAlign: "center", marginBottom: "5px"}}>Movie Preferences</h2>
       <label htmlFor="genreSelect" style={{fontStyle: "italic"}}>What do you NOT want to see:  {selectedGenres.join(', ')}</label><br />
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '10px' }}>
         {uniqueGenres.map(genre => (
