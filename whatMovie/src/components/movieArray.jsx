@@ -2030,6 +2030,35 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "78",
+      "title": "Blue Streak",
+      "runtime": 94,
+      "mpaa": "PG-13",
+      "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABZ2_KEVUfHJOFykvnWHfraN64yFobYycD7x3wg1zcHdaupJwDrNKXyD0q9ClNaF2zqJZ32gmZL4FGEUNh7Tbnl7WivvNhr6WUhj5.jpg?r=1fa",
+      "description": "A jewel thief returns to his hiding place after a stint in jail — only to find that his diamond is buried under a newly constructed police station.",
+	"genre": ["comedy", "action"],
+    "link": "https://www.netflix.com/title/24063311",
+    "director": [{
+    "name": "Les Mayfield",
+    "image": "https://c8.alamy.com/comp/2K3RCEW/eugene-levy-les-mayfield-film-the-man-2005-characters-andy-fiddler-director-les-mayfield-09-september-2005-warning-this-photograph-is-for-editorial-use-only-and-is-the-copyright-of-new-line-cinema-andor-the-photographer-assigned-by-the-film-or-production-company-and-can-only-be-reproduced-by-publications-in-conjunction-with-the-promotion-of-the-above-film-a-mandatory-credit-to-new-line-cinema-is-required-the-photographer-should-also-be-credited-when-known-no-commercial-use-can-be-granted-without-written-authority-from-the-film-company-2K3RCEW.jpg",
+    "imdb": "https://www.imdb.com/name/nm0562645/",
+    }],
+    "actors": [{
+      "name": "Martin Lawrence",
+      "image": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcSihhTNC7-Qak_Au-CPy-EwQqbaoaqmtfTrMIPy-9xNk_L_W-ObXYBosIgCoToDcBy0FQ6yIDPF0uQtWfU",
+      "imdb": "https://www.imdb.com/name/nm0001454/",
+    }, {
+      "name": "Luke Wilson",
+      "image": "https://deadline.com/wp-content/uploads/2022/08/GettyImages-538522248.jpg",
+      "imdb": "https://www.imdb.com/name/nm0005561/"
+    }, {
+      "name": "Peter Greene",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTgzMTU5NTc5NF5BMl5BanBnXkFtZTgwNDczMzY2MjE@._V1_.jpg",
+      "imdb": "https://www.imdb.com/name/nm0338886/",
+    }]
+    },
+
 
 
 
