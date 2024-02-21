@@ -12,18 +12,20 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
   console.log("selected genres", selectedGenres);
 
   useEffect(() => {
-    onPreferenceChange(runtime, selectedGenres);
-    const genresSet = new Set();
-    data.forEach(movie => {
-      if (movie.genre) {
-        movie.genre.forEach(genre => {
-          genresSet.add(genre);
-        });
-      }
-    });
-    // Convert set to array and sort alphabetically
-    const sortedGenres = Array.from(genresSet).sort();
-    setUniqueGenres(sortedGenres);
+    if (data && data.length > 0) {
+      onPreferenceChange(runtime, selectedGenres);
+      const genresSet = new Set();
+      data.forEach(movie => {
+        if (movie.genre) {
+          movie.genre.forEach(genre => {
+            genresSet.add(genre);
+          });
+        }
+      });
+      // Convert set to array and sort alphabetically
+      const sortedGenres = Array.from(genresSet).sort();
+      setUniqueGenres(sortedGenres);
+    }
   }, [data, onPreferenceChange, runtime, selectedGenres]);
   
   

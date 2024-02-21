@@ -9,6 +9,7 @@ import { netflixArray } from './components/movieArray';
 
 function App() {
   const [selectedRuntime, setSelectedRuntime] = useState(null);
+  
 
   const handlePreferenceChange = (runtime) => {
     setSelectedRuntime(runtime);
@@ -16,7 +17,7 @@ function App() {
 
   return (
     <>
-    <NavBar />
+      <NavBar onPreferenceChange={handlePreferenceChange} />
     
       <RandomMovie selectedRuntime={selectedRuntime} />
 
