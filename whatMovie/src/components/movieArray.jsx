@@ -6,7 +6,7 @@ const moviesArray = [
     "imdb": "https://www.imdb.com/name/nm0821432/",
     }]},
 
-  {"item": "2", "genre": ["thriller", "action", "adventure", "violent", "suspenseful", "sequel"], "title": "The Equalizer 3", "release-year": "2023", "runtime": 119, "mpaa": "R", "description": "Robert McCall vows to stop an Italian crime syndicate from brutalizing and extorting the residents of a small coastal town that has won his heart.", "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABXigXUjgvpYUaCNtoSXvdJ3MSjIQMsiHrJByYBdUvmVpW-s6Rc4lKY7VzVabpqAnXrG16_Scp9swRqGC_EO4cOV45udZ2H0sx1Q.jpg?r=653", "actors": [{"name": "Denzel Washington", "image": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2022%2F01%2Fdenzel-washington-the-equalizer-3-currently-in-the-works-confirmed-001.jpg?cbr=1&q=90", "imdb": "https://www.imdb.com/name/nm0000243/"}, {"name": "Dakota Fanning", "image": "https://www.etonline.com/sites/default/files/images/2016-03/1280_dakota_fanning_160309_514299728.jpg", "imdb": "https://www.imdb.com/name/nm0266824/"}], "link": "https://www.netflix.com/title/81674658",  "director": [{
+  {"item": "2", "genre": ["thriller", "action", "sequel"], "title": "The Equalizer 3", "release-year": "2023", "runtime": 119, "mpaa": "R", "description": "Robert McCall vows to stop an Italian crime syndicate from brutalizing and extorting the residents of a small coastal town that has won his heart.", "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABXigXUjgvpYUaCNtoSXvdJ3MSjIQMsiHrJByYBdUvmVpW-s6Rc4lKY7VzVabpqAnXrG16_Scp9swRqGC_EO4cOV45udZ2H0sx1Q.jpg?r=653", "actors": [{"name": "Denzel Washington", "image": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2022%2F01%2Fdenzel-washington-the-equalizer-3-currently-in-the-works-confirmed-001.jpg?cbr=1&q=90", "imdb": "https://www.imdb.com/name/nm0000243/"}, {"name": "Dakota Fanning", "image": "https://www.etonline.com/sites/default/files/images/2016-03/1280_dakota_fanning_160309_514299728.jpg", "imdb": "https://www.imdb.com/name/nm0266824/"}], "link": "https://www.netflix.com/title/81674658",  "director": [{
     "name": "Antoine Fuqua",
     "image": "https://deadline.com/wp-content/uploads/2021/12/Antoine-Fuqua-e1638564950313.jpg?w=681&h=383&crop=1",
     "imdb": "https://www.imdb.com/name/nm0298807/",
@@ -225,7 +225,7 @@ const moviesArray = [
       "mpaa": "R",
       "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABeAGTIHwDqrikWfk98_xqZhnPzJoiufhjavBREs2mXPqX950ulbC7n9-_KOU_8PFJVT7Eb4wQdLeR6WnB6s3pO6BzrngTPrA9VRsSlIT0q2_Q6ouFyxn-AwEGdInqb2_jt26Gw.jpg?r=362",
       "description": "A hardened gun-for-hire's latest mission becomes a soul-searching race to survive when he's sent into Bangladesh to rescue a drug lord's kidnapped son.",
-	"genre": ["action", "gritty"],
+	"genre": ["action"],
     "link": "https://www.netflix.com/title/80230399",
     "director": [{
       "name": "Sam Hargrave",

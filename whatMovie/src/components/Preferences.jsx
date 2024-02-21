@@ -8,6 +8,9 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
   const [uniqueGenres, setUniqueGenres] = useState([]);
   const [showModal, setShowModal] = useState(false);
 
+  console.log("unique genres", uniqueGenres);
+  console.log("selected genres", selectedGenres);
+
   useEffect(() => {
     onPreferenceChange(runtime, selectedGenres);
     const genresSet = new Set();
@@ -22,6 +25,7 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
     const sortedGenres = Array.from(genresSet).sort();
     setUniqueGenres(sortedGenres);
   }, [data, onPreferenceChange, runtime, selectedGenres]);
+  
   
   const handleSliderChange = (event) => {
     const value = event.target.value;
