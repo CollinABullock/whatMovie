@@ -3,8 +3,8 @@ import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 
 export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
-  const [runtime, setRuntime] = useState(localStorage.getItem('selectedRuntime') || 240);
-  const [selectedGenres, setSelectedGenres] = useState(JSON.parse(localStorage.getItem('selectedGenres')) || []);
+  const [runtime, setRuntime] = useState(sessionStorage.getItem('selectedRuntime') || 240);
+  const [selectedGenres, setSelectedGenres] = useState(JSON.parse(sessionStorage.getItem('selectedGenres')) || []);
   const [uniqueGenres, setUniqueGenres] = useState([]);
   const [showModal, setShowModal] = useState(false);
 
@@ -30,11 +30,11 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
   const handleSliderChange = (event) => {
     const value = event.target.value;
     setRuntime(value);
-    localStorage.setItem('selectedRuntime', value);
+    sessionStorage.setItem('selectedRuntime', value);
   };
 
   const handlePreferenceChange = () => {
-    localStorage.setItem('selectedGenres', JSON.stringify(selectedGenres));
+    sessionStorage.setItem('selectedGenres', JSON.stringify(selectedGenres));
     const filteredData = data.filter(movie => {
       // Check if movie.genre is defined before using some method
       const shouldBeFiltered = (!movie.genre || !movie.genre.some(genre => selectedGenres.includes(genre))) && movie.runtime <= runtime;
@@ -109,7 +109,17 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
         <Modal.Header style={{backgroundColor: "red"}}>
           <Modal.Title>Preferences Applied</Modal.Title>
         </Modal.Header>
-        <Modal.Body style={{backgroundColor: "red"}}>You don't wanna see a {selectedGenres}, and you don't wanna watch a movie longer than {runtime} minutes.</Modal.Body>
+        <Modal.Body style={{backgroundColor: "red"}}>
+  You don't wanna see a {selectedGenres.map((genre, index) => (
+    index === selectedGenres.length - 1 ? 
+    <span key={genre}>
+      or {genre}
+    </span> :
+    <span key={genre}>
+      {genre},{' '}
+    </span>
+  ))} movie and you don't want to watch a movie longer than {runtime} minutes.
+</Modal.Body>
         <Modal.Footer style={{backgroundColor: "red"}}>
           <Button variant="secondary" onClick={handleCloseModal}>
             Close

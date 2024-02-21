@@ -10,7 +10,7 @@ export default function RandomMovie() {
 
   useEffect(() => {
     // Retrieve selected runtime from local storage
-    const storedRuntime = localStorage.getItem('selectedRuntime');
+    const storedRuntime = sessionStorage.getItem('selectedRuntime');
     if (storedRuntime) {
       setSelectedRuntime(parseInt(storedRuntime));
     }
@@ -18,7 +18,7 @@ export default function RandomMovie() {
 
   useEffect(() => {
     // Retrieve selected genre from local storage
-    const storedGenre = localStorage.getItem('selectedGenre');
+    const storedGenre = sessionStorage.getItem('selectedGenre');
     if (storedGenre) {
       setSelectedGenre(storedGenre);
     }
