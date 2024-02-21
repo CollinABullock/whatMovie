@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 
 export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
   const [runtime, setRuntime] = useState(localStorage.getItem('selectedRuntime') || 240);
-  const [selectedGenre, setSelectedGenre] = useState(localStorage.getItem('selectedGenre') || '');
+  const [selectedGenres, setSelectedGenres] = useState(JSON.parse(localStorage.getItem('selectedGenres')) || []);
   const [uniqueGenres, setUniqueGenres] = useState([]);
   const [showModal, setShowModal] = useState(false);
 
@@ -30,10 +30,10 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
   };
 
   const handlePreferenceChange = () => {
-    localStorage.setItem('selectedGenre', selectedGenre);
+    localStorage.setItem('selectedGenres', JSON.stringify(selectedGenres));
     const filteredData = data.filter(movie => {
       // Check if movie.genre is defined before using some method
-      const shouldBeFiltered = (!movie.genre || !movie.genre.some(genre => genre === selectedGenre)) && movie.runtime <= runtime;
+      const shouldBeFiltered = (!movie.genre || !movie.genre.some(genre => selectedGenres.includes(genre))) && movie.runtime <= runtime;
       return shouldBeFiltered;
     });
     onPreferenceChange(filteredData);
@@ -51,13 +51,15 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
   return (
     <div>
       <h2>Movie Preferences</h2>
-      <label htmlFor="genreSelect">What do you NOT want to see:  {selectedGenre}</label><br />
-      <select id="genreSelect" value={selectedGenre} onChange={(e) => setSelectedGenre(e.target.value)}>
-        <option value="">-- Select a Genre --</option>
-        {uniqueGenres.map(genre => (
-          <option key={genre} value={genre}>{genre}</option>
-        ))}
-      </select>
+      <label htmlFor="genreSelect">What do you NOT want to see:  {selectedGenres.join(', ')}</label><br />
+      <select id="genreSelect" multiple value={selectedGenres} onChange={(e) => {
+  const selectedOptions = Array.from(e.target.selectedOptions, option => option.value);
+  setSelectedGenres(selectedOptions);
+}}>
+  {uniqueGenres.map(genre => (
+    <option key={genre} value={genre}>{genre}</option>
+  ))}
+</select>
       <br />
       <br />
       <input
@@ -76,7 +78,7 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
         <Modal.Header style={{backgroundColor: "red"}}>
           <Modal.Title>Preferences Applied</Modal.Title>
         </Modal.Header>
-        <Modal.Body style={{backgroundColor: "red"}}>You don't wanna see a {selectedGenre}, and you don't wanna watch a movie longer than {runtime} minutes.</Modal.Body>
+        <Modal.Body style={{backgroundColor: "red"}}>You don't wanna see a {selectedGenres}, and you don't wanna watch a movie longer than {runtime} minutes.</Modal.Body>
         <Modal.Footer style={{backgroundColor: "red"}}>
           <Button variant="secondary" onClick={handleCloseModal}>
             Close
