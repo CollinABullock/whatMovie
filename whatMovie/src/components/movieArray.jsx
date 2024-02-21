@@ -2005,6 +2005,30 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "77",
+      "title": "365 Days",
+      "runtime": 115,
+      "mpaa": "R",
+      "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABfgSs4RzXURDSRcuCcShiQvTdK_vgjx5pTEybzZbNqD-bPzGf-omCDoVTPylOzdtoQyTSff8i5dx9U6wxRGonX8XvM1eL111gQI.jpg?r=27b",
+      "description": "A woman falls victim to a dominant mafia boss, who imprisons her and gives her one year to fall in love with him.",
+	"genre": ["drama", "romance", "gangster"],
+    "link": "https://www.netflix.com/title/81245964",
+    "director": [{
+    "name": "Barbara Bialowas",
+    "image": "https://images.mubicdn.net/images/film/352161/cache-805459-1660119137/image-w1280.jpg?size=400x",
+    "imdb": "https://www.imdb.com/name/nm1705578/",
+    }],
+    "actors": [{
+      "name": "Anna-Maria Sieklucka",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUXcVjeTnBkyEExXGrFrDS3HPIIF28MounRZFdCSaBLOO7jDzr",
+      "imdb": "https://www.imdb.com/name/nm11110971/",
+    }, {
+      "name": "Michele Morrone",
+      "image": "https://i.ytimg.com/vi/MQ4YZjACu4I/maxresdefault.jpg",
+      "imdb": "https://www.imdb.com/name/nm9016108/"
+    }]
+    },
 
 
 
