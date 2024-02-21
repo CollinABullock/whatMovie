@@ -1923,13 +1923,37 @@ const moviesArray = [
       "name": "Albrecht Schuch",
       "image": "https://i.ytimg.com/vi/_Lwj_7dVlYU/maxresdefault.jpg",
       "imdb": "https://www.imdb.com/name/nm3477129/"
-    }, {
-      "name": "",
-      "image": "",
-      "imdb": "",
     }]
     },
 
+    {    
+      "item": "75",
+      "title": "The Raid:  Redemption",
+      "runtime": 100,
+      "mpaa": "R",
+      "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABQyTxZBWueRw1ATbAkzB9pJLwFlN1YjOELTXwUaWlBOUkzx6FOZbneN_NsrjONARMMNBmEJ09MgwQmrdLSTTI41W0sdLtd7uXys.jpg?r=7d0",
+      "description": "https://www.netflix.com/title/70228043",
+	"genre": ["foreign", "action"],
+    "link": "https://www.netflix.com/title/70228043",
+    "director": [{
+    "name": "Gareth Evans",
+    "image": "https://ca-times.brightspotcdn.com/dims4/default/2b6bf70/2147483647/strip/true/crop/2048x1572+0+0/resize/1200x921!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F01%2Fe0%2Fd75860cdd806c329de70d16a4c5b%2Fla-1797711-ca-0313-raid-gareth-evans-jlc-03c-jpg-20140331",
+    "imdb": "https://www.imdb.com/name/nm2153088/",
+    }],
+    "actors": [{
+      "name": "Iko Uwais",
+      "image": "https://www.hollywoodreporter.com/wp-content/uploads/2018/08/gettyimages-1014409764.jpg?w=1294",
+      "imdb": "https://www.imdb.com/name/nm3299397/",
+    }, {
+      "name": "Joe Taslim",
+      "image": "https://filmcombatsyndicate.com/wp-content/uploads/2017/06/SPIN_taslim.jpg",
+      "imdb": "https://www.imdb.com/name/nm3029144/"
+    }, {
+      "name": "Yayan Ruhian",
+      "image": "https://static.wikia.nocookie.net/theraid-movie/images/6/61/The_Mad_Dog.jpg/revision/latest/thumbnail/width/360/height/360?cb=20210318123600",
+      "imdb": "https://www.imdb.com/name/nm3345670/",
+    }]
+    },
 
 
 
