@@ -9,7 +9,7 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
   const [showModal, setShowModal] = useState(false);
 
   useEffect(() => {
-    onPreferenceChange(runtime);
+    onPreferenceChange(runtime, selectedGenres);
     const genresSet = new Set();
     data.forEach(movie => {
       if (movie.genre) {
@@ -21,7 +21,7 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
     // Convert set to array and sort alphabetically
     const sortedGenres = Array.from(genresSet).sort();
     setUniqueGenres(sortedGenres);
-  }, [data, onPreferenceChange, runtime]);
+  }, [data, onPreferenceChange, runtime, selectedGenres]);
   
   const handleSliderChange = (event) => {
     const value = event.target.value;
@@ -37,7 +37,7 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
       return shouldBeFiltered;
     });
     onPreferenceChange(filteredData);
-    // when preferences are applied, people are shown a (hopefully) asthetically pleasing modal
+    // when preferences are applied, people are shown a (hopefully) aesthetically pleasing modal
     setShowModal(true);
   };
 
