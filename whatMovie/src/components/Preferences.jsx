@@ -67,7 +67,7 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
     );
     setSelectedGenres(selectedOptions);
   }}
-  onClick={(e) => {
+  onMouseDown={(e) => {
     const selectedOption = e.target.value;
     const selectedIndex = selectedGenres.indexOf(selectedOption);
     let newSelectedGenres = [...selectedGenres];
@@ -89,6 +89,7 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
     </option>
   ))}
 </select>
+
 
       <br />
       <br />
