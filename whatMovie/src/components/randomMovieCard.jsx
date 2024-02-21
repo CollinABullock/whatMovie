@@ -100,11 +100,15 @@ setShowModal(true);
   <Modal.Header>
     <Modal.Title>{randomMovie ? randomMovie.title : 'Movie Title'}</Modal.Title>
     <div className='modal-details'>
-       {randomMovie && randomMovie.runtime && (<p>Runtime: {randomMovie.runtime} minutes</p>)}
-       {randomMovie && randomMovie.mpaa && (<p>MPAA Rating:  {randomMovie.mpaa}</p>)}
+       {randomMovie && randomMovie.runtime && (<p>{randomMovie.runtime} minutes</p>)}
+       {randomMovie && randomMovie.mpaa && (<p>{randomMovie.mpaa}</p>)}
        {randomMovie.genre && randomMovie.genre.map((genre, index) => (
-                <span key={index} style={{ marginRight: "5px" }}>{genre}</span>
-              ))}
+  <span key={index}>
+    {genre}
+    {index !== randomMovie.genre.length - 1 && ', '}
+  </span>
+))}
+
     </div>
   </Modal.Header>
   <Modal.Body>
