@@ -302,7 +302,7 @@ const moviesArray = [
       "title": "Dredd",
       "runtime": 95,
       "mpaa": "R",
-      "poster": "https://www.digitaltrends.com/wp-content/uploads/2023/09/Dredd-Karl-Urban.jpg?p=1",
+      "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABdLHDRTdyDpw8UOXVZR9h_sG_ZJxSa09KW-khXwBiXCBe_Eby-mKuIJkCOp2GYwH1svw1xMSYU8g8P_NC3cBCgPax-V6OpnnSYHV.jpg?r=e51",
       "description": "Enforcing the law in a violent dystopian society, Judge Dredd and a new trainee fight their way through a tower block to bring down a drug boss.",
 	"genre": ["action", "science-fiction", "comic-book"],
     "link": "https://www.netflix.com/title/70242801",
@@ -1954,6 +1954,32 @@ const moviesArray = [
       "imdb": "https://www.imdb.com/name/nm3345670/",
     }]
     },
+
+    {    
+      "item": "76",
+      "title": "Train To Busan",
+      "runtime": 117,
+      "mpaa": "R",
+      "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABdGW-vrHwkRS246n_29MYnJW0tad5Wlc64pWLLJZmhFCeu2ywmv1xYXNlVZAoa-kDJirCkO5hfbihLdtjHJJvz-9isEYuBF3rMA.jpg?r=dab",
+      "description": "As a zombie outbreak sweeps the country, a dad and his daughter take a harrowing train journey in an attempt to reach the only city that's still safe.",
+	"genre": ["foreign", "action", "horror"],
+    "link": "https://www.netflix.com/title/80117824",
+    "director": [{
+    "name": "Yeon Sang-ho",
+    "image": "https://images.summitmedia-digital.com/cosmo/images/2021/11/29/hellbound-behind-the-scenes-2-1638149435.jpg",
+    "imdb": "https://www.imdb.com/name/nm3613566/?ref_=tt_ov_dr",
+    }],
+    "actors": [{
+      "name": "Gong Yoo",
+      "image": "https://res.heraldm.com/content/image/2017/04/11/20170411000876_0.jpg",
+      "imdb": "https://www.imdb.com/name/nm1508003/?ref_=tt_ov_st",
+    }, {
+      "name": "Jung Yu-Mi",
+      "image": "https://i.ytimg.com/vi/7jMpuPX9qbc/maxresdefault.jpg",
+      "imdb": "https://www.imdb.com/name/nm1869756/"
+    }]
+    },
+
 
 
 
