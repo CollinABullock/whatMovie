@@ -2229,6 +2229,36 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "84",
+      "title": "King Kong",
+      "runtime": 187,
+      "mpaa": "PG-13",
+      "poster": "https://occ-0-1723-1722.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABaX2mjS-RAL5ulFZzEADVsi4yZNPdPLHY0nD64TcM_21BxF3cFYgtKEJNkFS3vs-RcxZ4IxdsZWAy_ilws1Shn1eHpUr3SKhdxg.jpg?r=ed2",
+      "description": "In Peter Jackson's epic remake, a movie director and his crew journey to remote Skull Island, where his leading lady catches the eye of a giant ape.",
+	"genre": ["action"],
+    "link": "https://www.netflix.com/title/70021664",
+    "director": [{
+    "name": "Peter Jackson",
+    "image": "https://deadline.com/wp-content/uploads/2023/02/peter-jackson-Philippa-boyens-fran-walsh.jpg?w=1024",
+    "imdb": "https://www.imdb.com/name/nm0001392/",
+    }],
+    "actors": [{
+      "name": "Naomi Watts",
+      "image": "https://m.media-amazon.com/images/M/MV5BNmI3MmFjMmYtY2JlNy00MDliLWE2YzMtMDVkZDJlYWM4MTk3XkEyXkFqcGdeQW1pYnJ5YW50._V1_QL75_UX500_CR0,0,500,281_.jpg",
+      "imdb": "https://www.imdb.com/name/nm0915208/",
+    }, {
+      "name": "Adrien Brody",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSKSAL0z4xf6twkyjL4m4X7l7xV7i3qENaLYKenaDWwzlCKHa0_",
+      "imdb": "https://www.imdb.com/name/nm0004778/"
+    }, {
+      "name": "Jack Black",
+      "image": "https://static.foxnews.com/foxnews.com/content/uploads/2019/12/Jack-Black.jpg",
+      "imdb": "https://www.imdb.com/name/nm0085312/?ref_=tt_ov_st",
+    }]
+    },
+
+
   ],
 ]
 
