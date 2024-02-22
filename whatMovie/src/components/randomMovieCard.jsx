@@ -20,37 +20,38 @@ export default function RandomMovie({ selectedRuntime, selectedGenres, preferred
   const handleRandomMovie = () => {
     // Filter movies based on selected runtime and genres
     let filtered = filteredMovies.filter(movie => movie.runtime <= selectedRuntime);
+    
+    // Filter out movies with any genre included in selectedGenres
     if (selectedGenres && selectedGenres.length > 0) {
-      // Filter out movies with any genre included in selected genres
-      filtered = filtered.filter(movie => 
-        movie.genre && 
-        !selectedGenres.some(genre => movie.genre.includes(genre))
-      );
+        filtered = filtered.filter(movie =>
+            movie.genre && !selectedGenres.some(genre => movie.genre.includes(genre))
+        );
     }
     
+    // Filter movies with all genres included in preferredGenres
     if (preferredGenres && preferredGenres.length > 0) {
-      // Filter movies with at least one genre included in preferred genres
-      filtered = filtered.filter(movie =>
-        movie.genre &&
-        preferredGenres.some(genre => movie.genre.includes(genre))
-      );
+        filtered = filtered.filter(movie =>
+            movie.genre && preferredGenres.every(genre => movie.genre.includes(genre))
+        );
     }
-    
+  
     // Ensure there are filtered movies to select from
     if (filtered.length > 0) {
-      // Select a random movie index
-      const randomIndex = Math.floor(Math.random() * filtered.length);
-      const selectedMovie = filtered[randomIndex];
-    
-      // Set the randomly selected movie
-      setRandomMovie(selectedMovie);
-      // Update the animation key to trigger re-render and remount the animation
-      setAnimationKey(prevKey => prevKey + 1);
+        // Select a random movie index
+        const randomIndex = Math.floor(Math.random() * filtered.length);
+        const selectedMovie = filtered[randomIndex];
+  
+        // Set the randomly selected movie
+        setRandomMovie(selectedMovie);
+        // Update the animation key to trigger re-render and remount the animation
+        setAnimationKey(prevKey => prevKey + 1);
     } else {
-      // Handle case when there are no filtered movies
-      setRandomMovie(null);
+        // Handle case when there are no filtered movies
+        setRandomMovie(null);
     }
-  };
+};
+
+  
   
   const handleDetails = () => {
     setShowModal(true);

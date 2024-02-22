@@ -1,4 +1,4 @@
-import './App.css'
+import './App.css';
 import NavBar from './components/navbar';
 import RandomMovie from './components/randomMovieCard';
 import Footer from './components/footer';
@@ -9,7 +9,7 @@ import { netflixArray } from './components/movieArray';
 function App() {
   const [selectedRuntime, setSelectedRuntime] = useState(null);
   const [selectedGenres, setSelectedGenres] = useState(null);
-  const [preferredGenres, setPreferredGenres] = useState(null); // Define preferredGenres state
+  const [preferredGenres, setPreferredGenres] = useState([]); // Change to an empty array
 
   const handlePreferenceChange = (runtime, genres, preferredGenres) => {
     setSelectedRuntime(runtime);
