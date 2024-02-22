@@ -9,6 +9,7 @@ export default function RandomMovie({ selectedRuntime, selectedGenres }) {
   const [randomMovie, setRandomMovie] = useState(null);
   const [filteredMovies, setFilteredMovies] = useState([]);
   const [showModal, setShowModal] = useState(false);
+  const [animationKey, setAnimationKey] = useState(0);
 
   useEffect(() => {
     // Filter movies based on selected runtime
@@ -35,6 +36,8 @@ export default function RandomMovie({ selectedRuntime, selectedGenres }) {
   
       // Set the randomly selected movie
       setRandomMovie(selectedMovie);
+      // Update the animation key to trigger re-render and remount the animation
+      setAnimationKey(prevKey => prevKey + 1);
     } else {
       // Handle case when there are no filtered movies
       setRandomMovie(null);
@@ -80,6 +83,7 @@ setShowModal(true);
     <div style={{ marginTop: "100px", textAlign: "center" }}>
       {randomMovie ? (
         <motion.div
+        key={animationKey}
         initial={{ x: -1000, opacity: 0 }} // initial position off-screen to the left
         animate={{ x: 0, opacity: 1 }} // animate to the center of the screen
         transition={{ duration: 0.5, type: "tween" }} // adjust duration as needed
