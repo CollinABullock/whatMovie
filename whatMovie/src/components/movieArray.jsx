@@ -780,7 +780,7 @@ const moviesArray = [
     "link": "https://www.netflix.com/title/70044873",
     "director": [{
     "name": "Andy Fickman",
-    "image": "",
+    "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRbMNIyAbMxpHofn4Ing2z9GXWq0GR67YNiJt2fhuRsA8CYydCovOAQzcDsqjIsijAHqYUVdcgmiCjUCqE",
     "imdb": "https://www.imdb.com/name/nm0275698/?ref_=tt_ov_dr",
     }],
     "actors": [{
