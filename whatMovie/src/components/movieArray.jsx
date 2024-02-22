@@ -2403,6 +2403,38 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "90",
+      "title": "Okja",
+      "runtime": 121,
+      "mpaa": "R",
+      "poster": "https://occ-0-1723-1722.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABYusArxIs4S36goFOiIZ97FxewMrSLDFYlQs7_d_fb7ZshmeO0N9bB2sYW8Wf2FiZ2WkS4lMoJmT3SiMmzBX7bFO6M2H7FvHyVt5Jf42ABqOUEOQudxZHba7N8Jr20ODPBde7Q.jpg?r=2f7",
+      "description": "A gentle giant and the girl who raised her are caught in the crossfire between animal activism, corporate greed and scientific ethics.",
+	"genre": ["science-fiction", "comedy", "foreign"],
+    "link": "https://www.netflix.com/title/80091936",
+    "director": [{
+      "name": "Bong Joon Ho",
+      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/rockcms/2024-01/240112-bong-joon-ho-mn-1020-75b530.jpg",
+      "imdb": "https://www.imdb.com/name/nm0094435/",
+    }],
+    "actors": [{
+      "name": "An Seo-hyun",
+      "image": "https://m.media-amazon.com/images/M/MV5BNjg2ODk1NzE1OV5BMl5BanBnXkFtZTgwOTI3NDUzMjI@._V1_.jpg",
+      "imdb": "https://www.imdb.com/name/nm3673821/",
+    }, {
+      "name": "Tilda Swinton",
+      "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRK9jrqMa484_bOUOls6P-egKvI9YLJopHVIj0cCKJZ27ldLoylGlYA7H8Dm3CVan9irp9GSs-ELU05nHI",
+      "imdb": "https://www.imdb.com/name/nm0842770/",
+    }, {
+      "name": "Jake Gyllenhaal",
+      "image": "https://cdn.britannica.com/27/217827-050-60BEF3D1/American-actor-Jake-Gyllenhaal-2019.jpg?w=400&h=300&c=crop",
+      "imdb": "https://www.imdb.com/name/nm0350453/",
+    }]
+    },
+
+
+
+
 
   ],
 ]
