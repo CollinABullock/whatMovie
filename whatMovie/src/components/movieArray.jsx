@@ -2117,6 +2117,34 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "81",
+      "title": "Little Fockers",
+      "runtime": 97,
+      "mpaa": "PG-13",
+      "poster": "https://occ-0-1723-1722.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABbvGH_Gr_0vLZJiY6B0MekZWuPdFZcYmssbGi1nls2rmKsP5WOiP7VlBOETrakNO3TaZTg1eaY2BhwDfmv866ZPOMGZMQnSuBBu9.jpg?r=77d",
+      "description": "Greg Focker has a pair of rambunctious kids, and the tension with his father-in-law rises to the surface once again.",
+	"genre": ["comedy"],
+    "link": "https://www.netflix.com/title/70125552",
+    "director": [{
+      "name": "Jay Roach",
+      "image": "https://wrapwomen.thewrap.com/wp-content/uploads/2019/10/JAY-ROACH.jpg",
+      "imdb": "https://www.imdb.com/name/nm0005366/?ref_=tt_ov_dr",
+      }],
+      "actors": [{
+        "name": "Ben Stiller",
+        "image": "https://www.indiewire.com/wp-content/uploads/2022/08/Ben-Stiller.jpg",
+        "imdb": "https://www.imdb.com/name/nm0001774/?ref_=tt_ov_st",
+      }, {
+        "name": "Robert DeNiro",
+        "image": "https://www.usatoday.com/gcdn/presto/2020/08/17/USAT/7a0449c7-ffa8-450d-b65f-77a920a61757-Robert_De_Niro.JPG",
+        "imdb": "https://www.imdb.com/name/nm0000134/?ref_=tt_ov_st"
+      }, {
+      "name": "Jessica Alba",
+      "image": "https://www.realsimple.com/thmb/qjozdMHApT-ciZLJZ1WUu3d75t8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Jessica-Alba-january-feature-f552651fed5f4413bf2d1499b2676154.jpg",
+      "imdb": "https://www.imdb.com/name/nm0004695/",
+    }]
+    },
 
 
 
