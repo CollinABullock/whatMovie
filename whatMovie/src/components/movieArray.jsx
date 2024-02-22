@@ -2292,27 +2292,27 @@ const moviesArray = [
       "title": "The Midnight Sky",
       "runtime": 118,
       "mpaa": "PG-13",
-      "poster": "",
+      "poster": "https://occ-0-1723-1722.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABa7YQtktPDn9qCI3xVHYRJ6jMoT3ikke0tgMASkKDxGdx63wq0tj-yswiV3RFF3PBq3831o-DulNf-9FjEwb3O9lDF94mSvez8r1V0mmKzDUE7kPOuBZxdCIAi1IPe7rW1di.jpg?r=19b",
       "description": "In the aftermath of a global catastrophe, a lone scientist in the Arctic races to contact a crew of astronauts with a warning not to return to Earth.",
 	"genre": ["science-fiction", "drama"],
     "link": "https://www.netflix.com/title/80244645",
     "director": [{
-    "name": "",
-    "image": "",
-    "imdb": "",
+      "name": "George Clooney",
+      "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRYIaq1IibD0byPwoCA61TVzHOu11u8JjcIclfwijR0EvFA59KLCk0RM1DDpeeRnFaTZEO1mVmnMzzFKjg",
+      "imdb": "https://www.imdb.com/name/nm0000123/"
     }],
     "actors": [{
-      "name": "",
-      "image": "",
-      "imdb": "",
+      "name": "George Clooney",
+      "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRYIaq1IibD0byPwoCA61TVzHOu11u8JjcIclfwijR0EvFA59KLCk0RM1DDpeeRnFaTZEO1mVmnMzzFKjg",
+      "imdb": "https://www.imdb.com/name/nm0000123/"
     }, {
-      "name": "",
-      "image": "",
-      "imdb": ""
+      "name": "Felicity Jones",
+      "image": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcSILzTQw1fGly-Zm4soNVsJlwVzsfYbiziUscHeC26bqfhEQ8Y8Xcyi-ALJzgV2JLSphL9WDsI4xIzpFm4",
+      "imdb": "https://www.imdb.com/name/nm0428065/"
     }, {
-      "name": "",
-      "image": "",
-      "imdb": "",
+      "name": "David Oyelowo",
+      "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRtf7N9IhFztQ_wOx9-1K14OeiQ0rtM-btuRQTfTOLacCLz8ouZx2iTH0paKqyr3KkUqKkMPJP7laIn_I4",
+      "imdb": "https://www.imdb.com/name/nm0654648/",
     }]
     },
 
