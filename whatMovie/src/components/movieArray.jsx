@@ -2258,6 +2258,34 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "85",
+      "title": "The Wolfman",
+      "runtime": 102,
+      "mpaa": "R",
+      "poster": "https://occ-0-1723-1722.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABQaBA300xVTzOfTkfBbgQRq0yk7HIDuX9UuLiAteZrmPQOdUKvsQrg_dTjPIlgEWpWO35-vCloSBX95S6QHWLrjw95JrZVnDHy6v.jpg?r=365",
+      "description": "On a visit to his home village in England, a man gets bitten by a werewolf, and a moonlight transformation leaves him with a vicious hunger for flesh.",
+	"genre": ["horror"],
+    "link": "https://www.netflix.com/title/70099110",
+    "director": [{
+    "name": "Joe Johnston",
+    "image": "https://i0.wp.com/www.cinematicsound.net/wordpress/wp-content/uploads/2011/07/joe-johnston-banner.jpg?fit=1920%2C1080&ssl=1",
+    "imdb": "https://www.imdb.com/name/nm0002653/",
+    }],
+    "actors": [{
+      "name": "Benicio Del Toro",
+      "image": "https://m.media-amazon.com/images/M/MV5BYjNiYzg2ZmYtMjFkYS00NmJlLTg3ZTctMjFlMjI1MzE0NjIyXkEyXkFqcGdeQWpnYW1i._V1_.jpg",
+      "imdb": "https://www.imdb.com/name/nm0001125/",
+    }, {
+      "name": "Anthony Hopkins",
+      "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQQCTJDaBY11bzfCkUF1oQvfBwuBBGt7-Zo4ghhKT96DRoqjqKC8Prb_ZI3okkKXiBJGH86ueS36I7NbVU",
+      "imdb": "https://www.imdb.com/name/nm0000164/"
+    }, {
+      "name": "Emily Blunt",
+      "image": "https://variety.com/wp-content/uploads/2023/09/GettyImages-1540936189.jpg?w=1024",
+      "imdb": "https://www.imdb.com/name/nm1289434/",
+    }]
+    },
 
   ],
 ]
