@@ -2200,6 +2200,34 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "84",
+      "title": "The Adventures Of Sharkboy and Lava Girl",
+      "runtime": 93,
+      "mpaa": "PG",
+      "poster": "https://occ-0-1723-1722.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABXYEsOKu3jyCxKcEMtOwuvmTXeuRp5WdWRhC9XGuz-v7CckaBx_8vfZCOMwA-81mjfLEviC4k8vVWorSes47v6nV1kdAEfx3bNxD.jpg?r=56c",
+      "description": "A 10-year-old dreamer's imaginary friends — mighty Sharkboy and fire-producing Lavagirl — come to life to seek his help battling a nefarious baddie.",
+	"genre": ["kids, science-fiction"],
+    "link": "https://www.netflix.com/title/70021640",
+    "director": [{
+      "name": "Robert Rodriguez",
+      "image": "https://ca-times.brightspotcdn.com/dims4/default/332357d/2147483647/strip/true/crop/6000x4000+0+0/resize/1200x800!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Ffb%2F13%2F0c4a3c7f45259b80d91f68ff6f35%2Fla-et-we-can-be-heroes-netflix-29.JPG",
+      "imdb": "https://www.imdb.com/name/nm0001675/",
+    }],
+    "actors": [{
+      "name": "Taylor Lautner",
+      "image": "https://i0.wp.com/www.thewrap.com/wp-content/uploads/2023/12/taylor-lautner.jpg?fit=1200%2C675&ssl=1",
+      "imdb": "https://www.imdb.com/name/nm1210124/",
+    }, {
+      "name": "Taylor Dooley",
+      "image": "https://hollywoodlife.com/wp-content/uploads/2020/12/we-can-be-heroes-01-embed2.jpg",
+      "imdb": "https://www.imdb.com/name/nm1731786/"
+    }, {
+      "name": "Cayden Boyd",
+      "image": "https://m.media-amazon.com/images/M/MV5BNmExNGZkZDctZGVlYi00MTA1LTlmNjgtZTc5N2IyY2YyM2VhXkEyXkFqcGdeQXVyMTk2MDI2Mjg@._V1_.jpg",
+      "imdb": "https://www.imdb.com/name/nm1064823/",
+    }]
+    },
 
   ],
 ]
