@@ -2316,6 +2316,36 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "87",
+      "title": "Bright",
+      "runtime": 117,
+      "mpaa": "R",
+      "poster": "https://occ-0-1723-1722.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABVY3SsQX2F59IZFVCEVVPBD9StpB3rhNpZe5bYANsnpXQBw8GGAMUqa3wxG7DjFkgv_CryS66PacU_oa17Mhm-1G9QVe0Sxo73tEnqzPNCqNaEH_YA3c2HqD8Rs-WEhjL-Su.jpg?r=57c",
+      "description": "In an LA rife with interspecies tensions, a human cop and his orc partner stumble on a powerful object and become embroiled in a prophesied turf war.",
+	"genre": ["action", "fantasy"],
+    "link": "https://www.netflix.com/title/80119234",
+    "director": [{
+      "name": "David Ayer",
+      "image": "https://deadline.com/wp-content/uploads/2023/08/david-ayer-the-suicide-squad.jpg",
+      "imdb": "https://www.imdb.com/name/nm0043742/?ref_=fn_al_nm_1",
+    }],
+    "actors": [{
+      "name": "Will Smith",
+      "image": "https://m.media-amazon.com/images/M/MV5BMGI3OTI0NjctMjM2ZC00MjZiLWIxMjctODczN2M4MTFjZmY1XkEyXkFqcGdeQXJoYW5uYWg@._V1_QL75_UX500_CR0,0,500,281_.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000226/",
+    }, {
+      "name": "Joel Edgerton",
+      "image": "https://i.ytimg.com/vi/0w1-GtEEAmA/maxresdefault.jpg",
+      "imdb": "https://www.imdb.com/name/nm0249291/"
+    }, {
+      "name": "Noomi Rapace",
+      "image": "https://i.ytimg.com/vi/b2y9mO7yltI/maxresdefault.jpg",
+      "imdb": "https://www.imdb.com/name/nm0636426/",
+    }]
+    },
+
+
 
   ],
 ]
