@@ -20,7 +20,10 @@ export default function RandomMovie({ selectedRuntime, selectedGenres }) {
     let filtered = filteredMovies.filter(movie => movie.runtime <= selectedRuntime);
     if (selectedGenres && selectedGenres.length > 0) {
       // Filter out movies with any genre included in selected genres
-      filtered = filtered.filter(movie => !selectedGenres.some(genre => movie.genre.includes(genre)));
+      filtered = filtered.filter(movie => 
+        movie.genre && 
+        !selectedGenres.some(genre => movie.genre.includes(genre))
+      );
     }
   
     // Ensure there are filtered movies to select from
