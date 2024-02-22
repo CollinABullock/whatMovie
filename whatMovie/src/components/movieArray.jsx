@@ -804,7 +804,7 @@ const moviesArray = [
 	"genre": ["comedy", "romance"],
     "link": "https://www.netflix.com/title/60002139",
     "director": [{
-    "name": "jay Roach",
+    "name": "Jay Roach",
     "image": "https://wrapwomen.thewrap.com/wp-content/uploads/2019/10/JAY-ROACH.jpg",
     "imdb": "https://www.imdb.com/name/nm0005366/?ref_=tt_ov_dr",
     }],
@@ -2088,6 +2088,34 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "80",
+      "title": "Meet The Fockers",
+      "runtime": 115,
+      "mpaa": "PG-13",
+      "poster": "https://occ-0-1723-1722.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABXMbmDtqvAaFcH1PbD1Z6lKt7IMGvwEstmHYKz4DMGLYEJ-ciu7WiZOQu7KW9deLbskAYE4ums8xUz6FcwenL1qptE4yur08396X.jpg?r=c95",
+      "description": "Parents and personalities clash when newly engaged Greg and Pam attempt to bring their families together in this sequel to the hit comedy.",
+	"genre": ["comedy", "romance", "sequel"],
+    "link": "https://www.netflix.com/title/70011215",
+    "director": [{
+      "name": "Jay Roach",
+    "image": "https://wrapwomen.thewrap.com/wp-content/uploads/2019/10/JAY-ROACH.jpg",
+    "imdb": "https://www.imdb.com/name/nm0005366/?ref_=tt_ov_dr",
+    }],
+    "actors": [{
+      "name": "Ben Stiller",
+      "image": "https://www.indiewire.com/wp-content/uploads/2022/08/Ben-Stiller.jpg",
+      "imdb": "https://www.imdb.com/name/nm0001774/?ref_=tt_ov_st",
+    }, {
+      "name": "Robert DeNiro",
+      "image": "https://www.usatoday.com/gcdn/presto/2020/08/17/USAT/7a0449c7-ffa8-450d-b65f-77a920a61757-Robert_De_Niro.JPG",
+      "imdb": "https://www.imdb.com/name/nm0000134/?ref_=tt_ov_st"
+    }, {
+      "name": "Dustin Hoffman",
+      "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRME8rJOKeFH8yMcgAUnXHvAvmxQIDNxFsEiHqzPqowm_OwSGbMHokVWWilZ_XaAvnj3u83UINcYxYz7nQ",
+      "imdb": "https://www.imdb.com/name/nm0000163/",
+    }]
+    },
 
 
 
