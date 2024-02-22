@@ -119,12 +119,12 @@ setShowModal(true);
   {randomMovie && randomMovie.actors && (
     <div>
       <h5>Actors:</h5>
-      <div style={{ display: 'flex', justifyContent: 'start' }}>
+      <div style={{ display: 'flex', justifyContent: "space-evenly" }}>
         
         {randomMovie.actors.map((actor, index) => (
           <div key={index} style={{ textAlign: 'center' }}>
             <a href={actor.imdb}>
-            <img src={actor.image} alt={actor.name} style={{ width: '100px', height: '75px', objectFit: "cover", margin: "5px" }} />
+            <img src={actor.image} alt={actor.name} style={{ width: '100px', height: '75px', objectFit: "cover", margin: "10px" }} />
             <p style={{ marginTop: '5px', fontSize: '14px' }}>{actor.name}</p>
             </a>
           </div>
