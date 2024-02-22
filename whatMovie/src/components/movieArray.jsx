@@ -2345,6 +2345,34 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "88",
+      "title": "Elysium",
+      "runtime": 109,
+      "mpaa": "R",
+      "poster": "https://occ-0-1723-1722.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABeV8rSo9qh5urC-Oy0_nlHLgh6z_28itrWctTqOEewf1CwHgko7DmE-nl2-K5El6SH5LzloyFdFudlYShkwXV2D0ukazUmTlxAla.jpg?r=fdb",
+      "description": "In 2154, as the rich thrive in a space station while the poor struggle back on Earth, a dying laborer fights to save himself and restore balance.",
+	"genre": ["science-fiction", "action"],
+    "link": "https://www.netflix.com/title/70251536",
+    "director": [{
+    "name": "Neil Blomkamp",
+    "image": "https://media.wired.com/photos/59333aa4f682204f73698c33/master/pass/dystopian.jpg",
+    "imdb": "https://www.imdb.com/name/nm0088955/",
+    }],
+    "actors": [{
+      "name": "Matt Damon",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT9LHOr-9heRREg1kcbUk3wpeADWC2F80UMqnx-F7mB1Oda9wWf",
+      "imdb": "https://www.imdb.com/name/nm0000354/",
+    }, {
+      "name": "Jodie Foster",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTFuuUCovlInNAl5qBnyTwx4J_xhJPetaauv0kXEIVQmOLWZNbxLNfurehN_DyfsmYBOGiVfg",
+      "imdb": "https://www.imdb.com/name/nm0000149/"
+    }, {
+      "name": "Sharlto Copely",
+      "image": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQqT5wGPgR5YFukoZD-zaUamnrNticKsgFF-Tiw82L0mKiVoMhjqZx9BqlKWbWbOKMAaog1vBFROrPEcnE",
+      "imdb": "https://www.imdb.com/name/nm1663205/",
+    }]
+    },
 
 
   ],
