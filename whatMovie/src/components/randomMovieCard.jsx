@@ -3,6 +3,7 @@ import Card from 'react-bootstrap/Card';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 import { netflixArray } from './movieArray';
+import { motion } from "framer-motion";
 
 export default function RandomMovie({ selectedRuntime, selectedGenres }) {
   const [randomMovie, setRandomMovie] = useState(null);
@@ -78,6 +79,11 @@ setShowModal(true);
   return (
     <div style={{ marginTop: "100px", textAlign: "center" }}>
       {randomMovie ? (
+        <motion.div
+        initial={{ x: -1000, opacity: 0 }} // initial position off-screen to the left
+        animate={{ x: 0, opacity: 1 }} // animate to the center of the screen
+        transition={{ duration: 0.5, type: "tween" }} // adjust duration as needed
+      >
         <Card className="randomCard" style={{ width: "100%", maxWidth: "600px", maxHeight: "1000px", backgroundColor: "#2d210d", color: "whitesmoke", borderRadius: "30px" }}>
           <Card.Body>
             <Card.Img src={randomMovie.poster} style={{ width: "100%", height: "auto", objectFit: "cover", marginBottom: "20px" }} />
@@ -92,7 +98,9 @@ setShowModal(true);
             </Card.Text>
             <button onClick={handleRandomMovie} style={{ backgroundColor: "red", color: "white", textShadow: "2px 2px 2px black", fontSize: "1.25em" }}>I'm not feeling it, give me another</button>
           </Card.Body>
+          
         </Card>
+        </motion.div>
       ) : (
         <Card className='randomCard' style={{backgroundColor: "#0D1F2D", alignItems: "center"}}>
           <h1 style={{color: "white", textShadow: "2px 2px 2px black"}}>What movie should you watch tonight?</h1>
