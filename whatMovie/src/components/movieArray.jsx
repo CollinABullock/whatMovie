@@ -2059,6 +2059,34 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "79",
+      "title": "It's Complicated",
+      "runtime": 120,
+      "mpaa": "R",
+      "poster": "https://occ-0-1723-1722.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABUJiijGIYySBujyqDmL_OaDYsZe9xzU7e1BFR4grJ4YoTNw3k5C70FfZbPUdeuE7QzFx9-OHsYlPEX0ZYpjSzA8OBEOR5OBbY5c.jpg?r=983",
+      "description": "Jane's love life grows complicated when she begins an affair with her married ex-husband while being wooed by the sweet architect remodeling her house.",
+	"genre": ["comedy", "romance"],
+    "link": "https://www.netflix.com/title/70124574",
+    "director": [{
+    "name": "Nancy Myers",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI-7XOSTxO9HmtnZfGP7VaqFLTnJXAXJC4d8SS5rZ_OzJAAz6-",
+    "imdb": "https://www.imdb.com/name/nm0583600/",
+    }],
+    "actors": [{
+      "name": "Meryl Streep",
+      "image": "https://ew.com/thmb/OnGb568VYP6eVGvjYBDiZQTSQC4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Meryl-Streep-mamma-Mia-493688affb3e4be0a73d734baaec58e9.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000658/?ref_=tt_ov_st",
+    }, {
+      "name": "Alec Baldwin",
+      "image": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSuYBOiGP2ZAxJotmeQcYxn3DjFBL0zoMmurQS0QLxYVn9zGwvQoFUMQVjt4cgb-se_wUvvZhQdkblI2aA",
+      "imdb": "https://www.imdb.com/name/nm0000285/",
+    }, {
+      "name": "Steve Martin",
+      "image": "https://cdn.britannica.com/95/251995-050-48457045/Actor-and-comedian-Steve-Martin.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000188/",
+    }]
+    },
 
 
 
