@@ -116,16 +116,42 @@ setShowModal(true);
   </Modal.Header>
   <Modal.Body>
   <p>{randomMovie ? randomMovie.description : 'No description available'}</p>
+  
+  {/* Directors Section */}
+  {randomMovie && randomMovie.director && (
+    <div>
+      <h5>Directors:</h5>
+      <div style={{ display: 'flex', justifyContent: 'start' }}>
+        {randomMovie.director.map((director, index) => (
+          <div key={index} style={{ textAlign: 'center' }}>
+            <a href={director.imdb}>
+              <img 
+                src={director.image} 
+                alt={director.name} 
+                style={{ width: '120px', height: '100px', objectFit: 'cover' }} 
+              />
+              <p style={{ marginTop: '5px', fontSize: '14px' }}>{director.name}</p>
+            </a>
+          </div>
+        ))}
+      </div>
+    </div>
+  )}
+
+  {/* Actors Section */}
   {randomMovie && randomMovie.actors && (
     <div>
       <h5>Actors:</h5>
-      <div style={{ display: 'flex', justifyContent: "space-evenly" }}>
-        
+      <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
         {randomMovie.actors.map((actor, index) => (
           <div key={index} style={{ textAlign: 'center' }}>
             <a href={actor.imdb}>
-            <img src={actor.image} alt={actor.name} style={{ width: '100px', height: '75px', objectFit: "cover", margin: "10px" }} />
-            <p style={{ marginTop: '5px', fontSize: '14px' }}>{actor.name}</p>
+              <img 
+                src={actor.image} 
+                alt={actor.name} 
+                style={{ width: '100px', height: '80px', objectFit: 'cover' }} 
+              />
+              <p style={{ marginTop: '5px', fontSize: '14px' }}>{actor.name}</p>
             </a>
           </div>
         ))}
@@ -133,6 +159,8 @@ setShowModal(true);
     </div>
   )}
 </Modal.Body>
+
+
 
   <Modal.Footer>
     <Button variant="secondary" onClick={handleModalClose}>
