@@ -114,7 +114,7 @@ setShowModal(true);
 
     </div>
   </Modal.Header>
-  <Modal.Body>
+  <Modal.Body style={{backgroundColor: "#0D1F2D", color: "#E4C3AD", textShadow: "text-shadow: 2px 2px 2px black;"}}>
   <p>{randomMovie ? randomMovie.description : 'No description available'}</p>
   
   {/* Directors Section */}
@@ -162,7 +162,7 @@ setShowModal(true);
 
 
 
-  <Modal.Footer>
+  <Modal.Footer style={{backgroundColor: "#0D1F2D", color: "#E4C3AD", textShadow: "text-shadow: 2px 2px 2px black;"}}>
     <Button variant="secondary" onClick={handleModalClose}>
       Close
     </Button>
