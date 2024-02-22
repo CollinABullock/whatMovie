@@ -2175,6 +2175,32 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "83",
+      "title": "Spy Kids:  Armageddon",
+      "runtime": 97,
+      "mpaa": "",
+      "poster": "https://occ-0-1723-1722.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABU39xy8YDz-5UTQh83ny8NLYGp26II1urpPO-umkDi5p4TU5o1qAXXXCPF6LvXvnShqVf0dd7RNFrx2O2PCdGRmrvFHm08xo3ya62BD3bNpOz8a0lOKOHMGKZr_9FMWnuN8B.jpg?r=bb5",
+      "description": "When a game developer unleashes a powerful computer virus, the children of two secret agents must work together to save their parents — and the world.",
+	"genre": ["kids", "science-fiction"],
+    "link": "https://www.netflix.com/title/81588091",
+    "director": [{
+      "name": "Robert Rodriguez",
+      "image": "https://ca-times.brightspotcdn.com/dims4/default/332357d/2147483647/strip/true/crop/6000x4000+0+0/resize/1200x800!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Ffb%2F13%2F0c4a3c7f45259b80d91f68ff6f35%2Fla-et-we-can-be-heroes-netflix-29.JPG",
+      "imdb": "https://www.imdb.com/name/nm0001675/",
+    }],
+    "actors": [{
+      "name": "Gina Rodriguez",
+      "image": "https://img6.fresherslive.com/latestnews/2024/02/gina-rodriguez-weight-loss-how-did-gina-rodriguez-lose-weight-65cdf763c216867024688-1200.webp",
+      "imdb": "https://www.imdb.com/name/nm1752221/",
+    }, {
+      "name": "Zachary Levi",
+      "image": "https://i.ytimg.com/vi/u8ulp5k6Y_o/maxresdefault.jpg",
+      "imdb": "https://www.imdb.com/name/nm1157048/"
+    }]
+    },
+
+
   ],
 ]
 
