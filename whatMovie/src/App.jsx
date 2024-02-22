@@ -6,7 +6,6 @@ import MoviePreferenceComponent from './components/Preferences';
 import { useState, useEffect } from 'react';
 import { netflixArray } from './components/movieArray';
 
-
 function App() {
   const [selectedRuntime, setSelectedRuntime] = useState(null);
   const [selectedGenres, setSelectedGenres] = useState(null);
@@ -19,12 +18,10 @@ function App() {
   return (
     <>
       <NavBar data={netflixArray} onPreferenceChange={handlePreferenceChange} />
-    
-      <RandomMovie selectedRuntime={selectedRuntime} selectedGenres={selectedGenres} />
-
-   
-
-    <Footer />
+      <div className="container">
+        <RandomMovie selectedRuntime={selectedRuntime} selectedGenres={selectedGenres} />
+      </div>
+      <Footer />
     </>
   )
 }
