@@ -2287,6 +2287,36 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "86",
+      "title": "The Midnight Sky",
+      "runtime": 118,
+      "mpaa": "PG-13",
+      "poster": "",
+      "description": "In the aftermath of a global catastrophe, a lone scientist in the Arctic races to contact a crew of astronauts with a warning not to return to Earth.",
+	"genre": ["science-fiction", "drama"],
+    "link": "https://www.netflix.com/title/80244645",
+    "director": [{
+    "name": "",
+    "image": "",
+    "imdb": "",
+    }],
+    "actors": [{
+      "name": "",
+      "image": "",
+      "imdb": "",
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": ""
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": "",
+    }]
+    },
+
+
   ],
 ]
 

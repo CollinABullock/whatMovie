@@ -120,8 +120,8 @@ setShowModal(true);
   {/* Directors Section */}
   {randomMovie && randomMovie.director && (
     <div>
-      <h5>Directors:</h5>
-      <div style={{ display: 'flex', justifyContent: 'start' }}>
+      <h5>Director:</h5>
+      <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
         {randomMovie.director.map((director, index) => (
           <div key={index} style={{ textAlign: 'center' }}>
             <a href={director.imdb}>
