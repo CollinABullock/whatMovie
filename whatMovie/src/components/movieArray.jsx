@@ -2146,10 +2146,34 @@ const moviesArray = [
     }]
     },
 
-
-
-
-
+    {    
+      "item": "82",
+      "title": "Bruce Almighty",
+      "runtime": 101,
+      "mpaa": "PG-13",
+      "poster": "https://occ-0-1723-1722.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABajHwxSZCxTttRjrojc-RUSQ9sqXDkSDX1GYwsJ_nAVXzAMRkeavPgafOA9qQLPY5K2LfOBDe5i9JjLJ02USf8PtFDuk-HlzIvgX.jpg?r=75e",
+      "description": "After a TV news reporter rants at God, he's given divine powers for a week to see if he can do a better job at running things.",
+	"genre": ["comedy", "fantasy"],
+    "link": "https://www.netflix.com/title/60027700",
+    "director": [{
+    "name": "Tom Shadyac",
+    "image": "https://i.ytimg.com/vi/E0j0Kn-yWLM/maxresdefault.jpg",
+    "imdb": "https://www.imdb.com/name/nm0001723/",
+    }],
+    "actors": [{
+      "name": "Jim Carrey",
+      "image": "https://cdn.britannica.com/84/200584-050-7EC3F3F6/Jim-Carrey-2012.jpg?w=400&h=300&c=crop",
+      "imdb": "https://www.imdb.com/name/nm0000120/",
+    }, {
+      "name": "Jennifer Aniston",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTOTCAqfxqASbhsw71EKhsDH41xDZHsq1kFC0QZD7hjMC__-uD3",
+      "imdb": "https://www.imdb.com/name/nm0000098/"
+    }, {
+      "name": "Morgan Freeman",
+      "image": "https://mediaproxy.salon.com/width/1200/height/675/https://media2.salon.com/2014/06/morgan_freeman.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000151/",
+    }]
+    },
 
   ],
 ]
