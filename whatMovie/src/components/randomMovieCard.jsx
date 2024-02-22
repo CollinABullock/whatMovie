@@ -100,7 +100,7 @@ setShowModal(true);
         </Card>
       )}
      <Modal show={showModal} onHide={handleModalClose} style={{fontFamily: "Signwood"}}>
-  <Modal.Header>
+  <Modal.Header style={{backgroundColor: "#0D1F2D", color: "#E4C3AD", textShadow: "text-shadow: 2px 2px 2px black;"}}>
     <Modal.Title>{randomMovie ? randomMovie.title : 'Movie Title'}</Modal.Title>
     <div className='modal-details'>
        {randomMovie && randomMovie.runtime && (<p>{randomMovie.runtime} minutes</p>)}
@@ -115,12 +115,25 @@ setShowModal(true);
     </div>
   </Modal.Header>
   <Modal.Body>
-    {randomMovie && randomMovie.poster && (
-      <img src={randomMovie.poster} alt="Movie Poster" style={{ width: '100%', height: 'auto' }} />
-    )}
-    <p>{randomMovie ? randomMovie.description : 'No description available'}</p>
-    {/* Add more details as needed */}
-  </Modal.Body>
+  <p>{randomMovie ? randomMovie.description : 'No description available'}</p>
+  {randomMovie && randomMovie.actors && (
+    <div>
+      <h5>Actors:</h5>
+      <div style={{ display: 'flex', justifyContent: 'start' }}>
+        
+        {randomMovie.actors.map((actor, index) => (
+          <div key={index} style={{ textAlign: 'center' }}>
+            <a href={actor.imdb}>
+            <img src={actor.image} alt={actor.name} style={{ width: '100px', height: '75px', objectFit: "cover", margin: "5px" }} />
+            <p style={{ marginTop: '5px', fontSize: '14px' }}>{actor.name}</p>
+            </a>
+          </div>
+        ))}
+      </div>
+    </div>
+  )}
+</Modal.Body>
+
   <Modal.Footer>
     <Button variant="secondary" onClick={handleModalClose}>
       Close
