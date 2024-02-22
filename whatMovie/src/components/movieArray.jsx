@@ -2374,6 +2374,35 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "89",
+      "title": "Snowpiercer",
+      "runtime": 126,
+      "mpaa": "R",
+      "poster": "https://occ-0-1723-1722.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABeOann8svNDwV2S9m9CiJ-Wyl3SU-mb4e7DsgaktcfHEr8hVEvD4UQBGfZcWCjpv8qy5pD9GvI_tgEeQ-E6IeMxz7z1P5UYEUmCP.jpg?r=e1e",
+      "description": "The Earth's remaining inhabitants are confined to a single train circling the globe as revolution brews among the class-divided cars.",
+	"genre": ["science-fiction", "action"],
+    "link": "https://www.netflix.com/title/70270364",
+    "director": [{
+    "name": "Bong Joon Ho",
+    "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/rockcms/2024-01/240112-bong-joon-ho-mn-1020-75b530.jpg",
+    "imdb": "https://www.imdb.com/name/nm0094435/",
+    }],
+    "actors": [{
+      "name": "Chris Evans",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEdnkLrjpVJDcNcR5qmQHCgdsgOEpFmnYAqO0hApkmiQGLkaT9ZINqLLXgHPoJV3rlr30&usqp=CAU",
+      "imdb": "https://www.imdb.com/name/nm0262635/",
+    }, {
+      "name": "Song Kang Ho",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7bMlKoo0ORq302AMo3Tc9RFwzqlZLZaYHD1-9bhapjdfHxJIb",
+      "imdb": "https://www.imdb.com/name/nm0814280/"
+    }, {
+      "name": "Tilda Swinton",
+      "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRK9jrqMa484_bOUOls6P-egKvI9YLJopHVIj0cCKJZ27ldLoylGlYA7H8Dm3CVan9irp9GSs-ELU05nHI",
+      "imdb": "https://www.imdb.com/name/nm0842770/",
+    }]
+    },
+
 
   ],
 ]
