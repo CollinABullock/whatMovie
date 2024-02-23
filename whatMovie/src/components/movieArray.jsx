@@ -2671,22 +2671,22 @@ const moviesArray = [
 	"genre": ["drama", "romance", "kids"],
     "link": "https://www.netflix.com/title/81002412",
     "director": [{
-    "name": "",
-    "image": "",
-    "imdb": "",
+    "name": "Nzingha Stewart",
+    "image": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcRcL0TjIPz4Sla0JRsmrFygfxY_KaLQJUa24YMSvRjkP5Bu6ETc0BM5SsXq_HFE49X0_zwJSs9sIYCRXsA",
+    "imdb": "https://www.imdb.com/name/nm1971220/",
     }],
     "actors": [{
-      "name": "",
-      "image": "",
-      "imdb": "",
+      "name": "Ava Michelle",
+      "image": "https://m.media-amazon.com/images/M/MV5BODk4YmNkNGYtMGUzYi00NTdlLTlkZDEtNDRlZDk5NTk4ZWQ5XkEyXkFqcGdeQWxiaWFtb250._V1_.jpg",
+      "imdb": "https://www.imdb.com/name/nm6433012/",
     }, {
-      "name": "",
-      "image": "",
-      "imdb": ""
+      "name": "Griffin Gluck",
+      "image": "https://teenplicity.com/wp-content/uploads/2016/09/MV5BMTU1NzQ5NTI5MF5BMl5BanBnXkFtZTgwNTU0NDIyNzE@._V1_SY1000_SX1500_AL_-1050x700.jpg",
+      "imdb": "https://www.imdb.com/name/nm3838034/"
     }, {
-      "name": "",
-      "image": "",
-      "imdb": "",
+      "name": "Sabrina Carpenter",
+      "image": "https://i.ytimg.com/vi/kLbn61Z4LDI/maxresdefault.jpg",
+      "imdb": "https://www.imdb.com/name/nm4248775/",
     }]
     },
 
