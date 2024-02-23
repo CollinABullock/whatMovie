@@ -26,7 +26,6 @@ background-color: pink;
 
 .container {
   position: relative;
-  min-height: 100vh;
 }
 
 .RandomMovie {
