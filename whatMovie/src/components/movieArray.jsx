@@ -2553,7 +2553,7 @@ const moviesArray = [
       "title": "John Wick Chapter 2",
       "runtime": 122,
       "mpaa": "R",
-      "poster": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABadGjenoZNowXAkfIef9spMZJRGcH0PlBkWzbZ6i3fclbO42JIVyj9dbL43g9NeN9C539OJxV9sTV0B8d8cSAc1TJ51dIeNvTZLN.jpg?r=16d",
+      "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABdLvLlq_V5k0G-MwSnFdXo7vpfPzEg_7dtilbOAvN2k4VUBVzZN6R5T66OxjsCCox2XiKud-t-q8jBbFMvXDyPStnzFSbyDsdaXt.jpg?r=ba4",
       "description": "When a past debt comes due, retired assassin John Wick reluctantly takes a final assignment that lands him in the crosshairs of a lethal crime syndicate.",
 	"genre": ["action", "sequel"],
     "link": "https://www.netflix.com/title/80131552",
@@ -2571,7 +2571,7 @@ const moviesArray = [
     }, {
       "name": "Ian McShane",
       "image": "https://variety.com/wp-content/uploads/2016/11/ian-mcshane-big-break-in-hollywood.jpg?w=1000&h=562&crop=1",
-      "imdb": "https://www.imdb.com/name/nm0574534/",
+      "imdb": "https://www.imdb.com/name/nm0574534/"
     }]
     },
 
@@ -2596,11 +2596,42 @@ const moviesArray = [
       "image": "https://atlantablackstar.com/wp-content/uploads/2022/10/GettyImages-1434655767-scaled.jpg",
       "imdb": "https://www.imdb.com/name/nm0000401/?ref_=tt_ov_st"
     }, {
+      "name": "Ian McShane",
+      "image": "https://variety.com/wp-content/uploads/2016/11/ian-mcshane-big-break-in-hollywood.jpg?w=1000&h=562&crop=1",
+      "imdb": "https://www.imdb.com/name/nm0574534/"
+    }]
+    },
+
+    {    
+      "item": "91",
+      "title": "",
+      "runtime": ,
+      "mpaa": "",
+      "poster": "",
+      "description": "",
+	"genre": [""],
+    "link": "",
+    "director": [{
+    "name": "",
+    "image": "",
+    "imdb": "",
+    }],
+    "actors": [{
+      "name": "",
+      "image": "",
+      "imdb": "",
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": ""
+    }, {
       "name": "",
       "image": "",
       "imdb": "",
     }]
     },
+
+
 
 
 
