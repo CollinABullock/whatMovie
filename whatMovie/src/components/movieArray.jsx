@@ -1269,7 +1269,7 @@ const moviesArray = [
       "mpaa": "R",
       "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABcC0ciRFU88M-2UHTuCys-nlCoqzA-8gkOjXKZ07P9Af9AFFirq9Smsp_1Mpvsf1LQSP9mbk_M2YwKabjawBfGvskV36wOZ_s45Oi9yAznIF7j7GCOGHGw1BZ5onJwAsds6aRw.jpg?r=51e",
       "description": "Hit man Frank Sheeran looks back at the secrets he kept as a loyal member of the Bufalino crime family in this acclaimed film from Martin Scorsese",
-	"genre": ["drama", "gangster"],
+	"genre": ["drama", "crime"],
     "link": "https://www.netflix.com/title/80175798",
     "director": [{
     "name": "Martin Scorcese",
@@ -1387,7 +1387,7 @@ const moviesArray = [
       "mpaa": "R",
       "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABbg3296Qv8PD5hfZRCWQbClwNFT1QaLqK19Tr6RBMExLoGlCXqiKCnWfAaLwYbByGZ_K1HK3wyCi4HRFB2XbJc6sAielGmPtQANenhkHPNiK_IYCpiG5N5z6z9NK396Smm1bDw.jpg?r=3f0",
       "description": "An American soldier imprisoned in postwar Japan enters the dark world of the yakuza, adopting their way of life in repayment for his freedom.",
-	"genre": ["drama", "thriller", "gangster"],
+	"genre": ["drama", "thriller", "crime"],
     "link": "https://www.netflix.com/title/80152434",
     "director": [{
     "name": "Martin Zandvliet",
@@ -2012,7 +2012,7 @@ const moviesArray = [
       "mpaa": "R",
       "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABfgSs4RzXURDSRcuCcShiQvTdK_vgjx5pTEybzZbNqD-bPzGf-omCDoVTPylOzdtoQyTSff8i5dx9U6wxRGonX8XvM1eL111gQI.jpg?r=27b",
       "description": "A woman falls victim to a dominant mafia boss, who imprisons her and gives her one year to fall in love with him.",
-	"genre": ["drama", "romance", "gangster"],
+	"genre": ["drama", "romance", "crime"],
     "link": "https://www.netflix.com/title/81245964",
     "director": [{
     "name": "Barbara Bialowas",
@@ -2460,6 +2460,39 @@ const moviesArray = [
       "imdb": "https://www.imdb.com/name/nm0001669/",
     }]
     },
+
+    {    
+      "item": "86",
+      "title": "The Mule",
+      "runtime": 116,
+      "mpaa": "R",
+      "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABZ71hhnO2oq30CVqO15-nDg_DaK33GW3U3EyLxfjy1kwFx-Z7J6h-oSbEAvAEa_UiprfrCEqUyPOJR38znwj3HmYuNzUogRqypml.jpg?r=afd",
+      "description": "In dire financial straits and estranged from his family, an ornery 90-year-old horticulturalist becomes a delivery driver for a Mexican drug cartel.",
+	"genre": ["drama", "crime"],
+    "link": "https://www.netflix.com/title/81035551",
+    "director": [{
+    "name": "Clint Eastwood",
+    "image": "https://hips.hearstapps.com/esquire/assets/16/31/1470229441-screen-shot-2016-08-03-at-85600-am.png",
+    "imdb": "https://www.imdb.com/name/nm0000142/",
+    }],
+    "actors": [{
+      "name": "Clint Eastwood",
+    "image": "https://hips.hearstapps.com/esquire/assets/16/31/1470229441-screen-shot-2016-08-03-at-85600-am.png",
+    "imdb": "https://www.imdb.com/name/nm0000142/",
+    }, {
+      "name": "Bradley Cooper",
+      "image": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcTWMU-hTEfE9uijYMdXLmGszgxLyiWtA_lBOaTUq82IDM__vhe-JaCEK8Cx_OKdoXKZ8YCGL8Mf2PR6-7Q",
+      "imdb": "https://www.imdb.com/name/nm0177896/bio/"
+    }, {
+      "name": "Laurence Fishburne",
+      "image": "https://atlantablackstar.com/wp-content/uploads/2022/10/GettyImages-1434655767-scaled.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000401/?ref_=tt_ov_st"
+    }]
+    },
+
+
+
+
 
   ],
 ]
