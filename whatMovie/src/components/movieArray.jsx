@@ -152,7 +152,7 @@ const moviesArray = [
     "actors": [{
       "name": "Brad Pitt",
       "image": "https://m.media-amazon.com/images/M/MV5BMWRkMDE5MjUtN2MyYi00MzAyLWIwOWMtNWU0NzNkZDczOWUyXkEyXkFqcGdeQUlNRGJWaWRlb1RodW1ibmFpbFNlcnZpY2U@._V1_QL75_UX500_CR0,0,500,281_.jpg",
-      "imdb": "https://www.imdb.com/name/nm0000093/",
+      "imdb": "https://www.imdb.com/name/nm0000093/"
     }, {
       "name": "Joey King",
       "image": "https://hips.hearstapps.com/hmg-prod/images/joey-king-attends-the-premiere-of-20th-century-studios-news-photo-1696442067.jpg",
@@ -2604,30 +2604,30 @@ const moviesArray = [
 
     {    
       "item": "91",
-      "title": "",
-      "runtime": ,
-      "mpaa": "",
-      "poster": "",
-      "description": "",
-	"genre": [""],
-    "link": "",
+      "title": "Moneyba;;",
+      "runtime": 133,
+      "mpaa": "PG-13",
+      "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABTe5M21y-DPduEYaq4q1O33GNFiP016vnKsWfTEMzxNJ1fxEZroypiBCFHMe2AvYDQ1Ypu2hNoLOY_ZZVvGQL1EhD1fjRJCNtYE.jpg?r=0dd",
+      "description": "Frustrated that his baseball team can't afford big-money players, Oakland A's general manager Billy Beane bets on a bold new strategy to change the game.",
+	"genre": ["drama", "sports"],
+    "link": "https://www.netflix.com/title/70201437",
     "director": [{
-    "name": "",
-    "image": "",
-    "imdb": "",
+    "name": "Bennett Miller",
+    "image": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcShFjZGkkc-HSVyeKEU1njIbsGY6Gg5ce3i6bsyH4dE4wZYTTBX9eiZfBMM9F4s2WKhvMzunnsnERLPr9c",
+    "imdb": "https://www.imdb.com/name/nm0587955/",
     }],
     "actors": [{
-      "name": "",
-      "image": "",
-      "imdb": "",
+      "name": "Brad Pitt",
+      "image": "https://m.media-amazon.com/images/M/MV5BMWRkMDE5MjUtN2MyYi00MzAyLWIwOWMtNWU0NzNkZDczOWUyXkEyXkFqcGdeQUlNRGJWaWRlb1RodW1ibmFpbFNlcnZpY2U@._V1_QL75_UX500_CR0,0,500,281_.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000093/"
     }, {
-      "name": "",
-      "image": "",
-      "imdb": ""
+      "name": "Jonah Hill",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/jonah-hill-at-the-world-premiere-of-netflixs-dont-look-up-news-photo-1660837905.jpg",
+      "imdb": "https://www.imdb.com/name/nm1706767/"
     }, {
-      "name": "",
-      "image": "",
-      "imdb": "",
+      "name": "Philip Seymour Hoffman",
+      "image": "https://www.usatoday.com/gcdn/-mm-/0c6797d862acf1666f83178798c8107f42310354/c=0-357-3504-2334/local/-/media/USATODAY/USATODAY/2014/02/02//1391369092003--PHILIPSHOFFMAN-03.JPG?width=3200&height=1806&fit=crop&format=pjpg&auto=webp",
+      "imdb": "https://www.imdb.com/name/nm0000450/",
     }]
     },
 
