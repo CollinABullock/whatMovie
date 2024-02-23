@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 import { motion } from "framer-motion";
-import { netflixArray } from './movieArray';
+import { moviesArray, netflixArray } from './movieArray';
 
 export default function RandomMovie({ selectedRuntime, selectedGenres, preferredGenres }) {
   const [randomMovie, setRandomMovie] = useState(null);
@@ -12,8 +12,11 @@ export default function RandomMovie({ selectedRuntime, selectedGenres, preferred
   const [animationKey, setAnimationKey] = useState(0);
 
   useEffect(() => {
+    // Merge all movie arrays into one
+    const allMovies = [].concat(...moviesArray);
+
     // Filter movies based on selected runtime
-    const filtered = netflixArray.filter(movie => movie.runtime <= selectedRuntime);
+    const filtered = allMovies.filter(movie => movie.runtime <= selectedRuntime);
     setFilteredMovies(filtered);
   }, [selectedRuntime]);
 
