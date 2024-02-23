@@ -1355,7 +1355,7 @@ const moviesArray = [
       "title": "Wonder Woman 1984",
       "runtime": 151,
       "mpaa": "PG-13",
-      "poster": "https://www.netflix.com/title/81198904",
+      "poster": "https://nnhsnorthstar.com/wp-content/uploads/2021/01/WW84thedirect.com_.jpg",
       "description": "While working at the Smithsonian, secret superhero Diana Prince discovers the miracle — and menace — of a mysterious artifact’s staggering powers.",
       "genre": ["action", "fantasy", "war", "comic-book", "sequel"],
       "link": "https://www.netflix.com/title/80157091",
