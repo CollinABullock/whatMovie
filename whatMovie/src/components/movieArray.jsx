@@ -2432,9 +2432,34 @@ const moviesArray = [
     }]
     },
 
-
-
-
+    {    
+      "item": "85",
+      "title": "Stronger",
+      "runtime": 118,
+      "mpaa": "R",
+      "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABaLXg8IRTk7Brdf8o7rVG2tnDsH08ZVq0gk6L1i9FQbskESTp0E_GZNhhMTW96g8Zy4IC7b-wCg4elBq5hwOyW52-vhdDPZ6yi9U.jpg?r=508",
+      "description": "Upon losing his legs in the 2013 Boston Marathon bombing, Jeff Bauman navigates the incident's overwhelming aftermath in this true story-based drama.",
+	"genre": ["drama"],
+    "link": "https://www.netflix.com/title/80184568",
+    "director": [{
+    "name": "David Gordon Green",
+    "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS4F3e5l0fOYgHZ8bnnJU27l5UJt_ge4m_FqQrdY9-yb1cn3J8y",
+    "imdb": "https://www.imdb.com/name/nm0337773/",
+    }],
+    "actors": [{
+      "name": "Jake Gyllenhaal",
+      "image": "https://cdn.britannica.com/27/217827-050-60BEF3D1/American-actor-Jake-Gyllenhaal-2019.jpg?w=400&h=300&c=crop",
+      "imdb": "https://www.imdb.com/name/nm0350453/",
+    }, {
+      "name": "Tatiana Maslany",
+      "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTHyIvxzqC4z8cfyb0jLIU_zHJLK2WCd5CAHYEyamKRU3Vlct-iOHzLk_t8mXDir-bqqnP6u8DSUuLVjBs",
+      "imdb": "https://www.imdb.com/name/nm1137209/"
+    }, {
+      "name": "Miranda Richardson",
+      "image": "https://3.bp.blogspot.com/-p5a9a9BibnQ/WZ2poPMQPII/AAAAAAAACSY/WfYd8Jo6bUI1Rf9lUNKmhgf2xYqxe2rigCLcBGAs/w1200-h630-p-k-no-nu/miranda%2Brichardson%252C%2Bdamage.PNG",
+      "imdb": "https://www.imdb.com/name/nm0001669/",
+    }]
+    },
 
   ],
 ]
