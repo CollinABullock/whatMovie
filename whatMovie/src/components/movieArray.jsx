@@ -2632,6 +2632,37 @@ const moviesArray = [
     },
 
 
+    {    
+      "item": "92",
+      "title": "Warrior",
+      "runtime": 139,
+      "mpaa": "PG-13",
+      "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABUG-ND7hUEbKaMq2ZeOfGF53J8ANyk8Ma9a2GDBxaqby3DrRo-UGBUuRJeS3rlqIDjmQ-fNVawfvS7DR-vVcztpHleQMu3QKWZoj.jpg?r=ccc",
+      "description": "An ex-Marine trains under his father for an MMA tournament as his estranged brother fights his way into the event. Their biggest opponent: each other.",
+	"genre": ["drama", "sports", "action"],
+    "link": "https://www.netflix.com/title/70141653",
+    "director": [{
+    "name": "Gavin O'Connor",
+    "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSLTQ-JOzrEmUVISoRjsDTLdhJK5iVqIDJK_sOXyn7YCZ3JVwY8",
+    "imdb": "https://www.imdb.com/name/nm0640334/",
+    }],
+    "actors": [{
+      "name": "Tom Hardy",
+      "image": "https://media.gq.com/photos/632b4e9763f2eae5a8460f51/16:9/w_2560%2Cc_limit/1340297096",
+      "imdb": "https://www.imdb.com/name/nm0362766/",
+    }, {
+      "name": "Joel Edgerton",
+      "image": "https://i.ytimg.com/vi/0w1-GtEEAmA/maxresdefault.jpg",
+      "imdb": "https://www.imdb.com/name/nm0249291/"
+    }, {
+      "name": "Nick Nolte",
+      "image": "https://pyxis.nymag.com/v1/imgs/fe9/2e0/99d5484abae0728f6d5116f866cc5e7eb0-04-nick-nolte-bumper-cars.2x.w710.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000560/",
+    }]
+    },
+
+
+
 
 
 

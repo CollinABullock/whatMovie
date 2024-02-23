@@ -2,7 +2,6 @@ import './App.css';
 import NavBar from './components/navbar';
 import RandomMovie from './components/randomMovieCard';
 import Footer from './components/footer';
-import MoviePreferenceComponent from './components/Preferences';
 import { useState, useEffect } from 'react';
 import { moviesArray, netflixArray } from './components/movieArray';
 
