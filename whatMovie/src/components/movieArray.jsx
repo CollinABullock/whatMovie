@@ -989,7 +989,7 @@ const moviesArray = [
     }, {
       "name": "Carey Mulligan",
       "image": "https://d26oc3sg82pgk3.cloudfront.net/files/media/edit/image/14862/article_full%401x.jpg",
-      "imdb": "https://www.imdb.com/name/nm1659547/?ref_=tt_cl_t_2",
+      "imdb": "https://www.imdb.com/name/nm1659547/?ref_=tt_cl_t_2"
     }]
     },
 
@@ -2489,6 +2489,37 @@ const moviesArray = [
       "imdb": "https://www.imdb.com/name/nm0000401/?ref_=tt_ov_st"
     }]
     },
+
+    {    
+      "item": "87",
+      "title": "Maestro",
+      "runtime": 132,
+      "mpaa": "R",
+      "poster": "https://ntvb.tmsimg.com/assets/p24625532_v_h10_ab.jpg?w=960&h=540",
+      "description": "This fearless love story chronicles the complicated lifelong relationship between music legend Leonard Bernstein and Felicia Montealegre Cohn Bernstein.",
+	"genre": ["drama", "biopic", "romance"],
+    "link": "https://www.netflix.com/title/81171868",
+    "director": [{
+      "name": "Bradley Cooper",
+      "image": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcTWMU-hTEfE9uijYMdXLmGszgxLyiWtA_lBOaTUq82IDM__vhe-JaCEK8Cx_OKdoXKZ8YCGL8Mf2PR6-7Q",
+      "imdb": "https://www.imdb.com/name/nm0177896/bio/"
+    }],
+    "actors": [{
+      "name": "Bradley Cooper",
+      "image": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcTWMU-hTEfE9uijYMdXLmGszgxLyiWtA_lBOaTUq82IDM__vhe-JaCEK8Cx_OKdoXKZ8YCGL8Mf2PR6-7Q",
+      "imdb": "https://www.imdb.com/name/nm0177896/bio/"
+    }, {
+      "name": "Carey Mulligan",
+      "image": "https://d26oc3sg82pgk3.cloudfront.net/files/media/edit/image/14862/article_full%401x.jpg",
+      "imdb": "https://www.imdb.com/name/nm1659547/?ref_=tt_cl_t_2"
+    }, {
+      "name": "Sarah Silverman",
+      "image": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcTozKk5Gr6xS-5XeBz3fDOuGLJCGgl1H0L7YM6S42YmR3pLQYmRFMH_ST9YYMRum8SvDJRtGscSHdjj0_0",
+      "imdb": "https://www.imdb.com/name/nm0798971/",
+    }]
+    },
+
+
 
 
 
