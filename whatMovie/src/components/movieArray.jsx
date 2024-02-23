@@ -2548,6 +2548,65 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "89",
+      "title": "John Wick Chapter 2",
+      "runtime": 122,
+      "mpaa": "R",
+      "poster": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABadGjenoZNowXAkfIef9spMZJRGcH0PlBkWzbZ6i3fclbO42JIVyj9dbL43g9NeN9C539OJxV9sTV0B8d8cSAc1TJ51dIeNvTZLN.jpg?r=16d",
+      "description": "When a past debt comes due, retired assassin John Wick reluctantly takes a final assignment that lands him in the crosshairs of a lethal crime syndicate.",
+	"genre": ["action", "sequel"],
+    "link": "https://www.netflix.com/title/80131552",
+    "director": [{
+    "name": "Chad Stahelski",
+    "image": "https://variety.com/wp-content/uploads/2024/01/Chad.jpg?w=1000&h=563&crop=1",
+    "imdb": "https://www.imdb.com/name/nm0821432/",
+    }],
+    "actors": [
+      {"name": "Keanu Reeves", "image": "https://www.rollingstone.com/wp-content/uploads/2023/05/GettyImages-1493917424-2.jpg?w=1024", "imdb": "https://www.imdb.com/name/nm0000206/"
+    }, {
+      "name": "Laurence Fishburne",
+      "image": "https://atlantablackstar.com/wp-content/uploads/2022/10/GettyImages-1434655767-scaled.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000401/?ref_=tt_ov_st"
+    }, {
+      "name": "Ian McShane",
+      "image": "https://variety.com/wp-content/uploads/2016/11/ian-mcshane-big-break-in-hollywood.jpg?w=1000&h=562&crop=1",
+      "imdb": "https://www.imdb.com/name/nm0574534/",
+    }]
+    },
+
+    {    
+      "item": "90",
+      "title": "John Wick Chapter 3:  Parabellum",
+      "runtime": ,
+      "mpaa": "R",
+      "poster": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABcUMx1mZwbbousx4FAwUs-YN3G2HeXmpnpZFwmX3kDeq5mngmqPxmbWCs49QhNr4Y-NFwDml7-cGZ3w88m0HmpLW5RL19tgelHX6.jpg?r=c62",
+      "description": "",
+	"genre": [""],
+    "link": "",
+    "director": [{
+      "name": "Chad Stahelski",
+      "image": "https://variety.com/wp-content/uploads/2024/01/Chad.jpg?w=1000&h=563&crop=1",
+      "imdb": "https://www.imdb.com/name/nm0821432/",
+    }],
+    "actors": [{
+      "name": "Keanu Reeves", "image": "https://www.rollingstone.com/wp-content/uploads/2023/05/GettyImages-1493917424-2.jpg?w=1024", "imdb": "https://www.imdb.com/name/nm0000206/"
+    }, {
+      "name": "Laurence Fishburne",
+      "image": "https://atlantablackstar.com/wp-content/uploads/2022/10/GettyImages-1434655767-scaled.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000401/?ref_=tt_ov_st"
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": "",
+    }]
+    },
+
+
+
+
+
+
 
 
 
