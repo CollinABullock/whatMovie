@@ -2690,6 +2690,34 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "94",
+      "title": "Everything, Everywhere, All At Once",
+      "runtime": 139,
+      "mpaa": "R",
+      "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABR7FjVqICI_NzUZ8Zfz4JYdaa-qUx9Rp-9DoOT1ie99QaTwG773DkwmRI3WklXcX6pvIgrVs9GfAWj-XsnoUGI6yL8ztN8tetM8.jpg?r=ee1",
+      "description": "An audit of Evelyn's laundromat triggers a heroic journey through alternate universes where the only constant is her complicated love for her family.",
+	"genre": ["action", "science-fiction", "comedy"],
+    "link": "https://www.netflix.com/title/81569721",
+    "director": [{
+    "name": "The Daniels",
+    "image": "https://variety.com/wp-content/uploads/2023/02/GettyImages-1467518484.jpg?w=1024",
+    "imdb": "https://www.imdb.com/name/nm3453283/",
+    }],
+    "actors": [{
+      "name": "Michelle Yeoh",
+      "image": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcRuYVQZJ-YZJOlIsSQJJfl1ymUxYiuKy0ZRfLG3OhqL9vbgOHKUZJTX_XkCrOM79Bp6lv9ZskCFj8mE6i4",
+      "imdb": "https://www.imdb.com/name/nm0000706/",
+    }, {
+      "name": "Ke Huy Quan",
+      "image": "https://m.media-amazon.com/images/M/MV5BOTA1OWYyYzAtOGI5Yy00N2E3LTgxZGMtNzY1N2E2NjliZWVkXkEyXkFqcGdeQXJoYW5uYWg@._V1_QL75_UX500_CR0,0,500,281_.jpg",
+      "imdb": "https://www.imdb.com/name/nm0702841/"
+    }, {
+      "name": "Jamie Lee Curtis",
+      "image": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcT3DDRoZWX3tGr7y39ltE7RVCRajqQIsbR3ET9Z6KtjjBiuhx6PL-ygBP37O0ZynotznZ8BarjN84IsyHE",
+      "imdb": "https://www.imdb.com/name/nm0000130/",
+    }]
+    },
 
 
 
