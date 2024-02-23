@@ -2719,6 +2719,34 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "95",
+      "title": "The Abyss",
+      "runtime": 104,
+      "mpaa": "R",
+      "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABRUwYhjl-Q5DdbW4F6af3RBvcoD6IRTVLgsLN2g-3wYw1gsVgyjSHbQNr1TL_1LO_8RmNgNBOXz227HYWCpNBmAjclJkqhJpx58BZlVRYJt8H5pmwsay2G97xwMZUIa0Bg013MdpIzcH9tbqmt_Z1oKsOvySr7ve94Tr3AEwfPotwobAspPq_oIl4SKoL2wSafw018xXZYmPCwNOMClSm1mAYZAkPmV-z_n4bU0HvYR-8-sLWwQDXEQCEYv_laRp2ZISgBxnZEBg00GclkUNmn59d_vAwqaHbZca_ESMFg1lJBrfA7e1oFk23g.jpg?r=946",
+      "description": "As the Swedish town of Kiruna sinks, Frigga finds herself torn between her family and her job as security chief at the world's largest underground mine.",
+	"genre": ["drama", "foreign", "thriller"],
+    "link": "",
+    "director": [{
+    "name": "Richard Holm",
+    "image": "https://frontend-assets.clipsource.com/5e956ef8ad533/sfsi-5e957016a50e1/2023/10/06/6520032fe7acf_thumbnail.jpg",
+    "imdb": "https://www.imdb.com/name/nm0391557/?ref_=tt_ov_dr",
+    }],
+    "actors": [{
+      "name": "Tuva Novotny",
+      "image": "https://d27csu38upkiqd.cloudfront.net/eyJidWNrZXQiOiJmZGMtc2l0ZXB1YmxpYy1tZWRpYS1wcm9kIiwia2V5IjoidXBsb2Fkc1wvMjAyMVwvMDdcL0pMSF9UdXZhX05vdm90bnlfSnVyeV9Db3VydHNfTWV0cmFnZXNfQ2luZWZvbmRhdGlvbl80MDc1LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTYwMCwiZml0IjoiY292ZXIifX19",
+      "imdb": "https://www.imdb.com/name/nm0637259/",
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": ""
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": "",
+    }]
+    },
 
 
 
