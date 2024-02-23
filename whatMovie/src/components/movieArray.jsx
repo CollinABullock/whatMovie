@@ -2738,13 +2738,13 @@ const moviesArray = [
       "image": "https://d27csu38upkiqd.cloudfront.net/eyJidWNrZXQiOiJmZGMtc2l0ZXB1YmxpYy1tZWRpYS1wcm9kIiwia2V5IjoidXBsb2Fkc1wvMjAyMVwvMDdcL0pMSF9UdXZhX05vdm90bnlfSnVyeV9Db3VydHNfTWV0cmFnZXNfQ2luZWZvbmRhdGlvbl80MDc1LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTYwMCwiZml0IjoiY292ZXIifX19",
       "imdb": "https://www.imdb.com/name/nm0637259/",
     }, {
-      "name": "",
-      "image": "",
-      "imdb": ""
+      "name": "Felicia Truedsson",
+      "image": "https://pbs.twimg.com/media/F4tLToqakAAqBaK.jpg",
+      "imdb": "https://www.imdb.com/name/nm4739992/"
     }, {
-      "name": "",
-      "image": "",
-      "imdb": "",
+      "name": "Edvin Ryding",
+      "image": "https://www.thepinknews.com/wp-content/uploads/2023/10/Young-Royals-star-Edvin-Ryding-says-comments-on-appearance-make-him-uncomfortable.-Getty.jpg",
+      "imdb": "https://www.imdb.com/name/nm4454344/",
     }]
     },
 
