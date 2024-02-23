@@ -2661,6 +2661,37 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "93",
+      "title": "Tall Girl",
+      "runtime": 103,
+      "mpaa": "PG",
+      "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABRNrB61KUA_km-1bjuaXhm0mTiBTFWDs2AVFkbsh1hsuM3ZbIKxa_gfffodPnLK90zn_8oZtHbeexcME3IadyZT-hg-_6xreHh9WMouyWS-PieSW8FguPOm_E7ZGxiDbhnJQ.jpg?r=284",
+      "description": "After years of slouching through life, 6-foot-1 teen Jodi resolves to conquer her insecurities and gets caught up in a high school love triangle.",
+	"genre": ["drama", "romance", "kids"],
+    "link": "https://www.netflix.com/title/81002412",
+    "director": [{
+    "name": "",
+    "image": "",
+    "imdb": "",
+    }],
+    "actors": [{
+      "name": "",
+      "image": "",
+      "imdb": "",
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": ""
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": "",
+    }]
+    },
+
+
+
 
 
 

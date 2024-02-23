@@ -94,7 +94,7 @@ export default function RandomMovie({ selectedRuntime, selectedGenres, preferred
           key={animationKey}
           initial={{ x: -1000, opacity: 0 }} // initial position off-screen to the left
           animate={{ x: 0, opacity: 1 }} // animate to the center of the screen
-          transition={{ duration: 0.5, type: "tween" }} // adjust duration as needed
+          transition={{ duration: 0.3, type: "tween" }} // adjust duration as needed
         >
           <Card className="randomCard" style={{ width: "100%", maxWidth: "600px", maxHeight: "1000px", backgroundColor: "#2d210d", color: "whitesmoke", borderRadius: "30px" }}>
             <Card.Body>
