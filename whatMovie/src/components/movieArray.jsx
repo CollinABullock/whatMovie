@@ -2519,6 +2519,38 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "88",
+      "title": "May December",
+      "runtime": 117,
+      "mpaa": "R",
+      "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABfBrXfORC2nMC3Te6FT-w9jhoMkDu4gBJIfVIPyqABYKmqWOx_Vk8k1KFIstnE8NfjunWrSxbcYvYmbeHq_p__0t_ieAUXcjIesR-xjX2KP1s_ZnLLKLizBNUrUcyndmzqe1BtlZ8MFbMpfCD-aejD_BpUPRthuZwltj_PkMfBDuHqwVBOXN7KaeetbiwfwlHNZEHXdtFXfX2Q2cyyIwIFNxfahH__NdFSY.jpg?r=c7a",
+      "description": "Decades after their scandalous relationship made headlines, a couple starts to unravel when a famous actor arrives to research them for her new film.",
+	"genre": ["drama", "comedy"],
+    "link": "https://www.netflix.com/title/81702955",
+    "director": [{
+    "name": "Todd Haynes",
+    "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQIqf3QdJsBJensDkBMoozIo33SIj_rHXf8ojc0VL6qd-U0zU-m66WLS6_K-Mk-7914-BVdT0FVOyfg_Cc",
+    "imdb": "https://www.imdb.com/name/nm0001331/",
+    }],
+    "actors": [{
+      "name": "Natalie Portman",
+      "image": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcT8e-jdFFzJbIQIY6yiFQarC2Zx2JE8HeAdMrX5wpKDcDaF-jYixu18_PqOeh_SiiUVrlKFYAfm6wFyZyw",
+      "imdb": "https://www.imdb.com/name/nm0000204/",
+    }, {
+      "name": "Julianne Moore",
+      "image": "https://media.vanityfair.com/photos/62d832d66b77832a6a80ae89/16:9/w_2000,h_1125,c_limit/julianne-moore-site-story-image.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000194/"
+    }, {
+      "name": "Charles Melton",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR-L6tKpEx-30dyreFopyuQEyeekV0BzBqHFBgo1kJxDGMRrWAsQ3ZuS7PG2p67uDnj4sIu3g",
+      "imdb": "https://www.imdb.com/name/nm6217576/",
+    }]
+    },
+
+
+
+
 
 
 
