@@ -2578,12 +2578,12 @@ const moviesArray = [
     {    
       "item": "90",
       "title": "John Wick Chapter 3:  Parabellum",
-      "runtime": ,
+      "runtime": 130,
       "mpaa": "R",
       "poster": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABcUMx1mZwbbousx4FAwUs-YN3G2HeXmpnpZFwmX3kDeq5mngmqPxmbWCs49QhNr4Y-NFwDml7-cGZ3w88m0HmpLW5RL19tgelHX6.jpg?r=c62",
-      "description": "",
-	"genre": [""],
-    "link": "",
+      "description": "With a $14 million bounty on his head, elite hitman John Wick must battle every killer in his path to reach old allies and redeem his life.",
+	"genre": ["action", "sequel"],
+    "link": "https://www.netflix.com/title/81168939",
     "director": [{
       "name": "Chad Stahelski",
       "image": "https://variety.com/wp-content/uploads/2024/01/Chad.jpg?w=1000&h=563&crop=1",
