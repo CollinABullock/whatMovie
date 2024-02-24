@@ -2866,88 +2866,83 @@ const moviesArray = [
 
     {    
       "item": "100",
-      "title": "",
-      "runtime": ,
-      "mpaa": "",
-      "poster": "",
-      "description": "",
-	"genre": [""],
-    "link": "",
+      "title": "Justice League",
+      "runtime": 120,
+      "mpaa": "PG-13",
+      "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABXsT7WZjeq1-rfhEPq7dor5TRIVW1S0Otmdkpfms3nW8O88rSEBbeJ2idUKbol3cZKScHftOaHNLUKo3pObiSoA46L1mDaLlbrdd.jpg?r=469",
+      "description": "Batman and Wonder Woman gather a new team of superheroes — and try to resurrect Superman — in hopes of defeating a foe unlike any they've faced before.",
+	"genre": ["action", "science-fiction", "comic-book"],
+    "link": "https://www.netflix.com/title/80187362",
     "director": [{
-    "name": "",
-    "image": "",
-    "imdb": "",
+      "image": "https://dnm.nflximg.net/api/v6/2DuQlx0fM4wd1nzqm5BFBi6ILa8/AAAAQRkG0o6H2e9srDoKgYVGPoqGMQGX2DpEahimbzps-XdXK2Qc_sby0nJiRw3V0bePHNFOGKK3PdNwy1Z825FXZwDjmxVEuYKYQlsRdnmEnmK0XIzCGQ-PHCNrD8wJVCvhOqggGXSKLFhPBK7DxoiMtrO9.jpg?r=4ca",
+      "imdb": "https://www.imdb.com/name/nm0811583/",
     }],
     "actors": [{
-      "name": "",
-      "image": "",
-      "imdb": "",
+      "name": "Ben Affleck",
+      "image": "https://ca-times.brightspotcdn.com/dims4/default/10ea0b4/2147483647/strip/true/crop/6316x4210+0+1/resize/2000x1333!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F7d%2Fd8%2Ff1ec7c954d10ab8f645895faa29b%2Fla-photos-1staff-885832-ca-ben-affleck-portrait-tender-bar-jlc-1213-12331.JPG",
+      "imdb": "https://www.imdb.com/name/nm0000255/",
     }, {
-      "name": "",
-      "image": "",
-      "imdb": ""
+      "name": "Gal Gadot",
+      "image": "https://d.newsweek.com/en/full/2305821/gal-gadot.jpg",
+      "imdb": "https://www.imdb.com/name/nm2933757/",
     }, {
-      "name": "",
-      "image": "",
-      "imdb": "",
+      "name": "Henry Cavill",
+      "image": "https://people.com/thmb/ADnDFyFZo356CcxH-4zHTR9ExG0=/400x262/filters:no_upscale():max_bytes(150000):strip_icc():focal(719x9:721x11)/Henry-Cavill-Announces-Next-Project-After-Superman-Exit-Natalie-Viscuso-121622-1-95ca52d1d1c9429491654178637087ad.jpg",
+      "imdb": "https://www.imdb.com/name/nm0147147/",
     }]
     },
 
     {    
       "item": "101",
-      "title": "",
-      "runtime": ,
-      "mpaa": "",
-      "poster": "",
-      "description": "",
-	"genre": [""],
-    "link": "",
+      "title": "The Kissing Booth",
+      "runtime": 106,
+      "mpaa": "PG-13",
+      "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABdVeAVwP4OEu5pqOY0lV2KdZGiSVEstW1ZXJesc3_XHDpp4DeMx5hpOIU1y_zsAH7476es1NskmLB6r6utcC6B_8qsasamMq2_-aZdWwHLL3P5cEYRtGA7Dc9cF_KepkA7Cs.jpg?r=930",
+      "description": "When teenager Elle's first kiss leads to a forbidden romance with the hottest boy in high school, she risks her relationship with her best friend.",
+	"genre": ["comedy", "romance", "kids", "teen"],
+    "link": "https://www.netflix.com/title/80143556",
     "director": [{
-    "name": "",
-    "image": "",
-    "imdb": "",
+    "name": "Vince Marcello",
+    "image": "https://deadline.com/wp-content/uploads/2022/09/thumbnail_KB2_050819_MC-0484_R-e1663611065735.jpg",
+    "imdb": "https://www.imdb.com/name/nm1479803/",
     }],
     "actors": [{
-      "name": "",
-      "image": "",
-      "imdb": "",
+      "name": "Joey King",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/joey-king-attends-the-premiere-of-20th-century-studios-news-photo-1696442067.jpg",
+      "imdb": "https://www.imdb.com/name/nm1428821/"
     }, {
-      "name": "",
-      "image": "",
-      "imdb": ""
-    }, {
-      "name": "",
-      "image": "",
-      "imdb": "",
+      "name": "Jacob Elordi",
+      "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQMy6AdTD_d8QnUP8I7vnyy0XGgWPL_Z18-wn4xAiJ5mkcvBELGdn5jBkc2aId3BErsFk5T8dQq8pcA5-w",
+      "imdb": "https://www.imdb.com/name/nm8624059/"
     }]
     },
 
     {    
       "item": "102",
-      "title": "",
-      "runtime": ,
-      "mpaa": "",
-      "poster": "",
+      "title": "Leave The World Behind",
+      "runtime": 142,
+      "mpaa": "R",
+      "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABdC-WH_eB7KTzgrNFgwprrXnzWciuHUHhhJCfj29JDubNRn5C8JPoJtPauCok1bLBQpGem6w1Xk-HSzHCxer4xZ5A4rbgKP986AjQ-1j2pvFXbU2_hp_fnwjjggyxGzA0-s9.jpg?r=a50",
       "description": "",
-	"genre": [""],
-    "link": "",
+	"genre": ["drama", "science-fiction", "disaster"],
+    "link": "https://www.netflix.com/title/81314956",
     "director": [{
-    "name": "",
+    "name": "Sam Esmail",
     "image": "",
     "imdb": "",
     }],
     "actors": [{
-      "name": "",
-      "image": "",
-      "imdb": "",
+      "name": "Julia Roberts",
+      "image": "https://people.com/thmb/IhNIeEk1h5D2I6URYBtwRXb-S5s=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(703x165:705x167)/Julia-Roberts-on-the-tonight-show-tout-120623-7c30d086ccb44f09a9563abdb0427af6.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000210/?ref_=tt_ov_st",
     }, {
-      "name": "",
-      "image": "",
-      "imdb": ""
+      "name": "Ethan Hawke",
+      "image": "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-194156-168595662.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000160/"
     }, {
-      "name": "",
-      "image": "",
-      "imdb": "",
+      "name": "Mahershala Ali",
+      "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQFfViqVnODybT2bgSn--rF_8qy9QdYjEJor2Y2K2ZSRLCozP9mRqGPRMOpNKwAVODSNMAyNBignC4C9gM",
+      "imdb": "https://www.imdb.com/name/nm0991810/",
     }]
     },
 
