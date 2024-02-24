@@ -3065,30 +3065,30 @@ const moviesArray = [
 
     {    
       "item": "107",
-      "title": "",
-      "runtime": ,
-      "mpaa": "",
-      "poster": "",
-      "description": "",
-	"genre": [""],
-    "link": "",
+      "title": "Full Meta; Jacket",
+      "runtime": 117,
+      "mpaa": "R",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/01dfcf23-7a1c-4e3f-872c-541f1bbca6b6/406cbb8631a51b397252dcd3bce3c446e5dcdb5c.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=320",
+      "description": "Stanley Kubrick's haunting vision of the Vietnam War moves from the dehumanizing brutality of basic training to the nightmarish hell of battle.",
+	"genre": ["drama", "war"],
+    "link": "https://play.max.com/movie/01dfcf23-7a1c-4e3f-872c-541f1bbca6b6",
     "director": [{
-    "name": "",
-    "image": "",
-    "imdb": "",
+    "name": "Stanley Kubrick",
+    "image": "https://i.guim.co.uk/img/media/dbc4567095cf14fd22a0427debbe422e2ed2f99c/0_234_2600_1560/master/2600.jpg?width=1200&quality=85&auto=format&fit=max&s=99d1e160e00d09b674c9a481c6a885b8",
+    "imdb": "https://www.imdb.com/name/nm0000040/",
     }],
     "actors": [{
-      "name": "",
-      "image": "",
-      "imdb": "",
+      "name": "Matthew Modine",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2020/07/1200/675/GettyImages-1131721580.jpg?ve=1&tl=1",
+      "imdb": "https://www.imdb.com/name/nm0000546/",
     }, {
-      "name": "",
-      "image": "",
-      "imdb": ""
+      "name": "Vincent D'Onofrio",
+      "image": "https://cdn.britannica.com/83/240383-050-1403F363/American-actor-Vincent-D-Onofrio-2021.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000352/"
     }, {
-      "name": "",
-      "image": "",
-      "imdb": "",
+      "name": "R Lee Ermy",
+      "image": "https://media.npr.org/assets/img/2018/04/16/ap_708613803550_wide-065ce7a38756fd087f18f024f5e45ca8069249cb.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000388/",
     }]
     },
 
