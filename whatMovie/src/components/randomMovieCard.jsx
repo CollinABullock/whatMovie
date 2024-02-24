@@ -118,7 +118,7 @@ if (preferredGenres && preferredGenres.length > 0) {
           animate={{ x: 0, opacity: 1 }} // animate to the center of the screen
           transition={{ duration: 0.3, type: "tween" }} // adjust duration as needed
         >
-          <Card className="randomCard" style={{ width: "100%", maxWidth: "700px", maxHeight: "1000px", backgroundColor: "#2d210d", color: "whitesmoke", borderRadius: "30px" }}>
+          <Card className="randomCard" style={{ width: "100%", maxWidth: "700px", maxHeight: "1000px", backgroundColor: "#EC0B43", color: "whitesmoke", borderRadius: "30px" }}>
             <Card.Body>
               <Card.Img src={randomMovie.poster} style={{ width: "100%", height: "auto", objectFit: "cover", marginBottom: "20px" }} />
               <Card.Text style={{ textAlign: "start", fontFamily: "Helvetica"}}>
