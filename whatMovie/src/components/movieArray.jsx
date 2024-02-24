@@ -2947,6 +2947,150 @@ const moviesArray = [
     },
   ],
   [
+    {    
+      "item": "103",
+      "title": "Avatar",
+      "runtime": 162,
+      "mpaa": "PG-13",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/842bf71a-8f60-4657-9c7a-fe3c991a772a/78ae1d49f67add2b7398d0ab6eabeaac06d98be0.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=320",
+      "description": "A paraplegic war vet lands at the center of a war for a distant world in this sci-fi hit.",
+	"genre": ["action", "science-fiction"],
+    "link": "https://play.max.com/movie/842bf71a-8f60-4657-9c7a-fe3c991a772a",
+    "director": [{
+    "name": "James Cameron",
+    "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQTffSHnEbSAPLrSn1CDMselzUqIzB7k1FWsM_wzaW9gNO6MKYYs47AZoD30L0LeKKIJW_JFLg2p1EMizU",
+    "imdb": "https://www.imdb.com/name/nm0000116/",
+    }],
+    "actors": [{
+      "name": "Sam Worthington",
+      "image": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcSOi4c5pniJxAU4wZ0ya_WGjOimmErSIsJcZflFA44PcOa_6Sfc82b1c5W_GUp4bnCE23zMJIl5DDYUupQ",
+      "imdb": "https://www.imdb.com/name/nm0941777/",
+    }, {
+      "name": "Zoe Saldana",
+      "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2023/07/16/4959b623-6b3b-47b8-b8b3-5c4205a6bdc2/thumbnail/1280x720/4234270ab4d7d8738f7b15507df041b9/zoesaldanainterview-2130130-640x360.jpg?v=26439302e0bbe3219b6ef78d2fd37ce0",
+      "imdb": "https://www.imdb.com/name/nm0757855/"
+    }, {
+      "name": "Stephen Lang",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROj07F-qvK9XrgvoWOgBtZiaouGPFMHa0OMilnimX8dwAkvH33",
+      "imdb": "https://www.imdb.com/name/nm0002332/",
+    }]
+    },
+
+    {    
+      "item": "104",
+      "title": "",
+      "runtime": ,
+      "mpaa": "",
+      "poster": "",
+      "description": "",
+	"genre": [""],
+    "link": "",
+    "director": [{
+    "name": "",
+    "image": "",
+    "imdb": "",
+    }],
+    "actors": [{
+      "name": "",
+      "image": "",
+      "imdb": "",
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": ""
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": "",
+    }]
+    },
+
+    {    
+      "item": "105",
+      "title": "",
+      "runtime": ,
+      "mpaa": "",
+      "poster": "",
+      "description": "",
+	"genre": [""],
+    "link": "",
+    "director": [{
+    "name": "",
+    "image": "",
+    "imdb": "",
+    }],
+    "actors": [{
+      "name": "",
+      "image": "",
+      "imdb": "",
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": ""
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": "",
+    }]
+    },
+
+    {    
+      "item": "106",
+      "title": "",
+      "runtime": ,
+      "mpaa": "",
+      "poster": "",
+      "description": "",
+	"genre": [""],
+    "link": "",
+    "director": [{
+    "name": "",
+    "image": "",
+    "imdb": "",
+    }],
+    "actors": [{
+      "name": "",
+      "image": "",
+      "imdb": "",
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": ""
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": "",
+    }]
+    },
+
+    {    
+      "item": "107",
+      "title": "",
+      "runtime": ,
+      "mpaa": "",
+      "poster": "",
+      "description": "",
+	"genre": [""],
+    "link": "",
+    "director": [{
+    "name": "",
+    "image": "",
+    "imdb": "",
+    }],
+    "actors": [{
+      "name": "",
+      "image": "",
+      "imdb": "",
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": ""
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": "",
+    }]
+    },
 
   ]
 ]
