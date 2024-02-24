@@ -162,8 +162,8 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
                 {genre},{' '}
               </span>
           ))} movie and you don't want to watch a movie longer than {runtime} minutes.
-          <br />
-          You want to see a {preferredGenres.map((genre, index) => (
+          <br /><br />
+          You DO want to see a {preferredGenres.map((genre, index) => (
             index === preferredGenres.length - 1 ?
               <span key={genre}>
                 or {genre}
