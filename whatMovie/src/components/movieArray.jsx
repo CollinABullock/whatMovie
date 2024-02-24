@@ -2207,7 +2207,7 @@ const moviesArray = [
       "mpaa": "PG",
       "poster": "https://occ-0-1723-1722.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABXYEsOKu3jyCxKcEMtOwuvmTXeuRp5WdWRhC9XGuz-v7CckaBx_8vfZCOMwA-81mjfLEviC4k8vVWorSes47v6nV1kdAEfx3bNxD.jpg?r=56c",
       "description": "A 10-year-old dreamer's imaginary friends — mighty Sharkboy and fire-producing Lavagirl — come to life to seek his help battling a nefarious baddie.",
-	"genre": ["kids, science-fiction"],
+	"genre": ["kids", "science-fiction"],
     "link": "https://www.netflix.com/title/70021640",
     "director": [{
       "name": "Robert Rodriguez",

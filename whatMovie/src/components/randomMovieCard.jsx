@@ -76,11 +76,11 @@ if (preferredGenres && preferredGenres.length > 0) {
 
   const renderWatchOnLink = () => {
     if (!randomMovie) return null;
-
+  
     const { link } = randomMovie;
     const url = new URL(link);
     const { hostname } = url;
-
+  
     if (hostname === 'www.netflix.com') {
       return (
         <a href={link} target="_blank" rel="noopener noreferrer">
@@ -91,11 +91,23 @@ if (preferredGenres && preferredGenres.length > 0) {
           />
         </a>
       );
+    } else if (hostname === 'play.max.com') {
+      return (
+        <a href={link} target="_blank" rel="noopener noreferrer">
+        <img
+          src="https://pbs.twimg.com/media/Fth6aQMXwQEb4NU.jpg"
+          alt="Max Logo"
+          style={{ width: '75px', height: 'auto' }}
+        />
+        </a>
+      );
+    } else {
+      return (
+        <a href={link} style={{ color: 'blue', textDecoration: 'none', cursor: 'pointer' }}>Watch Now</a>
+      );
     }
-    return (
-      <a href={link} style={{ color: 'blue', textDecoration: 'none', cursor: 'pointer' }}>Watch Now</a>
-    );
   };
+  
 
   return (
     <div style={{ marginTop: "100px", textAlign: "center" }}>
