@@ -2777,6 +2777,34 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "97",
+      "title": "Looper",
+      "runtime": 118,
+      "mpaa": "R",
+      "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABT7Xp3w6S1CPkDQqXzRKOhYxSillm1Vy5Sob3ovCERKZcAM3Lh8mNkuGa14HciyIxVtYazj2WZk0KXwtxPm9tTICOaILnjBvN9eo.jpg?r=c8d",
+      "description": "In 2044, a hired gun gets rich killing people who are sent back from another time. But what will he do when his new target is his future self?",
+	"genre": ["science-fiction", "action"],
+    "link": "https://www.netflix.com/title/70199724",
+    "director": [{
+      "name": "Rian Johnson",
+      "image": "https://media.newyorker.com/photos/6377bc34da27cea69260aa08/master/pass/Chotiner-RianJohnson-1.jpg",
+      "imdb": "https://www.imdb.com/name/nm0426059/?ref_=tt_ov_dr",
+    }],
+    "actors": [{
+      "name": "Bruce Willis",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTLg_SIgxsuQOn9hifx7kAH4YJK4Mdl3ulS-5nzfMDHjDIwxgNb",
+      "imdb": "https://www.imdb.com/name/nm0000246/",
+    }, {
+      "name": "Joseph Gordon-Levitt",
+      "image": "https://www.hollywoodreporter.com/wp-content/uploads/2023/07/Joseph-Gordon-Levitt-HCA-Film-Awards-Show-GettyImages-1469365297-H-2023.jpg",
+      "imdb": "https://www.imdb.com/name/nm0330687/"
+    }, {
+      "name": "Emily Blunt",
+      "image": "https://variety.com/wp-content/uploads/2023/09/GettyImages-1540936189.jpg?w=1024",
+      "imdb": "https://www.imdb.com/name/nm1289434/",
+    }]
+    },
 
 
 
