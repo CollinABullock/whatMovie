@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 import { motion } from "framer-motion";
-import { moviesArray, netflixArray } from './movieArray';
+import { moviesArray, netflixArray, maxArray } from './movieArray';
 
 export default function RandomMovie({ selectedRuntime  }) {
   const [randomMovie, setRandomMovie] = useState(null);

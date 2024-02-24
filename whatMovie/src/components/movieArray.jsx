@@ -2945,25 +2945,13 @@ const moviesArray = [
       "imdb": "https://www.imdb.com/name/nm0991810/",
     }]
     },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   ],
+  [
+
+  ]
 ]
 
 const netflixArray = moviesArray[0];
+const maxArray = moviesArray[1]
 
-export {moviesArray, netflixArray}
+export {moviesArray, netflixArray, maxArray}
