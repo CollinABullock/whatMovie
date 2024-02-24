@@ -2806,6 +2806,151 @@ const moviesArray = [
     }]
     },
 
+        {    
+      "item": "98",
+      "title": "Resident Evil:  Retribution",
+      "runtime": 95,
+      "mpaa": "R",
+      "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABR5yHRshlFHYfAb6UBaePppWNTAhR-6Sg23RBA8ZDMaFcUApy95NAuN5dVXnrX-1OU3UPUoj1TdK4buW0ryborkwDSo2shAoXQKY.jpg?r=98e",
+      "description": "Trapped by the Umbrella Corporation, Alice fights to escape as she becomes humanity's only hope against a virus that turns ordinary people into zombies.",
+	"genre": ["horror", "science-fiction", "action", "sequel"],
+    "link": "https://www.netflix.com/title/70220029",
+    "director": [{
+      "name": "Paul W.S. Anderson",
+      "image": "https://variety.com/wp-content/uploads/2016/12/director-paul-w-s-anderson-resident-evil.jpg?w=1000",
+      "imdb": "https://www.imdb.com/name/nm0027271/",
+      }],
+      "actors": [{
+        "name": "Milla Jovovich",
+        "image": "https://cdn.images.express.co.uk/img/dynamic/36/590x/action-stars-Milla-Jovovich-Arnold-Schwarzenegger-the-terminator-resident-evil-1016099.jpg?r=1550571655851",
+        "imdb": "https://www.imdb.com/name/nm0000170/",
+      }, {
+        "name": "Michelle Rodriguez",
+        "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSw1YKrHrTAhn4YGwrGTxlBlIZIlBu3LpWFFLHD_Ypm_ccqk9XdXAJUVWgDLyTz_fHc549s8EWVPjDHN-s",
+        "imdb": "https://www.imdb.com/name/nm0735442/"
+      }, {
+      "name": "Sienna Guillory",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRWSdLazn0wWi57lIqi92yam_8YRvSM9d1U_7ArpitynxMPCxrc",
+      "imdb": "https://www.imdb.com/name/nm0347149/?ref_=tt_ov_st",
+    }]
+    },
+
+    {    
+      "item": "99",
+      "title": "",
+      "runtime": ,
+      "mpaa": "",
+      "poster": "",
+      "description": "",
+	"genre": [""],
+    "link": "",
+    "director": [{
+    "name": "",
+    "image": "",
+    "imdb": "",
+    }],
+    "actors": [{
+      "name": "",
+      "image": "",
+      "imdb": "",
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": ""
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": "",
+    }]
+    },
+
+    {    
+      "item": "100",
+      "title": "",
+      "runtime": ,
+      "mpaa": "",
+      "poster": "",
+      "description": "",
+	"genre": [""],
+    "link": "",
+    "director": [{
+    "name": "",
+    "image": "",
+    "imdb": "",
+    }],
+    "actors": [{
+      "name": "",
+      "image": "",
+      "imdb": "",
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": ""
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": "",
+    }]
+    },
+
+    {    
+      "item": "101",
+      "title": "",
+      "runtime": ,
+      "mpaa": "",
+      "poster": "",
+      "description": "",
+	"genre": [""],
+    "link": "",
+    "director": [{
+    "name": "",
+    "image": "",
+    "imdb": "",
+    }],
+    "actors": [{
+      "name": "",
+      "image": "",
+      "imdb": "",
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": ""
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": "",
+    }]
+    },
+
+    {    
+      "item": "102",
+      "title": "",
+      "runtime": ,
+      "mpaa": "",
+      "poster": "",
+      "description": "",
+	"genre": [""],
+    "link": "",
+    "director": [{
+    "name": "",
+    "image": "",
+    "imdb": "",
+    }],
+    "actors": [{
+      "name": "",
+      "image": "",
+      "imdb": "",
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": ""
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": "",
+    }]
+    },
+
 
 
 
