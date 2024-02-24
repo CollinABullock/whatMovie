@@ -2978,59 +2978,59 @@ const moviesArray = [
 
     {    
       "item": "104",
-      "title": "",
-      "runtime": ,
-      "mpaa": "",
-      "poster": "",
-      "description": "",
-	"genre": [""],
-    "link": "",
+      "title": "Avatar:  The Way Of Water",
+      "runtime": 193,
+      "mpaa": "PG-13",
+      "poster": "https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/11/avatar-the-way-of-water-poster.jpg",
+      "description": "James Cameron's blockbuster sequel returns to the world of Pandora, introducing new Na'vi cultures and a range of exotic sea creatures.",
+	"genre": ["action", "science-fiction", "sequel"],
+    "link": "https://play.max.com/movie/82857c4f-1813-4f6a-b94f-5dab6051b43e",
     "director": [{
-    "name": "",
-    "image": "",
-    "imdb": "",
-    }],
-    "actors": [{
-      "name": "",
-      "image": "",
-      "imdb": "",
-    }, {
-      "name": "",
-      "image": "",
-      "imdb": ""
-    }, {
-      "name": "",
-      "image": "",
-      "imdb": "",
-    }]
+      "name": "James Cameron",
+      "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQTffSHnEbSAPLrSn1CDMselzUqIzB7k1FWsM_wzaW9gNO6MKYYs47AZoD30L0LeKKIJW_JFLg2p1EMizU",
+      "imdb": "https://www.imdb.com/name/nm0000116/",
+      }],
+      "actors": [{
+        "name": "Sam Worthington",
+        "image": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcSOi4c5pniJxAU4wZ0ya_WGjOimmErSIsJcZflFA44PcOa_6Sfc82b1c5W_GUp4bnCE23zMJIl5DDYUupQ",
+        "imdb": "https://www.imdb.com/name/nm0941777/",
+      }, {
+        "name": "Zoe Saldana",
+        "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2023/07/16/4959b623-6b3b-47b8-b8b3-5c4205a6bdc2/thumbnail/1280x720/4234270ab4d7d8738f7b15507df041b9/zoesaldanainterview-2130130-640x360.jpg?v=26439302e0bbe3219b6ef78d2fd37ce0",
+        "imdb": "https://www.imdb.com/name/nm0757855/"
+      }, {
+        "name": "Stephen Lang",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROj07F-qvK9XrgvoWOgBtZiaouGPFMHa0OMilnimX8dwAkvH33",
+        "imdb": "https://www.imdb.com/name/nm0002332/",
+      }]
     },
 
     {    
       "item": "105",
-      "title": "",
-      "runtime": ,
-      "mpaa": "",
-      "poster": "",
-      "description": "",
-	"genre": [""],
-    "link": "",
+      "title": "Predators",
+      "runtime": 107,
+      "mpaa": "R",
+      "poster": "https://images.cdn.prd.api.discomax.com/2023/10/31/dbfd6f69-0f52-3c29-ad37-7cebb8f78510.png?w=600&f=webp",
+      "description": "Eight violent strangers awaken in a mysterious jungle as prey to a deadly alien race in this gripping chapter in the Predator series.",
+	"genre": ["action", "science-fiction", "sequel"],
+    "link": "https://play.max.com/movie/cc485a30-b9ee-463c-93f7-af3717ae9f0d",
     "director": [{
-    "name": "",
-    "image": "",
-    "imdb": "",
+    "name": "Nimród Antal",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTg4NDAzNjAyNV5BMl5BanBnXkFtZTcwODUyNzUzMw@@._V1_.jpg",
+    "imdb": "https://www.imdb.com/name/nm0030735/",
     }],
     "actors": [{
-      "name": "",
-      "image": "",
-      "imdb": "",
+      "name": "Adrien Brody",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSKSAL0z4xf6twkyjL4m4X7l7xV7i3qENaLYKenaDWwzlCKHa0_",
+      "imdb": "https://www.imdb.com/name/nm0004778/"
     }, {
-      "name": "",
-      "image": "",
-      "imdb": ""
+      "name": "Alice Braga",
+      "image": "https://facts.net/wp-content/uploads/2023/09/41-facts-about-alice-braga-1695723377.jpg",
+      "imdb": "https://www.imdb.com/name/nm0103797/"
     }, {
-      "name": "",
-      "image": "",
-      "imdb": "",
+      "name": "Topher Grace",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8JwA70EWnLUReTU2XIENVvodWPx3nEcGsShp07f3zGmV6--Od",
+      "imdb": "https://www.imdb.com/name/nm0333410/",
     }]
     },
 
