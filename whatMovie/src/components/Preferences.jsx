@@ -138,9 +138,7 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
       <button onClick={handlePreferenceChange}>Apply Preferences</button>
       {/* Button to reset preferences */}
       <button onClick={() => {
-        sessionStorage.removeItem('selectedGenres');
-        sessionStorage.removeItem('selectedRuntime');
-        sessionStorage.removeItem('preferredGenres');
+      sessionStorage.clear();
         setSelectedGenres([]);
         setPreferredGenres([]);
         setRuntime(240); // Assuming default runtime is 240 minutes

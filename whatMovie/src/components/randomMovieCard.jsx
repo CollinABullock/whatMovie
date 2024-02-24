@@ -110,7 +110,7 @@ if (preferredGenres && preferredGenres.length > 0) {
   
 
   return (
-    <div style={{ marginTop: "100px", textAlign: "center" }}>
+    <div style={{ marginTop: "10px", textAlign: "center", width: "100%" }}>
       {randomMovie ? (
         <motion.div
           key={animationKey}
@@ -118,7 +118,7 @@ if (preferredGenres && preferredGenres.length > 0) {
           animate={{ x: 0, opacity: 1 }} // animate to the center of the screen
           transition={{ duration: 0.3, type: "tween" }} // adjust duration as needed
         >
-          <Card className="randomCard" style={{ width: "100%", maxWidth: "600px", maxHeight: "1000px", backgroundColor: "#2d210d", color: "whitesmoke", borderRadius: "30px" }}>
+          <Card className="randomCard" style={{ width: "100%", maxWidth: "700px", maxHeight: "1000px", backgroundColor: "#2d210d", color: "whitesmoke", borderRadius: "30px" }}>
             <Card.Body>
               <Card.Img src={randomMovie.poster} style={{ width: "100%", height: "auto", objectFit: "cover", marginBottom: "20px" }} />
               <Card.Text style={{ textAlign: "start", fontFamily: "Helvetica"}}>
@@ -134,13 +134,13 @@ if (preferredGenres && preferredGenres.length > 0) {
           </Card>
         </motion.div>
       ) : (
-        <Card className='randomCard' style={{backgroundColor: "#0D1F2D", alignItems: "center"}}>
+        <Card className='randomCard' style={{backgroundColor: "#58355E", alignItems: "center"}}>
           <h1 style={{color: "white", textShadow: "2px 2px 2px black"}}>What movie should you watch tonight?</h1>
           <button className="randomMovie" onClick={handleRandomMovie}>Pick a random movie</button>
         </Card>
       )}
       <Modal show={showModal} onHide={handleModalClose} style={{fontFamily: "Signwood"}}>
-        <Modal.Header style={{backgroundColor: "#0D1F2D", color: "#E4C3AD", textShadow: "text-shadow: 2px 2px 2px black;"}}>
+        <Modal.Header style={{backgroundColor: "#58355E", color: "#E4C3AD", textShadow: "text-shadow: 2px 2px 2px black;"}}>
           <Modal.Title>{randomMovie ? randomMovie.title : 'Movie Title'}</Modal.Title>
           <div className='modal-details'>
             {randomMovie && randomMovie.runtime && (<p>{randomMovie.runtime} minutes</p>)}
@@ -153,7 +153,7 @@ if (preferredGenres && preferredGenres.length > 0) {
             ))}
           </div>
         </Modal.Header>
-        <Modal.Body style={{backgroundColor: "#0D1F2D", color: "#E4C3AD", textShadow: "text-shadow: 2px 2px 2px black;"}}>
+        <Modal.Body style={{backgroundColor: "#58355E", color: "#E4C3AD", textShadow: "text-shadow: 2px 2px 2px black;"}}>
           <p>{randomMovie ? randomMovie.description : 'No description available'}</p>
           {/* Directors Section */}
           {randomMovie && randomMovie.director && (
@@ -196,7 +196,7 @@ if (preferredGenres && preferredGenres.length > 0) {
             </div>
           )}
         </Modal.Body>
-        <Modal.Footer style={{backgroundColor: "#0D1F2D", color: "#E4C3AD", textShadow: "text-shadow: 2px 2px 2px black;"}}>
+        <Modal.Footer style={{backgroundColor: "#58355E", color: "#E4C3AD", textShadow: "text-shadow: 2px 2px 2px black;"}}>
           <Button variant="secondary" onClick={handleModalClose}>
             Close
           </Button>
