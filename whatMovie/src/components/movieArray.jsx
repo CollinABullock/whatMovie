@@ -2748,6 +2748,34 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "96",
+      "title": "Resident Evil",
+      "runtime": 100,
+      "mpaa": "",
+      "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABbnFKUgyguq9ttd-2ofYYyNOwuvgE53eDLc_x3nxn6aatc2JABL0Oeloe12waRhnJGp8-8Muq1br9xDrAFqTPYkarME6ROt6RG4.jpg?r=dcf",
+      "description": "After researchers turn into zombies in a secret lab, the government sends in an elite task force to contain the outbreak.",
+	"genre": ["horror", "science-fiction", "action"],
+    "link": "https://www.netflix.com/title/60022705",
+    "director": [{
+    "name": "Paul W.S. Anderson",
+    "image": "https://variety.com/wp-content/uploads/2016/12/director-paul-w-s-anderson-resident-evil.jpg?w=1000",
+    "imdb": "https://www.imdb.com/name/nm0027271/",
+    }],
+    "actors": [{
+      "name": "Milla Jovovich",
+      "image": "https://cdn.images.express.co.uk/img/dynamic/36/590x/action-stars-Milla-Jovovich-Arnold-Schwarzenegger-the-terminator-resident-evil-1016099.jpg?r=1550571655851",
+      "imdb": "https://www.imdb.com/name/nm0000170/",
+    }, {
+      "name": "Michelle Rodriguez",
+      "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSw1YKrHrTAhn4YGwrGTxlBlIZIlBu3LpWFFLHD_Ypm_ccqk9XdXAJUVWgDLyTz_fHc549s8EWVPjDHN-s",
+      "imdb": "https://www.imdb.com/name/nm0735442/"
+    }, {
+      "name": "Colin Salmon",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjM5ODM1MzE5M15BMl5BanBnXkFtZTgwNTk2MzM2NzE@._V1_.jpg",
+      "imdb": "https://www.imdb.com/name/nm0758760/",
+    }]
+    },
 
 
 
