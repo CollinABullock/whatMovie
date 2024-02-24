@@ -21,22 +21,22 @@ export default function RandomMovie({ selectedRuntime, selectedGenres, preferred
   }, [selectedRuntime]);
 
   const handleRandomMovie = () => {
-    // Filter movies based on selected runtime and genres
+    // Filter movies based on selected runtime
     let filtered = filteredMovies.filter(movie => movie.runtime <= selectedRuntime);
     
-    // Filter out movies with any genre included in selectedGenres
-    if (selectedGenres && selectedGenres.length > 0) {
-        filtered = filtered.filter(movie =>
-            movie.genre && !selectedGenres.some(genre => movie.genre.includes(genre))
-        );
-    }
-    
-    // Filter movies with all genres included in preferredGenres
-    if (preferredGenres && preferredGenres.length > 0) {
-        filtered = filtered.filter(movie =>
-            movie.genre && preferredGenres.every(genre => movie.genre.includes(genre))
-        );
-    }
+ // Exclude movies that contain any genre from selectedGenres
+if (selectedGenres && selectedGenres.length > 0) {
+  filtered = filtered.filter(movie =>
+      movie.genre && !selectedGenres.some(genre => movie.genre.includes(genre))
+  );
+}
+
+// Filter movies to exclusively include those that contain all genres from preferredGenres
+if (preferredGenres && preferredGenres.length > 0) {
+  filtered = filtered.filter(movie =>
+      movie.genre && preferredGenres.every(genre => movie.genre.includes(genre))
+  );
+}
   
     // Ensure there are filtered movies to select from
     if (filtered.length > 0) {
@@ -53,6 +53,7 @@ export default function RandomMovie({ selectedRuntime, selectedGenres, preferred
         setRandomMovie(null);
     }
 };
+
 
   
   
