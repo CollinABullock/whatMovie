@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button';
 import { motion } from "framer-motion";
 import { moviesArray, netflixArray } from './movieArray';
 
-export default function RandomMovie({ selectedRuntime, selectedGenres, preferredGenres }) {
+export default function RandomMovie({ selectedRuntime  }) {
   const [randomMovie, setRandomMovie] = useState(null);
   const [filteredMovies, setFilteredMovies] = useState([]);
   const [showModal, setShowModal] = useState(false);
@@ -23,6 +23,15 @@ export default function RandomMovie({ selectedRuntime, selectedGenres, preferred
   const handleRandomMovie = () => {
     // Filter movies based on selected runtime
     let filtered = filteredMovies.filter(movie => movie.runtime <= selectedRuntime);
+
+      // Get selectedGenres from sessionStorage
+      const selectedGenres = JSON.parse(sessionStorage.getItem('selectedGenres'));
+
+      // Get preferredGenres from sessionStorage
+      const preferredGenres = JSON.parse(sessionStorage.getItem('preferredGenres'));
+
+      console.log("selectedGenres:", selectedGenres);
+      console.log("preferredGenres:", preferredGenres);
     
  // Exclude movies that contain any genre from selectedGenres
 if (selectedGenres && selectedGenres.length > 0) {
