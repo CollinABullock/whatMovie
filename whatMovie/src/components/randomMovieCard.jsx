@@ -10,6 +10,9 @@ export default function RandomMovie({ selectedRuntime  }) {
   const [filteredMovies, setFilteredMovies] = useState([]);
   const [showModal, setShowModal] = useState(false);
   const [animationKey, setAnimationKey] = useState(0);
+  const [showDetails, setShowDetails] = useState(true); // State to control the visibility of "More Details"
+  const [glowButton, setGlowButton] = useState(false); // State to control the glowing effect
+
 
   useEffect(() => {
     // Merge all movie arrays into one
@@ -107,7 +110,26 @@ if (preferredGenres && preferredGenres.length > 0) {
       );
     }
   };
+
+    // Function to toggle visibility of "More Details" text with a flickering effect
+    const toggleDetailsVisibility = () => {
+      setShowDetails(prevShowDetails => !prevShowDetails);
+    };
   
+   // Use setInterval to toggle visibility of "More Details" text with a flickering effect
+   useEffect(() => {
+    const intervalId = setInterval(toggleDetailsVisibility, 500); // Change flicker speed as needed (milliseconds)
+    return () => clearInterval(intervalId);
+  }, []); // Run only once on component mount
+
+  useEffect(() => {
+    // Add glow effect when showDetails state changes
+    if (showDetails) {
+      setGlowButton(true);
+      const timeoutId = setTimeout(() => setGlowButton(false), 3000); // Turn off glow after 3 seconds
+      return () => clearTimeout(timeoutId);
+    }
+  }, [showDetails]);
 
   return (
     <div style={{ marginTop: "10px", textAlign: "center", width: "100%" }}>
@@ -122,11 +144,11 @@ if (preferredGenres && preferredGenres.length > 0) {
             <Card.Body>
               <Card.Img src={randomMovie.poster} style={{ width: "100%", height: "auto", objectFit: "cover", marginBottom: "20px" }} />
               <Card.Text style={{ textAlign: "start", fontFamily: "Helvetica"}}>
-                <h3>{randomMovie.description}<br />
-                <div style={{ width: "100%", margin: "0 auto", padding: "10px", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                  {renderWatchOnLink()}    
-                  <a onClick={handleDetails} style={{ color: 'blue', cursor: 'pointer' }}>More Details</a>
-                </div>
+                <h3 style={{marginBottom: "50px"}}>{randomMovie.description}<br />
+                <div style={{ width: "100%", margin: "0 auto", padding: "10px", display: "flex", justifyContent: "space-between", alignItems: "center", marginTop: "30px" }}>
+                    {renderWatchOnLink()}
+                    <button className={glowButton ? "glow" : ""} onClick={handleDetails} style={{ backgroundColor: "transparent", color: 'blue', cursor: 'pointer', fontFamily: "Signwood", border: "none" }}>More Details</button>
+                  </div>
                 </h3>
               </Card.Text>
               <button onClick={handleRandomMovie} style={{ backgroundColor: "red", color: "white", textShadow: "2px 2px 2px black", fontSize: "1.25em" }}>I'm not feeling it, give me another</button>

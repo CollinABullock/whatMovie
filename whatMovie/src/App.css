@@ -6,6 +6,24 @@
   padding: 0px;
 }
 
+/* setting a glowing effect, you know like a flickering movie theatre bulb! */
+
+.glow {
+  animation: glowing 1500ms infinite;
+}
+
+@keyframes glowing {
+  0% {
+    box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00, 0 0 50px #00ff00, 0 0 60px #00ff00, 0 0 70px #00ff00;
+  }
+  50% {
+    box-shadow: 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00, 0 0 50px #00ff00, 0 0 60px #00ff00, 0 0 70px #00ff00, 0 0 80px #00ff00;
+  }
+  100% {
+    box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00, 0 0 50px #00ff00, 0 0 60px #00ff00, 0 0 70px #00ff00;
+  }
+}
+
 .navbar {
 background-color: pink;
 }
