@@ -2236,7 +2236,7 @@ const moviesArray = [
       "mpaa": "PG-13",
       "poster": "https://occ-0-1723-1722.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABaX2mjS-RAL5ulFZzEADVsi4yZNPdPLHY0nD64TcM_21BxF3cFYgtKEJNkFS3vs-RcxZ4IxdsZWAy_ilws1Shn1eHpUr3SKhdxg.jpg?r=ed2",
       "description": "In Peter Jackson's epic remake, a movie director and his crew journey to remote Skull Island, where his leading lady catches the eye of a giant ape.",
-	"genre": ["action"],
+	"genre": ["action", "fantasy"],
     "link": "https://www.netflix.com/title/70021664",
     "director": [{
     "name": "Peter Jackson",
