@@ -2874,6 +2874,7 @@ const moviesArray = [
 	"genre": ["action", "science-fiction", "comic-book"],
     "link": "https://www.netflix.com/title/80187362",
     "director": [{
+      "name": "Zack Snyder",
       "image": "https://dnm.nflximg.net/api/v6/2DuQlx0fM4wd1nzqm5BFBi6ILa8/AAAAQRkG0o6H2e9srDoKgYVGPoqGMQGX2DpEahimbzps-XdXK2Qc_sby0nJiRw3V0bePHNFOGKK3PdNwy1Z825FXZwDjmxVEuYKYQlsRdnmEnmK0XIzCGQ-PHCNrD8wJVCvhOqggGXSKLFhPBK7DxoiMtrO9.jpg?r=4ca",
       "imdb": "https://www.imdb.com/name/nm0811583/",
     }],

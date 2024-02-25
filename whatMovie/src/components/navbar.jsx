@@ -11,6 +11,8 @@ export default function NavBar({ onPreferenceChange, uniqueGenres }) {
     setShowPreferences(!showPreferences);
   };
 
+  const isMobile = window.innerWidth <= 768; // Assuming mobile breakpoint is 768px width
+
   return (
     <nav className="navbar navbar-expand-lg navbar-light fixed-top" style={{ padding: "10px", marginBottom: "20px", background: "transparent" }}>
       <a className="navbar-brand" style={{ color: "whitesmoke", fontSize: "1em" }}>Let's Choose a Damn Movie Already!</a>
@@ -24,7 +26,7 @@ export default function NavBar({ onPreferenceChange, uniqueGenres }) {
             <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" onClick={handlePreferencesClick} aria-haspopup="true" aria-expanded="false" style={{ color: "whitesmoke" }}>
               Preferences
             </a>
-            <div className={`dropdown-menu ${showPreferences ? 'show' : ''}`} aria-labelledby="navbarDropdown" style={{ minWidth: "auto", width: "50vw", margin: "0 auto", backgroundColor: "#0D1F2D", color: "#E4C3AD", border: "5px solid red", padding: "10px", maxHeight: "70vh", overflowY: "auto" }}>
+            <div className={`dropdown-menu ${showPreferences ? 'show' : ''}`} aria-labelledby="navbarDropdown" style={{ minWidth: "auto", width: isMobile ? "100vw" : "50vw", margin: "0 auto", backgroundColor: "#0D1F2D", color: "#E4C3AD", border: "5px solid red", padding: "10px", maxHeight: "70vh", overflowY: "auto" }}>
               <MoviePreferenceComponent data={netflixArray} onPreferenceChange={onPreferenceChange} uniqueGenres={uniqueGenres} />
             </div>
           </li>

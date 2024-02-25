@@ -71,10 +71,10 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
     { name: 'Prime', logo: 'https://www.shutterstock.com/image-vector/chattogram-bangladesh-may-18-2023-600nw-2304763275.jpg' },
     { name: 'Hulu', logo: 'https://wallpapers.com/images/featured/hulu-fxo5g9d2z5nmrq7p.jpg' },
     { name: "Peacock", logo: "https://akns-images.eonline.com/eol_images/Entire_Site/20191131/rs_1024x759-191231151709-1024x759.peacock-logo-lp.123119.jpg?fit=around%7C1024:759&output-quality=90&crop=1024:759;center,top" },
-    { name: "Apple", logo: "https://i.ytimg.com/vi/VHOWM6ZM-Ek/maxresdefault.jpg"},
+    { name: "Apple", logo: "https://s.yimg.com/ny/api/res/1.2/olinh0MApHyLLoBgciYoIA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQyNw--/https://s.yimg.com/uu/api/res/1.2/xDQXaqk95THWr3WD.EjcdQ--~B/aD0xODI0O3c9MjczNjthcHBpZD15dGFjaHlvbg--/http://globalfinance.zenfs.com/en_us/Finance/US_AFTP_SILICONALLEY_H_LIVE/The_new_Apple_TV_ads-ba77edc8097181dd910c9885454fd180"},
     { name: "Disney", logo: "https://lumiere-a.akamaihd.net/v1/images/disney_logo_nov_2021_rbg_0fa74b54.jpeg?region=0,0,1920,1080"},
     { name: "Paramount", logo: "https://www.paramount.com/sites/g/files/dxjhpe226/files/styles/twitter_image_1024_x_512_/public/ViacomCBSDotCom/NewsPage/Images/Paramount_SocialShare.jpg?h=79d7b992&itok=X2IUZz7U"} ,
-    { name: "Criterion", logo: "https://s3.amazonaws.com/criterion-production/editorial_content_posts/hero/6044-/2mEVBFsaPpECTc6HPG1pqQEOIsLecl_original.png"},
+    { name: "Criterion", logo: "https://pyxis.nymag.com/v1/imgs/485/852/690bf30879dd192d9d3bd2b9b44f945c12-streamliner-criterion.jpg"},
     { name: "Tubi", logo: "https://cloudfront-us-east-1.images.arcpublishing.com/gmg/BVVRXGRYJ5BZTBKPJXLQC5TIJM.jpg"}
   ];
 
@@ -95,48 +95,46 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
   console.log(selectedService);
 
   return (
-    
-    <div>
-
+    <div style={{ width: '100%', padding: '0 10px' }}>
       <div style={{ marginBottom: '30px', width: "100%", border: '1px solid #ccc', padding: '15px' }}>
         <p style={{ marginBottom: '10px' }}>What streaming services are you currently paying for and/or stealing?</p>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(5, 1fr)', gap: '10px' }}>
-        {streamingServices.map(service => (
-  <div style={{ position: 'relative', display: 'inline-block' }} key={service.name}>
-    <img 
-      className='streaming-service-img' 
-      src={service.logo} 
-      alt={service.name} 
-      style={{ 
-        width: '100%', 
-        maxWidth: '220px', 
-        height: '100px', 
-        objectFit: "cover", 
-        cursor: "pointer",
-        filter: selectedService.includes(service.name) ? "none" : "sepia(100%) hue-rotate(90deg)"
-      }} 
-      onClick={() => handleServiceClick(service.name)} 
-    />
-    {selectedService.includes(service.name) && (
-      <div style={{
-        position: 'absolute',
-        top: '5px',
-        right: '5px',
-        backgroundColor: 'green',
-        borderRadius: '50%',
-        padding: '3px',
-        zIndex: '1'
-      }}>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16">
-          <path fill="#FFFFFF" d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
-        </svg>
-      </div>
-    )}
-  </div>
-))}
-
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '10px' }}>
+          {streamingServices.map(service => (
+            <div style={{ position: 'relative', display: 'inline-block' }} key={service.name}>
+              <img 
+                className='streaming-service-img' 
+                src={service.logo} 
+                alt={service.name} 
+                style={{ 
+                  width: '100%', 
+                  maxWidth: '220px', 
+                  height: '100px', 
+                  objectFit: "cover", 
+                  cursor: "pointer",
+                  filter: selectedService.includes(service.name) ? "none" : "sepia(100%) hue-rotate(90deg)"
+                }} 
+                onClick={() => handleServiceClick(service.name)} 
+              />
+              {selectedService.includes(service.name) && (
+                <div style={{
+                  position: 'absolute',
+                  top: '5px',
+                  right: '5px',
+                  backgroundColor: 'green',
+                  borderRadius: '50%',
+                  padding: '3px',
+                  zIndex: '1'
+                }}>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16">
+                    <path fill="#FFFFFF" d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                  </svg>
+                </div>
+              )}
+            </div>
+          ))}
         </div>
       </div>
+
 
       <div style={{ marginBottom: '30px', border: '1px solid #ccc', padding: '15px' }}>
         <p>What's the longest movie you're down to watch?<br />{runtime} minutes</p>
