@@ -1033,7 +1033,7 @@ const moviesArray = [
     "link": "https://www.netflix.com/title/81564396",
     "director": [{
     "name": "Olivia Newman",
-    "image": "",
+    "image": "https://images.prismic.io/tribeca-film-institute/NGNmMTlhYmQtNzQ4Yy00YmM0LWE5MzMtZGNmMjBmZWIxNDhm_olivia_newman_writerdirector_first_match.jpg?auto=compress,format&rect=0,0,1800,1200&w=1800&h=1200",
     "imdb": "https://www.imdb.com/name/nm3229507/?ref_=tt_ov_dr",
     }],
     "actors": [{
