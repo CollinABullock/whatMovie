@@ -82,13 +82,17 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
 
   const handleServiceClick = (serviceName) => {
     setSelectedService(prevSelectedServices => {
-      if (prevSelectedServices.includes(serviceName)) {
-        return prevSelectedServices.filter(service => service !== serviceName);
-      } else {
-        return [...prevSelectedServices, serviceName];
-      }
+      const updatedServices = prevSelectedServices.includes(serviceName) ?
+        prevSelectedServices.filter(service => service !== serviceName) :
+        [...prevSelectedServices, serviceName];
+      
+      // Store the updated selectedServices array in sessionStorage
+      sessionStorage.setItem('selectedServices', JSON.stringify(updatedServices));
+  
+      return updatedServices;
     });
   };
+  
 
   console.log(selectedService);
 
