@@ -36,54 +36,52 @@ export default function RandomMovie({ selectedRuntime  }) {
    console.log("preferredGenres:", preferredGenres);
    console.log("selectedServices:", selectedServices);
 
-  const handleRandomMovie = () => {
-    // Filter movies based on selected runtime
-    let filtered = filteredMovies.filter(movie => movie.runtime <= selectedRuntime);
-    
- // Exclude movies that contain any genre from selectedGenres
-if (selectedGenres && selectedGenres.length > 0) {
-  filtered = filtered.filter(movie =>
-      movie.genre && !selectedGenres.some(genre => movie.genre.includes(genre))
-  );
-}
-
-// Filter movies to exclusively include those that contain all genres from preferredGenres
-if (preferredGenres && preferredGenres.length > 0) {
-  filtered = filtered.filter(movie =>
-      movie.genre && preferredGenres.every(genre => movie.genre.includes(genre))
-  );
-}
-
-// filter movies just to pull from selected services
-if (selectedServices && selectedServices.length > 0) {
-  let serviceMovies = [];
-  selectedServices.forEach(service => {
-    if (service === 'Netflix') {
-      serviceMovies = serviceMovies.concat(netflixArray);
-    } else if (service === 'Max') {
-      serviceMovies = serviceMovies.concat(maxArray);
-    }
-    // Add more conditions for other services if needed
-  });
-  // Filter movies from selected streaming services based on runtime
-  filtered = serviceMovies.filter(movie => movie.runtime <= selectedRuntime);
-}
-  
-    // Ensure there are filtered movies to select from
-    if (filtered.length > 0) {
-        // Select a random movie index
-        const randomIndex = Math.floor(Math.random() * filtered.length);
-        const selectedMovie = filtered[randomIndex];
-  
-        // Set the randomly selected movie
-        setRandomMovie(selectedMovie);
-        // Update the animation key to trigger re-render and remount the animation
-        setAnimationKey(prevKey => prevKey + 1);
+   const handleRandomMovie = () => {
+    // Filter based on selected services
+    const selectedServices = JSON.parse(sessionStorage.getItem('selectedServices'));
+    let filtered = [];
+    if (selectedServices && selectedServices.length > 0) {
+      let serviceMovies = [];
+      selectedServices.forEach(service => {
+        if (service === 'Netflix') {
+          serviceMovies = serviceMovies.concat(netflixArray);
+        } else if (service === 'Max') {
+          serviceMovies = serviceMovies.concat(maxArray);
+        }
+        // Add more conditions for other services if needed
+      });
+      filtered = serviceMovies.filter(movie => movie.runtime <= selectedRuntime);
     } else {
-        // Handle case when there are no filtered movies
-        setRandomMovie(null);
+      // If no services are selected, use all movies
+      filtered = [...filteredMovies];
     }
-};
+  
+    // Filter based on selected genres to avoid
+    const selectedGenres = JSON.parse(sessionStorage.getItem('selectedGenres'));
+    if (selectedGenres && selectedGenres.length > 0) {
+      filtered = filtered.filter(movie =>
+        movie.genre && !selectedGenres.some(genre => movie.genre.includes(genre))
+      );
+    }
+  
+    // Filter based on preferred genres
+    const preferredGenres = JSON.parse(sessionStorage.getItem('preferredGenres'));
+    if (preferredGenres && preferredGenres.length > 0) {
+      filtered = filtered.filter(movie =>
+        movie.genre && preferredGenres.every(genre => movie.genre.includes(genre))
+      );
+    }
+  
+    if (filtered.length > 0) {
+      const randomIndex = Math.floor(Math.random() * filtered.length);
+      const selectedMovie = filtered[randomIndex];
+      setRandomMovie(selectedMovie);
+      setAnimationKey(prevKey => prevKey + 1);
+    } else {
+      setRandomMovie(null);
+    }
+  };
+  
 
 
   

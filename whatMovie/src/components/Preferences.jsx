@@ -105,7 +105,6 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
     <div>
       <div style={{ border: '1px solid #ccc', padding: "15px", marginBottom: "30px"}}>
   <div style={{ display: 'flex', justifyContent: 'center'}}>
-    <button onClick={handlePreferenceChange} style={{ marginRight: '10px' }}>Apply Preferences</button>
     <button onClick={() => {
   sessionStorage.removeItem('selectedServices');
   sessionStorage.clear();
