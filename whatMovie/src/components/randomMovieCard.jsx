@@ -131,6 +131,8 @@ if (preferredGenres && preferredGenres.length > 0) {
     }
   }, [showDetails]);
 
+
+
   return (
     <div style={{ marginTop: "10px", textAlign: "center", width: "100%" }}>
       {randomMovie ? (

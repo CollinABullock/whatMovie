@@ -1,21 +1,17 @@
-// Import React, useState, and useEffect
 import React, { useState, useEffect } from 'react';
-// Import Modal and Button from react-bootstrap
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 
 export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
-  // State for selected runtime, selected genres they don't want to see, and preferred genres they want to see
   const [runtime, setRuntime] = useState(sessionStorage.getItem('selectedRuntime') || 240);
   const [selectedGenres, setSelectedGenres] = useState(JSON.parse(sessionStorage.getItem('selectedGenres')) || []);
   const [preferredGenres, setPreferredGenres] = useState(JSON.parse(sessionStorage.getItem('preferredGenres')) || []);
+  const [selectedService, setSelectedService] = useState(null);
   const [uniqueGenres, setUniqueGenres] = useState([]);
   const [showModal, setShowModal] = useState(false);
 
-  // useEffect to update unique genres based on data changes
   useEffect(() => {
     if (data && data.length > 0) {
-      // Call onPreferenceChange with runtime and selected genres
       onPreferenceChange(runtime, selectedGenres);
       const genresSet = new Set();
       data.forEach(movie => {
@@ -25,13 +21,11 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
           });
         }
       });
-      // Convert set to array and sort alphabetically
       const sortedGenres = Array.from(genresSet).sort();
       setUniqueGenres(sortedGenres);
     }
   }, [data, onPreferenceChange, runtime, selectedGenres]);
 
-  // Function to handle checkbox change for selecting genres they don't want to see
   const handleCheckboxChange = (event) => {
     const { value, checked } = event.target;
     if (checked) {
@@ -41,78 +35,89 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
     }
   };
 
-  // Function to handle checkbox change for selecting preferred genres they want to see
   const handlePreferredCheckboxChange = (event) => {
     const { value, checked } = event.target;
     if (checked) {
       setPreferredGenres(prevPreferredGenres => [...prevPreferredGenres, value]);
-      // Remove the preferred genre from selected genres
       setSelectedGenres(prevSelectedGenres => prevSelectedGenres.filter(genre => genre !== value));
     } else {
       setPreferredGenres(prevPreferredGenres => prevPreferredGenres.filter(genre => genre !== value));
     }
   };
-  
-  // Function to handle slider change for selecting maximum runtime
+
   const handleSliderChange = (event) => {
     const value = event.target.value;
     setRuntime(value);
     sessionStorage.setItem('selectedRuntime', value);
   };
 
-  // Function to handle applying preferences
   const handlePreferenceChange = () => {
     sessionStorage.setItem('selectedGenres', JSON.stringify(selectedGenres));
     sessionStorage.setItem('preferredGenres', JSON.stringify(preferredGenres));
     const filteredData = data.filter(movie => {
-      // Check if movie.genre is defined before using some method
       const shouldBeFiltered = (!movie.genre || !selectedGenres.some(genre => movie.genre.includes(genre))) && movie.runtime <= runtime;
       return !shouldBeFiltered;
     });
     onPreferenceChange(filteredData);
-    // Show modal when preferences are applied
     setShowModal(true);
   };
 
-  // Function to handle modal close
   const handleCloseModal = () => {
     setShowModal(false);
     window.location.reload();
   };
 
+  const streamingServices = [
+    { name: 'Netflix', logo: 'https://cdn.vox-cdn.com/thumbor/pNxD2NFOCjbljnMPUSGdkFWeDjI=/0x0:3151x2048/1400x788/filters:focal(1575x1024:1576x1025)/cdn.vox-cdn.com/uploads/chorus_asset/file/15844974/netflixlogo.0.0.1466448626.png' },
+    { name: 'Max', logo: 'https://pbs.twimg.com/media/Fth6aQMXwQEb4NU.jpg' },
+    { name: 'Prime', logo: 'https://www.shutterstock.com/image-vector/chattogram-bangladesh-may-18-2023-600nw-2304763275.jpg' },
+    { name: 'Hulu', logo: 'https://wallpapers.com/images/featured/hulu-fxo5g9d2z5nmrq7p.jpg' },
+    { name: "Peacock", logo: "https://akns-images.eonline.com/eol_images/Entire_Site/20191131/rs_1024x759-191231151709-1024x759.peacock-logo-lp.123119.jpg?fit=around%7C1024:759&output-quality=90&crop=1024:759;center,top" },
+    { name: "Apple", logo: "https://i.ytimg.com/vi/VHOWM6ZM-Ek/maxresdefault.jpg"},
+    { name: "Disney", logo: "https://lumiere-a.akamaihd.net/v1/images/disney_logo_nov_2021_rbg_0fa74b54.jpeg?region=0,0,1920,1080"},
+    { name: "Paramount", logo: "https://www.paramount.com/sites/g/files/dxjhpe226/files/styles/twitter_image_1024_x_512_/public/ViacomCBSDotCom/NewsPage/Images/Paramount_SocialShare.jpg?h=79d7b992&itok=X2IUZz7U"} ,
+    { name: "Criterion", logo: "https://s3.amazonaws.com/criterion-production/editorial_content_posts/hero/6044-/2mEVBFsaPpECTc6HPG1pqQEOIsLecl_original.png"},
+    { name: "Tubi", logo: "https://cloudfront-us-east-1.images.arcpublishing.com/gmg/BVVRXGRYJ5BZTBKPJXLQC5TIJM.jpg"}
+  ];
+
+  const handleServiceClick = (serviceName) => {
+    setSelectedService(serviceName);
+  };
+
   return (
+    
     <div>
-      {/* Section for selecting preferred genres they want to see */}
-      <h2 style={{ width: "100%", margin: "0 auto", textAlign: "center", marginBottom: "30px" }}>Movie Preferences</h2>
-        {/* Button to apply preferences */}
-        <div style={{marginBottom: "30px", width: "100%", margin: "0 auto", alignItems: "center"}}>
-        <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '30px' }}>
-  <button onClick={handlePreferenceChange} style={{ marginRight: '10px' }}>Apply Preferences</button>
-  <button onClick={() => { sessionStorage.clear(); setSelectedGenres([]); setPreferredGenres([]); setRuntime(240); }} style={{ marginLeft: '10px' }}>Reset Preferences</button>
-</div>
-      </div>
-      <div>
-              {/* Slider for selecting maximum runtime */}
-              <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '30px' }}>
-  {/* Slider for selecting maximum runtime */}
-  <div style={{ textAlign: 'center', marginBottom: '30px' }}> {/* Added marginBottom */}
-    <p>What's the longest movie you're down to watch?<br /> 
-    {runtime} minutes</p>
-    <input
-      type="range"
-      id="runtimeSlider"
-      name="runtime"
-      min="90"
-      max="240"
-      step="15"
-      value={runtime}
-      onChange={handleSliderChange}
-    />
+      <div style={{ border: '1px solid #ccc', padding: "15px"}}>
+  <div style={{ display: 'flex', justifyContent: 'center'}}>
+    <button onClick={handlePreferenceChange} style={{ marginRight: '10px' }}>Apply Preferences</button>
+    <button onClick={() => { sessionStorage.clear(); setSelectedGenres([]); setPreferredGenres([]); setRuntime(240); }} style={{ marginLeft: '10px' }}>Reset Preferences</button>
   </div>
 </div>
-      
-    
-      <h4>What kind of movie <span style={{ color: 'red', fontSize: '1.2em', textDecoration: 'underline' }}>DO</span> you want to see?</h4>
+      <div style={{ marginBottom: '30px', border: '1px solid #ccc', padding: '15px' }}>
+        <p style={{ marginBottom: '10px' }}>What streaming services are you currently paying for and/or stealing?</p>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(5, 1fr)', gap: '10px' }}>
+          {streamingServices.map(service => (
+            <img className='streaming-service-img' key={service.name} src={service.logo} alt={service.name} style={{ width: '100%', maxWidth: '220px', height: '100px', objectFit: "cover", cursor: "pointer" }} onClick={() => handleServiceClick(service.name)} />
+          ))}
+        </div>
+      </div>
+
+      <div style={{ marginBottom: '30px', border: '1px solid #ccc', padding: '15px' }}>
+        <p>What's the longest movie you're down to watch?<br />{runtime} minutes</p>
+        <input
+          type="range"
+          id="runtimeSlider"
+          name="runtime"
+          min="90"
+          max="240"
+          step="15"
+          value={runtime}
+          onChange={handleSliderChange}
+        />
+      </div>
+
+      <div style={{ marginBottom: '30px', border: '1px solid #ccc', padding: '15px' }}>
+        <h4>What kind of movie <span style={{ color: 'red', fontSize: '1.2em', textDecoration: 'underline' }}>DO</span> you want to see?</h4>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '10px' }}>
           {uniqueGenres.map(genre => (
             <label key={genre} style={{ display: 'flex', alignItems: 'center' }}>
@@ -128,9 +133,8 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
         </div>
       </div>
 
-      {/* Section for selecting genres they don't want to see */}
-      <div style={{ marginTop: '20px' }}>
-      <h4>What kind of movie <span style={{ color: 'red', fontSize: '1.2em', textDecoration: 'underline' }}>DON'T</span> you want to see?</h4>
+      <div style={{ marginBottom: '30px', border: '1px solid #ccc', padding: '15px' }}>
+        <h4>What kind of movie <span style={{ color: 'red', fontSize: '1.2em', textDecoration: 'underline' }}>DON'T</span> you want to see?</h4>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '10px' }}>
           {uniqueGenres.filter(genre => !preferredGenres.includes(genre)).map(genre => (
             <label key={genre} style={{ display: 'flex', alignItems: 'center' }}>
@@ -146,9 +150,6 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
         </div>
       </div>
 
-      <br />
-      
-      {/* Modal to show preferences applied */}
       <Modal style={{ fontFamily: "Signwood", textShadow: "2px 2px 2px black", color: "white" }} show={showModal} onHide={handleCloseModal}>
         <Modal.Header style={{ backgroundColor: "red" }}>
           <Modal.Title>Preferences Applied</Modal.Title>

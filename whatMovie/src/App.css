@@ -6,6 +6,18 @@
   padding: 0px;
 }
 
+.streaming-service-img {
+  transition: filter 0.3s ease-in-out;
+}
+
+.streaming-service-img:hover {
+  filter: brightness(1.2) blur(2px);
+}
+
+.streaming-service-img.selected {
+  filter: brightness(1.2) blur(2px) hue-rotate(120deg); /* Green tint */
+}
+
 /* setting a glowing effect, you know like a flickering movie theatre bulb! */
 
 .glow {
