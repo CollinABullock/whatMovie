@@ -103,18 +103,7 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
   return (
     
     <div>
-      <div style={{ border: '1px solid #ccc', padding: "15px", marginBottom: "30px"}}>
-  <div style={{ display: 'flex', justifyContent: 'center'}}>
-    <button onClick={() => {
-  sessionStorage.removeItem('selectedServices');
-  sessionStorage.clear();
-  setSelectedGenres([]);
-  setPreferredGenres([]);
-  setRuntime(240);
-  setSelectedService([]);
-}} style={{ marginLeft: '10px' }}>Reset Preferences</button>
-  </div>
-</div>
+
       <div style={{ marginBottom: '30px', width: "100%", border: '1px solid #ccc', padding: '15px' }}>
         <p style={{ marginBottom: '10px' }}>What streaming services are you currently paying for and/or stealing?</p>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(5, 1fr)', gap: '10px' }}>
@@ -201,8 +190,21 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
             </label>
           ))}
         </div>
+        
       </div>
 
+      <div style={{ padding: "15px", marginBottom: "30px"}}>
+  <div style={{ display: 'flex', justifyContent: 'center'}}>
+    <button onClick={() => {
+  sessionStorage.removeItem('selectedServices');
+  sessionStorage.clear();
+  setSelectedGenres([]);
+  setPreferredGenres([]);
+  setRuntime(240);
+  setSelectedService([]);
+}} style={{ marginLeft: '10px' }}>Reset Preferences</button>
+  </div>
+</div>
       <Modal style={{ fontFamily: "Signwood", textShadow: "2px 2px 2px black", color: "white" }} show={showModal} onHide={handleCloseModal}>
         <Modal.Header style={{ backgroundColor: "red" }}>
           <Modal.Title>Preferences Applied</Modal.Title>
