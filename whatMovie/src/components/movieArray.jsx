@@ -2923,13 +2923,13 @@ const moviesArray = [
       "runtime": 142,
       "mpaa": "R",
       "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABdC-WH_eB7KTzgrNFgwprrXnzWciuHUHhhJCfj29JDubNRn5C8JPoJtPauCok1bLBQpGem6w1Xk-HSzHCxer4xZ5A4rbgKP986AjQ-1j2pvFXbU2_hp_fnwjjggyxGzA0-s9.jpg?r=a50",
-      "description": "",
+      "description": "A family vacation on Long Island is interrupted by two strangers bearing news of a blackout. As the threat grows, both families must decide how best to survive the potential crisis, all while grappling with their own place in this collapsing world.",
 	"genre": ["drama", "science-fiction", "disaster"],
     "link": "https://www.netflix.com/title/81314956",
     "director": [{
     "name": "Sam Esmail",
-    "image": "",
-    "imdb": "",
+    "image": "https://www.hollywoodreporter.com/wp-content/uploads/2023/10/GettyImages-1757001354-H-2023.jpg?w=1296",
+    "imdb": "https://www.imdb.com/name/nm1322753/",
     }],
     "actors": [{
       "name": "Julia Roberts",
@@ -3100,7 +3100,7 @@ const moviesArray = [
       "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/e7dc7b3a-a494-4ef1-8107-f4308aa6bbf7/bfea2cc9ae7ede84e74a8efb24656ca08e7fd9d9.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=320",
       "description": "The son of a noble family travels to a dangerous planet to ensure the future of his people in this visually stunning sci-fi epic.",
 	"genre": ["science-fiction", "action", "drama"],
-    "link": "https://www.max.com/movies/dune/e7dc7b3a-a494-4ef1-8107-f4308aa6bbf7",
+    "link": "https://play.max.com/video/watch/07323549-c382-4363-a3fe-97a365e81331/06a38397-862d-4419-be84-0641939825e7",
     "director": [{
     "name": "Denis Villeneuve",
     "image": "https://variety.com/wp-content/uploads/2024/01/GettyImages-1347326046.jpg?w=1000&h=563&crop=1",
@@ -3263,6 +3263,60 @@ const moviesArray = [
       "name": "Sean Astin",
       "image": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcRS3tCNPrQ1F8bs9wSdlQYKe3ttE2zpcCVR-cwP4sTl6Un-KqMYoZfrttmA9RBOTGwpbgv0fs8Cy-G8-mM",
       "imdb": "https://www.imdb.com/name/nm0000276/",
+    }]
+    },
+
+    {    
+      "item": "114",
+      "title": "Princess Mononoke",
+      "runtime": 134,
+      "mpaa": "PG-13",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/e31c2dc2-cb8b-416e-9eda-769be3bb3a6b/d6211efbbeb91ac3736cf1b96afaf3208f09b6a5.jpg?submitted=1684673544124&host=wbd-images.prod-vod.h264.io&partner=beamcom&w=320",
+      "description": "A cursed warrior stumbles into a bitter war between a girl raised by wolves and the people of Iron Town in this masterpiece from Hayao Miyazaki.",
+	"genre": ["animaation", "fantasy", "action", "foreign"],
+    "link": "https://play.max.com/video/watch/9790bf2c-b9fb-4825-bd69-dbb111768659/325c6c4f-383c-44e7-9d92-40c2711296a3",
+    "director": [{
+    "name": "Hayao Miyazaki",
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ9_CR8hEkvsmPKEloLHKbm5AlrmKpS2M80IxUpIvep9WwOezXF",
+    "imdb": "https://www.imdb.com/name/nm0594503/",
+    }],
+    "actors": [{
+      "name": "Gillian Anderson",
+      "image": "https://people.com/thmb/2IJL-qXEj_hcecyAbtodE2qvg1Y=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(749x0:751x2)/gillian-anderson-BAFTA-tout-2024-44c944d19b624821b6582b888dca9f74.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000096/",
+    }, {
+      "name": "Billy Crudup",
+      "image": "https://www.hollywoodreporter.com/wp-content/uploads/2020/06/one_time_use_only_-_billy_crudup_-_ap_image_-_h_2020_.jpg?w=1296",
+      "imdb": "https://www.imdb.com/name/nm0001082/"
+    }, {
+      "name": "Claire Danes",
+      "image": "https://variety.com/wp-content/uploads/2022/09/GettyImages-1344844543.jpg?w=1000&h=563&crop=1",
+      "imdb": "https://www.imdb.com/name/nm0000132/",
+    }]
+    },
+
+    {    
+      "item": "115",
+      "title": "The Killer Elite",
+      "runtime": 124,
+      "mpaa": "PG",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/e559ce47-ee47-4dfb-b12d-b09ecba8353a/4245125237ff18f998418c0af78dba559a9c60cc.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=320",
+      "description": "James Caan and Robert Duvall play rival gunmen in this 1975 drama set in a world of political assassination and double cross.",
+	"genre": ["action", "thriller", "classic"],
+    "link": "https://play.max.com/video/watch/7dd7d308-76c2-4d9b-9647-651542be3ea1/498a74db-f639-4680-ad05-7d8e03e229ce",
+    "director": [{
+    "name": "Sam Peckinpah",
+    "image": "https://cdn.britannica.com/75/177375-050-303F716F/Sam-Peckinpah-filming-Cross-of-Iron.jpg",
+    "imdb": "https://www.imdb.com/name/nm0001603/",
+    }],
+    "actors": [{
+      "name": "James Caan",
+      "image": "https://people.com/thmb/7qTaGhQR6Iuk2zbyFsNpQw9hq3o=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(719x299:721x301)/james-caan-godfather-3-812b3550abe2425b8d529a4f15f1deb0.jpg",
+      "imdb": "https://www.imdb.com/name/nm0001001/",
+    }, {
+      "name": "Robert Duvall",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJziDuLODiX54qaZfiYEdjsHCUG5UowwhZeWX8ZrJEfSbIX28B",
+      "imdb": "https://www.imdb.com/name/nm0000380/"
     }]
     },
 

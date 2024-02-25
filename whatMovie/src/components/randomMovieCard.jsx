@@ -106,7 +106,7 @@ if (preferredGenres && preferredGenres.length > 0) {
       );
     } else {
       return (
-        <a href={link} style={{ color: 'blue', textDecoration: 'none', cursor: 'pointer' }}>Watch Now</a>
+        <a href={link} target="_blank" style={{ color: 'blue', textDecoration: 'none', cursor: 'pointer' }}>Watch Now</a>
       );
     }
   };
@@ -184,7 +184,7 @@ if (preferredGenres && preferredGenres.length > 0) {
               <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
                 {randomMovie.director.map((director, index) => (
                   <div key={index} style={{ textAlign: 'center' }}>
-                    <a href={director.imdb}>
+                    <a target="_blank" href={director.imdb}>
                       <img 
                         src={director.image} 
                         alt={director.name} 
@@ -204,7 +204,7 @@ if (preferredGenres && preferredGenres.length > 0) {
               <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
                 {randomMovie.actors.map((actor, index) => (
                   <div key={index} style={{ textAlign: 'center' }}>
-                    <a href={actor.imdb}>
+                    <a target="_blank" href={actor.imdb}>
                       <img 
                         src={actor.image} 
                         alt={actor.name} 
