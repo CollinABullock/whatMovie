@@ -14,11 +14,11 @@ export default function NavBar({ onPreferenceChange, uniqueGenres }) {
   return (
     <nav className="navbar navbar-expand-lg navbar-light fixed-top" style={{ padding: "10px", marginBottom: "20px", background: "transparent" }}>
       <a className="navbar-brand" style={{ color: "whitesmoke", fontSize: "1em" }}>Let's Choose a Damn Movie Already!</a>
-      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" onClick={handlePreferencesClick}  aria-label="Toggle navigation" style={{backgroundColor: "white"}}>
+      <button className="navbar-toggler" type="button" aria-controls="preferencesDropdown" aria-expanded="false" onClick={handlePreferencesClick} aria-label="Toggle navigation" style={{backgroundColor: "white"}}>
         <span className="navbar-toggler-icon"></span>
       </button>
 
-      <div className="collapse navbar-collapse" id="navbarSupportedContent">
+      <div className={`collapse navbar-collapse ${showPreferences ? 'show' : ''}`} id="preferencesDropdown">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item dropdown">
             <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" onClick={handlePreferencesClick} aria-haspopup="true" aria-expanded="false" style={{ color: "whitesmoke" }}>
