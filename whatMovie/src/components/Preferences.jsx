@@ -6,7 +6,7 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
   const [runtime, setRuntime] = useState(sessionStorage.getItem('selectedRuntime') || 240);
   const [selectedGenres, setSelectedGenres] = useState(JSON.parse(sessionStorage.getItem('selectedGenres')) || []);
   const [preferredGenres, setPreferredGenres] = useState(JSON.parse(sessionStorage.getItem('preferredGenres')) || []);
-  const [selectedService, setSelectedService] = useState(null);
+  const [selectedService, setSelectedService] = useState([]);
   const [uniqueGenres, setUniqueGenres] = useState([]);
   const [showModal, setShowModal] = useState(false);
 
@@ -81,23 +81,46 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
   ];
 
   const handleServiceClick = (serviceName) => {
-    setSelectedService(serviceName);
+    setSelectedService(prevSelectedServices => {
+      if (prevSelectedServices.includes(serviceName)) {
+        return prevSelectedServices.filter(service => service !== serviceName);
+      } else {
+        return [...prevSelectedServices, serviceName];
+      }
+    });
   };
+
+  console.log(selectedService);
 
   return (
     
     <div>
-      <div style={{ border: '1px solid #ccc', padding: "15px"}}>
+      <div style={{ border: '1px solid #ccc', padding: "15px", marginBottom: "30px"}}>
   <div style={{ display: 'flex', justifyContent: 'center'}}>
     <button onClick={handlePreferenceChange} style={{ marginRight: '10px' }}>Apply Preferences</button>
     <button onClick={() => { sessionStorage.clear(); setSelectedGenres([]); setPreferredGenres([]); setRuntime(240); }} style={{ marginLeft: '10px' }}>Reset Preferences</button>
   </div>
 </div>
-      <div style={{ marginBottom: '30px', border: '1px solid #ccc', padding: '15px' }}>
+      <div style={{ marginBottom: '30px', width: "100%", border: '1px solid #ccc', padding: '15px' }}>
         <p style={{ marginBottom: '10px' }}>What streaming services are you currently paying for and/or stealing?</p>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(5, 1fr)', gap: '10px' }}>
           {streamingServices.map(service => (
-            <img className='streaming-service-img' key={service.name} src={service.logo} alt={service.name} style={{ width: '100%', maxWidth: '220px', height: '100px', objectFit: "cover", cursor: "pointer" }} onClick={() => handleServiceClick(service.name)} />
+            <img 
+              className='streaming-service-img' 
+              key={service.name} 
+              src={service.logo} 
+              alt={service.name} 
+              style={{ 
+                width: '100%', 
+                maxWidth: '220px', 
+                height: '100px', 
+                objectFit: "cover", 
+                cursor: "pointer",
+                filter: selectedService.includes(service.name) ? "brightness(0.7) green" : "brightness(1)"
+
+              }} 
+              onClick={() => handleServiceClick(service.name)} 
+            />
           ))}
         </div>
       </div>
