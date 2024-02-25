@@ -3320,6 +3320,153 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "116",
+      "title": "Godzilla:  King Of The Monsters",
+      "runtime": 81,
+      "mpaa": "PG",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/63d983ed-9059-40c5-bcbe-103b4bfd23d5/a4898c7f08cf521e1a2b4c9aa4cd185b9fe48c91.jpg?submitted=1684660449592&host=wbd-images.prod-vod.h264.io&partner=beamcom&w=320",
+      "description": "The monster is awakened by an undersea explosion and wreaks havoc on the citizens of Tokyo.",
+	"genre": ["science-fiction", "disaster", "foreign", "classic"],
+    "link": "https://play.max.com/video/watch/017daeb8-9d62-4829-8f6d-ee1a2768b06d/a788d563-3bb8-4f5c-a72d-a61afa0f88cb",
+    "director": [{
+    "name": "Terry Morse",
+    "image": "",
+    "imdb": "",
+    }],
+    "actors": [{
+      "name": "Raymond Burr",
+      "image": "https://www.remindmagazine.com/wp-content/uploads/2023/09/ironside-burr-1014x570.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000994/",
+    }, {
+      "name": "Takashi Shimura",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTUyNjY0ODYyMV5BMl5BanBnXkFtZTcwMDg0MTc4Ng@@._V1_.jpg",
+      "imdb": "https://www.imdb.com/name/nm0793766/"
+    }, {
+      "name": "Akira Takarada",
+      "image": "https://variety.com/wp-content/uploads/2022/03/takarada-godzilla.jpg?w=1000",
+      "imdb": "https://www.imdb.com/name/nm0847361/",
+    }]
+    },
+
+    {    
+      "item": "117",
+      "title": "Red Dawn",
+      "runtime": 114,
+      "mpaa": " PG-13",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/a29e7cc7-2f41-4e6f-b837-63371a84b571/cbc64fcfa250a230939fe99c8d0a115988044b71.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=320",
+      "description": "Teenage guerrillas fight to the death for freedom when their tiny Colorado mountain community is invaded by Russian forces.",
+	"genre": ["action", "war"],
+    "link": "https://play.max.com/video/watch/47fd6de7-9ffa-4b37-8ff5-62f178b264d4/6237134d-d1ac-41ce-bcac-3ae5e1fa2d7e",
+    "director": [{
+    "name": "John Milius",
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRNOLCx2fePrA1JhZTtcfyY-Kx6aI-Uxab6ik3r9zgFGS5G02Tc",
+    "imdb": "https://www.imdb.com/name/nm0587518/",
+    }],
+    "actors": [{
+      "name": "Patrick Swayze",
+      "image": "https://i.ytimg.com/vi/qYQCmORLong/maxresdefault.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000664/",
+    }, {
+      "name": "C Thomas Howell",
+      "image": "https://images.squarespace-cdn.com/content/v1/63e44732e48ce71bcc07a225/ff8168fa-7d48-49b4-a926-7bf89d8ca72b/guitarsrelax.jpg",
+      "imdb": "https://www.imdb.com/name/nm0001367/"
+    }, {
+      "name": "Harry Dean Stanton",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRqW0Vo6gO65dfs99maynJbaw1Vso0YwqrTD41Eak7lHvSmxfb1",
+      "imdb": "https://www.imdb.com/name/nm0001765/",
+    }]
+    },
+
+
+    {    
+      "item": "118",
+      "title": "Batman Returns",
+      "runtime": 127,
+      "mpaa": "PG-13",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/7ebb10fa-4552-405c-a5d2-3cc5b21193c7/faf0619843c6df71cd1c7323dcd5d2535e7bfc91.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=320",
+      "description": "The sequel to Batman pits the caped crusader against his most fiendish opponents yet: the evil Penguin and the sinuous and mysterious Catwoman.",
+	"genre": ["action", "comic-book", "sequel"],
+    "link": "https://play.max.com/video/watch/d00bbbc3-85b2-431c-9f9f-8f6269d1642b/ffb6310a-71fe-4015-9ffa-eed56f10eaca",
+    "director": [{
+    "name": "Tim Burton",
+    "image": "https://media.cnn.com/api/v1/images/stellar/prod/221023160418-tim-burton-file-1023.jpg?c=original",
+    "imdb": "https://www.imdb.com/name/nm0000318/",
+    }],
+    "actors": [
+      {"name": "Michael Keaton", "image": "https://media.vanityfair.com/photos/62e92ee5e157986bb4f403e4/master/w_2560%2Cc_limit/1402978977", "imdb": "https://www.imdb.com/name/nm0000474/"}, {
+      "name": "Michelle Pfeiffer",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/actress-michelle-pfeiffer-attends-the-33rd-annual-news-photo-1707149533.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000201/"
+    }, {
+      "name": "Danny DeVito",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/60fa1c9e5ef6dd2f9a8f0946/Danny-DeVito-at--Dumbo--European-Premiere---Red-Carpet-Arrivals/960x0.jpg?format=jpg&width=960",
+      "imdb": "https://www.imdb.com/name/nm0000362/?ref_=tt_ov_st"
+    }]
+    },
+
+
+    {    
+      "item": "119",
+      "title": "",
+      "runtime": ,
+      "mpaa": "",
+      "poster": "",
+      "description": "",
+	"genre": [""],
+    "link": "",
+    "director": [{
+    "name": "",
+    "image": "",
+    "imdb": "",
+    }],
+    "actors": [{
+      "name": "",
+      "image": "",
+      "imdb": "",
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": ""
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": "",
+    }]
+    },
+
+
+    {    
+      "item": "120",
+      "title": "",
+      "runtime": ,
+      "mpaa": "",
+      "poster": "",
+      "description": "",
+	"genre": [""],
+    "link": "",
+    "director": [{
+    "name": "",
+    "image": "",
+    "imdb": "",
+    }],
+    "actors": [{
+      "name": "",
+      "image": "",
+      "imdb": "",
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": ""
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": "",
+    }]
+    },
+
+
+
   ]
 ]
 
