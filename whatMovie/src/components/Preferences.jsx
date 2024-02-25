@@ -104,24 +104,40 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
       <div style={{ marginBottom: '30px', width: "100%", border: '1px solid #ccc', padding: '15px' }}>
         <p style={{ marginBottom: '10px' }}>What streaming services are you currently paying for and/or stealing?</p>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(5, 1fr)', gap: '10px' }}>
-          {streamingServices.map(service => (
-            <img 
-              className='streaming-service-img' 
-              key={service.name} 
-              src={service.logo} 
-              alt={service.name} 
-              style={{ 
-                width: '100%', 
-                maxWidth: '220px', 
-                height: '100px', 
-                objectFit: "cover", 
-                cursor: "pointer",
-                filter: selectedService.includes(service.name) ? "brightness(0.7) green" : "brightness(1)"
+        {streamingServices.map(service => (
+  <div style={{ position: 'relative', display: 'inline-block' }} key={service.name}>
+    <img 
+      className='streaming-service-img' 
+      src={service.logo} 
+      alt={service.name} 
+      style={{ 
+        width: '100%', 
+        maxWidth: '220px', 
+        height: '100px', 
+        objectFit: "cover", 
+        cursor: "pointer",
+        filter: selectedService.includes(service.name) ? "none" : "sepia(100%) hue-rotate(90deg)"
+      }} 
+      onClick={() => handleServiceClick(service.name)} 
+    />
+    {selectedService.includes(service.name) && (
+      <div style={{
+        position: 'absolute',
+        top: '5px',
+        right: '5px',
+        backgroundColor: 'green',
+        borderRadius: '50%',
+        padding: '3px',
+        zIndex: '1'
+      }}>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16">
+          <path fill="#FFFFFF" d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+        </svg>
+      </div>
+    )}
+  </div>
+))}
 
-              }} 
-              onClick={() => handleServiceClick(service.name)} 
-            />
-          ))}
         </div>
       </div>
 
