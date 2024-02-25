@@ -30,20 +30,27 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
     const { value, checked } = event.target;
     if (checked) {
       setSelectedGenres(prevSelectedGenres => [...prevSelectedGenres, value]);
+      setPreferredGenres(prevPreferredGenres => prevPreferredGenres.filter(genre => genre !== value)); // Remove from preferredGenres if present
     } else {
       setSelectedGenres(prevSelectedGenres => prevSelectedGenres.filter(genre => genre !== value));
     }
   };
-
+  
   const handlePreferredCheckboxChange = (event) => {
     const { value, checked } = event.target;
     if (checked) {
       setPreferredGenres(prevPreferredGenres => [...prevPreferredGenres, value]);
-      setSelectedGenres(prevSelectedGenres => prevSelectedGenres.filter(genre => genre !== value));
+      setSelectedGenres(prevSelectedGenres => prevSelectedGenres.filter(genre => genre !== value)); // Remove from selectedGenres if present
     } else {
       setPreferredGenres(prevPreferredGenres => prevPreferredGenres.filter(genre => genre !== value));
     }
   };
+  
+  useEffect(() => {
+    // Update sessionStorage whenever selectedGenres or preferredGenres change
+    sessionStorage.setItem('selectedGenres', JSON.stringify(selectedGenres));
+    sessionStorage.setItem('preferredGenres', JSON.stringify(preferredGenres));
+  }, [selectedGenres, preferredGenres]);
 
   const handleSliderChange = (event) => {
     const value = event.target.value;
@@ -51,19 +58,6 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
     sessionStorage.setItem('selectedRuntime', value);
   };
 
-  const handlePreferenceChange = () => {
-    sessionStorage.setItem('selectedGenres', JSON.stringify(selectedGenres));
-    sessionStorage.setItem('preferredGenres', JSON.stringify(preferredGenres));
-    sessionStorage.removeItem('selectedServices'); // Remove selected services from sessionStorage
-    const filteredData = data.filter(movie => {
-      const shouldBeFiltered = (!movie.genre || !selectedGenres.some(genre => movie.genre.includes(genre))) && movie.runtime <= runtime;
-      return !shouldBeFiltered;
-    });
-    onPreferenceChange(filteredData);
-    setShowModal(true);
-    // Reset selectedService to empty array to clear styling and checkmarks
-    setSelectedService([]);
-  };
   
 
   const handleCloseModal = () => {
