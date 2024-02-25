@@ -3438,30 +3438,30 @@ const moviesArray = [
 
     {    
       "item": "120",
-      "title": "",
-      "runtime": ,
-      "mpaa": "",
-      "poster": "",
-      "description": "",
-	"genre": [""],
-    "link": "",
+      "title": "Jurassic World",
+      "runtime": 125,
+      "mpaa": "125",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/38c287e7-a404-4d0c-bf9e-65e88b623c51/99f26c0b7deeb7b6b44c9d227c59beae72d2b9d3.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=320",
+      "description": "The genetically spawned dinosaurs of Jurassic World escape and wreak havoc on the park's terrified visitors.",
+	"genre": ["science-fiction", "action", "sequel"],
+    "link": "https://play.max.com/video/watch/763458e8-68f3-458c-aa58-be17975f4cd6/332a26d5-9636-4186-98f2-e082443a9f2c",
     "director": [{
-    "name": "",
-    "image": "",
-    "imdb": "",
+    "name": "Colin Trevorrow",
+    "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcT0UMDjzrzbhAWtbw9jbeeb8jTqeTnW0hBqJdtigyVoQA_u6cBqh54meMpL_9_ucWLh-op1BZHRsRFiojo",
+    "imdb": "https://www.imdb.com/name/nm1119880/",
     }],
     "actors": [{
-      "name": "",
-      "image": "",
-      "imdb": "",
+      "name": "Chris Pratt",
+      "image": "https://hips.hearstapps.com/vidthumb/fa84dcc8-1dfd-47fa-b46d-009ec26d3a7d/thumb_1920x1080_00002_1656015932_99112.jpg?crop=1xw:1xh;center,top",
+      "imdb": "https://www.imdb.com/name/nm0695435/",
     }, {
-      "name": "",
-      "image": "",
-      "imdb": ""
+      "name": "Bryce Dallas Howard",
+      "image": "https://people.com/thmb/IGhXPEbQ9mYN3rfS4Ma6JGilgeI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(979x252:981x254)/bryce-dallas-red-carpet-081222-1-ab512b3bd4d54c2c80e5f6684ee6a4ee.jpg",
+      "imdb": "https://www.imdb.com/name/nm0397171/"
     }, {
-      "name": "",
-      "image": "",
-      "imdb": "",
+      "name": "Vincent D'Onofrio",
+      "image": "https://cdn.britannica.com/83/240383-050-1403F363/American-actor-Vincent-D-Onofrio-2021.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000352/"
     }]
     },
 
