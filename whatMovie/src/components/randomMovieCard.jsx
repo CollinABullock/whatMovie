@@ -33,8 +33,12 @@ export default function RandomMovie({ selectedRuntime  }) {
       // Get preferredGenres from sessionStorage
       const preferredGenres = JSON.parse(sessionStorage.getItem('preferredGenres'));
 
+      // Get the streaming services from session storage.
+      const selectedServices = JSON.parse(sessionStorage.getItem('selectedServices'));
+
       console.log("selectedGenres:", selectedGenres);
       console.log("preferredGenres:", preferredGenres);
+      console.log("selectedServices:", selectedServices);
     
  // Exclude movies that contain any genre from selectedGenres
 if (selectedGenres && selectedGenres.length > 0) {
@@ -48,6 +52,21 @@ if (preferredGenres && preferredGenres.length > 0) {
   filtered = filtered.filter(movie =>
       movie.genre && preferredGenres.every(genre => movie.genre.includes(genre))
   );
+}
+
+// filter movies just to pull from selected services
+if (selectedServices && selectedServices.length > 0) {
+  let serviceMovies = [];
+  selectedServices.forEach(service => {
+    if (service === 'Netflix') {
+      serviceMovies = serviceMovies.concat(netflixArray);
+    } else if (service === 'Max') {
+      serviceMovies = serviceMovies.concat(maxArray);
+    }
+    // Add more conditions for other services if needed
+  });
+  // Filter movies from selected streaming services based on runtime
+  filtered = serviceMovies.filter(movie => movie.runtime <= selectedRuntime);
 }
   
     // Ensure there are filtered movies to select from

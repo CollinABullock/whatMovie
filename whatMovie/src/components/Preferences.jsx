@@ -54,13 +54,17 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
   const handlePreferenceChange = () => {
     sessionStorage.setItem('selectedGenres', JSON.stringify(selectedGenres));
     sessionStorage.setItem('preferredGenres', JSON.stringify(preferredGenres));
+    sessionStorage.removeItem('selectedServices'); // Remove selected services from sessionStorage
     const filteredData = data.filter(movie => {
       const shouldBeFiltered = (!movie.genre || !selectedGenres.some(genre => movie.genre.includes(genre))) && movie.runtime <= runtime;
       return !shouldBeFiltered;
     });
     onPreferenceChange(filteredData);
     setShowModal(true);
+    // Reset selectedService to empty array to clear styling and checkmarks
+    setSelectedService([]);
   };
+  
 
   const handleCloseModal = () => {
     setShowModal(false);
@@ -102,7 +106,14 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
       <div style={{ border: '1px solid #ccc', padding: "15px", marginBottom: "30px"}}>
   <div style={{ display: 'flex', justifyContent: 'center'}}>
     <button onClick={handlePreferenceChange} style={{ marginRight: '10px' }}>Apply Preferences</button>
-    <button onClick={() => { sessionStorage.clear(); setSelectedGenres([]); setPreferredGenres([]); setRuntime(240); }} style={{ marginLeft: '10px' }}>Reset Preferences</button>
+    <button onClick={() => {
+  sessionStorage.removeItem('selectedServices');
+  sessionStorage.clear();
+  setSelectedGenres([]);
+  setPreferredGenres([]);
+  setRuntime(240);
+  setSelectedService([]);
+}} style={{ marginLeft: '10px' }}>Reset Preferences</button>
   </div>
 </div>
       <div style={{ marginBottom: '30px', width: "100%", border: '1px solid #ccc', padding: '15px' }}>
