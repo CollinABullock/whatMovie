@@ -3123,30 +3123,30 @@ const moviesArray = [
 
     {    
       "item": "109",
-      "title": "",
-      "runtime": ,
-      "mpaa": "",
-      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/0b8c7185-7ca0-4065-a43f-7b69a2888056/a3b53f15d8e2d1581f8545cc479105cdcd1e1f69.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=320",
-      "description": "",
-	"genre": [""],
-    "link": "",
+      "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb ",
+      "runtime": 95,
+      "mpaa": "PG",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/4a98ed1a-0512-4409-a451-fc58efb3ccd6/837360c64b1f374a8046a6d0086e411e6bace4ad.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=320",
+      "description": "An insane American general orders a bombing attack on the Soviet Union.",
+	"genre": ["comedy", "war", "classic"],
+    "link": "https://play.max.com/movie/4a98ed1a-0512-4409-a451-fc58efb3ccd6",
     "director": [{
-    "name": "",
-    "image": "",
-    "imdb": "",
+      "name": "Stanley Kubrick",
+      "image": "https://i.guim.co.uk/img/media/dbc4567095cf14fd22a0427debbe422e2ed2f99c/0_234_2600_1560/master/2600.jpg?width=1200&quality=85&auto=format&fit=max&s=99d1e160e00d09b674c9a481c6a885b8",
+      "imdb": "https://www.imdb.com/name/nm0000040/",
     }],
     "actors": [{
-      "name": "",
-      "image": "",
-      "imdb": "",
+      "name": "Peter Sellers",
+      "image": "https://i.ytimg.com/vi/qUQTqSMHQpw/maxresdefault.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000634/",
     }, {
-      "name": "",
-      "image": "",
-      "imdb": ""
+      "name": "George C Scott",
+      "image": "https://cdn.britannica.com/22/61822-050-189C5CB0/Strangelove-George-C-Scott-Peter-Sellers-Stanley.jpg",
+      "imdb": "https://www.imdb.com/name/nm0001715/"
     }, {
-      "name": "",
-      "image": "",
-      "imdb": "",
+      "name": "Sterling Hayden",
+      "image": "https://onceuponascreen.files.wordpress.com/2015/12/sterling-hayden.jpg",
+      "imdb": "https://www.imdb.com/name/nm0001330/",
     }]
     },
 
