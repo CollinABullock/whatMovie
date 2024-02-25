@@ -3121,6 +3121,151 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "109",
+      "title": "",
+      "runtime": ,
+      "mpaa": "",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/0b8c7185-7ca0-4065-a43f-7b69a2888056/a3b53f15d8e2d1581f8545cc479105cdcd1e1f69.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=320",
+      "description": "",
+	"genre": [""],
+    "link": "",
+    "director": [{
+    "name": "",
+    "image": "",
+    "imdb": "",
+    }],
+    "actors": [{
+      "name": "",
+      "image": "",
+      "imdb": "",
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": ""
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": "",
+    }]
+    },
+
+    {    
+      "item": "110",
+      "title": "A View To A Kill",
+      "runtime": 132,
+      "mpaa": "PG",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/0b8c7185-7ca0-4065-a43f-7b69a2888056/a3b53f15d8e2d1581f8545cc479105cdcd1e1f69.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=320",
+      "description": "Agent 007 takes on an evil genius who is scheming to blow up California's Silicon Valley and corner the world market in microchips.",
+	"genre": ["action", "spy"],
+    "link": "https://play.max.com/movie/0b8c7185-7ca0-4065-a43f-7b69a2888056",
+    "director": [{
+    "name": "John Glen",
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRIXCw6DEScZrk124dJCAz3xj879jLZHKnox-z-Nujduw7_1rZA",
+    "imdb": "https://www.imdb.com/name/nm0322515/",
+    }],
+    "actors": [{
+      "name": "Roger Moore",
+      "image": "https://variety.com/wp-content/uploads/2017/05/roger-moore-james-bond-remembered.jpg?w=1000",
+      "imdb": "https://www.imdb.com/name/nm0000549/",
+    }, {
+      "name": "Christopher Walken",
+      "image": "https://i.guim.co.uk/img/media/acd486e975dd4b933dd8f941169200067b77b38f/23_96_5541_3325/master/5541.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=60c7f6f5b3bde2ac1c677fa91b1792d5",
+      "imdb": "https://www.imdb.com/name/nm0000686/"
+    }, {
+      "name": "Grace Jones",
+      "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTuhDBZLl00eBxD2GiksRXZ69ya7p7ljtOreywGNlAbg6bNIc80bmb8K2dMcJS_8OI6RetxScoV5XnRUxk",
+      "imdb": "https://www.imdb.com/name/nm0005063/",
+    }]
+    },
+
+    {    
+      "item": "111",
+      "title": "License To Kill",
+      "runtime": 134,
+      "mpaa": "PG-13",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/f2941170-e9eb-4ae7-9985-55b563a1a06a/01b1b5e60848cd9e953edbdd3280831ba90d2af9.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=320",
+      "description": "Timothy Dalton is 007 in this adventure that pits him against a nasty South American drug lord and his henchmen.",
+	"genre": ["action", "spy"],
+    "link": "https://play.max.com/movie/f2941170-e9eb-4ae7-9985-55b563a1a06a",
+    "director": [{
+      "name": "John Glen",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRIXCw6DEScZrk124dJCAz3xj879jLZHKnox-z-Nujduw7_1rZA",
+      "imdb": "https://www.imdb.com/name/nm0322515/",
+    }],
+    "actors": [{
+      "name": "Timothy Dalton",
+      "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQRAUExehPW_IAq7dtDj6owE6QaaToCVxcYEsfmfbmbeQy8miWQ4CBJYvAogusbFx06PYGOwra6r7CLaIU",
+      "imdb": "https://www.imdb.com/name/nm0001096/",
+    }, {
+      "name": "Robert Davi",
+      "image": "https://m.media-amazon.com/images/M/MV5BY2Q1MDQxM2EtMjQ0Zi00ZjI5LTgyYTMtMGQ1OGQzYmFmNDI4XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_.jpg",
+      "imdb": "https://www.imdb.com/name/nm0001108/"
+    }, {
+      "name": "Carey Lowell",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTIroqfv0uVQC9yg9GYASF-R1NywtMocXAMcm5mlM_LrDbR_dFS",
+      "imdb": "https://www.imdb.com/name/nm0000508/",
+    }]
+    },
+
+    {    
+      "item": "112",
+      "title": "The Hunt For Red October",
+      "runtime": 136,
+      "mpaa": "PG",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/9652f2da-ba93-4b4c-988a-de935d58974d/8f9ea734179548184c76be6e50865b34a77b47fe.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=320",
+      "description": "A Russian submarine commander's scheme to defect puts him in the crosshairs between enemy forces in this Cold War thriller.",
+	"genre": ["action", "thriller"],
+    "link": "https://play.max.com/movie/9652f2da-ba93-4b4c-988a-de935d58974d",
+    "director": [{
+    "name": "John McTiernan",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLvFaTjcgEBTDfC65aqiqURENjozC-Ic162y79a5CE57HwmEZD",
+    "imdb": "https://www.imdb.com/name/nm0001532/",
+    }],
+    "actors": [{
+      "name": "Alec Baldwin",
+      "image": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSuYBOiGP2ZAxJotmeQcYxn3DjFBL0zoMmurQS0QLxYVn9zGwvQoFUMQVjt4cgb-se_wUvvZhQdkblI2aA",
+      "imdb": "https://www.imdb.com/name/nm0000285/",
+    }, {
+      "name": "Sean Connery",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2023/12/931/523/Getty_SeanConnery_Main.jpg?ve=1&tl=1",
+      "imdb": "https://www.imdb.com/name/nm0000125/"
+    }, {
+      "name": "James Earl Jones",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQTVB_XE1gdVLfcfExhAnJ-mBRlgLs5v7YO_ZkzGojKGWL-nZtQyIcEwPijscTdCuXWT_Lu",
+      "imdb": "https://www.imdb.com/name/nm0000469/",
+    }]
+    },
+
+    {    
+      "item": "113",
+      "title": "The Lord Of The Rings:  The Return Of The King",
+      "runtime": 201,
+      "mpaa": "PG-13",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/ad704585-6774-4d37-8c61-1bd41154173f/893d52c9771f2390e0166a1eba386ccbf68cd488.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=320",
+      "description": "Frodo and Sam march toward Mount Doom to destroy the Ring while Gandalf, Aragorn and their allies prepare for a final confrontation at the Black Gate.",
+	"genre": ["fantasy", "action", "drama"],
+    "link": "https://play.max.com/movie/ad704585-6774-4d37-8c61-1bd41154173f",
+    "director": [{
+      "name": "Peter Jackson",
+    "image": "https://deadline.com/wp-content/uploads/2023/02/peter-jackson-Philippa-boyens-fran-walsh.jpg?w=1024",
+    "imdb": "https://www.imdb.com/name/nm0001392/",
+    }],
+    "actors": [{
+      "name": "Elijah Wood",
+      "image": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQT10WvJIQzcCnYZS4l_PM1-VoFBxdTvWI_FJ7BeQW95oAfOf7gNU3Gz65NVcOPtVkrrmJLyGZBruXSaWA",
+      "imdb": "https://www.imdb.com/name/nm0000704/",
+    }, {
+      "name": "Viggo Mortensen",
+      "image": "https://mediaproxy.salon.com/width/1200/https://media2.salon.com/2013/03/viggo_mortensen.jpg",
+      "imdb": "https://www.imdb.com/name/nm0001557/"
+    }, {
+      "name": "Sean Astin",
+      "image": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcRS3tCNPrQ1F8bs9wSdlQYKe3ttE2zpcCVR-cwP4sTl6Un-KqMYoZfrttmA9RBOTGwpbgv0fs8Cy-G8-mM",
+      "imdb": "https://www.imdb.com/name/nm0000276/",
+    }]
+    },
+
   ]
 ]
 
