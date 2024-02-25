@@ -88,6 +88,7 @@ background-color: pink;
 
 .randomCard {
   margin: 0 auto;
+  border: 0;
   margin-top: 200px;
   @media (max-width: 768px) {
     

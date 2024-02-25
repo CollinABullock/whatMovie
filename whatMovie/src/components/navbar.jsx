@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import MoviePreferenceComponent from "./Preferences";
-import { netflixArray } from './movieArray';
+import { moviesArray, netflixArray } from './movieArray';
 
 export default function NavBar({ onPreferenceChange, uniqueGenres }) {
   const [showPreferences, setShowPreferences] = useState(false);
@@ -14,7 +14,7 @@ export default function NavBar({ onPreferenceChange, uniqueGenres }) {
   return (
     <nav className="navbar navbar-expand-lg navbar-light fixed-top" style={{ padding: "10px", marginBottom: "20px", background: "transparent" }}>
       <a className="navbar-brand" style={{ color: "whitesmoke", fontSize: "1em" }}>Let's Choose a Damn Movie Already!</a>
-      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style={{backgroundColor: "white"}}>
         <span className="navbar-toggler-icon"></span>
       </button>
 
