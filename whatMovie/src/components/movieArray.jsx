@@ -3010,7 +3010,7 @@ const moviesArray = [
       "title": "Predators",
       "runtime": 107,
       "mpaa": "R",
-      "poster": "https://images.cdn.prd.api.discomax.com/2023/10/31/dbfd6f69-0f52-3c29-ad37-7cebb8f78510.png?w=600&f=webp",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/cc485a30-b9ee-463c-93f7-af3717ae9f0d/3b95f9c4fdf21968a375ddbe3e99b3b07b8ca141.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=320",
       "description": "Eight violent strangers awaken in a mysterious jungle as prey to a deadly alien race in this gripping chapter in the Predator series.",
 	"genre": ["action", "science-fiction", "sequel"],
     "link": "https://play.max.com/movie/cc485a30-b9ee-463c-93f7-af3717ae9f0d",
@@ -3089,6 +3089,35 @@ const moviesArray = [
       "name": "R Lee Ermy",
       "image": "https://media.npr.org/assets/img/2018/04/16/ap_708613803550_wide-065ce7a38756fd087f18f024f5e45ca8069249cb.jpg",
       "imdb": "https://www.imdb.com/name/nm0000388/",
+    }]
+    },
+
+    {    
+      "item": "108",
+      "title": "Dune",
+      "runtime": 156,
+      "mpaa": "PG-13",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/e7dc7b3a-a494-4ef1-8107-f4308aa6bbf7/bfea2cc9ae7ede84e74a8efb24656ca08e7fd9d9.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=320",
+      "description": "The son of a noble family travels to a dangerous planet to ensure the future of his people in this visually stunning sci-fi epic.",
+	"genre": ["science-fiction", "action", "drama"],
+    "link": "https://www.max.com/movies/dune/e7dc7b3a-a494-4ef1-8107-f4308aa6bbf7",
+    "director": [{
+    "name": "Denis Villeneuve",
+    "image": "https://variety.com/wp-content/uploads/2024/01/GettyImages-1347326046.jpg?w=1000&h=563&crop=1",
+    "imdb": "https://www.imdb.com/name/nm0898288/",
+    }],
+    "actors": [{
+      "name": "Timothée Chalamet",
+      "image": "https://assets.teenvogue.com/photos/6575f301120f9c930fe5cd61/16:9/w_2560%2Cc_limit/1485198986",
+      "imdb": "https://www.imdb.com/name/nm3154303/",
+    }, {
+      "name": "Rebecca Ferguson",
+      "image": "https://ew.com/thmb/iGVS_2ILR6fJMb8PwsujEpZPoPk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/rebecca-ferguson-2000-940144e9d5784e72a5e6e7482708e44a.jpg",
+      "imdb": "https://www.imdb.com/name/nm0272581/"
+    }, {
+      "name": "Oscar Isaac",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/esq040122oscarisaac-013-1648234727.jpg",
+      "imdb": "https://www.imdb.com/name/nm1209966/",
     }]
     },
 
