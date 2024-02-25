@@ -83,10 +83,36 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
   return (
     <div>
       {/* Section for selecting preferred genres they want to see */}
-      <h2 style={{ width: "100%", margin: "0 auto", textAlign: "center", marginBottom: "5px" }}>Movie Preferences</h2>
-      <div style={{ marginBottom: '10px' }}>
+      <h2 style={{ width: "100%", margin: "0 auto", textAlign: "center", marginBottom: "30px" }}>Movie Preferences</h2>
+        {/* Button to apply preferences */}
+        <div style={{marginBottom: "30px", width: "100%", margin: "0 auto", alignItems: "center"}}>
+        <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '30px' }}>
+  <button onClick={handlePreferenceChange} style={{ marginRight: '10px' }}>Apply Preferences</button>
+  <button onClick={() => { sessionStorage.clear(); setSelectedGenres([]); setPreferredGenres([]); setRuntime(240); }} style={{ marginLeft: '10px' }}>Reset Preferences</button>
+</div>
+      </div>
+      <div>
+              {/* Slider for selecting maximum runtime */}
+              <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '30px' }}>
+  {/* Slider for selecting maximum runtime */}
+  <div style={{ textAlign: 'center', marginBottom: '30px' }}> {/* Added marginBottom */}
+    <p>What's the longest movie you're down to watch?<br /> 
+    {runtime} minutes</p>
+    <input
+      type="range"
+      id="runtimeSlider"
+      name="runtime"
+      min="90"
+      max="240"
+      step="15"
+      value={runtime}
+      onChange={handleSliderChange}
+    />
+  </div>
+</div>
+      
+    
       <h4>What kind of movie <span style={{ color: 'red', fontSize: '1.2em', textDecoration: 'underline' }}>DO</span> you want to see?</h4>
-
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '10px' }}>
           {uniqueGenres.map(genre => (
             <label key={genre} style={{ display: 'flex', alignItems: 'center' }}>
@@ -121,30 +147,7 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
       </div>
 
       <br />
-      <br />
-      {/* Slider for selecting maximum runtime */}
-      <input
-        type="range"
-        id="runtimeSlider"
-        name="runtime"
-        min="90"
-        max="240"
-        step="15"
-        value={runtime}
-        onChange={handleSliderChange}
-      />
-      <p>Max Runtime: {runtime} minutes</p>
-      {/* Button to apply preferences */}
-      <button onClick={handlePreferenceChange}>Apply Preferences</button>
-      {/* Button to reset preferences */}
-      <button onClick={() => {
-      sessionStorage.clear();
-        setSelectedGenres([]);
-        setPreferredGenres([]);
-        setRuntime(240); // Assuming default runtime is 240 minutes
-      }} style={{ marginLeft: '10px' }}>
-        Reset Preferences
-      </button>
+      
       {/* Modal to show preferences applied */}
       <Modal style={{ fontFamily: "Signwood", textShadow: "2px 2px 2px black", color: "white" }} show={showModal} onHide={handleCloseModal}>
         <Modal.Header style={{ backgroundColor: "red" }}>
