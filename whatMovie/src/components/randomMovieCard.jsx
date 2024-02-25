@@ -23,22 +23,22 @@ export default function RandomMovie({ selectedRuntime  }) {
     setFilteredMovies(filtered);
   }, [selectedRuntime]);
 
+   // Get selectedGenres from sessionStorage
+   const selectedGenres = JSON.parse(sessionStorage.getItem('selectedGenres'));
+
+   // Get preferredGenres from sessionStorage
+   const preferredGenres = JSON.parse(sessionStorage.getItem('preferredGenres'));
+
+   // Get the streaming services from session storage.
+   const selectedServices = JSON.parse(sessionStorage.getItem('selectedServices'));
+
+   console.log("selectedGenres:", selectedGenres);
+   console.log("preferredGenres:", preferredGenres);
+   console.log("selectedServices:", selectedServices);
+
   const handleRandomMovie = () => {
     // Filter movies based on selected runtime
     let filtered = filteredMovies.filter(movie => movie.runtime <= selectedRuntime);
-
-      // Get selectedGenres from sessionStorage
-      const selectedGenres = JSON.parse(sessionStorage.getItem('selectedGenres'));
-
-      // Get preferredGenres from sessionStorage
-      const preferredGenres = JSON.parse(sessionStorage.getItem('preferredGenres'));
-
-      // Get the streaming services from session storage.
-      const selectedServices = JSON.parse(sessionStorage.getItem('selectedServices'));
-
-      console.log("selectedGenres:", selectedGenres);
-      console.log("preferredGenres:", preferredGenres);
-      console.log("selectedServices:", selectedServices);
     
  // Exclude movies that contain any genre from selectedGenres
 if (selectedGenres && selectedGenres.length > 0) {
