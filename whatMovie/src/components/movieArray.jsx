@@ -3615,7 +3615,7 @@ const moviesArray = [
       "runtime": 137,
       "mpaa": "R",
       "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/012cacbd-5893-4379-b7a6-d3737c61d4b5/26ca29e9f50972e5e7b444fef85e09eb28016cb4.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
-      "description": "Neo, Morpheus and Trinity prepare for a final battle against vicious machines set to invade Zion.",
+      "description": "A computer hacker joins forces with rebel warriors to battle a malevolent cyberintelligence.",
 	"genre": ["science-fiction", "action"],
     "link": "https://play.max.com/video/watch/9fb854be-3d3c-44d8-a7c0-d3122b989be8/14bf56e5-916a-4c6f-911d-7a94596afc9f",
     "director": [{
@@ -3662,6 +3662,36 @@ const moviesArray = [
       "imdb": "https://www.imdb.com/name/nm0005251/",
     }]
     },
+
+    {    
+      "item": "127",
+      "title": "Aliens",
+      "runtime": 138,
+      "mpaa": "R",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/cc2c1671-ee46-4686-b81e-af59607182a2/980cc3b5d515a63961aeae384c2c2ef311b48365.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+      "description": "Space marines mount a mission to rescue a colony invaded by deadly creatures.",
+	"genre": ["science-fiction", "action", "sequel"],
+    "link": "https://play.max.com/video/watch/e1adbefc-54e4-4c3d-bf2c-525a4d397f19/5e2dabd8-0ba8-4962-a4c7-54dbd1c5cf8f",
+    "director": [{
+      "name": "James Cameron",
+      "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQTffSHnEbSAPLrSn1CDMselzUqIzB7k1FWsM_wzaW9gNO6MKYYs47AZoD30L0LeKKIJW_JFLg2p1EMizU",
+      "imdb": "https://www.imdb.com/name/nm0000116/",
+    }],
+    "actors": [{
+      "name": "Sigourney Weaver",
+      "image": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQ0RqT4ylW4KgRmsjqhRIoJW_Ok7NKWiy2y9JVc8hQ0cpxZtEoAz7RWtt1IJowHaSTKS8W0YasitoBpMBU",
+      "imdb": "https://www.imdb.com/name/nm0000244/",
+    }, {
+      "name": "Michael Biehn",
+      "image": "https://media.wplm.pl/thumbs/931/OTYwL3VfMS9jY19kYzYwYy9wL3duYXMvcGhvdG8vMjAxNS0wMy82NDkvMzg4L3Nmc2RmLmpwZw==.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000299/"
+    }, {
+      "name": "Paul Reiser",
+      "image": "https://images.radio.com/aiu-media/Paul-Reiser-GettyImages1373217622-Frazer-Harrison-1a44348d-4662-41ff-bd9f-eb9acd66f5d3.jpg?width=800",
+      "imdb": "https://www.imdb.com/name/nm0001663/",
+    }]
+    },
+
 
   ]
 ]
