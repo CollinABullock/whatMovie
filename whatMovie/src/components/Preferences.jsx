@@ -97,7 +97,7 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
   return (
     <div style={{ width: '100%', padding: '0 10px' }}>
       <div style={{ marginBottom: '30px', width: "100%", border: '1px solid #ccc', padding: '15px' }}>
-        <p style={{ marginBottom: '10px' }}>What services are you currently paying for and/or stealing?</p>
+        <p style={{ marginBottom: '10px' }}>What streaming services are you currently paying for and/or stealing?</p>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '10px' }}>
           {streamingServices.map(service => (
             <div style={{ position: 'relative', display: 'inline-block' }} key={service.name}>
