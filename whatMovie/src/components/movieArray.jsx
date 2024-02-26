@@ -4238,7 +4238,7 @@ const moviesArray = [
       "mpaa": "PG-13",
       "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/80bc4915-c826-499f-9961-b422b17559b6/59a02df388963dc09fffb1418a67eef382fb57dc.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=500",
       "description": "To live in Barbie Land is to be a perfect being in a perfect place. Unless you have a full-on existential crisis. Or you’re a Ken.",
-	"genre": ["comedy"],
+	"genre": ["comedy", "fantasy"],
     "link": "https://play.max.com/video/watch/d6b9a9c4-f703-4208-b093-386f303b4044/e86fa8dd-8184-401e-b04f-a7568aa18e8d",
     "director": [{
     "name": "Greta Gerwig",
