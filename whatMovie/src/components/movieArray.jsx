@@ -4289,6 +4289,31 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "148",
+      "title": "Drive Me Crazy",
+      "runtime": 92,
+      "mpaa": "PG-13",
+      "poster": "https://s.yimg.com/zb/imgv1/411f5b5f-16b4-3bc3-899d-464908d5dbe8/t_500x300",
+      "description": "A popular girl and a teen geek come up with a plan to win back their exes in this engaging teen comedy.",
+	"genre": ["comedy", "romance", "teen"],
+    "link": "https://play.max.com/video/watch/784e63ea-7c11-4db7-9f11-471c7cbd7a4b/6d39dd3a-c7bf-4ed2-b38a-ece4117e11df",
+    "director": [{
+    "name": "John Schultz",
+    "image": "https://resizing.flixster.com/oYf1ZcmQ2U6t8C1LaP5eFcQZl7E=/300x300/v2/http://media.baselineresearch.com/images/307951/307951_full.jpg",
+    "imdb": "https://www.imdb.com/name/nm0776271/",
+    }],
+    "actors": [{
+      "name": "Melissa Joan Hart",
+      "image": "https://www.politico.com/dims4/default/resize/1040/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2F83%2F68%2F09fec331438e99d052f8fa68fb1c%2F2023-90s-con-26689.jpg",
+      "imdb": "https://www.imdb.com/name/nm0004997/",
+    }, {
+      "name": "Adrian Grenier",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQX-yFDNURrfVfLPX1nmJ8jI-tPe8se3erejJ8WfK9IjMJBjsIl1Lnj5CHqjLk0et8LrxW7g",
+      "imdb": "https://www.imdb.com/name/nm0004978/"
+    }]
+    },
+
   ]
 ]
 

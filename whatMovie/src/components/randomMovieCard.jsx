@@ -170,7 +170,7 @@ export default function RandomMovie({ selectedRuntime  }) {
                 <h3 style={{marginBottom: "50px"}}>{randomMovie.description}<br />
                 <div style={{ width: "100%", margin: "0 auto", padding: "10px", display: "flex", justifyContent: "space-between", alignItems: "center", marginTop: "30px" }}>
                     {renderWatchOnLink()}
-                    <button onClick={handleDetails} style={{ backgroundColor: "transparent", color: 'white', cursor: 'pointer', fontFamily: "Signwood", border: "2px solid black", textShadow: "2px 2px 2px black" }}>More Details</button>
+                    <button onClick={handleDetails} style={{ backgroundColor: "black", color: 'white', cursor: 'pointer', fontFamily: "Signwood", border: "2px solid black", textShadow: "2px 2px 2px black" }}>More Details</button>
                   </div>
                 </h3>
               </Card.Text>
