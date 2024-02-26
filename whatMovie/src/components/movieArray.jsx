@@ -4013,7 +4013,37 @@ const moviesArray = [
       "image": "https://variety.com/wp-content/uploads/2021/11/Dean-Stockwell-1.jpg?w=1000",
       "imdb": "https://www.imdb.com/name/nm0001772/"
     }]
+  },
+
+  {
+    "item": "140",
+    "title": "Fargo",
+    "runtime": 98,
+    "mpaa": "R",
+    "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/4e0195fa-36f8-4b59-8b56-bd6fa8680f67/f7cdd436f1a6c98e22d403a287f8aa209cee7cc9.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+    "description": "In the frozen landscape of Minnesota, a car salesman hires two bumbling criminals to kidnap his wife in order to extort money from his wealthy father-in-law. However, their plan goes awry when a pregnant police chief begins investigating a series of murders connected to the case.",
+    "genre": ["crime", "drama", "comedy"],
+    "link": "https://play.max.com/video/watch/de74b6e7-5836-4ea5-8fcc-018c0a874ad0/28078aba-d3fa-4abe-ae3e-7ad173726f08",
+    "director": [{
+      "name": "Joel Coen",
+      "image": "https://facts.net/wp-content/uploads/2023/11/10-astounding-facts-about-joel-coen-1699443401.jpg",
+      "imdb": "https://www.imdb.com/name/nm0001054/"
+    }],
+    "actors": [{
+      "name": "Frances McDormand",
+      "image": "https://media.gq.com/photos/55ee376989c0d3e261b1df3b/master/pass/francis-almost-famous.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000531/"
+    }, {
+      "name": "William H. Macy",
+      "image": "https://img6.fresherslive.com/latestnews/2023/05/is-william-h-macy-dead-or-alive-6451e5f472d9a54187097-900.webp",
+      "imdb": "https://www.imdb.com/name/nm0000513/"
+    }, {
+      "name": "Steve Buscemi",
+      "image": "https://mediaproxy.snopes.com/width/1200/height/900/https://media.snopes.com/2015/05/buscemi-1.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000114/"
+    }]
   }
+  
   
   
 
