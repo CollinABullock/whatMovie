@@ -4100,7 +4100,67 @@ const moviesArray = [
       "image": "https://variety.com/wp-content/uploads/2024/01/Allison-Janney-by-Robert-Ascroft-e1706195397421.jpg",
       "imdb": "https://www.imdb.com/name/nm0005049/"
     }]
-  }
+  },
+
+  {
+  "item": "143",
+  "title": "Office Space",
+  "runtime": 89,
+  "mpaa": "R",
+  "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/4f4cd9c1-aa6b-4d21-ab5c-7954c572aaae/2d96b97e8581ba53c03b8afd42199e5da45ca074.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+  "description": "In this cult classic comedy, disgruntled office worker Peter Gibbons decides to rebel against his frustrating job and the oppressive management at Initech Corporation. With the help of his friends and a hypnotist-induced carefree attitude, Peter embarks on a series of hilarious schemes to reclaim his sanity and take down the corporate machine.",
+  "genre": ["comedy"],
+  "link": "https://play.max.com/video/watch/be42b023-2dbe-4a70-94e4-518fee70355b/e2dbdf29-0444-4321-a02b-aeca5e1a0041",
+  "director": [{
+    "name": "Mike Judge",
+    "image": "https://cdn.britannica.com/07/234507-050-5C9E25C1/Mike-Judge-2018-animator.jpg",
+    "imdb": "https://www.imdb.com/name/nm0431918/"
+  }],
+  "actors": [{
+    "name": "Ron Livingston",
+    "image": "https://variety.com/wp-content/uploads/2018/09/rexfeatures_9781857f-cropped.jpg?w=1000&h=563&crop=1",
+    "imdb": "https://www.imdb.com/name/nm0515296/"
+  }, {
+    "name": "Jennifer Aniston",
+    "image": "https://people.com/thmb/-aoTtRrhGN6cxeCMp7nyfysJk40=/400x262/filters:no_upscale():max_bytes(150000):strip_icc():focal(718x282:720x284)/sag-awards-2024-jennifer-aniston-tout-022424-a7bc432e9a4645ceb840f9cdaacfd1b5.jpg",
+    "imdb": "https://www.imdb.com/name/nm0000098/"
+  }, {
+    "name": "Stephen Root",
+    "image": "https://m.media-amazon.com/images/M/MV5BYzVmZDlhYjctM2NiYi00ZTRjLWJlYTMtOTkwY2FkMmY5NDRkXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_.jpg",
+    "imdb": "https://www.imdb.com/name/nm0740535/"
+  }]
+},
+
+ {    
+      "item": "143a",
+      "title": "The Color Purple",
+      "runtime": 141,
+      "mpaa": "PG-13",
+      "poster": "https://external-preview.redd.it/the-color-purple-will-begin-streaming-on-max-next-friday-v0-RjCVQVtg8ahtvSyE0Q_jBkEXjqO9lUCqRPDiq-8fn3Y.jpg?auto=webp&s=1042d3573cd26b8965a87f6b580fdd120c2ef16d",
+      "description": "This bold new take on the beloved classic invites you to experience the extraordinary sisterhood of three women who share one unbreakable bond.",
+	"genre": ["drama", "musical"],
+    "link": "https://play.max.com/video/watch/06555a40-7b96-41de-a048-febceab7cf9b/7621c5dc-32a1-4608-865e-5d66a6d63631",
+    "director": [{
+    "name": "Blitz Bazawule",
+    "image": "https://ichef.bbci.co.uk/news/1024/branded_news/6765/production/_132096462_gettyimages-1829287167_976.jpg",
+    "imdb": "https://www.imdb.com/name/nm7577540/",
+    }],
+    "actors": [{
+      "name": "Taraji P Henson",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl54S3jHvb-C-i5tPK0UCQt1EuRQNExyZ09CYZYbbb0pNpAOtF",
+      "imdb": "https://www.imdb.com/name/nm0378245/",
+    }, {
+      "name": "Danielle Brooks",
+      "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTMVFfnlLT2TQU9nJ96BZ2J2lnxvcZN8ZsNbWz7hR5sTCDrtrpK9c_k-ZGStEz6dvul7hydT5kCY6HtN_I",
+      "imdb": "https://www.imdb.com/name/nm5335029/"
+    }, {
+      "name": "Coleman Domingo",
+      "image": "https://assets.vogue.com/photos/65a817a23a96fb2b22c4092f/4:3/w_3460,h_2595,c_limit/1934434666",
+      "imdb": "https://www.imdb.com/name/nm0231458/",
+    }]
+    },
+
+
   
   
   
