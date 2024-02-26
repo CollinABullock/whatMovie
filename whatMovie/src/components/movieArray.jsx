@@ -4260,15 +4260,34 @@ const moviesArray = [
     }]
     },
 
-    
-    
-    
-
-  
-  
-  
-  
-  
+    {    
+      "item": "147",
+      "title": "Swiss Army Man",
+      "runtime": 98,
+      "mpaa": "R",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/f2127e58-1c4e-4855-a310-538a8acc91e1/419e1433b4665548e601a23bd4213be0328c7802.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+      "description": "A desperate man stranded on a deserted island finds a corpse washed ashore who has superhuman qualities and the ability to talk.",
+	"genre": ["comedy", "drama", "fantasy"],
+    "link": "https://play.max.com/video/watch/7e1cd795-c78a-4e1d-b77f-40c2798ad2b9/1d0100a1-dfd8-452d-8bb5-3137c28ed8f6",
+    "director": [{
+      "name": "The Daniels",
+      "image": "https://variety.com/wp-content/uploads/2023/02/GettyImages-1467518484.jpg?w=1024",
+      "imdb": "https://www.imdb.com/name/nm3453283/",
+    }],
+    "actors": [{
+      "name": "Paul Dano",
+      "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRwnXtlmt7D2rb4eSaM9rfcxdnr4WV7UO0Dk4zrrPV3B5A96MPEMD0ZdbetdPHTJrRgfJNY_hXzJMiYwyo",
+      "imdb": "https://www.imdb.com/name/nm0200452/",
+    }, {
+      "name": "Daniel Radcliffe",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRXTIps_QBwp8xhnrTg9pNl_LIi6HbrxI-ytGBcMwS3C7mPYEgH",
+      "imdb": "https://www.imdb.com/name/nm0705356/"
+    }, {
+      "name": "Mary Elizabeth Winstead",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQJjwRR9GBaiEPXGoy7mVOhHlUal4PTp8FLX8a82o-3z5IwhpHM",
+      "imdb": "https://www.imdb.com/name/nm0935541/",
+    }]
+    },
 
   ]
 ]
