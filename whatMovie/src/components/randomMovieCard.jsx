@@ -162,7 +162,10 @@ export default function RandomMovie({ selectedRuntime  }) {
         >
           <Card className="randomCard" style={{ width: "100%", maxWidth: "700px", maxHeight: "1000px", backgroundColor: "#EC0B43", color: "whitesmoke", borderRadius: "30px" }}>
             <Card.Body>
-              <Card.Img src={randomMovie.poster} style={{ width: "100%", height: "auto", objectFit: "cover", marginBottom: "20px" }} />
+            <Card.Img 
+  src={randomMovie.poster} 
+  style={{ width: '100%', height: 'auto', objectFit: 'cover', margin: '0', padding: '0', marginBottom: "30px" }} 
+/>
               <Card.Text style={{ textAlign: "start", fontFamily: "Helvetica"}}>
                 <h3 style={{marginBottom: "50px"}}>{randomMovie.description}<br />
                 <div style={{ width: "100%", margin: "0 auto", padding: "10px", display: "flex", justifyContent: "space-between", alignItems: "center", marginTop: "30px" }}>
