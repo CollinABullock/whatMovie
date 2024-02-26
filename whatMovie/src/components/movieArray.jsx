@@ -3721,6 +3721,185 @@ const moviesArray = [
     }]
     },
 
+ {    
+      "item": "129",
+      "title": "Clear And Present Danger",
+      "runtime": 144,
+      "mpaa": "PG-13",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/ce6d5c66-f385-42f8-9df1-2aa7b38b4d46/151bc27a4a526beb29dcb3ae891b1aa3f3601e24.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=320",
+      "description": "CIA agent Jack Ryan (Harrison Ford) takes on a Colombian drug cartel in this slam-bang thriller based on the best-seller by Tom Clancy.",
+	"genre": ["action", "spy", "sequel"],
+    "link": "https://play.max.com/video/watch/eb44e673-ca3e-4495-92a1-dd1acef98a27/3585978a-33e6-4b6e-afe3-bc5bb989041a",
+    "director": [{
+    "name": "Phillip Noyce",
+    "image": "https://i.ytimg.com/vi/cYRWAzkvjt8/sddefault.jpg",
+    "imdb": "https://www.imdb.com/name/nm0637518/",
+    }],
+    "actors": [{
+      "name": "Harrison Ford",
+      "image": "https://www.hollywoodreporter.com/wp-content/uploads/2023/01/Harrison-Ford-Shrinking-Arrivals-GettyImages-1459853135-H-2023.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000148/",
+    }, {
+      "name": "Willem Dafoe",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe6Hvi13NmYEbgnHS11IP2mKe4HRmNgSSJrtasMlAp4dtozy1y",
+      "imdb": "https://www.imdb.com/name/nm0000353/"
+    }, {
+      "name": "Anne Archer",
+      "image": "https://www.thestage.co.uk/AcuCustom/Sitename/DAM/049/AnneArcher_photoby_IdilSukan_Thumb.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000271/",
+    }]
+    },
+
+ {    
+  "item": "130",
+  "title": "The Sum of All Fears",
+  "runtime": 124,
+  "mpaa": "PG-13",
+  "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/72df4be2-ebfa-44bc-abe2-5b519729fcdb/854c2372f62e96c064455a1fff74ad6b003dde83.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+  "description": "CIA analyst Jack Ryan must stop the plans of a Neo-Nazi faction that threatens to trigger a catastrophic conflict between the United States and Russia.",
+  "genre": ["action", "drama", "spy"],
+  "link": "https://play.max.com/video/watch/60bf127a-590a-4342-927a-f2235ff392f7/83527fb0-325c-4632-9177-97955a8e6c28",
+    "director": [{
+      "name": "Phil Alden Robinson",
+      "image": "https://compote.slate.com/images/5a456bfd-9304-4465-a31a-fc8ecd1a4834.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+      "imdb": "https://www.imdb.com/name/nm0732990/"
+  }],
+  "actors": [{
+    "name": "Ben Affleck",
+    "image": "https://ca-times.brightspotcdn.com/dims4/default/10ea0b4/2147483647/strip/true/crop/6316x4210+0+1/resize/2000x1333!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F7d%2Fd8%2Ff1ec7c954d10ab8f645895faa29b%2Fla-photos-1staff-885832-ca-ben-affleck-portrait-tender-bar-jlc-1213-12331.JPG",
+    "imdb": "https://www.imdb.com/name/nm0000255/",
+  }, {
+    "name": "Morgan Freeman",
+      "image": "https://mediaproxy.salon.com/width/1200/height/675/https://media2.salon.com/2014/06/morgan_freeman.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000151/",
+  }, {
+      "name": "James Cromwell",
+      "image": "https://pyxis.nymag.com/v1/imgs/d9c/0b8/2c362ca74d70dcc89e8bf5b6395bd05e5c-james-cromwell-.1x.rsocial.w1200.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000342/"
+  }]
+    },
+   
+  {
+    "item": "131",
+    "title": "Chain Reaction",
+    "runtime": 107,
+    "mpaa": "PG-13",
+    "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/05f0eeed-74f5-495f-8532-43d0c18443ca/afcaac4ced6c50d0cae87460c63ddcdc95d16628.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+    "description": "A student machinist finds himself caught in a maze of secret government cover-ups, hi-tech espionage and murder after working on a groundbreaking scientific experiment.",
+    "genre": ["action", "science-fiction"],
+    "link": "https://play.max.com/video/watch/d018188e-a887-4175-8e92-7ffd9693692d/d2bc0a9c-cf82-46b1-974d-4d3da8f7f8ce",
+    "director": [{
+      "name": "Andrew Davis",
+      "image": "https://images.squarespace-cdn.com/content/v1/6047dc41dbb7676dcac46ad1/1617810367529-ERQ9V8UOJRXFQ30WYSYN/Andrew+Davis+Publicity+cu.jpg",
+      "imdb": "https://www.imdb.com/name/nm0204654/"
+    }],
+    "actors": [{
+      "name": "Keanu Reeves", 
+      "image": "https://www.rollingstone.com/wp-content/uploads/2023/05/GettyImages-1493917424-2.jpg?w=1024", 
+      "imdb": "https://www.imdb.com/name/nm0000206/"
+    }, {
+      "name": "Rachel Weisz",
+      "image": "https://parade.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTkwNTc5MDE0NTUzMzc5OTY1/rachel-weisz.jpg",
+      "imdb": "https://www.imdb.com/name/nm0001838/"
+    }, {
+      "name": "Morgan Freeman",
+      "image": "https://mediaproxy.salon.com/width/1200/height/675/https://media2.salon.com/2014/06/morgan_freeman.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000151/",
+    }]
+  },
+  
+
+    
+  {
+    "item": "132",
+    "title": "Jack Ryan: Shadow Recruit",
+    "runtime": 105,
+    "mpaa": "PG-13",
+    "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/61b36446-437e-437f-bfd1-326d4aafbe81/33de565d45e6557d1f013137e2c570d329da5c59.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+    "description": "Jack Ryan, as a young covert CIA analyst, uncovers a Russian plot to crash the U.S. economy with a terrorist attack.",
+    "genre": ["action", "spy"],
+    "link": "https://play.max.com/video/watch/e367e54a-7210-4e96-8de9-4a038cfea180/868b636c-c1ef-45c3-96f3-1a596f5e571a",
+    "director": [{
+      "name": "Kenneth Branagh",
+      "image": "https://variety.com/wp-content/uploads/2021/10/Kenneth_Branagh-Variety-Cover-Story-16x9-2.jpg?w=1920&h=1080&crop=1",
+      "imdb": "https://www.imdb.com/name/nm0000110/"
+    }],
+    "actors": [{
+      "name": "Chris Pine",
+      "image": "https://people.com/thmb/oDfj0peeSFhclSJjRTiSodcKPaQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(749x0:751x2)/chris-pine-2-2b1bf46e2f6440f2b363744c86706faa.jpg",
+      "imdb": "https://www.imdb.com/name/nm1517976/"
+    }, {
+      "name": "Keira Knightley",
+      "image": "https://www.etonline.com/sites/default/files/styles/1440x600/public/images/2023-03/MK-Keira-Knightley-1280-X-720-HERO-1-IMAGE_0.jpg?h=03bf1c27",
+      "imdb": "https://www.imdb.com/name/nm0461136/"
+    }, {
+      "name": "Kevin Costner",
+      "image": "https://s.yimg.com/ny/api/res/1.2/alS8XAtTN_5G0ovg19.2tw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQwMQ--/https://media.zenfs.com/en/parade_250/2081f96d5668fbf2d8569c68f6096919",
+      "imdb": "https://www.imdb.com/name/nm0000126/"
+    }]
+  },
+  
+
+  {
+    "item": "133",
+    "title": "Patriot Games",
+    "runtime": 117,
+    "mpaa": "R",
+    "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/d4ac3da2-7fcf-4666-abc4-aff12a23ee54/93a5793c6b46bb9b69afdfdf55100e046d3c45ec.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+    "description": "When former CIA analyst Jack Ryan interferes with an IRA assassination, a renegade faction targets him and his family for revenge.",
+    "genre": ["action", "spy"],
+    "link": "https://play.max.com/video/watch/d573a5bc-7a6a-4810-b0df-4f86ef549fc6/d3fa766c-c196-4056-bfe9-d4676c812d7e",
+    "director": [{
+      "name": "Phillip Noyce",
+    "image": "https://i.ytimg.com/vi/cYRWAzkvjt8/sddefault.jpg",
+    "imdb": "https://www.imdb.com/name/nm0637518/",
+    }],
+    "actors": [{
+      "name": "Harrison Ford",
+      "image": "https://www.hollywoodreporter.com/wp-content/uploads/2023/01/Harrison-Ford-Shrinking-Arrivals-GettyImages-1459853135-H-2023.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000148/",
+    }, {
+      "name": "Anne Archer",
+      "image": "https://www.thestage.co.uk/AcuCustom/Sitename/DAM/049/AnneArcher_photoby_IdilSukan_Thumb.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000271/",
+    }, {
+      "name": "Sean Bean",
+      "image": "https://www.indiewire.com/wp-content/uploads/2019/09/SeanBeanBoromir.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000293/"
+    }]
+  }
+  ,
+
+  {
+    "item": "135",
+    "title": "WarGames",
+    "runtime": 114,
+    "mpaa": "PG",
+    "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/0de12893-cb55-4700-a0c3-77330fed617d/636b35211fca68cc50281d369ffa3b7fa1efab60.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+    "description": "A young computer whiz accidentally connects to a top-secret supercomputer and initiates a game of global thermonuclear war, believing it to be a harmless computer game. As the computer system attempts to start World War III, he must find a way to convince the system's creators to stop the impending disaster.",
+    "genre": ["science-fiction", "thriller"],
+    "link": "https://play.max.com/video/watch/e3ca7e9e-9f13-4202-a742-3b973702138b/2c2ad8c8-e863-488e-8ecd-6c94b9277eb7",
+    "director": [{
+      "name": "John Badham",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTQyNTk5MzgyOV5BMl5BanBnXkFtZTcwNTkxNDAxMw@@._V1_.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000821/"
+    }],
+    "actors": [{
+      "name": "Matthew Broderick",
+      "image": "https://m.media-amazon.com/images/M/MV5BZDg5NGM3YTMtYjNjZS00MmQyLTk1YjItN2Y5YTkwOThmOGU0XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000111/"
+    }, {
+      "name": "Ally Sheedy",
+      "image": "https://www.slashfilm.com/img/gallery/why-ally-sheedy-is-surprised-the-breakfast-club-is-still-such-a-beloved-movie/l-intro-1651601238.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000638/"
+    }, {
+      "name": "Dabney Coleman",
+      "image": "https://phideltatheta.org/wp-content/uploads/2013/08/Dabney_Coleman.jpg",
+      "imdb": "https://www.imdb.com/name/nm0001058/"
+    }]
+  },
+  
+
   ]
 ]
 
