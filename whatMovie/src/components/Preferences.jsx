@@ -181,14 +181,14 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
 
       <div style={{ padding: "15px", marginBottom: "30px"}}>
   <div style={{ display: 'flex', justifyContent: 'center'}}>
-    <button onClick={() => {
-  sessionStorage.removeItem('selectedServices');
+    <Button onClick={() => {
   sessionStorage.clear();
   setSelectedGenres([]);
   setPreferredGenres([]);
   setRuntime(240);
   setSelectedService([]);
-}} style={{ marginLeft: '10px' }}>Reset Preferences</button>
+  window.alert("Preferences Have Been Reset")
+}} style={{ marginLeft: '10px', fontSize: "2em", backgroundColor: "red" }}>Reset Preferences</Button>
   </div>
 </div>
      
