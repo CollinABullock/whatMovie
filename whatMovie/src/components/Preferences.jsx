@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 
 export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
@@ -8,7 +7,7 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
   const [preferredGenres, setPreferredGenres] = useState(JSON.parse(sessionStorage.getItem('preferredGenres')) || []);
   const [selectedService, setSelectedService] = useState([]);
   const [uniqueGenres, setUniqueGenres] = useState([]);
-  const [showModal, setShowModal] = useState(false);
+
 
   useEffect(() => {
     if (data && data.length > 0) {
@@ -59,11 +58,6 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
   };
 
   
-
-  const handleCloseModal = () => {
-    setShowModal(false);
-    window.location.reload();
-  };
 
   const streamingServices = [
     { name: 'Netflix', logo: 'https://cdn.vox-cdn.com/thumbor/pNxD2NFOCjbljnMPUSGdkFWeDjI=/0x0:3151x2048/1400x788/filters:focal(1575x1024:1576x1025)/cdn.vox-cdn.com/uploads/chorus_asset/file/15844974/netflixlogo.0.0.1466448626.png' },
@@ -197,37 +191,7 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
 }} style={{ marginLeft: '10px' }}>Reset Preferences</button>
   </div>
 </div>
-      <Modal style={{ fontFamily: "Signwood", textShadow: "2px 2px 2px black", color: "white" }} show={showModal} onHide={handleCloseModal}>
-        <Modal.Header style={{ backgroundColor: "red" }}>
-          <Modal.Title>Preferences Applied</Modal.Title>
-        </Modal.Header>
-        <Modal.Body style={{ backgroundColor: "red" }}>
-          You don't wanna see a {selectedGenres.map((genre, index) => (
-            index === selectedGenres.length - 1 ?
-              <span key={genre}>
-                or {genre}
-              </span> :
-              <span key={genre}>
-                {genre},{' '}
-              </span>
-          ))} movie and you don't want to watch a movie longer than {runtime} minutes.
-          <br /><br />
-          You DO want to see a {preferredGenres.map((genre, index) => (
-            index === preferredGenres.length - 1 ?
-              <span key={genre}>
-                or {genre}
-              </span> :
-              <span key={genre}>
-                {genre},{' '}
-              </span>
-          ))} movie.
-        </Modal.Body>
-        <Modal.Footer style={{ backgroundColor: "red" }}>
-          <Button variant="secondary" onClick={handleCloseModal}>
-            Close
-          </Button>
-        </Modal.Footer>
-      </Modal>
+     
     </div>
   );
 }
