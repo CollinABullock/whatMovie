@@ -4071,7 +4071,37 @@ const moviesArray = [
       "image": "https://cdn1.edgedatg.com/aws/v2/abc/TheCompanyYouKeep/person/4163687/54ba4db647d3102432f0ff9f8f7c78cd/320x180-Q90_54ba4db647d3102432f0ff9f8f7c78cd.jpg",
       "imdb": "https://www.imdb.com/name/nm0237205/"
     }]
+  },
+
+  {
+    "item": "142",
+    "title": "I, Tonya",
+    "runtime": 120,
+    "mpaa": "R",
+    "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/8021cbf0-d404-4bc0-948a-fc547e00bf21/d9ea62c343de53b3d7402c81ede43b65ae6a9ced.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+    "description": "Based on true events, 'I, Tonya' explores the life of Tonya Harding, a talented figure skater from a troubled background. The film delves into Harding's rise to fame, her tumultuous relationship with her mother and husband, and the infamous 1994 attack on fellow skater Nancy Kerrigan.",
+    "genre": ["biopic", "comedy", "drama"],
+    "link": "https://play.max.com/video/watch/3bd29a84-8719-4053-a982-22f5297237f0/baae947e-2dff-4472-8afd-80019760a262",
+    "director": [{
+      "name": "Craig Gillespie",
+      "image": "https://www.hindustantimes.com/ht-img/img/2023/10/10/550x309/craig_g_1696937178466_1696937188246.jpg",
+      "imdb": "https://www.imdb.com/name/nm0316188/"
+    }],
+    "actors": [{
+      "name": "Margot Robie",
+      "image": "https://media.npr.org/assets/img/2015/03/02/margotrobbie-eb727edf7b18cbe8b755d8372cf271d4f4d6e3a7-s1100-c50.jpg",
+      "imdb": "https://www.imdb.com/name/nm3053338/?ref_=tt_ov_st",
+    }, {
+      "name": "Sebastian Stan",
+      "image": "https://pyxis.nymag.com/v1/imgs/a9a/e97/20f172c41d2f0b3b0267d2e374e7adea3f-sebastianstan.2x.rsocial.w600.jpg",
+      "imdb": "https://www.imdb.com/name/nm1659221/"
+    }, {
+      "name": "Allison Janney",
+      "image": "https://variety.com/wp-content/uploads/2024/01/Allison-Janney-by-Robert-Ascroft-e1706195397421.jpg",
+      "imdb": "https://www.imdb.com/name/nm0005049/"
+    }]
   }
+  
   
   
   
