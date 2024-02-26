@@ -3936,7 +3936,7 @@ const moviesArray = [
     "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/2242c9bf-18c2-4aa1-a5e1-30ab5b82b6a4/8a29db2fc79de5e14ed8ea12391eef28ec06348e.jpg?submitted=1684654808820&host=wbd-images.prod-vod.h264.io&partner=beamcom",
     "description": "Guido Anselmi, a renowned Italian film director, struggles with creative block as he attempts to make his next movie. Blurring the lines between reality and fantasy, Guido navigates through memories, dreams, and his relationships with women to find inspiration and meaning.",
     "genre": ["drama", "foreign", "classic"],
-    "link": "https://www.imdb.com/title/tt0056801/",
+    "link": "https://play.max.com/video/watch/96f48fce-8926-4e44-bacc-7808bdb96981/5bb19ed9-e2c2-4a59-b2e7-d771cfcccaf8",
     "director": [{
       "name": "Federico Fellini",
       "image": "https://variety.com/wp-content/uploads/2024/01/fellini-oscar.jpg?w=1000",
@@ -3954,6 +3954,35 @@ const moviesArray = [
       "name": "Claudia Cardinale",
       "image": "https://images.photowall.com/products/58908/claudia-cardinale.jpg?h=699&q=85",
       "imdb": "https://www.imdb.com/name/nm0001012/"
+    }]
+  },
+  
+  {
+    "item": "138",
+    "title": "Some Like It Hot",
+    "runtime": 121,
+    "mpaa": "Not Rated",
+    "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/9fb6710a-aa1d-4463-9695-28be193a20d3/550b89f26366f996fc4c4f26ac2ef6d1a2d4d2e4.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+    "description": "When two musicians witness a mob hit, they flee the state in an all-female band disguised as women, leading to hilarious complications and romantic entanglements.",
+    "genre": ["comedy", "romance"],
+    "link": "https://play.max.com/video/watch/61d03719-e391-4206-9ef7-9b3673f58646/3d8cb977-cadc-4aa1-92ff-8d7a2d1b61e2",
+    "director": [{
+      "name": "Billy Wilder",
+      "image": "https://static.timesofisrael.com/www/uploads/2020/04/AP_460116025-e1586795144307.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000697/"
+    }],
+    "actors": [{
+      "name": "Marilyn Monroe",
+      "image": "https://www.usatoday.com/gcdn/-mm-/c901e8f865a8e3027a9751d247549dd712aa1ec1/c=0-355-2400-1711/local/-/media/2015/06/01/USATODAY/USATODAY/635687568841887218-XXX-American-Masters--Marilyn-Monroe-American-Masters--Marilyn-.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000054/"
+    }, {
+      "name": "Tony Curtis",
+      "image": "https://facts.net/wp-content/uploads/2023/10/10-extraordinary-facts-about-tony-curtis-1696746699.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000348/"
+    }, {
+      "name": "Jack Lemmon",
+      "image": "https://qph.cf2.quoracdn.net/main-qimg-4b3a6edd2e2f1c1d048a6a110017d00e-lq",
+      "imdb": "https://www.imdb.com/name/nm0000493/"
     }]
   },
   
