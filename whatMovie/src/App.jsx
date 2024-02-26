@@ -3,7 +3,8 @@ import NavBar from './components/navbar';
 import RandomMovie from './components/randomMovieCard';
 import Footer from './components/footer';
 import { useState, useEffect } from 'react';
-import { moviesArray, netflixArray } from './components/movieArray';
+
+import { moviesArray } from './components/movieArray';
 
 function App() {
   const [selectedRuntime, setSelectedRuntime] = useState(null);
