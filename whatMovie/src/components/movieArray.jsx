@@ -4042,7 +4042,37 @@ const moviesArray = [
       "image": "https://mediaproxy.snopes.com/width/1200/height/900/https://media.snopes.com/2015/05/buscemi-1.jpg",
       "imdb": "https://www.imdb.com/name/nm0000114/"
     }]
+  },
+
+  {
+    "item": "141",
+    "title": "Shiva Baby",
+    "runtime": 77,
+    "mpaa": "R",
+    "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/eeec0a16-cebf-4355-9964-e376a3f3eadd/c6fd043228d5954afd3a133ad3f36ce588abd83f.jpg?submitted=1684674864608&host=wbd-images.prod-vod.h264.io&partner=beamcom",
+    "description": "Danielle, a young bisexual woman, attends a shiva (Jewish mourning ritual) with her parents, where she unexpectedly encounters her ex-girlfriend and sugar daddy. As tensions rise and secrets are revealed, Danielle navigates through a chaotic and humorous day filled with awkward interactions and unexpected surprises.",
+    "genre": ["comedy", "drama"],
+    "link": "https://play.max.com/video/watch/87bf6f72-24a6-468e-87cc-171df1fec864/bfea93de-8a6d-4bab-bfa7-ec49a963b1f9",
+    "director": [{
+      "name": "Emma Seligman",
+      "image": "https://m.media-amazon.com/images/M/MV5BM2EyOWExMGYtNzhhMC00OWY1LWJlZDEtY2QyMzFhYTBjMTlmXkEyXkFqcGdeQXVyMTYyNjg2MzUz._V1_.jpg",
+      "imdb": "https://www.imdb.com/name/nm7364391/"
+    }],
+    "actors": [{
+      "name": "Rachel Sennott",
+      "image": "https://media.vanityfair.com/photos/651c6af98ee00428c46b5662/16:9/w_1280,c_limit/rachel-sennott-embed-site-story.jpg",
+      "imdb": "https://www.imdb.com/name/nm9429774/"
+    }, {
+      "name": "Molly Gordon",
+      "image": "https://wwd.com/wp-content/uploads/2019/03/molly-gordon073img_2687.jpg",
+      "imdb": "https://www.imdb.com/name/nm2411748/"
+    }, {
+      "name": "Polly Draper",
+      "image": "https://cdn1.edgedatg.com/aws/v2/abc/TheCompanyYouKeep/person/4163687/54ba4db647d3102432f0ff9f8f7c78cd/320x180-Q90_54ba4db647d3102432f0ff9f8f7c78cd.jpg",
+      "imdb": "https://www.imdb.com/name/nm0237205/"
+    }]
   }
+  
   
   
   
