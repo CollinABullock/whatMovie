@@ -3495,6 +3495,173 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "122",
+      "title": "Star Trek 3:  The Search For Spock",
+      "runtime": 106,
+      "mpaa": "PG",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/06533216-cd69-42da-93fe-645a804b546d/71c584579a6e316f20031560fefe1d5223612700.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=320",
+      "description": "The deceased Spock's body and soul are separated and must be reunited on the planet Vulcan.",
+	"genre": ["science-fiction", "action", "sequel"],
+    "link": "https://play.max.com/video/watch/f2aefcde-cf58-4b85-98f5-04706d476d0e/98744d74-b061-4f57-8499-46c127c8e051",
+    "director": [{
+    "name": "Leonard Nimoy",
+    "image": "https://static01.nyt.com/images/2015/02/28/arts/28nimoy_video_hp/28nimoy_video_hp-superJumbo.jpg",
+    "imdb": "https://www.imdb.com/name/nm0000559/",
+    }],
+    "actors": [{
+      "name": "William Shatner",
+      "image": "https://m.media-amazon.com/images/M/MV5BODhmNmM0ZDctZTNiMi00ZjAwLWEzMmItYTg0Nzk0YzE2NDA5XkEyXkFqcGdeQW1pYnJ5YW50._V1_QL75_UX500_CR0,0,500,281_.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000638/",
+    }, {
+      "name": "DeForest Kelley",
+      "image": "https://treknews.net/wp-content/uploads/2020/01/deforest-kelley-100th-birthday.jpg",
+      "imdb": "https://www.imdb.com/name/nm0001420/"
+    }, {
+      "name": "Leonard Nimoy",
+      "image": "https://static01.nyt.com/images/2015/02/28/arts/28nimoy_video_hp/28nimoy_video_hp-superJumbo.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000559/",
+    }]
+    },
+
+    {    
+      "item": "122a",
+      "title": "The Dark Knight",
+      "runtime": 152,
+      "mpaa": "PG-13",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/52217243-a137-45d6-9c6a-0dfab4633034/4fee222a97308b9e04d79724b86728d86ed94667.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+      "description": "With the help of Lieutenant Jim Gordon and District Attorney Harvey Dent, Batman sets out to destroy organized crime in Gotham for good.",
+	"genre": ["action", "crime", "comic-book", "sequel"],
+    "link": "https://play.max.com/video/watch/46c5fcd3-9081-49e1-941f-5f31abd27f98/b6a82b24-bcfe-453d-9b9d-563a5ad02a99",
+    "director": [{
+      "name": "Christopher Nolan",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/christopher-nolan-attends-the-oppenheimer-premiere-at-news-photo-1704643272.jpg",
+      "imdb": "https://www.imdb.com/name/nm0634240/",
+      }],
+      "actors": [{
+        "name": "Christian Bale",
+        "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTxmCA9jJ2MrULWgxOwNuZ9Bki9s0G1wKMoVZRquX1t2K6cZfcH7Bm_ueGnkj1GndH_RfDQGlcQrpn4ZYI",
+        "imdb": "https://www.imdb.com/name/nm0000288/",
+      }, {
+      "name": "Heath Ledger",
+      "image": "https://hollywoodlife.com/wp-content/uploads/2012/08/heath-ledger-bio-photo.jpg?quality=100",
+      "imdb": "https://www.imdb.com/name/nm0005132/"
+    }, {
+      "name": "Aaron Eckhardt",
+      "image": "https://deadline.com/wp-content/uploads/2023/02/aaron.jpg",
+      "imdb": "https://www.imdb.com/name/nm0001173/",
+    }]
+    },
+
+    {    
+      "item": "123",
+      "title": "The Dark Knight Rises",
+      "runtime": 165,
+      "mpaa": "PG-13",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/6ce5965d-cdb2-4f9c-b22b-ae7a091d95a8/3e78fc55f5bb437b2e92c340a7338c049736f609.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+      "description": "The emergence of Bane, a masked terrorist with ruthless plans for Gotham, drives Batman out of his self-imposed exile.",
+      "genre": ["action", "crime", "comic-book", "sequel"],
+    "link": "https://play.max.com/video/watch/e95435b2-2c89-4788-b711-b7f346f03da9/01844b86-4a19-4778-b4a9-110b00b85e03",
+    "director": [{
+      "name": "Christopher Nolan",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/christopher-nolan-attends-the-oppenheimer-premiere-at-news-photo-1704643272.jpg",
+      "imdb": "https://www.imdb.com/name/nm0634240/",
+      }],
+      "actors": [{
+        "name": "Christian Bale",
+        "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTxmCA9jJ2MrULWgxOwNuZ9Bki9s0G1wKMoVZRquX1t2K6cZfcH7Bm_ueGnkj1GndH_RfDQGlcQrpn4ZYI",
+        "imdb": "https://www.imdb.com/name/nm0000288/",
+      }, {
+        "name": "Tom Hardy",
+        "image": "https://media.gq.com/photos/632b4e9763f2eae5a8460f51/16:9/w_2560%2Cc_limit/1340297096",
+        "imdb": "https://www.imdb.com/name/nm0362766/",
+    }, {
+      "name": "Anne Hathaway",
+      "image": "https://m.media-amazon.com/images/M/MV5BNzhiN2Y0ZTktOWU2NC00Y2M0LWFiODEtMTQ2NTFiZGVlZmI3XkEyXkFqcGdeQW1pYnJ5YW50._V1_QL75_UX500_CR0,0,500,281_.jpg",
+      "imdb": "https://www.imdb.com/name/nm0004266/",
+    }]
+    },
+
+    {    
+      "item": "124",
+      "title": "The Matrix:  Revolutions",
+      "runtime": 130,
+      "mpaa": "R",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/7f34ec0d-34d9-42bb-96ac-251a42009f2d/114ce4095bf5a985aa0900a330c9b142610bc7da.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=320",
+      "description": "Neo, Morpheus and Trinity prepare for a final battle against vicious machines set to invade Zion.",
+	"genre": ["science-fiction", "action", "sequel"],
+    "link": "https://play.max.com/video/watch/21e986dc-8870-40bb-805c-6f27e1bf2012/1b44e803-22a8-4b87-8217-37eef8c4c772",
+    "director": [{
+    "name": "The Wachowskis",
+    "image": "https://media.vanityfair.com/photos/56df71b6168b55d421ffdd4b/master/pass/wachowski-transgender.jpg",
+    "imdb": "https://www.imdb.com/name/nm0905154/",
+    }],
+    "actors": [{
+      "name": "Keanu Reeves", "image": "https://www.rollingstone.com/wp-content/uploads/2023/05/GettyImages-1493917424-2.jpg?w=1024", "imdb": "https://www.imdb.com/name/nm0000206/"
+    }, {
+      "name": "Laurence Fishburne",
+      "image": "https://atlantablackstar.com/wp-content/uploads/2022/10/GettyImages-1434655767-scaled.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000401/?ref_=tt_ov_st"
+    }, {
+      "name": "Carrie Anne Moss",
+      "image": "https://static01.nyt.com/images/2021/12/25/arts/22carrie-anne-moss1/22carrie-anne-moss1-videoSixteenByNine3000.jpg?year=2021&h=1688&w=3000&s=faa74692072c5c74c5e7fb71c6f52e650e7b38c676a665177d0b67ac929f762e&k=ZQJBKqZ0VN&tw=1",
+      "imdb": "https://www.imdb.com/name/nm0005251/",
+    }]
+    },
+
+    {    
+      "item": "125",
+      "title": "The Matrix",
+      "runtime": 137,
+      "mpaa": "R",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/012cacbd-5893-4379-b7a6-d3737c61d4b5/26ca29e9f50972e5e7b444fef85e09eb28016cb4.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+      "description": "Neo, Morpheus and Trinity prepare for a final battle against vicious machines set to invade Zion.",
+	"genre": ["science-fiction", "action"],
+    "link": "https://play.max.com/video/watch/9fb854be-3d3c-44d8-a7c0-d3122b989be8/14bf56e5-916a-4c6f-911d-7a94596afc9f",
+    "director": [{
+    "name": "The Wachowskis",
+    "image": "https://media.vanityfair.com/photos/56df71b6168b55d421ffdd4b/master/pass/wachowski-transgender.jpg",
+    "imdb": "https://www.imdb.com/name/nm0905154/",
+    }],
+    "actors": [{
+      "name": "Keanu Reeves", "image": "https://www.rollingstone.com/wp-content/uploads/2023/05/GettyImages-1493917424-2.jpg?w=1024", "imdb": "https://www.imdb.com/name/nm0000206/"
+    }, {
+      "name": "Laurence Fishburne",
+      "image": "https://atlantablackstar.com/wp-content/uploads/2022/10/GettyImages-1434655767-scaled.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000401/?ref_=tt_ov_st"
+    }, {
+      "name": "Carrie Anne Moss",
+      "image": "https://static01.nyt.com/images/2021/12/25/arts/22carrie-anne-moss1/22carrie-anne-moss1-videoSixteenByNine3000.jpg?year=2021&h=1688&w=3000&s=faa74692072c5c74c5e7fb71c6f52e650e7b38c676a665177d0b67ac929f762e&k=ZQJBKqZ0VN&tw=1",
+      "imdb": "https://www.imdb.com/name/nm0005251/",
+    }]
+    },
+
+    {    
+      "item": "126",
+      "title": "The Matrix:  Reloaded",
+      "runtime": 139,
+      "mpaa": "R",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/15f1f852-5a97-4e78-b509-e045dbc1ba37/b288ab4da6359edb8086425a2be4cd9fa69dd467.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+      "description": "Freedom fighters use extraordinary skills and weaponry to revolt against machines.",
+	"genre": ["science-fiction", "action", "sequel"],
+    "link": "https://play.max.com/video/watch/5fe5efc5-2694-4f2b-a2b9-7e9f2091d187/b1adae34-5f5e-41a6-b2f1-bbf51635d453",
+    "director": [{
+    "name": "The Wachowskis",
+    "image": "https://media.vanityfair.com/photos/56df71b6168b55d421ffdd4b/master/pass/wachowski-transgender.jpg",
+    "imdb": "https://www.imdb.com/name/nm0905154/",
+    }],
+    "actors": [{
+      "name": "Keanu Reeves", "image": "https://www.rollingstone.com/wp-content/uploads/2023/05/GettyImages-1493917424-2.jpg?w=1024", "imdb": "https://www.imdb.com/name/nm0000206/"
+    }, {
+      "name": "Laurence Fishburne",
+      "image": "https://atlantablackstar.com/wp-content/uploads/2022/10/GettyImages-1434655767-scaled.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000401/?ref_=tt_ov_st"
+    }, {
+      "name": "Carrie Anne Moss",
+      "image": "https://static01.nyt.com/images/2021/12/25/arts/22carrie-anne-moss1/22carrie-anne-moss1-videoSixteenByNine3000.jpg?year=2021&h=1688&w=3000&s=faa74692072c5c74c5e7fb71c6f52e650e7b38c676a665177d0b67ac929f762e&k=ZQJBKqZ0VN&tw=1",
+      "imdb": "https://www.imdb.com/name/nm0005251/",
+    }]
+    },
 
   ]
 ]

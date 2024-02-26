@@ -148,6 +148,7 @@ export default function RandomMovie({ selectedRuntime  }) {
     }
   }, [showDetails]);
 
+  console.log("random movie:", randomMovie);
 
 
   return (
