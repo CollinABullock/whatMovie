@@ -623,7 +623,7 @@ const moviesArray = [
     "imdb": "https://www.imdb.com/name/nm0348181/?ref_=tt_ov_dr",
     }],
     "actors": [{
-      "name": "Margot Robie",
+      "name": "Margot Robbie",
       "image": "https://media.npr.org/assets/img/2015/03/02/margotrobbie-eb727edf7b18cbe8b755d8372cf271d4f4d6e3a7-s1100-c50.jpg",
       "imdb": "https://www.imdb.com/name/nm3053338/?ref_=tt_ov_st",
     }, {
@@ -4088,7 +4088,7 @@ const moviesArray = [
       "imdb": "https://www.imdb.com/name/nm0316188/"
     }],
     "actors": [{
-      "name": "Margot Robie",
+      "name": "Margot Robbie",
       "image": "https://media.npr.org/assets/img/2015/03/02/margotrobbie-eb727edf7b18cbe8b755d8372cf271d4f4d6e3a7-s1100-c50.jpg",
       "imdb": "https://www.imdb.com/name/nm3053338/?ref_=tt_ov_st",
     }, {
@@ -4160,6 +4160,109 @@ const moviesArray = [
     }]
     },
 
+    {
+      "item": "144",
+      "title": "Three Colors: Blue",
+      "runtime": 98,
+      "mpaa": "R",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/64bc49b4-3e2a-487a-8915-d3a9c06bcea9/451c4858596d1bbc2d0dfe6ebddfc075faf03954.jpg?submitted=1684660535915&host=wbd-images.prod-vod.h264.io&partner=beamcom",
+      "description": "In the first installment of the Three Colors Trilogy, Julie, played by Juliette Binoche, grapples with grief and solitude following the tragic death of her husband and daughter in a car accident. As she attempts to sever all ties to her past life, Julie finds solace in music and forms unexpected connections with those around her.",
+      "genre": ["drama", "foreign"],
+      "link": "https://play.max.com/video/watch/38b8f7d7-1930-4984-837a-1e44db482cf8/df199f7a-f77c-4b16-8668-4caedfc2f3b0",
+      "director": [{
+        "name": "Krzysztof Kieślowski",
+        "image": "https://i.guim.co.uk/img/static/sys-images/Film/Pix/pictures/2011/11/8/1320765328281/KRZYSZTOF-KIESLOWSKI-007.jpg?width=465&dpr=1&s=none",
+        "imdb": "https://www.imdb.com/name/nm0001425/"
+      }],
+      "actors": [{
+        "name": "Juliette Binoche",
+        "image": "https://media.cnn.com/api/v1/images/stellar/prod/220726105231-juliette-binoche-220212.jpg?c=16x9",
+        "imdb": "https://www.imdb.com/name/nm0000300/"
+      }]
+    },
+
+    {
+      "item": "145",
+      "title": "Three Colors: White",
+      "runtime": 91,
+      "mpaa": "R",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/69b9622e-2c90-4694-90f9-feaec2e307c3/8df266b5d111109887bae9d008da712abacb0a9a.jpg?submitted=1684660929898&host=wbd-images.prod-vod.h264.io&partner=beamcom",
+      "description": "The second installment of the Three Colors Trilogy follows Karol, a Polish immigrant played by Zbigniew Zamachowski, as he seeks revenge on his estranged wife, Dominique, who divorced him due to his perceived impotence. Through a series of comedic and poignant events, Karol reinvents himself and finds unexpected success in Warsaw.",
+      "genre": ["comedy", "drama", "foreign"],
+      "link": "https://play.max.com/video/watch/167dc854-340a-4b83-b2d4-84cccea2ff04/fec57c4d-d90a-4d93-9b6a-1fad733e3060",
+      "director": [{
+        "name": "Krzysztof Kieślowski",
+        "image": "https://i.guim.co.uk/img/static/sys-images/Film/Pix/pictures/2011/11/8/1320765328281/KRZYSZTOF-KIESLOWSKI-007.jpg?width=465&dpr=1&s=none",
+        "imdb": "https://www.imdb.com/name/nm0001425/"
+      }],
+      "actors": [{
+        "name": "Zbigniew Zamachowski",
+        "image": "https://static.wikia.nocookie.net/witcher_gamepedia/images/9/9d/Zbigniew_zamachowski.jpg/revision/latest?cb=20090614092609",
+        "imdb": "https://www.imdb.com/name/nm0952087/"
+      },
+      {"name": "Julie Delpy",
+        "image": "https://tribecafilm-production.s3.amazonaws.com/uploads/article/header_marquee/465/large_article_165653976_marquee.jpg",
+        "imdb": "https://www.imdb.com/name/nm0000365/"}
+    ]
+    },
+
+    {
+      "item": "146",
+      "title": "Three Colors: Red",
+      "runtime": 99,
+      "mpaa": "R",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/260c8001-f0dd-4cba-8cd6-7626b1eefcc6/e9e574b9baa89880bb16f93e276eb7939b4757f9.jpg?submitted=1684655220618&host=wbd-images.prod-vod.h264.io&partner=beamcom",
+      "description": "In the final chapter of the Three Colors Trilogy, a chance encounter between Valentine, a young model portrayed by Irène Jacob, and a reclusive retired judge sparks an unexpected friendship. As they delve into each other's lives, they confront themes of fate, connection, and the complexities of human relationships.",
+      "genre": ["drama", "mystery"],
+      "link": "https://play.max.com/video/watch/0ef41d6e-28d5-4285-9a14-4fc06389644e/8aef478d-8f71-446b-ae3f-e211e93ce43c",
+      "director": [{
+        "name": "Krzysztof Kieślowski",
+        "image": "https://i.guim.co.uk/img/static/sys-images/Film/Pix/pictures/2011/11/8/1320765328281/KRZYSZTOF-KIESLOWSKI-007.jpg?width=465&dpr=1&s=none",
+        "imdb": "https://www.imdb.com/name/nm0001425/"
+      }],
+      "actors": [{
+        "name": "Irène Jacob",
+        "image": "https://i0.wp.com/i.4pcdn.org/tv/1497446528722.jpg?resize=1060%2C681&ssl=1",
+        "imdb": "https://www.imdb.com/name/nm0001416/"
+      }, {
+        "name": "Jean-Louis Trintignant",
+        "image": "https://criterion-production.s3.amazonaws.com/6A03JZrzHvz5O1fNnaEELhdYbfQfnc.jpg",
+        "imdb": "https://www.imdb.com/name/nm0004462/"
+      }]
+    },
+
+    {    
+      "item": "146a",
+      "title": "Barbie",
+      "runtime": 115,
+      "mpaa": "PG-13",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/80bc4915-c826-499f-9961-b422b17559b6/59a02df388963dc09fffb1418a67eef382fb57dc.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=500",
+      "description": "To live in Barbie Land is to be a perfect being in a perfect place. Unless you have a full-on existential crisis. Or you’re a Ken.",
+	"genre": ["comedy"],
+    "link": "https://play.max.com/video/watch/d6b9a9c4-f703-4208-b093-386f303b4044/e86fa8dd-8184-401e-b04f-a7568aa18e8d",
+    "director": [{
+    "name": "Greta Gerwig",
+    "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSj7SUg_D8fi50Ndx9JNoGRmPuCqQQ21Mt8NDJD4FC5f_4zIjyZzEd5hOui0h5sxoroSQXqAOg672GUlPQ",
+    "imdb": "https://www.imdb.com/name/nm1950086/",
+    }],
+    "actors": [{
+      "name": "Margot Robbie",
+      "image": "https://media.npr.org/assets/img/2015/03/02/margotrobbie-eb727edf7b18cbe8b755d8372cf271d4f4d6e3a7-s1100-c50.jpg",
+      "imdb": "https://www.imdb.com/name/nm3053338/?ref_=tt_ov_st",
+    }, {
+      "name": "Ryan Gosling",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQo19mduM602yfQenqFCY0mcAVU-KFkgrnBJJ4O8F4gIM_SZIVX",
+      "imdb": "https://www.imdb.com/name/nm0331516/",
+    }, {
+      "name": "America Ferrara",
+      "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSkqUJyVEqBuSMyfR4graipXHqDP5h7W8fSj2A04whoAjoiiYNOaJ-zE58679XEQhpeOLTMecA32Z8AqA0",
+      "imdb": "https://www.imdb.com/name/nm1065229/",
+    }]
+    },
+
+    
+    
+    
 
   
   
