@@ -3986,6 +3986,35 @@ const moviesArray = [
     }]
   },
   
+  {
+    "item": "139",
+    "title": "Paris, Texas",
+    "runtime": 145,
+    "mpaa": "R",
+    "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/674ca2eb-861d-4e87-a831-7e0cbbdbe58f/04ef4a8660e4b57b55e811db054a858e49f6c3c9.jpg?submitted=1684660759975&host=wbd-images.prod-vod.h264.io&partner=beamcom",
+    "description": "Travis Henderson, a man who disappeared for four years, suddenly reappears in the Texas desert. With no memory of how he got there, he embarks on a journey to reconnect with his estranged family, including his young son and his brother's wife.",
+    "genre": ["drama", "classic"],
+    "link": "https://play.max.com/video/watch/94de0d12-9b41-4b01-9537-396ebb31aed6/d1e06cd7-a126-4d72-9cc1-557df1cf5018",
+    "director": [{
+      "name": "Wim Wenders",
+      "image": "https://static.independent.co.uk/2024/02/16/09/AP24043810093942.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000691/"
+    }],
+    "actors": [{
+     "name": "Harry Dean Stanton",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRqW0Vo6gO65dfs99maynJbaw1Vso0YwqrTD41Eak7lHvSmxfb1",
+      "imdb": "https://www.imdb.com/name/nm0001765/",
+    }, {
+      "name": "Nastassja Kinski",
+      "image": "https://www.filmlinc.org/wp-content/uploads/2015/07/CAT007BO1-1600x900-c-default.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000173/"
+    }, {
+      "name": "Dean Stockwell",
+      "image": "https://variety.com/wp-content/uploads/2021/11/Dean-Stockwell-1.jpg?w=1000",
+      "imdb": "https://www.imdb.com/name/nm0001772/"
+    }]
+  }
+  
   
 
   ]
