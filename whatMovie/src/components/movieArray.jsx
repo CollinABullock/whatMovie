@@ -3899,6 +3899,65 @@ const moviesArray = [
     }]
   },
   
+  {
+    "item": "136",
+    "title": "Divorce, Italian Style",
+    "runtime": 105,
+    "mpaa": "Not Rated",
+    "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/0fa9ebc7-5481-4267-a94c-1af7f66c81b2/6e873647d3323cd80086050cd6c5b6a0c6e06017.jpg?submitted=1684653320281&host=wbd-images.prod-vod.h264.io&partner=beamcom",
+    "description": "A bored Sicilian aristocrat hatches a scheme to murder his wife when he learns divorce is illegal in Italy, so he can marry his young cousin and inherit her family's estate.",
+    "genre": ["comedy", "foreign", "classic"],
+    "link": "https://play.max.com/video/watch/49b9cc7f-9d61-4e96-b238-31e1d1422818/e16dab76-f6f1-429e-8fd9-34b0e7db43d7",
+    "director": [{
+      "name": "Pietro Germi",
+      "image": "https://1.bp.blogspot.com/-lMSJeEn_U-o/XUQovLSi8VI/AAAAAAAAHLs/5ZaTPqj-3WI7QzbEV03rOBaM4O9Z6TWCQCLcBGAs/s1600/Pietro-Germi.jpg",
+      "imdb": "https://www.imdb.com/name/nm0314400/"
+    }],
+    "actors": [{
+      "name": "Marcello Mastroianni",
+      "image": "https://m.media-amazon.com/images/M/MV5BNzEwNTdhNGQtOWY1ZC00NWZkLWEzYzQtYjY1YTNiZWQ4MzlhXkEyXkFqcGdeQXVyMTI3MDk3MzQ@._V1_.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000050/"
+    }, {
+      "name": "Daniela Rocca",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/81/Daniela_Rocca_Luna_Park.JPG",
+      "imdb": "https://www.imdb.com/name/nm0732890/"
+    }, {
+      "name": "Stefania Sandrelli",
+      "image": "https://24femmespersecond.files.wordpress.com/2013/08/1946-stefania-sandrelli-landscape.jpg",
+      "imdb": "https://www.imdb.com/name/nm0761730/"
+    }]
+  },
+
+  {
+    "item": "137",
+    "title": "8 1/2",
+    "runtime": 138,
+    "mpaa": "Not Rated",
+    "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/2242c9bf-18c2-4aa1-a5e1-30ab5b82b6a4/8a29db2fc79de5e14ed8ea12391eef28ec06348e.jpg?submitted=1684654808820&host=wbd-images.prod-vod.h264.io&partner=beamcom",
+    "description": "Guido Anselmi, a renowned Italian film director, struggles with creative block as he attempts to make his next movie. Blurring the lines between reality and fantasy, Guido navigates through memories, dreams, and his relationships with women to find inspiration and meaning.",
+    "genre": ["drama", "foreign", "classic"],
+    "link": "https://www.imdb.com/title/tt0056801/",
+    "director": [{
+      "name": "Federico Fellini",
+      "image": "https://variety.com/wp-content/uploads/2024/01/fellini-oscar.jpg?w=1000",
+      "imdb": "https://www.imdb.com/name/nm0000019/"
+    }],
+    "actors": [{
+      "name": "Marcello Mastroianni",
+      "image": "https://m.media-amazon.com/images/M/MV5BNzEwNTdhNGQtOWY1ZC00NWZkLWEzYzQtYjY1YTNiZWQ4MzlhXkEyXkFqcGdeQXVyMTI3MDk3MzQ@._V1_.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000050/"
+    }, {
+      "name": "Anouk Aimée",
+      "image": "https://cdn.britannica.com/01/222601-050-FC4B68C9/Anouk-Aimee-1967.jpg?w=400&h=300&c=crop",
+      "imdb": "https://www.imdb.com/name/nm0000737/"
+    }, {
+      "name": "Claudia Cardinale",
+      "image": "https://images.photowall.com/products/58908/claudia-cardinale.jpg?h=699&q=85",
+      "imdb": "https://www.imdb.com/name/nm0001012/"
+    }]
+  },
+  
+  
 
   ]
 ]
