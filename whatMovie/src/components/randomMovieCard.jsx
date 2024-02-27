@@ -10,8 +10,7 @@ export default function RandomMovie({ selectedRuntime  }) {
   const [filteredMovies, setFilteredMovies] = useState([]);
   const [showModal, setShowModal] = useState(false);
   const [animationKey, setAnimationKey] = useState(0);
-  const [showDetails, setShowDetails] = useState(true); // State to control the visibility of "More Details"
-  const [glowButton, setGlowButton] = useState(false); // State to control the glowing effect
+
 
 
   useEffect(() => {
@@ -139,14 +138,7 @@ export default function RandomMovie({ selectedRuntime  }) {
     return () => clearInterval(intervalId);
   }, []); // Run only once on component mount
 
-  useEffect(() => {
-    // Add glow effect when showDetails state changes
-    if (showDetails) {
-      setGlowButton(true);
-      const timeoutId = setTimeout(() => setGlowButton(false), 3000); // Turn off glow after 3 seconds
-      return () => clearTimeout(timeoutId);
-    }
-  }, [showDetails]);
+
 
   console.log("random movie:", randomMovie);
 
@@ -174,7 +166,7 @@ export default function RandomMovie({ selectedRuntime  }) {
                   </div>
                 </h4>
               </Card.Text>
-              <button onClick={handleRandomMovie} style={{ backgroundColor: "red", color: "white", textShadow: "2px 2px 2px black", fontSize: "1.5em" }}>I'm not feeling it, give me another</button>
+              <button onClick={handleRandomMovie} style={{ backgroundColor: "red", color: "white", textShadow: "2px 2px 2px black", fontSize: "1.25em" }}>I'm not feeling it, give me another</button>
             </Card.Body>
           </Card>
         </motion.div>

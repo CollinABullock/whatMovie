@@ -103,6 +103,12 @@ background-color: pink;
 }
 
 @font-face {
+  font-family: "Showtime";   
+  src: local("Showtime"),
+    url("./fonts/showtime/Showtime.ttf") format("truetype");
+}
+
+@font-face {
   font-family: "Banner";   
   src: local("Banner-DOqK0"),
     url("./fonts/banner-font/Banner-DOqK0.ttf") format("truetype");
