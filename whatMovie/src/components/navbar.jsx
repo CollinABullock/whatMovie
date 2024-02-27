@@ -14,7 +14,7 @@ export default function NavBar({ onPreferenceChange, uniqueGenres }) {
   const isMobile = window.innerWidth <= 768; // Assuming mobile breakpoint is 768px width
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light fixed-top" style={{ padding: "10px", marginBottom: "200px", background: "transparent" }}>
+    <nav className="navbar navbar-expand-lg navbar-light fixed-top" style={{ padding: "10px", marginBottom: "20px", background: "transparent" }}>
       <a className="navbar-brand" style={{ color: "whitesmoke", fontSize: "1.25em", textShadow: "2px 2px 2px red"}}>Let's Choose a Damn Movie Already!</a>
       <button className="navbar-toggler" type="button" aria-controls="preferencesDropdown" aria-expanded="false" onClick={handlePreferencesClick} aria-label="Toggle navigation" style={{backgroundColor: "white"}}>
         <span className="navbar-toggler-icon"></span>

@@ -120,13 +120,7 @@ background-color: pink;
     url("./fonts/lost-fish-font/LostFish-5DOz.ttf") format("truetype");
 }
 
-navbar {
-  margin-bottom: 20px;
-}
 
-card {
-  margin-top: 20px;
-}
 
 body, html {
   margin: 0;
