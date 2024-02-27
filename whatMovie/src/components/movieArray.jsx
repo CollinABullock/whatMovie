@@ -4325,17 +4325,17 @@ const moviesArray = [
     "link": "https://play.max.com/video/watch/d50c51e4-bed0-47b5-bba7-1b60a70be530/d09acd40-f3e3-4c15-9561-4d5478595229",
     "director": [{
     "name": "James Wan",
-    "image": "",
-    "imdb": "",
+    "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcT1kOrdtnPCiiA7AldadFeviQPzkU5mJQcM5kyJw0J2AVy7aouA5p83YIExP5de2Kjrpdf6TbXLOQcsuvw",
+    "imdb": "https://www.imdb.com/name/nm1490123/",
     }],
     "actors": [{
       "name": "Jason Momoa",
-      "image": "",
-      "imdb": "",
+      "image": "https://www.hollywoodreporter.com/wp-content/uploads/2024/01/GettyImages-1847188197.jpg?w=1296",
+      "imdb": "https://www.imdb.com/name/nm0597388/",
     }, {
-      "name": "",
-      "image": "",
-      "imdb": ""
+      "name": "Patrick Wilson",
+      "image": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSz7yAsx_tMOGKhy91zaiALq2NyW1jWUjDfFDGxGB4fEoNC_Xepta1sUNhs9KW-KE2nL7QWup2kVnAFrEY",
+      "imdb": "https://www.imdb.com/name/nm0933940/"
     }, {
       "name": "Amber Heard",
       "image": "https://www.dexerto.com/cdn-cgi/image/width=3840,quality=75,format=auto/https://editors.dexerto.com/wp-content/uploads/2023/09/21/amber-heard.jpg",
