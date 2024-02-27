@@ -4464,7 +4464,40 @@ const moviesArray = [
           "imdb": "https://www.imdb.com/name/nm0339863/"
         }
       ]
+    },
+
+    {
+      "item": "153",
+      "title": "Casablanca",
+      "runtime": 102,
+      "mpaa": "PG",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/83b99ff6-56a0-4696-aa68-fdd6d3f31efa/35952cf24ca0f154dbf26ece034c598e5363a551.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+      "description": "Set during World War II, 'Casablanca' follows the story of Rick Blaine, a cynical American expatriate who runs a nightclub in Casablanca, Morocco. His world is turned upside down when his former lover, Ilsa Lund, walks into his club with her husband, a resistance leader, seeking safe passage out of the country.",
+      "genre": ["drama", "romance", "war", "classic"],
+      "link": "https://play.max.com/video/watch/a300dab3-e6ac-4c4b-8250-b4b30a886069/d6c5af05-0136-42b1-820e-ef681dd56135",
+      "director": [{
+        "name": "Michael Curtiz",
+        "image": "https://cloudfront-eu-central-1.images.arcpublishing.com/irishtimes/L3A3TSUEMLYW2CT3ZDPR5HFLGY.jpg",
+        "imdb": "https://www.imdb.com/name/nm0002031/"
+      }],
+      "actors": [{
+          "name": "Humphrey Bogart",
+          "image": "https://images.squarespace-cdn.com/content/v1/57c92580c534a5c7c898f469/1591693527642-A8GSA37T0DB8QR7A8FKF/HumphreyBogart.jpg",
+          "imdb": "https://www.imdb.com/name/nm0000007/"
+        },
+        {
+          "name": "Ingrid Bergman",
+          "image": "https://m.media-amazon.com/images/M/MV5BNjg4MTc0MDYtZDQ0Ni00YzY2LTk3YjQtZTI2MTIyNmViMmY5XkEyXkFqcGdeQXRoaXJkLXBhcnR5LXZpZGVvLXVwZGF0ZXI@._V1_QL75_UX500_CR0,47,500,281_.jpg",
+          "imdb": "https://www.imdb.com/name/nm0000006/"
+        },
+        {
+          "name": "Paul Henreid",
+          "image": "https://m.media-amazon.com/images/M/MV5BNmM5ODBiOTItMzlmZi00MGZmLThmZGMtMDRhMmM3MzJiYWNhXkEyXkFqcGdeQXVyMTI3MDk3MzQ@._V1_.jpg",
+          "imdb": "https://www.imdb.com/name/nm0001334/"
+        }
+      ]
     }
+    
     
      
 
