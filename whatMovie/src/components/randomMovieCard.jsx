@@ -133,16 +133,7 @@ export default function RandomMovie({ selectedRuntime  }) {
     }
   };
 
-    // Function to toggle visibility of "More Details" text with a flickering effect
-    const toggleDetailsVisibility = () => {
-      setShowDetails(prevShowDetails => !prevShowDetails);
-    };
-  
-   // Use setInterval to toggle visibility of "More Details" text with a flickering effect
-   useEffect(() => {
-    const intervalId = setInterval(toggleDetailsVisibility, 500); // Change flicker speed as needed (milliseconds)
-    return () => clearInterval(intervalId);
-  }, []); // Run only once on component mount
+
 
 
 
@@ -151,7 +142,7 @@ export default function RandomMovie({ selectedRuntime  }) {
 
   return (
     <div className='randomCard' style={{ textAlign: "center", width: "100%" }}>
-      {randomMovie && imagesLoaded ? (
+      {randomMovie ? (
         <motion.div
           key={animationKey}
           initial={{ x: -1000, opacity: 0 }} // initial position off-screen to the left
