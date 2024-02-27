@@ -4260,6 +4260,35 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "147",
+      "title": "Aquaman and The Lost KIngdom",
+      "runtime": 125,
+      "mpaa": "PG-13",
+      "poster": "https://pbs.twimg.com/media/GGyfF3UWkAAyUvH?format=jpg&name=4096x4096",
+      "description": "Aquaman (Jason Momoa) forges an unlikely alliance with his imprisoned brother, Orm, to stop Black Manta and the mythic Black Trident.",
+	"genre": ["action", "fantasy", "comic-book", "sequel"],
+    "link": "https://play.max.com/video/watch/d50c51e4-bed0-47b5-bba7-1b60a70be530/d09acd40-f3e3-4c15-9561-4d5478595229",
+    "director": [{
+    "name": "James Wan",
+    "image": "https://ew.com/thmb/LOSmy_0zGT63otef-EtYUT_riAI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/James-Wan-010423-c0382403115e41a19c06c53df45c2bc5.jpg",
+    "imdb": "https://www.imdb.com/name/nm1490123/",
+    }],
+    "actors": [{
+      "name": "Jason Momoa",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTqAab_t2DtLnPK8ESUzr0w43TvqQUVNcKF1_PDmzcMvrz5xvjz",
+      "imdb": "https://en.wikipedia.org/wiki/Jason_Momoa",
+    }, {
+      "name": "Patrick Wilson",
+      "image": "https://www.usatoday.com/gcdn/presto/2023/04/22/USAT/92f4c824-b268-48cf-bd34-e02e967ac4f6-Insidious_4.jpg?width=1280&height=720&fit=crop&format=pjpg&auto=webp",
+      "imdb": "https://www.imdb.com/name/nm0933940/"
+    }, {
+      "name": "Amber Heard",
+      "image": "https://m.media-amazon.com/images/M/MV5BYzI1MTNhYTItYTlkNi00YmI5LThkYjItZDZmODQ5ZDMzZDgzXkEyXkFqcGdeQVRoaXJkUGFydHlJbmdlc3Rpb25Xb3JrZmxvdw@@._V1_QL75_UX500_CR0,0,500,281_.jpg",
+      "imdb": "https://www.imdb.com/name/nm1720028/",
+    }]
+    },
+
     
     
     
