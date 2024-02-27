@@ -4621,6 +4621,135 @@ const moviesArray = [
       ]
     },
     
+    {    
+      "item": "157",
+      "title": "Get Hard",
+      "runtime": 101,
+      "mpaa": "R",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/949b4950-50a1-4b43-bcaa-552fb7c92cdb/0494444f839cbb147c287c84a2d51d709c41cea4.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+      "description": "Financial fraudster Will Ferrell hires Kevin Hart to 'coach' him on prison life as his sentence approaches.",
+	"genre": ["comedy", "crime"],
+    "link": "https://play.max.com/video/watch/77f71d87-a131-4f11-af82-4a3e2598846d/01e6c36d-69d7-4156-b5d4-b4f808b8efc8",
+    "director": [{
+    "name": "Etan Coen",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTFkMjlkNWEtOWUxMS00MmQwLWJmOTMtNWI2NzAyMjliNGU4XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
+    "imdb": "https://www.imdb.com/name/nm1000113/",
+    }],
+    "actors": [{
+      "name": "Will Ferrell",
+      "image": "https://ca-times.brightspotcdn.com/dims4/default/076a75b/2147483647/strip/false/crop/3500x1969+0+176/resize/1200x675!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F35%2F0c%2F568646e5482e8f5ce52d1d84b1cd%2Fny-premiere-of-apple-tvs-the-shrink-next-door-90227.jpg",
+      "imdb": "https://www.imdb.com/name/nm0002071/?ref_=nv_sr_srsg_0_tt_6_nm_2_q_will%2520ferrell",
+    }, {
+      "name": "Kevin Hart",
+      "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcT7tBY3TDO4C0DCaTK61N0LCsUACl6gk6ilS5ZGqmcZsmj0bYSIq3KAsTay8wD0i_TkjuBB0xYzMOfWjD8",
+      "imdb": "https://www.imdb.com/name/nm0366389/"
+    }, {
+      "name": "Alison Brie",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ6id550x5T8hH4DQsm3JoTGwa7FmnXV7gNnOV28TJzZ1ASYxIt",
+      "imdb": "https://www.imdb.com/name/nm1555340/",
+    }]
+    },
+
+    {    
+      "item": "158",
+      "title": "Date Night",
+      "runtime": 88,
+      "mpaa": "PG-13",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/45f4ef12-5ac0-484b-abf9-ac7a0040bad3/4723895d29f24f19843cb5134003584ac05c3371.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+      "description": "A suburbanite couple's wild night out injects some much-needed spark -- and some serious danger -- into their marriage.",
+	"genre": ["comedy", "action"],
+    "link": "https://play.max.com/video/watch/dd7e9419-a3ab-4359-aa5f-138905eedce4/a241f170-f66b-4c70-ac64-c4819982571b",
+    "director": [{
+    "name": "Shawn Levy",
+    "image": "https://variety.com/wp-content/uploads/2022/11/Shawn-Levy.jpg?w=1000",
+    "imdb": "https://www.imdb.com/name/nm0506613/",
+    }],
+    "actors": [{
+      "name": "Steve Carell",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0E4JvlpFYatER0RLZ-4qX6z7T9YMG7MavoQsCjen58CK6JqJa",
+      "imdb": "https://www.imdb.com/name/nm0136797/",
+    }, {
+      "name": "Tina Fey",
+      "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQpp2Hg6p0U45Osb8mv5QfUFAWCv4njsW3ASMljjPadEO4f11tE-ruRGE9mLklo61sevEBq0leN91Cnna4",
+      "imdb": "https://www.imdb.com/name/nm0275486/"
+    }, {
+      "name": "Mark Wahlberg",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ8-6AF0GDwtq9NvRl90TlJam8nNmJ9-icQvxY0h5Y_IIrgT2b0",
+      "imdb": "https://www.imdb.com/name/nm0000242/",
+    }]
+    },
+
+    {    
+      "item": "159",
+      "title": "Get Smart",
+      "runtime": 110,
+      "mpaa": "PG-13",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/04a33afd-0f4b-4e7b-8526-5c6da81e71a9/f4942e9cf925ade16eb85c6c2510f890fae93298.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=500",
+      "description": "A newly promoted field agent, partnered with veteran Agent 99, blends inexperience, enthusiasm and ineptitude as he battles against KAOS.",
+	"genre": ["comedy", "spy"],
+    "link": "https://play.max.com/video/watch/a852dd5a-8d1e-4874-b4ff-cea6ae404840/1d42bc96-9da5-445e-8f15-53bac6b95c9c",
+    "director": [{
+    "name": "Peter Segal",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Peter_Segal_WonderCon2008.jpg/1200px-Peter_Segal_WonderCon2008.jpg",
+    "imdb": "https://www.imdb.com/name/nm0781842/",
+    }],
+    "actors": [{
+      "name": "Steve Carell",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0E4JvlpFYatER0RLZ-4qX6z7T9YMG7MavoQsCjen58CK6JqJa",
+      "imdb": "https://www.imdb.com/name/nm0136797/",
+    }, {
+      "name": "Anne Hathaway",
+      "image": "https://m.media-amazon.com/images/M/MV5BNzhiN2Y0ZTktOWU2NC00Y2M0LWFiODEtMTQ2NTFiZGVlZmI3XkEyXkFqcGdeQW1pYnJ5YW50._V1_QL75_UX500_CR0,0,500,281_.jpg",
+      "imdb": "https://www.imdb.com/name/nm0004266/",
+    }, {
+      "name": "Dwayne 'The Rock' Johnson",
+      "image": "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F3bdb2575-9a92-42f8-8472-bb78c7bd118a_720x405.jpeg",
+      "imdb": "https://www.imdb.com/name/nm0425005/",
+    }]
+    },
+
+    {    
+      "item": "160",
+      "title": "Knocked Up",
+      "runtime": 129,
+      "mpaa": "R",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/ec07a6c1-95e9-4b9e-b9a1-af11107466a7/1e3654273fddfc05638ef6da7f560aa0973a5392.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+      "description": "A booze-fueled roll in the hay results in an unexpected pregnancy for an ambitious TV reporter and a scraggly slacker in this hit comedy.",
+	"genre": ["comedy", "romance"],
+    "link": "https://play.max.com/video/watch/8b932bc4-9b29-4dc2-a540-7170dca90264/15488e82-5f0a-45d9-870c-2ce78335c9ae",
+    "director": [{
+    "name": "Judd Apatow",
+    "image": "https://www.indiewire.com/wp-content/uploads/2020/09/AP_20026203886163.jpg?w=600&h=337&crop=1",
+    "imdb": "https://www.imdb.com/name/nm0031976/",
+    }],
+    "actors": [{
+      "name": "Seth Rogen",
+      "image": "https://media.gq.com/photos/5cd9879fb41d09d10bcd7657/16:9/w_2560%2Cc_limit/seth-rogen-gq-cover-june-july-2019-11.jpg",
+      "imdb": "https://www.imdb.com/name/nm0736622/?ref_=nv_sr_srsg_0_tt_6_nm_2_q_seth%2520rogen",
+    }, {
+      "name": "Katherine Heigl",
+      "image": "https://media.zenfs.com/en/bang_showbiz_628/3556a4b24c2928e8c1973e304d5c3a1b",
+      "imdb": "https://www.imdb.com/name/nm0001337/"
+    }, {
+      "name": "Leslie Mann",
+      "image": "https://parade.com/.image/t_share/MTkwNTgwODMzNDgzMjM2NDc3/leslie-mann-ftr.jpg",
+      "imdb": "https://www.imdb.com/name/nm0005182/",
+    }]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
     
     
