@@ -4343,6 +4343,39 @@ const moviesArray = [
     }]
     },
 
+    {
+      "item": "150",
+      "title": "Dracula 2000",
+      "runtime": 99,
+      "mpaa": "R",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/1791aafa-5f63-4ed5-8afc-eb75fc1b4138/b681707fb18730eabe00cf88fbf65f80ac05d917.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+      "description": "In this modern retelling of the classic vampire tale, a group of thieves unknowingly awakens the legendary vampire Dracula, who wreaks havoc in contemporary New Orleans.",
+      "genre": ["horror", "thriller"],
+      "link": "https://play.max.com/video/watch/151e8951-b92b-4d12-92a3-bacf325c6045/f71f905d-574e-4c4b-8e99-29019a7c3eb0",
+      "director": [{
+        "name": "Patrick Lussier",
+        "image": "https://1.bp.blogspot.com/-xBlZKBSfr00/X_JZ6M9ajrI/AAAAAAAAHJI/0pwhE7bcAMgU6uLyvBcQx0sWyzv1bvVJACLcBGAsYHQ/w1200-h630-p-k-no-nu/MV5BZjAzZjhhZDAtYjgyMS00OGFjLWJmNTgtZTFhNWE4MjQ0NWFmXkEyXkFqcGdeQXVyNDA2Nzg3MA%2540%2540._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0526184/"
+      }],
+      "actors": [{
+          "name": "Gerard Butler",
+          "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQqBXNOrwyQm00UNO7CoVnzWyi6XMxN7rSZMgz9_XKobpCUp-52",
+          "imdb": "https://www.imdb.com/name/nm0124930/"
+        },
+        {
+          "name": "Christopher Plummer",
+          "image": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/7LEPIRTH3YI6XDDESWKYRDFKCU.jpg",
+          "imdb": "https://www.imdb.com/name/nm0001626/"
+        },
+        {
+          "name": "Jonny Lee Miller",
+          "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR91Lc3NVIvhcAsIpsiUuXgeKAUvRSBhZZfUqipRxUyNbwEKwCI",
+          "imdb": "https://www.imdb.com/name/nm0001538/"
+        }
+      ]
+    },
+    
+
 
   ]
 ]
