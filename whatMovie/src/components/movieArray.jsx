@@ -4496,7 +4496,40 @@ const moviesArray = [
           "imdb": "https://www.imdb.com/name/nm0001334/"
         }
       ]
+    },
+
+    {
+      "item": 153,
+      "title": "Citizen Kane",
+      "runtime": 119,
+      "mpaa": "PG",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/c22bc8a9-d92d-4a6c-9571-407cdf3244a6/966a71b5d167f35bb98a0f3ea5dbb9e43f65eabb.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+      "description": "Citizen Kane is a landmark American film directed by Orson Welles. It tells the story of the rise and fall of newspaper magnate Charles Foster Kane, as seen through the eyes of those who knew him. Through innovative narrative techniques and stunning cinematography, the film explores themes of power, ambition, and the human condition.",
+      "genre": ["drama", "mystery", "classic"],
+      "link": "https://play.max.com/video/watch/423a4e9d-141e-44c3-9f8c-8bd34b182f08/6c01d5eb-7b1c-4204-8918-62600058833f",
+      "director": [{
+        "name": "Orson Welles",
+        "image": "https://images.csmonitor.com/csm/2019/03/0408-LRAINER%20ORSONWELLES.jpg?alias=standard_900x600",
+        "imdb": "https://www.imdb.com/name/nm0000080/"
+      }],
+      "actors": [{
+          "name": "Orson Welles",
+          "image": "https://images.csmonitor.com/csm/2019/03/0408-LRAINER%20ORSONWELLES.jpg?alias=standard_900x600",
+          "imdb": "https://www.imdb.com/name/nm0000080/"
+        },
+        {
+          "name": "Joseph Cotten",
+          "image": "https://thecinemaarchives.com/wp-content/uploads/2018/06/cotten-shadow-laksdjf-e1688325716301.jpg",
+          "imdb": "https://www.imdb.com/name/nm0001076/"
+        },
+        {
+          "name": "Agnes Moorehead",
+          "image": "https://www.telegram.com/gcdn/authoring/2014/04/29/NTEG/ghows-WT-1eb5f2a3-ca7e-434a-8d43-6a7458628f1f-42a2573a.jpeg",
+          "imdb": "https://www.imdb.com/name/nm0001552/"
+        }
+      ]
     }
+    
     
     
      
