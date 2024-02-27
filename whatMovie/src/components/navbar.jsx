@@ -37,12 +37,14 @@ export default function NavBar({ onPreferenceChange, uniqueGenres }) {
   const isMobile = window.innerWidth <= 768; // Assuming mobile breakpoint is 768px width
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light fixed-top" style={{padding: "20px", marginBottom: "20px", background: "transparent", alignItems: "center" }}>
+    <nav className="navbar navbar-expand-lg navbar-light fixed-top text-center justify-content-center" style={{padding: "20px", marginBottom: "20px", background: "transparent", alignItems: "center" }}>
       <p
   className={glowButton ? "glow" : ""}
   style={{
     color: "whitesmoke",
     fontSize: "2em", // Default font size
+    borderRadius: "30px",
+    padding: "5px",
     fontFamily: "Showtime",
     textShadow: "5px 5px 5px black",
     overflow: "wrap",
