@@ -4262,42 +4262,57 @@ const moviesArray = [
 
     {    
       "item": "147",
-      "title": "Aquaman and The Lost KIngdom",
-      "runtime": 125,
-      "mpaa": "PG-13",
-      "poster": "https://pbs.twimg.com/media/GGyfF3UWkAAyUvH?format=jpg&name=4096x4096",
-      "description": "Aquaman (Jason Momoa) forges an unlikely alliance with his imprisoned brother, Orm, to stop Black Manta and the mythic Black Trident.",
-	"genre": ["action", "fantasy", "comic-book", "sequel"],
-    "link": "https://play.max.com/video/watch/d50c51e4-bed0-47b5-bba7-1b60a70be530/d09acd40-f3e3-4c15-9561-4d5478595229",
+      "title": "Swiss Army Man",
+      "runtime": 98,
+      "mpaa": "R",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/f2127e58-1c4e-4855-a310-538a8acc91e1/419e1433b4665548e601a23bd4213be0328c7802.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+      "description": "A desperate man stranded on a deserted island finds a corpse washed ashore who has superhuman qualities and the ability to talk.",
+	"genre": ["comedy", "drama", "fantasy"],
+    "link": "https://play.max.com/video/watch/7e1cd795-c78a-4e1d-b77f-40c2798ad2b9/1d0100a1-dfd8-452d-8bb5-3137c28ed8f6",
     "director": [{
-    "name": "James Wan",
-    "image": "https://ew.com/thmb/LOSmy_0zGT63otef-EtYUT_riAI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/James-Wan-010423-c0382403115e41a19c06c53df45c2bc5.jpg",
-    "imdb": "https://www.imdb.com/name/nm1490123/",
+      "name": "The Daniels",
+      "image": "https://variety.com/wp-content/uploads/2023/02/GettyImages-1467518484.jpg?w=1024",
+      "imdb": "https://www.imdb.com/name/nm3453283/",
     }],
     "actors": [{
-      "name": "Jason Momoa",
-      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTqAab_t2DtLnPK8ESUzr0w43TvqQUVNcKF1_PDmzcMvrz5xvjz",
-      "imdb": "https://en.wikipedia.org/wiki/Jason_Momoa",
+      "name": "Paul Dano",
+      "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRwnXtlmt7D2rb4eSaM9rfcxdnr4WV7UO0Dk4zrrPV3B5A96MPEMD0ZdbetdPHTJrRgfJNY_hXzJMiYwyo",
+      "imdb": "https://www.imdb.com/name/nm0200452/",
     }, {
-      "name": "Patrick Wilson",
-      "image": "https://www.usatoday.com/gcdn/presto/2023/04/22/USAT/92f4c824-b268-48cf-bd34-e02e967ac4f6-Insidious_4.jpg?width=1280&height=720&fit=crop&format=pjpg&auto=webp",
-      "imdb": "https://www.imdb.com/name/nm0933940/"
+      "name": "Daniel Radcliffe",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRXTIps_QBwp8xhnrTg9pNl_LIi6HbrxI-ytGBcMwS3C7mPYEgH",
+      "imdb": "https://www.imdb.com/name/nm0705356/"
     }, {
-      "name": "Amber Heard",
-      "image": "https://m.media-amazon.com/images/M/MV5BYzI1MTNhYTItYTlkNi00YmI5LThkYjItZDZmODQ5ZDMzZDgzXkEyXkFqcGdeQVRoaXJkUGFydHlJbmdlc3Rpb25Xb3JrZmxvdw@@._V1_QL75_UX500_CR0,0,500,281_.jpg",
-      "imdb": "https://www.imdb.com/name/nm1720028/",
+      "name": "Mary Elizabeth Winstead",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQJjwRR9GBaiEPXGoy7mVOhHlUal4PTp8FLX8a82o-3z5IwhpHM",
+      "imdb": "https://www.imdb.com/name/nm0935541/",
     }]
     },
 
-    
-    
-    
-
-  
-  
-  
-  
-  
+    {    
+      "item": "148",
+      "title": "Drive Me Crazy",
+      "runtime": 92,
+      "mpaa": "PG-13",
+      "poster": "https://s.yimg.com/zb/imgv1/411f5b5f-16b4-3bc3-899d-464908d5dbe8/t_500x300",
+      "description": "A popular girl and a teen geek come up with a plan to win back their exes in this engaging teen comedy.",
+	"genre": ["comedy", "romance", "teen"],
+    "link": "https://play.max.com/video/watch/784e63ea-7c11-4db7-9f11-471c7cbd7a4b/6d39dd3a-c7bf-4ed2-b38a-ece4117e11df",
+    "director": [{
+    "name": "John Schultz",
+    "image": "https://resizing.flixster.com/oYf1ZcmQ2U6t8C1LaP5eFcQZl7E=/300x300/v2/http://media.baselineresearch.com/images/307951/307951_full.jpg",
+    "imdb": "https://www.imdb.com/name/nm0776271/",
+    }],
+    "actors": [{
+      "name": "Melissa Joan Hart",
+      "image": "https://www.politico.com/dims4/default/resize/1040/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2F83%2F68%2F09fec331438e99d052f8fa68fb1c%2F2023-90s-con-26689.jpg",
+      "imdb": "https://www.imdb.com/name/nm0004997/",
+    }, {
+      "name": "Adrian Grenier",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQX-yFDNURrfVfLPX1nmJ8jI-tPe8se3erejJ8WfK9IjMJBjsIl1Lnj5CHqjLk0et8LrxW7g",
+      "imdb": "https://www.imdb.com/name/nm0004978/"
+    }]
+    },
 
   ]
 ]

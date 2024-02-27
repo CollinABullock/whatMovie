@@ -170,11 +170,11 @@ export default function RandomMovie({ selectedRuntime  }) {
                 <h3 style={{marginBottom: "50px"}}>{randomMovie.description}<br />
                 <div style={{ width: "100%", margin: "0 auto", padding: "10px", display: "flex", justifyContent: "space-between", alignItems: "center", marginTop: "30px" }}>
                     {renderWatchOnLink()}
-                    <button className={glowButton ? "glow" : ""} onClick={handleDetails} style={{ backgroundColor: "transparent", color: 'blue', cursor: 'pointer', fontFamily: "Signwood", border: "none" }}>More Details</button>
+                    <button onClick={handleDetails} style={{ backgroundColor: "black", color: 'white', cursor: 'pointer', fontFamily: "Signwood", border: "2px solid black", textShadow: "2px 2px 2px black" }}>More Details</button>
                   </div>
                 </h3>
               </Card.Text>
-              <button onClick={handleRandomMovie} style={{ backgroundColor: "red", color: "white", textShadow: "2px 2px 2px black", fontSize: "1.25em" }}>I'm not feeling it, give me another</button>
+              <button className={glowButton ? "glow" : ""} onClick={handleRandomMovie} style={{ backgroundColor: "red", color: "white", textShadow: "2px 2px 2px black", fontSize: "1.25em" }}>I'm not feeling it, give me another</button>
             </Card.Body>
           </Card>
         </motion.div>
