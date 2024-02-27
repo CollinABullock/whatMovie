@@ -164,17 +164,17 @@ export default function RandomMovie({ selectedRuntime  }) {
             <Card.Body>
             <Card.Img 
   src={randomMovie.poster} 
-  style={{ width: '100%', height: 'auto', objectFit: 'cover', margin: '0', padding: '0', marginBottom: "30px" }} 
+  style={{ width: '100%', height: 'auto', objectFit: 'cover', margin: '0', padding: '0', marginBottom: "20px" }} 
 />
-              <Card.Text style={{ textAlign: "start", fontFamily: "Helvetica"}}>
-                <h3 style={{marginBottom: "50px"}}>{randomMovie.description}<br />
-                <div style={{ width: "100%", margin: "0 auto", padding: "10px", display: "flex", justifyContent: "space-between", alignItems: "center", marginTop: "30px" }}>
+              <Card.Text style={{ textAlign: "start", fontFamily: "Verdana"}}>
+                <h4 style={{marginBottom: "10px"}}>{randomMovie.description}<br />
+                <div style={{ width: "100%", margin: "0 auto", padding: "10px", display: "flex", justifyContent: "space-between", alignItems: "center", }}>
                     {renderWatchOnLink()}
                     <button onClick={handleDetails} style={{ backgroundColor: "black", color: 'white', cursor: 'pointer', fontFamily: "Signwood", border: "2px solid black", textShadow: "2px 2px 2px black" }}>More Details</button>
                   </div>
-                </h3>
+                </h4>
               </Card.Text>
-              <button className={glowButton ? "glow" : ""} onClick={handleRandomMovie} style={{ backgroundColor: "red", color: "white", textShadow: "2px 2px 2px black", fontSize: "1.25em" }}>I'm not feeling it, give me another</button>
+              <button onClick={handleRandomMovie} style={{ backgroundColor: "red", color: "white", textShadow: "2px 2px 2px black", fontSize: "1.5em" }}>I'm not feeling it, give me another</button>
             </Card.Body>
           </Card>
         </motion.div>
