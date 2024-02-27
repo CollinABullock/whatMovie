@@ -4555,7 +4555,73 @@ const moviesArray = [
           "imdb": "https://www.imdb.com/name/nm0749263/"
         }
       ]
-    }
+    },
+
+    {
+      "item": 155,
+      "title": "Kate and Leopold",
+      "runtime": 118,
+      "mpaa": "PG-13",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/1d8dee83-2ba0-46cb-a206-547c1eb8e80f/1763bd41d395dde7c2bc60c50e9b61ba2c321db5.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+      "description": "A romantic comedy that tells the story of a Duke from the 19th century who time-travels to present-day New York City and falls in love with a modern woman.",
+      "genre": ["romance", "comedy", "fantasy"],
+      "link": "https://play.max.com/video/watch/caf76579-5688-4be4-917e-1dfd429d64db/3dffa6b5-8e39-48b1-85aa-a9e5f2d3d239",
+      "director": [{
+        "name": "James Mangold",
+        "image": "https://variety.com/wp-content/uploads/2023/02/mangold.jpg?w=1000",
+        "imdb": "https://www.imdb.com/name/nm0003506/"
+      }],
+      "actors": [{
+          "name": "Meg Ryan",
+          "image": "https://crookedmarquee.com/wp-content/uploads/2021/03/meg1.jpg",
+          "imdb": "https://www.imdb.com/name/nm0000212/"
+        },
+        {
+          "name": "Hugh Jackman",
+          "image": "https://media.gq.com/photos/58b9fda8803bdb766dd69ef7/16:9/w_1280,c_limit/wolverine.jpg",
+          "imdb": "https://www.imdb.com/name/nm0413168/"
+        },
+        {
+          "name": "Liev Schreiber",
+          "image": "https://media.npr.org/assets/img/2022/05/21/gettyimages-1397792718_custom-b735c82cb9285bbf005799ddac6623ad27a80d3f.jpg",
+          "imdb": "https://www.imdb.com/name/nm0000630/"
+        }
+      ]
+    },
+
+    {
+      "item": 156,
+      "title": "Are We There Yet?",
+      "runtime": 95,
+      "mpaa": "PG",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/983080fe-b63f-4937-b778-0ce0f2fd4116/5091b8750aee120c9a2a8aa4e14ca41298b767df.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=320",
+      "description": "Nick Persons, a single man, finds himself in over his head when he agrees to drive two children, Lindsey and Kevin, to meet their mother in time for New Year's Eve. Along the way, Nick faces numerous challenges and mishaps, testing his patience and his ability to connect with the kids.",
+      "genre": ["comedy", "family"],
+      "link": "https://play.max.com/video/watch/11d5b179-6241-4a92-902d-86dc0bc5c1c9/e4b6945e-95f1-456e-8752-bfeb0da069a3",
+      "director": [{
+        "name": "Brian Levant",
+        "image": "https://static.wikia.nocookie.net/scoobydoo/images/3/33/Brian_Levant.png/revision/latest?cb=20130120182346",
+        "imdb": "https://www.imdb.com/name/nm0505421/"
+      }],
+      "actors": [{
+          "name": "Ice Cube",
+          "image": "https://i.guim.co.uk/img/media/67eec8ab7e348a4152ff3f0ea2a3fc1060f38e28/493_44_4711_2827/master/4711.jpg?width=700&quality=85&auto=format&fit=max&s=da2aa1a6318e94a58e1272821e01b42c",
+          "imdb": "https://www.imdb.com/name/nm0001084/"
+        },
+        {
+          "name": "Nia Long",
+          "image": "https://www.hollywoodreporter.com/wp-content/uploads/2022/11/Nia-Long_FINAL_01-H-2022.jpg?w=1296",
+          "imdb": "https://www.imdb.com/name/nm0001469/"
+        },
+        {
+          "name": "Aleisha Allen",
+          "image": "https://netstorage-legit.akamaized.net/images/e3c83eb5383fe3ca.jpg?imwidth=1200",
+          "imdb": "https://www.imdb.com/name/nm1428066/"
+        }
+      ]
+    },
+    
+    
     
     
     
