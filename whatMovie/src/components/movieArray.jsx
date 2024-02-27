@@ -4407,7 +4407,66 @@ const moviesArray = [
       ]
     },
     
+    {
+      "item": "movie",
+      "title": "Pygmalion",
+      "runtime": 96,
+      "mpaa": "Not Rated",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/932c8751-b394-42d4-89e9-d75a902ee2bb/96b20c66f30f04ebcf915fc29ac2908b54ca7398.jpg?submitted=1684665240394&host=wbd-images.prod-vod.h264.io&partner=beamcom&w=320",
+      "description": "Pygmalion is a classic British film based on George Bernard Shaw's play of the same name. It tells the story of Henry Higgins, a phonetics professor who makes a bet that he can transform a Cockney flower girl, Eliza Doolittle, into a refined lady by teaching her proper speech and manners.",
+      "genre": ["drama", "romance", "classic"],
+      "link": "https://play.max.com/video/watch/c63244e7-1f0f-403b-9ad7-36725e504cba/3cb2d42a-0446-4d8a-b13c-06cd71b99599",
+      "director": [{
+        "name": "Anthony Asquith",
+        "image": "https://www.premiere.fr/sites/default/files/styles/partage_rs/public/2018-04/Anthony-ASQUITH.jpg",
+        "imdb": "https://www.imdb.com/name/nm0039334/"
+      }],
+      "actors": [{
+          "name": "Leslie Howard",
+          "image": "https://cdn.britannica.com/24/232624-050-408BB25E/British-actor-Leslie-Howard-1939.jpg?w=400&h=300&c=crop",
+          "imdb": "https://www.imdb.com/name/nm0397444/"
+        },
+        {
+          "name": "Wendy Hiller",
+          "image": "https://vhx.imgix.net/criterionchannelchartersu/assets/106a4ef9-5f39-4862-99e5-49ed957e4608-467de98f.jpg?auto=format%2Ccompress&fit=crop&h=720&q=75&w=1280",
+          "imdb": "https://www.imdb.com/name/nm0384518/"
+        },
+        {
+          "name": "Wilfrid Lawson",
+          "image": "https://m.media-amazon.com/images/M/MV5BNzAwZmU0ZmUtMjg0ZS00NDI3LTgwYmQtYTQzMjFiMDA3MmY0XkEyXkFqcGdeQXVyNzU1NzE3NTg@._V1_QL75_UX500_CR0,47,500,281_.jpg",
+          "imdb": "https://www.imdb.com/name/nm0493295/"
+        }
+      ]
+    },
+
+    {
+      "item": "152",
+      "title": "My Dinner with Andre",
+      "runtime": 110,
+      "mpaa": "PG",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/e881a6d1-c134-4710-970f-0f17f60efe3a/4223fd8610c977b8993a336e4de2cfd88dc81a48.jpg?submitted=1684674091610&host=wbd-images.prod-vod.h264.io&partner=beamcom&w=320",
+      "description": "In 'My Dinner with Andre,' two old friends, Wallace Shawn and Andre Gregory, meet for dinner at a restaurant in New York City. Over the course of the meal, they engage in a deep and philosophical conversation about life, art, and the nature of reality.",
+      "genre": ["drama", "classic"],
+      "link": "https://play.max.com/video/watch/82fb945c-65a7-4b11-a3f3-3de1db4f7587/709d70b9-f85a-407c-93f3-ba2a2229677a",
+      "director": [{
+        "name": "Louis Malle",
+        "image": "https://upload.wikimedia.org/wikipedia/en/1/10/Malle2.jpg",
+        "imdb": "https://www.imdb.com/name/nm0001507/"
+      }],
+      "actors": [{
+          "name": "Wallace Shawn",
+          "image": "https://i0.wp.com/www.americantheatre.org/wp-content/uploads/andre-gregory.jpg?fit=900%2C506&ssl=1&w=640",
+          "imdb": "https://www.imdb.com/name/nm0788991/"
+        },
+        {
+          "name": "Andre Gregory",
+          "image": "https://example.com/andre_gregory.jpg",
+          "imdb": "https://www.imdb.com/name/nm0339863/"
+        }
+      ]
+    }
     
+     
 
 
   ]
