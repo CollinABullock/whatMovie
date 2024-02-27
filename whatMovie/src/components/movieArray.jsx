@@ -4314,6 +4314,36 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "149",
+      "title": "Aquaman And The Lost Kingdom",
+      "runtime": 125,
+      "mpaa": "PG-13",
+      "poster": "https://pbs.twimg.com/media/GGyfF3UWkAAyUvH?format=jpg&name=4096x4096",
+      "description": "Aquaman (Jason Momoa) forges an unlikely alliance with his imprisoned brother, Orm, to stop Black Manta and the mythic Black Trident.",
+	"genre": ["action", "fantasy", "comic-book", "sequel"],
+    "link": "https://play.max.com/video/watch/d50c51e4-bed0-47b5-bba7-1b60a70be530/d09acd40-f3e3-4c15-9561-4d5478595229",
+    "director": [{
+    "name": "James Wan",
+    "image": "",
+    "imdb": "",
+    }],
+    "actors": [{
+      "name": "Jason Momoa",
+      "image": "",
+      "imdb": "",
+    }, {
+      "name": "",
+      "image": "",
+      "imdb": ""
+    }, {
+      "name": "Amber Heard",
+      "image": "https://www.dexerto.com/cdn-cgi/image/width=3840,quality=75,format=auto/https://editors.dexerto.com/wp-content/uploads/2023/09/21/amber-heard.jpg",
+      "imdb": "https://www.imdb.com/name/nm1720028/",
+    }]
+    },
+
+
   ]
 ]
 
