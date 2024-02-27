@@ -4528,7 +4528,35 @@ const moviesArray = [
           "imdb": "https://www.imdb.com/name/nm0001552/"
         }
       ]
+    },
+
+    {
+      "item": 154,
+      "title": "Just Like Heaven",
+      "runtime": 95,
+      "mpaa": "PG-13",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/520741ac-57b4-4415-bbb7-c36d33b15723/9655a77e6b705f1a5c892445005d1a732c957671.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+      "description": "Just Like Heaven tells the story of a young woman named Elizabeth Masterson, played by Reese Witherspoon, who finds herself in a coma after a car accident. Her spirit becomes trapped in her former apartment, which is now occupied by a lonely architect named David Abbott, played by Mark Ruffalo. As David tries to move on with his life, he begins to sense Elizabeth's presence and discovers the truth about her situation.",
+      "genre": ["comedy", "romance", "fantasy"],
+      "link": "https://play.max.com/video/watch/7f2db461-0630-4cff-8096-45e5fac59c4b/e9e22d91-126c-426d-ad1c-2bcfe9799800",
+      "director": [{
+        "name": "Mark Waters",
+        "image": "https://www.hollywoodreporter.com/wp-content/uploads/2015/09/mark_waters_-_h_2015.jpg?w=1024",
+        "imdb": "https://www.imdb.com/name/nm0914578/"
+      }],
+      "actors": [{
+          "name": "Reese Witherspoon",
+          "image": "https://people.com/thmb/YnCqOXeOmPSr7jBMfmJ-eu0p5Wg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(879x412:881x414)/reese-witherspoon-attends-the-world-premiere-of-netflixs-your-place-or-mine-2000-8d59725ba98a4f519412cb7d345f4598.jpg",
+          "imdb": "https://www.imdb.com/name/nm0000702/"
+        },
+        {
+          "name": "Mark Ruffalo",
+          "image": "https://media.gq-magazine.co.uk/photos/65d4d4c165316d3a497c84d4/master/w_2560%2Cc_limit/MRH.jpg",
+          "imdb": "https://www.imdb.com/name/nm0749263/"
+        }
+      ]
     }
+    
     
     
     
