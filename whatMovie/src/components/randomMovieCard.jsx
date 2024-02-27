@@ -10,6 +10,7 @@ export default function RandomMovie({ selectedRuntime  }) {
   const [filteredMovies, setFilteredMovies] = useState([]);
   const [showModal, setShowModal] = useState(false);
   const [animationKey, setAnimationKey] = useState(0);
+  const [imagesLoaded, setImagesLoaded] = useState(false); // State to track if images are loaded
 
 
 
@@ -30,6 +31,11 @@ export default function RandomMovie({ selectedRuntime  }) {
 
    // Get the streaming services from session storage.
    const selectedServices = JSON.parse(sessionStorage.getItem('selectedServices'));
+
+     // Function to handle image load
+  const handleImageLoad = () => {
+    setImagesLoaded(true);
+  };
 
    console.log("selectedGenres:", selectedGenres);
    console.log("preferredGenres:", preferredGenres);
@@ -140,12 +146,12 @@ export default function RandomMovie({ selectedRuntime  }) {
 
 
 
-  console.log("random movie:", randomMovie);
+  console.log("random movie set:", randomMovie);
 
 
   return (
     <div className='randomCard' style={{ textAlign: "center", width: "100%" }}>
-      {randomMovie ? (
+      {randomMovie && imagesLoaded ? (
         <motion.div
           key={animationKey}
           initial={{ x: -1000, opacity: 0 }} // initial position off-screen to the left
@@ -156,6 +162,8 @@ export default function RandomMovie({ selectedRuntime  }) {
             <Card.Body>
             <Card.Img 
   src={randomMovie.poster} 
+  onLoad={handleImageLoad} // Call handleImageLoad when the image is loaded
+
   style={{ width: '100%', height: 'auto', objectFit: 'cover', margin: '0', padding: '0', marginBottom: "20px" }} 
 />
               <Card.Text style={{ textAlign: "start", fontFamily: "Verdana"}}>
