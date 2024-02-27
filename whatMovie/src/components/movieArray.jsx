@@ -4737,6 +4737,40 @@ const moviesArray = [
     }]
     },
 
+    {    
+      "item": "161",
+      "title": "Free Fire",
+      "runtime": 91,
+      "mpaa": "R",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/e1507ee2-06bf-4e20-a6c3-07ac8b49b464/ad1395165ef55026996562105988d05c83ee45fc.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+      "description": "Bullets fly after a failed arms deal sparks a deadly standoff between IRA members and a gang of weapons traffickers.",
+	"genre": ["comedy", "action"],
+    "link": "https://play.max.com/video/watch/4cadafae-50e7-48f5-9d54-a1edb5eba849/1ca09bf2-8805-4992-bd29-9ba30a164a80",
+    "director": [{
+      "name": "Ben Wheatley",
+      "image": "https://miro.medium.com/v2/resize:fit:1200/1*3LHqGuCQXorll7fYrzDJPw.jpeg",
+      "imdb": "https://www.imdb.com/name/nm1296554/?ref_=tt_ov_dr",
+    }],
+    "actors": [{
+      "name": "Brie Larson",
+      "image": "https://people.com/thmb/2MILsdf35weyJcQtQAWYwrY0PfA=/400x262/filters:no_upscale():max_bytes(150000):strip_icc():focal(750x224:752x226)/sag-awards-2024-brie-larson-tout-022424-5d61b688c3834c0f9745692d3f083697.jpg",
+      "imdb": "https://www.imdb.com/name/nm0488953/",
+    }, {
+      "name": "Armie Hammer",
+      "image": "https://www.rollingstone.com/wp-content/uploads/2021/01/armie-hammer.jpg",
+      "imdb": "https://www.imdb.com/name/nm2309517/"
+    }, {
+      "name": "Cillian Murphy",
+      "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2024/02/21/a0ab1286-a64e-4cdc-8a99-25fd202a9350/thumbnail/1280x720/1f47d561ff5c069ee21d8507394dd4df/0221-cmo-cillianmurphy-intv-mid-2699502-640x360.jpg?v=873773698949ef4145348bb09cabd43d",
+      "imdb": "https://www.imdb.com/name/nm0614165/",
+    }]
+    },
+
+    
+
+
+
+
 
 
 
