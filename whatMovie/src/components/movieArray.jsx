@@ -4374,6 +4374,39 @@ const moviesArray = [
         }
       ]
     },
+
+    {
+      "item": "151",
+      "title": "Bulletproof Monk",
+      "runtime": 104,
+      "mpaa": "PG-13",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/dcb25ca1-2109-45df-bb02-884e6a1e65ee/052732a781e2aad18919a15ef0b40838d086a0b8.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+      "description": "A mysterious Tibetan monk protects an ancient scroll that holds the key to unlimited power. He is joined by a streetwise young man as they embark on an adventure to keep the scroll out of the hands of an evil Nazi seeking to use its power for his own nefarious purposes.",
+      "genre": ["action", "comedy", "fantasy"],
+      "link": "https://play.max.com/video/watch/cdf43a27-3e8a-43d6-8780-e4aebc9b1774/36da8d09-aa1f-4f92-952b-0d3944299cba",
+      "director": [{
+        "name": "Paul Hunter",
+        "image": "https://s3.amazonaws.com/images.imvdb.com/entities/paul-hunter/paul-hunter-music-videos.jpg",
+        "imdb": "https://www.imdb.com/name/nm0402821/"
+      }],
+      "actors": [{
+          "name": "Chow Yun-fat",
+          "image": "https://data.nextshark.com/wp-content/uploads/2023/09/Chow-Yun-fat.jpg",
+          "imdb": "https://www.imdb.com/name/nm0000334/"
+        },
+        {
+          "name": "Seann William Scott",
+          "image": "https://www.usmagazine.com/wp-content/uploads/2023/05/Sean-William-Scott-Dishes-On-the-Possibility-of-Reprising-His-American-Pie-Role-1.jpg?crop=0px%2C148px%2C1419px%2C746px&resize=1200%2C630&quality=86&strip=all",
+          "imdb": "https://www.imdb.com/name/nm0005405/"
+        },
+        {
+          "name": "Jaime King",
+          "image": "https://akns-images.eonline.com/eol_images/Entire_Site/2023027/rs_1200x1200-230127101433-1200-Jaime-King-LT-012723.jpg?fit=around%7C660:372&output-quality=90&crop=660:372;center,top",
+          "imdb": "https://www.imdb.com/name/nm0005094/"
+        }
+      ]
+    },
+    
     
 
 
