@@ -4963,7 +4963,37 @@ const moviesArray = [
       "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSz_lJ-KbT6_kugv-NHRDoMVxpXtuS2XoD53cD6j6n1sIohIo1Qf9ESbwAfN5OO_r4kj8_TxeN17dGr_rQ",
       "imdb": "https://www.imdb.com/name/nm0000168/",
   }]
+},
+
+{
+  "item": 168,
+  "title": "Robocop",
+  "runtime": 102,
+  "mpaa": "R",
+  "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/aca325cd-8b68-470f-abf9-86e15097fc70/a3b2ab28e6e5dc4d21cb41326b784f3d2b385305.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+  "description": "Robocop is a 1987 science fiction action film directed by Paul Verhoeven. Set in a crime-ridden Detroit, the film follows Alex Murphy, a police officer who is brutally murdered and subsequently revived by the Omni Consumer Products (OCP) corporation as a cyborg law enforcement officer known as Robocop. As Robocop, Murphy must navigate corruption within the police force and take on powerful criminals to uphold justice in the city.",
+  "genre": ["action", "science-fiction", "crime", "comedy"],
+  "link": "https://play.max.com/video/watch/668caad6-5d65-477f-a0db-f971c9e88ca7/9ffe1a87-9f46-4afb-a118-7dd2f0afbaa7",
+  "director": [{
+    "name": "Paul Verhoeven",
+    "image": "https://deadline.com/wp-content/uploads/2016/11/elle-e1638963982120.jpg?w=1024",
+    "imdb": "https://www.imdb.com/name/nm0000682/"
+  }],
+  "actors": [{
+    "name": "Peter Weller",
+    "image": "https://news.artnet.com/app/news-upload/2018/10/IMG_0130.jpg",
+    "imdb": "https://www.imdb.com/name/nm0000697/"
+  }, {
+    "name": "Nancy Allen",
+    "image": "https://s.wsj.net/public/resources/images/BN-KE834_DTK1_M_20150908122633.jpg",
+    "imdb": "https://www.imdb.com/name/nm0000263/"
+  }, {
+    "name": "Ronny Cox",
+    "image": "https://m.media-amazon.com/images/M/MV5BYmZkNWMzMWYtMTVkNi00YWFlLWExN2YtMzA0ZGZmZGJmMzg5XkEyXkFqcGdeQXVyODY0NzcxNw@@._V1_.jpg",
+    "imdb": "https://www.imdb.com/name/nm0001074/"
+  }]
 }
+
 
 
 
