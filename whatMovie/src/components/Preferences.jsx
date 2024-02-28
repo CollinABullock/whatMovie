@@ -15,7 +15,9 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
   const [isDirectorOpen, setIsDirectorOpen] = useState(false);
   const [directorSearch, setDirectorSearch] = useState('');
   const [filteredDirectors, setFilteredDirectors] = useState([]);
-  const [selectedDirectors, setSelectedDirectors] = useState([]);
+  const [preferredDirectors, setPreferredDirectors] = useState([]);
+
+  console.log("preferred directors:", preferredDirectors);
 
   const handleDirectorSearch = (event) => {
     const searchTerm = event.target.value.trim().toLowerCase(); // Remove whitespace and convert to lowercase
@@ -44,15 +46,22 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
   };
   
   // Define handleDirectorCheckboxChange function
-  const handleDirectorCheckboxChange = (event) => {
-    const { value, checked } = event.target;
-    if (checked) {
-      setSelectedDirectors(prevSelectedDirectors => [...prevSelectedDirectors, value]);
+  const handleDirectorClick = (directorName) => {
+    // Toggle director selection
+    const isSelected = preferredDirectors.includes(directorName);
+    if (isSelected) {
+      // Remove director from preferredDirectors array
+      const updatedDirectors = preferredDirectors.filter(director => director !== directorName);
+      setPreferredDirectors(updatedDirectors);
     } else {
-      setSelectedDirectors(prevSelectedDirectors => prevSelectedDirectors.filter(director => director !== value));
+      // Add director to preferredDirectors array
+      const updatedDirectors = [...preferredDirectors, directorName];
+      setPreferredDirectors(updatedDirectors);
     }
+
+    // Update session storage
+    sessionStorage.setItem('preferredDirectors', JSON.stringify(preferredDirectors));
   };
-  
 
   useEffect(() => {
     if (data && data.length > 0) {
@@ -271,7 +280,7 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
             />
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '20px' }}>
               {filteredDirectors.map(director => (
-                <div className='filtered-director-item' key={director.name} style={{ textAlign: 'center' }}>
+                <div className='filtered-director-item' onClick={() => handleDirectorClick(director.name)} key={director.name} style={{ textAlign: 'center' }}>
                   {director.image && (
                     <img
                     className='filtered-director-img'
