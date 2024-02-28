@@ -5684,7 +5684,67 @@ const moviesArray = [
     "image": "https://i.guim.co.uk/img/media/6885d05562e83bfdd4204aa11551f28fae04d924/0_0_6208_3726/master/6208.jpg?width=1200&quality=85&auto=format&fit=max&s=cc0d369024b5d2dfc157f8b81efa1a78",
     "imdb": "https://www.imdb.com/name/nm0001993/"
   }]
-}
+},
+
+{
+  "item": 189,
+  "title": "The Lord of the Rings: The Fellowship of the Ring",
+  "runtime": 178,
+  "mpaa": "PG-13",
+  "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/fb9f961f-6302-4776-91d7-f1b7a69fb61d/8ae9819ac2745bda10913cf6c517e8870d710959.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+  "description": "In 'The Lord of the Rings: The Fellowship of the Ring', Frodo Baggins, a young hobbit, inherits a powerful ring from his uncle, Bilbo. Realizing the ring's malevolent influence, Frodo embarks on a perilous journey to destroy it in the fires of Mount Doom. Along with a diverse fellowship comprising humans, elves, dwarves, and wizards, Frodo faces numerous trials and battles against dark forces determined to reclaim the ring.",
+  "genre": ["action", "fantasy"],
+  "link": "https://play.max.com/video/watch/44154a70-ac47-4ac7-a2d4-01a57609dec2/8cc106b7-5d78-4bf7-b6b9-67ca69f65dbd",
+  "director": [{
+    "name": "Peter Jackson",
+    "image": "https://deadline.com/wp-content/uploads/2023/02/peter-jackson-Philippa-boyens-fran-walsh.jpg?w=1024",
+    "imdb": "https://www.imdb.com/name/nm0001392/",
+  }],
+  "actors": [{
+    "name": "Elijah Wood",
+    "image": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQT10WvJIQzcCnYZS4l_PM1-VoFBxdTvWI_FJ7BeQW95oAfOf7gNU3Gz65NVcOPtVkrrmJLyGZBruXSaWA",
+    "imdb": "https://www.imdb.com/name/nm0000704/",
+  }, {
+    "name": "Ian McKellen",
+    "image": "https://pyxis.nymag.com/v1/imgs/2cf/435/b1b15f3db92186d1b8ece2a19d0810cd6f-05-ian-mckellan.2x.h473.w710.jpg",
+    "imdb": "https://www.imdb.com/name/nm0005212/"
+  }, {
+    "name": "Viggo Mortensen",
+    "image": "https://mediaproxy.salon.com/width/1200/https://media2.salon.com/2013/03/viggo_mortensen.jpg",
+    "imdb": "https://www.imdb.com/name/nm0001557/"
+  }]
+},
+
+{
+  "item": 190,
+  "title": "The Lord of the Rings: The Two Towers",
+  "runtime": 179,
+  "mpaa": "PG-13",
+  "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/1b73bd19-1229-4e5f-986a-ae38ac0f5476/d9e80f2d407361c6c36c8265ffad7d050e5b5293.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+  "description": "In 'The Lord of the Rings: The Two Towers', the fellowship is scattered after the events of the first film, with Frodo and Sam continuing their journey to Mount Doom while Aragorn, Legolas, and Gimli aid in the defense of Rohan against Saruman's forces. Meanwhile, Merry and Pippin encounter the Ents and play a crucial role in the battle against Isengard.",
+  "genre": ["adventure", "fantasy"],
+  "link": "https://play.max.com/video/watch/586a17ef-d09d-49d6-806c-22f8329979ca/27fcd1bb-b34e-406f-89f7-dd9f324bbb4b",
+  "director": [{
+    "name": "Peter Jackson",
+    "image": "https://deadline.com/wp-content/uploads/2023/02/peter-jackson-Philippa-boyens-fran-walsh.jpg?w=1024",
+    "imdb": "https://www.imdb.com/name/nm0001392/",
+  }],
+  "actors": [{
+    "name": "Elijah Wood",
+    "image": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQT10WvJIQzcCnYZS4l_PM1-VoFBxdTvWI_FJ7BeQW95oAfOf7gNU3Gz65NVcOPtVkrrmJLyGZBruXSaWA",
+    "imdb": "https://www.imdb.com/name/nm0000704/",
+  }, {
+    "name": "Ian McKellen",
+    "image": "https://pyxis.nymag.com/v1/imgs/2cf/435/b1b15f3db92186d1b8ece2a19d0810cd6f-05-ian-mckellan.2x.h473.w710.jpg",
+    "imdb": "https://www.imdb.com/name/nm0005212/"
+  }, {
+    "name": "Viggo Mortensen",
+    "image": "https://mediaproxy.salon.com/width/1200/https://media2.salon.com/2013/03/viggo_mortensen.jpg",
+    "imdb": "https://www.imdb.com/name/nm0001557/"
+  }]
+},
+
+
 
 
 
