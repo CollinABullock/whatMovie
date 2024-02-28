@@ -200,7 +200,7 @@ const moviesArray = [
       "mpaa": "R",
       "poster": "https://occ-0-90-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABVCk1Gwq98YtE0AtBAsi3gSCpMq5zZ6sNlzyFGwTc7i1EPu7vRAYz_NoW278pEKRUsqxwA7GPTkmjm2vIb7FHlldoCfG9EX-t9lL.jpg?r=28b",
       "description": "Three friends travel back in time via a hot tub to the 1980s, where they must relive a fateful night from their past. As they navigate through the decade, they realize they have the opportunity to change their futures.",
-      "genre": ["comedy", "sci-fi"],
+      "genre": ["comedy", "science-fiction"],
       "link": "https://www.netflix.com/title/70118951",
       "director": [{
         "name": "Steve Pink",
@@ -237,7 +237,7 @@ const moviesArray = [
         "imdb": "https://www.imdb.com/name/nm0562997/"
       }],
       "actors": [{
-        "name": "Robert DeNiro",
+        "name": "Robert De Niro",
         "image": "https://www.usatoday.com/gcdn/presto/2020/08/17/USAT/7a0449c7-ffa8-450d-b65f-77a920a61757-Robert_De_Niro.JPG",
         "imdb": "https://www.imdb.com/name/nm0000134/?ref_=tt_ov_st"
       }, {
@@ -903,7 +903,7 @@ const moviesArray = [
       "image": "https://www.indiewire.com/wp-content/uploads/2022/08/Ben-Stiller.jpg",
       "imdb": "https://www.imdb.com/name/nm0001774/?ref_=tt_ov_st",
     }, {
-      "name": "Robert DeNiro",
+      "name": "Robert De Niro",
       "image": "https://www.usatoday.com/gcdn/presto/2020/08/17/USAT/7a0449c7-ffa8-450d-b65f-77a920a61757-Robert_De_Niro.JPG",
       "imdb": "https://www.imdb.com/name/nm0000134/?ref_=tt_ov_st"
     }, {
@@ -1212,7 +1212,7 @@ const moviesArray = [
       "image": "https://variety.com/wp-content/uploads/2018/03/shutterstock_editorial_9886170h.jpg?w=1000",
       "imdb": "https://www.imdb.com/name/nm0001618/?ref_=tt_ov_st",
     }, {
-      "name": "Robert DeNiro",
+      "name": "Robert De Niro",
       "image": "https://www.usatoday.com/gcdn/presto/2020/08/17/USAT/7a0449c7-ffa8-450d-b65f-77a920a61757-Robert_De_Niro.JPG",
       "imdb": "https://www.imdb.com/name/nm0000134/?ref_=tt_ov_st"
     }, {
@@ -1400,7 +1400,7 @@ const moviesArray = [
     "imdb": "https://www.imdb.com/name/nm0000217/",
     }],
     "actors": [{
-      "name": "Robert DeNiro",
+      "name": "Robert De Niro",
       "image": "https://www.usatoday.com/gcdn/presto/2020/08/17/USAT/7a0449c7-ffa8-450d-b65f-77a920a61757-Robert_De_Niro.JPG",
       "imdb": "https://www.imdb.com/name/nm0000134/?ref_=tt_ov_st"
     }, {
@@ -2251,7 +2251,7 @@ const moviesArray = [
 	"genre": ["comedy", "romance"],
     "link": "https://www.netflix.com/title/70124574",
     "director": [{
-    "name": "Nancy Myers",
+    "name": "Nancy Meyers",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI-7XOSTxO9HmtnZfGP7VaqFLTnJXAXJC4d8SS5rZ_OzJAAz6-",
     "imdb": "https://www.imdb.com/name/nm0583600/",
     }],
@@ -2289,7 +2289,7 @@ const moviesArray = [
       "image": "https://www.indiewire.com/wp-content/uploads/2022/08/Ben-Stiller.jpg",
       "imdb": "https://www.imdb.com/name/nm0001774/?ref_=tt_ov_st",
     }, {
-      "name": "Robert DeNiro",
+      "name": "Robert De Niro",
       "image": "https://www.usatoday.com/gcdn/presto/2020/08/17/USAT/7a0449c7-ffa8-450d-b65f-77a920a61757-Robert_De_Niro.JPG",
       "imdb": "https://www.imdb.com/name/nm0000134/?ref_=tt_ov_st"
     }, {
@@ -2318,7 +2318,7 @@ const moviesArray = [
         "image": "https://www.indiewire.com/wp-content/uploads/2022/08/Ben-Stiller.jpg",
         "imdb": "https://www.imdb.com/name/nm0001774/?ref_=tt_ov_st",
       }, {
-        "name": "Robert DeNiro",
+        "name": "Robert De Niro",
         "image": "https://www.usatoday.com/gcdn/presto/2020/08/17/USAT/7a0449c7-ffa8-450d-b65f-77a920a61757-Robert_De_Niro.JPG",
         "imdb": "https://www.imdb.com/name/nm0000134/?ref_=tt_ov_st"
       }, {
@@ -5408,46 +5408,176 @@ const moviesArray = [
   }]
 },
 
+{
+  "item": "179",
+  "title": "The Informant!",
+  "runtime": 108,
+  "mpaa": "R",
+  "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/a345d34a-1c89-499b-b280-c763b79b5b7a/f963c995eb445ce7ce5774bb12535e32e587d636.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+  "description": "Based on a true story, Mark Whitacre, a rising star at agribusiness giant Archer Daniels Midland (ADM), becomes a whistleblower for the FBI. However, as the investigation unfolds, it's revealed that Whitacre's motives may not be as noble as they initially seemed.",
+  "genre": ["biopic", "comedy", "crime"],
+  "link": "https://play.max.com/video/watch/5601c6d9-c41a-4fa5-934d-bfcd7d925967/5eede50c-996f-4ef9-81b0-09f320aae652",
+  "director": [{
+    "name": "Steven Soderbergh",
+    "image": "https://media.gq.com/photos/6086e2a2a300ae172cbcc456/16:9/w_2560%2Cc_limit/GettyImages-1314456484.jpeg",
+    "imdb": "https://www.imdb.com/name/nm0001752/"
+  }],
+  "actors": [{
+    "name": "Matt Damon",
+    "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT9LHOr-9heRREg1kcbUk3wpeADWC2F80UMqnx-F7mB1Oda9wWf",
+    "imdb": "https://www.imdb.com/name/nm0000354/",
+  }, {
+    "name": "Scott Bakula",
+    "image": "https://www.tvinsider.com/wp-content/uploads/2019/07/GettyImages-138464607-1014x570.jpg",
+    "imdb": "https://www.imdb.com/name/nm0000832/"
+  }, {
+    "name": "Joel McHale",
+    "image": "https://deadline.com/wp-content/uploads/2022/10/Joel-McHale.jpg?w=1000",
+    "imdb": "https://www.imdb.com/name/nm0564215/"
+  }]
+},
 
+{
+  "item": "180",
+  "title": "Watchmen",
+  "runtime": 162,
+  "mpaa": "R",
+  "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/100424b5-6eb1-45bd-bc8c-c0459fde578a/f54a3c8e429f555c9c795cd7dee83e58315c0d0f.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+  "description": "Set in an alternate history where superheroes exist and have changed the course of world events, a group of retired vigilantes investigates the murder of one of their own. As they uncover a conspiracy that could alter the fate of humanity, they must confront their past and the moral ambiguity of their actions.",
+  "genre": ["action", "drama", "mystery", "comic-book"],
+  "link": "",
+  "director": [{
+    "name": "Zack Synder",
+    "image": "https://dnm.nflximg.net/api/v6/2DuQlx0fM4wd1nzqm5BFBi6ILa8/AAAAQRkG0o6H2e9srDoKgYVGPoqGMQGX2DpEahimbzps-XdXK2Qc_sby0nJiRw3V0bePHNFOGKK3PdNwy1Z825FXZwDjmxVEuYKYQlsRdnmEnmK0XIzCGQ-PHCNrD8wJVCvhOqggGXSKLFhPBK7DxoiMtrO9.jpg?r=4ca",
+    "imdb": "https://www.imdb.com/name/nm0811583/",
+  }],
+  "actors": [{
+    "name": "Malin Akerman",
+    "image": "https://www.hollywoodreporter.com/wp-content/uploads/2019/02/malin_akerman-getty-h_2019.jpg?w=1296",
+    "imdb": "https://www.imdb.com/name/nm0015194/"
+  }, {
+    "name": "Billy Crudup",
+    "image": "https://www.usatoday.com/gcdn/-mm-/615eb9b3dda3f2daf3ceb045278d833fb7918d51/c=0-286-5616-3459/local/-/media/USATODAY/None/2014/10/18/635492493679850560-XXX-RUDDERLESS-MOV-JY-1969--66566706.JPG?width=3200&height=1808&fit=crop&format=pjpg&auto=webp",
+    "imdb": "https://www.imdb.com/name/nm0001082/"
+  }, {
+    "name": "Matthew Goode",
+    "image": "https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1439,w_2560,x_0,y_0/dpr_1.5/c_limit,w_1044/fl_lossy,q_auto/v1492194001/articles/2014/11/24/from-the-good-wife-to-the-imitation-game-matthew-goode-wages-his-charm-offensive/141123-fallon-matthew-goode-tease_acwtse",
+    "imdb": "https://www.imdb.com/name/nm0328828/"
+  }]
+},
 
+{
+  "item": "181",
+  "title": "Ex Machina",
+  "runtime": 108,
+  "mpaa": "R",
+  "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/837c49a2-a8de-4621-b9f3-7eb412986ead/6f7ab12fabcfb58eb487c0f8d3a9479e0a22b38c.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+  "description": "Caleb Smith, a young programmer, wins a competition to spend a week at the secluded estate of Nathan Bateman, the CEO of the company he works for. Upon arrival, Caleb discovers that he has been selected to participate in an experiment involving Ava, a highly advanced artificial intelligence. As Caleb delves deeper into the experiment, he begins to question Ava's true nature and the intentions of her creator.",
+  "genre": ["drama", "science-fiction"],
+  "link": "https://play.max.com/video/watch/d1e24a98-0c6d-40c7-b7df-294c3ddbd88e/8f802386-0438-4beb-a25c-40653662267a",
+  "director": [{
+    "name": "Alex Garland",
+    "image": "https://hips.hearstapps.com/hmg-prod/images/img-1826bww2-1585163119.jpg",
+    "imdb": "https://www.imdb.com/name/nm0307497/"
+  }],
+  "actors": [{
+    "name": "Domhnall Gleeson",
+    "image": "https://static.wikia.nocookie.net/harrypotter/images/8/86/Domhnall_Gleeson.jpg/revision/latest?cb=20210602024640",
+    "imdb": "https://www.imdb.com/name/nm1727304/"
+  }, {
+    "name": "Alicia Vikander",
+    "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2022/07/896/500/Getty_AliciaVikander.jpg?ve=1&tl=1",
+    "imdb": "https://www.imdb.com/name/nm2539953/"
+  }, {
+    "name": "Oscar Isaac",
+    "image": "https://hips.hearstapps.com/hmg-prod/images/esq040122oscarisaac-013-1648234727.jpg",
+    "imdb": "https://www.imdb.com/name/nm1209966/",
+  }]
+},
 
+{
+  "item": 182,
+  "title": "After Earth",
+  "runtime": 100,
+  "mpaa": "PG-13",
+  "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/e8042796-7a15-4cb7-b784-d237e81626fb/2794b4614b4d62fdf5a4ab82b1f07df42141dd22.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+  "description": "Set in a future where Earth has become uninhabitable, 'After Earth' follows the journey of General Cypher Raige and his son Kitai as they crash-land on the planet. With Cypher critically injured, Kitai must embark on a perilous journey across the hostile terrain to signal for help and save both of their lives. As Kitai faces dangerous creatures and environmental hazards, he also grapples with his own fears and insecurities.",
+  "genre": ["action", "science-fiction"],
+  "link": "",
+  "director": [{
+    "name": "M. Night Shyamalan",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTczMTA5OTMxMl5BMl5BanBnXkFtZTcwMDA4NDg1Mw@@._V1_.jpg",
+    "imdb": "https://www.imdb.com/name/nm0796117/"
+  }],
+  "actors": [{
+    "name": "Will Smith",
+      "image": "https://m.media-amazon.com/images/M/MV5BMGI3OTI0NjctMjM2ZC00MjZiLWIxMjctODczN2M4MTFjZmY1XkEyXkFqcGdeQXJoYW5uYWg@._V1_QL75_UX500_CR0,0,500,281_.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000226/",
+  }, {
+    "name": "Jaden Smith",
+    "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/01/08/12/jadensmith.jpg",
+    "imdb": "https://www.imdb.com/name/nm1535523/"
+  }]
+},
 
+{
+  "item": 183,
+  "title": "The Intern",
+  "runtime": 121,
+  "mpaa": "PG-13",
+  "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/bb7410fe-ee13-4a70-83fd-5d6b43effbbc/f2f8045ee19579524a877395df3a8ecf3e671603.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+  "description": "In 'The Intern', Ben Whittaker, a 70-year-old widower, becomes a senior intern at an online fashion retailer founded and run by Jules Ostin. Despite the generation gap, Ben's wisdom and experience prove invaluable as he forms an unlikely bond with Jules and helps her navigate the challenges of running a successful business while juggling her personal life.",
+  "genre": ["comedy", "drama"],
+  "link": "https://play.max.com/video/watch/9360450d-aa36-4d01-bd3f-348b9dca4ab3/4db49c20-6544-4d3a-aff6-daab0333fdd0",
+  "director": [{
+    "name": "Nancy Meyers",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI-7XOSTxO9HmtnZfGP7VaqFLTnJXAXJC4d8SS5rZ_OzJAAz6-",
+    "imdb": "https://www.imdb.com/name/nm0583600/",
+  }],
+  "actors": [{
+    "name": "Robert De Niro",
+    "image": "https://www.usatoday.com/gcdn/presto/2020/08/17/USAT/7a0449c7-ffa8-450d-b65f-77a920a61757-Robert_De_Niro.JPG",
+    "imdb": "https://www.imdb.com/name/nm0000134/?ref_=tt_ov_st"
+  }, {
+    "name": "Anne Hathaway",
+    "image": "https://m.media-amazon.com/images/M/MV5BNzhiN2Y0ZTktOWU2NC00Y2M0LWFiODEtMTQ2NTFiZGVlZmI3XkEyXkFqcGdeQW1pYnJ5YW50._V1_QL75_UX500_CR0,0,500,281_.jpg",
+    "imdb": "https://www.imdb.com/name/nm0004266/",
+  }, {
+    "name": "Rene Russo",
+    "image": "https://nationaltoday.com/wp-content/uploads/2022/10/12-Rene-Russo-1200x834.jpg",
+    "imdb": "https://www.imdb.com/name/nm0000623/"
+  }]
+},
 
+{
+  "item": 184,
+  "title": "Click",
+  "runtime": 107,
+  "mpaa": "PG-13",
+  "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/dad979fb-c4c6-4cc5-9a03-7f85717d5d8f/0e3d0bf50115abec23234a0e0dc31d88acf6edc7.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+  "description": "In 'Click', Michael Newman, a workaholic architect, acquires a magical universal remote control that allows him to manipulate time and reality. Initially using it to skip through mundane parts of his life, Michael soon realizes that the remote controls more than just his surroundings. As he struggles to balance his personal and professional life, he learns valuable lessons about the importance of cherishing every moment.",
+  "genre": ["comedy", "drama", "fantasy"],
+  "link": "https://play.max.com/video/watch/4a0c44b9-792c-4709-8857-d389e7088797/fad89e2d-92c7-4fb2-9f01-8d9c2cd40398",
+  "director": [{
+    "name": "Frank Coraci",
+    "image": "https://deadline.com/wp-content/uploads/2019/02/frank-coraci-e1549972124323.jpg?w=1024",
+    "imdb": "https://www.imdb.com/name/nm0178750/"
+  }],
+  "actors": [{
+    "name": "Adam Sandler",
+    "image": "https://variety.com/wp-content/uploads/2022/09/GettyImages-1400536441.jpg?w=1000&h=563&crop=1",
+    "imdb": "https://www.imdb.com/name/nm0001191/"
+  }, {
+    "name": "Kate Beckinsale",
+    "image": "https://hips.hearstapps.com/hmg-prod/images/kate-beckinsale-attends-the-bach-mai-fashion-show-during-news-photo-1698950708.jpg?crop=1xw:0.375xh;center,top&resize=1200:*",
+    "imdb": "https://www.imdb.com/name/nm0000295/"
+  }, {
+    "name": "Christopher Walken",
+    "image": "https://images.hellomagazine.com/horizon/landscape/9161b01af4bd-christopher-walken.jpg",
+    "imdb": "https://www.imdb.com/name/nm0000686/"
+  }]
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    
-    
-    
-    
-     
 
 
   ]
