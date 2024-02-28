@@ -4992,7 +4992,37 @@ const moviesArray = [
     "image": "https://m.media-amazon.com/images/M/MV5BYmZkNWMzMWYtMTVkNi00YWFlLWExN2YtMzA0ZGZmZGJmMzg5XkEyXkFqcGdeQXVyODY0NzcxNw@@._V1_.jpg",
     "imdb": "https://www.imdb.com/name/nm0001074/"
   }]
+},
+
+{
+  "item": 169,
+  "title": "From Dusk Till Dawn",
+  "runtime": 108,
+  "mpaa": "R",
+  "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/4f841ded-3391-4e0d-b1cb-9996ac7491cb/d5cd85f7b061d7b42ac2844409d54d40e2eeb4ca.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+  "description": "Two criminal brothers, Seth and Richard Gecko, are on the run to Mexico after a series of heists. They seek refuge at a strip club, only to discover that it's populated by vampires. The brothers must join forces with the survivors to fend off the bloodthirsty creatures until dawn.",
+  "genre": ["action", "horror", "crime"],
+  "link": "https://play.max.com/video/watch/faffcb8f-e137-4910-b91f-0ca658acc965/4ee0e181-3bfd-40d1-b787-d4ef8490cdb1",
+  "director": [{
+    "name": "Robert Rodriguez",
+    "image": "https://ca-times.brightspotcdn.com/dims4/default/332357d/2147483647/strip/true/crop/6000x4000+0+0/resize/1200x800!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Ffb%2F13%2F0c4a3c7f45259b80d91f68ff6f35%2Fla-et-we-can-be-heroes-netflix-29.JPG",
+    "imdb": "https://www.imdb.com/name/nm0001675/",
+  }],
+  "actors": [{
+    "name": "George Clooney",
+    "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRYIaq1IibD0byPwoCA61TVzHOu11u8JjcIclfwijR0EvFA59KLCk0RM1DDpeeRnFaTZEO1mVmnMzzFKjg",
+    "imdb": "https://www.imdb.com/name/nm0000123/"
+  }, {
+    "name": "Quentin Tarantino",
+    "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTfp1z_B7M3pWBZ__wU1PSwBAhIZRd6MyxYbc_25PDvGs6MlzsTLejJDtdOh772ILYJch3Fn-hOq8woi-o",
+    "imdb": "https://www.imdb.com/name/nm0000233/",
+  }, {
+    "name": "Harvey Keitel",
+    "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2021/07/896/500/keitel-getty.jpg?ve=1&tl=1",
+    "imdb": "https://www.imdb.com/name/nm0000172/"
+  }]
 }
+
 
 
 
