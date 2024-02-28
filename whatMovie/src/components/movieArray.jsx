@@ -4766,7 +4766,65 @@ const moviesArray = [
     }]
     },
 
-    
+    {    
+      "item": "162",
+      "title": "Good Morning",
+      "runtime": 95,
+      "mpaa": "PG",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/13b954be-f062-4c17-a639-98a602b4eb94/26b9a1ec2d78abe87bd4aaf82ebb3eb0c6c6acf0.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+      "description": "Two boys stop speaking until their parents will buy them a new TV.",
+	"genre": ["comedy", "foreign", "classic", "kids"],
+    "link": "https://play.max.com/video/watch/cc083ba8-da01-40e4-ab0b-3708fe899d58/d689aa1b-2bcc-4044-9041-528ce2152c36",
+    "director": [{
+    "name": "Yasujirō Ozu",
+    "image": "https://www.tasteofcinema.com/wp-content/uploads/2012/09/yasujiro-ozu.jpg",
+    "imdb": "https://www.imdb.com/name/nm0654868/",
+    }],
+    "actors": [{
+      "name": "Keiji Sada",
+      "image": "https://m.media-amazon.com/images/M/MV5BMzQzYWYxMDUtZTc4Ni00OWFlLTg3NDItM2M0YzA0N2E3ZTA2XkEyXkFqcGdeQXVyMTI3MDk3MzQ@._V1_.jpg",
+      "imdb": "https://www.imdb.com/name/nm0755401/",
+    }, {
+      "name": "Yoshiko Kuga",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTM1NTUyMzA0OF5BMl5BanBnXkFtZTcwMDA4MDUwNw@@._V1_.jpg",
+      "imdb": "https://www.imdb.com/name/nm0473984/"
+    }]
+    },
+
+{    
+  "item": 163,
+  "title": "Jennifer's Body",
+  "runtime": 102,
+  "mpaa": "R",
+  "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/7df56b17-de43-4e4e-9d6e-a12cb45ce12c/e53c4cfa522ef4c9f1c5ea7f1449b1b76cd6297e.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+  "description": "When a gorgeous cheerleader is possessed by a demon and starts feeding off the boys in a small Minnesota farming town, her 'plain Jane' best friend must kill her, then escape from a correctional facility to go after the Satan-worshipping rock band responsible for the horrible transformation.",
+  "genre": ["horror", "comedy", "teen"],
+  "link": "https://play.max.com/video/watch/bc3fe7b7-4d02-4946-a12f-70423652ce70/b61f2246-c549-4fbc-b469-856736c58be8",
+  "director": [{
+    "name": "Karyn Kusama",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXn4w3Nw5Xxu77KUVwG1nSJI95Y5GYRlV4iUsqPvtADc2PycMd",
+    "imdb": "https://www.imdb.com/name/nm0473431/"
+  }],
+  "actors": [{
+    "name": "Megan Fox",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNDIsoA9g0F1aZ9opcUOYwyZegpjgZiV9qtpCznBEMpsWtsBRe",
+    "imdb": "https://www.imdb.com/name/nm1083271/"
+  }, {
+    "name": "Amanda Seyfried",
+    "image": "https://www.hollywoodreporter.com/wp-content/uploads/2022/02/Amanda_Seyfried_David_Needleman_THR_A_369-Splash-2022.jpg?w=1024",
+    "imdb": "https://www.imdb.com/name/nm1086543/"
+  }, {
+    "name": "Adam Brody",
+    "image": "https://media.gq.com/photos/5d5afe0a8e1da70008fd5e64/4:3/w_4056,h_3042,c_limit/adam-brody-140709_01_008_Cover-02.jpg",
+    "imdb": "https://www.imdb.com/name/nm0111013/"
+  }]
+},
+
+
+
+
+
+
 
 
 
