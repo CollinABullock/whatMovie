@@ -192,6 +192,66 @@ const moviesArray = [
         "imdb": "https://www.imdb.com/name/nm1638319/"
       }]
     },
+
+    {
+      "item": "12n",
+      "title": "Hot Tub Time Machine",
+      "runtime": 101,
+      "mpaa": "R",
+      "poster": "https://occ-0-90-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABVCk1Gwq98YtE0AtBAsi3gSCpMq5zZ6sNlzyFGwTc7i1EPu7vRAYz_NoW278pEKRUsqxwA7GPTkmjm2vIb7FHlldoCfG9EX-t9lL.jpg?r=28b",
+      "description": "Three friends travel back in time via a hot tub to the 1980s, where they must relive a fateful night from their past. As they navigate through the decade, they realize they have the opportunity to change their futures.",
+      "genre": ["comedy", "sci-fi"],
+      "link": "https://www.netflix.com/title/70118951",
+      "director": [{
+        "name": "Steve Pink",
+        "image": "https://deadline.com/wp-content/uploads/2017/11/steve-pink.jpg?w=681&h=383&crop=1",
+        "imdb": "https://www.imdb.com/name/nm0683123/"
+      }],
+      "actors": [{
+        "name": "John Cusack",
+        "image": "https://variety.com/wp-content/uploads/2023/07/GettyImages-510653734.jpg",
+        "imdb": "https://www.imdb.com/name/nm0000131/"
+      }, {
+        "name": "Craig Robinson",
+        "image": "https://dims.apnews.com/dims4/default/43ee80c/2147483647/strip/false/crop/5760x3840+0+0/resize/1486x991!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F87%2Feb%2F8843e6194b5c05384daba3eccd8c%2F619bcf9d1bd0427694c2259c579c8d8f",
+        "imdb": "https://www.imdb.com/name/nm0732497/"
+      }, {
+        "name": "Rob Corddry",
+        "image": "https://esq.h-cdn.co/assets/16/28/768x432/hd-aspect-1468445491-rob-corddry-ballers.jpg",
+        "imdb": "https://www.imdb.com/name/nm0174374/"
+      }]
+    },
+
+    {
+      "item": "13n",
+      "title": "Dirty Grandpa",
+      "runtime": 102,
+      "mpaa": "R",
+      "poster": "https://occ-0-90-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABdbkT63Jq3b9lCO1WSpPefv5fAKfVbDLXhv_D2mVmLCfjwgyOnMttZuKIN90F7U_g-n1OhNPwE-6Nrs9rJP8-OOeF3TurH20Jhts.jpg?r=d81",
+      "description": "Right before his wedding, an uptight guy is tricked into driving his foul-mouthed grandfather, a former Army general, to Florida for spring break. Chaos ensues as they embark on a wild and raunchy journey.",
+      "genre": ["comedy"],
+      "link": "https://www.netflix.com/title/80049285",
+      "director": [{
+        "name": "Dan Mazer",
+        "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/01/27/21/pg-38-dan-mazer-1-cfb.jpg?width=1200",
+        "imdb": "https://www.imdb.com/name/nm0562997/"
+      }],
+      "actors": [{
+        "name": "Robert DeNiro",
+        "image": "https://www.usatoday.com/gcdn/presto/2020/08/17/USAT/7a0449c7-ffa8-450d-b65f-77a920a61757-Robert_De_Niro.JPG",
+        "imdb": "https://www.imdb.com/name/nm0000134/?ref_=tt_ov_st"
+      }, {
+        "name": "Zac Efron",
+        "image": "https://stylecaster.com/wp-content/uploads/2022/05/Zac-Efron-3.jpg?w=600&h=337&crop=1",
+        "imdb": "https://www.imdb.com/name/nm1374980/?ref_=tt_ov_st",
+      }, {
+        "name": "Zoey Deutch",
+        "image": "https://www.j-14.com/wp-content/uploads/2022/11/zoey-deutch.jpg?fit=3984%2C2656&quality=86&strip=all",
+        "imdb": "https://www.imdb.com/name/nm3614913/"
+      }]
+    },
+    
+    
     
 
     {    
@@ -1076,6 +1136,36 @@ const moviesArray = [
       "imdb": "https://www.imdb.com/name/nm6170168/?ref_=tt_cl_t_3"
     }]
     },
+
+    {
+      "item": "14n",
+      "title": "Erin Brockovich",
+      "runtime": 131,
+      "mpaa": "R",
+      "poster": "https://occ-0-90-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABVTqrmN0F5HJ_Ie0x5gm5H4CM_TglpgPzQpcvgVZN3-YQEf-U1nOVce3qZbqZ2MVbtROHn94CNQt-fba1VWRyu9bja90rbqi2RA.jpg?r=bca",
+      "description": "Based on a true story, Erin Brockovich is a legal assistant who uncovers a massive environmental scandal involving contaminated water. Despite lacking formal legal training, she takes on a powerful corporation and fights for justice for the affected community.",
+      "genre": ["biopic", "drama"],
+      "link": "",
+      "director": [{
+        "name": "Steven Soderbergh",
+        "image": "https://media.gq.com/photos/6086e2a2a300ae172cbcc456/16:9/w_2560%2Cc_limit/GettyImages-1314456484.jpeg",
+        "imdb": "https://www.imdb.com/name/nm0001752/"
+      }],
+      "actors": [{
+        "name": "Julia Roberts",
+        "image": "https://people.com/thmb/IhNIeEk1h5D2I6URYBtwRXb-S5s=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(703x165:705x167)/Julia-Roberts-on-the-tonight-show-tout-120623-7c30d086ccb44f09a9563abdb0427af6.jpg",
+        "imdb": "https://www.imdb.com/name/nm0000210/?ref_=tt_ov_st",
+      }, {
+        "name": "Albert Finney",
+        "image": "https://www.looper.com/img/gallery/the-untold-uruth-of-albert-finney/intro-1550008058.jpg",
+        "imdb": "https://www.imdb.com/name/nm0001215/"
+      }, {
+        "name": "Aaron Eckhardt",
+        "image": "https://deadline.com/wp-content/uploads/2023/02/aaron.jpg",
+        "imdb": "https://www.imdb.com/name/nm0001173/",
+      }]
+    }
+    
 
     {    
       "item": "42",
