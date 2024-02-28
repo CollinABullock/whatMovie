@@ -11,6 +11,7 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
   const [isStreamingServicesOpen, setStreamingServicesOpen] = useState(false); // State for streaming services visibility
   const [isRuntimeOpen, setIsRuntimeOpen] = useState(false); 
   const [isPreferredGenresOpen, setIsPreferredGenresOpen] = useState(false);
+  const [isSelectedGenresOpen, setIsSelectedGenresOpen] = useState(false);
   
 
 
@@ -194,7 +195,11 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
       </div>
 
       <div style={{ marginBottom: '30px', border: '1px solid #ccc', padding: '15px' }}>
+      <div style={{ display: 'flex', alignItems: 'center', cursor: 'pointer', marginBottom: '10px' }} onClick={() => setIsSelectedGenresOpen(!isSelectedGenresOpen)}>
         <h4>What kind of movie <span style={{ color: 'red', fontSize: '1.2em', textDecoration: 'underline' }}>DON'T</span> you want to see?</h4>
+        {isSelectedGenresOpen ? <BsChevronUp style={{"boxShadow": "5px 5px 5px green", "margin": "10px"}}/> : <BsChevronDown style={{"boxShadow": "5px 5px 5px gred", "margin": "10px"}} />} {/* Display the arrow icon based on the state */}
+        </div>
+        {isSelectedGenresOpen && (
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '10px' }}>
           {uniqueGenres.filter(genre => !preferredGenres.includes(genre)).map(genre => (
             <label key={genre} style={{ display: 'flex', alignItems: 'center' }}>
@@ -208,7 +213,7 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
             </label>
           ))}
         </div>
-        
+        )}
       </div>
 
       <div style={{ padding: "15px", marginBottom: "30px"}}>
