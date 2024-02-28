@@ -5576,7 +5576,37 @@ const moviesArray = [
     "image": "https://images.hellomagazine.com/horizon/landscape/9161b01af4bd-christopher-walken.jpg",
     "imdb": "https://www.imdb.com/name/nm0000686/"
   }]
+},
+
+{
+  "item": 185,
+  "title": "High Life",
+  "runtime": 113,
+  "mpaa": "R",
+  "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/f9ccbc2b-fde5-48a6-9853-fa815b857f16/b6c083488a67b7cab0448c549e7bdfbfbde14628.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+  "description": "In 'High Life', a group of convicts are sent on a dangerous space mission to explore a black hole. As they navigate the perils of space and isolation, they become subjects of a series of strange experiments conducted by the ship's enigmatic doctor. Tensions rise as they confront their pasts and struggle to survive in the unforgiving depths of space.",
+  "genre": ["sci-fi", "drama", "thriller"],
+  "link": "https://play.max.com/video/watch/d12aee58-edd6-4311-aa6e-524eebf2b24d/3a6fe820-1a51-4c69-becd-a0d52d2e7d92",
+  "director": [{
+    "name": "Claire Denis",
+    "image": "https://i.guim.co.uk/img/media/089a06c37bed5ea3256c016688897e3ebf7e7d84/606_189_5535_3321/master/5535.jpg?width=1200&quality=85&auto=format&fit=max&s=e986e83404c0a98b4590a143c1245be9",
+    "imdb": "https://www.imdb.com/name/nm0220400/"
+  }],
+  "actors": [{
+    "name": "Robert Pattinson",
+    "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/rockcms/2022-04/220422-robert-pattinson-mjf-1612-0a6f9c.jpg",
+    "imdb": "https://www.imdb.com/name/nm1500155/"
+  }, {
+    "name": "Juliette Binoche",
+    "image": "https://media.cnn.com/api/v1/images/stellar/prod/220726105231-juliette-binoche-220212.jpg?c=16x9",
+    "imdb": "https://www.imdb.com/name/nm0000300/"
+  }, {
+    "name": "André Benjamin",
+    "image": "https://www.rollingstone.com/wp-content/uploads/2023/11/Andre-3000-Press-Photo-1-credit_-Kai-Regan.jpg?w=1581&h=1054&crop=1",
+    "imdb": "https://www.imdb.com/name/nm0004736/"
+  }]
 }
+
 
 
 
