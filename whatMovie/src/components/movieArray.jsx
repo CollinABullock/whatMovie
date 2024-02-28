@@ -4843,6 +4843,42 @@ const moviesArray = [
     "image": "https://bylines.cymru/wp-content/uploads/2023/09/Virginia-Cherrill.jpeg",
     "imdb": "https://www.imdb.com/name/nm0155822/"
   }]
+},
+
+Sure, here's an entry for the film "While We're Young":
+
+```json
+{
+  "item": 165,
+  "title": "While We're Young",
+  "runtime": 97,
+  "mpaa": "R",
+  "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/fb8fbbd5-988d-428a-b00b-9b3eaaa2f3eb/e56ac7ef3bb72e300186175dd7490666276c10e2.jpg?submitted=1684676210089&host=wbd-images.prod-vod.h264.io&partner=beamcom",
+  "description": "While We're Young follows a middle-aged couple, Josh and Cornelia, whose lives are disrupted when they befriend a much younger, free-spirited couple, Jamie and Darby. As they immerse themselves in the younger couple's world, Josh and Cornelia experience a mixture of excitement, envy, and self-reflection.",
+  "genre": ["comedy", "drama"],
+  "link": "https://play.max.com/video/watch/6827b8a7-1199-4d6f-92f8-da1aed028874/5fafb837-07e3-4047-8f09-cccb14557a93",
+  "director": [{
+    "name": "Noah Baumbach",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLe374BJWRV1p48CQ_6-3lKN_QoBFIODzXmxeSmvdsZ0JDPnQR",
+    "imdb": "https://www.imdb.com/name/nm0000876/"
+  }],
+  "actors": [{
+    "name": "Ben Stiller",
+    "image": "https://www.indiewire.com/wp-content/uploads/2022/08/Ben-Stiller.jpg",
+    "imdb": "https://www.imdb.com/name/nm0001774/?ref_=tt_ov_st",
+  }, {
+    "name": "Naomi Watts",
+    "image": "https://m.media-amazon.com/images/M/MV5BNmI3MmFjMmYtY2JlNy00MDliLWE2YzMtMDVkZDJlYWM4MTk3XkEyXkFqcGdeQW1pYnJ5YW50._V1_QL75_UX500_CR0,0,500,281_.jpg",
+    "imdb": "https://www.imdb.com/name/nm0915208/",
+  }, {
+    "name": "Adam Driver",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfHXwIoFRZIuw12sbWKGf6w0IEQ5wdnZzopg&usqp=CAU",
+    "imdb": "https://www.imdb.com/name/nm3485845/",
+  }, {
+    "name": "Amanda Seyfried",
+    "image": "https://www.hollywoodreporter.com/wp-content/uploads/2022/02/Amanda_Seyfried_David_Needleman_THR_A_369-Splash-2022.jpg?w=1024",
+    "imdb": "https://www.imdb.com/name/nm1086543/"
+  }]
 }
 
 

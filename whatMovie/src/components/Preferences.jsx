@@ -97,7 +97,7 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
         <div style={{ marginBottom: '30px', width: "100%", border: '1px solid #ccc', padding: '15px' }}>
         <div style={{ display: 'flex', alignItems: 'center', cursor: 'pointer', marginBottom: '10px' }} onClick={() => setStreamingServicesOpen(!isStreamingServicesOpen)}>
   <p style={{ marginRight: '5px' }}>What streaming services are you currently paying for and/or stealing?</p>
-  {isStreamingServicesOpen ? <BsChevronUp style={{"boxShadow": "5px 5px 5px red", "margin": "10px"}}/> : <BsChevronDown style={{"boxShadow": "5px 5px 5px green", "margin": "10px"}} />} {/* Display the arrow icon based on the state */}
+  {isStreamingServicesOpen ? <BsChevronUp style={{"boxShadow": "5px 5px 5px green", "margin": "10px"}}/> : <BsChevronDown style={{"boxShadow": "5px 5px 5px gred", "margin": "10px"}} />} {/* Display the arrow icon based on the state */}
 </div>
 
         {isStreamingServicesOpen && (

@@ -170,7 +170,7 @@ export default function RandomMovie({ selectedRuntime  }) {
           </Card>
         </motion.div>
       ) : (
-        <Card style={{backgroundColor: "#58355E", alignItems: "center", marginTop: "10px"}}>
+        <Card style={{backgroundColor: "#58355E", alignItems: "center", marginTop: "425px"}}>
           <h1 style={{color: "white", textShadow: "2px 2px 2px black"}}>What movie should you watch tonight?</h1>
           <button className="randomMovie" onClick={handleRandomMovie}>Pick a random movie</button>
         </Card>
