@@ -5166,7 +5166,37 @@ const moviesArray = [
     "image": "https://hips.hearstapps.com/hmg-prod/images/kevin-bacon-on-tuesday-september-5-2023-news-photo-1699564230.jpg?crop=1xw:0.84375xh;center,top&resize=1200:*",
     "imdb": "https://www.imdb.com/name/nm0000102/"
   }]
+},
+
+{    
+  "item": "175",
+  "title": "Midsommar",
+  "runtime": 147,
+  "mpaa": "R",
+  "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/1ce3b54f-7e35-4cdf-a60e-b52b5468ac27/329ff1adc9c6b311fb62590a8d011e69b4238838.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+  "description": "A couple travels to Sweden to visit a rural hometown's fabled mid-summer festival. What begins as an idyllic retreat quickly devolves into an increasingly violent and bizarre competition at the hands of a pagan cult.",
+  "genre": ["drama", "horror", "mystery"],
+  "link": "https://play.max.com/video/watch/68f4c4a6-9fe4-4a68-addd-e8c432072a4f/27fb1707-8e38-433e-a352-cdaad9dfc7e5",
+  "director": [{
+    "name": "Ari Aster",
+    "image": "https://media.gq.com/photos/645021b7b9334d15567ae21c/3:2/w_3998,h_2665,c_limit/1481286424",
+    "imdb": "https://www.imdb.com/name/nm4583742/"
+  }],
+  "actors": [{
+    "name": "Florence Pugh",
+    "image": "https://media1.popsugar-assets.com/files/thumbor/QssutrME6tERtz-5fRr6nHFgLS0=/fit-in/792x528/top/filters:format_auto():upscale()/2023/01/12/747/n/1922398/tmp_kCwFvt_67ee3c82b10d784a_GettyImages-1446980033.jpg",
+    "imdb": "https://www.imdb.com/name/nm2185547/"
+  }, {
+    "name": "Jack Reynor",
+    "image": "https://hips.hearstapps.com/hmg-prod/images/jack-reynor-midsommar-1562018238.jpg",
+    "imdb": "https://www.imdb.com/name/nm4260361/"
+  }, {
+    "name": "William Jackson Harper",
+    "image": "https://media.gq.com/photos/5a4d34bac2cf0649ff7c2596/4:3/w_2664,h_1998,c_limit/william-jackson-harper-04.jpg",
+    "imdb": "https://www.imdb.com/name/nm2391117/"
+  }]
 }
+
 
 
 
