@@ -25,10 +25,21 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
       }
       return acc;
     }, []);
-    
+
+    console.log("filtered directors:", {filteredDirectors});
+  
+    const uniqueDirectors = new Set(); // Set to keep track of unique directors
     const filtered = searchTerm.trim() === '' ?
       [] :
-      flattenedDirectors.filter(director => director.name.toLowerCase().includes(searchTerm));
+      flattenedDirectors.filter(director => {
+        const lowerCaseName = director.name.toLowerCase();
+        // Check if director's name includes search term and if it's not already in uniqueDirectors
+        if (lowerCaseName.includes(searchTerm) && !uniqueDirectors.has(lowerCaseName)) {
+          uniqueDirectors.add(lowerCaseName); // Add director's name to set
+          return true;
+        }
+        return false;
+      });
   
     setFilteredDirectors(filtered);
     setDirectorSearch(event.target.value);
