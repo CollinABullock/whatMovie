@@ -1164,8 +1164,9 @@ const moviesArray = [
         "image": "https://deadline.com/wp-content/uploads/2023/02/aaron.jpg",
         "imdb": "https://www.imdb.com/name/nm0001173/",
       }]
-    }
-    
+    },
+
+
 
     {    
       "item": "42",
@@ -1441,6 +1442,36 @@ const moviesArray = [
       "imdb": "https://www.imdb.com/name/nm0788335/",
     }]
     },
+
+    {
+      "item": "51n",
+      "title": "The Old Guard",
+      "runtime": 125,
+      "mpaa": "R",
+      "poster": "https://occ-0-90-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABTRwpR8qE8vXemBBa1eSs_BGeoGYsRtUxITmEME8FWCsOeS96BqwIs66zmh0WzymFsZB2MTB9HPl3pj3E75K4Z1hB2u9kV7VIpuxMA19gF1ygXhZrf8SrovBy4l37oOoG9w9.jpg?r=75c",
+      "description": "A group of immortal mercenaries, led by the warrior Andy, has fought to protect the world for centuries. When their secret is exposed, they must battle to maintain their freedom and protect their abilities from those who seek to exploit them.",
+      "genre": ["action", "fantasy"],
+      "link": "https://www.netflix.com/title/81038963",
+      "director": [{
+        "name": "Gina Prince-Bythewood",
+    "image": "https://variety.com/wp-content/uploads/2023/02/gina-prince-bythewood-naacp.jpg?w=1000&h=563&crop=1",
+    "imdb": "https://www.imdb.com/name/nm0697656/",
+      }],
+      "actors": [{
+        "name": "Charlize Theron",
+        "image": "https://variety.com/wp-content/uploads/2023/08/GettyImages-1490338443-e1692731846946.jpg",
+        "imdb": "https://www.imdb.com/name/nm0000234/"
+      }, {
+        "name": "KiKi Layne",
+        "image": "https://m.media-amazon.com/images/M/MV5BODcyNDM5ODM3OF5BMl5BanBnXkFtZTgwNzkxNjA1NzM@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm8141470/"
+      }, {
+        "name": "Matthias Schoenaerts",
+        "image": "https://variety.com/wp-content/uploads/2020/06/matthias-schoenaerts.jpg?w=1000",
+        "imdb": "https://www.imdb.com/name/nm0774386/"
+      }]
+    },
+    
 
     {    
       "item": "52",
