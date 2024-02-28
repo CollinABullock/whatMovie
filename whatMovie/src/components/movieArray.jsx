@@ -5021,7 +5021,37 @@ const moviesArray = [
     "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2021/07/896/500/keitel-getty.jpg?ve=1&tl=1",
     "imdb": "https://www.imdb.com/name/nm0000172/"
   }]
+},
+
+{
+  "item": 170,
+  "title": "Seven",
+  "runtime": 127,
+  "mpaa": "R",
+  "poster": "https://i0.wp.com/vaguevisages.com/wp-content/uploads/2024/02/Seven-Cast-Netflix-Every-Actor-Character.jpeg?resize=890%2C501&ssl=1",
+  "description": "Seven is a 1995 neo-noir crime thriller film directed by David Fincher. The story revolves around two detectives, Somerset and Mills, who investigate a series of gruesome murders inspired by the seven deadly sins. As they delve deeper into the case, they find themselves entangled in a game of cat and mouse with a sadistic and methodical serial killer.",
+  "genre": ["crime", "drama", "mystery", "film-noir"],
+  "link": "https://play.max.com/video/watch/3f06ef4e-9319-4ea4-8773-62e04b89a479/848a8082-03e1-48a7-bb53-a17f87935029",
+  "director": [{
+    "name": "David Fincher",
+    "image": "https://www.premiumbeat.com/blog/wp-content/uploads/2022/11/featuredimage.jpg",
+    "imdb": "https://www.imdb.com/name/nm0000399/"
+  }],
+  "actors": [{
+    "name": "Brad Pitt",
+    "image": "https://m.media-amazon.com/images/M/MV5BMWRkMDE5MjUtN2MyYi00MzAyLWIwOWMtNWU0NzNkZDczOWUyXkEyXkFqcGdeQUlNRGJWaWRlb1RodW1ibmFpbFNlcnZpY2U@._V1_QL75_UX500_CR0,0,500,281_.jpg",
+    "imdb": "https://www.imdb.com/name/nm0000093/"
+  }, {
+    "name": "Morgan Freeman",
+    "image": "https://mediaproxy.salon.com/width/1200/height/675/https://media2.salon.com/2014/06/morgan_freeman.jpg",
+    "imdb": "https://www.imdb.com/name/nm0000151/",
+  }, {
+    "name": "Kevin Spacey",
+    "image": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcTiyOulQsurY8yWv0QU0iGMagYmHcchpbMwH886xg98ySkrTPeLi6ptfXyIrbt6cOadxy0x8TldEiIntqU",
+    "imdb": "https://www.imdb.com/name/nm0000228/",
+  }]
 }
+
 
 
 
