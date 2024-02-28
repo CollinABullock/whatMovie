@@ -1,5 +1,40 @@
 const moviesArray = [
-  [{"item": "1", "title": "John Wick", "runtime": 101, "description": "When a gangster's son steals his car and kills his dog, fearless ex-assassin John Wick takes on the entire mob to get his revenge.", "genre": ["film-noir", "action", "drama"], "mpaa": "R", "poster": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABd82SjUzYAkpfT3wMv9DPApULQDaJGDEwZSDRkGP3x4UUk_66soLbnz9JGctOeact-aS1owjJoWYh73XU3nkO9KbNYnRpF4y14bv.jpg?r=dc8", "actors": [{"name": "Keanu Reeves", "image": "https://www.rollingstone.com/wp-content/uploads/2023/05/GettyImages-1493917424-2.jpg?w=1024", "imdb": "https://www.imdb.com/name/nm0000206/"}, {"name": "Michael Nyqvist", "image": "https://variety.com/wp-content/uploads/2017/06/michael-nyqvist-dead.jpg", "imdb": "https://www.imdb.com/name/nm0638824/"}, {"name": "Aflie Allen", "image": "https://static.foxnews.com/foxnews.com/content/uploads/2019/12/alfie-allen-getty.jpg"}], "link": "https://www.netflix.com/title/80013762", 
+
+  // start netflix array
+  
+  [
+    
+    {
+      "item": "1n",
+      "title": "The Power of the Dog",
+      "runtime": 126,
+      "mpaa": "R",
+      "poster": "https://ntvb.tmsimg.com/assets/p20420065_v_h10_ae.jpg?w=1280&h=720",
+      "description": "In 'The Power of the Dog', Phil Burbank, a charismatic and domineering rancher in 1925 Montana, harbors resentment towards his brother George's new wife, Rose. Phil's cruelty and manipulation escalate as he tries to undermine Rose's presence on the ranch, leading to devastating consequences for all involved. As tensions simmer and secrets unravel, the power dynamics within the family are irrevocably changed.",
+      "genre": ["drama", "western"],
+      "link": "https://www.netflix.com/title/81127997",
+      "director": [{
+        "name": "Jane Campion",
+        "image": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcRIfZ_wA1a_ouGQNUTOqXrrhu1Ck1HOCrpsabxtD6K-nN9qunhieghg0Ps4aBvpTQELCIyyuR41s_vAPfY",
+        "imdb": "https://www.imdb.com/name/nm0001005/"
+      }],
+      "actors": [{
+        "name": "Benedict Cumberbatch",
+        "image": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQGmHL-BcHjg88O86o6fvQZczoYVezhcvkDNO4h0KFFOlw_Rp748h2XS1LucLKUR-EbIdnIxVducQAgZBo",
+        "imdb": "https://www.imdb.com/name/nm1212722/"
+      }, {
+        "name": "Kirsten Dunst",
+        "image": "https://people.com/thmb/t0tfzxEbftdvKZxRNNfDYz_u-ps=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(809x274:811x276)/kirsten-dunst-4c8ebd76adbd4eb2931f5c455c5be858.jpg",
+        "imdb": "https://www.imdb.com/name/nm0000379/"
+      }, {
+        "name": "Jesse Plemons",
+        "image": "https://img.texasmonthly.com/2021/06/jesse-plemons.jpg?auto=compress&crop=faces&fit=crop&fm=jpg&h=900&ixlib=php-3.3.1&q=45&w=1600",
+        "imdb": "https://www.imdb.com/name/nm0687146/"
+      }]
+    },
+    
+    
+    {"item": "1", "title": "John Wick", "runtime": 101, "description": "When a gangster's son steals his car and kills his dog, fearless ex-assassin John Wick takes on the entire mob to get his revenge.", "genre": ["film-noir", "action", "drama"], "mpaa": "R", "poster": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABd82SjUzYAkpfT3wMv9DPApULQDaJGDEwZSDRkGP3x4UUk_66soLbnz9JGctOeact-aS1owjJoWYh73XU3nkO9KbNYnRpF4y14bv.jpg?r=dc8", "actors": [{"name": "Keanu Reeves", "image": "https://www.rollingstone.com/wp-content/uploads/2023/05/GettyImages-1493917424-2.jpg?w=1024", "imdb": "https://www.imdb.com/name/nm0000206/"}, {"name": "Michael Nyqvist", "image": "https://variety.com/wp-content/uploads/2017/06/michael-nyqvist-dead.jpg", "imdb": "https://www.imdb.com/name/nm0638824/"}, {"name": "Aflie Allen", "image": "https://static.foxnews.com/foxnews.com/content/uploads/2019/12/alfie-allen-getty.jpg"}], "link": "https://www.netflix.com/title/80013762", 
   "director": [{
     "name": "Chad Stahelski",
     "image": "https://www.looper.com/img/gallery/john-wick-4-director-chad-stahelski-talks-the-franchises-past-future-and-more-exclusive-interview/l-intro-1679324141.jpg",
@@ -3130,8 +3165,35 @@ const moviesArray = [
     },
   ],
 
-  // start max array
+// start max array
+
   [
+
+    {    
+      "item": "1m",
+      "title": "Priscilla",
+      "runtime": 113,
+      "mpaa": "R",
+      "poster": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2024%2F02%2Fsofia-coppola-a24-priscilla-max-streaming-release-info-1.jpg?cbr=1&q=90",
+      "description": "Sofia Coppola's riveting film about the explosive love affair between Priscilla Beaulieu (Cailee Spaeny) and Elvis Presley (Jacob Elordi).",
+	"genre": ["drama", "romance", "biopic"],
+    "link": "https://play.max.com/movie/ba04ae75-08d6-42ca-81ad-d29580f62d93?tab=generic-movie-page-rail-content-details-tab",
+    "director": [{
+    "name": "Sofia Coppola",
+    "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRTwZ66rUeyNu4p5-eTe2FXWI-iNjigxfOXmNWW7t-f6BmbHRmilZGpZ-hTLqv88tYfr0v9Z3lC82VoSvY",
+    "imdb": "https://www.imdb.com/name/nm0001068/",
+    }],
+    "actors": [{
+      "name": "Cailee Spaeny",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTeUEJ7lCn1sB-oCI97gyW1HlWMHEoJ_7kiYWln5SJDukyV0q4k",
+      "imdb": "https://www.imdb.com/name/nm8314228/",
+    }, {
+      "name": "Jacob Elordi",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTY0YmViMTEtMWZkMy00YWZmLTkxMDQtMWU5YTVkZjYwODBmXkEyXkFqcGdeQXJoYW5uYWg@._V1_QL75_UX500_CR0,0,500,281_.jpg",
+      "imdb": "https://www.imdb.com/name/nm8624059/"
+    }]
+    },
+
     {    
       "item": "103",
       "title": "Avatar",
@@ -5766,7 +5828,7 @@ const moviesArray = [
     "imdb": "https://www.imdb.com/name/nm0000144/"
   }, {
     "name": "Richard Lewis",
-    "image": "https://www.usatoday.com/gcdn/presto/2023/04/24/USAT/ac96d30f-3a5c-4c72-8806-3cf5344bb60f-richard_lewis.jpg?width=660&height=505&fit=crop&format=pjpg&auto=webp",
+    "image": "https://www.indiewire.com/wp-content/uploads/2024/02/Richard-Lewis.jpg?w=600&h=337&crop=1",
     "imdb": "https://www.imdb.com/name/nm0507659/"
   }, {
     "name": "Dave Chappelle",
@@ -5780,24 +5842,22 @@ const moviesArray = [
   "title": "Spaceballs",
   "runtime": 96,
   "mpaa": "PG",
-  "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/b09eb74a-e129-4862-94f7-4280bdbfb71b/1b37d6aa7b781c691f34d77a46b5838f25f284be.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+  "poster": "",
   "description": "In 'Spaceballs', Lone Starr and his half-man, half-dog companion, Barf, are hired by Princess Vespa's father to rescue her from the clutches of the evil Dark Helmet. Along the way, they encounter a motley crew of characters, including the wise but eccentric Yogurt and the flamboyant President Skroob, as they embark on a hilarious parody-filled adventure through the galaxy.",
   "genre": ["comedy", "sci-fi"],
-  "link": "https://play.max.com/video/watch/aa2e17f8-0fa0-4c73-95bf-f07b23771cef/0272f601-dbdb-49f7-8006-7a7e9bf45e1b",
+  "link": "",
   "director": [{
-    "director": [{
-      "name": "Mel Brooks",
-      "image": "https://cdn.aarp.net/content/dam/aarp/entertainment/celebrities/2022/01/1140-mel-brooks-2016.jpg",
-      "imdb": "https://www.imdb.com/name/nm0000316/?ref_=tt_ov_dr",
+    "name": "Mel Brooks",
+    "image": "https://cdn.aarp.net/content/dam/aarp/entertainment/celebrities/2022/01/1140-mel-brooks-2016.jpg",
+    "imdb": "https://www.imdb.com/name/nm0000316/?ref_=tt_ov_dr",
   }],
   "actors": [{
-    "director": [{
-      "name": "Mel Brooks",
-      "image": "https://cdn.aarp.net/content/dam/aarp/entertainment/celebrities/2022/01/1140-mel-brooks-2016.jpg",
-      "imdb": "https://www.imdb.com/name/nm0000316/?ref_=tt_ov_dr",
+    "name": "Mel Brooks",
+    "image": "https://cdn.aarp.net/content/dam/aarp/entertainment/celebrities/2022/01/1140-mel-brooks-2016.jpg",
+    "imdb": "https://www.imdb.com/name/nm0000316/?ref_=tt_ov_dr",
   }, {
     "name": "John Candy",
-    "image": "https://miro.medium.com/v2/resize:fit:780/1*jyPaZo2IMSmKHKzVkzv9OQ.png",
+    "image": "https://www.looper.com/img/gallery/the-untold-truth-of-john-candy/intro-1661445783.jpg",
     "imdb": "https://www.imdb.com/name/nm0001006/"
   }, {
     "name": "Rick Moranis",
@@ -5806,8 +5866,393 @@ const moviesArray = [
   }]
 },
 
-  ],
-],
+
+{
+  "item": 193,
+  "title": "Bill & Ted's Excellent Adventure",
+  "runtime": 90,
+  "mpaa": "PG",
+  "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/e63236ad-7e41-41f0-a0ef-a01798da280d/c23c78bcbf41d561dd73ef651b105d1a05a85ec3.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+  "description": "In 'Bill & Ted's Excellent Adventure', two dim-witted high school students, Bill S. Preston, Esq. and Ted 'Theodore' Logan, are visited by Rufus, a time-traveling messenger from the future. Rufus informs them that their band, Wyld Stallyns, holds the key to world peace, and they must ace their history presentation to ensure their future success. With the help of a time-traveling phone booth, Bill and Ted embark on a wild journey through history, meeting historical figures and learning valuable lessons along the way.",
+  "genre": ["comedy", "science-fiction"],
+  "link": "https://play.max.com/video/watch/4e8121c3-458d-49ed-beb4-4ec6ffd0d0cc/3fdebc32-4b0e-4c9d-aae0-2942daa991a1",
+  "director": [{
+    "name": "Stephen Herek",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTk5MjI5MTAxM15BMl5BanBnXkFtZTcwMDU4NTgwMw@@._V1_.jpg",
+    "imdb": "https://www.imdb.com/name/nm0379319/"
+  }],
+  "actors": [{
+    "name": "Keanu Reeves",
+    "image": "https://deadline.com/wp-content/uploads/2023/03/Keanu-Reeves-constantine-wolverine.jpg?w=681&h=383&crop=1",
+    "imdb": "https://www.imdb.com/name/nm0000206/"
+  }, {
+    "name": "Alex Winter",
+    "image": "https://media.newyorker.com/photos/5f14bd0068db026f7c859cc3/4:3/w_2276,h_1707,c_limit/Pappademas-AlexWinter.jpg",
+    "imdb": "https://www.imdb.com/name/nm0934965/"
+  }, {
+    "name": "George Carlin",
+    "image": "https://variety.com/wp-content/uploads/2022/05/george-carlin.jpg",
+    "imdb": "https://www.imdb.com/name/nm0001000/"
+  }]
+},
+
+{
+  "item": 194,
+  "title": "A Night at the Roxbury",
+  "runtime": 82,
+  "mpaa": "PG-13",
+  "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/4b20f246-df54-489c-86f7-f429e8d11940/45388079bba68cd955d8879f8b984b8a180eba9d.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+  "description": "In 'A Night at the Roxbury', brothers Steve and Doug Butabi are devoted club-goers with dreams of opening their own nightclub. Despite their constant rejection from trendy clubs, they continue to pursue their passion for nightlife. When they finally get a chance to prove themselves, they must navigate through various obstacles, including familial disapproval and romantic entanglements, to achieve their goal.",
+  "genre": ["comedy"],
+  "link": "https://play.max.com/movie/4b20f246-df54-489c-86f7-f429e8d11940",
+  "director": [{
+    "name": "John Fortenberry",
+    "image": "https://m.media-amazon.com/images/M/MV5BNzE5NTA5MWYtMTA1ZS00ZDRhLTk2NTAtY2UxYTY0YzI2MjE3XkEyXkFqcGdeQXVyNjc5Mjg0NjU@._V1_.jpg",
+    "imdb": "https://www.imdb.com/name/nm0286675/"
+  }],
+  "actors": [{
+    "name": "Will Ferrell",
+    "image": "https://ca-times.brightspotcdn.com/dims4/default/076a75b/2147483647/strip/false/crop/3500x1969+0+176/resize/1200x675!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F35%2F0c%2F568646e5482e8f5ce52d1d84b1cd%2Fny-premiere-of-apple-tvs-the-shrink-next-door-90227.jpg",
+    "imdb": "https://www.imdb.com/name/nm0002071/?ref_=nv_sr_srsg_0_tt_6_nm_2_q_will%2520ferrell",
+  }, {
+    "name": "Chris Kattan",
+    "image": "https://ew.com/thmb/QhbNH2NE4bU8Je0BoZN0qcVgGGc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/gettyimages-632746554-2000-e239a86aa2d84b739384738fc9dce9f6.jpg",
+    "imdb": "https://www.imdb.com/name/nm0005088/"
+  }, {
+    "name": "Molly Shannon",
+    "image": "https://www.kcrw.com/culture/shows/the-treatment/molly-shannon-hello-molly/@@images/rectangular_image/page-header?v=1652861683.06",
+    "imdb": "https://www.imdb.com/name/nm0786609/"
+  }]
+},
+
+{
+  "item": 195,
+  "title": "The Breakfast Club",
+  "runtime": 97,
+  "mpaa": "R",
+  "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/7c6c3dba-960e-4528-9a57-d9c7ee853abc/c82b33eb96dbb58f9f2b0e120762cfedf7cdc36f.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+  "description": "In 'The Breakfast Club', five high school students from different social cliques - the jock, the nerd, the princess, the rebel, and the recluse - are forced to spend a Saturday detention together. As they initially clash due to their differences, they eventually bond over shared experiences and realize that they are not so different after all. Through candid conversations and emotional revelations, they form unexpected friendships that transcend their stereotypes and social barriers.",
+  "genre": ["comedy", "drama", "teen"],
+  "link": "https://play.max.com/movie/7c6c3dba-960e-4528-9a57-d9c7ee853abc",
+  "director": [{
+    "name": "John Hughes",
+    "image": "https://i.guim.co.uk/img/static/sys-images/Film/Pix/pictures/2009/8/7/1249633934042/John-Hughes-photographed--002.jpg?width=465&dpr=1&s=none",
+    "imdb": "https://www.imdb.com/name/nm0000455/"
+  }],
+  "actors": [{
+    "name": "Emilio Estevez",
+    "image": "https://www.giantfreakinrobot.com/wp-content/uploads/2023/05/emilio-estevez.jpg",
+    "imdb": "https://www.imdb.com/name/nm0000389/"
+  }, {
+    "name": "Molly Ringwald",
+    "image": "https://npr.brightspotcdn.com/dims4/default/2c61c27/2147483647/strip/true/crop/1500x999+0+0/resize/880x586!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Flegacy%2Fsites%2Fwamc%2Ffiles%2F201602%2Fmolly-ringwald-1.jpg",
+    "imdb": "https://www.imdb.com/name/nm0000208/"
+  }, {
+    "name": "Judd Nelson",
+    "image": "https://cdn.images.express.co.uk/img/dynamic/36/590x/The-Breakfast-Club-john-bender-judd-nelson-1483071.jpg?r=1630100859007",
+    "imdb": "https://www.imdb.com/name/nm0000557/"
+  }]
+},
+
+{
+  "item": 196,
+  "title": "Grease",
+  "runtime": 110,
+  "mpaa": "PG",
+  "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/387b0cbc-2683-435c-b4c4-07ae9f81deae/987b96a714a923a2b3eef1306d508d715d5fc63e.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+  "description": "In 'Grease', it's 1959, and Danny Zuko and Sandy Olsson, two high school seniors, fall in love over the summer. However, when Sandy unexpectedly transfers to Danny's school, Rydell High, their summer romance faces new challenges. Amidst the drama of teenage cliques, Danny must navigate his tough-guy image with his feelings for Sandy, while Sandy tries to fit in and win over Danny's affections.",
+  "genre": ["musical", "romance", "classic"],
+  "link": "https://play.max.com/movie/387b0cbc-2683-435c-b4c4-07ae9f81deae",
+  "director": [{
+    "name": "Randal Kleiser",
+    "image": "https://static.wixstatic.com/media/0018a0_3a98d914b16a497781f0e2b1bee05f96~mv2.png/v1/fill/w_1918,h_1069,al_c/0018a0_3a98d914b16a497781f0e2b1bee05f96~mv2.png",
+    "imdb": "https://www.imdb.com/name/nm0458756/"
+  }],
+  "actors": [{
+    "name": "John Travolta",
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS02OuabypnBpCE9KCFh_ojnkUXabzlyabfIdfluZlnT78Bt2fpca875cBMt5RTXRiAErqxdA",
+    "imdb": "https://www.imdb.com/name/nm0000237/"
+  }, {
+    "name": "Olivia Newton-John",
+    "image": "https://www.etonline.com/sites/default/files/images/2021-10/ETO_A09_OLIVIA_NEWTON_JOHN_101921.jpg",
+    "imdb": "https://www.imdb.com/name/nm0000557/"
+  }, {
+    "name": "Stockard Channing",
+    "image": "https://people.com/thmb/dpiXEIt_mrcWXa6LGYOxyn4rscc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(644x219:646x221)/03-Stockard-Channing-6fcd63e66d0b4a928d9f3a0ff891c1ef.jpg",
+    "imdb": "https://www.imdb.com/name/nm0000330/"
+  }]
+},
+
+{
+  "item": 197,
+  "title": "Walk the Line",
+  "runtime": 136,
+  "mpaa": "PG-13",
+  "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/47aeb4cc-f16c-49f1-88b3-5631b89d8c67/6b77aad0fca5a60b01c28b5e98adc73ac7973b42.jpg?submitted=1684657857083&host=wbd-images.prod-vod.h264.io&partner=beamcom",
+  "description": "In 'Walk the Line', the biographical drama chronicles the life of legendary musician Johnny Cash, from his early days in Arkansas to his rise to fame in the music industry. The film explores Cash's tumultuous relationships, struggles with addiction, and his enduring love story with June Carter. With powerful performances and iconic music, 'Walk the Line' offers an intimate glimpse into the life of a music icon.",
+  "genre": ["biopic", "drama", "musical", 'romance'],
+  "link": "https://play.max.com/movie/47aeb4cc-f16c-49f1-88b3-5631b89d8c67",
+  "director": [{
+    "name": "James Mangold",
+    "image": "https://www.indiewire.com/wp-content/uploads/2020/08/AP_20027819581673.jpg",
+    "imdb": "https://www.imdb.com/name/nm0003506/"
+  }],
+  "actors": [{
+    "name": "Joaquin Phoenix",
+    "image": "https://variety.com/wp-content/uploads/2018/03/shutterstock_editorial_9886170h.jpg?w=1000",
+    "imdb": "https://www.imdb.com/name/nm0001618/?ref_=tt_ov_st",
+  }, {
+    "name": "Reese Witherspoon",
+    "image": "https://people.com/thmb/YnCqOXeOmPSr7jBMfmJ-eu0p5Wg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(879x412:881x414)/reese-witherspoon-attends-the-world-premiere-of-netflixs-your-place-or-mine-2000-8d59725ba98a4f519412cb7d345f4598.jpg",
+    "imdb": "https://www.imdb.com/name/nm0000702/"
+  }, {
+    "name": "Ginnifer Goodwin",
+    "image": "https://www.ocregister.com/wp-content/uploads/migration/o7k/o7k7ok-b88717980z.120160521204143000gpfgk01r.10.jpg?w=620",
+    "imdb": "https://www.imdb.com/name/nm0329481/"
+  }]
+},
+
+{
+  "item": 198,
+  "title": "Ghost",
+  "runtime": 127,
+  "mpaa": "PG-13",
+  "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/523ee217-18b6-455e-85c0-064b1be00640/a0280971dfc72c64aa3549715495909019c9010e.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+  "description": "In 'Ghost', after Sam Wheat is murdered during a mugging, he becomes a ghost trapped between the world of the living and the afterlife. Desperate to protect his girlfriend Molly Jensen from danger, Sam seeks the help of a reluctant psychic, Oda Mae Brown, to communicate with her. As Sam uncovers the truth behind his death, he must navigate the spiritual realm to ensure justice is served and love transcends even death.",
+  "genre": ["drama", "fantasy", "romance"],
+  "link": "https://play.max.com/movie/523ee217-18b6-455e-85c0-064b1be00640",
+  "director": [{
+    "name": "Jerry Zucker",
+    "image": "https://m.media-amazon.com/images/M/MV5BNTMyNDAyNDkyN15BMl5BanBnXkFtZTcwODA0NjgwMw@@._V1_.jpg",
+    "imdb": "https://www.imdb.com/name/nm0958586/"
+  }],
+  "actors": [{
+    "name": "Patrick Swayze",
+    "image": "https://i.ytimg.com/vi/qYQCmORLong/maxresdefault.jpg",
+    "imdb": "https://www.imdb.com/name/nm0000664/",
+  }, {
+    "name": "Demi Moore",
+    "image": "https://variety.com/wp-content/uploads/2022/09/Demi-Moore-e1663348989491.jpg?w=1024",
+    "imdb": "https://www.imdb.com/name/nm0000193/"
+  }, {
+    "name": "Whoopi Goldberg",
+    "image": "https://variety.com/wp-content/uploads/2021/04/Whoopi-Goldberg-Variety-Cover-Story-3-16x9-1.jpg?w=1920&h=1080&crop=1",
+    "imdb": "https://www.imdb.com/name/nm0000155/"
+  }]
+},
+
+{
+  "item": 199,
+  "title": "Road House",
+  "runtime": 114,
+  "mpaa": "R",
+  "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/a93af03d-6423-4915-bc20-546abdd63f74/a76c064e56ba293e0288827e8fb594a6c37afcac.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+  "description": "In 'Road House', Dalton, a tough and enigmatic bouncer, is hired to clean up the Double Deuce, a rowdy bar in a small town. As Dalton takes on the task of restoring order to the chaotic establishment, he faces off against a ruthless businessman and his henchmen who are determined to maintain control. With his martial arts skills and no-nonsense attitude, Dalton becomes a legendary figure in the world of bouncers.",
+  "genre": ["action", "thriller"],
+  "link": "https://play.max.com/movie/a93af03d-6423-4915-bc20-546abdd63f74",
+  "director": [{
+    "name": "Rowdy Herrington",
+    "image": "https://m.media-amazon.com/images/M/MV5BZDcxZWZlYWItNjZiOS00NWQ3LWI3OTMtNzYwMWRkNTUwNjU4XkEyXkFqcGdeQXVyMTM2MzU3MTc1._V1_.jpg",
+    "imdb": "https://www.imdb.com/name/nm0378544/"
+  }],
+  "actors": [{
+    "name": "Patrick Swayze",
+    "image": "https://i.ytimg.com/vi/qYQCmORLong/maxresdefault.jpg",
+    "imdb": "https://www.imdb.com/name/nm0000664/",
+  }, {
+    "name": "Kelly Lynch",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2ScCmwKki-Wl2pgz5-HTHnnPaUJSXMXPZ6VNuG6nSoJG4a-vnl4lbe2194_kDbzwLIs5nUEPjd-uX5OD1KuJ27JMx5rmt-Dz_syVmjwiGmONWYUd36xgredjPFRQ9bDLkeyVsNg/w1200-h630-p-k-no-nu/kellylynch_89.jpg",
+    "imdb": "https://www.imdb.com/name/nm0001488/"
+  }, {
+    "name": "Sam Elliott",
+    "image": "https://i.ytimg.com/vi/tf6ho5nN8v0/sddefault.jpg",
+    "imdb": "https://www.imdb.com/name/nm0000385/"
+  }]
+},
+
+{
+  "item": 200,
+  "title": "Major League",
+  "runtime": 107,
+  "mpaa": "R",
+  "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/0ac4d16b-ba02-4d56-ad31-f5e46e3711d6/996c543c981b372406aa54e3303133ed0cdca875.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+  "description": "In 'Major League', the Cleveland Indians, a struggling baseball team, undergoes a transformation after their owner, Rachel Phelps, hires a group of misfit players to sabotage the team and relocate it to Miami. Determined to prove themselves and thwart Phelps' plans, the team rallies together under the leadership of their new manager, Lou Brown. Through camaraderie and perseverance, they strive to defy the odds and turn their season around.",
+  "genre": ["comedy", "sports"],
+  "link": "https://play.max.com/movie/0ac4d16b-ba02-4d56-ad31-f5e46e3711d6",
+  "director": [{
+    "name": "David S. Ward",
+    "image": "https://m.media-amazon.com/images/M/MV5BMjA4MjA1ODI2M15BMl5BanBnXkFtZTcwMzc2ODgwMw@@._V1_.jpg",
+    "imdb": "https://www.imdb.com/name/nm0912050/"
+  }],
+  "actors": [{
+    "name": "Tom Berenger",
+    "image": "https://facts.net/wp-content/uploads/2023/10/14-astounding-facts-about-tom-berenger-1697013249.jpg",
+    "imdb": "https://www.imdb.com/name/nm0000297/"
+  }, {
+    "name": "Charlie Sheen",
+    "image": "https://media.nbcboston.com/2023/11/GettyImages-1495784391.jpg?quality=85&strip=all&resize=1200%2C675",
+    "imdb": "https://www.imdb.com/name/nm0000221/"
+  }, {
+    "name": "Wesley Snipes",
+    "image": "https://m.media-amazon.com/images/M/MV5BYWY3MDY5ZDQtNjUxNS00OGZiLTkzZGEtN2Q5YTBhMDFlOWJjXkEyXkFqcGdeQXRyYW5zY29kZS13b3JrZmxvdw@@._V1_.jpg",
+    "imdb": "https://www.imdb.com/name/nm0000648/"
+  }]
+},
+
+{
+  "item": 201,
+  "title": "Semi-Pro",
+  "runtime": 91,
+  "mpaa": "R",
+  "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/09c22a60-e42a-4131-b6eb-59841e38a02d/a3ddfe52b93fcc6edcdcc5f7202f0d253d1b909c.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+  "description": "In 'Semi-Pro', Jackie Moon, the owner-coach-player of the American Basketball Association's Flint Tropics, dreams of leading his team to glory and securing a spot in the NBA. Facing financial struggles and low attendance, Jackie concocts various gimmicks to boost interest in the team, including wrestling bears and offering outlandish promotions. As the Tropics make a final push for success, Jackie must confront his own limitations and priorities.",
+  "genre": ["comedy", "sports"],
+  "link": "https://play.max.com/movie/09c22a60-e42a-4131-b6eb-59841e38a02d",
+  "director": [{
+    "name": "Kent Alterman",
+    "image": "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-175956-453266238.jpg?w=1581&h=1054&crop=1",
+    "imdb": "https://www.imdb.com/name/nm0022780/"
+  }],
+  "actors": [{
+    "name": "Will Ferrell",
+      "image": "https://ca-times.brightspotcdn.com/dims4/default/076a75b/2147483647/strip/false/crop/3500x1969+0+176/resize/1200x675!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F35%2F0c%2F568646e5482e8f5ce52d1d84b1cd%2Fny-premiere-of-apple-tvs-the-shrink-next-door-90227.jpg",
+      "imdb": "https://www.imdb.com/name/nm0002071/?ref_=nv_sr_srsg_0_tt_6_nm_2_q_will%2520ferrell",
+  }, {
+    "name": "Woody Harrelson",
+    "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2020/07/22/09/woody-harrelson.jpg",
+    "imdb": "https://www.imdb.com/name/nm0000437/"
+  }, {
+    "name": "André Benjamin",
+    "image": "https://www.rollingstone.com/wp-content/uploads/2023/11/Andre-3000-Press-Photo-1-credit_-Kai-Regan.jpg?w=1581&h=1054&crop=1",
+    "imdb": "https://www.imdb.com/name/nm0004736/"
+  }]
+}
+  ]
+
+  // start prime array
+  [
+    {    
+      "item": "202",
+      "title": "Saltburn",
+      "runtime": 131,
+      "mpaa": "R",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/9da992402ef719aa8fb362f29331e5313db7bc9f456833332c194877cdba79e1.png",
+      "description": "Academy Award winning filmmaker Emerald Fennell brings us a beautifully wicked tale of privilege and desire. Struggling to find his place at Oxford University, student Oliver Quick (Barry Keoghan) finds himself drawn into the world of the charming and aristocratic Felix Catton (Jacob Elordi), who invites him to Saltburn, his eccentric family’s sprawling estate, for a summer never to be forgotten.",
+	"genre": ["comedy", "drama", "thriller"],
+    "link": "https://www.amazon.com/Saltburn-Barry-Keoghan/dp/B0CGHHFGBS",
+    "director": [{
+    "name": "Emerald Fennell",
+    "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRGe0cqPwCyCKEi7bQ2vrpvEv8Se_pB78RPEDJOBvroleFZWnlrx4xWeOntQv2fx6LaI9Jif1nWtR717Ks",
+    "imdb": "https://www.imdb.com/name/nm2193504/",
+    }],
+    "actors": [{
+      "name": "Barry Keoghan",
+      "image": "https://static.independent.co.uk/2024/02/23/15/GettyImages-1976097590.jpg",
+      "imdb": "https://www.imdb.com/name/nm4422686/",
+    }, {
+      "name": "Jacob Elordi",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTY0YmViMTEtMWZkMy00YWZmLTkxMDQtMWU5YTVkZjYwODBmXkEyXkFqcGdeQXJoYW5uYWg@._V1_QL75_UX500_CR0,0,500,281_.jpg",
+      "imdb": "https://www.imdb.com/name/nm8624059/"
+    }, {
+      "name": "Rosaumnd Pike",
+      "image": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcTunY3406m3GAlafNhhBPYvx-go3XRwFHpD20FpQYhC8gT84-uKdanO_oNrYev8N3ZERWAKtK6_46MKF8o",
+      "imdb": "https://www.imdb.com/name/nm0683253/",
+    }]
+    },
+
+    {
+      "item": 203,
+      "title": "In the Cut",
+      "runtime": 119,
+      "mpaa": "R",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/e3346a7c90732f6da18ff0bc04da81ac2ad2929188b37fbc81c8b714ad236bda.jpg",
+      "description": "In 'In the Cut', Frannie Avery, a New York City writing professor, becomes entangled in a dangerous affair with a homicide detective investigating a series of brutal murders in her neighborhood. As their relationship intensifies, Frannie finds herself drawn deeper into the investigation, risking her own safety and sanity to uncover the truth behind the killings. Tensions rise as the lines between desire and danger blur, leading to a shocking climax.",
+      "genre": ["mystery", "thriller"],
+      "link": "https://www.amazon.com/gp/video/detail/B0B5N4YVVG/ref=atv_me_inc_c_5crrHZ_brws_2_3?jic=8%7CEgRzdm9k",
+      "director": [{
+        "name": "Jane Campion",
+        "image": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcRIfZ_wA1a_ouGQNUTOqXrrhu1Ck1HOCrpsabxtD6K-nN9qunhieghg0Ps4aBvpTQELCIyyuR41s_vAPfY",
+        "imdb": "https://www.imdb.com/name/nm0001005/"
+      }],
+      "actors": [{
+        "name": "Meg Ryan",
+          "image": "https://crookedmarquee.com/wp-content/uploads/2021/03/meg1.jpg",
+          "imdb": "https://www.imdb.com/name/nm0000212/"
+      }, {
+        "name": "Mark Ruffalo",
+        "image": "https://d.newsweek.com/en/full/2298700/mark-ruffalo-june-2023.png?w=1200&f=7082c879b50355fdc025b4e12f2a43d5",
+        "imdb": "https://www.imdb.com/name/nm0749263/?ref_=tt_ov_st"
+      }, {
+        "name": "Jennifer Jason Leigh",
+        "image": "https://static.standard.co.uk/s3fs-public/thumbnails/image/2016/02/01/10/jenniferjasonleigh.jpg?crop=8:5,smart&quality=75&auto=webp&width=1024",
+        "imdb": "https://www.imdb.com/name/nm0000492/"
+      }]
+    },
+
+    {
+      "item": 204,
+      "title": "Cop Land",
+      "runtime": 105,
+      "mpaa": "R",
+      "poster": "https://www.tvguide.com/a/img/resize/f26e1e75f1ed0653363840910388b501297f5d25/catalog/provider/1/2/1-1280164515.jpg?auto=webp&fit=crop&height=675&width=1200",
+      "description": "In 'Cop Land', the town of Garrison, New Jersey, is populated mostly by NYPD officers who have settled there. Sheriff Freddy Heflin, who is partially deaf, idolizes the officers but is barred from joining their ranks due to his disability. When a young officer's suspicious death exposes corruption and cover-ups among the police, Freddy is faced with a moral dilemma. As he investigates, Freddy must confront the loyalty he feels towards his fellow officers and decide where his allegiances lie.",
+      "genre": ["crime", "drama", "thriller"],
+      "link": "https://www.amazon.com/gp/video/detail/B0B63969QL/ref=atv_dp_amz_c_TS5124c5_1_4?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "James Mangold",
+        "image": "https://www.indiewire.com/wp-content/uploads/2020/08/AP_20027819581673.jpg",
+        "imdb": "https://www.imdb.com/name/nm0003506/"
+      }],
+      "actors": [{
+        "name": "Sylvester Stallone",
+        "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2024/02/1200/675/sylvester-stallone.jpg?ve=1&tl=1",
+        "imdb": "https://www.imdb.com/name/nm0000230/"
+      }, {
+        "name": "Harvey Keitel",
+    "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2021/07/896/500/keitel-getty.jpg?ve=1&tl=1",
+    "imdb": "https://www.imdb.com/name/nm0000172/"
+      }, {
+        "name": "Ray Liotta",
+        "image": "https://variety.com/wp-content/uploads/2022/06/MCDGOOD_EC028.jpg",
+        "imdb": "https://www.imdb.com/name/nm0000501/"
+      }]
+    },
+     
+    {
+      "item": 205,
+      "title": "Kiss the Girls",
+      "runtime": 115,
+      "mpaa": "R",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/00d2f3933bd966441826b745505e8efbba464d37ffd54585c2bb0b2da3b005e7.jpg",
+      "description": "In 'Kiss the Girls', forensic psychologist Alex Cross is drawn into a deadly game of cat and mouse with a serial kidnapper and murderer known as 'Casanova'. When Alex's niece becomes one of Casanova's victims, he teams up with detective Kate McTiernan, who survived an earlier encounter with the killer, to track him down. As they race against time to rescue the victims and stop Casanova's reign of terror, they uncover shocking secrets that lead them closer to the truth.",
+      "genre": ["crime", "drama", "mystery"],
+      "link": "https://www.amazon.com/gp/video/detail/B0CP3R36ZG/ref=atv_dp_amz_c_TS5124c5_1_1?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Gary Fleder",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTQ4MjQ4MTUxMl5BMl5BanBnXkFtZTcwOTgwNDUzMw@@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0281153/"
+      }],
+      "actors": [{
+        "name": "Morgan Freeman",
+        "image": "https://mediaproxy.salon.com/width/1200/height/675/https://media2.salon.com/2014/06/morgan_freeman.jpg",
+        "imdb": "https://www.imdb.com/name/nm0000151/",
+      }, {
+        "name": "Ashley Judd",
+        "image": "https://facts.net/wp-content/uploads/2023/07/35-facts-about-ashley-judd-1689501720.jpg",
+        "imdb": "https://www.imdb.com/name/nm0000171/"
+      }, {
+        "name": "Cary Elwes",
+        "image": "https://m.media-amazon.com/images/G/01/IMDb/carye_v1_1248x702._CB1562790284_.JPG",
+        "imdb": "https://www.imdb.com/name/nm0000144/"
+      }]
+    }
+    
+
+
+
+
+  ]
+]
 
 const netflixArray = moviesArray[0];
 const maxArray = moviesArray[1]
