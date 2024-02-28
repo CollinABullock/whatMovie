@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import MoviePreferenceComponent from "./Preferences";
-import { moviesArray, netflixArray } from './movieArray';
+import { moviesArray, netflixArray, maxArray } from './movieArray';
 
 export default function NavBar({ onPreferenceChange, uniqueGenres }) {
   const [showPreferences, setShowPreferences] = useState(false);
   const [glowButton, setGlowButton] = useState(false); // State to control the glowing effect
   const [showDetails, setShowDetails] = useState(true); // State to control the visibility of "More Details"
-  
+
+  const combinedArray = [...netflixArray, ...maxArray];
 
   const handlePreferencesClick = (event) => {
     event.preventDefault(); // Prevent the default anchor behavior
@@ -68,7 +69,7 @@ export default function NavBar({ onPreferenceChange, uniqueGenres }) {
               Preferences
             </a>
             <div className={`dropdown-menu ${showPreferences ? 'show' : ''}`} aria-labelledby="navbarDropdown" style={{ minWidth: "auto", width: isMobile ? "100vw" : "50vw", margin: "0 auto", backgroundColor: "#0D1F2D", color: "#E4C3AD", border: "5px solid red", padding: "10px", maxHeight: "60vh", overflowY: "auto" }}>
-              <MoviePreferenceComponent data={netflixArray} onPreferenceChange={onPreferenceChange} uniqueGenres={uniqueGenres} />
+              <MoviePreferenceComponent data={combinedArray} onPreferenceChange={onPreferenceChange} uniqueGenres={uniqueGenres} />
             </div>
           </li>
         </ul>

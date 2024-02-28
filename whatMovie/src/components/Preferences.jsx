@@ -271,9 +271,10 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
             />
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '20px' }}>
               {filteredDirectors.map(director => (
-                <div key={director.name} style={{ textAlign: 'center' }}>
+                <div className='filtered-director-item' key={director.name} style={{ textAlign: 'center' }}>
                   {director.image && (
                     <img
+                    className='filtered-director-img'
                       src={director.image}
                       alt={director.name}
                       style={{ width: '100%', height: '75%', objectFit: "cover", marginBottom: '10px' }}

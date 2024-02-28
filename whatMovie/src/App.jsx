@@ -4,7 +4,7 @@ import RandomMovie from './components/randomMovieCard';
 import Footer from './components/footer';
 import { useState, useEffect } from 'react';
 
-import { moviesArray } from './components/movieArray';
+import { moviesArray, netflixArray, maxArray } from './components/movieArray';
 
 function App() {
   const [selectedRuntime, setSelectedRuntime] = useState(null);
@@ -31,10 +31,12 @@ function App() {
     setPreferredGenres(preferredGenres); // Set preferredGenres state
   };
 
+  const combinedArray = [...netflixArray, ...maxArray];
+
   return (
     <>
       <NavBar
-        data={moviesArray}
+        data={combinedArray}
         onPreferenceChange={handlePreferenceChange}
         uniqueGenres={uniqueGenres} // Pass uniqueGenres
       />
