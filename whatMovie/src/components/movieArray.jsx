@@ -5050,7 +5050,39 @@ const moviesArray = [
     "image": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcTiyOulQsurY8yWv0QU0iGMagYmHcchpbMwH886xg98ySkrTPeLi6ptfXyIrbt6cOadxy0x8TldEiIntqU",
     "imdb": "https://www.imdb.com/name/nm0000228/",
   }]
+},
+
+{
+  "item": 171,
+  "title": "Wedding Crashers",
+  "runtime": 119,
+  "mpaa": "R",
+  "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/43423d2c-ce27-4727-9008-9e555bfaf6d5/5abd71a34636060b351f3c509194ee9a16a8c519.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+  "description": "John and Jeremy are two divorce mediators and lifelong friends who crash weddings to meet and seduce women. However, their escapades take an unexpected turn when they attend a high-profile wedding and John falls for the bride's sister, complicating their plans and leading to a series of hilarious and chaotic events.",
+  "genre": ["comedy", "romance"],
+  "link": "https://play.max.com/video/watch/0e4450ac-5dec-416f-a89d-fde1360cbedf/3ad52136-12a6-4852-8d42-96ea95a9e9e4",
+  "director": [{
+    "name": "David Dobkin",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTUzNzE3MTA2M15BMl5BanBnXkFtZTcwNzQzNTY5NQ@@._V1_.jpg",
+    "imdb": "https://www.imdb.com/name/nm0229985/"
+  }],
+  "actors": [{
+    "name": "Owen Wilson",
+    "image": "https://www.hollywoodreporter.com/wp-content/uploads/2021/08/GettyImages-1328382839-H-2021.jpg?w=1296",
+    "imdb": "https://www.imdb.com/name/nm0005562/"
+  }, {
+    "name": "Vince Vaughn",
+    "image": "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-181661-98943931_c.jpg",
+    "imdb": "https://www.imdb.com/name/nm0000681/"
+  }, {
+    "name": "Rachel McAdams",
+    "image": "https://ca-times.brightspotcdn.com/dims4/default/d01c15e/2147483647/strip/false/crop/1600x900+0+0/resize/1486x836!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F42%2F47%2Fc26da65b872629a4cdf913f7ff5f%2Fla-et-mn-rachel-mcadams-20150724-001",
+    "imdb": "https://www.imdb.com/name/nm1046097/"
+  }]
 }
+
+
+
 
 
 
