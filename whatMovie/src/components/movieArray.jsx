@@ -164,6 +164,36 @@ const moviesArray = [
     }]
     },
 
+    {
+      "item": "11n",
+      "title": "Long Shot",
+      "runtime": 125,
+      "mpaa": "R",
+      "poster": "https://occ-0-90-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABbD80c65TgTPS46wbgnVLbty_hTwAnOhNnxkejcxzi7oYzGRQtZzGGG1yq7d6V556WwRQbuXUr9DzZbSel4RF57QdTPke-fKUlc.jpg?r=f6c",
+      "description": "Fred Flarsky, an unemployed journalist, reunites with his first crush who is now one of the most influential women in the world. As she prepares to make a run for the Presidency, Charlotte hires Fred as her speechwriter and sparks fly.",
+      "genre": ["comedy", "romance"],
+      "link": "https://www.netflix.com/title/81192826",
+      "director": [{
+        "name": "Jonathan Levine",
+        "image": "https://deadline.com/wp-content/uploads/2019/05/rexfeatures_10223883x.jpg",
+        "imdb": "https://www.imdb.com/name/nm0505543/"
+      }],
+      "actors": [{
+        "name": "Seth Rogen",
+      "image": "https://media.gq.com/photos/5cd9879fb41d09d10bcd7657/16:9/w_2560%2Cc_limit/seth-rogen-gq-cover-june-july-2019-11.jpg",
+      "imdb": "https://www.imdb.com/name/nm0736622/?ref_=nv_sr_srsg_0_tt_6_nm_2_q_seth%2520rogen",
+      }, {
+        "name": "Charlize Theron",
+        "image": "https://variety.com/wp-content/uploads/2023/08/GettyImages-1490338443-e1692731846946.jpg",
+        "imdb": "https://www.imdb.com/name/nm0000234/"
+      }, {
+        "name": "June Diane Raphael",
+        "image": "https://m.media-amazon.com/images/M/MV5BMDEwZTMyZDktNTY4OS00ZmQ5LTkzZTEtYWFkM2JmOTM3MjNjXkEyXkFqcGdeQXVyNTI0NTI3MzI@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm1638319/"
+      }]
+    },
+    
+
     {    
       "item": "12",
       "title": "Anaconda",
@@ -1130,6 +1160,8 @@ const moviesArray = [
     }]
     },
 
+
+
     {    
       "item": "45",
       "title": "Training Day",
@@ -1431,6 +1463,35 @@ const moviesArray = [
       "name": "Rinko Kikuchi",
       "image": "https://images.businessoffashion.com/profiles/asset/402/5ec801e69c77afd89ef95fc73a8c9217d4b4c153.jpeg?auto=format%2Ccompress&fit=crop&h=360&w=660",
       "imdb": "https://www.imdb.com/name/nm0452860/",
+    }]
+    },
+
+    {    
+      "item": "55n",
+      "title": "Blonde",
+      "runtime": 167,
+      "mpaa": "NC-17",
+      "poster": "https://youthtimemag.com/wp-content/uploads/2022/09/blonde-poster.jpeg",
+      "description": "This fictional portrait of Marilyn Monroe boldly reimagines the tumultuous private life of the Hollywood legend — and the price she paid for fame.",
+	"genre": ["drama", "biopic"],
+    "link": "https://www.netflix.com/title/80174263",
+    "director": [{
+      "name": "Andrew Dominik",
+      "image": "https://d1nslcd7m2225b.cloudfront.net/Pictures/1024x536/8/8/7/1385887_andrewdominik_663615.jpg",
+      "imdb": "https://www.imdb.com/name/nm0235712/"
+    }],
+    "actors": [{
+      "name": "Ana de Armas",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRKB1h7dIm2oMW3TxlhFrmUDWqc5UvaRoCXhlzn9EsBXxusvmOd",
+      "imdb": "https://www.imdb.com/name/nm1869101/",
+    }, {
+      "name": "Adrien Brody",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSKSAL0z4xf6twkyjL4m4X7l7xV7i3qENaLYKenaDWwzlCKHa0_",
+      "imdb": "https://www.imdb.com/name/nm0004778/"
+    }, {
+      "name": "Bobby Cannavale",
+      "image": "https://www.hollywoodreporter.com/wp-content/uploads/2016/03/gettyimages-505188210_-_h_2016.jpg",
+      "imdb": "https://www.imdb.com/name/nm0134072/",
     }]
     },
 
@@ -5196,6 +5257,36 @@ const moviesArray = [
     "imdb": "https://www.imdb.com/name/nm2391117/"
   }]
 },
+
+{
+  "item": 178,
+  "title": "Mad Max: Fury Road",
+  "runtime": 120,
+  "mpaa": "R",
+  "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/8cde025a-223d-4879-9336-3d5f6c9d0c55/844c4fe8d1b5a41bc26aed689f7304f1df812ca1.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+  "description": "In a post-apocalyptic wasteland, Max teams up with a mysterious woman, Furiosa, to flee from a tyrannical warlord and his army in an armored truck.",
+  "genre": ["action", "science-fiction"],
+  "link": "https://play.max.com/video/watch/20ad7c25-cba0-49f5-af53-9cabeb0a8224/fba5c86f-e6b1-439f-9480-6ca19441ccf4",
+  "director": [{
+    "name": "George Miller",
+    "image": "https://i.guim.co.uk/img/media/8fe749ddb04112b5ad1aafedc97ca35fccb3f9c1/0_9_4068_2442/master/4068.jpg?width=700&quality=85&auto=format&fit=max&s=4a38fb96ec72ffdc63653e94b0b1188d",
+    "imdb": "https://www.imdb.com/name/nm0004306/"
+  }],
+  "actors": [{
+    "name": "Tom Hardy",
+    "image": "https://media.gq.com/photos/632b4e9763f2eae5a8460f51/16:9/w_2560%2Cc_limit/1340297096",
+    "imdb": "https://www.imdb.com/name/nm0362766/"
+  }, {
+    "name": "Charlize Theron",
+    "image": "https://variety.com/wp-content/uploads/2023/08/GettyImages-1490338443-e1692731846946.jpg",
+    "imdb": "https://www.imdb.com/name/nm0000234/"
+  }, {
+    "name": "Nicholas Hoult",
+    "image": "https://variety.com/wp-content/uploads/2023/11/GettyImages-1441516832-e1700522245342.jpg",
+    "imdb": "https://www.imdb.com/name/nm0396558/"
+  }]
+},
+
 
 
 
