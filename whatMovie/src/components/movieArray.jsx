@@ -4820,7 +4820,30 @@ const moviesArray = [
   }]
 },
 
-
+{
+  "item": 164,
+  "title": "City Lights",
+  "runtime": 87,
+  "mpaa": "G",
+  "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/482ae8af-6dee-47ba-b4d5-8403eba9deca/96267adfa0b9fd3eb22db2d914edb0f1e156f067.jpg?submitted=1684657900442&host=wbd-images.prod-vod.h264.io&partner=beamcom",
+  "description": "City Lights is a 1931 American silent romantic comedy film directed by Charlie Chaplin. The story follows the misadventures of Chaplin's Tramp as he falls in love with a blind girl (played by Virginia Cherrill) and develops a turbulent friendship with an alcoholic millionaire.",
+  "genre": ["comedy", "drama", "romance", "classic"],
+  "link": "https://play.max.com/video/watch/f27acb33-e442-4c4f-89db-1cd29c262d6f/8ef56b27-fb70-48d8-b2cd-b8a164b170ae",
+  "director": [{
+    "name": "Charlie Chaplin",
+    "image": "https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1688,w_3000,x_0,y_0/dpr_1.5/c_limit,w_1044/fl_lossy,q_auto/v1638569170/211203-charlie-chaplin-banned-tease-02_mltfwd",
+    "imdb": "https://www.imdb.com/name/nm0000122/"
+  }],
+  "actors": [{
+    "name": "Charlie Chaplin",
+    "image": "https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1688,w_3000,x_0,y_0/dpr_1.5/c_limit,w_1044/fl_lossy,q_auto/v1638569170/211203-charlie-chaplin-banned-tease-02_mltfwd",
+    "imdb": "https://www.imdb.com/name/nm0000122/"
+  }, {
+    "name": "Virginia Cherrill",
+    "image": "https://bylines.cymru/wp-content/uploads/2023/09/Virginia-Cherrill.jpeg",
+    "imdb": "https://www.imdb.com/name/nm0155822/"
+  }]
+}
 
 
 
