@@ -9,6 +9,7 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
   const [selectedService, setSelectedService] = useState([]);
   const [uniqueGenres, setUniqueGenres] = useState([]);
   const [isStreamingServicesOpen, setStreamingServicesOpen] = useState(false); // State for streaming services visibility
+  const [isRuntimeOpen, setIsRuntimeOpen] = useState(false); 
   
 
 
@@ -141,17 +142,29 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
       </div>
 
       <div style={{ marginBottom: '30px', border: '1px solid #ccc', padding: '15px' }}>
-        <p>What's the longest movie you're down to watch?<br />{runtime} minutes</p>
-        <input
-          type="range"
-          id="runtimeSlider"
-          name="runtime"
-          min="90"
-          max="240"
-          step="15"
-          value={runtime}
-          onChange={handleSliderChange}
-        />
+        <div
+          style={{ display: 'flex', alignItems: 'center', cursor: 'pointer', marginBottom: '10px' }}
+          onClick={() => setIsRuntimeOpen(!isRuntimeOpen)}
+        >
+          <p style={{ marginRight: '5px' }}>What's the longest movie you're down to watch?</p>
+          {isRuntimeOpen ? <BsChevronUp style={{ boxShadow: '5px 5px 5px green', margin: '10px' }} /> : <BsChevronDown style={{ boxShadow: '5px 5px 5px gred', margin: '10px' }} />}
+          {/* Display the arrow icon based on the state */}
+        </div>
+        {isRuntimeOpen && (
+          <div>
+            <p>{runtime} minutes</p>
+            <input
+              type="range"
+              id="runtimeSlider"
+              name="runtime"
+              min="90"
+              max="240"
+              step="15"
+              value={runtime}
+              onChange={handleSliderChange}
+            />
+          </div>
+        )}
       </div>
 
       <div style={{ marginBottom: '30px', border: '1px solid #ccc', padding: '15px' }}>
