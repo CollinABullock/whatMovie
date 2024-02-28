@@ -34,7 +34,12 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
       }
       return acc;
     }, []);
-    const filtered = flattenedDirectors.filter(director => director.name.toLowerCase().includes(directorSearch.toLowerCase()));
+
+    // Filter directors based on the search query or clear them if the search query is empty
+    const filtered = directorSearch.trim() === '' ?
+      [] :
+      flattenedDirectors.filter(director => director.name.toLowerCase().includes(directorSearch.toLowerCase()));
+    
     setFilteredDirectors(filtered);
   }, [directorSearch, data]);
 
@@ -240,44 +245,36 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
       </div>
 
       <div style={{ marginBottom: '30px', border: '1px solid #ccc', padding: '15px' }}>
-  <div
-    style={{ display: 'flex', alignItems: 'center', cursor: 'pointer', marginBottom: '10px' }}
-    onClick={() => setIsDirectorOpen(!isDirectorOpen)}
-  >
-    <h4>Any directors you're fond of?</h4>
-    {isDirectorOpen ? <BsChevronUp style={{ boxShadow: '5px 5px 5px green', margin: '10px' }} /> : <BsChevronDown style={{ boxShadow: '5px 5px 5px red', margin: '10px' }} />}
-  </div>
-  {isDirectorOpen && (
-    <div>
-      <input
-        type="text"
-        placeholder="Search directors..."
-        value={directorSearch}
-        onChange={(e) => setDirectorSearch(e.target.value)}
-        style={{ marginBottom: '10px' }}
-      />
-      {filteredDirectors.map(director => (
-  <label key={director.name} style={{ display: 'flex', alignItems: 'center', marginBottom: '5px' }}>
-    {director.image && (
-      <img
-        src={director.image}
-        alt={director.name}
-        style={{ width: '50px', height: 'auto', marginRight: '10px' }}
-      />
-    )}
-    <input
-      type="checkbox"
-      value={director.name}
-      checked={selectedDirectors.includes(director.name)}
-      onChange={handleDirectorCheckboxChange}
-    />
-    {director.name}
-  </label>
-))}
-
-    </div>
-  )}
-</div>
+        <div style={{ display: 'flex', alignItems: 'center', cursor: 'pointer', marginBottom: '10px' }} onClick={() => setIsDirectorOpen(!isDirectorOpen)}>
+          <h4>Any directors you're fond of?</h4>
+          {isDirectorOpen ? <BsChevronUp style={{ boxShadow: '5px 5px 5px green', margin: '10px' }} /> : <BsChevronDown style={{ boxShadow: '5px 5px 5px red', margin: '10px' }} />}
+        </div>
+        {isDirectorOpen && (
+          <div>
+            <input
+              type="text"
+              placeholder="Search directors..."
+              value={directorSearch}
+              onChange={(e) => setDirectorSearch(e.target.value)}
+              style={{ marginBottom: '10px' }}
+            />
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '20px' }}>
+              {filteredDirectors.map(director => (
+                <div key={director.name} style={{ textAlign: 'center' }}>
+                  {director.image && (
+                    <img
+                      src={director.image}
+                      alt={director.name}
+                      style={{ width: '100%', height: '75%', objectFit: "cover", marginBottom: '10px' }}
+                    />
+                  )}
+                  <p style={{ margin: '0' }}>{director.name}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
 
       <div style={{ padding: "15px", marginBottom: "30px"}}>
   <div style={{ display: 'flex', justifyContent: 'center'}}>
