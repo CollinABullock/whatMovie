@@ -43,6 +43,7 @@ export default function RandomMovie({ selectedRuntime  }) {
 
    const handleRandomMovie = () => {
     // Filter based on selected services
+    window.scroll(0, 0);
     const selectedServices = JSON.parse(sessionStorage.getItem('selectedServices'));
     let filtered = [];
     if (selectedServices && selectedServices.length > 0) {

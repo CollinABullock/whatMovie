@@ -4845,9 +4845,6 @@ const moviesArray = [
   }]
 },
 
-Sure, here's an entry for the film "While We're Young":
-
-```json
 {
   "item": 165,
   "title": "While We're Young",
@@ -4879,7 +4876,37 @@ Sure, here's an entry for the film "While We're Young":
     "image": "https://www.hollywoodreporter.com/wp-content/uploads/2022/02/Amanda_Seyfried_David_Needleman_THR_A_369-Splash-2022.jpg?w=1024",
     "imdb": "https://www.imdb.com/name/nm1086543/"
   }]
+},
+
+{
+  "item": 166,
+  "title": "Get Shorty",
+  "runtime": 105,
+  "mpaa": "R",
+  "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/ea5667b9-b8a2-4711-ab1d-3273a3c1e832/9605745a249f8d65e6ecdf27355d783c000bcbd7.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+  "description": "A mobster gets involved in the Hollywood movie industry while trying to collect a debt from a film director. As he navigates the complexities of Tinseltown, he discovers that making movies may be more dangerous than his previous criminal endeavors.",
+  "genre": ["comedy", "crime"],
+  "link": "https://play.max.com/video/watch/c686e248-847c-4cdf-be43-704529a0263d/75163568-a089-44eb-9f08-9c39ca22180d",
+  "director": [{
+    "name": "Barry Sonnenfeld",
+    "image": "https://www.dga.org/-/media/Images/Landscape-Images/Visual-History/VH233-Sonnenfeld/Hero.ashx?as=1&h=630&mh=630&mw=1200&w=630&hash=F0B40D7546C1F506755BDB0E383635A97C6A1635?t=43",
+    "imdb": "https://www.imdb.com/name/nm0001756/"
+  }],
+  "actors": [{
+    "name": "John Travolta",
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS02OuabypnBpCE9KCFh_ojnkUXabzlyabfIdfluZlnT78Bt2fpca875cBMt5RTXRiAErqxdA",
+    "imdb": "https://www.imdb.com/name/nm0000237/"
+  }, {
+    "name": "Danny DeVito",
+    "image": "https://media.gq.com/photos/6542ca8af1b58bff75de21e1/4:3/w_1500,h_1125,c_limit/danny.jpg",
+    "imdb": "https://www.imdb.com/name/nm0000362/"
+  }, {
+    "name": "Rene Russo",
+    "image": "https://nationaltoday.com/wp-content/uploads/2022/10/12-Rene-Russo-1200x834.jpg",
+    "imdb": "https://www.imdb.com/name/nm0000623/"
+  }]
 }
+
 
 
 
