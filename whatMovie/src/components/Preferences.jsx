@@ -18,21 +18,19 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
   const [selectedDirectors, setSelectedDirectors] = useState([]);
 
   const handleDirectorSearch = (event) => {
-    const searchTerm = event.target.value.toLowerCase();
+    const searchTerm = event.target.value.trim().toLowerCase(); // Remove whitespace and convert to lowercase
     const flattenedDirectors = data.reduce((acc, movie) => {
       if (movie.director) {
         acc.push(...movie.director);
       }
       return acc;
     }, []);
-
-    console.log("filtered directors:", {filteredDirectors});
   
     const uniqueDirectors = new Set(); // Set to keep track of unique directors
-    const filtered = searchTerm.trim() === '' ?
+    const filtered = searchTerm === '' ?
       [] :
       flattenedDirectors.filter(director => {
-        const lowerCaseName = director.name.toLowerCase();
+        const lowerCaseName = director.name.trim().toLowerCase(); // Remove whitespace and convert to lowercase
         // Check if director's name includes search term and if it's not already in uniqueDirectors
         if (lowerCaseName.includes(searchTerm) && !uniqueDirectors.has(lowerCaseName)) {
           uniqueDirectors.add(lowerCaseName); // Add director's name to set
@@ -44,7 +42,7 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
     setFilteredDirectors(filtered);
     setDirectorSearch(event.target.value);
   };
-
+  
   // Define handleDirectorCheckboxChange function
   const handleDirectorCheckboxChange = (event) => {
     const { value, checked } = event.target;
@@ -55,21 +53,6 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
     }
   };
   
-  useEffect(() => {
-    const flattenedDirectors = data.reduce((acc, movie) => {
-      if (movie.director) {
-        acc.push(...movie.director);
-      }
-      return acc;
-    }, []);
-
-    // Filter directors based on the search query or clear them if the search query is empty
-    const filtered = directorSearch.trim() === '' ?
-      [] :
-      flattenedDirectors.filter(director => director.name.toLowerCase().includes(directorSearch.toLowerCase()));
-    
-    setFilteredDirectors(filtered);
-  }, [directorSearch, data]);
 
   useEffect(() => {
     if (data && data.length > 0) {
