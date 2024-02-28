@@ -4905,7 +4905,37 @@ const moviesArray = [
     "image": "https://nationaltoday.com/wp-content/uploads/2022/10/12-Rene-Russo-1200x834.jpg",
     "imdb": "https://www.imdb.com/name/nm0000623/"
   }]
+},
+
+{
+  "item": 167,
+  "title": "Killing Them Softly",
+  "runtime": 97,
+  "mpaa": "R",
+  "poster": "https://m.media-amazon.com/images/I/71z4jNeI4-L._AC_SY679_.jpg",
+  "description": "A professional enforcer named Jackie Cogan is hired to investigate a heist that took place during a high-stakes, mob-protected poker game. As Jackie delves deeper into the criminal underworld, he uncovers a tangled web of deceit and betrayal.",
+  "genre": ["crime", "thriller"],
+  "link": "https://play.max.com/video/watch/4348b149-4688-4032-a844-fbf40511c014/66d5918f-15c4-4cc7-b9fb-c7463630bbab",
+  "director": [{
+    "name": "Andrew Dominik",
+    "image": "https://d1nslcd7m2225b.cloudfront.net/Pictures/1024x536/8/8/7/1385887_andrewdominik_663615.jpg",
+    "imdb": "https://www.imdb.com/name/nm0235712/"
+  }],
+  "actors": [{
+    "name": "Brad Pitt",
+    "image": "https://m.media-amazon.com/images/M/MV5BMWRkMDE5MjUtN2MyYi00MzAyLWIwOWMtNWU0NzNkZDczOWUyXkEyXkFqcGdeQUlNRGJWaWRlb1RodW1ibmFpbFNlcnZpY2U@._V1_QL75_UX500_CR0,0,500,281_.jpg",
+    "imdb": "https://www.imdb.com/name/nm0000093/"
+  }, {
+    "name": "Scoot McNairy",
+    "image": "https://www.hollywoodreporter.com/wp-content/uploads/2020/07/gettyimages-1204571409-h_2020.jpg?w=1500",
+    "imdb": "https://www.imdb.com/name/nm1058300/"
+  }, {
+    "name": "Ben Mendelsohn",
+    "image": "https://static.independent.co.uk/2024/02/08/11/Ben%20Mendelsohn%20Profile-1.jpg",
+    "imdb": "https://www.imdb.com/name/nm0578853/"
+  }]
 }
+
 
 
 
