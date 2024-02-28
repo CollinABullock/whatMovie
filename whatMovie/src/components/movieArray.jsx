@@ -5079,7 +5079,37 @@ const moviesArray = [
     "image": "https://ca-times.brightspotcdn.com/dims4/default/d01c15e/2147483647/strip/false/crop/1600x900+0+0/resize/1486x836!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F42%2F47%2Fc26da65b872629a4cdf913f7ff5f%2Fla-et-mn-rachel-mcadams-20150724-001",
     "imdb": "https://www.imdb.com/name/nm1046097/"
   }]
+},
+
+{
+  "item": 172,
+  "title": "I Now Pronounce You Chuck & Larry",
+  "runtime": 115,
+  "mpaa": "PG-13",
+  "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/890e0dcf-0d1d-4f0b-8584-84fa3d3c13cd/499ca51713b0d7a8121f17f0c55605983384f4c7.jpg?submitted=1684718367193&host=wbd-images.prod-vod.h264.io&partner=beamcom",
+  "description": "Two New York City firefighters pretend to be a gay couple in order to receive domestic partner benefits. However, their plan encounters numerous complications, including unexpected romantic entanglements and a government investigation.",
+  "genre": ["comedy", "romance"],
+  "link": "https://play.max.com/video/watch/f3f5d52e-49a4-406d-bdd0-262fb0fbb1b6/57fb574b-2b6c-49d2-a376-17b71aec80f4",
+  "director": [{
+    "name": "Dennis Dugan",
+    "image": "https://vz.cnwimg.com/wp-content/uploads/2014/01/GettyImages-102356833.jpg",
+    "imdb": "https://www.imdb.com/name/nm0241187/"
+  }],
+  "actors": [{
+    "name": "Adam Sandler",
+    "image": "https://variety.com/wp-content/uploads/2022/09/GettyImages-1400536441.jpg?w=1000&h=563&crop=1",
+    "imdb": "https://www.imdb.com/name/nm0001191/"
+  }, {
+    "name": "Kevin James",
+    "image": "https://www.hollywoodreporter.com/wp-content/uploads/2019/09/kevin_james_-_getty_-_h_2019_.jpg?w=1296",
+    "imdb": "https://www.imdb.com/name/nm0416673/"
+  }, {
+    "name": "Jessica Biel",
+    "image": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/KFBMHJEHN4DWLFSYVZKIDFGGL4.jpg&w=1440",
+    "imdb": "https://www.imdb.com/name/nm0004754/"
+  }]
 }
+
 
 
 
