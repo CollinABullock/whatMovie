@@ -17,6 +17,23 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
   const [filteredDirectors, setFilteredDirectors] = useState([]);
   const [selectedDirectors, setSelectedDirectors] = useState([]);
 
+  const handleDirectorSearch = (event) => {
+    const searchTerm = event.target.value.toLowerCase();
+    const flattenedDirectors = data.reduce((acc, movie) => {
+      if (movie.director) {
+        acc.push(...movie.director);
+      }
+      return acc;
+    }, []);
+    
+    const filtered = searchTerm.trim() === '' ?
+      [] :
+      flattenedDirectors.filter(director => director.name.toLowerCase().includes(searchTerm));
+  
+    setFilteredDirectors(filtered);
+    setDirectorSearch(event.target.value);
+  };
+
   // Define handleDirectorCheckboxChange function
   const handleDirectorCheckboxChange = (event) => {
     const { value, checked } = event.target;
@@ -255,7 +272,7 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
               type="text"
               placeholder="Search directors..."
               value={directorSearch}
-              onChange={(e) => setDirectorSearch(e.target.value)}
+              onChange={handleDirectorSearch}
               style={{ marginBottom: '10px' }}
             />
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '20px' }}>
