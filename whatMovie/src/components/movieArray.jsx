@@ -3129,6 +3129,8 @@ const moviesArray = [
     }]
     },
   ],
+
+  // start max array
   [
     {    
       "item": "103",
@@ -5722,7 +5724,7 @@ const moviesArray = [
   "mpaa": "PG-13",
   "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/1b73bd19-1229-4e5f-986a-ae38ac0f5476/d9e80f2d407361c6c36c8265ffad7d050e5b5293.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
   "description": "In 'The Lord of the Rings: The Two Towers', the fellowship is scattered after the events of the first film, with Frodo and Sam continuing their journey to Mount Doom while Aragorn, Legolas, and Gimli aid in the defense of Rohan against Saruman's forces. Meanwhile, Merry and Pippin encounter the Ents and play a crucial role in the battle against Isengard.",
-  "genre": ["adventure", "fantasy"],
+  "genre": ["action", "fantasy"],
   "link": "https://play.max.com/video/watch/586a17ef-d09d-49d6-806c-22f8329979ca/27fcd1bb-b34e-406f-89f7-dd9f324bbb4b",
   "director": [{
     "name": "Peter Jackson",
@@ -5744,12 +5746,68 @@ const moviesArray = [
   }]
 },
 
+{
+  "item": 191,
+  "title": "Robin Hood: Men in Tights",
+  "runtime": 104,
+  "mpaa": "PG-13",
+  "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/283535b8-42d8-4e65-8034-cfb21dcbfb93/bbcaebc9494c9481b4c8a04c372cd4efdbcf01b9.jpg?submitted=1684655380202&host=wbd-images.prod-vod.h264.io&partner=beamcom",
+  "description": "In 'Robin Hood: Men in Tights', a comedic spoof of the classic Robin Hood tale, Robin of Loxley returns from the Crusades to find his homeland under the tyrannical rule of the Sheriff of Rottingham. With the help of his band of merry men, including Little John, Blinkin, and Will Scarlet, Robin sets out to thwart the Sheriff's plans and restore peace to the kingdom.",
+  "genre": ["comedy"],
+  "link": "https://play.max.com/video/watch/05ca6f71-a1bb-4985-b4f5-8d36e718af08/40f1e5d1-02eb-43b9-bacd-bf271eadbe22",
+  "director": [{
+    "name": "Mel Brooks",
+    "image": "https://cdn.aarp.net/content/dam/aarp/entertainment/celebrities/2022/01/1140-mel-brooks-2016.jpg",
+    "imdb": "https://www.imdb.com/name/nm0000316/?ref_=tt_ov_dr",
+  }],
+  "actors": [{
+    "name": "Cary Elwes",
+    "image": "https://m.media-amazon.com/images/G/01/IMDb/carye_v1_1248x702._CB1562790284_.JPG",
+    "imdb": "https://www.imdb.com/name/nm0000144/"
+  }, {
+    "name": "Richard Lewis",
+    "image": "https://www.usatoday.com/gcdn/presto/2023/04/24/USAT/ac96d30f-3a5c-4c72-8806-3cf5344bb60f-richard_lewis.jpg?width=660&height=505&fit=crop&format=pjpg&auto=webp",
+    "imdb": "https://www.imdb.com/name/nm0507659/"
+  }, {
+    "name": "Dave Chappelle",
+    "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2023-12/231231-dave-chappelle-netflix-wm-1033a-6bb25a.jpg",
+    "imdb": "https://www.imdb.com/name/nm0152638/"
+  }]
+},
 
+{
+  "item": 192,
+  "title": "Spaceballs",
+  "runtime": 96,
+  "mpaa": "PG",
+  "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/b09eb74a-e129-4862-94f7-4280bdbfb71b/1b37d6aa7b781c691f34d77a46b5838f25f284be.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+  "description": "In 'Spaceballs', Lone Starr and his half-man, half-dog companion, Barf, are hired by Princess Vespa's father to rescue her from the clutches of the evil Dark Helmet. Along the way, they encounter a motley crew of characters, including the wise but eccentric Yogurt and the flamboyant President Skroob, as they embark on a hilarious parody-filled adventure through the galaxy.",
+  "genre": ["comedy", "sci-fi"],
+  "link": "https://play.max.com/video/watch/aa2e17f8-0fa0-4c73-95bf-f07b23771cef/0272f601-dbdb-49f7-8006-7a7e9bf45e1b",
+  "director": [{
+    "director": [{
+      "name": "Mel Brooks",
+      "image": "https://cdn.aarp.net/content/dam/aarp/entertainment/celebrities/2022/01/1140-mel-brooks-2016.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000316/?ref_=tt_ov_dr",
+  }],
+  "actors": [{
+    "director": [{
+      "name": "Mel Brooks",
+      "image": "https://cdn.aarp.net/content/dam/aarp/entertainment/celebrities/2022/01/1140-mel-brooks-2016.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000316/?ref_=tt_ov_dr",
+  }, {
+    "name": "John Candy",
+    "image": "https://miro.medium.com/v2/resize:fit:780/1*jyPaZo2IMSmKHKzVkzv9OQ.png",
+    "imdb": "https://www.imdb.com/name/nm0001006/"
+  }, {
+    "name": "Rick Moranis",
+    "image": "https://i.ytimg.com/vi/NC2erzsY4xQ/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAkCCx9SsoFnUa2fAYozTFGJ0mW0w",
+    "imdb": "https://www.imdb.com/name/nm0001548/"
+  }]
+},
 
-
-
-  ]
-]
+  ],
+],
 
 const netflixArray = moviesArray[0];
 const maxArray = moviesArray[1]
