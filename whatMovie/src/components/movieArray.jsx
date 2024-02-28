@@ -4934,7 +4934,37 @@ const moviesArray = [
     "image": "https://static.independent.co.uk/2024/02/08/11/Ben%20Mendelsohn%20Profile-1.jpg",
     "imdb": "https://www.imdb.com/name/nm0578853/"
   }]
+},
+
+{
+  "item": 167,
+  "title": "Pulp Fiction",
+  "runtime": 154,
+  "mpaa": "R",
+  "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/04d2059a-0056-4693-93cd-5fd1b7b02d4e/394696225b571c335b42a7a9329992b5f33ba8fb.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+  "description": "Pulp Fiction is a 1994 crime film directed by Quentin Tarantino. The film intertwines multiple storylines involving two hitmen, a gangster and his wife, a boxer, and a pair of petty criminals. Through a series of nonlinear narratives, Pulp Fiction explores themes of crime, redemption, and the absurdities of human behavior.",
+  "genre": ["crime", "drama", "film-noir", "comedy"],
+  "link": "https://play.max.com/video/watch/ffab6998-2e83-488f-9723-d0f59dcdb1be/04378e40-38c5-475b-8aa4-4e7eca539412",
+  "director": [{
+    "name": "Quentin Tarantino",
+    "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTfp1z_B7M3pWBZ__wU1PSwBAhIZRd6MyxYbc_25PDvGs6MlzsTLejJDtdOh772ILYJch3Fn-hOq8woi-o",
+    "imdb": "https://www.imdb.com/name/nm0000233/",
+  }],
+  "actors": [{
+    "name": "John Travolta",
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS02OuabypnBpCE9KCFh_ojnkUXabzlyabfIdfluZlnT78Bt2fpca875cBMt5RTXRiAErqxdA",
+    "imdb": "https://www.imdb.com/name/nm0000237/"
+  }, {
+    "name": "Uma Thurman",
+    "image": "https://m.media-amazon.com/images/M/MV5BOTViOTM2NzItZTA5Yi00Y2ZkLWJlYTgtZjFmMDBlYmJiYzJkXkEyXkFqcGdeQW1pYnJ5YW50._V1_.jpg",
+    "imdb": "https://www.imdb.com/name/nm0000235/"
+  }, {
+    "name": "Samuel L Jackson",
+      "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSz_lJ-KbT6_kugv-NHRDoMVxpXtuS2XoD53cD6j6n1sIohIo1Qf9ESbwAfN5OO_r4kj8_TxeN17dGr_rQ",
+      "imdb": "https://www.imdb.com/name/nm0000168/",
+  }]
 }
+
 
 
 
