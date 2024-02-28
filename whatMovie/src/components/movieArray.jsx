@@ -5585,7 +5585,7 @@ const moviesArray = [
   "mpaa": "R",
   "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/f9ccbc2b-fde5-48a6-9853-fa815b857f16/b6c083488a67b7cab0448c549e7bdfbfbde14628.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
   "description": "In 'High Life', a group of convicts are sent on a dangerous space mission to explore a black hole. As they navigate the perils of space and isolation, they become subjects of a series of strange experiments conducted by the ship's enigmatic doctor. Tensions rise as they confront their pasts and struggle to survive in the unforgiving depths of space.",
-  "genre": ["sci-fi", "drama", "thriller"],
+  "genre": ["science-fiction", "drama", "thriller"],
   "link": "https://play.max.com/video/watch/d12aee58-edd6-4311-aa6e-524eebf2b24d/3a6fe820-1a51-4c69-becd-a0d52d2e7d92",
   "director": [{
     "name": "Claire Denis",
@@ -5605,8 +5605,86 @@ const moviesArray = [
     "image": "https://www.rollingstone.com/wp-content/uploads/2023/11/Andre-3000-Press-Photo-1-credit_-Kai-Regan.jpg?w=1581&h=1054&crop=1",
     "imdb": "https://www.imdb.com/name/nm0004736/"
   }]
-}
+},
 
+{
+  "item": 186,
+  "title": "Under the Skin",
+  "runtime": 108,
+  "mpaa": "R",
+  "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/210edf20-b2a7-47de-9a1d-776121acd159/ac49dc54cfb97981b1c89fde27927e12d2a96325.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+  "description": "In 'Under the Skin', an alien entity assumes the form of a human woman and prowls the streets of Scotland, seducing and preying upon unsuspecting men. As she lures her victims into a fatal trap, she begins to experience the complexities of human emotions and empathy, ultimately questioning her own existence and purpose.",
+  "genre": ["science fiction", "horror", "drama"],
+  "link": "https://play.max.com/video/watch/db5c05b3-53b7-4623-a959-cc9a37396afd/9028da54-7104-439d-bd1d-9db700607463",
+  "director": [{
+    "name": "Jonathan Glazer",
+    "image": "https://i.guim.co.uk/img/media/b99bf765b3b7c4b0155400107922709532845142/0_224_6720_4032/master/6720.jpg?width=465&dpr=1&s=none",
+    "imdb": "https://www.imdb.com/name/nm0327273/"
+  }],
+  "actors": [{
+    "name": "Scarlett Johansson",
+    "image": "https://dmn-dallas-news-prod.cdn.arcpublishing.com/resizer/UQ836S9qDWRgX1TYCkzykIuWIK8=/1660x1107/smart/filters:no_upscale()/cloudfront-us-east-1.images.arcpublishing.com/dmn/63MMCIXPOAOUKAMXJMW7HTAWCU.jpg",
+    "imdb": "https://www.imdb.com/name/nm0424060/",
+  }]
+},
+
+{
+  "item": 187,
+  "title": "Winter's Bone",
+  "runtime": 100,
+  "mpaa": "R",
+  "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/3eb75e90-e0ac-43ef-a657-4a86ef5211a1/1a690ea55614408721827fda311e7eec760f03d3.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+  "description": "In 'Winter's Bone', Ree Dolly, a strong-willed teenager living in the Ozarks, sets out to find her missing father who used their family home as collateral for his bail bond and has now disappeared. As she navigates the harsh and isolated rural landscape, Ree confronts the dark secrets of her family and community in her quest for truth and survival.",
+  "genre": ["drama", "mystery"],
+  "link": "https://play.max.com/video/watch/4cf193c0-2345-40f3-b012-cc5c406207e0/6fe28d01-56c0-4042-80f1-55bf2c4b98c0",
+  "director": [{
+    "name": "Debra Granik",
+    "image": "https://filmpipeline.com/wp-content/uploads/sites/6/2019/11/DebraGranik.jpg",
+    "imdb": "https://www.imdb.com/name/nm0335221/"
+  }],
+  "actors": [{
+    "name": "Jennifer Lawrence",
+    "image": "https://media.vanityfair.com/photos/618c0614fdf674f0522a9fb7/master/w_2560%2Cc_limit/LBY_210805_JENNIFER_LAWRENCE_VF_09G_Shot_10_028_QC_sRGB_LR.jpg",
+    "imdb": "https://www.imdb.com/name/nm2225369/?ref_=tt_ov_st",
+  }, {
+    "name": "John Hawkes",
+    "image": "https://static.independent.co.uk/2023/09/14/14/GettyImages-1040580794.jpg",
+    "imdb": "https://www.imdb.com/name/nm0370035/"
+  }, {
+    "name": "Garret Dillahunt",
+    "image": "https://images.seattletimes.com/wp-content/uploads/2024/02/02262024_Garret_Dillahunt_140950.jpg?d=2040x1358",
+    "imdb": "https://www.imdb.com/name/nm0226813/"
+  }]
+},
+
+{
+  "item": 188,
+  "title": "Eastern Promises",
+  "runtime": 100,
+  "mpaa": "R",
+  "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/ca436060-3cad-4a91-bbd8-bf68a20acf95/64aa3220d5bfba873cb3bb25c23beb53d153603b.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+  "description": "In 'Eastern Promises', a British midwife, Anna Khitrova, becomes entangled in the dangerous world of the Russian mafia after delivering the baby of a young teenager who dies in childbirth. As Anna delves deeper into the girl's past, she forms an unlikely alliance with a mysterious and ruthless member of the Russian mob, uncovering secrets that put her life in jeopardy.",
+  "genre": ["crime", "drama", "thriller"],
+  "link": "https://play.max.com/video/watch/cdada3cc-ba06-43c4-be32-f5cdb4a8b486/60b3463a-6622-40cb-84f7-797343f94ba5",
+  "director": [{
+    "name": "David Cronenberg",
+    "image": "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2014/9/10/1410353449685/David-Cronenberg-portrait-014.jpg?width=700&quality=85&auto=format&fit=max&s=3b7a7a87ea2cad648b83e731b3f44343",
+    "imdb": "https://www.imdb.com/name/nm0000343/"
+  }],
+  "actors": [{
+    "name": "Viggo Mortensen",
+    "image": "https://mediaproxy.salon.com/width/1200/https://media2.salon.com/2013/03/viggo_mortensen.jpg",
+    "imdb": "https://www.imdb.com/name/nm0001557/"
+  }, {
+    "name": "Naomi Watts",
+    "image": "https://m.media-amazon.com/images/M/MV5BNmI3MmFjMmYtY2JlNy00MDliLWE2YzMtMDVkZDJlYWM4MTk3XkEyXkFqcGdeQW1pYnJ5YW50._V1_QL75_UX500_CR0,0,500,281_.jpg",
+    "imdb": "https://www.imdb.com/name/nm0915208/",
+  }, {
+    "name": "Vincent Cassel",
+    "image": "https://i.guim.co.uk/img/media/6885d05562e83bfdd4204aa11551f28fae04d924/0_0_6208_3726/master/6208.jpg?width=1200&quality=85&auto=format&fit=max&s=cc0d369024b5d2dfc157f8b81efa1a78",
+    "imdb": "https://www.imdb.com/name/nm0001993/"
+  }]
+}
 
 
 
