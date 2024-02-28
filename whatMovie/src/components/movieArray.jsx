@@ -5195,7 +5195,7 @@ const moviesArray = [
     "image": "https://media.gq.com/photos/5a4d34bac2cf0649ff7c2596/4:3/w_2664,h_1998,c_limit/william-jackson-harper-04.jpg",
     "imdb": "https://www.imdb.com/name/nm2391117/"
   }]
-}
+},
 
 
 
