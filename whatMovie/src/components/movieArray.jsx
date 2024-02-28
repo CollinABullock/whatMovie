@@ -5137,7 +5137,37 @@ const moviesArray = [
       "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRK9jrqMa484_bOUOls6P-egKvI9YLJopHVIj0cCKJZ27ldLoylGlYA7H8Dm3CVan9irp9GSs-ELU05nHI",
       "imdb": "https://www.imdb.com/name/nm0842770/"
   }]
+},
+
+{    
+  "item": "174",
+  "title": "Friday The 13th",
+  "runtime": 95,
+  "mpaa": "R",
+  "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/091df698-401e-42d9-9886-0b9d4c41b460/b13aac0317988b9ee96473445203e7ef8850cdb4.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+  "description": "A group of young camp counselors are stalked and terrorized by an unknown assailant at Camp Crystal Lake.",
+  "genre": ["horror"],
+  "link": "https://play.max.com/video/watch/67d5b4a3-e074-4eef-9bf9-4f613ff589f0/311d33a4-b409-453e-ae9c-88e18629d86d",
+  "director": [{
+    "name": "Sean S. Cunningham",
+    "image": "https://m.media-amazon.com/images/M/MV5BNTg1YzJjYWQtMTE2Ni00ZjEyLTljNTYtNzQxNDI3MTM5ZTYwXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+    "imdb": "https://www.imdb.com/name/nm0192537/"
+  }],
+  "actors": [{
+    "name": "Betsy Palmer",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTQzOTYyMjkwMl5BMl5BanBnXkFtZTgwMTA1OTY4NTE@._V1_FMjpg_UX1000_.jpg",
+    "imdb": "https://www.imdb.com/name/nm0001593/"
+  }, {
+    "name": "Adrienne King",
+    "image": "https://m.media-amazon.com/images/M/MV5BZGJiMjM5MzUtYWRiZi00Yzk4LWE4NmUtZmUxMjNjYWY4YTMyXkEyXkFqcGdeQWRpZWdtb25n._V1_.jpg",
+    "imdb": "https://www.imdb.com/name/nm0454475/"
+  }, {
+    "name": "Kevin Bacon",
+    "image": "https://hips.hearstapps.com/hmg-prod/images/kevin-bacon-on-tuesday-september-5-2023-news-photo-1699564230.jpg?crop=1xw:0.84375xh;center,top&resize=1200:*",
+    "imdb": "https://www.imdb.com/name/nm0000102/"
+  }]
 }
+
 
 
 

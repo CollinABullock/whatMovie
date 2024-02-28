@@ -224,7 +224,7 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
   setPreferredGenres([]);
   setRuntime(240);
   setSelectedService([]);
-  window.alert("Preferences Have Been Reset")
+  window.alert("Preferences have been reset.  Happy viewing!")
 }} style={{ marginLeft: '10px', fontSize: "2em", backgroundColor: "red" }}>Reset Preferences</Button>
   </div>
 </div>
