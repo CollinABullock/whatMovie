@@ -51,7 +51,7 @@ export default function NavBar({ onPreferenceChange, uniqueGenres }) {
     margin: "30px",
     // Media query for mobile devices
     '@media (max-width: 768px)': {
-      fontSize: '.56em', // Font size on mobile
+      fontSize: '.25em', // Font size on mobile
     }
   }}
 >

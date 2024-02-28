@@ -149,7 +149,7 @@ export default function RandomMovie({ selectedRuntime  }) {
           animate={{ x: 0, opacity: 1 }} // animate to the center of the screen
           transition={{ duration: 0.3, type: "tween" }} // adjust duration as needed
         >
-          <Card className="randomCard" style={{ width: "100%", maxWidth: "700px", maxHeight: "100vh", backgroundColor: "#EC0B43", color: "whitesmoke", borderRadius: "30px"}}>
+          <Card className="randomCard" style={{ width: "100%", maxWidth: "700px", maxHeight: "100%", backgroundColor: "#EC0B43", color: "whitesmoke", borderRadius: "30px"}}>
             <Card.Body>
             <Card.Img 
   src={randomMovie.poster} 
@@ -170,7 +170,7 @@ export default function RandomMovie({ selectedRuntime  }) {
           </Card>
         </motion.div>
       ) : (
-        <Card className='randomCard' style={{backgroundColor: "#58355E", alignItems: "center"}}>
+        <Card style={{backgroundColor: "#58355E", alignItems: "center", marginTop: "10px"}}>
           <h1 style={{color: "white", textShadow: "2px 2px 2px black"}}>What movie should you watch tonight?</h1>
           <button className="randomMovie" onClick={handleRandomMovie}>Pick a random movie</button>
         </Card>
