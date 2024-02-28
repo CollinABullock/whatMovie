@@ -5108,7 +5108,37 @@ const moviesArray = [
     "image": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/KFBMHJEHN4DWLFSYVZKIDFGGL4.jpg&w=1440",
     "imdb": "https://www.imdb.com/name/nm0004754/"
   }]
+},
+
+{
+  "item": 173,
+  "title": "Trainwreck",
+  "runtime": 125,
+  "mpaa": "R",
+  "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/0ccec63f-86ae-4c3d-967b-ab1dcd9b900e/a90f9b9dae3e2e5e34caa9fcfeb46f564521d2c1.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+  "description": "Amy Townsend, a commitment-phobic career woman who enjoys a hedonistic lifestyle, avoids serious relationships until she meets a sports doctor named Aaron Conners. As Amy navigates the challenges of romance and personal growth, she begins to confront her fears and insecurities, leading to unexpected revelations and heartfelt moments.",
+  "genre": ["comedy", "romance"],
+  "link": "https://play.max.com/video/watch/6e90268b-5b7c-4e96-9a84-9faff17a9f0f/5ed12315-2c1b-4097-9620-06ee22c7bb9b",
+  "director": [{
+    "name": "Judd Apatow",
+    "image": "https://www.indiewire.com/wp-content/uploads/2020/09/AP_20026203886163.jpg?w=600&h=337&crop=1",
+    "imdb": "https://www.imdb.com/name/nm0031976/",
+  }],
+  "actors": [{
+    "name": "Amy Schumer",
+    "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2024/02/896/500/cdee370a-amy-schumer.jpg?ve=1&tl=1",
+    "imdb": "https://www.imdb.com/name/nm1102891/"
+  }, {
+    "name": "Bill Hader",
+    "image": "https://www.hollywoodreporter.com/wp-content/uploads/2023/04/1482720976-H-2023.jpg?w=1296",
+    "imdb": "https://www.imdb.com/name/nm0352778/"
+  }, {
+    "name": "Tilda Swinton",
+      "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRK9jrqMa484_bOUOls6P-egKvI9YLJopHVIj0cCKJZ27ldLoylGlYA7H8Dm3CVan9irp9GSs-ELU05nHI",
+      "imdb": "https://www.imdb.com/name/nm0842770/"
+  }]
 }
+
 
 
 
