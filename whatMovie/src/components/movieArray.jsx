@@ -6496,6 +6496,89 @@ const moviesArray = [
     }]
     },
 
+    {
+      "item": "215",
+      "title": "Forrest Gump",
+      "runtime": 142,
+      "mpaa": "PG-13",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/639bed0b369bc66a6d32450f296f3514c47aac9607add81df5155160131569cb._UR1920,1080_SX720_FMjpg_.jpg",
+      "description": "Forrest Gump is a heartwarming tale that follows the life of Forrest Gump, a kind-hearted but intellectually challenged man, as he navigates through significant historical events in the United States from the 1950s to the 1980s. Despite facing numerous challenges and setbacks, Forrest's optimism and perseverance lead him to extraordinary achievements. Along the way, he becomes a football star, a war hero, a successful businessman, and even a ping-pong champion. Through his encounters with iconic figures and his unwavering love for his childhood friend Jenny, Forrest teaches us about the power of love, friendship, and the human spirit.",
+      "genre": ["drama", "romance", "classic"],
+      "link": "https://www.amazon.com/gp/video/detail/B00BQPIULY/ref=atv_dp_amz_c_TS5124c5_1_12?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Robert Zemeckis",
+        "image": "https://www.hollywoodreporter.com/wp-content/uploads/2020/01/robert_zemekis.jpg?w=1296",
+        "imdb": "https://www.imdb.com/name/nm0000709/"
+      }],
+      "actors": [{
+        "name": "Tom Hanks",
+      "image": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcSAH3LQht3_OypUB0nTtNJyUvK0Ioa0F5NdL5ICq_QLNe6D0-aCEFTrjuxecO3rPMXj0ZeXV2mHqjvshJo",
+      "imdb": "https://www.imdb.com/name/nm0000158/",
+      }, {
+        "name": "Robin Wright",
+        "image": "https://media13.s-nbcnews.com/i/mpx/2704722219/2024_02/tdy_pop_10a_robin_wright_240228_2-8a8icb.jpg",
+        "imdb": "https://www.imdb.com/name/nm0000705/"
+      }, {
+        "name": "Gary Sinise",
+        "image": "https://ca-times.brightspotcdn.com/dims4/default/b496775/2147483647/strip/true/crop/600x354+0+0/resize/1200x708!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F0b%2F1b%2F8fb5d8a5d6aaae3fcfd16ce76fd0%2Fla-xpm-photo-2012-oct-29-la-et-ms-gary-sinise-band-20121030",
+        "imdb": "https://www.imdb.com/name/nm0000641/"
+      }]
+    },
+
+    {
+      "item": "216",
+      "title": "Captain Phillips",
+      "runtime": 134,
+      "mpaa": "R",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/778a1e3a6a9c52e0cbd6ee74ed22357b2db2d541817d393f2162b0c53f6f3aeb.jpg",
+      "description": "Captain Phillips is a gripping thriller based on the true story of the 2009 Maersk Alabama hijacking by Somali pirates. The film follows Captain Richard Phillips and his crew as they sail through the dangerous waters off the coast of Somalia. When their ship is hijacked by armed pirates led by Abduwali Muse, Phillips must use all his wits and courage to try to protect his crew and navigate through the escalating crisis. As tensions mount and the situation becomes increasingly perilous, Phillips finds himself in a high-stakes battle for survival against the ruthless pirates.",
+      "genre": ["drama", "thriller"],
+      "link": "https://www.amazon.com/gp/video/detail/B00HQLFFPQ/ref=atv_dp_amz_c_TS5124c5_1_8?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Paul Greengrass",
+        "image": "https://variety.com/wp-content/uploads/2018/09/paul-greengrass-22_july_3665.jpg?crop=0px%2C0px%2C1000px%2C563px&resize=1000%2C563",
+        "imdb": "https://www.imdb.com/name/nm0339030/",
+      }],
+      "actors": [{
+        "name": "Tom Hanks",
+        "image": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcSAH3LQht3_OypUB0nTtNJyUvK0Ioa0F5NdL5ICq_QLNe6D0-aCEFTrjuxecO3rPMXj0ZeXV2mHqjvshJo",
+        "imdb": "https://www.imdb.com/name/nm0000158/",
+      }, {
+        "name": "Barkhad Abdi",
+        "image": "https://variety.com/wp-content/uploads/2016/06/barkhad-abdi-blade-runner.jpg?w=1000",
+        "imdb": "https://www.imdb.com/name/nm4600440/"
+      }]
+    },
+
+    {
+      "item": "217",
+      "title": "The Transporter 3",
+      "runtime": 104,
+      "mpaa": "PG-13",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/d3055080f359c859da49d170f46ab10c71cca1d6c30b61eade269ab0f044eb35.jpg",
+      "description": "In 'The Transporter 3', Frank Martin finds himself forced to transport Valentina, the kidnapped daughter of a Ukrainian government official, from Marseilles to Odessa on the Black Sea. As they journey across Europe, Frank faces numerous obstacles and adversaries, including a group of ruthless thugs and a powerful criminal mastermind who is determined to see Valentina delivered to her destination. With time running out and danger at every turn, Frank must use all his skills and ingenuity to outwit his enemies and complete his mission.",
+      "genre": ["action", "thriller"],
+      "link": "https://www.amazon.com/gp/video/detail/B0B6RJC3KM/ref=atv_dp_amz_c_TS5124c5_1_8?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Olivier Megaton",
+        "image": "https://variety.com/wp-content/uploads/2013/04/olivier-megaton.jpg",
+        "imdb": "https://www.imdb.com/name/nm0571652/"
+      }],
+      "actors": [{
+        "name": "Jason Statham",
+        "image": "https://ew.com/thmb/bbpeT-u7BO2qVG43YbrTdg9arNo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/meg-fp-0002-2000-7ed63879f64c475b821774b972f82ae5.jpg",
+        "imdb": "https://www.imdb.com/name/nm0005458/?ref_=nv_sr_srsg_0_tt_3_nm_5_q_jason%2520stath"
+      }, {
+        "name": "Natalya Rudakova",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTM3MjQ2NTYzMl5BMl5BanBnXkFtZTcwMjkxMzIwMg@@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm2779195/"
+      }]
+    },
+
+    
+    
+    
+    
 
 
 
