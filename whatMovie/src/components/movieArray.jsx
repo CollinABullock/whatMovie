@@ -3,6 +3,35 @@ const moviesArray = [
   // start netflix array
   
   [
+    {
+      "item": "n4",
+      "title": "The Hateful Eight",
+      "runtime": 187,
+      "mpaa": "R",
+      "poster": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABcNVzPf_NZS6e-XlVzNRfKoLq0V910UqsXarGDB7flXBZVyP8LORguKjrM5AUXHI0JLT1EUH0YSMzucMdovYv9LZNPT5TbwLkl7W.jpg?r=74a",
+      "description": "In post-Civil War Wyoming, bounty hunters seek refuge from a blizzard in a remote stagecoach stopover. As the storm overtakes the mountainside lodge, a plot of deception and betrayal unfolds as the eight strangers realize they may not all make it out alive. Quentin Tarantino's eighth film is a gripping and violent tale of suspicion and tension.",
+      "genre": ["crime", "drama", "mystery"],
+      "link": "https://www.netflix.com/title/80064515",
+      "director": [{
+        "name": "Quentin Tarantino",
+    "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTfp1z_B7M3pWBZ__wU1PSwBAhIZRd6MyxYbc_25PDvGs6MlzsTLejJDtdOh772ILYJch3Fn-hOq8woi-o",
+    "imdb": "https://www.imdb.com/name/nm0000233/",
+      }],
+      "actors": [{
+        "name": "Samuel L Jackson",
+        "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSz_lJ-KbT6_kugv-NHRDoMVxpXtuS2XoD53cD6j6n1sIohIo1Qf9ESbwAfN5OO_r4kj8_TxeN17dGr_rQ",
+        "imdb": "https://www.imdb.com/name/nm0000168/",
+      }, {
+        "name": "Kurt Russell",
+        "image": "https://m.media-amazon.com/images/M/MV5BMGUwOTRiNTctMzI1My00NGFiLTkxZjktYmQ2ZTI0ZGEyNTY1XkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0000621/"
+      }, {
+        "name": "Jennifer Jason Leigh",
+        "image": "https://static.standard.co.uk/s3fs-public/thumbnails/image/2016/02/01/10/jenniferjasonleigh.jpg?crop=8:5,smart&quality=75&auto=webp&width=1024",
+        "imdb": "https://www.imdb.com/name/nm0000492/"
+      }]
+    },
+    
     
     {
       "item": "1n",
