@@ -91,6 +91,7 @@ margin: 10px !important;
 .randomCard {
   margin: 0 auto;
   border: 0;
+ 
   @media (max-width: 768px) {
     margin-top: -100px !important;
     width: 100% !important;
