@@ -6380,7 +6380,35 @@ const moviesArray = [
       ]
     },
 
-
+    {
+      "item": "211",
+      "title": "Mission: Impossible 2",
+      "runtime": 123,
+      "mpaa": "PG-13",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/a0d88767ad99815abc6d52a5791bb0a5415c6239096ec3a38d35bd352fa5765d._UR1920,1080_.jpg",
+      "description": "Mission: Impossible 2 follows Ethan Hunt as he is assigned to find and destroy a genetically modified virus called Chimera. To do so, he recruits Nyah Nordoff-Hall, a professional thief and former lover of the virus's creator. As Hunt and his team race against time to prevent the spread of the virus, they encounter a dangerous enemy named Sean Ambrose who has his own plans for Chimera.",
+      "genre": ["action", "thriller", "spy"],
+      "link": "https://www.amazon.com/gp/video/detail/B00BW7FKU0/ref=atv_dp_amz_c_TS5124c5_1_1?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "John Woo",
+        "image": "https://media.newyorker.com/photos/6557bd526acd9ffa64a6874b/4:3/w_2560,h_1920,c_limit/Interview_JohnWooV2.jpg",
+        "imdb": "https://www.imdb.com/name/nm0000247/"
+      }],
+      "actors": [{
+        "name": "Tom Cruise",
+        "image": "https://media.cnn.com/api/v1/images/stellar/prod/230710085438-tom-cruise-0703-restricted.jpg?c=16x9&q=h_833,w_1480,c_fill",
+        "imdb": "https://www.imdb.com/name/nm0000129/"
+      }, {
+        "name": "Thandie Newton",
+        "image": "https://images.paramount.tech/uri/mgid:arc:imageassetref:bet.com:acbb9f21-55e7-449b-8e7a-c6bf5e2705de?quality=0.7&gen=ntrn&legacyStatusCode=true",
+        "imdb": "https://www.imdb.com/name/nm0628601/"
+      }, {
+        "name": "Dougray Scott",
+        "image": "https://facts.net/wp-content/uploads/2023/10/20-captivating-facts-about-dougray-scott-1697033105.jpg",
+        "imdb": "https://www.imdb.com/name/nm0001715/"
+      }]
+    },
+    
     
     
   ]
