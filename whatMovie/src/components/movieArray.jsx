@@ -6947,6 +6947,95 @@ const moviesArray = [
       }]
     },
     
+    {
+      "item": "226",
+      "title": "Talladega Nights: The Ballad of Ricky Bobby",
+      "runtime": 121,
+      "mpaa": "PG-13",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/958ccc5bca2267a09dfe9e0f6521bca22dbfd3c9ef38711893e3665647c359e0.jpg",
+      "description": "NASCAR superstar Ricky Bobby faces various challenges when French Formula One driver Jean Girard challenges him for the top spot in auto racing.",
+      "genre": ["comedy", "sport"],
+      "link": "https://www.amazon.com/Talladega-Nights-Ballad-Ricky-Unrated/dp/B018R7MTPQ/ref=sr_1_1?crid=LEKN8CA76OEA&dib=eyJ2IjoiMSJ9.SmdnXU1uP0uAnfQNH2LwoxHi9HYYPXbjKQqTPiGclCxNwWn9YRYOzUIeYs2ci9kwMfeQ-DH5BhuIMvb1FIDXNrQ_qL2wptPxfsWQygCUNBTJUP77eloFlC3mbyMdVpmauivjFA9e8ELWIvYfkLTmQ8d1UwfiH4m4FjPG5qJZqjTTGjyNq5br3nATYxjb7Vyv4riEI0SELtsKS_cDttykblvYl04x45jr_-v1cSzFKoI.JQnYBtMrEfl7Tyc9WOh9kslrb17xzfsIuzS6t9hfOns&dib_tag=se&keywords=talladega+nights+the+ballad+of+ricky+bobby&qid=1709231475&s=instant-video&sprefix=talla%2Cinstant-video%2C215&sr=1-1",
+      "director": [{
+        "name": "Adam McKay",
+        "image": "https://media.gq.com/photos/61ae8c6b5f5bc36144ea4ec9/16:9/w_2560%2Cc_limit/AMCKAY-22_R.jpg",
+        "imdb": "https://www.imdb.com/name/nm0570912/",
+      }],
+      "actors": [{
+        "name": "Will Ferrell",
+      "image": "https://ca-times.brightspotcdn.com/dims4/default/076a75b/2147483647/strip/false/crop/3500x1969+0+176/resize/1200x675!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F35%2F0c%2F568646e5482e8f5ce52d1d84b1cd%2Fny-premiere-of-apple-tvs-the-shrink-next-door-90227.jpg",
+      "imdb": "https://www.imdb.com/name/nm0002071/?ref_=nv_sr_srsg_0_tt_6_nm_2_q_will%2520ferrell",
+      }, {
+        "name": "John C. Reilly",
+        "image": "https://variety.com/wp-content/uploads/2023/05/John-C.-Reilly-.jpg?w=1000",
+        "imdb": "https://www.imdb.com/name/nm0000604/"
+      }, {
+        "name": "Sacha Baron Cohen",
+        "image": "https://i.ytimg.com/vi/1_4Pzc7GSOc/maxresdefault.jpg",
+        "imdb": "https://www.imdb.com/name/nm0056187/"
+      }]
+    },
+
+    {
+      "item": "227",
+      "title": "Borat Subsequent Moviefilm",
+      "runtime": 96,
+      "mpaa": "R",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/2ccd210214c7423fc376fdf91fc4fd568bf5d73164217c37a8d6150b9a535e7c.jpg",
+      "description": "Borat returns to America with his daughter and his plan to offer her as a gift to someone in the Trump administration goes awry.",
+      "genre": ["comedy"],
+      "link": "https://www.amazon.com/Borat-Subsequent-Moviefilm-Sacha-Baron/dp/B08K4723DQ/ref=sr_1_3?crid=1U1IZLR1EXLRZ&dib=eyJ2IjoiMSJ9.dlXYRZNHrVz0KNT8SfbMDERqCpfwaSi420cxqP_4nI6xN39WCZ-D6Ypz1cuA-6QFqD49_pwHBqZ4BQmDBjGAtXGkAxIEWbJGoOutTgmbyTdjjDv3PoGAC1vl-3tEgAbtsIUAJ79vkvf8JRfQxiz2z5iPQq2sCUQrtod4fstkyDWd310RjZmLIltIXfnSoNmUiTr4OhYsuHo0bCZ129jR0v77F11CBsnJ_NXIXadTPcQ.Zkd8o0gYzndIdksrIqR4rVHd3Mo2iqeqIYgxZQZWTi0&dib_tag=se&keywords=borat&qid=1709231615&s=instant-video&sprefix=borat%2Cinstant-video%2C188&sr=1-3",
+      "director": [{
+        "name": "Jason Woliner",
+        "image": "https://variety.com/wp-content/uploads/2022/05/Jason_Woliner_by_Joscelynne_Feinstein-e1652291010768.jpg",
+        "imdb": "https://www.imdb.com/name/nm0938751/"
+      }],
+      "actors": [{
+        "name": "Sacha Baron Cohen",
+        "image": "https://i.ytimg.com/vi/1_4Pzc7GSOc/maxresdefault.jpg",
+        "imdb": "https://www.imdb.com/name/nm0056187/"
+      }, {
+        "name": "Maria Bakalova",
+        "image": "https://deadline.com/wp-content/uploads/2022/06/Maria-Bakalova-3.jpg",
+        "imdb": "https://www.imdb.com/name/nm11948816/"
+      }]
+    },
+    
+    {
+      "item": "228",
+      "title": "Step Brothers",
+      "runtime": 98,
+      "mpaa": "R",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/7791d26a0028c4577144dcfe0d7f73ef0a97e6edb5b33714bb55baaede8e2bef._UR1920,1080_.jpg",
+      "description": "Two aimless middle-aged losers still living at home are forced against their will to become roommates when their parents marry.",
+      "genre": ["comedy"],
+      "link": "https://www.amazon.com/gp/video/detail/B0B8SL76R8/ref=atv_dp_amz_c_TS5124c5_1_4?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Adam McKay",
+        "image": "",
+        "imdb": "https://www.imdb.com/name/nm0570912/"
+      }],
+      "actors": [{
+        "director": [{
+          "name": "Adam McKay",
+          "image": "https://media.gq.com/photos/61ae8c6b5f5bc36144ea4ec9/16:9/w_2560%2Cc_limit/AMCKAY-22_R.jpg",
+          "imdb": "https://www.imdb.com/name/nm0570912/",
+        }],
+        "actors": [{
+          "name": "Will Ferrell",
+        "image": "https://ca-times.brightspotcdn.com/dims4/default/076a75b/2147483647/strip/false/crop/3500x1969+0+176/resize/1200x675!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F35%2F0c%2F568646e5482e8f5ce52d1d84b1cd%2Fny-premiere-of-apple-tvs-the-shrink-next-door-90227.jpg",
+        "imdb": "https://www.imdb.com/name/nm0002071/?ref_=nv_sr_srsg_0_tt_6_nm_2_q_will%2520ferrell",
+        }, {
+          "name": "John C. Reilly",
+          "image": "https://variety.com/wp-content/uploads/2023/05/John-C.-Reilly-.jpg?w=1000",
+          "imdb": "https://www.imdb.com/name/nm0000604/"
+        }, {  
+        "name": "Richard Jenkins",
+        "image": "https://www.trbimg.com/img-5a2e0c07/turbine/la-et-golden-globes-2018-nominees-winners-pict-036/1200/16x9/",
+        "imdb": "https://www.imdb.com/name/nm0005460/"
+      }]
+    },
+    
     
   ]
 
