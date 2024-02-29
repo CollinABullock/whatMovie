@@ -6409,6 +6409,34 @@ const moviesArray = [
       }]
     },
     
+    {
+      "item": "212",
+      "title": "Mission: Impossible III",
+      "runtime": 126,
+      "mpaa": "PG-13",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/188482471178f24f1649eaa261a5a5bc7df8081b905b2fd88a7b53c5b39358bb.jpg",
+      "description": "Mission: Impossible III follows Ethan Hunt as he is pulled back into action to rescue his former protégée, who has been captured by an arms dealer named Owen Davian. As Hunt delves deeper into the mission, he discovers a plot involving a dangerous weapon called the Rabbit's Foot. With the help of his team, Hunt races against time to stop Davian and prevent the weapon from falling into the wrong hands.",
+      "genre": ["action", "thriller", "spy"],
+      "link": "https://www.amazon.com/gp/video/detail/B00BW7C4CW/ref=atv_dp_amz_c_TS5124c5_1_1?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "J.J. Abrams",
+        "image": "https://cdn.britannica.com/23/129823-050-4B487943/TV-JJ-movie-Abrams.jpg?w=400&h=300&c=crop",
+        "imdb": "https://www.imdb.com/name/nm0009190/"
+      }],
+      "actors": [{
+        "name": "Tom Cruise",
+        "image": "https://media.cnn.com/api/v1/images/stellar/prod/230710085438-tom-cruise-0703-restricted.jpg?c=16x9&q=h_833,w_1480,c_fill",
+        "imdb": "https://www.imdb.com/name/nm0000129/"
+      }, {
+        "name": "Michelle Monaghan",
+        "image": "https://variety.com/wp-content/uploads/2021/07/Michelle-Monaghan.jpg?w=1000",
+        "imdb": "https://www.imdb.com/name/nm0597388/"
+      }, {
+        "name": "Philip Seymour Hoffman",
+        "image": "https://static01.nyt.com/images/2014/02/03/movies/alt-obit-hoffman/alt-obit-hoffman-articleLarge.jpg?quality=75&auto=webp&disable=upscale",
+        "imdb": "https://www.imdb.com/name/nm0000450/"
+      }]
+    },
     
     
   ]
