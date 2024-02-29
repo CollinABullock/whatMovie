@@ -5394,7 +5394,7 @@ const moviesArray = [
   "runtime": 102,
   "mpaa": "R",
   "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/aca325cd-8b68-470f-abf9-86e15097fc70/a3b2ab28e6e5dc4d21cb41326b784f3d2b385305.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
-  "description": "Robocop is a 1987 science fiction action film directed by Paul Verhoeven. Set in a crime-ridden Detroit, the film follows Alex Murphy, a police officer who is brutally murdered and subsequently revived by the Omni Consumer Products (OCP) corporation as a cyborg law enforcement officer known as Robocop. As Robocop, Murphy must navigate corruption within the police force and take on powerful criminals to uphold justice in the city.",
+  "description": "Alex Murphy is a Detroit police officer who is brutally murdered and subsequently revived by the Omni Consumer Products (OCP) corporation as a cyborg law enforcement officer known as Robocop. As Robocop, Murphy must navigate corruption within the police force and take on powerful criminals to uphold justice in the city.",
   "genre": ["action", "science-fiction", "crime", "comedy"],
   "link": "https://play.max.com/video/watch/668caad6-5d65-477f-a0db-f971c9e88ca7/9ffe1a87-9f46-4afb-a118-7dd2f0afbaa7",
   "director": [{
@@ -6564,7 +6564,7 @@ const moviesArray = [
       "mpaa": "PG-13",
       "poster": "https://m.media-amazon.com/images/S/pv-target-images/a0d88767ad99815abc6d52a5791bb0a5415c6239096ec3a38d35bd352fa5765d._UR1920,1080_.jpg",
       "description": "Mission: Impossible 2 follows Ethan Hunt as he is assigned to find and destroy a genetically modified virus called Chimera. To do so, he recruits Nyah Nordoff-Hall, a professional thief and former lover of the virus's creator. As Hunt and his team race against time to prevent the spread of the virus, they encounter a dangerous enemy named Sean Ambrose who has his own plans for Chimera.",
-      "genre": ["action", "thriller", "spy"],
+      "genre": ["action", "thriller", "spy", "sequel"],
       "link": "https://www.amazon.com/gp/video/detail/B00BW7FKU0/ref=atv_dp_amz_c_TS5124c5_1_1?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
       "director": [{
         "name": "John Woo",
@@ -6593,7 +6593,7 @@ const moviesArray = [
       "mpaa": "PG-13",
       "poster": "https://m.media-amazon.com/images/S/pv-target-images/188482471178f24f1649eaa261a5a5bc7df8081b905b2fd88a7b53c5b39358bb.jpg",
       "description": "Mission: Impossible III follows Ethan Hunt as he is pulled back into action to rescue his former protégée, who has been captured by an arms dealer named Owen Davian. As Hunt delves deeper into the mission, he discovers a plot involving a dangerous weapon called the Rabbit's Foot. With the help of his team, Hunt races against time to stop Davian and prevent the weapon from falling into the wrong hands.",
-      "genre": ["action", "thriller", "spy"],
+      "genre": ["action", "thriller", "spy", "sequel"],
       "link": "https://www.amazon.com/gp/video/detail/B00BW7C4CW/ref=atv_dp_amz_c_TS5124c5_1_1?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
       "director": [{
         "name": "J.J. Abrams",
@@ -6622,7 +6622,7 @@ const moviesArray = [
       "mpaa": "PG-13",
       "poster": "https://m.media-amazon.com/images/S/pv-target-images/f52851fe58806c55b521135f8675753348ac6c0974d0fbe05c559b471a2d498d.jpg",
       "description": "Mission: Impossible – Ghost Protocol follows Ethan Hunt and his team as they are blamed for a terrorist bombing of the Kremlin. Disavowed and left without resources, they must go rogue to clear their names and prevent a nuclear war. Their mission takes them across the globe, from Moscow to Dubai and finally to Mumbai, as they race against time to stop a madman from triggering a global catastrophe.",
-      "genre": ["action", "thriller", "spy"],
+      "genre": ["action", "thriller", "spy", "sequel"],
       "link": "https://www.amazon.com/gp/video/detail/B00BR3ZP3Q/ref=atv_dp_amz_c_TS5124c5_1_1?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
       "director": [{
         "name": "Brad Bird",
@@ -7153,7 +7153,67 @@ const moviesArray = [
       }]
     },
 
+    {
+      "item": 233,
+      "title": "Pitch Perfect",
+      "runtime": 112,
+      "mpaa": "PG-13",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/81f65d490b07b76ab2e44c7e083cd8a43d2391025a3a500ee0ca3d9ff01cfd3e.jpg",
+      "description": "Beca, a freshman at Barden University, is cajoled into joining The Bellas, her school's all-girls singing group. Injecting some much-needed energy into their repertoire, The Bellas take on their male rivals in a campus competition.",
+      "genre": ["comedy", "musical"],
+      "link": "https://www.amazon.com/gp/video/detail/B00BQO4PMS/ref=atv_dp_amz_c_TS5124c5_1_14?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Jason Moore",
+        "image": "https://m.media-amazon.com/images/M/MV5BNjY4MjUzNjUyM15BMl5BanBnXkFtZTcwMjE0NDI1OA@@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0608346/"
+      }],
+      "actors": [{
+        "name": "Anna Kendrick",
+        "image": "https://images.bauerhosting.com/legacy/empire-images/articles/5ce70dfd133d503e3a4a2bec/anna-kendrick.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80",
+        "imdb": "https://www.imdb.com/name/nm0447695/"
+      }, {
+        "name": "Brittany Snow",
+        "image": "https://people.com/thmb/MNu6gE3qivpWA4Rhs2Oh6EjRy5E=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(699x195:701x197)/Brittany-Snow-Red-White-and-Blue-022224-6-2ce4ab45fc464fbd9eb2b37edcad87c4.jpg",
+        "imdb": "https://www.imdb.com/name/nm0811243/"
+      }, {
+        "name": "Rebel Wilson",
+        "image": "https://compote.slate.com/images/afc5bfe4-f532-4634-aab5-4f36bd8b3f61.jpg",
+        "imdb": "https://www.imdb.com/name/nm2313103/"
+      }]
+    },
+
+    {
+      "item": 234,
+      "title": "Pitch Perfect 3",
+      "runtime": 93,
+      "mpaa": "PG-13",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/34aefdb59e877650eaa248542cd786dce8e3f22e1e7854521e8febbe11ac2035.jpg",
+      "description": "Following their win at the world championship, the now-separated Bellas reunite for one last singing competition at an overseas USO tour, but face a group who uses both instruments and voices.",
+      "genre": ["comedy", "musical", "sequel"],
+      "link": "https://www.amazon.com/gp/video/detail/B078GZXMD9/ref=atv_dp_amz_c_TS5124c5_1_1?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Trish Sie",
+        "image": "https://variety.com/wp-content/uploads/2016/06/trish-sie-pitch-perfect-3.jpg",
+        "imdb": "https://www.imdb.com/name/nm0796536/"
+      }],
+      "actors": [{
+        "name": "Anna Kendrick",
+        "image": "https://images.bauerhosting.com/legacy/empire-images/articles/5ce70dfd133d503e3a4a2bec/anna-kendrick.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80",
+        "imdb": "https://www.imdb.com/name/nm0447695/"
+      }, {
+        "name": "Brittany Snow",
+        "image": "https://people.com/thmb/MNu6gE3qivpWA4Rhs2Oh6EjRy5E=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(699x195:701x197)/Brittany-Snow-Red-White-and-Blue-022224-6-2ce4ab45fc464fbd9eb2b37edcad87c4.jpg",
+        "imdb": "https://www.imdb.com/name/nm0811243/"
+      }, {
+        "name": "Rebel Wilson",
+        "image": "https://compote.slate.com/images/afc5bfe4-f532-4634-aab5-4f36bd8b3f61.jpg",
+        "imdb": "https://www.imdb.com/name/nm2313103/"
+      }]
+    }
     
+    
+
+
     
     
 
