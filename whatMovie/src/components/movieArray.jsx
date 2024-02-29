@@ -6733,7 +6733,7 @@ const moviesArray = [
       "runtime": 104,
       "mpaa": "PG-13",
       "poster": "https://m.media-amazon.com/images/S/pv-target-images/d3055080f359c859da49d170f46ab10c71cca1d6c30b61eade269ab0f044eb35.jpg",
-      "description": "In 'The Transporter 3', Frank Martin finds himself forced to transport Valentina, the kidnapped daughter of a Ukrainian government official, from Marseilles to Odessa on the Black Sea. As they journey across Europe, Frank faces numerous obstacles and adversaries, including a group of ruthless thugs and a powerful criminal mastermind who is determined to see Valentina delivered to her destination. With time running out and danger at every turn, Frank must use all his skills and ingenuity to outwit his enemies and complete his mission.",
+      "description": "Professional driver Frank Martin is pressured into moving the kidnapped daughter of a Ukrainian politician to safety.",
       "genre": ["action", "thriller"],
       "link": "https://www.amazon.com/gp/video/detail/B0B6RJC3KM/ref=atv_dp_amz_c_TS5124c5_1_8?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
       "director": [{
@@ -7122,7 +7122,39 @@ const moviesArray = [
         "image": "https://hips.hearstapps.com/hmg-prod/images/salma-hayek-attends-the-2023-academy-museum-gala-at-academy-news-photo-1702312165.jpg?crop=1xw:0.45xh;center,top",
         "imdb": "https://www.imdb.com/name/nm0000161/",
       }]
-    }
+    },
+
+    {
+      "item": 232,
+      "title": "The Hustle",
+      "runtime": 94,
+      "mpaa": "PG-13",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/d42d1e55e4aae495555f224dbe319c83b4a28784e81e0a6eede8cc8e90e3fdc3.jpg",
+      "description": "Josephine Chesterfield is a glamorous, seductive British woman who has a penchant for defrauding gullible men out of their money. Into her well-ordered world comes Penny Rust, a cunning and fun-loving Australian woman who lives to swindle unsuspecting marks. Despite their different methods, the two grifters soon join forces for the ultimate score.",
+      "genre": ["comedy", "crime"],
+      "link": "https://www.amazon.com/gp/video/detail/B0BRHM8JSN/ref=atv_dp_amz_c_TS5124c5_1_4?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Chris Addison",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTUzMzY4Mjk4OV5BMl5BanBnXkFtZTgwOTMyNjU4OTE@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0011988/"
+      }],
+      "actors": [{
+        "name": "Anne Hathaway",
+        "image": "https://m.media-amazon.com/images/M/MV5BNzhiN2Y0ZTktOWU2NC00Y2M0LWFiODEtMTQ2NTFiZGVlZmI3XkEyXkFqcGdeQW1pYnJ5YW50._V1_QL75_UX500_CR0,0,500,281_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0004266/",
+      }, {
+        "name": "Rebel Wilson",
+        "image": "https://compote.slate.com/images/afc5bfe4-f532-4634-aab5-4f36bd8b3f61.jpg",
+        "imdb": "https://www.imdb.com/name/nm2313103/"
+      }, {
+        "name": "Alex Sharp",
+        "image": "https://static01.nyt.com/images/2014/09/03/multimedia/alexander-sharpe/alexander-sharpe-superJumbo-v2.jpg",
+        "imdb": "https://www.imdb.com/name/nm6669292/"
+      }]
+    },
+
+    
+    
     
 
 
