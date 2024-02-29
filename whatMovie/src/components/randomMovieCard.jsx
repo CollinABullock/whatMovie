@@ -103,7 +103,7 @@ export default function RandomMovie({ selectedRuntime  }) {
   };
 
   const renderWatchOnLink = () => {
-    if (!randomMovie) return null;
+    if (!randomMovie || !randomMovie.link) return "No link available";
   
     const { link } = randomMovie;
     const url = new URL(link);

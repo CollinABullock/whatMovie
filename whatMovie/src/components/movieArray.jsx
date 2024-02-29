@@ -5567,7 +5567,7 @@ const moviesArray = [
   "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/e8042796-7a15-4cb7-b784-d237e81626fb/2794b4614b4d62fdf5a4ab82b1f07df42141dd22.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
   "description": "Set in a future where Earth has become uninhabitable, 'After Earth' follows the journey of General Cypher Raige and his son Kitai as they crash-land on the planet. With Cypher critically injured, Kitai must embark on a perilous journey across the hostile terrain to signal for help and save both of their lives. As Kitai faces dangerous creatures and environmental hazards, he also grapples with his own fears and insecurities.",
   "genre": ["action", "science-fiction"],
-  "link": "",
+  "link": "https://play.max.com/movie/e8042796-7a15-4cb7-b784-d237e81626fb",
   "director": [{
     "name": "M. Night Shyamalan",
     "image": "https://m.media-amazon.com/images/M/MV5BMTczMTA5OTMxMl5BMl5BanBnXkFtZTcwMDA4NDg1Mw@@._V1_.jpg",
@@ -6343,13 +6343,46 @@ const moviesArray = [
           "imdb": "https://www.imdb.com/name/nm0000317/"
         }
       ]
-    }
+    },
+
+    {
+      "item": 210,
+      "title": "Mission Impossible",
+      "runtime": 110,
+      "mpaa": "PG-13",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/8031cad1c1cf347c12f793164dd28d1af005815aea9b13277ac4fc530bf1c4c2.jpg",
+      "description": "The film follows an IMF agent who is framed for the deaths of his entire team and must go on the run to clear his name.",
+      "genre": ["action", "thriller", "spy"],
+      "link": "https://www.amazon.com/Mission-Impossible-UHD-Tom-Cruise/dp/B07RP9BML9/ref=sr_1_8?dib=eyJ2IjoiMSJ9.9_rt37YF1lGMTg1GtgQAGdZwXh7L15JfB0pb_ZedD1VfEZsi6efthBHg4cJzNOilYgYu-9CV5127bXfw7dIh7TeeAfVX_m6Nj2SF8uMEg-anfhZcKJU2bDU5vrFXDhydkmlh5GCYWbqfjEwG4vKu4yiFnXUNx6_d0HBC6wY5jXZScd8Ha8ZAbUgcqc1IsOBgZP2AAjQKW1LMow_KHL7mnqvnHSXNj-iePoX3FqjDK4E.4xTxB6Th4tL9b56FKIcZwt2l7zOD2issMFVzQVbvcqo&dib_tag=se&qid=1709223544&refinements=p_n_ways_to_watch%3A12007865011%2Cp_n_theme_browse-bin%3A2650363011&rnid=2650362011&s=instant-video&sr=1-8",
+      "director": [
+        {
+          "name": "Brian De Palma",
+          "image": "https://m.media-amazon.com/images/M/MV5BZjZkZTdlZjgtNmFmNi00ZDg1LWJkMDEtNjNhMWRlN2ViOGE1XkEyXkFqcGdeQXVyNDkzNTM2ODg@._V1_.jpg",
+          "imdb": "https://www.imdb.com/name/nm0000361/"
+        }
+      ],
+      "actors": [
+        {
+          "name": "Tom Cruise",
+          "image": "https://media.cnn.com/api/v1/images/stellar/prod/230710085438-tom-cruise-0703-restricted.jpg?c=16x9&q=h_833,w_1480,c_fill",
+          "imdb": "https://www.imdb.com/name/nm0000129/"
+        },
+        {
+          "name": "Jon Voight",
+          "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2014/07/02/08/Angelina-Jon-Getty.jpg",
+          "imdb": "https://www.imdb.com/name/nm0000685/"
+        },
+        {
+          "name": "Emmanuelle Béart",
+          "image": "https://m.media-amazon.com/images/M/MV5BYjFiY2Y2YTctOGMwMC00Y2ViLWFmMzAtM2Q2YTAzYWM5MjY5XkEyXkFqcGdeQXVyMTI3MDk3MzQ@._V1_.jpg",
+          "imdb": "https://www.imdb.com/name/nm0000304/"
+        }
+      ]
+    },
+
+
     
     
-
-
-
-
   ]
 
 
