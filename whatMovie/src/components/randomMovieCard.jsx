@@ -162,13 +162,13 @@ export default function RandomMovie({ selectedRuntime  }) {
           animate={{ x: 0, opacity: 1 }} // animate to the center of the screen
           transition={{ duration: 0.3, type: "tween" }} // adjust duration as needed
         >
-          <Card className="randomCard" style={{ width: "100%", maxWidth: "700px", maxHeight: "100%", backgroundColor: "#EC0B43", color: "whitesmoke", borderRadius: "30px"}}>
+          <Card className="randomCard" style={{ width: "80%", maxHeight: "100%", backgroundColor: "#EC0B43", color: "whitesmoke", borderRadius: "30px"}}>
             <Card.Body>
             <Card.Img 
   src={randomMovie.poster} 
   onLoad={handleImageLoad} // Call handleImageLoad when the image is loaded
 
-  style={{ width: '100%', height: '50%', objectFit: 'cover', margin: '0', padding: '0', marginBottom: "20px" }} 
+  style={{ width: '75%', height: '50%', objectFit: 'cover', margin: '0', padding: '0', marginBottom: "20px" }} 
 />
 <button onClick={handleRandomMovie} style={{ backgroundColor: "red", color: "white", textShadow: "2px 2px 2px black", fontSize: "1.25em", marginBottom: "10px" }}>I'm not feeling it, give me another</button>
               <Card.Text style={{ textAlign: "start", fontFamily: "Verdana"}}>
@@ -183,7 +183,7 @@ export default function RandomMovie({ selectedRuntime  }) {
           </Card>
         </motion.div>
       ) : (
-        <Card style={{backgroundColor: "#58355E", alignItems: "center", marginTop: "425px"}}>
+        <Card style={{backgroundColor: "#58355E", alignItems: "center"}}>
           <h1 style={{color: "white", textShadow: "2px 2px 2px black"}}>What movie should you watch tonight?</h1>
           <button className="randomMovie" onClick={handleRandomMovie}>Pick a random movie</button>
         </Card>

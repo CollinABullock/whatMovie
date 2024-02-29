@@ -38,26 +38,25 @@ export default function NavBar({ onPreferenceChange, uniqueGenres }) {
   const isMobile = window.innerWidth <= 768; // Assuming mobile breakpoint is 768px width
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light fixed-top text-center justify-content-center" style={{padding: "20px", marginBottom: "20px", background: "transparent", alignItems: "center" }}>
+    <nav className="navbar navbar-expand-lg fixed-top navbar-light text-center justify-content-center" style={{background: "transparent", alignItems: "center" }}>
       <p
-  className={glowButton ? "glow" : ""}
-  style={{
-    color: "whitesmoke",
-    fontSize: "2em", // Default font size
-    borderRadius: "30px",
-    padding: "5px",
-    fontFamily: "Showtime",
-    textShadow: "5px 5px 5px black",
-    overflow: "wrap",
-    margin: "30px",
-    // Media query for mobile devices
-    '@media (max-width: 768px)': {
-      fontSize: '.25em', // Font size on mobile
-    }
-  }}
->
-  Choose a movie already!
-</p>
+        className={glowButton ? "glow" : ""}
+        style={{
+          color: "whitesmoke",
+          fontSize: "2em", // Default font size
+          borderRadius: "30px",
+          padding: "5px",
+          fontFamily: "Showtime",
+          textShadow: "5px 5px 5px black",
+          overflow: "wrap",
+          // Media query for mobile devices
+          '@media (maxwidth: 768px)': {
+            fontSize: '.25em', // Font size on mobile
+          }
+        }}
+      >
+        Choose a movie already!
+      </p>
       <button className="navbar-toggler" type="button" aria-controls="preferencesDropdown" aria-expanded="false" onClick={handlePreferencesClick} aria-label="Toggle navigation" style={{backgroundColor: "white"}}>
         <span className="navbar-toggler-icon"></span>
       </button>
@@ -75,5 +74,5 @@ export default function NavBar({ onPreferenceChange, uniqueGenres }) {
         </ul>
       </div>
     </nav>
-  );
-}
+);
+      }

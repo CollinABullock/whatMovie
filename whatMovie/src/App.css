@@ -39,6 +39,8 @@
 
 .navbar {
 background-color: pink;
+position: relative;
+margin: 10px !important;
 }
 
 .footer-a {
@@ -57,6 +59,7 @@ background-color: pink;
 
 .container {
   position: relative;
+  margin-top: 500px !important;
 }
 
 .RandomMovie {
@@ -69,15 +72,14 @@ background-color: pink;
 
 .randomMovie {
   width: 50%;
-  font-size: 5em; 
+  font-size: 4em; 
   background-color: red;
   color: whitesmoke; 
   text-shadow: 2px 2px 2px black;  
-  margin: 50px;
   @media (max-width: 768px) {
     
       width: 100%;
-      font-size: 3em;
+      font-size: 2em;
   }
 }
 
@@ -89,10 +91,10 @@ background-color: pink;
 .randomCard {
   margin: 0 auto;
   border: 0;
-  margin-top: 300px;
   @media (max-width: 768px) {
-    
-   margin-top: 400px;
+    margin-top: -100px !important;
+    width: 100% !important;
+ 
 }
 }
 
@@ -159,6 +161,9 @@ img {
 
 .card {
   padding: 2em;
+  border: none;
+  margin-top: -500;
+  height: 100%;
 }
 
 .read-the-docs {
