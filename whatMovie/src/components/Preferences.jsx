@@ -286,19 +286,48 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
               style={{ marginBottom: '10px' }}
             />
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '20px' }}>
-              {filteredDirectors.map(director => (
-                <div className='filtered-director-item' onClick={() => handleDirectorClick(director.name)} key={director.name} style={{ textAlign: 'center' }}>
-                  {director.image && (
-                    <img
-                    className='filtered-director-img'
-                      src={director.image}
-                      alt={director.name}
-                      style={{ width: '100%', height: '75%', objectFit: "cover", marginBottom: '10px' }}
-                    />
-                  )}
-                  <p style={{ margin: '0' }}>{director.name}</p>
-                </div>
-              ))}
+           
+            {filteredDirectors.map(director => (
+  <div
+    className='filtered-director-item'
+    onClick={() => handleDirectorClick(director.name)}
+    key={director.name}
+    style={{ textAlign: 'center' }}
+  >
+    <div style={{ position: 'relative', display: 'inline-block' }}>
+      {director.image && (
+        <React.Fragment>
+          <img
+            className='filtered-director-img'
+            src={director.image}
+            alt={director.name}
+            style={{ width: '100%', height: '75%', objectFit: "cover", marginBottom: '10px' }}
+          />
+          {/* Conditional rendering for the checkmark */}
+          {preferredDirectors.includes(director.name) && (
+            <div style={{
+              position: 'absolute',
+              top: '-10px',
+              right: '-10px',
+              backgroundColor: 'green',
+              borderRadius: '50%',
+              padding: '3px',
+              zIndex: '1'
+            }}>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16">
+                <path fill="#FFFFFF" d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+              </svg>
+            </div>
+          )}
+        </React.Fragment>
+      )}
+      {/* Display director's name */}
+      <p style={{ margin: '0', color: preferredDirectors.includes(director.name) ? 'green' : 'gray' }}>{director.name}</p>
+    </div>
+  </div>
+))}
+
+
             </div>
           </div>
         )}

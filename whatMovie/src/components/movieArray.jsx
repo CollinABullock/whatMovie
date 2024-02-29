@@ -6019,7 +6019,7 @@ const moviesArray = [
   "title": "Spaceballs",
   "runtime": 96,
   "mpaa": "PG",
-  "poster": "",
+  "poster": "https://m.media-amazon.com/images/S/pv-target-images/6ff4ad5b2576158a6f38cf8059842dcb983ae37192153883054624b9612c6488.jpg",
   "description": "In 'Spaceballs', Lone Starr and his half-man, half-dog companion, Barf, are hired by Princess Vespa's father to rescue her from the clutches of the evil Dark Helmet. Along the way, they encounter a motley crew of characters, including the wise but eccentric Yogurt and the flamboyant President Skroob, as they embark on a hilarious parody-filled adventure through the galaxy.",
   "genre": ["comedy", "sci-fi"],
   "link": "",
