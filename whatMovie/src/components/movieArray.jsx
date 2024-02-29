@@ -5509,7 +5509,7 @@ const moviesArray = [
   "title": "I Now Pronounce You Chuck & Larry",
   "runtime": 115,
   "mpaa": "PG-13",
-  "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/890e0dcf-0d1d-4f0b-8584-84fa3d3c13cd/499ca51713b0d7a8121f17f0c55605983384f4c7.jpg?submitted=1684718367193&host=wbd-images.prod-vod.h264.io&partner=beamcom",
+  "poster": "https://m.media-amazon.com/images/M/MV5BOGYzZGRlZGQtYWJiNS00YTAzLWJlYzItNDI3N2IyMGQyMmE4XkEyXkFqcGdeQXVyMTIwMjY0NjQz._V1_.jpg",
   "description": "Two New York City firefighters pretend to be a gay couple in order to receive domestic partner benefits. However, their plan encounters numerous complications, including unexpected romantic entanglements and a government investigation.",
   "genre": ["comedy", "romance"],
   "link": "https://play.max.com/video/watch/f3f5d52e-49a4-406d-bdd0-262fb0fbb1b6/57fb574b-2b6c-49d2-a376-17b71aec80f4",
@@ -7000,7 +7000,6 @@ const moviesArray = [
         "imdb": "https://www.imdb.com/name/nm11948816/"
       }]
     },
-    
     {
       "item": "228",
       "title": "Step Brothers",
@@ -7034,7 +7033,42 @@ const moviesArray = [
         "image": "https://www.trbimg.com/img-5a2e0c07/turbine/la-et-golden-globes-2018-nominees-winners-pict-036/1200/16x9/",
         "imdb": "https://www.imdb.com/name/nm0005460/"
       }]
+    }]
     },
+    
+    
+    {
+      "item": "229",
+      "title": "Bridesmaids",
+      "runtime": 125,
+      "mpaa": "R",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/6dbabdbde8cba15d99300d8d51389f1ebeb510ba3e74c5a042e0cd8a2e1a0968.jpg",
+      "description": "Competition between the maid of honor and a bridesmaid, over who is the bride's best friend, threatens to upend the life of an out-of-work pastry chef.",
+      "genre": ["comedy", "romance"],
+      "link": "https://www.amazon.com/gp/video/detail/B00BUBKRV0/ref=atv_dp_amz_c_TS5124c5_1_2?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Paul Feig",
+        "image": "https://the-talks.com/wp-content/uploads/2020/11/Paul-Feig-01.jpg",
+        "imdb": "https://www.imdb.com/name/nm0272173/"
+      }],
+      "actors": [{
+        "name": "Kristen Wiig",
+      "image": "https://people.com/thmb/0dDxscDgChqOghle1f4GF2tzVKY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(937x499:939x501)/kristen-wiig-1-a6ece2c7e8d943b6b5c93be0a25878f1.jpg",
+      "imdb": "https://www.imdb.com/name/nm1325419/?ref_=nv_sr_srsg_0_tt_2_nm_6_q_kristen%2520wi"
+      }, {
+        "name": "Maya Rudolph",
+        "image": "https://parade.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTkwNTgxMzA2NDU1MDQxOTE2/maya-rudolph-paul-thomas-anderson-ftr.jpg",
+        "imdb": "https://www.imdb.com/name/nm0748973/"
+      }, {
+        "name": "Rose Byrne",
+      "image": "https://static.independent.co.uk/2022/07/08/14/shutterstock_editorial_12845769bn.jpg",
+      "imdb": "https://www.imdb.com/name/nm0126284/?ref_=tt_ov_st"
+      }, {
+        "name": "Melissa McCarthy",
+        "image": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcTUiOdSk6gvfr9Xg5ymcayA_p3NKiN6BmfLOUMUq2xuixYGNcJ_o4t5KnmUm8R5ademoLEkkHRjn2tLNUw",
+        "imdb": "https://www.imdb.com/name/nm0565250/"
+      }]
+    }
     
     
   ]
