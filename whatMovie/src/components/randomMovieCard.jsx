@@ -115,7 +115,7 @@ export default function RandomMovie({ selectedRuntime  }) {
           <img
             src="https://cdn.vox-cdn.com/thumbor/pNxD2NFOCjbljnMPUSGdkFWeDjI=/0x0:3151x2048/1400x788/filters:focal(1575x1024:1576x1025)/cdn.vox-cdn.com/uploads/chorus_asset/file/15844974/netflixlogo.0.0.1466448626.png"
             alt="Netflix Logo"
-            style={{ width: '75px', height: 'auto' }}
+            style={{ width: '100px', height: 'auto' }}
           />
         </a>
       );
@@ -125,7 +125,7 @@ export default function RandomMovie({ selectedRuntime  }) {
         <img
           src="https://pbs.twimg.com/media/Fth6aQMXwQEb4NU.jpg"
           alt="Max Logo"
-          style={{ width: '75px', height: 'auto' }}
+          style={{ width: '100px', height: 'auto' }}
         />
         </a>
       );
@@ -135,7 +135,7 @@ export default function RandomMovie({ selectedRuntime  }) {
         <img
           src="https://www.shutterstock.com/image-vector/chattogram-bangladesh-may-18-2023-600nw-2304763275.jpg"
           alt="Prime Logo"
-          style={{ width: '75px', height: 'auto' }}
+          style={{ width: '100px', height: 'auto' }}
         />
         </a>
       );
@@ -168,7 +168,7 @@ export default function RandomMovie({ selectedRuntime  }) {
   src={randomMovie.poster} 
   onLoad={handleImageLoad} // Call handleImageLoad when the image is loaded
 
-  style={{ width: '300px', height: '50%', objectFit: 'cover', margin: '0', padding: '0', marginBottom: "20px" }} 
+  style={{ width: '100%', height: '50%', objectFit: 'cover', margin: '0', padding: '0', marginBottom: "20px" }} 
 />
 <button onClick={handleRandomMovie} style={{ backgroundColor: "red", color: "white", textShadow: "2px 2px 2px black", fontSize: "1.25em", marginBottom: "10px" }}>I'm not feeling it, give me another</button>
               <Card.Text style={{ textAlign: "start", fontFamily: "Verdana"}}>
