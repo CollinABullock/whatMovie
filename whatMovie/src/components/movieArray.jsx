@@ -6465,7 +6465,40 @@ const moviesArray = [
         "image": "https://www.indiewire.com/wp-content/uploads/2022/07/Simon-Pegg.png",
         "imdb": "https://www.imdb.com/name/nm0670408/"
       }]
-    }
+    },
+
+    {    
+      "item": "214",
+      "title": "Top Gun:  Maverick",
+      "runtime": 125,
+      "mpaa": "PG-13",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/5099b0bb5c1a20bc2f43fe3a4934c94412c842a595deb5220d70a7ee959aae29.jpg",
+      "description": "After thirty years, Maverick is still pushing the envelope as a top naval aviator, but must confront ghosts of his past when he leads TOP GUN's elite graduates on a mission that demands the ultimate sacrifice from those chosen to fly it.",
+	"genre": ["action", "war"],
+    "link": "https://www.amazon.com/gp/video/detail/B0B5PSJHKF/ref=atv_dp_amz_c_TS5124c5_1_7?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+    "director": [{
+    "name": "Joseph Kosinski",
+    "image": "https://m.media-amazon.com/images/M/MV5BZWJlODliYTEtYjc1Yy00MTZlLWFkNjgtYTJmOWUyNTNiNTNjXkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_.jpg",
+    "imdb": "https://www.imdb.com/name/nm2676052/",
+    }],
+    "actors": [{
+      "name": "Tom Cruise",
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/230710085438-tom-cruise-0703-restricted.jpg?c=16x9&q=h_833,w_1480,c_fill",
+      "imdb": "https://www.imdb.com/name/nm0000129/"
+    }, {
+      "name": "Jennifer Connelly",
+      "image": "https://deadline.com/wp-content/uploads/2022/08/GettyImages-1240775453.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000124/"
+    }, {
+      "name": "Glen Powell",
+      "image": "https://variety.com/wp-content/uploads/2024/01/Screen-Shot-2024-01-21-at-10.54.55-AM.png?w=1000&h=563&crop=1",
+      "imdb": "https://www.imdb.com/name/nm1412974/",
+    }]
+    },
+
+
+
+
     
   ]
 
