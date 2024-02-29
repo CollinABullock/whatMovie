@@ -4842,7 +4842,7 @@ const moviesArray = [
       "mpaa": "PG",
       "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/983080fe-b63f-4937-b778-0ce0f2fd4116/5091b8750aee120c9a2a8aa4e14ca41298b767df.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=320",
       "description": "Nick Persons, a single man, finds himself in over his head when he agrees to drive two children, Lindsey and Kevin, to meet their mother in time for New Year's Eve. Along the way, Nick faces numerous challenges and mishaps, testing his patience and his ability to connect with the kids.",
-      "genre": ["comedy", "family"],
+      "genre": ["comedy", "kids"],
       "link": "https://play.max.com/video/watch/11d5b179-6241-4a92-902d-86dc0bc5c1c9/e4b6945e-95f1-456e-8752-bfeb0da069a3",
       "director": [{
         "name": "Brian Levant",
@@ -6445,7 +6445,7 @@ const moviesArray = [
       "mpaa": "PG-13",
       "poster": "https://m.media-amazon.com/images/S/pv-target-images/f52851fe58806c55b521135f8675753348ac6c0974d0fbe05c559b471a2d498d.jpg",
       "description": "Mission: Impossible – Ghost Protocol follows Ethan Hunt and his team as they are blamed for a terrorist bombing of the Kremlin. Disavowed and left without resources, they must go rogue to clear their names and prevent a nuclear war. Their mission takes them across the globe, from Moscow to Dubai and finally to Mumbai, as they race against time to stop a madman from triggering a global catastrophe.",
-      "genre": ["action", "adventure", "thriller"],
+      "genre": ["action", "thriller", "spy"],
       "link": "https://www.amazon.com/gp/video/detail/B00BR3ZP3Q/ref=atv_dp_amz_c_TS5124c5_1_1?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
       "director": [{
         "name": "Brad Bird",
@@ -6575,6 +6575,115 @@ const moviesArray = [
       }]
     },
 
+    {
+      "item": "218",
+      "title": "Valerian and the City of a Thousand Planets",
+      "runtime": 137,
+      "mpaa": "PG-13",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/d1c3bc50bd81b7d7785fc2c4f43c5950785a3eba60c135c570c9d315f0aea7c3.jpg",
+      "description": "In the 28th century, Valerian and Laureline are special operatives charged with maintaining order throughout the human territories. They embark on a mission to the intergalactic city of Alpha, where diverse species from across the universe converge to share knowledge and cultures. When a dark force threatens the peaceful existence of Alpha, Valerian and Laureline must race against time to uncover the truth and save the future of the city and the universe.",
+      "genre": ["action", "science-fiction"],
+      "link": "https://www.amazon.com/gp/video/detail/0SA6PQKEL1VYX4PI6J85OY7OFU/ref=atv_dp_cnc_0_3",
+      "director": [{
+        "name": "Luc Besson",
+        "image": "https://deadline.com/wp-content/uploads/2023/12/Luc-Besson.jpg",
+        "imdb": "https://www.imdb.com/name/nm0000108/",
+      }],
+      "actors": [{
+        "name": "Dane DeHaan",
+        "image": "https://static.independent.co.uk/2021/01/22/15/dane%20dehaan.jpg",
+        "imdb": "https://www.imdb.com/name/nm2138334/"
+      }, {
+        "name": "Cara Delevingne",
+        "image": "https://media.glamour.com/photos/642dbaa223f44978bde39932/16:9/w_3600,h_2025,c_limit/cara%20delevingne%20short%20wavy%20bob%20haircut.jpg",
+        "imdb": "https://www.imdb.com/name/nm5353321/"
+      }]
+    },
+
+    {
+      "item": "219",
+      "title": "The Chronicles of Riddick",
+      "runtime": 119,
+      "mpaa": "PG-13",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/8e7cfce4a5252e8e0d52fede941c4c8822fd8a5ea1eddf52fdbb8041b090211c._UR1920,1080_.jpg",
+      "description": "In this action-packed sci-fi adventure, notorious criminal Riddick finds himself caught in the middle of a power struggle between two opposing forces, the Necromongers and the resistance. With the fate of the universe hanging in the balance, Riddick must confront his own dark past and unlock the secrets of his own identity to save those he cares about and restore balance to the galaxy.",
+      "genre": ["action", "science-fiction"],
+      "link": "https://www.amazon.com/gp/video/detail/B00D5UGW5O/ref=atv_dp_amz_c_TS5124c5_1_17?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "David Twohy",
+        "image": "https://m.media-amazon.com/images/M/MV5BODhmMTFkMDAtOWY0NC00ODgxLTkzMWItMmI3NWNmZDdkNjlkXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0875212/"
+      }],
+      "actors": [{
+        "name": "Vin Diesel",
+        "image": "https://phantom-marca.unidadeditorial.es/023de5244b791c5aa890a89e8a67ebbe/resize/828/f/jpg/assets/multimedia/imagenes/2023/05/19/16844885388361.jpg",
+        "imdb": "https://www.imdb.com/name/nm0004874/"
+      }, {
+        "name": "Judi Dench",
+        "image": "https://static.standard.co.uk/s3fs-public/thumbnails/image/2017/11/07/16/damejudidench0711a.jpg?crop=8:5,smart&quality=75&auto=webp&width=960",
+        "imdb": "https://www.imdb.com/name/nm0001132/",
+      }]
+    },
+
+    {
+      "item": "220",
+      "title": "Stardust",
+      "runtime": 127,
+      "mpaa": "PG-13",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/6580fe7d3bd2309fb1dd704e7e13a2cb6b553a04264dcacd67f5b3dd7bdd8cde._UR1920,1080_SX720_FMjpg_.jpg",
+      "description": "In this enchanting fantasy adventure, a young man named Tristan ventures into a magical realm to retrieve a fallen star for his beloved. Along the way, he encounters witches, pirates, and other mystical beings, embarking on a journey that will test his courage and reveal his true destiny.",
+      "genre": ["kids", "fantasy"],
+      "link": "https://www.amazon.com/gp/video/detail/B0CFVBMNTF/ref=atv_dp_amz_c_TS5124c5_1_20?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Matthew Vaughn",
+        "image": "https://deadline.com/wp-content/uploads/2021/08/Matthew-Vaughn-2.jpg?w=681&h=383&crop=1",
+        "imdb": "https://www.imdb.com/name/nm0891216/"
+      }],
+      "actors": [{
+        "name": "Charlie Cox",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjA0Mzg5MTU3MV5BMl5BanBnXkFtZTgwOTUxMTQ5NzE@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm1210332/"
+      }, {
+        "name": "Claire Danes",
+      "image": "https://variety.com/wp-content/uploads/2022/09/GettyImages-1344844543.jpg?w=1000&h=563&crop=1",
+      "imdb": "https://www.imdb.com/name/nm0000132/",
+      }, {
+        "name": "Robert De Niro",
+        "image": "https://www.usatoday.com/gcdn/presto/2020/08/17/USAT/7a0449c7-ffa8-450d-b65f-77a920a61757-Robert_De_Niro.JPG",
+        "imdb": "https://www.imdb.com/name/nm0000134/?ref_=tt_ov_st"
+      },]
+    },
+    
+    {
+      "item": "221",
+      "title": "The Last Airbender",
+      "runtime": 103,
+      "mpaa": "PG",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/25969b99231fdc394ce254482d4278cf023ee14c65d59a9ca6dc7472132d7e4c.jpg",
+      "description": "In a world where people can manipulate the elements of air, water, earth, and fire, a young boy named Aang discovers he is the Avatar, capable of bending all four elements. With the help of his friends Katara and Sokka, Aang embarks on a journey to master his abilities and bring balance to the world.",
+      "genre": ["action", "kids", "fantasy"],
+      "link": "https://www.amazon.com/gp/video/detail/B0CPWQL4TB/ref=atv_dp_amz_c_TS5124c5_1_9?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "M. Night Shyamalan",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTczMTA5OTMxMl5BMl5BanBnXkFtZTcwMDA4NDg1Mw@@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0796117/"
+      }],
+      "actors": [{
+        "name": "Noah Ringer",
+        "image": "https://m.media-amazon.com/images/M/MV5BY2Q4YzAxMDAtMDJjOC00YTMxLTlhZDctMDA5ZGIyYWUwZmUxL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNTI5NjIyMw@@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm3253003/"
+      }, {
+        "name": "Nicola Peltz",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTQxMTk4MzQ1MF5BMl5BanBnXkFtZTgwMDIxNTQwMjE@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm2534714/"
+      }, {
+        "name": "Jackson Rathbone",
+        "image": "https://res.cloudinary.com/jerrick/image/upload/d_642250b563292b35f27461a7.png,f_jpg,fl_progressive,q_auto,w_1024/tdrdvvjeldrwgk0ztrcf.jpg",
+        "imdb": "https://www.imdb.com/name/nm0718647/"
+      }]
+    }
+    
+    
     
     
     
