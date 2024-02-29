@@ -168,8 +168,9 @@ export default function RandomMovie({ selectedRuntime  }) {
   src={randomMovie.poster} 
   onLoad={handleImageLoad} // Call handleImageLoad when the image is loaded
 
-  style={{ width: '100%', height: 'auto', objectFit: 'cover', margin: '0', padding: '0', marginBottom: "20px" }} 
+  style={{ width: '300px', height: '50%', objectFit: 'cover', margin: '0', padding: '0', marginBottom: "20px" }} 
 />
+<button onClick={handleRandomMovie} style={{ backgroundColor: "red", color: "white", textShadow: "2px 2px 2px black", fontSize: "1.25em", marginBottom: "10px" }}>I'm not feeling it, give me another</button>
               <Card.Text style={{ textAlign: "start", fontFamily: "Verdana"}}>
                 <h4 style={{marginBottom: "10px"}}>{randomMovie.description}<br />
                 <div style={{ width: "100%", margin: "0 auto", padding: "10px", display: "flex", justifyContent: "space-between", alignItems: "center", }}>
@@ -178,7 +179,6 @@ export default function RandomMovie({ selectedRuntime  }) {
                   </div>
                 </h4>
               </Card.Text>
-              <button onClick={handleRandomMovie} style={{ backgroundColor: "red", color: "white", textShadow: "2px 2px 2px black", fontSize: "1.25em" }}>I'm not feeling it, give me another</button>
             </Card.Body>
           </Card>
         </motion.div>
