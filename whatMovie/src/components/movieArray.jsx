@@ -6315,7 +6315,7 @@ const moviesArray = [
       "title": "Highlander",
       "runtime": 116,
       "mpaa": "R",
-      "poster": "https://m.media-amazon.com/images/I/71IGooc2AWL._AC_UY327_FMwebp_QL65_.jpg",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/d2bcc328b8fbc5e3b80b902ec35a704d3a159983f8665d767943932056239625.jpg",
       "description": "Highlander is a 1986 fantasy action film directed by Russell Mulcahy and based on a story by Gregory Widen. It stars Christopher Lambert, Sean Connery, and Clancy Brown. The film follows an immortal Scottish swordsman who must confront the last of his immortal opponents in modern-day New York City.",
       "genre": ["fantasy", "action"],
       "link": "https://www.amazon.com/Highlander-Movie-Christopher-Lambert/dp/B00578MLVQ/ref=sr_1_1?crid=3MLCQHWC4CQQ9&dib=eyJ2IjoiMSJ9.vQNR4VBVdFpfx_RLt6u9LRNY4KwlRn-nged8yzzBtkPhEoSPIhKawPKjsSzflJk4kvdm8bvGgG1utCctGs74kIM2x57oTwjMEhlQnm2qqdXRSR8i7uYi6EcU1pPMKhayIJqBDgY5JGPetY3Ti_oEUOlSu5FPdqBSrJTtDI4koS-dlfw0v_h_4vKc2f2TQtN17yYsbHpw2508kQOcyUQb9lZNdw0GcywDBPhyqX2glS4.V3OnL4MtPclPNH7cGCymjerx-nO-ZwY7kIJXab0KXWc&dib_tag=se&keywords=highlander+movie&qid=1709223038&s=instant-video&sprefix=highlander+movie%2Cinstant-video%2C173&sr=1-1",

@@ -164,12 +164,13 @@ export default function RandomMovie({ selectedRuntime  }) {
         >
           <Card className="randomCard" style={{ width: "80%", maxHeight: "100%", backgroundColor: "#EC0B43", color: "whitesmoke", borderRadius: "30px"}}>
             <Card.Body>
+              <a href={randomMovie.link}>
             <Card.Img 
   src={randomMovie.poster} 
   onLoad={handleImageLoad} // Call handleImageLoad when the image is loaded
 
   style={{ width: '75%', height: '50%', objectFit: 'cover', margin: '0', padding: '0', marginBottom: "20px" }} 
-/>
+/></a>
 <button onClick={handleRandomMovie} style={{ backgroundColor: "red", color: "white", textShadow: "2px 2px 2px black", fontSize: "1.25em", marginBottom: "10px" }}>I'm not feeling it, give me another</button>
               <Card.Text style={{ textAlign: "start", fontFamily: "Verdana"}}>
                 <h4 style={{marginBottom: "10px", fontSize: "2em"}}>{randomMovie.description}<br />
