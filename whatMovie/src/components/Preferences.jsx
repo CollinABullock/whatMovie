@@ -43,8 +43,18 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
     setFilteredDirectors(filtered);
     setDirectorSearch(event.target.value);
   };
+
+  useEffect(() => {
+    const storedPreferredDirectors = JSON.parse(sessionStorage.getItem('preferredDirectors')) || [];
+    setPreferredDirectors(storedPreferredDirectors);
+  }, []);
+
+  // Update sessionStorage whenever preferredDirectors change
+  useEffect(() => {
+    sessionStorage.setItem('preferredDirectors', JSON.stringify(preferredDirectors));
+  }, [preferredDirectors]);
   
-  // Define handleDirectorCheckboxChange function
+  // Define handleDirectorClick function
   const handleDirectorClick = (directorName) => {
     // Toggle director selection
     const isSelected = preferredDirectors.includes(directorName);
@@ -57,10 +67,8 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
       const updatedDirectors = [...preferredDirectors, directorName];
       setPreferredDirectors(updatedDirectors);
     }
-
-    // Update session storage
-    sessionStorage.setItem('preferredDirectors', JSON.stringify(preferredDirectors));
   };
+  
 
   useEffect(() => {
     if (data && data.length > 0) {
@@ -299,11 +307,11 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
       <div style={{ padding: "15px", marginBottom: "30px"}}>
   <div style={{ display: 'flex', justifyContent: 'center'}}>
     <Button onClick={() => {
-  sessionStorage.clear();
   setSelectedGenres([]);
   setPreferredGenres([]);
   setRuntime(240);
   setSelectedService([]);
+  setPreferredDirectors([]);
   window.alert("Preferences have been reset.  Happy viewing!")
 }} style={{ marginLeft: '10px', fontSize: "2em", backgroundColor: "red" }}>Reset Preferences</Button>
   </div>

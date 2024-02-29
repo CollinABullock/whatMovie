@@ -23,10 +23,6 @@ export default function RandomMovie({ selectedRuntime  }) {
     setFilteredMovies(filtered);
   }, [selectedRuntime]);
 
-     // Function to handle image load
-  const handleImageLoad = () => {
-    setImagesLoaded(true);
-  };
 
    const handleRandomMovie = () => {
     // Filter based on selected services
@@ -67,7 +63,7 @@ export default function RandomMovie({ selectedRuntime  }) {
       );
     }
 
-    // Filter based on preferred directors
+
  // Filter based on preferred directors
 const preferredDirectors = JSON.parse(sessionStorage.getItem('preferredDirectors'));
 if (preferredDirectors && preferredDirectors.length > 0) {
@@ -159,7 +155,7 @@ if (preferredDirectors && preferredDirectors.length > 0) {
               <a href={randomMovie.link}>
             <Card.Img 
   src={randomMovie.poster} 
-  onLoad={handleImageLoad} // Call handleImageLoad when the image is loaded
+  // Call handleImageLoad when the image is loaded
 
   style={{ width: '75%', height: '50%', objectFit: 'cover', margin: '0', padding: '0', marginBottom: "20px" }} 
 /></a>
