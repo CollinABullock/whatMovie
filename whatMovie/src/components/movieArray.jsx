@@ -6244,7 +6244,112 @@ const moviesArray = [
         "image": "https://m.media-amazon.com/images/G/01/IMDb/carye_v1_1248x702._CB1562790284_.JPG",
         "imdb": "https://www.imdb.com/name/nm0000144/"
       }]
+    },
+
+    {    
+      "item": "206",
+      "title": "Bottoms",
+      "runtime": 91,
+      "mpaa": "R",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/3c98856c96698bf3c97189775152921ea9b1b9c21c3ae218547426602f9c5f4b.jpg",
+      "description": "In this refreshingly outspoken and raunchy comedy, two unpopular girls in their senior year of high school start a fight club to try to impress and hook up with cheerleaders. And their bizarre plan works! But are they in over their heads?",
+	"genre": ["comedy", "teen"],
+    "link": "https://www.amazon.com/Bottoms-Rachel-Sennott/dp/B0CG8K3W7D/ref=sr_1_5?dib=eyJ2IjoiMSJ9.-Bie4jqbyquJoBZmmxf-Y8DXhjzi4Ro5NTyzupiyo_wG9aaDf-y1zDRMvDwfghQFNFcfQXVH9TUrR5Mtr7shLBxa2rMoe_nbkz_VG7W5Mkq2whX0lG0EqYu6oBPjcZYmJGY_xZ7tQlvAfsaIkU71TVEnpmd56VN0lTm31h4qXY9q2M63_AeqkDClQkRuZ8jz0Qm4DyEMHzfob-6qTw0-ggc-VORCrX9_iIhoTLjjgBk.v0mPIIcMDKf9yAm2C8BsHsgBVC_YRqh1wX4JIphHfng&dib_tag=se&qid=1709222230&refinements=p_n_ways_to_watch%3A12007865011&s=instant-video&sr=1-5",
+    "director": [{
+      "name": "Emma Seligman",
+      "image": "https://m.media-amazon.com/images/M/MV5BM2EyOWExMGYtNzhhMC00OWY1LWJlZDEtY2QyMzFhYTBjMTlmXkEyXkFqcGdeQXVyMTYyNjg2MzUz._V1_.jpg",
+      "imdb": "https://www.imdb.com/name/nm7364391/"
+    }],
+    "actors": [{
+      "name": "Rachel Sennott",
+      "image": "https://media.vanityfair.com/photos/651c6af98ee00428c46b5662/16:9/w_1280,c_limit/rachel-sennott-embed-site-story.jpg",
+      "imdb": "https://www.imdb.com/name/nm9429774/"
+    }, {
+      "name": "Ayo Edebri",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTnahUUviUs-lFn293_PLU39MNRY6bQ84EX2gvOQEVXjcQuDio1",
+      "imdb": "https://www.imdb.com/name/nm8731249/"
+    }, {
+      "name": "Marshawn Lynch",
+      "image": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQ5nU7Dg_Z5srRlluYUBtT_ee1oF7LC3iMXFjxVA9a8tFXJW8qLLuUameeAYkwg17v-qgVlyjGgFXMq9TY",
+      "imdb": "https://www.imdb.com/name/nm2834234/",
+    }]
+    },
+
+    {
+      "item": 207,
+      "title": "Hot Fuzz",
+      "runtime": 121,
+      "mpaa": "R",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/7bbaad76719b0aa8a037b60abdf2fd7a31c45b28d305ba16235a596253923712.jpg",
+      "description": "Hot Fuzz follows two police officers investigating a series of mysterious deaths in a quaint English village.",
+      "genre": ["action", "comedy"],
+      "link": "https://www.amazon.com/Hot-Fuzz-Simon-Pegg/dp/B000UIVRXG",
+      "director": [
+        {
+          "name": "Edgar Wright",
+          "image": "https://variety.com/wp-content/uploads/2023/11/GettyImages-1787178453.jpg?w=1000&h=563&crop=1",
+          "imdb": "https://www.imdb.com/name/nm0942367/"
+        }
+      ],
+      "actors": [
+        {
+          "name": "Simon Pegg",
+          "image": "https://www.indiewire.com/wp-content/uploads/2022/07/Simon-Pegg.png",
+          "imdb": "https://www.imdb.com/name/nm0670408/"
+        },
+        {
+          "name": "Nick Frost",
+          "image": "https://static.independent.co.uk/2020/10/26/14/newFile-2.jpg?width=1200",
+          "imdb": "https://www.imdb.com/name/nm0296545/"
+        },
+        {
+          "name": "Timothy Dalton",
+          "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQRAUExehPW_IAq7dtDj6owE6QaaToCVxcYEsfmfbmbeQy8miWQ4CBJYvAogusbFx06PYGOwra6r7CLaIU",
+          "imdb": "https://www.imdb.com/name/nm0001096/",
+        }
+      ]
+    },
+
+    {
+      "item": 208,
+      "title": "Highlander",
+      "runtime": 116,
+      "mpaa": "R",
+      "poster": "https://m.media-amazon.com/images/I/71IGooc2AWL._AC_UY327_FMwebp_QL65_.jpg",
+      "description": "Highlander is a 1986 fantasy action film directed by Russell Mulcahy and based on a story by Gregory Widen. It stars Christopher Lambert, Sean Connery, and Clancy Brown. The film follows an immortal Scottish swordsman who must confront the last of his immortal opponents in modern-day New York City.",
+      "genre": ["fantasy", "action"],
+      "link": "https://www.amazon.com/Highlander-Movie-Christopher-Lambert/dp/B00578MLVQ/ref=sr_1_1?crid=3MLCQHWC4CQQ9&dib=eyJ2IjoiMSJ9.vQNR4VBVdFpfx_RLt6u9LRNY4KwlRn-nged8yzzBtkPhEoSPIhKawPKjsSzflJk4kvdm8bvGgG1utCctGs74kIM2x57oTwjMEhlQnm2qqdXRSR8i7uYi6EcU1pPMKhayIJqBDgY5JGPetY3Ti_oEUOlSu5FPdqBSrJTtDI4koS-dlfw0v_h_4vKc2f2TQtN17yYsbHpw2508kQOcyUQb9lZNdw0GcywDBPhyqX2glS4.V3OnL4MtPclPNH7cGCymjerx-nO-ZwY7kIJXab0KXWc&dib_tag=se&keywords=highlander+movie&qid=1709223038&s=instant-video&sprefix=highlander+movie%2Cinstant-video%2C173&sr=1-1",
+      "director": [
+        {
+          "name": "Russell Mulcahy",
+          "image": "https://www.billboard.com/wp-content/uploads/media/russell-mulcahy-1992-billboard-650.jpg",
+          "imdb": "https://www.imdb.com/name/nm0611603/"
+        }
+      ],
+      "actors": [
+        {
+          "name": "Christopher Lambert",
+          "image": "https://facts.net/wp-content/uploads/2023/10/16-extraordinary-facts-about-christopher-lambert-1697788174.jpg",
+          "imdb": "https://www.imdb.com/name/nm0000483/"
+        },
+        {
+          "name": "Sean Connery",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2023/12/931/523/Getty_SeanConnery_Main.jpg?ve=1&tl=1",
+      "imdb": "https://www.imdb.com/name/nm0000125/"
+        },
+        {
+          "name": "Clancy Brown",
+          "image": "https://deadline.com/wp-content/uploads/2021/08/Clancy-Brown.jpg",
+          "imdb": "https://www.imdb.com/name/nm0000317/"
+        }
+      ]
     }
+    
+    
+
+
+
+
   ]
 
 
