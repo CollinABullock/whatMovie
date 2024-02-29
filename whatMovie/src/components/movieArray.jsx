@@ -4,6 +4,125 @@ const moviesArray = [
   
   [
     {
+      "item": "n420",
+      "title": "Alice Doesn't Live Here Anymore",
+      "runtime": 112,
+      "mpaa": "PG",
+      "poster": "https://cdn.posteritati.com/posters/000/000/061/484/alice-doesnt-live-here-anymore-md-web.jpg",
+      "description": "After the sudden death of her husband, Alice Hyatt decides to pursue her childhood dream of becoming a singer while embarking on a journey with her young son. Along the way, she encounters various challenges and forms unexpected connections as she searches for a new place to call home.",
+      "genre": ["drama", "romance"],
+      "link": "https://www.netflix.com/watch/60010069?trackId=255824129&tctx=0%2C1%2C758e5373-e8d6-44c3-8d71-d70fd3bb3383-102323597%2C758e5373-e8d6-44c3-8d71-d70fd3bb3383-102323597%7C2%2Cunknown%2C%2C%2CtitlesResults%2C60010069%2CVideo%3A60010069%2CminiDpPlayButton",
+      "director": [{
+        "name": "Martin Scorcese",
+    "image": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcR1NJymJZn54PqU9sumBPD-jjHCZUugpfGsKqTYXfoQnuVnXu4isGUtC7ghUZwG2DWZq02eAdGG5bgNeUE",
+    "imdb": "https://www.imdb.com/name/nm0000217/",
+      }],
+      "actors": [{
+        "name": "Ellen Burstyn",
+        "image": "https://m.media-amazon.com/images/M/MV5BYTE2MjgwM2QtMDNmYi00OGJiLWJiOTYtNTdjMjY0NDZjNjhiXkEyXkFqcGdeQXNhcmFocmVi._V1_QL75_UX500_CR0,0,500,281_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0000995/"
+      }, {
+        "name": "Kris Kristofferson",
+        "image": "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-243458-Kris-Kristofferson01.jpg?w=910&h=511&crop=1",
+        "imdb": "https://www.imdb.com/name/nm0001434/"
+      }, {
+        "name": "Alfred Lutter III",
+        "image": "https://m.media-amazon.com/images/M/MV5BMDE0NjFmNDEtNGE3Ni00MDY2LTgyOWMtZDI4NTE5Y2QxOGU3XkEyXkFqcGdeQXVyMTI3MDk3MzQ@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0526637/"
+      }]
+    },
+
+    {
+      "item": "n421",
+      "title": "Mystic River",
+      "runtime": 138,
+      "mpaa": "R",
+      "poster": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABVOeN7D5dBV71HAKqkK90_Gpzq1-gkNPCkCD4PtsLncNGr5_4IUVaHxlwcPI9QDKTuAddFto5t1NIc9Gz09zfMy-wzLiXXV410A-.jpg?r=f37",
+      "description": "In this gripping drama, the lives of three childhood friends from a working-class neighborhood in Boston intersect after one of them suffers a tragic loss. As they grapple with the aftermath of the event, long-buried secrets resurface, testing their bonds and leading to unexpected consequences.",
+      "genre": ["crime", "drama", "mystery"],
+      "link": "https://www.netflix.com/watch/60031232?trackId=255824129&tctx=0%2C2%2C758e5373-e8d6-44c3-8d71-d70fd3bb3383-102323597%2C758e5373-e8d6-44c3-8d71-d70fd3bb3383-102323597%7C2%2Cunknown%2C%2C%2CtitlesResults%2C60031232%2CVideo%3A60031232%2CminiDpPlayButton",
+      "director": [{
+        "name": "Clint Eastwood",
+        "image": "https://hips.hearstapps.com/esquire/assets/16/31/1470229441-screen-shot-2016-08-03-at-85600-am.png",
+        "imdb": "https://www.imdb.com/name/nm0000142/",
+      }],
+      "actors": [{
+        "name": "Sean Penn",
+        "image": "https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2022-03/220327-sean-penn-jm-1054-478b5b.jpg",
+        "imdb": "https://www.imdb.com/name/nm0000576/"
+      }, {
+        "name": "Tim Robbins",
+        "image": "https://charlie-p-2ac84d7056ca7f9d.s3.amazonaws.com/clips/thumbnails/000/018/249/player/1HY449_003_lt.jpg?1460743303",
+        "imdb": "https://www.imdb.com/name/nm0000209/"
+      }, {
+        "name": "Kevin Bacon",
+        "image": "https://hips.hearstapps.com/hmg-prod/images/kevin-bacon-on-tuesday-september-5-2023-news-photo-1699564230.jpg?crop=1xw:0.84375xh;center,top&resize=1200:*",
+        "imdb": "https://www.imdb.com/name/nm0000102/"
+      }]
+    },
+    
+    {
+      "item": "n422",
+      "title": "Mank",
+      "runtime": 131,
+      "mpaa": "R",
+      "poster": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABZY6YzEAAghoMMIokbpvzLkHdhWF_oOv4e43Un9_fnOv_2Ed_98ygTHu9sVFPCkNq8V3LPc2IPYidhWiiC2NoouN-P4ZWmtnvZYT.jpg?r=230",
+      "description": "In this biographical drama, renowned screenwriter Herman J. Mankiewicz races to finish the screenplay for Orson Welles' iconic film 'Citizen Kane' amidst personal and professional challenges. Set in 1930s Hollywood, the film offers a glimpse into the complexities of the creative process and the politics of the movie industry.",
+      "genre": ["biography", "drama"],
+      "link": "https://www.netflix.com/watch/81117189?trackId=255824129&tctx=0%2C0%2Cdbd87edf-c459-42b3-b12f-6c569dd28236-102521840%2Cdbd87edf-c459-42b3-b12f-6c569dd28236-102521840%7C2%2Cunknown%2C%2C%2CtitlesResults%2C81117189%2CVideo%3A81117189%2CminiDpPlayButton",
+      "director": [{
+        "name": "David Fincher",
+    "image": "https://www.premiumbeat.com/blog/wp-content/uploads/2022/11/featuredimage.jpg",
+    "imdb": "https://www.imdb.com/name/nm0000399/"
+      }],
+      "actors": [{
+        "name": "Gary Oldman",
+        "image": "https://variety.com/wp-content/uploads/2023/12/Screen-Shot-2023-12-29-at-8.52.12-AM.png?w=1000&h=563&crop=1",
+        "imdb": "https://www.imdb.com/name/nm0000198/"
+      }, {
+        "name": "Amanda Seyfried",
+        "image": "https://www.hollywoodreporter.com/wp-content/uploads/2022/02/Amanda_Seyfried_David_Needleman_THR_A_369-Splash-2022.jpg?w=1024",
+        "imdb": "https://www.imdb.com/name/nm1086543/?ref_=tt_ov_st"
+      }, {
+        "name": "Lily Collins",
+        "image": "https://assets.teenvogue.com/photos/5972090afb5473577a4880e4/16:9/w_2560%2Cc_limit/GettyImages-685079018.jpg",
+        "imdb": "https://www.imdb.com/name/nm2934314/"
+      }]
+    },
+    
+    {    
+      "item": "n423",
+      "title": "The Killer",
+      "runtime": 119,
+      "mpaa": "R",
+      "poster": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABYwJ58qLtYrSOxAC0kEru8dHvEx7qEwMiax1D4gw6rZRgk2_CxU1q16JJNM8ZZ6Et4wwyTywHXSZcQz2T1IHD7DlI9_rWnqC6JYE.jpg?r=ffb",
+      "description": "After a fateful near miss, an assassin battles his employers — and himself — on an international hunt for retribution he insists isn't personal.",
+	"genre": ["action", "thriller"],
+    "link": "https://www.netflix.com/title/80234448",
+    "director": [{
+      "name": "David Fincher",
+    "image": "https://www.premiumbeat.com/blog/wp-content/uploads/2022/11/featuredimage.jpg",
+    "imdb": "https://www.imdb.com/name/nm0000399/"
+    }],
+    "actors": [{
+      "name": "Michael Fassbender",
+      "image": "https://variety.com/wp-content/uploads/2024/02/fassbender-e1709057463472.jpg?w=861",
+      "imdb": "https://www.imdb.com/name/nm1055413/",
+    }, {
+      "name": "Tilda Swinton",
+      "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRK9jrqMa484_bOUOls6P-egKvI9YLJopHVIj0cCKJZ27ldLoylGlYA7H8Dm3CVan9irp9GSs-ELU05nHI",
+      "imdb": "https://www.imdb.com/name/nm0842770/",
+    }, {
+      "name": "Arliss Howard",
+      "image": "https://media.gettyimages.com/id/1457209610/photo/arliss-howard.jpg?s=612x612&w=gi&k=20&c=lNRrYc70qwle0hHu0fzxPCpOLBrW3KXwIsiKVuRRn5k=",
+      "imdb": "https://www.imdb.com/name/nm0397124/",
+    }]
+    },
+
+
+
+
+    {
       "item": "n4",
       "title": "The Hateful Eight",
       "runtime": 187,
@@ -6739,16 +6858,95 @@ const moviesArray = [
         "image": "https://res.cloudinary.com/jerrick/image/upload/d_642250b563292b35f27461a7.png,f_jpg,fl_progressive,q_auto,w_1024/tdrdvvjeldrwgk0ztrcf.jpg",
         "imdb": "https://www.imdb.com/name/nm0718647/"
       }]
-    }
-    
-    
-    
-    
-    
-    
+    },
 
+    {
+      "item": "222",
+      "title": "Grown Ups",
+      "runtime": 102,
+      "mpaa": "PG-13",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/23317d315fe4b420308cccfc56226ce3164127a089a30b1e9122e1423290879a.jpg",
+      "description": "After their childhood basketball coach passes away, five childhood friends and former teammates reunite for a Fourth of July holiday weekend at a lake house. As they reminisce about the good old days and navigate the challenges of adulthood, they realize the importance of friendship and family.",
+      "genre": ["comedy"],
+      "link": "https://www.amazon.com/gp/video/detail/B00BR9VLBK/ref=atv_dp_amz_c_TS5124c5_1_12?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Dennis Dugan",
+    "image": "https://vz.cnwimg.com/wp-content/uploads/2014/01/GettyImages-102356833.jpg",
+    "imdb": "https://www.imdb.com/name/nm0241187/"
+      }],
+      "actors": [{
+        "name": "Adam Sandler",
+    "image": "https://variety.com/wp-content/uploads/2022/09/GettyImages-1400536441.jpg?w=1000&h=563&crop=1",
+    "imdb": "https://www.imdb.com/name/nm0001191/"
+      }, {
+        "name": "Kevin James",
+        "image": "https://deadline.com/wp-content/uploads/2023/11/KVJM_2023_UT_230127_CONTRO_00073-e1699914440353.jpg",
+        "imdb": "https://www.imdb.com/name/nm0416673/"
+      }, {
+        "name": "Chris Rock",
+        "image": "https://ca-times.brightspotcdn.com/dims4/default/20e397b/2147483647/strip/true/crop/3905x2604+0+0/resize/1200x800!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F7c%2Fdc%2F07d45ff2456db783669e81cf0828%2Fla-et-comedy-timeline-oscars-slap.jpg",
+        "imdb": "https://www.imdb.com/name/nm0001674/"
+      }]
+    },
+    
+    {
+      "item": "n423",
+      "title": "Grown Ups 2",
+      "runtime": 101,
+      "mpaa": "PG-13",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/8ace51bc542d914ab7a28253510e35fc602139eacaa35cd914b470955cd8bcbf.jpg",
+      "description": "Three years after the events of the first film, Lenny Feder moves back to his hometown with his family. During the last day of school, he and his friends learn valuable life lessons as they face various comedic mishaps and encounters with eccentric locals.",
+      "genre": ["comedy"],
+      "link": "https://www.amazon.com/gp/video/detail/B0CLVTQ7W5/ref=atv_dp_amz_c_TS5124c5_1_3?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Dennis Dugan",
+    "image": "https://vz.cnwimg.com/wp-content/uploads/2014/01/GettyImages-102356833.jpg",
+    "imdb": "https://www.imdb.com/name/nm0241187/"
+      }],
+      "actors": [{
+        "name": "Adam Sandler",
+    "image": "https://variety.com/wp-content/uploads/2022/09/GettyImages-1400536441.jpg?w=1000&h=563&crop=1",
+    "imdb": "https://www.imdb.com/name/nm0001191/"
+      }, {
+        "name": "Kevin James",
+        "image": "https://deadline.com/wp-content/uploads/2023/11/KVJM_2023_UT_230127_CONTRO_00073-e1699914440353.jpg",
+        "imdb": "https://www.imdb.com/name/nm0416673/"
+      }, {
+        "name": "Chris Rock",
+        "image": "https://ca-times.brightspotcdn.com/dims4/default/20e397b/2147483647/strip/true/crop/3905x2604+0+0/resize/1200x800!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F7c%2Fdc%2F07d45ff2456db783669e81cf0828%2Fla-et-comedy-timeline-oscars-slap.jpg",
+        "imdb": "https://www.imdb.com/name/nm0001674/"
+      }]
+    },
 
-
+    {
+      "item": "225",
+      "title": "White Chicks",
+      "runtime": 109,
+      "mpaa": "PG-13",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/752392ec8d42a5e86f3dd273db2ed0686d01deaeb262957fd72cc857221b30ad.jpg",
+      "description": "When two FBI agents, Marcus and Kevin Copeland, botch a drug bust, they are assigned to protect the heiresses to a hotel fortune, Brittany and Tiffany Wilson. To do so, they go undercover as the Wilson sisters, leading to hilarious and outrageous situations.",
+      "genre": ["comedy", "crime"],
+      "link": "https://www.amazon.com/gp/video/detail/B00BRKXG9O/ref=atv_dp_amz_c_TS5124c5_1_3?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Keenen Ivory Wayans",
+        "image": "https://d3n6g6ften713.cloudfront.net/guests/_800x418_crop_center-center_82_none/Keenen-Ivory-Wayans.jpg?mtime=1569420906",
+        "imdb": "https://www.imdb.com/name/nm0005540/"
+      }],
+      "actors": [{
+        "name": "Marlon Wayans",
+        "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1240w,f_auto,q_auto:best/rockcms/2023-10/231020-Marlon-Wayans-al-1046-33b7cd.jpg",
+        "imdb": "https://www.imdb.com/name/nm0005541/"
+      }, {
+        "name": "Shawn Wayans",
+        "image": "https://i.ticketweb.com/i/00/00/49/60/01/Original.jpg?v=7?v=8?v=9?v=1?v=2?v=3",
+        "imdb": "https://www.imdb.com/name/nm0005542/"
+      }, {
+        "name": "Busy Philipps",
+        "image": "https://images.hellomagazine.com/horizon/landscape/aaf47b0b0902-busy-t.jpg",
+        "imdb": "https://www.imdb.com/name/nm0005315/"
+      }]
+    },
+    
     
   ]
 
