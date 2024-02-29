@@ -1050,7 +1050,7 @@ const moviesArray = [
       "image": "https://people.com/thmb/IhNIeEk1h5D2I6URYBtwRXb-S5s=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(703x165:705x167)/Julia-Roberts-on-the-tonight-show-tout-120623-7c30d086ccb44f09a9563abdb0427af6.jpg",
       "imdb": "https://www.imdb.com/name/nm0000210/?ref_=tt_ov_st",
     }, {
-      "name": "cameron Diaz",
+      "name": "Cameron Diaz",
       "image": "https://nationaltoday.com/wp-content/uploads/2022/10/42-Cameron-Diaz-1200x834.jpg",
       "imdb": "https://www.imdb.com/name/nm0000139/?ref_=tt_ov_st"
     }, {
@@ -3198,6 +3198,35 @@ const moviesArray = [
 
   [
 
+    {
+      "item": "m69",
+      "title": "Gangs of New York",
+      "runtime": 167,
+      "mpaa": "R",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/5fa4fb60-6bfb-453e-a777-fbce372c5d01/47f77e0f13775ec326c75fbcfc00ba19570de738.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
+      "description": "In 1863, during the Civil War draft riots, an Irish immigrant seeks vengeance against the powerful gang leader who killed his father years earlier. As tensions between native-born Americans and immigrants boil over, the streets of New York City become a battleground for power, revenge, and survival.",
+      "genre": ["crime", "drama"],
+      "link": "https://play.max.com/movie/5fa4fb60-6bfb-453e-a777-fbce372c5d01",
+      "director": [{
+        "name": "Martin Scorcese",
+        "image": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcR1NJymJZn54PqU9sumBPD-jjHCZUugpfGsKqTYXfoQnuVnXu4isGUtC7ghUZwG2DWZq02eAdGG5bgNeUE",
+        "imdb": "https://www.imdb.com/name/nm0000217/",
+      }],
+      "actors": [{
+        "name": "Leonardo DiCaprio",
+      "image": "https://phantom-marca.unidadeditorial.es/0e1996b37d1147008cea1fb6be3dc73a/resize/828/f/jpg/assets/multimedia/imagenes/2023/07/14/16893608205539.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000138/",
+      }, {
+        "name": "Daniel Day-Lewis",
+        "image": "https://variety.com/wp-content/uploads/2017/06/daniel-day-lewis.jpg?w=1000",
+        "imdb": "https://www.imdb.com/name/nm0000358/"
+      }, {
+        "name": "Cameron Diaz",
+      "image": "https://nationaltoday.com/wp-content/uploads/2022/10/42-Cameron-Diaz-1200x834.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000139/?ref_=tt_ov_st"
+      }]
+    },
+    
     {    
       "item": "1m",
       "title": "Priscilla",
