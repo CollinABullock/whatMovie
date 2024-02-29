@@ -7068,7 +7068,66 @@ const moviesArray = [
         "image": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcTUiOdSk6gvfr9Xg5ymcayA_p3NKiN6BmfLOUMUq2xuixYGNcJ_o4t5KnmUm8R5ademoLEkkHRjn2tLNUw",
         "imdb": "https://www.imdb.com/name/nm0565250/"
       }]
+    },
+
+    {    
+      "item": "230",
+      "title": "Role Play",
+      "runtime": 101,
+      "mpaa": "R",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/7aee56ce21b1dfc58bde4e38baaafa21022a93f3a49a1f8db47b9ba13a769a85.png",
+      "description": "Emma (Kaley Cuoco) and Dave (David Oyelowo) spice up their wedding anniversary with a night of role-play in New York City. But things turn perilous when Emma's secret life as an international assassin, unknown to Dave, is exposed by Bob (Bill Nighy), jeopardizing her family. Emma must rely on her lethal skills and determination to protect her family at all costs.",
+	"genre": ["comedy", "action", "romance"],
+    "link": "https://www.amazon.com/Role-Play-Kaley-Cuoco/dp/B0CLZ4P155/ref=sr_1_1?dib=eyJ2IjoiMSJ9.-Bie4jqbyquJoBZmmxf-Y8DXhjzi4Ro5NTyzupiyo_wG9aaDf-y1zDRMvDwfghQFNFcfQXVH9TUrR5Mtr7shLKWfY1UE-5_JPNlexBSHAPi2whX0lG0EqYu6oBPjcZYmmpEEdnWS4wKM78yDJk1e31Enpmd56VN0lTm31h4qXY85rZvf_yTD0JFWFlFyPX-aley-_dhqmYTFcVIJLS8mMzuT_K7ngcQFiI8lF38btbs.ubBHd--RrVObAzDP0mhV6GeOWGSs1mRhHUwdkVcajSo&dib_tag=se&qid=1709239431&refinements=p_n_ways_to_watch%3A12007865011&s=instant-video&sr=1-1",
+    "director": [{
+    "name": "Paul Vincent",
+    "image": "https://cineuropa.org/imgCache/2015/04/07/1428398505000_0550x0360_0x0x0x0_1679290012297.jpg",
+    "imdb": "https://www.imdb.com/name/nm0898773/",
+    }],
+    "actors": [{
+      "name": "Kaley Cuoco",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/big-bang-theory-kaley-cuoco-instagram-horse-bella-tribute-65085bf8bd59d.jpeg",
+      "imdb": "https://www.imdb.com/name/nm0192505/",
+    }, {
+      "name": "David Oyelowo",
+      "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRtf7N9IhFztQ_wOx9-1K14OeiQ0rtM-btuRQTfTOLacCLz8ouZx2iTH0paKqyr3KkUqKkMPJP7laIn_I4",
+      "imdb": "https://www.imdb.com/name/nm0654648/",
+    }]
+    },
+
+    {
+      "item": 231,
+      "title": "Like A Boss",
+      "runtime": 83,
+      "mpaa": "R",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/de637230610f8c94d37bdea1a85d459487ef178b1e0bac5d79d695b2466c7942._UR1920,1080_.jpg",
+      "description": "Best friends Mia and Mel run their own cosmetics company — a business they built from the ground up. But they're also in over their heads financially, and the prospect of a buyout offer from an industry titan proves too tempting to pass up. The beauty business is now about to get ugly as the proposal puts Mia and Mel's lifelong friendship to the ultimate test.",
+      "genre": ["comedy"],
+      "link": "https://www.amazon.com/gp/video/detail/B083JNR8L7/ref=atv_dp_amz_c_TS5124c5_1_7?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Miguel Arteta",
+        "image": "https://ca-times.brightspotcdn.com/dims4/default/86f2d97/2147483647/strip/false/crop/2048x1152+0+0/resize/1486x836!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F20%2F02%2F23a8c40e50a0aae0d196f00e6298%2Fla-1496852592-snzud6skew-snap-image",
+        "imdb": "https://www.imdb.com/name/nm0037736/"
+      }],
+      "actors": [{
+        "name": "Tiffany Haddish",
+        "image": "https://static.independent.co.uk/2024/02/22/00/newFile.jpg",
+        "imdb": "https://www.imdb.com/name/nm0250081/"
+      }, {
+        "name": "Rose Byrne",
+        "image": "https://static.independent.co.uk/2022/07/08/14/shutterstock_editorial_12845769bn.jpg",
+        "imdb": "https://www.imdb.com/name/nm0126284/?ref_=tt_ov_st"
+      }, {
+        "name": "Salma Hayek",
+        "image": "https://hips.hearstapps.com/hmg-prod/images/salma-hayek-attends-the-2023-academy-museum-gala-at-academy-news-photo-1702312165.jpg?crop=1xw:0.45xh;center,top",
+        "imdb": "https://www.imdb.com/name/nm0000161/",
+      }]
     }
+    
+
+
+
+
     
     
   ]
