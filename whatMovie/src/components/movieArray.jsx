@@ -6438,6 +6438,34 @@ const moviesArray = [
       }]
     },
     
+    {
+      "item": "213",
+      "title": "Mission: Impossible – Ghost Protocol",
+      "runtime": 133,
+      "mpaa": "PG-13",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/f52851fe58806c55b521135f8675753348ac6c0974d0fbe05c559b471a2d498d.jpg",
+      "description": "Mission: Impossible – Ghost Protocol follows Ethan Hunt and his team as they are blamed for a terrorist bombing of the Kremlin. Disavowed and left without resources, they must go rogue to clear their names and prevent a nuclear war. Their mission takes them across the globe, from Moscow to Dubai and finally to Mumbai, as they race against time to stop a madman from triggering a global catastrophe.",
+      "genre": ["action", "adventure", "thriller"],
+      "link": "https://www.amazon.com/gp/video/detail/B00BR3ZP3Q/ref=atv_dp_amz_c_TS5124c5_1_1?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Brad Bird",
+        "image": "https://image.cnbcfm.com/api/v1/image/107143620-1667248625867-gettyimages-968040438-AFP_15N5RN.jpeg?v=1667329443",
+        "imdb": "https://www.imdb.com/name/nm0083348/"
+      }],
+      "actors": [{
+        "name": "Tom Cruise",
+        "image": "https://media.cnn.com/api/v1/images/stellar/prod/230710085438-tom-cruise-0703-restricted.jpg?c=16x9&q=h_833,w_1480,c_fill",
+        "imdb": "https://www.imdb.com/name/nm0000129/"
+      }, {
+        "name": "Jeremy Renner",
+        "image": "https://www.hollywoodreporter.com/wp-content/uploads/2024/02/GettyImages-1481548516-copy.jpg?w=1296",
+        "imdb": "https://www.imdb.com/name/nm0719637/"
+      }, {
+        "name": "Simon Pegg",
+        "image": "https://www.indiewire.com/wp-content/uploads/2022/07/Simon-Pegg.png",
+        "imdb": "https://www.imdb.com/name/nm0670408/"
+      }]
+    }
     
   ]
 
