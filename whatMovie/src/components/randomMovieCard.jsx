@@ -10,7 +10,7 @@ export default function RandomMovie({ selectedRuntime  }) {
   const [filteredMovies, setFilteredMovies] = useState([]);
   const [showModal, setShowModal] = useState(false);
   const [animationKey, setAnimationKey] = useState(0);
-  const [imagesLoaded, setImagesLoaded] = useState(false); // State to track if images are loaded
+ 
 
 
 
@@ -23,23 +23,10 @@ export default function RandomMovie({ selectedRuntime  }) {
     setFilteredMovies(filtered);
   }, [selectedRuntime]);
 
-   // Get selectedGenres from sessionStorage
-   const selectedGenres = JSON.parse(sessionStorage.getItem('selectedGenres'));
-
-   // Get preferredGenres from sessionStorage
-   const preferredGenres = JSON.parse(sessionStorage.getItem('preferredGenres'));
-
-   // Get the streaming services from session storage.
-   const selectedServices = JSON.parse(sessionStorage.getItem('selectedServices'));
-
      // Function to handle image load
   const handleImageLoad = () => {
     setImagesLoaded(true);
   };
-
-   console.log("selectedGenres:", selectedGenres);
-   console.log("preferredGenres:", preferredGenres);
-   console.log("selectedServices:", selectedServices);
 
    const handleRandomMovie = () => {
     // Filter based on selected services
@@ -79,6 +66,17 @@ export default function RandomMovie({ selectedRuntime  }) {
         movie.genre && preferredGenres.every(genre => movie.genre.includes(genre))
       );
     }
+
+    // Filter based on preferred directors
+ // Filter based on preferred directors
+const preferredDirectors = JSON.parse(sessionStorage.getItem('preferredDirectors'));
+if (preferredDirectors && preferredDirectors.length > 0) {
+    filtered = filtered.filter(movie =>
+        movie.director && movie.director.some(dir => preferredDirectors.includes(dir.name))
+    );
+}
+
+
   
     if (filtered.length > 0) {
       const randomIndex = Math.floor(Math.random() * filtered.length);
@@ -88,6 +86,7 @@ export default function RandomMovie({ selectedRuntime  }) {
     } else {
       setRandomMovie(null);
     }
+    console.log("DIRECTORS FROM SESSION STORAGE:", preferredDirectors);
   };
   
 
@@ -145,13 +144,6 @@ export default function RandomMovie({ selectedRuntime  }) {
       );
     }
   };
-
-
-
-
-
-  console.log("random movie set:", randomMovie);
-
 
   return (
     <div className='randomCard' style={{ textAlign: "center", width: "100%" }}>

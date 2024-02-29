@@ -17,7 +17,6 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
   const [filteredDirectors, setFilteredDirectors] = useState([]);
   const [preferredDirectors, setPreferredDirectors] = useState([]);
 
-  console.log("preferred directors:", preferredDirectors);
 
   const handleDirectorSearch = (event) => {
     const searchTerm = event.target.value.trim().toLowerCase(); // Remove whitespace and convert to lowercase
@@ -140,7 +139,7 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
   };
   
 
-  console.log("selected services:", selectedService);
+
 
   return (
     <div style={{ width: '100%', padding: '0 10px' }}>
