@@ -6125,11 +6125,10 @@ const moviesArray = [
     "name": "André Benjamin",
     "image": "https://www.rollingstone.com/wp-content/uploads/2023/11/Andre-3000-Press-Photo-1-credit_-Kai-Regan.jpg?w=1581&h=1054&crop=1",
     "imdb": "https://www.imdb.com/name/nm0004736/"
-  }]
-}
-  ]
+  }]}
+  ],
 
-  // start prime array
+      // start prime array
   [
     {    
       "item": "202",
@@ -6246,15 +6245,13 @@ const moviesArray = [
         "imdb": "https://www.imdb.com/name/nm0000144/"
       }]
     }
-    
-
-
-
-
   ]
+
+
 ]
 
 const netflixArray = moviesArray[0];
-const maxArray = moviesArray[1]
+const maxArray = moviesArray[1];
+const primeArray = moviesArray[2];
 
-export {moviesArray, netflixArray, maxArray}
+export {moviesArray, netflixArray, maxArray, primeArray}

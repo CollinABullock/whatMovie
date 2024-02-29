@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 import { motion } from "framer-motion";
-import { moviesArray, netflixArray, maxArray } from './movieArray';
+import { moviesArray, netflixArray, maxArray, primeArray } from './movieArray';
 
 export default function RandomMovie({ selectedRuntime  }) {
   const [randomMovie, setRandomMovie] = useState(null);
@@ -53,6 +53,8 @@ export default function RandomMovie({ selectedRuntime  }) {
           serviceMovies = serviceMovies.concat(netflixArray);
         } else if (service === 'Max') {
           serviceMovies = serviceMovies.concat(maxArray);
+        } else if (service === "Prime") {
+          serviceMovies = serviceMovies.concat(primeArray);
         }
         // Add more conditions for other services if needed
       });
@@ -123,6 +125,16 @@ export default function RandomMovie({ selectedRuntime  }) {
         <img
           src="https://pbs.twimg.com/media/Fth6aQMXwQEb4NU.jpg"
           alt="Max Logo"
+          style={{ width: '75px', height: 'auto' }}
+        />
+        </a>
+      );
+    } else if (hostname === 'www.amazon.com') {
+      return (
+        <a href={link} target="_blank" rel="noopener noreferrer">
+        <img
+          src="https://www.shutterstock.com/image-vector/chattogram-bangladesh-may-18-2023-600nw-2304763275.jpg"
+          alt="Prime Logo"
           style={{ width: '75px', height: 'auto' }}
         />
         </a>

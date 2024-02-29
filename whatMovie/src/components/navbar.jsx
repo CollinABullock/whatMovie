@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import MoviePreferenceComponent from "./Preferences";
-import { moviesArray, netflixArray, maxArray } from './movieArray';
+import { moviesArray, netflixArray, maxArray, primeArray } from './movieArray';
 
 export default function NavBar({ onPreferenceChange, uniqueGenres }) {
   const [showPreferences, setShowPreferences] = useState(false);
   const [glowButton, setGlowButton] = useState(false); // State to control the glowing effect
   const [showDetails, setShowDetails] = useState(true); // State to control the visibility of "More Details"
 
-  const combinedArray = [...netflixArray, ...maxArray];
+  const combinedArray = [...netflixArray, ...maxArray, ...primeArray];
 
   const handlePreferencesClick = (event) => {
     event.preventDefault(); // Prevent the default anchor behavior

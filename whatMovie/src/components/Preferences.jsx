@@ -140,7 +140,7 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
   };
   
 
-  console.log(selectedService);
+  console.log("selected services:", selectedService);
 
   return (
     <div style={{ width: '100%', padding: '0 10px' }}>
