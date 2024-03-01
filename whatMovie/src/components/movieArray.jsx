@@ -8017,7 +8017,37 @@ const moviesArray = [
         "image": "",
         "imdb": "https://www.imdb.com/name/nm0773435/"
       }]
-    }
+    },
+
+    {
+      "item": 263,
+      "title": "Chasing Amy",
+      "runtime": 113,
+      "mpaa": "R",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/899c0d259c0a9cac75bedbabed1ee1d43f8b75a9005dfe4f491cb633441f14fb.jpg",
+      "description": "In 'Chasing Amy', a comic book artist falls for a fellow artist, who happens to be a lesbian. As he pursues a romantic relationship with her, he struggles with his own insecurities and past experiences, leading to complications and self-discovery.",
+      "genre": ["comedy", "drama", "romance"],
+      "link": "https://www.amazon.com/gp/video/detail/B0CP33C55T/ref=atv_mv_hom_c_5crrHZ_brws_4_2?jic=44%7CCgtmcmVld2l0aGFkcxIMc3Vic2NyaXB0aW9uEgRzdm9k",
+      "director": [{
+        "name": "Kevin Smith",
+        "image": "https://content.fortune.com/wp-content/uploads/2019/10/Kevin-Smith-.jpg",
+        "imdb": "https://www.imdb.com/name/nm0003620/"
+      }],
+      "actors": [{
+        "name": "Ben Affleck",
+        "image": "https://ca-times.brightspotcdn.com/dims4/default/10ea0b4/2147483647/strip/true/crop/6316x4210+0+1/resize/2000x1333!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F7d%2Fd8%2Ff1ec7c954d10ab8f645895faa29b%2Fla-photos-1staff-885832-ca-ben-affleck-portrait-tender-bar-jlc-1213-12331.JPG",
+        "imdb": "https://www.imdb.com/name/nm0000255/",
+      }, {
+        "name": "Joey Lauren Adams",
+        "image": "https://i.ytimg.com/vi/Pbg0aPiTLM0/maxresdefault.jpg",
+        "imdb": "https://www.imdb.com/name/nm0000720/"
+      }, {
+        "name": "Jason Lee",
+        "image": "https://i.ytimg.com/vi/Wtn7OThBfrU/maxresdefault.jpg",
+        "imdb": "https://www.imdb.com/name/nm0005134/"
+      }]
+    },
+    
     
     
     
