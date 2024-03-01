@@ -7901,8 +7901,36 @@ const moviesArray = [
       "image": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcTWMU-hTEfE9uijYMdXLmGszgxLyiWtA_lBOaTUq82IDM__vhe-JaCEK8Cx_OKdoXKZ8YCGL8Mf2PR6-7Q",
       "imdb": "https://www.imdb.com/name/nm0177896/bio/"
       }]
-    }
+    },
     
+    {
+      "item": 259,
+      "title": "Manchester by the Sea",
+      "runtime": 137,
+      "mpaa": "R",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/e9bdf0929905a638846848f50698c94084d58deaf0b4ec9029d17d02ae86e107._UR1920,1080_SX720_FMjpg_.jpg",
+      "description": "After the death of his brother, a depressed handyman named Lee Chandler returns to his hometown in Massachusetts to take care of his teenage nephew. As he confronts his tragic past, Lee struggles to find a way forward amidst grief and guilt.",
+      "genre": ["drama"],
+      "link": "https://www.amazon.com/gp/video/detail/B089YDN4RN/ref=atv_dp_amz_c_TS5124c5_1_17?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Kenneth Lonergan",
+        "image": "https://www.indiewire.com/wp-content/uploads/2017/02/director_lonergan_kenneth_1.jpg",
+        "imdb": "https://www.imdb.com/name/nm0515060/"
+      }],
+      "actors": [{
+        "name": "Casey Affleck",
+        "image": "https://d1nslcd7m2225b.cloudfront.net/Pictures/480xAny/7/4/5/1250745_Casey-Affleck.jpg",
+        "imdb": "https://www.imdb.com/name/nm0000729/"
+      }, {
+        "name": "Michelle Williams",
+        "image": "https://hips.hearstapps.com/hmg-prod/images/michelle-williams-attends-the-28th-annual-critics-choice-news-photo-1674217477.jpg",
+        "imdb": "https://www.imdb.com/name/nm0931329/"
+      }, {
+        "name": "Kyle Chandler",
+        "image": "https://nypost.com/wp-content/uploads/sites/2/2013/12/kylechandlercover.jpg?quality=75&strip=all",
+        "imdb": "https://www.imdb.com/name/nm0151419/"
+      }]
+    }
     
     
     
