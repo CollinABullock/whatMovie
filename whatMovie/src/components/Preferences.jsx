@@ -309,7 +309,7 @@ return (
           style={{ marginBottom: '10px' }}
         />
         </div>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '60px', maxWidth: "80%", margin: "0 auto" }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '20px', maxWidth: "80%", margin: "0 auto" }}>
         {(!directorSearch || filteredDirectors.length === 0) ? (
             // Check if directors array is not empty before rendering
             sortedDirectors.map(director => (
@@ -327,7 +327,7 @@ return (
                         className='filtered-director-img'
                         src={director.image}
                         alt={director.name}
-                        style={{ width: '200px', height: '150px', objectFit: "cover", marginBottom: '10px' }}
+                        style={{ width: '170px', height: '150px', objectFit: "cover", marginBottom: '10px' }}
                       />
                       {/* Conditional rendering for the checkmark */}
                       {preferredDirectors.includes(director.name) && (

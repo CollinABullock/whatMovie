@@ -674,7 +674,7 @@ const moviesArray = [
       "image": "https://m.media-amazon.com/images/M/MV5BMWRkMDE5MjUtN2MyYi00MzAyLWIwOWMtNWU0NzNkZDczOWUyXkEyXkFqcGdeQUlNRGJWaWRlb1RodW1ibmFpbFNlcnZpY2U@._V1_QL75_UX500_CR0,0,500,281_.jpg",
       "imdb": "https://www.imdb.com/name/nm0000093/",
     }, {
-      "name": "Shia Lebouf",
+      "name": "Shia Labeouf",
       "image": "https://media.gq.com/photos/5f4952b38dc8847e289114e8/4:3/w_1024%2Cc_limit/GQ-Shia-Grooming-082820.jpeg",
       "imdb": "https://www.imdb.com/name/nm0479471/?ref_=nv_sr_srsg_0_tt_2_nm_6_q_shia%2520leb"
     }, {
@@ -7930,7 +7930,97 @@ const moviesArray = [
         "image": "https://nypost.com/wp-content/uploads/sites/2/2013/12/kylechandlercover.jpg?quality=75&strip=all",
         "imdb": "https://www.imdb.com/name/nm0151419/"
       }]
+    },
+
+    {
+      "item": 260,
+      "title": "Beautiful Boy",
+      "runtime": 120,
+      "mpaa": "R",
+      "poster": "https://i.ytimg.com/vi/y23HyopQxEg/maxresdefault.jpg",
+      "description": "Based on the memoirs of David and Nic Sheff, this film tells the heartbreaking and inspiring story of a father struggling to save his son from addiction. As Nic grapples with substance abuse, his father David embarks on a turbulent journey of love, pain, and hope.",
+      "genre": ["biography", "drama"],
+      "link": "https://www.amazon.com/gp/video/detail/B08B4XJPZQ/ref=atv_dp_amz_c_TS5124c5_1_2?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Felix Van Groeningen",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTU4NjI2NzUyMF5BMl5BanBnXkFtZTgwMTMyNTEyMTE@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0881103/"
+      }],
+      "actors": [{
+        "name": "Steve Carell",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0E4JvlpFYatER0RLZ-4qX6z7T9YMG7MavoQsCjen58CK6JqJa",
+        "imdb": "https://www.imdb.com/name/nm0136797/",
+      }, {
+        "name": "Timothee Chalamet",
+        "image": "https://assets.vogue.com/photos/645cd9ef8ce475c1df7ded6d/4:3/pass/PA2023_22_0041_RGB.jpg",
+        "imdb": "https://www.imdb.com/name/nm3154303/"
+      }, {
+        "name": "Maura Tierney",
+        "image": "https://i.pinimg.com/736x/82/12/0a/82120a56c0bd229308256c4222fd76a0.jpg",
+        "imdb": "https://www.imdb.com/name/nm0001807/"
+      }]
+    },
+
+    {
+      "item": 261,
+      "title": "Peanut Butter Falcon",
+      "runtime": 97,
+      "mpaa": "PG-13",
+      "poster": "https://i.ytimg.com/vi/kfj1MezDByI/maxresdefault.jpg",
+      "description": "A modern Mark Twain-style adventure, 'The Peanut Butter Falcon' tells the story of Zak, a young man with Down syndrome who dreams of becoming a professional wrestler. When he escapes from his care home to pursue his dream, he crosses paths with Tyler, a small-time outlaw, and together they embark on an unforgettable journey of friendship and self-discovery.",
+      "genre": ["adventure", "comedy", "drama"],
+      "link": "https://www.amazon.com/gp/video/detail/B0B8TQG871/ref=atv_dp_amz_c_TS5124c5_1_7?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Tyler Nilson & Michael Schwartz",
+        "image": "https://deadline.com/wp-content/uploads/2019/04/tyler-nilson-michael-schwartz-e1556309175471.jpg",
+        "imdb": "https://www.imdb.com/name/nm2732831/"
+      }],
+      "actors": [{
+        "name": "Shia Labeouf",
+        "image": "https://media.gq.com/photos/5f4952b38dc8847e289114e8/4:3/w_1024%2Cc_limit/GQ-Shia-Grooming-082820.jpeg",
+        "imdb": "https://www.imdb.com/name/nm0479471/?ref_=nv_sr_srsg_0_tt_2_nm_6_q_shia%2520leb"
+      }, {
+        "name": "Zack Gottsagen",
+        "image": "https://ca-times.brightspotcdn.com/dims4/default/a5147ac/2147483647/strip/true/crop/6720x4480+0+0/resize/1200x800!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fcb%2F1f%2F2bd54ec3461594541630d6982c49%2Fla-photos-1staff-471771-en-1114-zack-gottsagen-03-gem.jpg",
+        "imdb": "https://www.imdb.com/name/nm5867451/"
+      }, {
+        "name": "Dakota Johnson",
+        "image": "https://media.vanityfair.com/photos/6579d2bbda411f2113c7c9c5/16:9/w_1280,c_limit/dakota-johnson-sleep.jpg",
+        "imdb": "https://www.imdb.com/name/nm0424848/"
+      }]
+    },
+
+    {
+      "item": 262,
+      "title": "My Spy",
+      "runtime": 99,
+      "mpaa": "PG-13",
+      "poster": "",
+      "description": "In 'My Spy', a hardened CIA operative finds himself at the mercy of a precocious 9-year-old girl named Sophie after he's sent undercover to surveil her family. As he reluctantly teaches her the art of espionage, he finds himself falling for her charms, leading to hilarious and heartwarming moments.",
+      "genre": ["action", "comedy", "family"],
+      "link": "",
+      "director": [{
+        "name": "Peter Segal",
+        "image": "",
+        "imdb": "https://www.imdb.com/name/nm0786833/"
+      }],
+      "actors": [{
+        "name": "Dave Bautista",
+        "image": "",
+        "imdb": "https://www.imdb.com/name/nm1176985/"
+      }, {
+        "name": "Chloe Coleman",
+        "image": "",
+        "imdb": "https://www.imdb.com/name/nm8626704/"
+      }, {
+        "name": "Kristen Schaal",
+        "image": "",
+        "imdb": "https://www.imdb.com/name/nm0773435/"
+      }]
     }
+    
+    
+    
     
     
     
