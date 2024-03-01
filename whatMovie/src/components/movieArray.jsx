@@ -7356,6 +7356,91 @@ const moviesArray = [
       }]
     },
     
+    {
+      "item": 240,
+      "title": "Chaos",
+      "runtime": 106,
+      "mpaa": "R",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/2614b1f32e105e3060579fdafb558f903feed03647b2532e0d82272c2b32f2ef.jpg",
+      "description": "In the movie Chaos, Detective Quentin Conners and narcotics agent Shane Dekker are compelled to work together again to track down a serial killer who's killing cops.",
+      "genre": ["action", "crime", "thriller"],
+      "link": "https://www.amazon.com/gp/video/detail/B00D5WDBM4/ref=atv_dp_amz_c_TS5124c5_1_1?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Tony Giglio",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTcxNzc4MzgyNl5BMl5BanBnXkFyZXN1bWU@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0318121/"
+      }],
+      "actors": [{
+        "name": "Jason Statham",
+      "image": "https://ew.com/thmb/bbpeT-u7BO2qVG43YbrTdg9arNo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/meg-fp-0002-2000-7ed63879f64c475b821774b972f82ae5.jpg",
+      "imdb": "https://www.imdb.com/name/nm0005458/?ref_=nv_sr_srsg_0_tt_3_nm_5_q_jason%2520stath"
+      }, {
+        "name": "Ryan Phillippe",
+        "image": "https://static.independent.co.uk/2021/02/15/15/155670_5100.jpg",
+        "imdb": "https://www.imdb.com/name/nm0000200/"
+      }, {
+        "name": "Wesley Snipes",
+    "image": "https://m.media-amazon.com/images/M/MV5BYWY3MDY5ZDQtNjUxNS00OGZiLTkzZGEtN2Q5YTBhMDFlOWJjXkEyXkFqcGdeQXRyYW5zY29kZS13b3JrZmxvdw@@._V1_.jpg",
+    "imdb": "https://www.imdb.com/name/nm0000648/"
+      }]
+    },
+
+    {
+      "item": 241,
+      "title": "24 Hours to Live",
+      "runtime": 93,
+      "mpaa": "R",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/1c873c4360c117c929ff8deb8766e5dd881a12f9f7feb4ce1457e959f3edb46d.jpg",
+      "description": "In the movie 24 Hours to Live, an assassin seeks redemption after being given a second chance at life when he is brought back from the dead for 24 hours to track down his killers.",
+      "genre": ["action", "thriller"],
+      "link": "https://www.amazon.com/gp/video/detail/B08QDVKXS8/ref=atv_dp_amz_c_TS5124c5_1_3?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Brian Smrz",
+        "image": "https://i.ytimg.com/vi/yDbb68NgOVs/maxresdefault.jpg",
+        "imdb": "https://www.imdb.com/name/nm0810429/"
+      }],
+      "actors": [{
+        "name": "Ethan Hawke",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTY_Cck_wjMxiCBBh9Jni8vqQryFpv5XXSiWkrUU5EngmkTMF8e",
+      "imdb": "https://www.imdb.com/name/nm0000160/"
+      }, {
+        "name": "Xu Qing",
+        "image": "https://m.media-amazon.com/images/M/MV5BOGUwZTQxOWEtNWQ2OS00YWYyLWE4ZWMtMTljM2I2NTI5OGE2XkEyXkFqcGdeQXVyNDg5Mzk5Mg@@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0703641/"
+      }]
+    },
+
+    {
+      "item": 242,
+      "title": "Seeking Justice",
+      "runtime": 105,
+      "mpaa": "R",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/61425dbc64f28b80e8b38d33216250139981fc7356138fc5b64f0838ad76a3a1.jpg",
+      "description": "In the movie Seeking Justice, a man seeks vengeance against the person who assaulted his wife, but soon finds himself entangled in a web of conspiracy and danger.",
+      "genre": ["action", "drama", "thriller"],
+      "link": "https://www.amazon.com/gp/video/detail/B085MDMWDV/ref=atv_dp_amz_c_TS5124c5_1_12?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Roger Donaldson",
+        "image": "https://deadline.com/wp-content/uploads/2020/02/roger-donaldson.jpg",
+        "imdb": "https://www.imdb.com/name/nm0001152/"
+      }],
+      "actors": [{
+        "name": "Nicolas Cage",
+        "image": "https://variety.com/wp-content/uploads/2023/03/Nicolas-Cage-Variety-Award-092.jpg?w=1000&h=563&crop=1",
+        "imdb": "https://www.imdb.com/name/nm0000115/"
+      }, {
+        "name": "January Jones",
+        "image": "https://media.allure.com/photos/622b69c71cafecc72b4720f4/16:9/w_2560%2Cc_limit/462945954",
+        "imdb": "https://www.imdb.com/name/nm0005064/"
+      }, {
+        "name": "Guy Pearce",
+        "image": "https://facts.net/wp-content/uploads/2023/07/41-facts-about-guy-pearce-1689510791.jpg",
+        "imdb": "https://www.imdb.com/name/nm0001602/"
+      }]
+    }
+    
+    
+    
     
     
     
