@@ -7238,7 +7238,37 @@ const moviesArray = [
         "image": "https://s.abcnews.com/images/GMA/f9-fast-furious-ht-ml-210603_1622730161069_hpMain_16x9_992.jpg",
         "imdb": "https://www.imdb.com/name/nm0108287/"
       }]
+    },
+
+    {
+      "item": 236,
+      "title": "The Fate of the Furious",
+      "runtime": 136,
+      "mpaa": "PG-13",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/fa6b96e4cbf7943e6a32d79963c49e4cb5b30043122e00bf60e4a3063785bc05.jpg",
+      "description": "When a mysterious woman seduces Dominic Toretto into the world of terrorism and a betrayal of those closest to him, the crew faces trials that will test them as never before.",
+      "genre": ["action", "crime", "thriller", "sequel"],
+      "link": "https://www.amazon.com/gp/video/detail/B06ZY1YGHT/ref=atv_dp_amz_c_TS5124c5_1_8?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "F. Gary Gray",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTQ5ODcyMzExMF5BMl5BanBnXkFtZTgwMTgxMjAwMjE@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0336620/"
+      }],
+      "actors": [{
+        "name": "Vin Diesel",
+        "image": "https://phantom-marca.unidadeditorial.es/023de5244b791c5aa890a89e8a67ebbe/resize/828/f/jpg/assets/multimedia/imagenes/2023/05/19/16844885388361.jpg",
+        "imdb": "https://www.imdb.com/name/nm0004874/"
+      }, {
+        "name": "Dwayne 'The Rock' Johnson",
+        "image": "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F3bdb2575-9a92-42f8-8472-bb78c7bd118a_720x405.jpeg",
+        "imdb": "https://www.imdb.com/name/nm0425005/",
+      }, {
+        "name": "Jason Statham",
+        "image": "https://ew.com/thmb/bbpeT-u7BO2qVG43YbrTdg9arNo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/meg-fp-0002-2000-7ed63879f64c475b821774b972f82ae5.jpg",
+        "imdb": "https://www.imdb.com/name/nm0005458/?ref_=nv_sr_srsg_0_tt_3_nm_5_q_jason%2520stath"
+      }]
     }
+    
     
     
     
