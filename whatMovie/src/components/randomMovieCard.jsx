@@ -63,6 +63,8 @@ export default function RandomMovie({ selectedRuntime  }) {
       );
     }
 
+    const selectedDirectors = JSON.parse(sessionStorage.getItem("selectedDirectors"));
+    console.log("selected DIrectors:", selectedDirectors);
 
  // Filter based on preferred directors
 const preferredDirectors = JSON.parse(sessionStorage.getItem('preferredDirectors'));
@@ -84,6 +86,8 @@ if (preferredDirectors && preferredDirectors.length > 0) {
     }
     console.log("DIRECTORS FROM SESSION STORAGE:", preferredDirectors);
   };
+
+  
   
 
 
