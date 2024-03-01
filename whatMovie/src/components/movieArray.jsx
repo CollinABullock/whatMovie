@@ -7698,7 +7698,65 @@ const moviesArray = [
         "image": "https://m.media-amazon.com/images/M/MV5BM2NkM2Q4MDktOWU0ZC00YzQ2LTllY2ItOGYwMmJkZjg4NDQzXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
         "imdb": "https://www.imdb.com/name/nm2255973/"
       }]
-    }
+    },
+
+    {
+      "item": 252,
+      "title": "Jeepers Creepers 2",
+      "runtime": 104,
+      "mpaa": "R",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/05429fc0057d87f756faf584f62302b9b687292c6afc8047fce8a64f1a120c34.jpg",
+      "description": "A group of high school students on a bus returning from a championship basketball game become stranded alongside a highway when their bus breaks down. Little do they know that they are about to become the prey of a flesh-eating creature known as the Creeper.",
+      "genre": ["horror", "mystery", "sequel"],
+      "link": "https://www.amazon.com/gp/video/detail/B09Y1QGLMY/ref=atv_dp_amz_c_TS5124c5_1_12?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Victor Salva",
+        "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/09/29/12/victor-salva.jpg?quality=75&width=640&crop=3%3A2%2Csmart&auto=webp",
+        "imdb": "https://www.imdb.com/name/nm0758567/"
+      }],
+      "actors": [{
+        "name": "Ray Wise",
+        "image": "https://m.media-amazon.com/images/M/MV5BZjIwYjMwZmUtY2FlNy00MjFiLTgxNzYtNDEyZjQ1YjdkNmYwXkEyXkFqcGdeQXVyNTc0NjY1ODk@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0936473/"
+      }, {
+        "name": "Jonathan Breck",
+        "image": "https://assets1.ignimgs.com/2017/09/25/jc3-1506305750509_160w.jpg?width=1280",
+        "imdb": "https://www.imdb.com/name/nm0106712/"
+      }, {
+        "name": "Garikayi Mutambirwa",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTcwODM0MzExOV5BMl5BanBnXkFtZTYwOTU5MTQ3._V1_FMjpg_UX1000_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0616446/"
+      }]
+    },
+    
+    {
+      "item": 253,
+      "title": "The Descent",
+      "runtime": 99,
+      "mpaa": "R",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/607df474af75dc4960d8fe9b84c101f398f884f4b9c3573f3b0de36aa11eb3a8._UR1920,1080_.jpg",
+      "description": "A caving expedition goes horribly wrong, as the explorers become trapped and ultimately pursued by a strange breed of predators underground.",
+      "genre": ["horror", "thriller"],
+      "link": "https://www.amazon.com/gp/video/detail/B08KH912P5/ref=atv_dp_amz_c_TS5124c5_1_5?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Neil Marshall",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Neil_Marshall_2006.JPG",
+        "imdb": "https://www.imdb.com/name/nm1234199/"
+      }],
+      "actors": [{
+        "name": "Shauna Macdonald",
+        "image": "https://m.media-amazon.com/images/M/MV5BY2VmYzFiYmQtZTllYi00YzBmLTg2NmQtZTY4ZTIzMzYwYzUzXkEyXkFqcGdeQXVyMjEyNDQ2MA@@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0532707/"
+      }, {
+        "name": "Natalie Mendoza",
+        "image": "https://imaging.broadway.com/images/regular-43/w735/120149-15.jpg",
+        "imdb": "https://www.imdb.com/name/nm0577009/"
+      }, {
+        "name": "Alex Reid",
+        "image": "https://m.media-amazon.com/images/M/MV5BODE4NWYyNjUtNWQ1Yi00MzhkLTgwYTMtMmRkZmUwNmFlYzEwXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0717444/"
+      }]
+    },
     
     
     
