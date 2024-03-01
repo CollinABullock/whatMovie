@@ -4448,7 +4448,7 @@ const moviesArray = [
     "genre": ["crime", "drama", "comedy"],
     "link": "https://play.max.com/video/watch/de74b6e7-5836-4ea5-8fcc-018c0a874ad0/28078aba-d3fa-4abe-ae3e-7ad173726f08",
     "director": [{
-      "name": "Joel Coen",
+      "name": "The Coen Brothers",
       "image": "https://facts.net/wp-content/uploads/2023/11/10-astounding-facts-about-joel-coen-1699443401.jpg",
       "imdb": "https://www.imdb.com/name/nm0001054/"
     }],
@@ -7296,7 +7296,37 @@ const moviesArray = [
         "image": "https://media.vanityfair.com/photos/64149a1ceb68a24cc7524b69/16:9/w_5648,h_3177,c_limit/1410518984",
         "imdb": "https://www.imdb.com/name/nm0005154/"
       }]
+    },
+
+    {
+      "item": 238,
+      "title": "Burn After Reading",
+      "runtime": 96,
+      "mpaa": "R",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/6c4a0788b6f85f82dd03ee76910bab7a54963c66f382a8e7105da5bfb1fb1659.jpg",
+      "description": "A dark comedy about two gym employees who stumble upon a disk containing the memoirs of a former CIA agent. Believing it to be classified information, they attempt to sell it, setting off a series of events involving blackmail, deception, and unintended consequences.",
+      "genre": ["comedy", "crime", "drama"],
+      "link": "https://www.amazon.com/gp/video/detail/B00BS1UE3I/ref=atv_dp_amz_c_TS5124c5_1_3?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "The Coen Brothers",
+      "image": "https://facts.net/wp-content/uploads/2023/11/10-astounding-facts-about-joel-coen-1699443401.jpg",
+      "imdb": "https://www.imdb.com/name/nm0001054/"
+      }],
+      "actors": [{
+        "name": "George Clooney",
+        "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRYIaq1IibD0byPwoCA61TVzHOu11u8JjcIclfwijR0EvFA59KLCk0RM1DDpeeRnFaTZEO1mVmnMzzFKjg",
+        "imdb": "https://www.imdb.com/name/nm0000123/"
+      }, {
+        "name": "Frances McDormand",
+        "image": "https://media.gq.com/photos/55ee376989c0d3e261b1df3b/master/pass/francis-almost-famous.jpg",
+        "imdb": "https://www.imdb.com/name/nm0000531/"
+      }, {
+        "name": "Brad Pitt",
+        "image": "https://m.media-amazon.com/images/M/MV5BMWRkMDE5MjUtN2MyYi00MzAyLWIwOWMtNWU0NzNkZDczOWUyXkEyXkFqcGdeQUlNRGJWaWRlb1RodW1ibmFpbFNlcnZpY2U@._V1_QL75_UX500_CR0,0,500,281_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0000093/"
+      }]
     }
+    
     
     
     
