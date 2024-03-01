@@ -7669,7 +7669,37 @@ const moviesArray = [
         "image": "https://ew.com/thmb/0kYq6Dj6Bz9bV07xbxckm9Y8zH8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Handmaids-Tale-110122-d5b5fc7f856b4d09b68331347a68f3a8.jpg",
         "imdb": "https://www.imdb.com/name/nm0925967/"
       }]
+    },
+
+    {
+      "item": 251,
+      "title": "The Lazarus Effect",
+      "runtime": 83,
+      "mpaa": "PG-13",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/9d32c11dd728feec183d71d59db14e93c5dcef4b67dc3018911cc1886aeb8560.jpg",
+      "description": "A team of medical researchers discover a way to bring dead patients back to life, but their experiments unleash terrifying supernatural consequences.",
+      "genre": ["horror", "mystery", "science-fiction"],
+      "link": "https://www.amazon.com/gp/video/detail/B0B6WV323S/ref=atv_dp_amz_c_TS5124c5_1_17?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "David Gelb",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjAyMDgzNDYzOF5BMl5BanBnXkFtZTgwNTIzMzIzNTE@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm2336791/"
+      }],
+      "actors": [{
+        "name": "Mark Duplass",
+        "image": "https://tci-assets.s3.amazonaws.com/uploads/MARK_SOCIAL.jpg",
+        "imdb": "https://www.imdb.com/name/nm0244330/"
+      }, {
+        "name": "Olivia Wilde",
+        "image": "https://media.glamour.com/photos/65df4efe9f651b72617e452e/master/w_2560%2Cc_limit/GettyImages-2044097592.jpg",
+        "imdb": "https://www.imdb.com/name/nm1312575/"
+      }, {
+        "name": "Donald Glover",
+        "image": "https://m.media-amazon.com/images/M/MV5BM2NkM2Q4MDktOWU0ZC00YzQ2LTllY2ItOGYwMmJkZjg4NDQzXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm2255973/"
+      }]
     }
+    
     
     
     
