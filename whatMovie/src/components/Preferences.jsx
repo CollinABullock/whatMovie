@@ -13,9 +13,11 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
   const [isPreferredGenresOpen, setIsPreferredGenresOpen] = useState(false);
   const [isSelectedGenresOpen, setIsSelectedGenresOpen] = useState(false);
   const [isDirectorOpen, setIsDirectorOpen] = useState(false);
+  const [isSelectedDirectorOpen, setIsSelectedDirectorOpen] = useState(false);
   const [directorSearch, setDirectorSearch] = useState('');
   const [filteredDirectors, setFilteredDirectors] = useState([]);
   const [preferredDirectors, setPreferredDirectors] = useState([]);
+  const [selectedDirectors, setSelectDirectors] = useState([]);
 
 
   const handleDirectorSearch = (event) => {
@@ -49,10 +51,19 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
     setPreferredDirectors(storedPreferredDirectors);
   }, []);
 
+  useEffect(() => {
+    const storedSelectedDirectors = JSON.parse(sessionStorage.getItem('selectedDirectors')) || [];
+    setSelectDirectors(storedSelectedDirectors);
+  }, []);
+
   // Update sessionStorage whenever preferredDirectors change
   useEffect(() => {
     sessionStorage.setItem('preferredDirectors', JSON.stringify(preferredDirectors));
   }, [preferredDirectors]);
+
+  useEffect(() => {
+    sessionStorage.setItem('selectedDirectors', JSON.stringify(selectedDirectors));
+  }, [selectedDirectors]);
   
   // Define handleDirectorClick function
   const handleDirectorClick = (directorName) => {
@@ -66,6 +77,20 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
       // Add director to preferredDirectors array
       const updatedDirectors = [...preferredDirectors, directorName];
       setPreferredDirectors(updatedDirectors);
+    }
+  };
+
+  const handleSelectedDirectorClick = (directorName) => {
+    // Toggle director selection
+    const isSelected = selectedDirectors.includes(directorName);
+    if (isSelected) {
+      // Remove director from preferredDirectors array
+      const updatedSelectedDirectors = selectedDirectors.filter(director => director !== directorName);
+      setSelectDirectors(updatedSelectedDirectors);
+    } else {
+      // Add director to preferredDirectors array
+      const updatedSelectedDirectors = [...selectedDirectors, directorName];
+      setSelectDirectors(updatedSelectedDirectors);
     }
   };
   
@@ -295,7 +320,7 @@ return (
 </div>
   <div style={{ marginBottom: '30px', border: '1px solid #ccc', padding: '15px' }}>
     <div style={{ display: 'flex', alignItems: 'center', cursor: 'pointer', marginBottom: '10px' }} onClick={() => setIsDirectorOpen(!isDirectorOpen)}>
-      <h4>Any directors you're fond of?</h4>
+    <h4>Any directors you<span style={{ color: 'red', fontSize: '1.2em', textDecoration: 'underline' }}> ARE</span>  fond of?</h4>
       {isDirectorOpen ? <BsChevronUp style={{ boxShadow: '5px 5px 5px green', margin: '10px' }} /> : <BsChevronDown style={{ boxShadow: '5px 5px 5px red', margin: '10px' }} />}
     </div>
     {isDirectorOpen && (
@@ -402,6 +427,117 @@ return (
     )}
     
       </div>
+
+      <div style={{ marginBottom: '30px', border: '1px solid #ccc', padding: '15px' }}>
+    <div style={{ display: 'flex', alignItems: 'center', cursor: 'pointer', marginBottom: '10px' }} onClick={() => setIsSelectedDirectorOpen(!isSelectedDirectorOpen)}>
+    <h4>Any directors you<span style={{ color: 'red', fontSize: '1.2em', textDecoration: 'underline' }}> ARE NOT</span>  fond of?</h4>
+      {isSelectedDirectorOpen ? <BsChevronUp style={{ boxShadow: '5px 5px 5px green', margin: '10px' }} /> : <BsChevronDown style={{ boxShadow: '5px 5px 5px red', margin: '10px' }} />}
+    </div>
+    {isSelectedDirectorOpen && (
+      <div>
+        <div style={{display: "flex", justifyContent: "center"}}>
+        <input
+          type="text"
+          placeholder="Search directors..."
+          value={directorSearch}
+          onChange={handleDirectorSearch}
+          style={{ marginBottom: '10px' }}
+        />
+        </div>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '20px', maxWidth: "80%", margin: "0 auto" }}>
+        {(!directorSearch || filteredDirectors.length === 0) ? (
+            // Check if directors array is not empty before rendering
+            sortedDirectors.map(director => (
+              <div
+                className='filtered-director-item'
+                onClick={() => handleSelectedDirectorClick(director.name)}
+                key={director.name}
+                style={{ textAlign: 'center' }}
+              >
+                <div style={{ position: 'relative', display: 'inline-block', maxWidth: "100%" }}>
+                  {/* Image rendering */}
+                  {director.image && (
+                    <React.Fragment>
+                      <img
+                        className='filtered-director-img'
+                        src={director.image}
+                        alt={director.name}
+                        style={{ width: '170px', height: '150px', objectFit: "cover", marginBottom: '10px' }}
+                      />
+                      {/* Conditional rendering for the checkmark */}
+                      {selectedDirectors.includes(director.name) && (
+                        <div style={{
+                          position: 'absolute',
+                          top: '-10px',
+                          right: '-10px',
+                          backgroundColor: 'green',
+                          borderRadius: '50%',
+                          padding: '3px',
+                          zIndex: '1'
+                        }}>
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16">
+                            <path fill="#FFFFFF" d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                          </svg>
+                        </div>
+                      )}
+                    </React.Fragment>
+                  )}
+                  {/* Display director's name */}
+                  <p style={{ margin: '0', color: preferredDirectors.includes(director.name) ? 'green' : 'gray' }}>{director.name}</p>
+                </div>
+              </div>
+            ))
+            
+          ) : (
+            // Render filtered directors based on search query
+            filteredDirectors.map(director => (
+              
+              <div
+                className='filtered-director-item'
+                onClick={() => handleSelectedDirectorClick(director.name)}
+                key={director.name}
+                style={{ textAlign: 'center' }}
+              >
+                <div style={{ position: 'relative', display: 'inline-block', maxWidth: "100%" }}>
+                  {/* Image rendering */}
+                  {director.image && (
+                    <React.Fragment>
+                      <img
+                        className='filtered-director-img'
+                        src={director.image}
+                        alt={director.name}
+                        style={{ width: '200px', height: '150px', objectFit: "cover", marginBottom: '10px' }}
+                      />
+                      {/* Conditional rendering for the checkmark */}
+                      {selectedDirectors.includes(director.name) && (
+                        <div style={{
+                          position: 'absolute',
+                          top: '-10px',
+                          right: '-10px',
+                          backgroundColor: 'green',
+                          borderRadius: '50%',
+                          padding: '3px',
+                          zIndex: '1'
+                        }}>
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16">
+                            <path fill="#FFFFFF" d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                          </svg>
+                        </div>
+                      )}
+                    </React.Fragment>
+                  )}
+                  {/* Display director's name */}
+                  <p style={{ margin: '0', color: selectedDirectors.includes(director.name) ? 'green' : 'gray' }}>{director.name}</p>
+                </div>
+              </div>
+            ))
+          )}
+        </div>
+      </div>
+    )}
+    
+      </div>
+
       <div style={{ display: 'flex', justifyContent: 'center' }}>
   <Button
     onClick={() => {
