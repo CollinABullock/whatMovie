@@ -185,7 +185,6 @@ const sortedDirectors = data
   });
 
 
-// Inside the component
 return (
   <div style={{ width: '100%', padding: '0 10px' }}>
   {/* Collapsible streaming services section */}
@@ -420,14 +419,21 @@ return (
     </div>
     
       </div>
-      <Button onClick={() => {
-          setSelectedGenres([]);
-          setPreferredGenres([]);
-          setRuntime(240);
-          setSelectedService([]);
-          setPreferredDirectors([]);
-          window.alert("Preferences have been reset.  Happy viewing!")
-        }} style={{ margin: "20px", fontSize: "2em", backgroundColor: "red" }}>Reset Preferences</Button>
+      <div style={{ display: 'flex', justifyContent: 'center' }}>
+  <Button
+    onClick={() => {
+      setSelectedGenres([]);
+      setPreferredGenres([]);
+      setRuntime(240);
+      setSelectedService([]);
+      setPreferredDirectors([]);
+      window.alert("Preferences have been reset. Happy viewing!");
+    }}
+    style={{ fontSize: "2em", backgroundColor: "red" }}
+  >
+    Reset Preferences
+  </Button>
+</div>
       </div>)
   
 
