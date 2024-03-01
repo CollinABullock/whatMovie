@@ -64,7 +64,11 @@ export default function RandomMovie({ selectedRuntime  }) {
     }
 
     const selectedDirectors = JSON.parse(sessionStorage.getItem("selectedDirectors"));
-    console.log("selected DIrectors:", selectedDirectors);
+    if (selectedDirectors && selectedDirectors.length > 0) {
+      filtered = filtered.filter(movie =>
+          movie.director && !movie.director.some(dir => selectedDirectors.includes(dir.name))
+      );
+  }
 
  // Filter based on preferred directors
 const preferredDirectors = JSON.parse(sessionStorage.getItem('preferredDirectors'));
