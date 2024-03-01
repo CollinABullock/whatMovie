@@ -7757,6 +7757,36 @@ const moviesArray = [
         "imdb": "https://www.imdb.com/name/nm0717444/"
       }]
     },
+
+    {
+      "item": 254,
+      "title": "Centurion",
+      "runtime": 97,
+      "mpaa": "R",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/bb094a295ca9d022160c3e3e4510cafe82d775b3e8cdb42b9f170e546f9dc246.jpg",
+      "description": "A splinter group of Roman soldiers fight for their lives behind enemy lines after their legion is decimated in a devastating guerrilla attack.",
+      "genre": ["action", "adventure", "drama"],
+      "link": "https://www.amazon.com/gp/video/detail/0JT9JCUV98NSEHLJ5M67P7TOAP/ref=atv_dp_cnc_0_2",
+      "director": [{
+        "name": "Neil Marshall",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Neil_Marshall_2006.JPG",
+        "imdb": "https://www.imdb.com/name/nm1234199/"
+      }],
+      "actors": [{
+        "name": "Michael Fassbender",
+        "image": "https://variety.com/wp-content/uploads/2024/02/fassbender-e1709057463472.jpg?w=861",
+        "imdb": "https://www.imdb.com/name/nm1055413/",
+      }, {
+        "name": "Dominic West",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjM1MDU1Mzg3N15BMl5BanBnXkFtZTgwNTcwNzcyMzI@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0922035/"
+      }, {
+        "name": "Olga Kurylenko",
+        "image": "https://ew.com/thmb/w8N2Xmo7STfx08SBIxcCam3npis=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1177709564-8ad1eacb7f944a7daed9a4239d8c5767.jpg",
+        "imdb": "https://www.imdb.com/name/nm1385871/"
+      }]
+    }
+    
     
     
     
