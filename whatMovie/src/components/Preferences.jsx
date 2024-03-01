@@ -17,32 +17,6 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
   const [filteredDirectors, setFilteredDirectors] = useState([]);
   const [preferredDirectors, setPreferredDirectors] = useState([]);
 
-  console.log("director search:", directorSearch);
-
-  console.log("data:", data);
-
- 
-
-// Iterate over each movie object in the `data` array
-data.forEach(movie => {
-  // Check if the `director` array is not empty
-  if (movie.director && movie.director.length > 0) {
-    // Access the `director` array within each movie object
-    const directors = movie.director;
-
-    console.log("directors:", directors);
-    
-    // Iterate over each director object in the `director` array
-    directors.forEach(director => {
-      // Access and log the name of the director
-      console.log("director:", director);
-    });
-  } else {
-    // Log a message indicating that there are no directors for this movie
-    console.log(`No directors found for the movie "${movie.title}"`);
-  }
-});
-
 
   const handleDirectorSearch = (event) => {
     const searchTerm = event.target.value.trim().toLowerCase(); // Remove whitespace and convert to lowercase
@@ -184,6 +158,7 @@ const sortedDirectors = data
     return lastNameA.localeCompare(lastNameB); // Compare last names
   });
 
+  console.log("sorted directors:", sortedDirectors);
 
 return (
   <div style={{ width: '100%', padding: '0 10px' }}>
@@ -313,6 +288,7 @@ return (
     </div>
     {isDirectorOpen && (
       <div>
+        <div style={{display: "flex", justifyContent: "center"}}>
         <input
           type="text"
           placeholder="Search directors..."
@@ -320,11 +296,12 @@ return (
           onChange={handleDirectorSearch}
           style={{ marginBottom: '10px' }}
         />
+        </div>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '60px', maxWidth: "80%", margin: "0 auto" }}>
           {!directorSearch ? (
             // Check if directors array is not empty before rendering
-            data.map(movie => (
-              movie.director && movie.director.length > 0 && movie.director.map(director => (
+            sortedDirectors.map(director => (
+              director.name && director.length > 0 && movie.director.map(director => (
                 <div
                   className='filtered-director-item'
                   onClick={() => handleDirectorClick(director.name)}
@@ -411,12 +388,6 @@ return (
         </div>
       </div>
     )}
-    <div style={{ padding: "15px", marginBottom: "30px"}}>
-      <div style={{ display: 'flex', justifyContent: 'center'}}>
-  
-      </div>
-      
-    </div>
     
       </div>
       <div style={{ display: 'flex', justifyContent: 'center' }}>
