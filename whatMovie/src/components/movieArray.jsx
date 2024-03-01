@@ -7325,7 +7325,37 @@ const moviesArray = [
         "image": "https://m.media-amazon.com/images/M/MV5BMWRkMDE5MjUtN2MyYi00MzAyLWIwOWMtNWU0NzNkZDczOWUyXkEyXkFqcGdeQUlNRGJWaWRlb1RodW1ibmFpbFNlcnZpY2U@._V1_QL75_UX500_CR0,0,500,281_.jpg",
         "imdb": "https://www.imdb.com/name/nm0000093/"
       }]
-    }
+    },
+
+    {
+      "item": 239,
+      "title": "Ava",
+      "runtime": 96,
+      "mpaa": "R",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/6fa59e622ef779b10ff3ecaf96e6d84a4486912009976550b962de9baa4244eb.jpg",
+      "description": "Ava is a deadly assassin who works for a black ops organization, traveling the globe specializing in high-profile hits. When a job goes dangerously wrong, she is forced to fight for her own survival.",
+      "genre": ["action", "crime", "drama"],
+      "link": "https://www.amazon.com/gp/video/detail/B08DVWZVJQ/ref=atv_dp_amz_c_TS5124c5_1_2?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Tate Taylor",
+        "image": "https://variety.com/wp-content/uploads/2015/01/tate-taylor-uss-indianapolis-movie.jpg",
+        "imdb": "https://www.imdb.com/name/nm0852622/"
+      }],
+      "actors": [{
+        "name": "Jessica Chastain",
+        "image": "https://res.akamaized.net/domain/image/fetch/t_web/https://static.domain.com.au/twr/production/uploads/2018/01/31025706/MollysGame_Pic01-e1517290103345.jpg",
+        "imdb": "https://www.imdb.com/name/nm1567113/"
+      }, {
+        "name": "John Malkovich",
+        "image": "https://www.nme.com/wp-content/uploads/2020/05/John_Malkovich_Featured_Image.jpg",
+        "imdb": "https://www.imdb.com/name/nm0000518/"
+      }, {
+        "name": "Colin Farrell",
+        "image": "https://www.the-sun.com/wp-content/uploads/sites/6/0203/03/OFF-PLATFORM-colin-farrell.jpg?strip=all&w=1620&h=1080&crop=1",
+        "imdb": "https://www.imdb.com/name/nm0268199/"
+      }]
+    },
+    
     
     
     
