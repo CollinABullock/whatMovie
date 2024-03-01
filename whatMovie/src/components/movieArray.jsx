@@ -158,7 +158,7 @@ const moviesArray = [
       "runtime": 126,
       "mpaa": "R",
       "poster": "https://ntvb.tmsimg.com/assets/p20420065_v_h10_ae.jpg?w=1280&h=720",
-      "description": "In 'The Power of the Dog', Phil Burbank, a charismatic and domineering rancher in 1925 Montana, harbors resentment towards his brother George's new wife, Rose. Phil's cruelty and manipulation escalate as he tries to undermine Rose's presence on the ranch, leading to devastating consequences for all involved. As tensions simmer and secrets unravel, the power dynamics within the family are irrevocably changed.",
+      "description": "Phil Burbank, a charismatic and domineering rancher in 1925 Montana, harbors resentment towards his brother George's new wife, Rose. Phil's cruelty and manipulation escalate as he tries to undermine Rose's presence on the ranch, leading to devastating consequences for all involved.",
       "genre": ["drama", "western"],
       "link": "https://www.netflix.com/title/81127997",
       "director": [{
@@ -6050,7 +6050,7 @@ const moviesArray = [
   "runtime": 90,
   "mpaa": "PG",
   "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/e63236ad-7e41-41f0-a0ef-a01798da280d/c23c78bcbf41d561dd73ef651b105d1a05a85ec3.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
-  "description": "In 'Bill & Ted's Excellent Adventure', two dim-witted high school students, Bill S. Preston, Esq. and Ted 'Theodore' Logan, are visited by Rufus, a time-traveling messenger from the future. Rufus informs them that their band, Wyld Stallyns, holds the key to world peace, and they must ace their history presentation to ensure their future success. With the help of a time-traveling phone booth, Bill and Ted embark on a wild journey through history, meeting historical figures and learning valuable lessons along the way.",
+  "description": "Two dim-witted high school students visited by Rufus, a time-traveling messenger from the future. Rufus informs them that their band, Wyld Stallyns, holds the key to world peace, and they must ace their history presentation to ensure their future success. With the help of a time-traveling phone booth, Bill and Ted embark on a wild journey through history, meeting historical figures and learning valuable lessons along the way.",
   "genre": ["comedy", "science-fiction"],
   "link": "https://play.max.com/video/watch/4e8121c3-458d-49ed-beb4-4ec6ffd0d0cc/3fdebc32-4b0e-4c9d-aae0-2942daa991a1",
   "director": [{
@@ -7639,40 +7639,37 @@ const moviesArray = [
         "name": "Kathleen Quinlan",
         "image": "https://m.media-amazon.com/images/M/MV5BNDZmOWQ5NWQtMzJjMy00ZDU1LWJlNDEtZmYzNWQwNjFmMTk4XkEyXkFqcGdeQXVyNjc3NDgwNzU@._V1_.jpg",
         "imdb": "https://www.imdb.com/name/nm0001648/"
+      }]
+    },
+    
+    {
+      "item": 250,
+      "title": "Get Out",
+      "runtime": 104,
+      "mpaa": "R",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/8e49148580e2ef6a3055123acb67e4cd9f7a5ddbeac90a987c80038db41c6c92.jpg",
+      "description": "A young African-American visits his white girlfriend's parents for the weekend, where his simmering uneasiness about their reception of him eventually reaches a boiling point.",
+      "genre": ["horror", "mystery", "thriller"],
+      "link": "https://www.amazon.com/gp/video/detail/B06Y1FYX25/ref=atv_dp_amz_c_TS5124c5_1_4?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Jordan Peele",
+        "image": "https://img.buzzfeed.com/buzzfeed-static/complex/images/rarqmehmmaxkvw8akwkr/jordan-peele-nope-complex-interview.jpg?output-format=jpg&output-quality=auto",
+        "imdb": "https://www.imdb.com/name/nm1443502/"
       }],
-
-      {
-        "item": 250,
-        "title": "Get Out",
-        "runtime": 104,
-        "mpaa": "R",
-        "poster": "https://m.media-amazon.com/images/S/pv-target-images/8e49148580e2ef6a3055123acb67e4cd9f7a5ddbeac90a987c80038db41c6c92.jpg",
-        "description": "A young African-American visits his white girlfriend's parents for the weekend, where his simmering uneasiness about their reception of him eventually reaches a boiling point.",
-        "genre": ["horror", "mystery", "thriller"],
-        "link": "https://www.amazon.com/gp/video/detail/B06Y1FYX25/ref=atv_dp_amz_c_TS5124c5_1_4?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
-        "director": [{
-          "name": "Jordan Peele",
-          "image": "https://img.buzzfeed.com/buzzfeed-static/complex/images/rarqmehmmaxkvw8akwkr/jordan-peele-nope-complex-interview.jpg?output-format=jpg&output-quality=auto",
-          "imdb": "https://www.imdb.com/name/nm1443502/"
-        }],
-        "actors": [{
-          "name": "Daniel Kaluuya",
-          "image": "https://www.indiewire.com/wp-content/uploads/2019/11/Get-Out.jpg",
-          "imdb": "https://www.imdb.com/name/nm2257207/"
-        }, {
-          "name": "Allison Williams",
-          "image": "https://i.guim.co.uk/img/media/e1625fb0cb84c2f79507e030619e20caec033f4c/356_427_4632_2778/master/4632.jpg?width=1200&quality=85&auto=format&fit=max&s=c0966b870f9cf3cfd7f6cd049952a028",
-          "imdb": "https://www.imdb.com/name/nm0931329/"
-        }, {
-          "name": "Bradley Whitford",
-          "image": "https://ew.com/thmb/0kYq6Dj6Bz9bV07xbxckm9Y8zH8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Handmaids-Tale-110122-d5b5fc7f856b4d09b68331347a68f3a8.jpg",
-          "imdb": "https://www.imdb.com/name/nm0925967/"
-        }]
-      }
-      
+      "actors": [{
+        "name": "Daniel Kaluuya",
+        "image": "https://www.indiewire.com/wp-content/uploads/2019/11/Get-Out.jpg",
+        "imdb": "https://www.imdb.com/name/nm2257207/"
+      }, {
+        "name": "Allison Williams",
+        "image": "https://i.guim.co.uk/img/media/e1625fb0cb84c2f79507e030619e20caec033f4c/356_427_4632_2778/master/4632.jpg?width=1200&quality=85&auto=format&fit=max&s=c0966b870f9cf3cfd7f6cd049952a028",
+        "imdb": "https://www.imdb.com/name/nm0931329/"
+      }, {
+        "name": "Bradley Whitford",
+        "image": "https://ew.com/thmb/0kYq6Dj6Bz9bV07xbxckm9Y8zH8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Handmaids-Tale-110122-d5b5fc7f856b4d09b68331347a68f3a8.jpg",
+        "imdb": "https://www.imdb.com/name/nm0925967/"
+      }]
     }
-    
-    
     
     
     
