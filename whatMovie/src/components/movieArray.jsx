@@ -8048,6 +8048,34 @@ const moviesArray = [
       }]
     },
     
+    {
+      "item": 264,
+      "title": "Clerks",
+      "runtime": 92,
+      "mpaa": "R",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/77d50bc55abd68d7cf70d4105105fd90de5ffc271505eeca95af5c5d2bf78399._UR1920,1080_SX720_FMjpg_.jpg",
+      "description": "In 'Clerks', a day in the lives of two convenience clerks named Dante and Randal unfolds as they tackle various challenges, interact with eccentric customers, and ponder their own existence while working at the Quick Stop and RST Video.",
+      "genre": ["comedy", "indie"],
+      "link": "https://www.amazon.com/gp/video/detail/B0CLWW5PGB/ref=atv_dp_amz_c_TS5124c5_1_2?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Kevin Smith",
+        "image": "https://content.fortune.com/wp-content/uploads/2019/10/Kevin-Smith-.jpg",
+        "imdb": "https://www.imdb.com/name/nm0003620/"
+      }],
+      "actors": [{
+        "name": "Brian O'Halloran",
+        "image": "https://www.detroitnews.com/gcdn/presto/2023/03/01/PDTN/293852aa-99d0-4025-9b14-f9a062b19e9a-Brian-O-Halloran-Press-Photo.jpg?crop=1499,1124,x1,y32",
+        "imdb": "https://www.imdb.com/name/nm0641055/"
+      }, {
+        "name": "Jeff Anderson",
+        "image": "https://cdn1.sixthman.net/2024/jsb/images/artists/jeff_anderson_2024-1500x1000_113454.png",
+        "imdb": "https://www.imdb.com/name/nm0026965/"
+      }, {
+        "name": "Marilyn Ghigliotti",
+        "image": "https://i.ebayimg.com/images/g/vKEAAOSwPGlisloG/s-l1600.jpg",
+        "imdb": "https://www.imdb.com/name/nm0316804/"
+      }]
+    }
     
     
     
