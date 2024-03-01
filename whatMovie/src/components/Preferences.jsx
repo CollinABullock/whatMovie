@@ -147,6 +147,8 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
   };
   
 // Sort directors alphabetically by last name
+const directorSet = new Set();
+
 const sortedDirectors = data
   // Filter out movies without directors
   .filter(movie => movie.director && movie.director.length > 0)
@@ -156,9 +158,19 @@ const sortedDirectors = data
     const lastNameA = a.name.split(' ').pop(); // Get last name of director A
     const lastNameB = b.name.split(' ').pop(); // Get last name of director B
     return lastNameA.localeCompare(lastNameB); // Compare last names
+  })
+  // Filter out duplicate director names
+  .filter(director => {
+    if (!directorSet.has(director.name)) {
+      directorSet.add(director.name);
+      return true;
+    }
+    return false;
   });
 
-  console.log("sorted directors:", sortedDirectors);
+
+ console.log("filtered directors", filteredDirectors);
+ console.log("director search", directorSearch);
 
 return (
   <div style={{ width: '100%', padding: '0 10px' }}>
@@ -298,53 +310,53 @@ return (
         />
         </div>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '60px', maxWidth: "80%", margin: "0 auto" }}>
-          {!directorSearch ? (
+        {(!directorSearch || filteredDirectors.length === 0) ? (
             // Check if directors array is not empty before rendering
             sortedDirectors.map(director => (
-              director.name && director.length > 0 && movie.director.map(director => (
-                <div
-                  className='filtered-director-item'
-                  onClick={() => handleDirectorClick(director.name)}
-                  key={director.name}
-                  style={{ textAlign: 'center' }}
-                >
-                  <div style={{ position: 'relative', display: 'inline-block', maxWidth: "100%" }}>
-                    {/* Image rendering */}
-                    {director.image && (
-                      <React.Fragment>
-                        <img
-                          className='filtered-director-img'
-                          src={director.image}
-                          alt={director.name}
-                          style={{ width: '200px', height: '150px', objectFit: "cover", marginBottom: '10px' }}
-                        />
-                        {/* Conditional rendering for the checkmark */}
-                        {preferredDirectors.includes(director.name) && (
-                          <div style={{
-                            position: 'absolute',
-                            top: '-10px',
-                            right: '-10px',
-                            backgroundColor: 'green',
-                            borderRadius: '50%',
-                            padding: '3px',
-                            zIndex: '1'
-                          }}>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16">
-                              <path fill="#FFFFFF" d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
-                            </svg>
-                          </div>
-                        )}
-                      </React.Fragment>
-                    )}
-                    {/* Display director's name */}
-                    <p style={{ margin: '0', color: preferredDirectors.includes(director.name) ? 'green' : 'gray' }}>{director.name}</p>
-                  </div>
+              <div
+                className='filtered-director-item'
+                onClick={() => handleDirectorClick(director.name)}
+                key={director.name}
+                style={{ textAlign: 'center' }}
+              >
+                <div style={{ position: 'relative', display: 'inline-block', maxWidth: "100%" }}>
+                  {/* Image rendering */}
+                  {director.image && (
+                    <React.Fragment>
+                      <img
+                        className='filtered-director-img'
+                        src={director.image}
+                        alt={director.name}
+                        style={{ width: '200px', height: '150px', objectFit: "cover", marginBottom: '10px' }}
+                      />
+                      {/* Conditional rendering for the checkmark */}
+                      {preferredDirectors.includes(director.name) && (
+                        <div style={{
+                          position: 'absolute',
+                          top: '-10px',
+                          right: '-10px',
+                          backgroundColor: 'green',
+                          borderRadius: '50%',
+                          padding: '3px',
+                          zIndex: '1'
+                        }}>
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16">
+                            <path fill="#FFFFFF" d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                          </svg>
+                        </div>
+                      )}
+                    </React.Fragment>
+                  )}
+                  {/* Display director's name */}
+                  <p style={{ margin: '0', color: preferredDirectors.includes(director.name) ? 'green' : 'gray' }}>{director.name}</p>
                 </div>
-              ))
+              </div>
             ))
+            
           ) : (
             // Render filtered directors based on search query
             filteredDirectors.map(director => (
+              
               <div
                 className='filtered-director-item'
                 onClick={() => handleDirectorClick(director.name)}
@@ -405,7 +417,8 @@ return (
     Reset Preferences
   </Button>
 </div>
-      </div>)
-  
+      </div>);
+
+   
 
 }
