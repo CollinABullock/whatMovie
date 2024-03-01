@@ -5825,7 +5825,7 @@ const moviesArray = [
   "runtime": 113,
   "mpaa": "R",
   "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/f9ccbc2b-fde5-48a6-9853-fa815b857f16/b6c083488a67b7cab0448c549e7bdfbfbde14628.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
-  "description": "In 'High Life', a group of convicts are sent on a dangerous space mission to explore a black hole. As they navigate the perils of space and isolation, they become subjects of a series of strange experiments conducted by the ship's enigmatic doctor. Tensions rise as they confront their pasts and struggle to survive in the unforgiving depths of space.",
+  "description": "A group of convicts are sent on a dangerous space mission to explore a black hole. As they navigate the perils of space and isolation, they become subjects of a series of strange experiments conducted by the ship's enigmatic doctor.",
   "genre": ["science-fiction", "drama", "thriller"],
   "link": "https://play.max.com/video/watch/d12aee58-edd6-4311-aa6e-524eebf2b24d/3a6fe820-1a51-4c69-becd-a0d52d2e7d92",
   "director": [{
@@ -6282,7 +6282,7 @@ const moviesArray = [
   "runtime": 91,
   "mpaa": "R",
   "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/09c22a60-e42a-4131-b6eb-59841e38a02d/a3ddfe52b93fcc6edcdcc5f7202f0d253d1b909c.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
-  "description": "In 'Semi-Pro', Jackie Moon, the owner-coach-player of the American Basketball Association's Flint Tropics, dreams of leading his team to glory and securing a spot in the NBA. Facing financial struggles and low attendance, Jackie concocts various gimmicks to boost interest in the team, including wrestling bears and offering outlandish promotions. As the Tropics make a final push for success, Jackie must confront his own limitations and priorities.",
+  "description": "Jackie Moon, the owner-coach-player of the American Basketball Association's Flint Tropics, dreams of leading his team to glory and securing a spot in the NBA. Facing financial struggles and low attendance, Jackie concocts various gimmicks to boost interest in the team, including wrestling bears and offering outlandish promotions. As the Tropics make a final push for success, Jackie must confront his own limitations and priorities.",
   "genre": ["comedy", "sports"],
   "link": "https://play.max.com/movie/09c22a60-e42a-4131-b6eb-59841e38a02d",
   "director": [{
@@ -7267,7 +7267,37 @@ const moviesArray = [
         "image": "https://ew.com/thmb/bbpeT-u7BO2qVG43YbrTdg9arNo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/meg-fp-0002-2000-7ed63879f64c475b821774b972f82ae5.jpg",
         "imdb": "https://www.imdb.com/name/nm0005458/?ref_=nv_sr_srsg_0_tt_3_nm_5_q_jason%2520stath"
       }]
+    },
+
+    {
+      "item": 237,
+      "title": "Lucky Number Slevin",
+      "runtime": 110,
+      "mpaa": "R",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/95a7e069f6c1860b085ab744594ea8b3b9b18dc80a7bea8a90c9b1f856ca594b.jpg",
+      "description": "A case of mistaken identity lands Slevin into the middle of a war being plotted by two of the city's most rival crime bosses: The Rabbi and The Boss. Slevin is under constant surveillance by relentless Detective Brikowski as well as the infamous assassin Goodkat and finds himself having to hatch his own ingenious plot to get them before they get him.",
+      "genre": ["crime", "drama", "mystery", "thriller"],
+      "link": "https://www.amazon.com/gp/video/detail/B0BRNQDPP4/ref=atv_ge_aga_1_c_hUhMb1_brws_1_7?jic=8%7CEgRzdm9k",
+      "director": [{
+        "name": "Paul McGuigan",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjMxNjQ3Njk5OV5BMl5BanBnXkFtZTgwOTgzODI0MzI@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0570084/"
+      }],
+      "actors": [{
+        "name": "Josh Hartnett",
+        "image": "https://media.cnn.com/api/v1/images/stellar/prod/230720133007-josh-hartnett-july-13.jpg?c=16x9&q=h_833,w_1480,c_fill",
+        "imdb": "https://www.imdb.com/name/nm0001326/"
+      }, {
+        "name": "Bruce Willis",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTLg_SIgxsuQOn9hifx7kAH4YJK4Mdl3ulS-5nzfMDHjDIwxgNb",
+      "imdb": "https://www.imdb.com/name/nm0000246/",
+      }, {
+        "name": "Lucy Liu",
+        "image": "https://media.vanityfair.com/photos/64149a1ceb68a24cc7524b69/16:9/w_5648,h_3177,c_limit/1410518984",
+        "imdb": "https://www.imdb.com/name/nm0005154/"
+      }]
     }
+    
     
     
     
