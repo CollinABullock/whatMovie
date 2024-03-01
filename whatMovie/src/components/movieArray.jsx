@@ -6400,7 +6400,7 @@ const moviesArray = [
       "runtime": 115,
       "mpaa": "R",
       "poster": "https://m.media-amazon.com/images/S/pv-target-images/00d2f3933bd966441826b745505e8efbba464d37ffd54585c2bb0b2da3b005e7.jpg",
-      "description": "In 'Kiss the Girls', forensic psychologist Alex Cross is drawn into a deadly game of cat and mouse with a serial kidnapper and murderer known as 'Casanova'. When Alex's niece becomes one of Casanova's victims, he teams up with detective Kate McTiernan, who survived an earlier encounter with the killer, to track him down. As they race against time to rescue the victims and stop Casanova's reign of terror, they uncover shocking secrets that lead them closer to the truth.",
+      "description": "Forensic psychologist Alex Cross is drawn into a deadly game of cat and mouse with a serial kidnapper killer known as 'Casanova'. When Alex's niece becomes one of Casanova's victims, he teams up with detective Kate McTiernan, who survived an earlier encounter with the killer, to track him down.",
       "genre": ["crime", "drama", "mystery"],
       "link": "https://www.amazon.com/gp/video/detail/B0CP3R36ZG/ref=atv_dp_amz_c_TS5124c5_1_1?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
       "director": [{
