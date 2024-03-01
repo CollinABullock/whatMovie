@@ -7874,6 +7874,34 @@ const moviesArray = [
       }]
     },
     
+    {
+      "item": 258,
+      "title": "Licorice Pizza",
+      "runtime": 133,
+      "mpaa": "R",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/7dfe30cda248888efb7a89c495fb129913ecf9515b841c0ba80ec45eaaea1e8d.jpg",
+      "description": "The story of Alana Kane and Gary Valentine growing up, running around and falling in love in the San Fernando Valley in 1973.",
+      "genre": ["comedy", "drama", "romance"],
+      "link": "https://www.amazon.com/gp/video/detail/B09SNXZ2D5/ref=atv_dp_amz_c_TS5124c5_1_1?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Paul Thomas Anderson",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTU2MzgwNDctZGEwMS00MzAwLWI0YWItNzc2NWIwNmZiZmRkXkEyXkFqcGdeQW1pYnJ5YW50._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0000759/"
+      }],
+      "actors": [{
+        "name": "Cooper Hoffman",
+        "image": "https://storage.googleapis.com/afs-prod/media/bc4f2164a7b94d1bb1400f3abdda8d58/3000.jpeg",
+        "imdb": "https://www.imdb.com/name/nm10644078/"
+      }, {
+        "name": "Alana Haim",
+        "image": "https://static.independent.co.uk/2024/01/31/22/alana-haim.jpg",
+        "imdb": "https://www.imdb.com/name/nm10644079/"
+      }, {
+        "name": "Bradley Cooper",
+      "image": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcTWMU-hTEfE9uijYMdXLmGszgxLyiWtA_lBOaTUq82IDM__vhe-JaCEK8Cx_OKdoXKZ8YCGL8Mf2PR6-7Q",
+      "imdb": "https://www.imdb.com/name/nm0177896/bio/"
+      }]
+    }
     
     
     
