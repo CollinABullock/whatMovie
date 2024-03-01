@@ -5713,7 +5713,7 @@ const moviesArray = [
   "runtime": 108,
   "mpaa": "R",
   "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/837c49a2-a8de-4621-b9f3-7eb412986ead/6f7ab12fabcfb58eb487c0f8d3a9479e0a22b38c.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
-  "description": "Caleb Smith, a young programmer, wins a competition to spend a week at the secluded estate of Nathan Bateman, the CEO of the company he works for. Upon arrival, Caleb discovers that he has been selected to participate in an experiment involving Ava, a highly advanced artificial intelligence. As Caleb delves deeper into the experiment, he begins to question Ava's true nature and the intentions of her creator.",
+  "description": "Caleb Smith, a young programmer, wins a competition to spend a week at the secluded estate of Nathan Bateman, the CEO of the company he works for. Upon arrival, Caleb discovers that he has been selected to participate in an experiment involving Ava, a highly advanced artificial intelligence.",
   "genre": ["drama", "science-fiction"],
   "link": "https://play.max.com/video/watch/d1e24a98-0c6d-40c7-b7df-294c3ddbd88e/8f802386-0438-4beb-a25c-40653662267a",
   "director": [{
@@ -5796,7 +5796,7 @@ const moviesArray = [
   "runtime": 107,
   "mpaa": "PG-13",
   "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/dad979fb-c4c6-4cc5-9a03-7f85717d5d8f/0e3d0bf50115abec23234a0e0dc31d88acf6edc7.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
-  "description": "In 'Click', Michael Newman, a workaholic architect, acquires a magical universal remote control that allows him to manipulate time and reality. Initially using it to skip through mundane parts of his life, Michael soon realizes that the remote controls more than just his surroundings. As he struggles to balance his personal and professional life, he learns valuable lessons about the importance of cherishing every moment.",
+  "description": "Michael Newman, a workaholic architect, acquires a remote control that allows him to manipulate reality. Initially using it to skip through mundane parts of his life, Michael soon realizes that the remote controls more than just his surroundings. As he struggles to balance his personal and professional life, he learns valuable lessons about the importance of cherishing every moment.",
   "genre": ["comedy", "drama", "fantasy"],
   "link": "https://play.max.com/video/watch/4a0c44b9-792c-4709-8857-d389e7088797/fad89e2d-92c7-4fb2-9f01-8d9c2cd40398",
   "director": [{
@@ -5904,7 +5904,7 @@ const moviesArray = [
   "runtime": 100,
   "mpaa": "R",
   "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/ca436060-3cad-4a91-bbd8-bf68a20acf95/64aa3220d5bfba873cb3bb25c23beb53d153603b.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
-  "description": "In 'Eastern Promises', a British midwife, Anna Khitrova, becomes entangled in the dangerous world of the Russian mafia after delivering the baby of a young teenager who dies in childbirth. As Anna delves deeper into the girl's past, she forms an unlikely alliance with a mysterious and ruthless member of the Russian mob, uncovering secrets that put her life in jeopardy.",
+  "description": "Anna, a British midwife, becomes entangled in the dangerous world of the Russian mafia after delivering the baby of a young teenager who dies in childbirth. As Anna delves deeper into the girl's past, she forms an unlikely alliance with a mysterious and ruthless member of the Russian mob, uncovering dark secrets.",
   "genre": ["crime", "drama", "thriller"],
   "link": "https://play.max.com/video/watch/cdada3cc-ba06-43c4-be32-f5cdb4a8b486/60b3463a-6622-40cb-84f7-797343f94ba5",
   "director": [{
@@ -5991,7 +5991,7 @@ const moviesArray = [
   "runtime": 104,
   "mpaa": "PG-13",
   "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/283535b8-42d8-4e65-8034-cfb21dcbfb93/bbcaebc9494c9481b4c8a04c372cd4efdbcf01b9.jpg?submitted=1684655380202&host=wbd-images.prod-vod.h264.io&partner=beamcom",
-  "description": "In 'Robin Hood: Men in Tights', a comedic spoof of the classic Robin Hood tale, Robin of Loxley returns from the Crusades to find his homeland under the tyrannical rule of the Sheriff of Rottingham. With the help of his band of merry men, including Little John, Blinkin, and Will Scarlet, Robin sets out to thwart the Sheriff's plans and restore peace to the kingdom.",
+  "description": "Robin of Loxley returns from the Crusades to find his homeland under the tyrannical rule of the Sheriff of Rottingham. With the help of his band of merry men, including Little John, Blinkin, and Will Scarlet, Robin sets out to thwart the Sheriff's plans and restore peace to the kingdom.",
   "genre": ["comedy"],
   "link": "https://play.max.com/video/watch/05ca6f71-a1bb-4985-b4f5-8d36e718af08/40f1e5d1-02eb-43b9-bacd-bf271eadbe22",
   "director": [{
@@ -6195,7 +6195,7 @@ const moviesArray = [
   "runtime": 127,
   "mpaa": "PG-13",
   "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/523ee217-18b6-455e-85c0-064b1be00640/a0280971dfc72c64aa3549715495909019c9010e.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
-  "description": "In 'Ghost', after Sam Wheat is murdered during a mugging, he becomes a ghost trapped between the world of the living and the afterlife. Desperate to protect his girlfriend Molly Jensen from danger, Sam seeks the help of a reluctant psychic, Oda Mae Brown, to communicate with her. As Sam uncovers the truth behind his death, he must navigate the spiritual realm to ensure justice is served and love transcends even death.",
+  "description": "After Sam Wheat is murdered during a mugging, he becomes a ghost trapped between the world of the living and the afterlife. Desperate to protect his girlfriend Molly Jensen from danger, Sam seeks the help of a reluctant psychic, Oda Mae Brown, to communicate with her.",
   "genre": ["drama", "fantasy", "romance"],
   "link": "https://play.max.com/movie/523ee217-18b6-455e-85c0-064b1be00640",
   "director": [{
@@ -6342,7 +6342,7 @@ const moviesArray = [
       "runtime": 119,
       "mpaa": "R",
       "poster": "https://m.media-amazon.com/images/S/pv-target-images/e3346a7c90732f6da18ff0bc04da81ac2ad2929188b37fbc81c8b714ad236bda.jpg",
-      "description": "In 'In the Cut', Frannie Avery, a New York City writing professor, becomes entangled in a dangerous affair with a homicide detective investigating a series of brutal murders in her neighborhood. As their relationship intensifies, Frannie finds herself drawn deeper into the investigation, risking her own safety and sanity to uncover the truth behind the killings. Tensions rise as the lines between desire and danger blur, leading to a shocking climax.",
+      "description": "Frannie Avery, a New York City writing professor, becomes entangled in a dangerous affair with a homicide detective investigating a series of brutal murders in her neighborhood. As their relationship intensifies, Frannie finds herself drawn deeper into the investigation, risking her own safety and sanity to uncover the truth behind the killings.",
       "genre": ["mystery", "thriller"],
       "link": "https://www.amazon.com/gp/video/detail/B0B5N4YVVG/ref=atv_me_inc_c_5crrHZ_brws_2_3?jic=8%7CEgRzdm9k",
       "director": [{
@@ -6679,7 +6679,7 @@ const moviesArray = [
       "runtime": 142,
       "mpaa": "PG-13",
       "poster": "https://m.media-amazon.com/images/S/pv-target-images/639bed0b369bc66a6d32450f296f3514c47aac9607add81df5155160131569cb._UR1920,1080_SX720_FMjpg_.jpg",
-      "description": "Forrest Gump is a heartwarming tale that follows the life of Forrest Gump, a kind-hearted but intellectually challenged man, as he navigates through significant historical events in the United States from the 1950s to the 1980s. Despite facing numerous challenges and setbacks, Forrest's optimism and perseverance lead him to extraordinary achievements. Along the way, he becomes a football star, a war hero, a successful businessman, and even a ping-pong champion. Through his encounters with iconic figures and his unwavering love for his childhood friend Jenny, Forrest teaches us about the power of love, friendship, and the human spirit.",
+      "description": "Tom Hanks gives an astonishing performance as Forrest, an everyman whose simple innocence comes to embody a generation.",
       "genre": ["drama", "romance", "classic"],
       "link": "https://www.amazon.com/gp/video/detail/B00BQPIULY/ref=atv_dp_amz_c_TS5124c5_1_12?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
       "director": [{
@@ -7437,24 +7437,94 @@ const moviesArray = [
         "image": "https://facts.net/wp-content/uploads/2023/07/41-facts-about-guy-pearce-1689510791.jpg",
         "imdb": "https://www.imdb.com/name/nm0001602/"
       }]
-    }
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    },
 
-
+    {
+      "item": 243,
+      "title": "Kill Chain",
+      "runtime": 91,
+      "mpaa": "R",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/c82d0b5435e714b410f1b8047a238792a3ce51f278de901280ba15ccba87d546.png",
+      "description": "In the movie Kill Chain, a hotel room shootout between two assassins draws a third into the action. Soon, the gunman's employer and his wife also become involved.",
+      "genre": ["action", "thriller"],
+      "link": "https://www.amazon.com/gp/video/detail/B098BQW128/ref=atv_dp_amz_c_TS5124c5_1_2?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Ken Sanzel",
+        "image": "https://i0.wp.com/www.actionreloaded.com/wp-content/uploads/2021/04/Ken_Sanzel_Photo_50-scaled.jpg?fit=2560%2C1440&ssl=1",
+        "imdb": "https://www.imdb.com/name/nm0763818/"
+      }],
+      "actors": [{
+        "name": "Nicolas Cage",
+        "image": "https://variety.com/wp-content/uploads/2023/03/Nicolas-Cage-Variety-Award-092.jpg?w=1000&h=563&crop=1",
+        "imdb": "https://www.imdb.com/name/nm0000115/"
+      }, {
+        "name": "Anabelle Acosta",
+        "image": "https://variety.com/wp-content/uploads/2017/10/anabelle-acosta.jpg",
+        "imdb": "https://www.imdb.com/name/nm3729684/"
+      }, {
+        "name": "Ryan Kwanten",
+        "image": "https://m.media-amazon.com/images/M/MV5BZjk5MTkzNjctYzhmYi00YjliLTljMDYtY2I0YmY0OTI4NDNjXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm1213163/"
+      }]
+    },
     
-    
+    {
+      "item": 244,
+      "title": "211",
+      "runtime": 86,
+      "mpaa": "R",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/128f0b36cbac315e29a92c697a2f3b7810ab743ae04c9623cccc040dcf1cec08.jpg",
+      "description": "In the film 211, a group of heavily armed men storm a bank in Providence, Rhode Island. With hostages' lives on the line, a veteran police officer and his inexperienced partner must navigate a dangerous situation to bring the perpetrators to justice.",
+      "genre": ["action", "drama", "crime"],
+      "link": "https://www.amazon.com/gp/video/detail/B0B8ML8VRB/ref=atv_dp_amz_c_TS5124c5_1_3?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "York Shackleton",
+        "image": "https://pop-culturalist.com/wp-content/uploads/2020/01/york-shackleton-disturbing-the-peace-pop-culturalist-1280x720.jpg",
+        "imdb": "https://www.imdb.com/name/nm0788755/"
+      }],
+      "actors": [{
+        "name": "Nicolas Cage",
+        "image": "https://variety.com/wp-content/uploads/2023/03/Nicolas-Cage-Variety-Award-092.jpg?w=1000&h=563&crop=1",
+        "imdb": "https://www.imdb.com/name/nm0000115/"
+      }, {
+        "name": "Sophie Skelton",
+        "image": "https://m.media-amazon.com/images/M/MV5BMmEwM2JjMWQtZDQxOS00YmIxLWEzYzgtYjQ0MjQzOGJmZjcyXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm4903373/"
+      }, {
+        "name": "Michael Rainey Jr.",
+        "image": "https://360baseline.org/wp-content/uploads/2023/02/Michael-Rainey-Jr-1.webp",
+        "imdb": "https://www.imdb.com/name/nm2112204/"
+      }]
+    },
 
-
-
-
+    {
+      "item": 245,
+      "title": "Stolen",
+      "runtime": 96,
+      "mpaa": "R",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/1cb7ec29843355d1e8cfd3a78e0b91e1c1b2e06582d6242a2a79a17fcae24e20.jpg",
+      "description": "A former thief, Will Montgomery, finds himself forced to return to his criminal ways when his daughter is kidnapped by his former partner. With time running out, Montgomery must pull off one last heist to save her before it's too late.",
+      "genre": ["action", "crime", "thriller"],
+      "link": "https://www.amazon.com/gp/video/detail/B07FCVYLRG/ref=atv_dp_amz_c_TS5124c5_1_11?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Simon West",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjE2NjA2Njg4OV5BMl5BanBnXkFtZTcwMTcyNTEwOQ@@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0921082/"
+      }],
+      "actors": [{
+        "name": "Nicolas Cage",
+        "image": "https://variety.com/wp-content/uploads/2023/03/Nicolas-Cage-Variety-Award-092.jpg?w=1000&h=563&crop=1",
+        "imdb": "https://www.imdb.com/name/nm0000115/"
+      }, {
+        "name": "Malin Akerman",
+    "image": "https://www.hollywoodreporter.com/wp-content/uploads/2019/02/malin_akerman-getty-h_2019.jpg?w=1296",
+    "imdb": "https://www.imdb.com/name/nm0015194/"
+      }, {
+        "name": "Josh Lucas",
+        "image": "https://pagesix.com/wp-content/uploads/sites/3/2021/04/josh-lucas-rachel-mortenson-01.jpg?quality=75&strip=all&w=1024",
+        "imdb": "https://www.imdb.com/name/nm0524197/"
+      }]
+    },
     
     
   ]
