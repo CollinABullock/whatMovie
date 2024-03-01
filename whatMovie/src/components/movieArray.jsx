@@ -8075,7 +8075,67 @@ const moviesArray = [
         "image": "https://i.ebayimg.com/images/g/vKEAAOSwPGlisloG/s-l1600.jpg",
         "imdb": "https://www.imdb.com/name/nm0316804/"
       }]
+    },
+
+    {
+      "item": 265,
+      "title": "Jay and Silent Bob Strike Back",
+      "runtime": 104,
+      "mpaa": "R",
+      "poster": "https://lh3.googleusercontent.com/KEU7rJrWR0CiD_1T5zkDbns4wm4UY_86RTcIZlay7PbDM-bjeksr9gh0vpR3UGsd5ljt1Z7at4M=w1280-h720",
+      "description": "In 'Jay and Silent Bob Strike Back', the titular duo set out on a cross-country mission to sabotage a film adaptation of a comic book based on their lives, encountering various characters and absurd situations along the way.",
+      "genre": ["comedy"],
+      "link": "https://www.amazon.com/gp/video/detail/B0CN2GZN8H/ref=atv_dp_amz_c_TS5124c5_1_1?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Kevin Smith",
+        "image": "https://content.fortune.com/wp-content/uploads/2019/10/Kevin-Smith-.jpg",
+        "imdb": "https://www.imdb.com/name/nm0003620/"
+      }],
+      "actors": [{
+        "name": "Jason Mewes",
+        "image": "https://ew.com/thmb/hhNZr175wWnEi-KUPJJp38wkc1U=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Kevin-Smith-Jason-Mewes-029d8d502d8e4b8fa02418612ae5be31.jpg",
+        "imdb": "https://www.imdb.com/name/nm0583600/"
+      }, {
+        "name": "Kevin Smith",
+        "image": "https://content.fortune.com/wp-content/uploads/2019/10/Kevin-Smith-.jpg",
+        "imdb": "https://www.imdb.com/name/nm0003620/"
+      }, {
+        "name": "Will Ferrell",
+      "image": "https://ca-times.brightspotcdn.com/dims4/default/076a75b/2147483647/strip/false/crop/3500x1969+0+176/resize/1200x675!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F35%2F0c%2F568646e5482e8f5ce52d1d84b1cd%2Fny-premiere-of-apple-tvs-the-shrink-next-door-90227.jpg",
+      "imdb": "https://www.imdb.com/name/nm0002071/?ref_=nv_sr_srsg_0_tt_6_nm_2_q_will%2520ferrell",
+      }]
+    },
+
+    {
+      "item": 266,
+      "title": "The Boondock Saints",
+      "runtime": 108,
+      "mpaa": "R",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/959dcc0fbd778377efe8a50620565e17ae1248a42f0eda74713cac9e4b8bcdbe.jpg",
+      "description": "Twin brothers, Connor and Murphy MacManus, become vigilantes after killing two members of the Russian Mafia in self-defense. As they embark on a mission to rid Boston of crime lords, they gain both local fame and the attention of an eccentric FBI agent.",
+      "genre": ["action", "crime", "thriller"],
+      "link": "https://www.amazon.com/gp/video/detail/B01LWPP9Q2/ref=atv_dp_amz_c_TS5124c5_1_11?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Troy Duffy",
+        "image": "https://variety.com/wp-content/uploads/2017/06/troy-duffy.jpg?w=1000",
+        "imdb": "https://www.imdb.com/name/nm0241141/"
+      }],
+      "actors": [{
+        "name": "Willem Dafoe",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe6Hvi13NmYEbgnHS11IP2mKe4HRmNgSSJrtasMlAp4dtozy1y",
+      "imdb": "https://www.imdb.com/name/nm0000353/"
+      }, {
+        "name": "Sean Patrick Flanery",
+        "image": "https://m.media-amazon.com/images/M/MV5BZDZlY2VmM2YtOTk3My00OGU1LWI5YmItOGQyMzA4YmMwZDY4XkEyXkFqcGdeQVRoaXJkUGFydHlJbmdlc3Rpb25Xb3JrZmxvdw@@._V1_QL75_UX500_CR0,0,500,281_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0001226/"
+      }, {
+        "name": "Norman Reedus",
+        "image": "https://people.com/thmb/rFCNf7SGrOssvvonOL2T2dnwmtg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(674x359:676x361)/norman-reedus-7d50a766cdc346138e42671ed7888d7c.jpg",
+        "imdb": "https://www.imdb.com/name/nm0005342/"
+      }]
     }
+    
+    
     
     
     
