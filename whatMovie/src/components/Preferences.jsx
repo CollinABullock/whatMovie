@@ -187,6 +187,126 @@ const sortedDirectors = data
 
 // Inside the component
 return (
+  <div style={{ width: '100%', padding: '0 10px' }}>
+  {/* Collapsible streaming services section */}
+  <div style={{ marginBottom: '30px', width: "100%", border: '1px solid #ccc', padding: '15px' }}>
+  <div style={{ display: 'flex', alignItems: 'center', cursor: 'pointer', marginBottom: '10px' }} onClick={() => setStreamingServicesOpen(!isStreamingServicesOpen)}>
+<h4 style={{ marginRight: '5px' }}>What streaming services are you currently paying for and/or stealing?</h4>
+{isStreamingServicesOpen ? <BsChevronUp style={{"boxShadow": "5px 5px 5px green", "margin": "10px"}}/> : <BsChevronDown style={{"boxShadow": "5px 5px 5px gred", "margin": "10px"}} />} {/* Display the arrow icon based on the state */}
+</div>
+
+  {isStreamingServicesOpen && (
+    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '10px' }}>
+      {streamingServices.map(service => (
+        <div style={{ position: 'relative', display: 'inline-block' }} key={service.name}>
+          {/* Streaming service items */}
+          <img
+            className='streaming-service-img'
+            src={service.logo}
+            alt={service.name}
+            style={{
+              width: '100%',
+              maxWidth: '220px',
+              height: '100px',
+              objectFit: "cover",
+              cursor: "pointer",
+              filter: selectedService.includes(service.name) ? "none" : "sepia(100%) hue-rotate(90deg)"
+            }}
+            onClick={() => handleServiceClick(service.name)}
+          />
+          {selectedService.includes(service.name) && (
+            <div style={{
+              position: 'absolute',
+              top: '5px',
+              right: '5px',
+              backgroundColor: 'green',
+              borderRadius: '50%',
+              padding: '3px',
+              zIndex: '1'
+            }}>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16">
+                <path fill="#FFFFFF" d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+              </svg>
+            </div>
+          )}
+        </div>
+      ))}
+    </div>
+  )}
+</div>
+
+<div style={{ marginBottom: '30px', border: '1px solid #ccc', padding: '15px' }}>
+  <div
+    style={{ display: 'flex', alignItems: 'center', cursor: 'pointer', marginBottom: '10px' }}
+    onClick={() => setIsRuntimeOpen(!isRuntimeOpen)}
+  >
+    <h4 style={{ marginRight: '5px' }}>What's the longest movie you're down to watch?</h4>
+    {isRuntimeOpen ? <BsChevronUp style={{ boxShadow: '5px 5px 5px green', margin: '10px' }} /> : <BsChevronDown style={{ boxShadow: '5px 5px 5px gred', margin: '10px' }} />}
+    {/* Display the arrow icon based on the state */}
+  </div>
+  {isRuntimeOpen && (
+    <div>
+      <p>{runtime} minutes</p>
+      <input
+        type="range"
+        id="runtimeSlider"
+        name="runtime"
+        min="90"
+        max="240"
+        step="15"
+        value={runtime}
+        onChange={handleSliderChange}
+      />
+    </div>
+  )}
+</div>
+
+<div style={{ marginBottom: '30px', border: '1px solid #ccc', padding: '15px' }}>
+<div
+    style={{ display: 'flex', alignItems: 'center', cursor: 'pointer', marginBottom: '10px' }}
+    onClick={() => setIsPreferredGenresOpen(!isPreferredGenresOpen)}
+  >
+  <h4>What kind of movie <span style={{ color: 'red', fontSize: '1.2em', textDecoration: 'underline' }}>DO</span> you want to see?</h4>
+  {isPreferredGenresOpen ? <BsChevronUp style={{ boxShadow: '5px 5px 5px green', margin: '10px' }} /> : <BsChevronDown style={{ boxShadow: '5px 5px 5px gred', margin: '10px' }} />}
+  </div>
+  {isPreferredGenresOpen && (
+  <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '10px' }}>
+    {uniqueGenres.map(genre => (
+      <label key={genre} style={{ display: 'flex', alignItems: 'center' }}>
+        <input
+          type="checkbox"
+          value={genre}
+          checked={preferredGenres.includes(genre)}
+          onChange={handlePreferredCheckboxChange}
+        />
+        {genre}
+      </label>
+    ))}
+  </div>
+  )}
+</div>
+
+<div style={{ marginBottom: '30px', border: '1px solid #ccc', padding: '15px' }}>
+<div style={{ display: 'flex', alignItems: 'center', cursor: 'pointer', marginBottom: '10px' }} onClick={() => setIsSelectedGenresOpen(!isSelectedGenresOpen)}>
+  <h4>What kind of movie <span style={{ color: 'red', fontSize: '1.2em', textDecoration: 'underline' }}>DON'T</span> you want to see?</h4>
+  {isSelectedGenresOpen ? <BsChevronUp style={{"boxShadow": "5px 5px 5px green", "margin": "10px"}}/> : <BsChevronDown style={{"boxShadow": "5px 5px 5px gred", "margin": "10px"}} />} {/* Display the arrow icon based on the state */}
+  </div>
+  {isSelectedGenresOpen && (
+  <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '10px' }}>
+    {uniqueGenres.filter(genre => !preferredGenres.includes(genre)).map(genre => (
+      <label key={genre} style={{ display: 'flex', alignItems: 'center' }}>
+        <input
+          type="checkbox"
+          value={genre}
+          checked={selectedGenres.includes(genre)}
+          onChange={handleCheckboxChange}
+        />
+        {genre}
+      </label>
+    ))}
+  </div>
+  )}
+</div>
   <div style={{ marginBottom: '30px', border: '1px solid #ccc', padding: '15px' }}>
     <div style={{ display: 'flex', alignItems: 'center', cursor: 'pointer', marginBottom: '10px' }} onClick={() => setIsDirectorOpen(!isDirectorOpen)}>
       <h4>Any directors you're fond of?</h4>
@@ -294,17 +414,21 @@ return (
     )}
     <div style={{ padding: "15px", marginBottom: "30px"}}>
       <div style={{ display: 'flex', justifyContent: 'center'}}>
-        <Button onClick={() => {
+  
+      </div>
+      
+    </div>
+    
+      </div>
+      <Button onClick={() => {
           setSelectedGenres([]);
           setPreferredGenres([]);
           setRuntime(240);
           setSelectedService([]);
           setPreferredDirectors([]);
           window.alert("Preferences have been reset.  Happy viewing!")
-        }} style={{ marginLeft: '10px', fontSize: "2em", backgroundColor: "red" }}>Reset Preferences</Button>
-      </div>
-    </div>
-  </div>
-);
+        }} style={{ margin: "20px", fontSize: "2em", backgroundColor: "red" }}>Reset Preferences</Button>
+      </div>)
+  
 
 }
