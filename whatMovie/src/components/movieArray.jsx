@@ -7526,6 +7526,155 @@ const moviesArray = [
       }]
     },
     
+    {
+      "item": 246,
+      "title": "The Cable Guy",
+      "runtime": 96,
+      "mpaa": "PG-13",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p18112_v_h9_ap.jpg",
+      "description": "A lonely and disturbed cable guy raised on television just wants a new friend, but his target, a designer, rejects him, with bad consequences.",
+      "genre": ["comedy", "drama", "thriller"],
+      "link": "https://www.amazon.com/gp/video/detail/B0B648BCGK/ref=atv_dp_amz_c_TS5124c5_1_6?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Ben Stiller",
+        "image": "https://www.indiewire.com/wp-content/uploads/2022/08/Ben-Stiller.jpg",
+        "imdb": "https://www.imdb.com/name/nm0001774/?ref_=tt_ov_st",
+      }],
+      "actors": [{
+        "name": "Jim Carrey",
+      "image": "https://cdn.britannica.com/84/200584-050-7EC3F3F6/Jim-Carrey-2012.jpg?w=400&h=300&c=crop",
+      "imdb": "https://www.imdb.com/name/nm0000120/",
+      }, {
+        "name": "Matthew Broderick",
+        "image": "https://m.media-amazon.com/images/M/MV5BZDg5NGM3YTMtYjNjZS00MmQyLTk1YjItN2Y5YTkwOThmOGU0XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0000111/"
+      }, {
+        "name": "Leslie Mann",
+        "image": "https://parade.com/.image/t_share/MTkwNTgwODMzNDgzMjM2NDc3/leslie-mann-ftr.jpg",
+        "imdb": "https://www.imdb.com/name/nm0005182/",
+      }]
+    },
+
+    {
+      "item": 247,
+      "title": "Blades of Glory",
+      "runtime": 93,
+      "mpaa": "PG-13",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/e60627e0080707b1c3a63aff289fb4993177bd526c89d94cd770776816f6826c._UR1920,1080_.jpg",
+      "description": "In 2002, two rival Olympic ice skaters were stripped of their gold medals and permanently banned from men's single competition. Presently, however, they've found a loophole that will allow them to qualify as a pairs team.",
+      "genre": ["comedy", "sport"],
+      "link": "https://www.amazon.com/gp/video/detail/B00C3MTMSO/ref=atv_dp_amz_c_TS5124c5_1_2?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Josh Gordon & Will Speck",
+        "image": "https://deadline.com/wp-content/uploads/2023/03/JOSH-GORDON-AND-WILL-SPECK.jpg",
+        "imdb": "https://www.imdb.com/name/nm1166013/"
+      }],
+      "actors": [{
+        "name": "Will Ferrell",
+      "image": "https://ca-times.brightspotcdn.com/dims4/default/076a75b/2147483647/strip/false/crop/3500x1969+0+176/resize/1200x675!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F35%2F0c%2F568646e5482e8f5ce52d1d84b1cd%2Fny-premiere-of-apple-tvs-the-shrink-next-door-90227.jpg",
+      "imdb": "https://www.imdb.com/name/nm0002071/?ref_=nv_sr_srsg_0_tt_6_nm_2_q_will%2520ferrell",
+      }, {
+        "name": "Jon Heder",
+        "image": "https://www.hollywoodreporter.com/wp-content/uploads/2014/02/jon_heder.jpg",
+        "imdb": "https://www.imdb.com/name/nm1416215/"
+      }, {
+        "name": "Amy Poehler",
+        "image": "https://www.nbc.com/sites/nbcblog/files/2023/09/amy-poehler.jpg",
+        "imdb": "https://www.imdb.com/name/nm0688132/"
+      }]
+    },
+
+    {
+      "item": 248,
+      "title": "Just Friends",
+      "runtime": 96,
+      "mpaa": "PG-13",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/71e7ddb93fe4680f14262df6eb0fee8f3ccead65caf0d9071f1f9f92e3299e55.jpg",
+      "description": "While visiting his hometown during Christmas, a man comes face-to-face with his old high school crush whom he was best friends with -- a woman whose rejection of him turned him into a ferocious womanizer.",
+      "genre": ["comedy", "romance"],
+      "link": "https://www.amazon.com/gp/video/detail/B00D5VGFY6/ref=atv_dp_amz_c_TS5124c5_1_3?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Roger Kumble",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjI1OTUxOTYwM15BMl5BanBnXkFtZTgwMjc3ODYyODE@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0477881/"
+      }],
+      "actors": [{
+        "name": "Ryan Reynolds",
+        "image": "https://e00-marca.uecdn.es/assets/multimedia/imagenes/2022/09/15/16632689757665.jpg",
+        "imdb": "https://www.imdb.com/name/nm0005351/"
+      }, {
+        "name": "Amy Smart",
+        "image": "https://www.thelist.com/img/gallery/the-real-reason-you-dont-hear-about-amy-smart-anymore/intro-1551459507.jpg",
+        "imdb": "https://www.imdb.com/name/nm0005440/"
+      }, {
+        "name": "Anna Faris",
+      "image": "https://nationaltoday.com/wp-content/uploads/2022/09/Anna-Faris-1200x834.jpg",
+      "imdb": "https://www.imdb.com/name/nm0267506/?ref_=tt_ov_st",
+      }]
+    },
+
+    {
+      "item": 249,
+      "title": "Event Horizon",
+      "runtime": 96,
+      "mpaa": "R",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/86c047af702678c12b43f3f906db3330a01205c6713b3724bd0e404031b1fe98.jpg",
+      "description": "A rescue crew investigates a spaceship that disappeared into a black hole and has now returned...with someone or something new on-board.",
+      "genre": ["horror", "science-fiction"],
+      "link": "https://www.amazon.com/gp/video/detail/B0CPWQY2PG/ref=atv_mv_hom_c_LvG2mH_2_1?jic=44%7CCgtmcmVld2l0aGFkcxIMc3Vic2NyaXB0aW9uEgRzdm9k",
+      "director": [{
+        "name": "Paul W.S. Anderson",
+        "image": "https://variety.com/wp-content/uploads/2016/12/director-paul-w-s-anderson-resident-evil.jpg?w=1000",
+        "imdb": "https://www.imdb.com/name/nm0027271/",
+      }],
+      "actors": [{
+        "name": "Laurence Fishburne",
+      "image": "https://atlantablackstar.com/wp-content/uploads/2022/10/GettyImages-1434655767-scaled.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000401/?ref_=tt_ov_st"
+      }, {
+        "name": "Sam Neill",
+        "image": "https://www.hollywoodreporter.com/wp-content/uploads/2023/10/Sam-Neill-Sitges-Film-Festival-NEW-GettyImages-1180442124-H-2023.jpg?w=1296",
+        "imdb": "https://www.imdb.com/name/nm0000554/?ref_=nv_sr_srsg_0_tt_4_nm_4_q_sam%2520neill",
+      }, {
+        "name": "Kathleen Quinlan",
+        "image": "https://m.media-amazon.com/images/M/MV5BNDZmOWQ5NWQtMzJjMy00ZDU1LWJlNDEtZmYzNWQwNjFmMTk4XkEyXkFqcGdeQXVyNjc3NDgwNzU@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0001648/"
+      }],
+
+      {
+        "item": 250,
+        "title": "Get Out",
+        "runtime": 104,
+        "mpaa": "R",
+        "poster": "https://m.media-amazon.com/images/S/pv-target-images/8e49148580e2ef6a3055123acb67e4cd9f7a5ddbeac90a987c80038db41c6c92.jpg",
+        "description": "A young African-American visits his white girlfriend's parents for the weekend, where his simmering uneasiness about their reception of him eventually reaches a boiling point.",
+        "genre": ["horror", "mystery", "thriller"],
+        "link": "https://www.amazon.com/gp/video/detail/B06Y1FYX25/ref=atv_dp_amz_c_TS5124c5_1_4?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+        "director": [{
+          "name": "Jordan Peele",
+          "image": "https://img.buzzfeed.com/buzzfeed-static/complex/images/rarqmehmmaxkvw8akwkr/jordan-peele-nope-complex-interview.jpg?output-format=jpg&output-quality=auto",
+          "imdb": "https://www.imdb.com/name/nm1443502/"
+        }],
+        "actors": [{
+          "name": "Daniel Kaluuya",
+          "image": "https://www.indiewire.com/wp-content/uploads/2019/11/Get-Out.jpg",
+          "imdb": "https://www.imdb.com/name/nm2257207/"
+        }, {
+          "name": "Allison Williams",
+          "image": "https://i.guim.co.uk/img/media/e1625fb0cb84c2f79507e030619e20caec033f4c/356_427_4632_2778/master/4632.jpg?width=1200&quality=85&auto=format&fit=max&s=c0966b870f9cf3cfd7f6cd049952a028",
+          "imdb": "https://www.imdb.com/name/nm0931329/"
+        }, {
+          "name": "Bradley Whitford",
+          "image": "https://ew.com/thmb/0kYq6Dj6Bz9bV07xbxckm9Y8zH8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Handmaids-Tale-110122-d5b5fc7f856b4d09b68331347a68f3a8.jpg",
+          "imdb": "https://www.imdb.com/name/nm0925967/"
+        }]
+      }
+      
+    }
+    
+    
+    
+    
     
   ]
 
