@@ -7785,7 +7785,97 @@ const moviesArray = [
         "image": "https://ew.com/thmb/w8N2Xmo7STfx08SBIxcCam3npis=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1177709564-8ad1eacb7f944a7daed9a4239d8c5767.jpg",
         "imdb": "https://www.imdb.com/name/nm1385871/"
       }]
-    }
+    },
+
+    {
+      "item": 255,
+      "title": "Love Liza",
+      "runtime": 90,
+      "mpaa": "R",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/f2540db168916fe007d9cdbc3c583980a79e5cd89d1245c75ba28d52645cf3fb.jpg",
+      "description": "Following the sudden suicide of his wife, a grieving man finds solace and escape in gasoline fumes and remote-control model airplanes.",
+      "genre": ["drama"],
+      "link": "https://www.amazon.com/gp/video/detail/B00CS74WJ8/ref=atv_mv_hom_c_LvG2mH_2_4?jic=44%7CCgtmcmVld2l0aGFkcxIMc3Vic2NyaXB0aW9uEgRzdm9k",
+      "director": [{
+        "name": "Todd Louiso",
+        "image": "https://m.media-amazon.com/images/M/MV5BYzY1OTlmNTMtMjZmZi00M2MyLTlhZWUtYWUxYzMyZGQ1N2RiXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0521902/"
+      }],
+      "actors": [{
+        "name": "Philip Seymour Hoffman",
+      "image": "https://www.usatoday.com/gcdn/-mm-/0c6797d862acf1666f83178798c8107f42310354/c=0-357-3504-2334/local/-/media/USATODAY/USATODAY/2014/02/02//1391369092003--PHILIPSHOFFMAN-03.JPG?width=3200&height=1806&fit=crop&format=pjpg&auto=webp",
+      "imdb": "https://www.imdb.com/name/nm0000450/",
+      }, {
+        "name": "Kathy Bates",
+        "image": "https://ew.com/thmb/fY_alMWGPpE4JVNVSw19WnFomOs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/ap_4346621549-2000-a4f5b5004ec84decb7c1ed85a0050271.jpg",
+        "imdb": "https://www.imdb.com/name/nm0000870/"
+      }, {
+        "name": "Jack Kehler",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTM1Mzg4OTk2MV5BMl5BanBnXkFtZTYwMDI0NjEz._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0444960/"
+      }]
+    },
+
+    {
+      "item": 256,
+      "title": "Trees Lounge",
+      "runtime": 95,
+      "mpaa": "R",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/018364e20ac7af70edfe6cefac1e161c20a07652b41cc215300de5dc67fb5156._SX1080_FMjpg_.jpg",
+      "description": "A regular at a bar called Trees Lounge is in a rut. He lives with his mother, has a dead-end job, and his ex-wife is about to marry another man.",
+      "genre": ["drama", "comedy"],
+      "link": "https://www.amazon.com/gp/video/detail/B07CVJ5793/ref=atv_dp_amz_c_TS5124c5_1_8?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Steve Buscemi",
+      "image": "https://mediaproxy.snopes.com/width/1200/height/900/https://media.snopes.com/2015/05/buscemi-1.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000114/"
+      }],
+      "actors": [{
+        "name": "Steve Buscemi",
+        "image": "https://mediaproxy.snopes.com/width/1200/height/900/https://media.snopes.com/2015/05/buscemi-1.jpg",
+        "imdb": "https://www.imdb.com/name/nm0000114/"
+      }, {
+        "name": "Carol Kane",
+        "image": "https://m.media-amazon.com/images/M/MV5BODQyY2FjNjMtOTc5OS00ZmNlLWI2NmYtOTJjZDJjNjk0ZjIyXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0001409/"
+      }, {
+        "name": "Mark Boone Junior",
+        "image": "https://www.looper.com/img/gallery/soas-mark-boone-jr-was-certainly-not-a-rookie-in-motorcycle-riding/l-intro-1679421018.jpg",
+        "imdb": "https://www.imdb.com/name/nm0095460/"
+      }]
+    },
+
+    {
+      "item": 257,
+      "title": "Buffalo '66",
+      "runtime": 110,
+      "mpaa": "R",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p20506_v_h10_ae.jpg",
+      "description": "After being released from prison, Billy kidnaps a young tap dancer named Layla and forces her to pretend to be his wife when he visits his parents.",
+      "genre": ["drama", "crime"],
+      "link": "https://www.amazon.com/gp/video/detail/B088Y28NM4/ref=atv_dp_amz_c_TS5124c5_1_2?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Vincent Gallo",
+        "image": "https://people.com/thmb/ZtHxZhIOPygksbmIqUzSH3Z2qc0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(529x0:531x2)/vincent-gallo-tout-11124-199276e760394ff18592590b9e00cfac.jpg",
+        "imdb": "https://www.imdb.com/name/nm0001256/"
+      }],
+      "actors": [{
+        "name": "Vincent Gallo",
+        "image": "https://people.com/thmb/ZtHxZhIOPygksbmIqUzSH3Z2qc0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(529x0:531x2)/vincent-gallo-tout-11124-199276e760394ff18592590b9e00cfac.jpg",
+        "imdb": "https://www.imdb.com/name/nm0001256/"
+      }, {
+        "name": "Christina Ricci",
+        "image": "https://people.com/thmb/oF-9r1skeXzbGj3l4ids_8kEmbM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(749x0:751x2)/Christina-Ricci-on-Her-Son-Freddie-Being-a-Feminist-122722-12e1e223f2e0478d94651ee365393e0a.jpg",
+        "imdb": "https://www.imdb.com/name/nm0000207/"
+      }, {
+        "name": "Ben Gazzara",
+        "image": "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2012/2/4/1328326725086/Ben-Gazzara-in-2011-008.jpg?width=620&quality=85&auto=format&fit=max&s=7a46c0e50b755767ad43a562fb3069fe",
+        "imdb": "https://www.imdb.com/name/nm0001260/"
+      }]
+    },
+    
+    
+    
     
     
     
