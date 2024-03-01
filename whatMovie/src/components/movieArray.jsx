@@ -4959,7 +4959,7 @@ const moviesArray = [
       "runtime": 95,
       "mpaa": "PG-13",
       "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/520741ac-57b4-4415-bbb7-c36d33b15723/9655a77e6b705f1a5c892445005d1a732c957671.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
-      "description": "Just Like Heaven tells the story of a young woman named Elizabeth Masterson, played by Reese Witherspoon, who finds herself in a coma after a car accident. Her spirit becomes trapped in her former apartment, which is now occupied by a lonely architect named David Abbott, played by Mark Ruffalo. As David tries to move on with his life, he begins to sense Elizabeth's presence and discovers the truth about her situation.",
+      "description": "A young woman finds herself in a coma after a car accident. Her spirit becomes trapped in her former apartment, which is now occupied by a lonely architect. As he tries to move on with his life, he begins to sense Elizabeth's presence and discovers the truth about her situation.",
       "genre": ["comedy", "romance", "fantasy"],
       "link": "https://play.max.com/video/watch/7f2db461-0630-4cff-8096-45e5fac59c4b/e9e22d91-126c-426d-ad1c-2bcfe9799800",
       "director": [{
@@ -7209,7 +7209,37 @@ const moviesArray = [
         "image": "https://compote.slate.com/images/afc5bfe4-f532-4634-aab5-4f36bd8b3f61.jpg",
         "imdb": "https://www.imdb.com/name/nm2313103/"
       }]
+    },
+
+    {
+      "item": 235,
+      "title": "F9: The Fast Saga",
+      "runtime": 145,
+      "mpaa": "PG-13",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/fa2377c213f10b33c3690ddf97b69f7cc5abcb74bf9557795f64f9c004726623.jpg",
+      "description": "Dom Toretto is living the quiet life off the grid with Letty and his son, but they know that danger always lurks just over the peaceful horizon. This time, that threat forces Dom to confront the sins of his past to save those he loves most. His crew soon comes together to stop a world-shattering plot by the most skilled assassin and high-performance driver they've ever encountered -- Dom's forsaken brother.",
+      "genre": ["action", "crime", "sequel"],
+      "link": "https://www.amazon.com/gp/video/detail/B0B8582VBR/ref=atv_dp_amz_c_TS5124c5_1_5?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Justin Lin",
+        "image": "https://m.media-amazon.com/images/M/MV5BZDQ5NzRjNTMtMTllZC00ODdlLTgyMWQtNWI4ZThhZmFiOTc1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0510912/"
+      }],
+      "actors": [{
+        "name": "Vin Diesel",
+        "image": "https://phantom-marca.unidadeditorial.es/023de5244b791c5aa890a89e8a67ebbe/resize/828/f/jpg/assets/multimedia/imagenes/2023/05/19/16844885388361.jpg",
+        "imdb": "https://www.imdb.com/name/nm0004874/"
+      }, {
+        "name": "Michelle Rodriguez",
+        "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSw1YKrHrTAhn4YGwrGTxlBlIZIlBu3LpWFFLHD_Ypm_ccqk9XdXAJUVWgDLyTz_fHc549s8EWVPjDHN-s",
+        "imdb": "https://www.imdb.com/name/nm0735442/"
+      }, {
+        "name": "Jordana Brewster",
+        "image": "https://s.abcnews.com/images/GMA/f9-fast-furious-ht-ml-210603_1622730161069_hpMain_16x9_992.jpg",
+        "imdb": "https://www.imdb.com/name/nm0108287/"
+      }]
     }
+    
     
     
 
