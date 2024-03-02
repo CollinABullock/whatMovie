@@ -8667,8 +8667,36 @@ const moviesArray = [
         "image": "https://m.media-amazon.com/images/M/MV5BMTQ2NjMyMjkwMF5BMl5BanBnXkFtZTgwOTMyNjc0MjE@._V1_.jpg",
         "imdb": "https://www.imdb.com/name/nm6009534/"
       }]
-    }
+    },
     
+    {
+      "item": 286,
+      "title": "Shoplifters",
+      "runtime": "121 minutes",
+      "mpaa": "Not Rated",
+      "poster": "https://www.metacritic.com/a/img/resize/a7c9e139d9def4ca18f84965633ac72009610206/catalog/provider/2/13/2-b29fe7124cfefe38f340682be6b18af7.jpg?auto=webp&fit=crop&height=675&width=1200",
+      "description": "In 'Shoplifters', a Japanese family living on the margins of society relies on shoplifting to make ends meet. When they take in a young girl they find on the streets, their tight-knit existence is disrupted, leading to revelations about their past and the true nature of their bonds. As authorities close in and their secrets threaten to unravel, the family must decide what it truly means to be a family and where their loyalties lie.",
+      "genre": ["drama", "crime", "foreign"],
+      "link": "https://www.amazon.com/gp/video/detail/B07KQJHWKJ/ref=atv_dp_amz_c_TS5124c5_1_4?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Hirokazu Kore-eda",
+        "image": "https://m.media-amazon.com/images/M/MV5BMDczMTBmODUtZjNjNS00ODcyLTg2MzQtMjYxNzliMjk2ZTM1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0466153/"
+      }],
+      "actors": [{
+        "name": "Lily Franky",
+        "image": "https://m.media-amazon.com/images/M/MV5BZTMxZGNlZTAtNWQ3MS00M2Y5LTgxY2MtNmQwYjRlOWM4ZDU3XkEyXkFqcGdeQXNvbG5vbXM@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm1880386/"
+      }, {
+        "name": "Sakura Ando",
+        "image": "https://m.media-amazon.com/images/M/MV5BYzdjNzNlZGQtNjNlZS00NDZhLWI1YzEtMTFhOTBiNzRhYTVjXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm1948533/"
+      }, {
+        "name": "Mayu Matsuoka",
+        "image": "https://m.media-amazon.com/images/M/MV5BZDBhZTExOTMtZDkwNi00NGZhLTk3ODEtNmEwZGE3MmUyMDEzXkEyXkFqcGdeQXRyYW5zY29kZS13b3JrZmxvdw@@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm2596314/"
+      }]
+    }
     
 
 
