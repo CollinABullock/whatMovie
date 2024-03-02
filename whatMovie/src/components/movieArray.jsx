@@ -8290,7 +8290,37 @@ const moviesArray = [
         "image": "https://pyxis.nymag.com/v1/imgs/9c7/c60/2f972609f30487793afe60949c7148dd23-20180424-marisatomei-1652-2.rsocial.w1200.jpg",
         "imdb": "https://www.imdb.com/name/nm0000673/"
       }]
+    },
+
+    {
+      "item": 272,
+      "title": "12 Angry Men",
+      "runtime": 96,
+      "mpaa": "Not Rated",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/b92d2865829416e35e7102a3934a2ee745f3b903a95678710442d4299d86f39c.jpg",
+      "description": "In '12 Angry Men', a jury deliberates the fate of a young man accused of murder. As they gather in the jury room, tensions run high as the jurors, each with their own biases and preconceptions, must reach a unanimous decision. Over the course of intense deliberations, prejudices are challenged, and the true nature of justice is tested. '12 Angry Men' is a gripping exploration of human nature, morality, and the power of persuasion.",
+      "genre": ["drama", "court-room", "classic"],
+      "link": "https://www.amazon.com/gp/video/detail/0R1DYZPH9XC72I479NEXF195HL/ref=atv_dp_cnc_0_1",
+      "director": [{
+        "name": "Sidney Lumet",
+        "image": "",
+        "imdb": "https://www.imdb.com/name/nm0001486/"
+      }],
+      "actors": [{
+        "name": "Henry Fonda",
+        "image": "",
+        "imdb": "https://www.imdb.com/name/nm0000020/"
+      }, {
+        "name": "Lee J. Cobb",
+        "image": "",
+        "imdb": "https://www.imdb.com/name/nm0002012/"
+      }, {
+        "name": "Martin Balsam",
+        "image": "",
+        "imdb": "https://www.imdb.com/name/nm0000842/"
+      }]
     }
+    
     
 
 
