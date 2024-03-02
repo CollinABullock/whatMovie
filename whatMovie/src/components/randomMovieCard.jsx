@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 import { motion } from "framer-motion";
-import { moviesArray, netflixArray, maxArray, primeArray } from './movieArray';
+import { moviesArray, netflixArray, maxArray, primeArray, huluArray } from './movieArray';
 
 export default function RandomMovie({ selectedRuntime  }) {
   const [randomMovie, setRandomMovie] = useState(null);
@@ -38,6 +38,8 @@ export default function RandomMovie({ selectedRuntime  }) {
           serviceMovies = serviceMovies.concat(maxArray);
         } else if (service === "Prime") {
           serviceMovies = serviceMovies.concat(primeArray);
+        } else if (service === "Hulu") {
+          serviceMovies = serviceMovies.concat(huluArray);
         }
         // Add more conditions for other services if needed
       });

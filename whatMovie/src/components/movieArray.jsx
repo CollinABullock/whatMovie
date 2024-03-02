@@ -8830,7 +8830,7 @@ const moviesArray = [
       "director": [{
         "name": "Tom DiCillo",
         "image": "https://www.tomdicillo.com/wp-content/uploads/2023/06/haleluyah-8-1-scaled.jpg",
-        "imdb": "https://www.imdb.com/name/nm0225726/""
+        "imdb": "https://www.imdb.com/name/nm0225726/"
       }],
       "actors": [{
         "name": "Matthew Modine",
@@ -9085,23 +9085,44 @@ const moviesArray = [
     "image": "https://m.media-amazon.com/images/M/MV5BZTIyNmFkY2QtMjRhMi00MzVlLTk1NzEtMzZiYWViMWE2MjY1XkEyXkFqcGdeQXVyNzU1NzE3NTg@._V1_QL75_UX500_CR0,47,500,281_.jpg",
     "imdb": "https://www.imdb.com/name/nm0204847/"
   }]
+},
+
+{
+  "item": 300,
+  "title": "Conan the Barbarian",
+  "runtime": "129 minutes",
+  "mpaa": "R",
+  "poster": "https://m.media-amazon.com/images/S/pv-target-images/fb008607a7da4541cd413a244c20e3169420145caeae5e9bcd4658544fbb489f.jpg",
+  "description": "In 'Conan the Barbarian', a young Conan witnesses the brutal murder of his parents and his village's destruction at the hands of the warlord Thulsa Doom. Determined to avenge their deaths, Conan embarks on a quest for vengeance, honing his skills as a warrior and seeking out Thulsa Doom. Along the way, Conan encounters allies and enemies alike, battling sorcery, treachery, and mythical beasts in his quest to defeat his nemesis.",
+  "genre": ["action", "adventure", "fantasy"],
+  "link": "https://www.amazon.com/gp/video/detail/B00D5UKWNW/ref=atv_dp_amz_c_TS5124c5_1_17?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+  "director": [{
+    "name": "John Milius",
+    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRNOLCx2fePrA1JhZTtcfyY-Kx6aI-Uxab6ik3r9zgFGS5G02Tc",
+    "imdb": "https://www.imdb.com/name/nm0587518/",
+  }],
+  "actors": [{
+    "name": "Arnold Schwarzenegger",
+    "image": "https://cdn.sanity.io/images/dm4o0ui7/production/ab8622774dfd8bc6b2107656cc1d648ff48279b3-1200x600.png",
+    "imdb": "https://www.imdb.com/name/nm0000216/?ref_=tt_ov_st",
+  }, {
+    "name": "James Earl Jones",
+    "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQTVB_XE1gdVLfcfExhAnJ-mBRlgLs5v7YO_ZkzGojKGWL-nZtQyIcEwPijscTdCuXWT_Lu",
+    "imdb": "https://www.imdb.com/name/nm0000469/",
+  }, {
+    "name": "Sandahl Bergman",
+    "image": "https://netstorage-tuko.akamaized.net/images/34083aa498e4be66.png?imwidth=900",
+    "imdb": "https://www.imdb.com/name/nm0000298/"
+  }]
 }
+  ], [
 
-    
-    
-    
-    
-
-    
-    
-
-    
-    
   ]
 ]
 
 const netflixArray = moviesArray[0];
 const maxArray = moviesArray[1];
 const primeArray = moviesArray[2];
+const huluArray = moviesArray[3];
 
-export {moviesArray, netflixArray, maxArray, primeArray}
+export {moviesArray, netflixArray, maxArray, primeArray, huluArray}
