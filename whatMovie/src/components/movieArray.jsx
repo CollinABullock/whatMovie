@@ -447,7 +447,7 @@ const moviesArray = [
 	"genre": ["action", "horror", "comedy"],
     "link": "https://www.netflix.com/title/1153328",
     "director": [{
-    "name": "Luis Llosa Urquidi ",
+    "name": "Luis Llosa Urquidi",
     "image": "https://m.media-amazon.com/images/M/MV5BMTQ1ODM5NDQzOF5BMl5BanBnXkFtZTcwNzEzNjgwMw@@._V1_.jpg",
     "imdb": "https://www.imdb.com/name/nm0515891/",
     }],

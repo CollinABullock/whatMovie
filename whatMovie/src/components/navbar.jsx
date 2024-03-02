@@ -64,9 +64,8 @@ export default function NavBar({ onPreferenceChange, uniqueGenres }) {
       <div className={`collapse navbar-collapse ${showPreferences ? 'show' : ''}`} id="preferencesDropdown">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item dropdown">
-            <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" onClick={handlePreferencesClick} aria-haspopup="true" aria-expanded="false" style={{ color: "whitesmoke" }}>
-              Preferences
-            </a>
+            <h3 className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" onClick={handlePreferencesClick} aria-haspopup="true" aria-expanded="false" style={{ color: "whitesmoke", marginLeft: "40px" }}>Preferences
+            </h3>
             <div className={`dropdown-menu ${showPreferences ? 'show' : ''}`} aria-labelledby="navbarDropdown" style={{ minWidth: "auto", width: isMobile ? "100vw" : "50vw", margin: "0 auto", backgroundColor: "#0D1F2D", color: "#E4C3AD", border: "5px solid red", padding: "10px", maxHeight: "60vh", overflowY: "auto" }}>
               <MoviePreferenceComponent data={combinedArray} onPreferenceChange={onPreferenceChange} uniqueGenres={uniqueGenres} />
             </div>
