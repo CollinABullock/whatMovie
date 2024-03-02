@@ -547,7 +547,7 @@ const moviesArray = [
       "runtime": 113,
       "mpaa": "PG-13",
       "poster": "https://occ-0-7091-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABaJLrF0O0oiu3lM1oAc5km8es_xCGHoczjV1GnQ6oHY9_JWnmup3y3nqKOid1BndRWAkxPMOse97q-2imuOs7S0TPmtmxJeRlcg.jpg?r=c5e",
-      "description": "When an attack leaves a research crew trapped at the bottom of the sea, a rescue diver must face a massive predator long presumed extinct to save them",
+      "description": "Previously thought to be extinct, a massive creature attacks a deep-sea submersible, leaving it disabled and trapping the crew at the bottom of the Pacific. With time running out, a visionary oceanographer recruits rescue diver Jonas Taylor to save the crew and the sea itself from an unimaginable threat -- a 75-foot-long prehistoric shark known as the Megalodon",
 	"genre": ["action", "science-fiction", "comedy"],
     "link": "https://www.netflix.com/watch/80237937?trackId=255824129&tctx=0%2C0%2Ce5dd4c43-e606-4d1a-8623-62194cccc475-13659244%2Ce5dd4c43-e606-4d1a-8623-62194cccc475-13659244%7C2%2Cunknown%2C%2C%2CtitlesResults%2C80237937%2CVideo%3A80237937%2CminiDpPlayButton",
     "director": [{
@@ -3206,7 +3206,7 @@ const moviesArray = [
       "runtime": 121,
       "mpaa": "PG-13",
       "poster": "https://occ-0-92-90.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABTxyi3UU70BsxsMolz-Uws3n4FFfP9vO1jC9zvfqtqdjiaWR7ytVw9tFDwJFAqsFlfYFwJJG-9qc-FqxD0L1meJxd2SRbYF9E8cY.jpg?r=4fa",
-      "description": "This fast-paced action flick tells the dark story of Hellboy, a charismatic demon who's put on Earth by the Nazis to terrorize the rest of the world.",
+      "description": "At the end of World War II, the Nazis attempt to open a portal to a paranormal dimension in order to defeat the Allies, but are only able to summon a baby demon who is rescued by Allied forces and dubbed Hellboy (Ron Perlman). Sixty years later, Hellboy serves as an agent in the Bureau of Paranormal Research and Defense, where he, aided by Abe Sapien (Doug Jones), a merman with psychic powers, and Liz Sherman (Selma Blair), a woman with pyrokinesis, protects America against dark forces.",
 	"genre": ["science-fiction", "action", "fantasy"],
     "link": "https://www.netflix.com/title/60034549",
     "director": [{
@@ -4038,7 +4038,7 @@ const moviesArray = [
       "runtime": 137,
       "mpaa": "R",
       "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/012cacbd-5893-4379-b7a6-d3737c61d4b5/26ca29e9f50972e5e7b444fef85e09eb28016cb4.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
-      "description": "A computer hacker joins forces with rebel warriors to battle a malevolent cyberintelligence.",
+      "description": "Neo (Keanu Reeves) believes that Morpheus (Laurence Fishburne), an elusive figure considered to be the most dangerous man alive, can answer his question -- What is the Matrix? Neo is contacted by Trinity (Carrie-Anne Moss), a beautiful stranger who leads him into an underworld where he meets Morpheus. They fight a brutal battle for their lives against a cadre of viciously intelligent secret agents. It is a truth that could cost Neo something more precious than his life.",
 	"genre": ["science-fiction", "action"],
     "link": "https://play.max.com/video/watch/9fb854be-3d3c-44d8-a7c0-d3122b989be8/14bf56e5-916a-4c6f-911d-7a94596afc9f",
     "director": [{
@@ -4092,7 +4092,7 @@ const moviesArray = [
       "runtime": 138,
       "mpaa": "R",
       "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/cc2c1671-ee46-4686-b81e-af59607182a2/980cc3b5d515a63961aeae384c2c2ef311b48365.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
-      "description": "Space marines mount a mission to rescue a colony invaded by deadly creatures.",
+      "description": "After floating in space for 57 years, Lt. Ripley's (Sigourney Weaver) shuttle is found by a deep space salvage team. Upon arriving at LV-426, the marines find only one survivor, a nine year old girl named Newt (Carrie Henn). But even these battle-hardened marines with all the latest weaponry are no match for the hundreds of aliens that have invaded the colony.",
 	"genre": ["science-fiction", "action", "sequel"],
     "link": "https://play.max.com/video/watch/e1adbefc-54e4-4c3d-bf2c-525a4d397f19/5e2dabd8-0ba8-4962-a4c7-54dbd1c5cf8f",
     "director": [{
@@ -6670,7 +6670,11 @@ const moviesArray = [
       "name": "Glen Powell",
       "image": "https://variety.com/wp-content/uploads/2024/01/Screen-Shot-2024-01-21-at-10.54.55-AM.png?w=1000&h=563&crop=1",
       "imdb": "https://www.imdb.com/name/nm1412974/",
-    }]
+    }, {
+    "name": "Ed Harris",
+    "image": "https://static1.srcdn.com/wordpress/wp-content/uploads/2020/03/the-truman-show-harris.jpg",
+    "imdb": "https://www.imdb.com/name/nm0000438/"
+  }]
     },
 
     {
@@ -8133,7 +8137,135 @@ const moviesArray = [
         "image": "https://people.com/thmb/rFCNf7SGrOssvvonOL2T2dnwmtg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(674x359:676x361)/norman-reedus-7d50a766cdc346138e42671ed7888d7c.jpg",
         "imdb": "https://www.imdb.com/name/nm0005342/"
       }]
+    },
+
+    {
+      "item": 267,
+      "title": "The General's Daughter",
+      "runtime": 116,
+      "mpaa": "R",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/17ab8c1c0fada86ed5b10784cae1644572152e79fe23ee2bf4fdec7b46f064d9.jpg",
+      "description": "An army officer investigates the brutal murder of Captain Elisabeth Campbell, the daughter of a respected general. As the investigation progresses, disturbing secrets about the victim's past and the military hierarchy are revealed, casting suspicion on those closest to her. As the truth unfolds, the investigator must confront the complexities of honor, loyalty, and justice within the military.",
+      "genre": ["crime", "drama", "mystery"],
+      "link": "https://www.amazon.com/gp/video/detail/B0CQ1GC9DM/ref=atv_dp_amz_c_TS5124c5_1_2?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Simon West",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjE2NjA2Njg4OV5BMl5BanBnXkFtZTcwMTcyNTEwOQ@@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0921082/"
+      }],
+      "actors": [{
+        "name": "John Travolta",
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS02OuabypnBpCE9KCFh_ojnkUXabzlyabfIdfluZlnT78Bt2fpca875cBMt5RTXRiAErqxdA",
+        "imdb": "https://www.imdb.com/name/nm0000237/"
+      }, {
+        "name": "Madeleine Stowe",
+        "image": "https://www.looper.com/img/gallery/whatever-happened-to-madeleine-stowe/l-intro-1687324955.jpg",
+        "imdb": "https://www.imdb.com/name/nm0000655/"
+      }, {
+        "name": "James Cromwell",
+        "image": "https://pyxis.nymag.com/v1/imgs/d9c/0b8/2c362ca74d70dcc89e8bf5b6395bd05e5c-james-cromwell-.1x.rsocial.w1200.jpg",
+        "imdb": "https://www.imdb.com/name/nm0000342/"
+      }]
+    },
+
+    {
+      "item": 268,
+      "title": "Witness",
+      "runtime": 112,
+      "mpaa": "R",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/bb5d56e895c407f31bbcf103205d130a01f9ade2435c8bb4904ee563aa39419f.jpg",
+      "description": "In 'Witness', a young Amish boy witnesses a brutal murder while visiting Philadelphia. Detective John Book is assigned to investigate the case and protect the boy, Samuel, and his mother, Rachel, from the killers. As John delves deeper into the investigation, he discovers corruption within the police force and must rely on the Amish community's support to unravel the truth and bring the perpetrators to justice.",
+      "genre": ["crime", "drama", "romance"],
+      "link": "https://www.amazon.com/gp/video/detail/B07GSF9XR5/ref=atv_dp_amz_c_TS5124c5_1_4?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Peter Weir",
+        "image": "https://www.nme.com/wp-content/uploads/2020/09/peter-weir-on-set-mosquito-coast-credit-moviestore-collection-ltd-alamy@2000x1270-copy.jpg",
+        "imdb": "https://www.imdb.com/name/nm0001837/"
+      }],
+      "actors": [{
+        "name": "Harrison Ford",
+        "image": "https://www.hollywoodreporter.com/wp-content/uploads/2023/01/Harrison-Ford-Shrinking-Arrivals-GettyImages-1459853135-H-2023.jpg",
+        "imdb": "https://www.imdb.com/name/nm0000148/",
+      }, {
+        "name": "Kelly McGillis",
+        "image": "https://www.etonline.com/sites/default/files/images/2019-07/spl5105035_001.jpg",
+        "imdb": "https://www.imdb.com/name/nm0000535/"
+      }, {
+        "name": "Lukas Haas",
+        "image": "https://m.media-amazon.com/images/M/MV5BZTc2NmVhMmQtMzI1MC00MzMxLTlhYjctNGNjYWI1Y2I5NGQ0XkEyXkFqcGdeQXVyMTI3MDk3MzQ@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0001306/"
+      }]
+    },
+
+    {
+      "item": 269,
+      "title": "The Way Back",
+      "runtime": 133,
+      "mpaa": "PG-13",
+      "poster": "https://i0.wp.com/streamondemandathome.com/wp-content/uploads/2016/08/Way-Back.jpg?fit=1134%2C850&ssl=1",
+      "description": "In 'The Way Back', a group of prisoners, including former Polish soldier Janusz, engineer Mr. Smith, and American convict Flanagan, escape from a Soviet gulag in Siberia during World War II. With no supplies and facing extreme conditions, they embark on a perilous journey to freedom across thousands of miles of hostile terrain. As they traverse the wilderness, they must confront physical and emotional challenges while forging bonds of camaraderie and resilience.",
+      "genre": ["adventure", "drama", "history"],
+      "link": "https://www.amazon.com/gp/video/detail/0R9VQUTL1SYRH2BBQAVLAIIQ2U/ref=atv_dp_cnc_0_0",
+      "director": [{
+        "name": "Peter Weir",
+        "image": "https://www.nme.com/wp-content/uploads/2020/09/peter-weir-on-set-mosquito-coast-credit-moviestore-collection-ltd-alamy@2000x1270-copy.jpg",
+        "imdb": "https://www.imdb.com/name/nm0001837/"
+      }],
+      "actors": [{
+        "name": "Jim Sturgess",
+        "image": "https://www.telegraph.co.uk/content/dam/men/2016/11/04/107316497_May0072205_The_Daily_Telegraph_Portrait_of_British_actor_Jim_Sturgess_photographed_on_the_trans_NvBQzQNjv4BqEduPGWXTgvtbFyMaMlYatt5HfJMDGz2ut_fb3D_DyLc.jpg",
+        "imdb": "https://www.imdb.com/name/nm0836345/"
+      }, {
+        "name": "Ed Harris",
+        "image": "https://static1.srcdn.com/wordpress/wp-content/uploads/2020/03/the-truman-show-harris.jpg",
+        "imdb": "https://www.imdb.com/name/nm0000438/"
+      }, {
+        "name": "Colin Farrell",
+        "image": "https://www.the-sun.com/wp-content/uploads/sites/6/0203/03/OFF-PLATFORM-colin-farrell.jpg?strip=all&w=1620&h=1080&crop=1",
+        "imdb": "https://www.imdb.com/name/nm0268199/"
+      }]
+    },
+
+    {
+      "item": 270,
+      "title": "Glengarry Glen Ross",
+      "runtime": 100,
+      "mpaa": "R",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/4e4ed4e0e8241a612f7e91d47b22df4933acaa672bb5944e35c63359635ee656.png",
+      "description": "In 'Glengarry Glen Ross', a group of desperate real estate agents resort to unethical and cutthroat tactics to survive in a highly competitive sales environment. When their office is robbed and the leads stolen, tensions escalate as the agents vie for survival and success. Loyalties are tested, and the men must confront their own morality as they navigate the ruthless world of sales and deception.",
+      "genre": ["crime", "drama"],
+      "link": "https://www.amazon.com/gp/video/detail/0P0TGDPE6TESFCCNYC21WGW4AB/ref=atv_dp_cnc_3_10",
+      "director": [{
+        "name": "James Foley",
+        "image": "https://deadline.com/wp-content/uploads/2016/10/james-foley-e1555112543364.jpg",
+        "imdb": "https://www.imdb.com/name/nm0001221/"
+      }],
+      "actors": [{
+        "name": "Al Pacino",
+      "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSvNvCnfwhUJomL6srW4j0x21ntqd2R0HDGGyD-MLZA7OUZ52_3XZtjGq_B4G0dmM9-WfF0zMp6seOS_BM",
+      "imdb": "https://www.imdb.com/name/nm0000199/",
+      }, {
+        "name": "Jack Lemmon",
+      "image": "https://qph.cf2.quoracdn.net/main-qimg-4b3a6edd2e2f1c1d048a6a110017d00e-lq",
+      "imdb": "https://www.imdb.com/name/nm0000493/"
+      }, {
+        "name": "Alec Baldwin",
+        "image": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSuYBOiGP2ZAxJotmeQcYxn3DjFBL0zoMmurQS0QLxYVn9zGwvQoFUMQVjt4cgb-se_wUvvZhQdkblI2aA",
+        "imdb": "https://www.imdb.com/name/nm0000285/",
+      }, {
+        "name": "Ed Harris",
+        "image": "https://static1.srcdn.com/wordpress/wp-content/uploads/2020/03/the-truman-show-harris.jpg",
+        "imdb": "https://www.imdb.com/name/nm0000438/"
+      }]
     }
+
+
+    
+    
+    
+    
+
+
     
     
     
