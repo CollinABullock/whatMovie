@@ -8611,6 +8611,66 @@ const moviesArray = [
       }]
     },
 
+    {
+      "item": 284,
+      "title": "Borderline",
+      "runtime": 87,
+      "mpaa": "Not Rated",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/0590b4e52381e89da532a3d976ab8713ba492b0961c9c8f5e03abde8ecbba920.jpg",
+      "description": "In 'Borderline', tensions rise when a group of individuals from different walks of life find themselves stranded at a remote border town. As they wait for transportation to their respective destinations, suspicion and mistrust grow among them. With each passing moment, secrets are revealed, alliances are formed, and the true nature of humanity is put to the test in this gripping tale of survival and intrigue.",
+      "genre": ["drama", "thriller"],
+      "link": "https://www.amazon.com/gp/video/detail/B0CHDV1SZX/ref=atv_dp_amz_c_TS5124c5_1_3?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "William A. Seiter",
+        "image": "https://media.baselineresearch.com/images/424669/424669_full.jpg",
+        "imdb": "https://www.imdb.com/name/nm0782974/"
+      }],
+      "actors": [{
+        "name": "Fred MacMurray",
+        "image": "https://metvcdn.metv.com/dYytz-1598973703-1555-lists-fredmacmurray_main_1200.jpg",
+        "imdb": "https://www.imdb.com/name/nm0001506/"
+      }, {
+        "name": "Claire Trevor",
+        "image": "https://i.ytimg.com/vi/vR3psmNdtFI/maxresdefault.jpg",
+        "imdb": "https://www.imdb.com/name/nm0871883/"
+      }, {
+        "name": "Raymond Burr",
+        "image": "https://www.remindmagazine.com/wp-content/uploads/2023/09/ironside-burr-1014x570.jpg",
+        "imdb": "https://www.imdb.com/name/nm0000994/",
+      }]
+    },
+
+    {
+      "item": 285,
+      "title": "Force Majeure",
+      "runtime": "120 minutes",
+      "mpaa": "R",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/1ea4d2fbb3d6d54eb81a860083b8501dc5f79a33b26ac2390e4f6dc3b3c7cdb4.jpg",
+      "description": "In 'Force Majeure', a family's ski vacation in the French Alps takes a dramatic turn when an avalanche threatens their safety. As the avalanche approaches, the father makes a split-second decision that exposes rifts in their relationships and challenges their perceptions of bravery and responsibility. With tensions mounting and emotions running high, the family must confront the aftermath of the incident and navigate the complexities of forgiveness and reconciliation.",
+      "genre": ["drama", "comedy", "foreign"],
+      "link": "https://www.amazon.com/gp/video/detail/B09PYD2FR4/ref=atv_mv_hom_c_LvG2mH_2_4?jic=44%7CCgtmcmVld2l0aGFkcxIMc3Vic2NyaXB0aW9uEgRzdm9k",
+      "director": [{
+        "name": "Ruben Östlund",
+        "image": "https://m.media-amazon.com/images/M/MV5BMzY1MzQ0M2UtZjNkZi00NGQzLWFiYmQtNjIzNzk1YTRhN2RiXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0653882/"
+      }],
+      "actors": [{
+        "name": "Johannes Bah Kuhnke",
+        "image": "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/4/25/1429974518453/63dd5049-accc-41f7-9a24-6fa7dbb8a30a-2060x1371.jpeg?width=465&dpr=1&s=none",
+        "imdb": "https://www.imdb.com/name/nm0473726/"
+      }, {
+        "name": "Lisa Loven Kongsli",
+        "image": "https://m.media-amazon.com/images/S/pv-target-images/1f86a8ecbd44f1f7890dbf62322dbe15398305423efe0566055c8b06e0132ccb.jpg",
+        "imdb": "https://www.imdb.com/name/nm1704306/"
+      }, {
+        "name": "Clara Wettergren",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTQ2NjMyMjkwMF5BMl5BanBnXkFtZTgwOTMyNjc0MjE@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm6009534/"
+      }]
+    }
+    
+    
+
 
     
     
