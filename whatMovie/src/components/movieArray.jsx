@@ -8816,7 +8816,280 @@ const moviesArray = [
   "image": "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/8/5/1438770901233/Peter-Dinklage--009.jpg?width=700&quality=85&auto=format&fit=max&s=2ded45e451e959c1404eabe01bb1ec7d",
   "imdb": "https://www.imdb.com/name/nm0227759/"
       }]
-    }
+    },
+
+    {
+      "item": 291,
+      "title": "The Real Blonde",
+      "runtime": "105 minutes",
+      "mpaa": "R",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/2009d3cabf855b1a07ff5c833193922332f71db2c2d3da853c4d9f27f7814f9f.jpg",
+      "description": "In 'The Real Blonde', a group of New Yorkers navigates the complexities of love, relationships, and career aspirations in the bustling city. As they grapple with their own insecurities and desires, their lives intersect in unexpected ways, leading to humorous and poignant moments of self-discovery. Set against the backdrop of the fashion and entertainment industries, the film explores themes of identity, authenticity, and the pursuit of happiness.",
+      "genre": ["comedy", "drama", "indie"],
+      "link": "https://www.amazon.com/gp/video/detail/B09RSWHX4V/ref=atv_dp_amz_c_TS5124c5_1_12?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Tom DiCillo",
+        "image": "https://www.tomdicillo.com/wp-content/uploads/2023/06/haleluyah-8-1-scaled.jpg",
+        "imdb": "https://www.imdb.com/name/nm0225726/""
+      }],
+      "actors": [{
+        "name": "Matthew Modine",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2020/07/1200/675/GettyImages-1131721580.jpg?ve=1&tl=1",
+      "imdb": "https://www.imdb.com/name/nm0000546/",
+      }, {
+        "name": "Catherine Keener",
+        "image": "https://www.looper.com/img/gallery/catherine-keeners-seinfeld-appearance-was-all-thanks-to-a-last-minute-casting-change/intro-1673446797.jpg",
+        "imdb": "https://www.imdb.com/name/nm0001416/"
+      }, {
+        "name": "Daryl Hannah",
+        "image": "https://hollywoodlife.com/wp-content/uploads/2021/12/daryl-hannah-social-image.jpg?quality=100",
+        "imdb": "https://www.imdb.com/name/nm0000435/"
+      }]
+    },
+
+    {
+      "item": 292,
+      "title": "A Walk to Remember",
+      "runtime": "101 minutes",
+      "mpaa": "PG",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/945071b03fd8aebe3dc89a6f0034fb5f9f65c178dfae77a1d69e85c3f9512b39.jpg",
+      "description": "In 'A Walk to Remember', a high school student named Landon Carter is forced to participate in community service after getting into trouble. He is drawn to Jamie Sullivan, a quiet and religious girl, who helps him with his lines for the school play. Despite their differences, Landon and Jamie develop a deep connection, and their relationship transforms both of their lives in unexpected ways. As they navigate the challenges of love and faith, they discover the true meaning of compassion and redemption.",
+      "genre": ["drama", "romance", "teen"],
+      "link": "https://www.amazon.com/gp/video/detail/0RC04XI04XCILK7RCDXTKW32FX/ref=atv_dp_cnc_3_6",
+      "director": [{
+        "name": "Adam Shankman",
+        "image": "https://variety.com/wp-content/uploads/2019/02/adam-shankman.jpg",
+        "imdb": "https://www.imdb.com/name/nm0787474/"
+      }],
+      "actors": [{
+        "name": "Mandy Moore",
+        "image": "https://cloudfront-us-east-1.images.arcpublishing.com/bostonglobe/AXSXJ5L6FZBRPDPLJFDVPEAV5E.JPG",
+        "imdb": "https://www.imdb.com/name/nm0601553/"
+      }, {
+        "name": "Shane West",
+        "image": "https://facts.net/wp-content/uploads/2023/07/42-facts-about-shane-west-1690385766.jpg",
+        "imdb": "https://www.imdb.com/name/nm0928095/"
+      }, {
+        "name": "Peter Coyote",
+        "image": "https://petercoyote.com/wp-content/uploads/2023/11/DSC_6220-copy.jpg",
+        "imdb": "https://www.imdb.com/name/nm0001075/"
+      }, {
+        "name": "Daryl Hannah",
+        "image": "https://hollywoodlife.com/wp-content/uploads/2021/12/daryl-hannah-social-image.jpg?quality=100",
+        "imdb": "https://www.imdb.com/name/nm0000435/"
+      }]
+    },
+
+    {
+      "item": 293,
+      "title": "Notting Hill",
+      "runtime": "124 minutes",
+      "mpaa": "PG-13",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/c9b2b3067dc4913f5c26f3a8aae9ba2b28aa2d28f5197f802e087ceda3d11f2a.jpg",
+      "description": "In 'Notting Hill', the life of a London bookstore owner named William Thacker takes an unexpected turn when he meets Anna Scott, a famous American actress. Despite their vastly different worlds, William and Anna develop a romantic connection. As they navigate the challenges of fame, media scrutiny, and personal insecurities, they must confront the realities of their relationship and decide if love can truly conquer all.",
+      "genre": ["comedy", "romance"],
+      "link": "https://www.amazon.com/gp/video/detail/B00D5DQJKE/ref=atv_dp_amz_c_TS5124c5_1_15?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Roger Michell",
+        "image": "https://variety.com/wp-content/uploads/2021/09/Roger-Michell-1.jpg?w=1000",
+        "imdb": "https://www.imdb.com/name/nm0584934/"
+      }],
+      "actors": [{
+        "name": "Julia Roberts",
+        "image": "https://people.com/thmb/IhNIeEk1h5D2I6URYBtwRXb-S5s=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(703x165:705x167)/Julia-Roberts-on-the-tonight-show-tout-120623-7c30d086ccb44f09a9563abdb0427af6.jpg",
+        "imdb": "https://www.imdb.com/name/nm0000210/?ref_=tt_ov_st",
+      }, {
+        "name": "Hugh Grant",
+        "image": "https://westernnews.media.clients.ellingtoncms.com/img/photos/2023/11/30/hugh-grant-brutally-honest-opinion-love-actually-ftr_t715.png?529764a1de2bdd0f74a9fb4f856b01a9d617b3e9",
+        "imdb": "https://www.imdb.com/name/nm0000424/"
+      }, {
+        "name": "Rhys Ifans",
+        "image": "https://static.independent.co.uk/2022/09/23/23/newFile-1.jpg?width=1200",
+        "imdb": "https://www.imdb.com/name/nm0408597/"
+      }]
+    },
+
+    {
+      "item": 294,
+      "title": "Eat Pray Love",
+      "runtime": "140 minutes",
+      "mpaa": "PG-13",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/784cf5cfd9738977b4d36284e5e5cb2565e0a7401a5f7b3054438eb21619bdff.jpg",
+      "description": "'Eat Pray Love' follows the journey of Elizabeth Gilbert, a woman who embarks on a year-long trip around the world in search of self-discovery and fulfillment. After a painful divorce and a period of soul-searching, Elizabeth decides to leave her old life behind and explore new cultures, cuisines, and spiritual practices. From Italy to India to Bali, she learns valuable lessons about love, forgiveness, and the importance of finding balance in life.",
+      "genre": ["drama", "romance"],
+      "link": "https://www.amazon.com/gp/video/detail/B00BR9YSBA/ref=atv_dp_amz_c_TS5124c5_1_2?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Ryan Murphy",
+        "image": "https://www.hollywoodreporter.com/wp-content/uploads/2015/03/ryan_murphy_a_l.jpg",
+        "imdb": "https://www.imdb.com/name/nm0614682/"
+      }],
+      "actors": [{
+        "name": "Julia Roberts",
+        "image": "https://people.com/thmb/IhNIeEk1h5D2I6URYBtwRXb-S5s=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(703x165:705x167)/Julia-Roberts-on-the-tonight-show-tout-120623-7c30d086ccb44f09a9563abdb0427af6.jpg",
+        "imdb": "https://www.imdb.com/name/nm0000210/?ref_=tt_ov_st",
+      }, {
+        "name": "Javier Bardem",
+        "image": "https://img.huffingtonpost.com/asset/5cf826312500005f0ddbfdd9.jpeg?ops=scalefit_720_noupscale",
+        "imdb": "https://www.imdb.com/name/nm0000849/"
+      }, {
+        "name": "Richard Jenkins",
+        "image": "https://www.trbimg.com/img-5a2e0c07/turbine/la-et-golden-globes-2018-nominees-winners-pict-036/1200/16x9/",
+        "imdb": "https://www.imdb.com/name/nm0005460/"
+      }]
+    },
+
+    {
+      "item": 295,
+      "title": "Couples Retreat",
+      "runtime": "113 minutes",
+      "mpaa": "PG-13",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/c34ed88f364dce96f8c596869053b22c4e336ebecf6e53a9e872f9219ef62ef7.jpg",
+      "description": "In 'Couples Retreat', four couples embark on a tropical vacation to a luxurious resort in order to work on their relationships. However, they soon discover that the retreat's therapy sessions are mandatory for all couples, leading to unexpected challenges and revelations. As they navigate the ups and downs of their relationships, the couples must confront their own issues and redefine their priorities in order to find true happiness.",
+      "genre": ["comedy", "romance"],
+      "link": "https://www.amazon.com/gp/video/detail/B00D5UH4G0/ref=atv_dp_amz_c_TS5124c5_1_4?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Peter Billingsley",
+        "image": "https://dehayf5mhw1h7.cloudfront.net/wp-content/uploads/sites/2100/2023/12/22190000/e_peter_billingsley_11162022241634.webp",
+        "imdb": "https://www.imdb.com/name/nm0000949/"
+      }],
+      "actors": [{
+        "name": "Vince Vaughn",
+        "image": "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-181661-98943931_c.jpg",
+        "imdb": "https://www.imdb.com/name/nm0000681/"
+      }, {
+        "name": "Jason Bateman",
+        "image": "https://variety.com/wp-content/uploads/2022/05/Jason-Bateman-Variety-Emmy-Awards-Season-Ozark.jpg",
+        "imdb": "https://www.imdb.com/name/nm0000867/"
+      }, {
+        "name": "Kristen Bell",
+        "image": "https://www.hollywoodreporter.com/wp-content/uploads/2023/03/Kristen_Bell-Photo-by-Ricky-Middlesworth-H-2023.jpg?w=1296",
+        "imdb": "https://www.imdb.com/name/nm0068338/"
+      }]
+    },
+    
+    {
+      "item": 296,
+      "title": "Role Models",
+      "runtime": "99 minutes",
+      "mpaa": "R",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/12886e5f2cd17980164a4d4406bb60314b5e054e7d86270f15e8d5bf4220720e._UR1920,1080_SX720_FMjpg_.jpg",
+      "description": "In 'Role Models', two energy drink salesmen, Danny and Wheeler, find themselves in trouble with the law after crashing their company truck. To avoid jail time, they agree to perform community service by participating in a mentorship program. Assigned to mentor troubled youths, Danny and Wheeler embark on a series of misadventures as they struggle to connect with their assigned charges and navigate the challenges of adulthood.",
+      "genre": ["comedy"],
+      "link": "https://www.amazon.com/gp/video/detail/B00D5UHLTK/ref=atv_dp_amz_c_TS5124c5_1_11?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "David Wain",
+        "image": "https://www.hollywoodreporter.com/wp-content/uploads/2019/11/david_wain.jpg",
+        "imdb": "https://www.imdb.com/name/nm0906107/"
+      }],
+      "actors": [{
+        "name": "Paul Rudd",
+        "image": "https://facts.net/wp-content/uploads/2023/09/37-facts-about-paul-rudd-1695473637.jpg",
+        "imdb": "https://www.imdb.com/name/nm0748620/"
+      }, {
+        "name": "Seann William Scott",
+        "image": "https://www.usmagazine.com/wp-content/uploads/2023/05/Sean-William-Scott-Dishes-On-the-Possibility-of-Reprising-His-American-Pie-Role-1.jpg?crop=0px%2C148px%2C1419px%2C746px&resize=1200%2C630&quality=86&strip=all",
+        "imdb": "https://www.imdb.com/name/nm0005405/"
+      }, {
+        "name": "Elizabeth Banks",
+        "image": "https://deadline.com/wp-content/uploads/2017/09/elizabeth-banks1.jpg?w=681&h=383&crop=1",
+        "imdb": "https://www.imdb.com/name/nm0006969/"
+      }]
+    },
+
+    {
+      "item": 297,
+      "title": "Goon",
+      "runtime": "92 minutes",
+      "mpaa": "R",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/c0553658c9aa9cfa5741c3f68169726bf62799b4a05fa4d0bde2ef6908395ead.jpg",
+      "description": "In 'Goon', Doug Glatt, a bouncer with a talent for fighting, finds himself recruited as an enforcer for a minor league hockey team. Despite lacking skill on the ice, Doug's physical prowess and dedication make him an asset to the team. As he navigates the rough and tumble world of professional hockey, Doug must confront his own insecurities and prove himself on the ice.",
+      "genre": ["comedy", "sports"],
+      "link": "https://www.amazon.com/gp/video/detail/B00C3MMCT0/ref=atv_dp_amz_c_TS5124c5_1_12?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Michael Dowse",
+        "image": "https://undertheradarmag.com/uploads/article_images/MichaelDowse.jpg",
+        "imdb": "https://www.imdb.com/name/nm0236095/"
+      }],
+      "actors": [{
+        "name": "Seann William Scott",
+        "image": "https://www.usmagazine.com/wp-content/uploads/2023/05/Sean-William-Scott-Dishes-On-the-Possibility-of-Reprising-His-American-Pie-Role-1.jpg?crop=0px%2C148px%2C1419px%2C746px&resize=1200%2C630&quality=86&strip=all",
+        "imdb": "https://www.imdb.com/name/nm0005405/"
+      }, {
+        "name": "Jay Baruchel",
+        "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2020/08/14/13/jay-baruchel.jpg",
+        "imdb": "https://www.imdb.com/name/nm0059431/"
+      }, {
+        "name": "Alison Pill",
+        "image": "https://static.wikia.nocookie.net/snowpiercer-tbs/images/d/df/Alison_Pill.jpg/revision/latest?cb=20200422235456",
+        "imdb": "https://www.imdb.com/name/nm0687146/"
+      }]
+    },
+    
+    {
+      "item": 298,
+      "title": "Baseketball",
+      "runtime": "103 minutes",
+      "mpaa": "R",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/f1c631bc405eca99b400af2172735977be0e2560e45e162635a3ac160376dd06.jpg",
+      "description": "In 'Baseketball', two friends, Coop and Remer, invent a new sport combining elements of basketball and baseball. The sport, also called Baseketball, becomes incredibly popular and attracts a passionate fan base. However, as the sport gains commercial success, Coop and Remer must navigate the challenges of fame, greed, and corporate influence. With humor and satire, 'Baseketball' explores the absurdities of professional sports and the commercialization of athletics.",
+      "genre": ["comedy", "sports"],
+      "link": "https://www.amazon.com/gp/video/detail/B00D5UG92K/ref=atv_dp_amz_c_TS5124c5_1_2?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "David Zucker",
+        "image": "https://deadline.com/wp-content/uploads/2022/11/Screen-Shot-2022-11-10-at-2.42.44-PM.png?w=681&h=383&crop=1",
+        "imdb": "https://www.imdb.com/name/nm0002659/"
+      }],
+      "actors": [{
+        "name": "Trey Parker",
+        "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2013/01/15/18/pg-24-power-couple-1-getty.jpg?quality=75&width=640&height=614&fit=bounds&format=pjpg&crop=16%3A9%2Coffset-y0.5&auto=webp",
+        "imdb": "https://www.imdb.com/name/nm0005295/"
+      }, {
+        "name": "Matt Stone",
+        "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2013/01/15/18/pg-24-power-couple-1-getty.jpg?quality=75&width=640&height=614&fit=bounds&format=pjpg&crop=16%3A9%2Coffset-y0.5&auto=webp",
+        "imdb": "https://www.imdb.com/name/nm0001778/"
+      }, {
+        "name": "Dian Bachar",
+        "image": "https://m.media-amazon.com/images/M/MV5BMDFkNDZlMjQtYzJlNS00ZWIzLWFjZDgtMWY4YTQwNDkyN2NlL2ltYWdlXkEyXkFqcGdeQXVyNzAzNzgzNTI@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0000839/"
+      }, {
+          "name": "Jenny McCarthy",
+          "image": "https://people.com/thmb/xR5O1T5d7sf7wP5UmHMCGh_VK6M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(749x0:751x2)/jenny-mccarthy-the-masked-singer-060923-1-00dc9102c3c141369dd2e02e7cbce798.jpg",
+          "imdb": "https://www.imdb.com/name/nm0000189/" 
+      }]
+    },
+
+    {
+  "item": 299,
+  "title": "The Crow",
+  "runtime": "102 minutes",
+  "mpaa": "R",
+  "poster": "https://m.media-amazon.com/images/S/pv-target-images/4b9ad3bdb06a657edb2bda823df5cc907c451ed66aa0fd1c16b3b7ee01392acc.jpg",
+  "description": "In 'The Crow', Eric Draven, a musician, returns from the dead to seek vengeance against those responsible for his and his fiancée's brutal murders. Empowered by a mystical crow, Eric embarks on a relentless quest to rid the city of crime and corruption. As he dispenses justice with supernatural abilities, Eric confronts his own inner demons and grapples with the consequences of his actions.",
+  "genre": ["action", "drama", "fantasy"],
+  "link": "https://www.amazon.com/gp/video/detail/B0CPPN5TTM/ref=atv_dp_amz_c_TS5124c5_1_13?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+  "director": [{
+    "name": "Alex Proyas",
+    "image": "https://pyxis.nymag.com/v1/imgs/4a3/fbe/913e9d8519b843ee42622b39f1ab952b9d-29-alex-proyas.2x.rsocial.w600.jpg",
+    "imdb": "https://www.imdb.com/name/nm0001639/"
+  }],
+  "actors": [{
+    "name": "Brandon Lee",
+    "image": "https://media.distractify.com/brand-img/KeWJUCY59/0x0/how-did-brandon-lee-actually-die-1591394357913.jpg",
+    "imdb": "https://www.imdb.com/name/nm0000488/"
+  }, {
+    "name": "Ernie Hudson",
+    "image": "https://www.nbc.com/sites/nbcblog/files/2022/10/ernie-hudson-quantum-leap-105.jpg",
+    "imdb": "https://www.imdb.com/name/nm0001368/"
+  }, {
+    "name": "Rochelle Davis",
+    "image": "https://m.media-amazon.com/images/M/MV5BZTIyNmFkY2QtMjRhMi00MzVlLTk1NzEtMzZiYWViMWE2MjY1XkEyXkFqcGdeQXVyNzU1NzE3NTg@._V1_QL75_UX500_CR0,47,500,281_.jpg",
+    "imdb": "https://www.imdb.com/name/nm0204847/"
+  }]
+}
+
+    
+    
+    
     
 
     
