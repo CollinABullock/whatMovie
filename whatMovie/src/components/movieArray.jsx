@@ -8257,7 +8257,41 @@ const moviesArray = [
         "image": "https://static1.srcdn.com/wordpress/wp-content/uploads/2020/03/the-truman-show-harris.jpg",
         "imdb": "https://www.imdb.com/name/nm0000438/"
       }]
+    },
+
+    {
+      "item": 271,
+      "title": "Before the Devil Knows You're Dead",
+      "runtime": 117,
+      "mpaa": "R",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/bfdb9c56b6cde065817f3620a4ca9b87b5d6e4399e6c1c7c3bbb9d277c7baee2._UR1920,1080_SX720_FMjpg_.jpg",
+      "description": "In 'Before the Devil Knows You're Dead', two brothers, Andy and Hank Hanson, hatch a plan to rob their parents' jewelry store to solve their financial woes. However, the robbery goes horribly wrong, leading to a chain of tragic events that spiral out of control. As the brothers' lives unravel, secrets are exposed, and they find themselves entangled in a web of betrayal, guilt, and violence.",
+      "genre": ["crime", "drama", "thriller"],
+      "link": "https://www.amazon.com/gp/video/detail/B082KG61B8/ref=atv_dp_amz_c_TS5124c5_1_5?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Sidney Lumet",
+        "image": "",
+        "imdb": "https://www.imdb.com/name/nm0001486/"
+      }],
+      "actors": [{
+        "name": "Philip Seymour Hoffman",
+      "image": "https://www.usatoday.com/gcdn/-mm-/0c6797d862acf1666f83178798c8107f42310354/c=0-357-3504-2334/local/-/media/USATODAY/USATODAY/2014/02/02//1391369092003--PHILIPSHOFFMAN-03.JPG?width=3200&height=1806&fit=crop&format=pjpg&auto=webp",
+      "imdb": "https://www.imdb.com/name/nm0000450/"
+      }, {
+        "name": "Ethan Hawke",
+        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTY_Cck_wjMxiCBBh9Jni8vqQryFpv5XXSiWkrUU5EngmkTMF8e",
+        "imdb": "https://www.imdb.com/name/nm0000160/"
+      }, {
+        "name": "Albert Finney",
+        "image": "https://www.hollywoodreporter.com/wp-content/uploads/2017/07/before_the_devil_knows_youre_dead_albert_finney.jpg?w=1296",
+        "imdb": "https://www.imdb.com/name/nm0001215/?ref_=tt_ov_st"
+      }, {
+        "name": "Marisa Tomei",
+        "image": "https://pyxis.nymag.com/v1/imgs/9c7/c60/2f972609f30487793afe60949c7148dd23-20180424-marisatomei-1652-2.rsocial.w1200.jpg",
+        "imdb": "https://www.imdb.com/name/nm0000673/"
+      }]
     }
+    
 
 
     
