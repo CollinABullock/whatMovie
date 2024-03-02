@@ -8378,30 +8378,97 @@ const moviesArray = [
         "imdb": "https://www.imdb.com/name/nm0001258/"
       }]
     },
-    
-    
-    
+
+    {
+      "item": 275,
+      "title": "Marty",
+      "runtime": 90,
+      "mpaa": "Not Rated",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/e9d6d508f9f2cb49c960058c9256f858193b0472878e33432d8fb129cf56dc95._SX1080_FMjpg_.jpg",
+      "description": "In 'Marty', a lonely and unassuming butcher in the Bronx, Marty Piletti, struggles to find love and companionship. Despite pressure from his family and friends to settle down, Marty remains skeptical of his chances at romance. However, when he meets Clara, a shy schoolteacher, Marty's life takes an unexpected turn as he finds himself falling for her. 'Marty' is a heartwarming tale of love, self-discovery, and the search for happiness.",
+      "genre": ["drama", "romance", "classic"],
+      "link": "https://www.amazon.com/gp/video/detail/B00D5WUIVQ/ref=atv_dp_amz_c_TS5124c5_1_1?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Delbert Mann",
+        "image": "https://static01.nyt.com/images/2007/11/13/arts/mann600.jpg",
+        "imdb": "https://www.imdb.com/name/nm0542776/"
+      }],
+      "actors": [{
+        "name": "Ernest Borgnine",
+        "image": "https://images01.military.com/sites/default/files/styles/full/public/media/veteran-jobs/content-images/2012/07/ernest-borgnine.jpg",
+        "imdb": "https://www.imdb.com/name/nm0000308/"
+      }, {
+        "name": "Betsy Blair",
+        "image": "https://1.bp.blogspot.com/-jxDshZy0SOY/Vz8Q-r1VYnI/AAAAAAAAAVc/n1HySiXhBZIe73W_1j0kHuXGehLN4jX9gCLcB/s1600/betsy%2Bblair%252C%2Bmarty.PNG",
+        "imdb": "https://www.imdb.com/name/nm0086374/"
+      }, {
+        "name": "Esther Minciotti",
+        "image": "https://m.media-amazon.com/images/M/MV5BNTlhMDIxZmUtZmM5Yi00OWY3LThjYzktMjhhNDNhZTcwMDM3XkEyXkFqcGdeQXVyMTI3MDk3MzQ@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0590381/"
+      }]
+    },
+
+    {
+      "item": 276,
+      "title": "The Blue Gardenia",
+      "runtime": 88,
+      "mpaa": "Not Rated",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p7913_v_h8_ac.jpg",
+      "description": "In 'The Blue Gardenia', Norah Larkin, a telephone operator, goes on a blind date with a man named Harry Prebble. When Harry tries to seduce her, Norah defends herself, leading to a tragic accident. Fearing the consequences, Norah flees the scene and struggles with guilt and uncertainty. As the police investigation intensifies, Norah's life becomes increasingly entangled in a web of suspicion and deception.",
+      "genre": ["crime", "drama", "film-noir", "classic"],
+      "link": "https://www.amazon.com/gp/video/detail/B08SBY2J99/ref=atv_dp_amz_c_TS5124c5_1_9?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Fritz Lang",
+        "image": "https://cdn.britannica.com/29/177229-050-ED8DDC93/Fritz-Lang-The-Woman-in-the-Moon.jpg",
+        "imdb": "https://www.imdb.com/name/nm0000485/"
+      }],
+      "actors": [{
+        "name": "Anne Baxter",
+        "image": "https://m.media-amazon.com/images/M/MV5BODZlNTQ3MTItYzNkZi00NmIyLWJhZGUtMGVhNWM3ZGJhZjhkXkEyXkFqcGdeQXVyMTI3MDk3MzQ@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0000879/"
+      }, {
+        "name": "Richard Conte",
+        "image": "https://m.media-amazon.com/images/M/MV5BZmFjZDM5Y2QtNzQ2MS00ZDM4LTlkZjgtZDE5MGE0YmMyZTU2XkEyXkFqcGdeQXVyMTI3MDk3MzQ@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0002019/"
+      }, {
+        "name": "Ann Sothern",
+        "image": "https://ca-times.brightspotcdn.com/dims4/default/a4c6827/2147483647/strip/false/crop/2048x1634+0+0/resize/1486x1186!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Ff4%2F03%2F7e8639bc3ca7108e66056e7ff7cd%2Fla-me-ann-sothern-20010321-001",
+        "imdb": "https://www.imdb.com/name/nm0815180/"
+      }]
+    },
+
+    {
+      "item": 278,
+      "title": "Finger of Guilt",
+      "runtime": 84,
+      "mpaa": "not-rated",
+      "poster": "",
+      "description": "In 'Finger of Guilt', a hard-boiled detective is hired to investigate a murder case that seems open and shut. However, as he delves deeper into the shadows of the criminal underworld, he uncovers a web of lies, deceit, and betrayal. With time running out and the pressure mounting, the detective must navigate through a maze of danger and deception to uncover the truth before it's too late.",
+      "genre": ["crime", "drama", "film-noir"],
+      "link": "https://www.amazon.com/gp/video/detail/B09GW7VF7B/ref=atv_dp_amz_c_TS5124c5_1_1?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Joseph Losey",
+        "image": "https://m.media-amazon.com/images/S/pv-target-images/39954a728a0b0e3eb6255d6c1e0a986ed0d74a4c5c91343c4dbc023bcf3fbd75.jpg",
+        "imdb": "https://www.imdb.com/name/nm0001480/"
+      }],
+      "actors": [{
+        "name": "Richard Basehart",
+        "image": "https://m.media-amazon.com/images/M/MV5BZWU3ZDk2ZGMtMmI4NS00MmUxLThkODEtNzgzNzU0MGJjMGU1XkEyXkFqcGdeQXVyMTI3MDk3MzQ@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0000853/"
+      }, {
+        "name": "Mary Murphy",
+        "image": "https://i.pinimg.com/736x/0c/92/83/0c92834015304539b605a8b40e7068e4.jpg",
+        "imdb": "https://www.imdb.com/name/nm0614328/"
+      }, {
+        "name": "Paul Douglas",
+        "image": "https://m.media-amazon.com/images/M/MV5BOTgzNjViZTItMDNjNy00OTEzLTk1YzctMWFiODU4NzdlZWNkXkEyXkFqcGdeQXVyMTk2MzI2Ng@@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0235539/"
+      }]
+    }
     
     
 
 
-    
-    
-    
-    
-
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
   ]
 
 
