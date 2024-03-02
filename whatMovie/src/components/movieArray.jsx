@@ -8580,8 +8580,36 @@ const moviesArray = [
         "image": "https://m.media-amazon.com/images/M/MV5BZWE2N2RmN2UtZjRkNC00Mjg4LTkxZTgtMzFmOWRhNmQ5NzQxXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg",
         "imdb": "https://www.imdb.com/name/nm0108261/"
       }]
-    }
+    },
     
+    {
+      "item": 283,
+      "title": "Dark Mountain",
+      "runtime": null,
+      "mpaa": "Not Rated",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/731a0daff177251485f019ed75b8969046c90c7b456e804c7ed5171a03b4222d._UR1920,1080_.jpg",
+      "description": "In 'Dark Mountain', a group of hikers embarks on a journey to explore the remote and treacherous Dark Mountain. However, their adventure takes a sinister turn when they stumble upon a hidden cabin inhabited by a reclusive and mysterious figure. As they unravel the secrets of the mountain, they must confront their deepest fears and fight for survival against unknown dangers lurking in the shadows.",
+      "genre": ["adventure", "drama", "thriller", "film-noir", "classic"],
+      "link": "https://www.amazon.com/gp/video/detail/B07BSXH8CW/ref=atv_dp_amz_c_TS5124c5_1_3?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "William Berke",
+        "image": "https://i.ytimg.com/vi/X1H8R1xnKog/hqdefault.jpg",
+        "imdb": "https://www.imdb.com/name/nm0073758/"
+      }],
+      "actors": [{
+        "name": "Robert Lowery",
+        "image": "https://m.media-amazon.com/images/M/MV5BZjhhNTdjNDMtYzUyNS00N2Y3LTk2MzgtM2I5MzRhNTQ1OWQ1XkEyXkFqcGdeQXVyMzAwOTU1MTk@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0523157/"
+      }, {
+        "name": "Ellen Drew",
+        "image": "https://m.media-amazon.com/images/M/MV5BMGI4Y2JmZTAtMjM1Yy00MGMxLTg1OGYtMzhlODA4ZDFhYzE5XkEyXkFqcGdeQXVyMTI3MDk3MzQ@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0237947/"
+      }, {
+        "name": "Regis Toomey",
+        "image": "https://m.media-amazon.com/images/M/MV5BNDIwYjU1ZjctNTBjMy00N2RkLWFjOGItZTg5MTgxNzc4NWQzXkEyXkFqcGdeQXVyMTI3MDk3MzQ@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0868674/"
+      }]
+    }
     
     
     
