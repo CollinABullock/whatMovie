@@ -8270,7 +8270,7 @@ const moviesArray = [
       "link": "https://www.amazon.com/gp/video/detail/B082KG61B8/ref=atv_dp_amz_c_TS5124c5_1_5?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
       "director": [{
         "name": "Sidney Lumet",
-        "image": "",
+        "image": "https://media.baselineresearch.com/images/418115/418115_full.jpg",
         "imdb": "https://www.imdb.com/name/nm0001486/"
       }],
       "actors": [{
@@ -8303,23 +8303,84 @@ const moviesArray = [
       "link": "https://www.amazon.com/gp/video/detail/0R1DYZPH9XC72I479NEXF195HL/ref=atv_dp_cnc_0_1",
       "director": [{
         "name": "Sidney Lumet",
-        "image": "",
+        "image": "https://media.baselineresearch.com/images/418115/418115_full.jpg",
         "imdb": "https://www.imdb.com/name/nm0001486/"
       }],
       "actors": [{
         "name": "Henry Fonda",
-        "image": "",
+        "image": "https://cdn.britannica.com/48/194748-050-98A6C24B/Henry-Fonda-12-Angry-Men-Sidney-Lumet.jpg",
         "imdb": "https://www.imdb.com/name/nm0000020/"
       }, {
         "name": "Lee J. Cobb",
-        "image": "",
+        "image": "https://www.bestmoviesbyfarr.com/static-assets/blobs/images/articles/background/2019/11/LeeCobb2.jpeg",
         "imdb": "https://www.imdb.com/name/nm0002012/"
       }, {
         "name": "Martin Balsam",
-        "image": "",
+        "image": "https://m.media-amazon.com/images/M/MV5BYTYyYjhmY2QtMjc1YS00Y2Y0LTljOWMtMWE1NmVkOWExNTk5XkEyXkFqcGdeQXVyMTI3MDk3MzQ@._V1_.jpg",
         "imdb": "https://www.imdb.com/name/nm0000842/"
       }]
-    }
+    },
+
+    {
+      "item": 273,
+      "title": "Inherit the Wind",
+      "runtime": 128,
+      "mpaa": "Not Rated",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/f8887ec28fc91523a93963af76debfa4ada9b16bdd69f03e38415f5a6757b17c._UR1920,1080_SX720_FMjpg_.jpg",
+      "description": "In 'Inherit the Wind', a small-town schoolteacher is put on trial for teaching evolution in violation of state law. As the case unfolds, renowned lawyers Henry Drummond and Matthew Brady clash in a courtroom battle that captivates the nation. Inspired by the Scopes Monkey Trial, the film explores themes of freedom of speech, intellectual freedom, and the conflict between religion and science.",
+      "genre": ["court-room", "drama", "classic"],
+      "link": "https://www.amazon.com/gp/video/detail/B0B6DGTJHT/ref=atv_dp_amz_c_TS5124c5_1_1?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Stanley Kramer",
+        "image": "https://d26oc3sg82pgk3.cloudfront.net/files/media/edit/image/15368/article_full%401x.jpg",
+        "imdb": "https://www.imdb.com/name/nm0001445/"
+      }],
+      "actors": [{
+        "name": "Spencer Tracy",
+        "image": "https://cdn.britannica.com/85/174785-050-6708708D/Spencer-Tracy-Fury-Fritz-Lang.jpg",
+        "imdb": "https://www.imdb.com/name/nm0000073/"
+      }, {
+        "name": "Fredric March",
+        "image": "https://www.hollywoodreporter.com/wp-content/uploads/2022/08/Fredric-March-Portrait-1-Everett-PBDFRMA_EC209-H-2022.jpg?w=1296",
+        "imdb": "https://www.imdb.com/name/nm0000054/"
+      }, {
+        "name": "Gene Kelly",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*PQfWhDZY1lwCjQ7kx4gDfA.jpeg",
+        "imdb": "https://www.imdb.com/name/nm0000037/"
+      }]
+    },
+
+    {
+      "item": 274,
+      "title": "Sayonara",
+      "runtime": 147,
+      "mpaa": "Not Rated",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/37998ccf83517ba4412c011bda8690fd95df58cd29f2e9768687c23c12f70801._SX1080_FMjpg_.jpg",
+      "description": "In 'Sayonara', Major Gruver, an American air force officer stationed in Japan during the Korean War, falls in love with Hana-Ogi, a Japanese actress. Their interracial romance faces opposition from both American and Japanese society, leading to conflicts with military regulations and cultural norms. As they struggle to overcome prejudice and find happiness, 'Sayonara' explores themes of love, identity, and the impact of war.",
+      "genre": ["drama", "romance", "war", "classic"],
+      "link": "https://www.amazon.com/gp/video/detail/B0817RWPN8/ref=atv_dp_amz_c_TS5124c5_1_2?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Joshua Logan",
+        "image": "https://images.nypl.org/index.php?id=TH-52118&t=w",
+        "imdb": "https://www.imdb.com/name/nm0517035/"
+      }],
+      "actors": [{
+        "name": "Marlon Brando",
+        "image": "https://www.hollywoodreporter.com/wp-content/uploads/2015/06/marlon_brando_last_tango.jpg",
+        "imdb": "https://www.imdb.com/name/nm0000008/"
+      }, {
+        "name": "Patricia Owens",
+        "image": "https://media.assettype.com/outlookindia/import/uploadimage/library/16_9/16_9_5/IMAGE_1693511313.webp?w=1080&auto=format%2Ccompress&fit=max",
+        "imdb": "https://www.imdb.com/name/nm0654074/"
+      }, {
+        "name": "James Garner",
+        "image": "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-19008-140720-jim-rockford-james-garner-1800-1405872967.jpg?w=1581&h=1054&crop=1",
+        "imdb": "https://www.imdb.com/name/nm0001258/"
+      }]
+    },
+    
+    
+    
     
     
 
