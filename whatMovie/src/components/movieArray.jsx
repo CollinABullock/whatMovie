@@ -5335,7 +5335,7 @@ const moviesArray = [
   "title": "Killing Them Softly",
   "runtime": 97,
   "mpaa": "R",
-  "poster": "https://m.media-amazon.com/images/I/71z4jNeI4-L._AC_SY679_.jpg",
+  "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/8c806135-2347-4d5d-8876-15df3de8ecef/9c7c3e528de5e582a928db5d31cf0c6b88f713b3.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
   "description": "A professional enforcer named Jackie Cogan is hired to investigate a heist that took place during a high-stakes, mob-protected poker game. As Jackie delves deeper into the criminal underworld, he uncovers a tangled web of deceit and betrayal.",
   "genre": ["crime", "thriller"],
   "link": "https://play.max.com/video/watch/4348b149-4688-4032-a844-fbf40511c014/66d5918f-15c4-4cc7-b9fb-c7463630bbab",
@@ -8609,7 +8609,9 @@ const moviesArray = [
         "image": "https://m.media-amazon.com/images/M/MV5BNDIwYjU1ZjctNTBjMy00N2RkLWFjOGItZTg5MTgxNzc4NWQzXkEyXkFqcGdeQXVyMTI3MDk3MzQ@._V1_.jpg",
         "imdb": "https://www.imdb.com/name/nm0868674/"
       }]
-    }
+    },
+
+
     
     
     
