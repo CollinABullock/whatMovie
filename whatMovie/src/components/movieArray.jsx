@@ -8442,7 +8442,7 @@ const moviesArray = [
       "title": "Finger of Guilt",
       "runtime": 84,
       "mpaa": "not-rated",
-      "poster": "",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/39954a728a0b0e3eb6255d6c1e0a986ed0d74a4c5c91343c4dbc023bcf3fbd75.jpg",
       "description": "In 'Finger of Guilt', a hard-boiled detective is hired to investigate a murder case that seems open and shut. However, as he delves deeper into the shadows of the criminal underworld, he uncovers a web of lies, deceit, and betrayal. With time running out and the pressure mounting, the detective must navigate through a maze of danger and deception to uncover the truth before it's too late.",
       "genre": ["crime", "drama", "film-noir", "classic"],
       "link": "https://www.amazon.com/gp/video/detail/B09GW7VF7B/ref=atv_dp_amz_c_TS5124c5_1_1?jic=16%7CCgNhbGwSA2FsbA%3D%3D",

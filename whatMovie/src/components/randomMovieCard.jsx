@@ -150,7 +150,7 @@ if (preferredDirectors && preferredDirectors.length > 0) {
   };
 
   return (
-    <div className='randomCard' style={{ textAlign: "center", width: "100%" }}>
+    <div className='randomCard' style={{ textAlign: "center", width: "60%" }}>
       {randomMovie ? (
         <motion.div
           key={animationKey}
