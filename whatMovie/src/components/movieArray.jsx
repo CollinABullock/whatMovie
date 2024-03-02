@@ -1947,7 +1947,7 @@ const moviesArray = [
     "link": "https://www.netflix.com/title/70137790",
     "director": [{
     "name": "Steve Antin",
-    "image": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTk0MjA0Nzc4OF5BMl5BanBnXkFyZXN1bWU@._V1_.jpg",
     "imdb": "https://www.imdb.com/name/nm0031078/?ref_=tt_ov_dr",
     }],
     "actors": [{
@@ -2277,7 +2277,7 @@ const moviesArray = [
     "link": "https://www.netflix.com/title/81260280",
     "director": [{
     "name": "Edward Berger",
-    "image": "https://www.imdb.com/name/nm0074163/",
+    "image": "https://www.hollywoodreporter.com/wp-content/uploads/2023/02/Edward-Berger-Getty-Remy-Steiner-Getty-Images-for-Netflix.jpg?w=1024",
     "imdb": "https://www.imdb.com/name/nm0074163/?ref_=tt_ov_dr",
     }],
     "actors": [{
