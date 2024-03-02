@@ -5366,7 +5366,7 @@ const moviesArray = [
   "mpaa": "R",
   "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/04d2059a-0056-4693-93cd-5fd1b7b02d4e/394696225b571c335b42a7a9329992b5f33ba8fb.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
   "description": "Pulp Fiction is a 1994 crime film directed by Quentin Tarantino. The film intertwines multiple storylines involving two hitmen, a gangster and his wife, a boxer, and a pair of petty criminals. Through a series of nonlinear narratives, Pulp Fiction explores themes of crime, redemption, and the absurdities of human behavior.",
-  "genre": ["crime", "drama", "film-noir", "comedy"],
+  "genre": ["crime", "drama", "film-noir", "comedy", "indie"],
   "link": "https://play.max.com/video/watch/ffab6998-2e83-488f-9723-d0f59dcdb1be/04378e40-38c5-475b-8aa4-4e7eca539412",
   "director": [{
     "name": "Quentin Tarantino",
@@ -8030,7 +8030,7 @@ const moviesArray = [
       "mpaa": "R",
       "poster": "https://m.media-amazon.com/images/S/pv-target-images/899c0d259c0a9cac75bedbabed1ee1d43f8b75a9005dfe4f491cb633441f14fb.jpg",
       "description": "In 'Chasing Amy', a comic book artist falls for a fellow artist, who happens to be a lesbian. As he pursues a romantic relationship with her, he struggles with his own insecurities and past experiences, leading to complications and self-discovery.",
-      "genre": ["comedy", "drama", "romance"],
+      "genre": ["comedy", "drama", "romance", "indie"],
       "link": "https://www.amazon.com/gp/video/detail/B0CP33C55T/ref=atv_mv_hom_c_5crrHZ_brws_4_2?jic=44%7CCgtmcmVld2l0aGFkcxIMc3Vic2NyaXB0aW9uEgRzdm9k",
       "director": [{
         "name": "Kevin Smith",
@@ -8696,20 +8696,135 @@ const moviesArray = [
         "image": "https://m.media-amazon.com/images/M/MV5BZDBhZTExOTMtZDkwNi00NGZhLTk3ODEtNmEwZGE3MmUyMDEzXkEyXkFqcGdeQXRyYW5zY29kZS13b3JrZmxvdw@@._V1_.jpg",
         "imdb": "https://www.imdb.com/name/nm2596314/"
       }]
+    },
+
+    {
+      "item": 287,
+      "title": "Biutiful",
+      "runtime": "148 minutes",
+      "mpaa": "R",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/8fd61f535a4694cad709b4037e9de5a684a9a67ef57ffb6f2d5d0a35e5979734.jpg",
+      "description": "In 'Biutiful', Uxbal, a troubled man living in Barcelona, struggles to reconcile his role as a single father with his involvement in illegal activities. As he grapples with his terminal illness and confronts the consequences of his actions, Uxbal navigates the gritty underworld of the city while striving to find redemption and protect his children. Through moments of darkness and despair, Uxbal seeks beauty and meaning in the midst of life's struggles.",
+      "genre": ["drama", "foreign"],
+      "link": "https://www.amazon.com/gp/video/detail/B094F2CQMX/ref=atv_dp_amz_c_TS5124c5_1_3?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Alejandro González Iñárritu",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTQzNjk2MTM5MV5BMl5BanBnXkFtZTcwOTk2MDE1Mw@@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0327944/"
+      }],
+      "actors": [{
+        "name": "Javier Bardem",
+        "image": "https://img.huffingtonpost.com/asset/5cf826312500005f0ddbfdd9.jpeg?ops=scalefit_720_noupscale",
+        "imdb": "https://www.imdb.com/name/nm0000849/"
+      }, {
+        "name": "Maricel Álvarez",
+        "image": "https://media.gettyimages.com/id/1412242309/photo/portrait-de-lactrice-maricel-alvarez-le-3-septembre-2021-%C3%A0-venise.jpg?s=612x612&w=gi&k=20&c=W--NwYURhIuTq0v2DpEJ0rLorLZw9u-_TZHblDP_HHY=",
+        "imdb": "https://www.imdb.com/name/nm2356887/"
+      }, {
+        "name": "Hanaa Bouchaib",
+        "image": "https://images.squarespace-cdn.com/content/v1/5a7dcf69d7bdce185884a6b5/1550087758501-4EHFQBQWRA21CGDK4R75/1305116243_1.jpg",
+        "imdb": "https://www.imdb.com/name/nm4014791/"
+      }]
+    },
+
+    {
+      "item": 288,
+      "title": "Another Round",
+      "runtime": "117 minutes",
+      "mpaa": "Not Rated",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/a567f43be5a589e93f2144f68c432edb94b99971035a7acb6ee70b566caaa509.jpg",
+      "description": "In 'Another Round', four high school teachers, stuck in a rut and feeling uninspired, decide to experiment with maintaining a constant level of alcohol in their blood throughout the day. Initially, the experiment leads to increased productivity and a renewed sense of vitality. However, as they push the boundaries of their experiment further, they find themselves grappling with the consequences of their actions and questioning the true meaning of happiness and fulfillment.",
+      "genre": ["drama", "foreign"],
+      "link": "https://www.amazon.com/gp/video/detail/B08PCQVX94/ref=atv_dp_amz_c_TS5124c5_1_14?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Thomas Vinterberg",
+        "image": "https://hips.hearstapps.com/hmg-prod/images/thomas-vinterberg-and-helene-reingaard-neumann-attend-the-news-photo-1619398993.?crop=1xw:0.7515xh;center,top&resize=1200:*",
+        "imdb": "https://www.imdb.com/name/nm0899123/"
+      }],
+      "actors": [{
+        "name": "Mads Mikkelsen",
+        "image": "https://the-talks.com/wp-content/uploads/2023/10/Mads-Mikkelsen-01.jpg",
+        "imdb": "https://www.imdb.com/name/nm0586568/"
+      }, {
+        "name": "Thomas Bo Larsen",
+        "image": "https://bt.bmcdn.dk/media/cache/resolve/image_1240/image/148/1484299/23418092-the-lawyer_ep201_13-002---20.jpeg",
+        "imdb": "https://www.imdb.com/name/nm0479262/"
+      }, {
+        "name": "Magnus Millang",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTI5NzcxNGYtMmY1ZC00NGQyLWJhZTEtNzYyNDY0ZTM4Yzc5XkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0589292/"
+      }]
+    },
+
+    {
+      "item": 289,
+      "title": "Ghost World",
+      "runtime": "111 minutes",
+      "mpaa": "R",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/bd9d98edcf28563d5e619df7319c44581ee5b2eb22be1954c21263f904c6ab9e._UR1920,1080_SX720_FMjpg_.jpg",
+      "description": "In 'Ghost World', best friends Enid and Rebecca navigate the complexities of adolescence and the transition to adulthood in their suburban hometown. As they grapple with the pressures of conformity and societal expectations, they embark on a series of misadventures that lead them to confront their own identities and the uncertain future that lies ahead. With sharp wit and keen observation, 'Ghost World' offers a poignant exploration of friendship, disillusionment, and the search for authenticity.",
+      "genre": ["comedy", "drama", "teen"],
+      "link": "https://www.amazon.com/gp/video/detail/B0CR9HCBZD/ref=atv_dp_amz_c_TS5124c5_1_4?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Terry Zwigoff",
+        "image": "https://www.nme.com/wp-content/uploads/2019/09/terry-zwigoff.jpg",
+        "imdb": "https://www.imdb.com/name/nm0957240/"
+      }],
+      "actors": [{
+        "name": "Thora Birch",
+        "image": "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2014/1/23/1390492409802/Thora-Birch-011.jpg?width=465&dpr=1&s=none",
+        "imdb": "https://www.imdb.com/name/nm0000301/"
+      }, {
+        "name": "Scarlett Johansson",
+      "image": "https://dmn-dallas-news-prod.cdn.arcpublishing.com/resizer/UQ836S9qDWRgX1TYCkzykIuWIK8=/1660x1107/smart/filters:no_upscale()/cloudfront-us-east-1.images.arcpublishing.com/dmn/63MMCIXPOAOUKAMXJMW7HTAWCU.jpg",
+      "imdb": "https://www.imdb.com/name/nm0424060/",
+      }, {
+        "name": "Steve Buscemi",
+      "image": "https://mediaproxy.snopes.com/width/1200/height/900/https://media.snopes.com/2015/05/buscemi-1.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000114/"
+      }]
+    },
+
+    {
+      "item": 290,
+      "title": "Living in Oblivion",
+      "runtime": "90 minutes",
+      "mpaa": "R",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/22ef16c0e05bfb5df6f308b29e31a1ad73b7ff31fd5d4160be969e6be4bc8f90.jpg",
+      "description": "'Living in Oblivion' follows a film director struggling to shoot a low-budget independent film. As he contends with a myriad of obstacles, including technical difficulties, egotistical actors, and personal insecurities, the line between reality and fiction blurs, leading to a series of comedic and surreal encounters on set. Through its satirical lens, the film explores the chaotic and unpredictable nature of the filmmaking process, while offering insights into the dreams, frustrations, and aspirations of those involved.",
+      "genre": ["comedy", "drama", "indie"],
+      "link": "https://www.amazon.com/gp/video/detail/B07SZBX8VV/ref=atv_dp_amz_c_TS5124c5_1_1?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Tom DiCillo",
+        "image": "https://www.tomdicillo.com/wp-content/uploads/2023/06/haleluyah-8-1-scaled.jpg",
+        "imdb": "https://www.imdb.com/name/nm0225726/"
+      }],
+      "actors": [{
+        "name": "Steve Buscemi",
+      "image": "https://mediaproxy.snopes.com/width/1200/height/900/https://media.snopes.com/2015/05/buscemi-1.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000114/"
+      }, {
+        "name": "Catherine Keener",
+        "image": "https://www.looper.com/img/gallery/catherine-keeners-seinfeld-appearance-was-all-thanks-to-a-last-minute-casting-change/intro-1673446797.jpg",
+        "imdb": "https://www.imdb.com/name/nm0001416/"
+      }, {
+        "name": "Dermot Mulroney",
+        "image": "https://deadline.com/wp-content/uploads/2024/02/Dermot-Mulroney.jpg",
+        "imdb": "https://www.imdb.com/name/nm0000551/"
+      }, {
+        "name": "Peter Dinklage",
+  "image": "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/8/5/1438770901233/Peter-Dinklage--009.jpg?width=700&quality=85&auto=format&fit=max&s=2ded45e451e959c1404eabe01bb1ec7d",
+  "imdb": "https://www.imdb.com/name/nm0227759/"
+      }]
     }
     
 
-
-    
-    
-    
     
     
 
-
+    
+    
   ]
-
-
 ]
 
 const netflixArray = moviesArray[0];
