@@ -8444,7 +8444,7 @@ const moviesArray = [
       "mpaa": "not-rated",
       "poster": "",
       "description": "In 'Finger of Guilt', a hard-boiled detective is hired to investigate a murder case that seems open and shut. However, as he delves deeper into the shadows of the criminal underworld, he uncovers a web of lies, deceit, and betrayal. With time running out and the pressure mounting, the detective must navigate through a maze of danger and deception to uncover the truth before it's too late.",
-      "genre": ["crime", "drama", "film-noir"],
+      "genre": ["crime", "drama", "film-noir", "classic"],
       "link": "https://www.amazon.com/gp/video/detail/B09GW7VF7B/ref=atv_dp_amz_c_TS5124c5_1_1?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
       "director": [{
         "name": "Joseph Losey",
@@ -8464,7 +8464,127 @@ const moviesArray = [
         "image": "https://m.media-amazon.com/images/M/MV5BOTgzNjViZTItMDNjNy00OTEzLTk1YzctMWFiODU4NzdlZWNkXkEyXkFqcGdeQXVyMTk2MzI2Ng@@._V1_.jpg",
         "imdb": "https://www.imdb.com/name/nm0235539/"
       }]
+    },
+
+    {
+      "item": 279,
+      "title": "Please Murder Me!",
+      "runtime": 71,
+      "mpaa": "not rated",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p60924_v_h8_ac.jpg",
+      "description": "In 'Please Murder Me!', attorney Craig Carlson finds himself defending his best friend, who is accused of murdering his wife. As Carlson delves into the case, he uncovers a tangled web of deceit, jealousy, and betrayal. With the stakes high and the evidence mounting against his friend, Carlson must race against time to unravel the truth and prove his innocence.",
+      "genre": ["crime", "drama", "film-noir", "classic"],
+      "link": "https://www.amazon.com/gp/video/detail/B0BXPBGRF7/ref=atv_dp_amz_c_TS5124c5_1_4?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Peter Godfrey",
+        "image": "https://m.media-amazon.com/images/M/MV5BZjZmMjBiYzUtZmE2Ni00MjA1LThkZjktNjY0Y2JiMDk5MGUzXkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0323758/"
+      }],
+      "actors": [{
+        "name": "Raymond Burr",
+        "image": "https://www.remindmagazine.com/wp-content/uploads/2023/09/ironside-burr-1014x570.jpg",
+        "imdb": "https://www.imdb.com/name/nm0000994/",
+      }, {
+        "name": "Angela Lansbury",
+        "image": "https://static01.nyt.com/images/2022/10/12/obituaries/lw-angela-lansbury-video/lw-angela-lansbury-video-superJumbo.jpg",
+        "imdb": "https://www.imdb.com/name/nm0001450/"
+      }, {
+        "name": "Dick Foran",
+        "image": "https://m.media-amazon.com/images/M/MV5BMDMwN2MyMWEtODNhNC00ZjYxLTg3NDctYjE3YWU0ZjFkNDUxXkEyXkFqcGdeQXVyMTI3MDk3MzQ@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0286249/"
+      }]
+    },
+
+    {
+      "item": 280,
+      "title": "Shed No Tears",
+      "runtime": 68,
+      "mpaa": "not rated",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/0f54365b4dc41e6e8f206b546cff59ccbc246e2d3b3538a56609aee48745fb9e._UR1920,1080_.jpg",
+      "description": "In 'Shed No Tears', a woman named Phyllis Burton returns to her hometown to confront her past and reconcile with her estranged family. However, she soon discovers that dark secrets and buried resentments threaten to tear her family apart. As Phyllis navigates the complexities of familial relationships, she must confront her own demons and find a way to shed the tears of the past to embrace the future.",
+      "genre": ["drama", "film-noir", "classic"],
+      "link": "https://www.amazon.com/gp/video/detail/B01N2Z3MFU/ref=atv_dp_amz_c_TS5124c5_1_2?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Jean Yarbrough",
+        "image": "https://static.wikia.nocookie.net/absolutehorror/images/b/b0/Jean_Yarbrough.jpg/revision/latest/scale-to-width-down/320?cb=20211004173543",
+        "imdb": "https://www.imdb.com/name/nm0945469/"
+      }],
+      "actors": [{
+        "name": "Wallace Ford",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTdkZDBlZGQtNDZjZC00ODhkLTk1ODgtYTZjZGVhMDg4NDA4XkEyXkFqcGdeQXVyMTI3MDk3MzQ@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0286030/"
+      }, {
+        "name": "June Vincent",
+        "image": "https://m.media-amazon.com/images/M/MV5BMDRmNjNlOWEtNTQ1Zi00MjM3LWE5ZGUtNWNhODIxZDM4YWJhXkEyXkFqcGdeQXVyNTk5NzQ5Ng@@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0898554/"
+      }, {
+        "name": "Mark Roberts",
+        "image": "https://m.media-amazon.com/images/M/MV5BNTVhMzIyZGQtNmRhZC00YWIxLWEwM2UtMWRjYTZhZTBjMmZkXkEyXkFqcGdeQXVyMTEwODg2MDY@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0731312/"
+      }]
+    },
+
+    {
+      "item": 281,
+      "title": "Apology for Murder",
+      "runtime": 64,
+      "mpaa": "Not Rated",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/fbab127255e90c74b1d4bb8ad36d255243850de9857fa97904a9b55250bd9b90.jpg",
+      "description": "In 'Apology for Murder', a renowned lawyer, Howard Malloy, finds himself entangled in a web of deceit and betrayal when he takes on the case of a woman accused of murder. As Malloy delves deeper into the investigation, he uncovers shocking truths and hidden motives that challenge his beliefs about justice and morality. With time running out and the stakes higher than ever, Malloy must race against the clock to uncover the truth and prove his client's innocence.",
+      "genre": ["crime", "drama", "mystery", "film-noir", "classic"],
+      "link": "https://www.amazon.com/gp/video/detail/B09HLZM21H/ref=atv_dp_amz_c_TS5124c5_1_5?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Sam Newfield",
+        "image": "https://global.discourse-cdn.com/business7/uploads/mst3k/original/3X/1/2/12bce2fd6de334d3f30b11ccbdc5645af223f8fa.png",
+        "imdb": "https://www.imdb.com/name/nm0627869/"
+      }],
+      "actors": [{
+        "name": "Ann Savage",
+        "image": "https://m.media-amazon.com/images/M/MV5BM2E4NzQ2ZjktMWUxYi00ZGRkLTgxZjctYzgxYzU5YWZiNjNlXkEyXkFqcGdeQXVyMTI3MDk3MzQ@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0767634/"
+      }, {
+        "name": "Hugh Beaumont",
+        "image": "https://movieguide.b-cdn.net/wp-content/uploads/2020/08/Hugh-Beaumont.jpg",
+        "imdb": "https://www.imdb.com/name/nm0064675/"
+      }, {
+        "name": "Russell Hicks",
+        "image": "https://m.media-amazon.com/images/M/MV5BZWFhNTNjZmItNDlhOC00NWRmLTk3MTUtMWEwZDliZjMwMDE5XkEyXkFqcGdeQXVyMTI3MDk3MzQ@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0382830/"
+      }]
+    },
+
+    {
+      "item": 282,
+      "title": "The Man in the Net",
+      "runtime": 97,
+      "mpaa": "Not Rated",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/399008f9d3ebd48cd3b28d6cba83b6967017f961cfa1fc451e7a0192736413a8.jpg",
+      "description": "In 'The Man in the Net', an artist named John Hamilton relocates to a small town with his wife, Linda, seeking peace and inspiration. However, their idyllic life is shattered when John becomes the prime suspect in a murder investigation. As the evidence mounts against him and the town turns against him, John must fight to clear his name and uncover the truth behind the crime.",
+      "genre": ["crime", "drama", "mystery", "film-noir", "classic"],
+      "link": "https://www.amazon.com/gp/video/detail/B00GUXQV2W/ref=atv_dp_amz_c_TS5124c5_1_1?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
+      "director": [{
+        "name": "Michael Curtiz",
+        "image": "https://cloudfront-eu-central-1.images.arcpublishing.com/irishtimes/L3A3TSUEMLYW2CT3ZDPR5HFLGY.jpg",
+        "imdb": "https://www.imdb.com/name/nm0002031/"
+      }],
+      "actors": [{
+        "name": "Alan Ladd",
+        "image": "https://lh3.googleusercontent.com/proxy/OZJOmFl7xqye8fdBPUJj9ohDkqJn2KK1fyJCkGhzOTCuKl6XFMBxdb47urJqG9z3Wf5nN_p-ZYlCdbeWBqFiFnJ9O538zlXWzX7-Z6u5-SaGRaneJNBNbvGvzOvgEuW85FTc1B5-lXd9DzZlc669Vwc",
+        "imdb": "https://www.imdb.com/name/nm0000040/"
+      }, {
+        "name": "Carolyn Jones",
+        "image": "https://i.ytimg.com/vi/ITr-5ZJAGyk/hqdefault.jpg",
+        "imdb": "https://www.imdb.com/name/nm0428985/"
+      }, {
+        "name": "Diane Brewster",
+        "image": "https://m.media-amazon.com/images/M/MV5BZWE2N2RmN2UtZjRkNC00Mjg4LTkxZTgtMzFmOWRhNmQ5NzQxXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0108261/"
+      }]
     }
+    
+    
+    
+    
     
     
 
