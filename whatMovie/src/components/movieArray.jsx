@@ -83,8 +83,325 @@ const moviesArray = [
       "actors": []
     },
     
+    {
+      "item": 304,
+      "title": "Abducted in Plain Sight",
+      "runtime": 91,
+      "mpaa": "Not Rated",
+      "poster": "https://occ-0-90-92.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABWTU_9PsnFxT3CMSj0XD1TbbTIeZ5FCjsnskd7E4fIqYDJ7vuhjeUv4rzy8ecX_lprC6Ki3w1iHAB_kuoCK4dwac_m3HT9M7BXr6.jpg?r=250",
+      "description": "In 'Abducted in Plain Sight', a documentary film, recounts the shocking true story of the Broberg family, whose daughter Jan was abducted by a trusted neighbor named Robert Berchtold. The film delves into the disturbing events leading up to Jan's disappearance, including Berchtold's manipulation and grooming of Jan and her family. Through interviews and archival footage, 'Abducted in Plain Sight' explores the complexities of child abduction and the devastating impact it has on families.",
+      "genre": ["documentary", "crime"],
+      "link": "https://www.netflix.com/title/81000864",
+      "director": [{
+        "name": "Skye Borgman",
+        "image": "https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2023-01/Skye-Borgman-te-230123-3e126c.jpg",
+        "imdb": "https://www.imdb.com/name/nm1453337/"
+      }],
+      "actors": []
+    },
+    
+    {
+      "item": 305,
+      "title": "Memories of a Murderer: The Nilsen Tapes",
+      "runtime": 84,
+      "mpaa": "Not Rated",
+      "poster": "https://occ-0-90-92.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABTpnwqhuOhMCcINMC4j-ZBT_KVyWDvA-rhERTkM5mhb0FzcnXHsQdVOs7zm7Lk6Fp1bUrZOOsnfwrwR2R-owxYCDqD5gwD8bPsrjbUQr5SM3rSoZk_YLZYTVgDdNENR8toQMKA.jpg?r=00d",
+      "description": "In 'Memories of a Murderer: The Nilsen Tapes', a documentary film, delves into the mind of one of Britain's most notorious serial killers, Dennis Nilsen, who confessed to the murders of at least 15 young men between 1978 and 1983. Through recordings of Nilsen's own voice from his prison cell, as well as interviews with detectives and experts, the film explores the chilling details of Nilsen's crimes and the lasting impact they had on the victims' families and society.",
+      "genre": ["documentary", "crime"],
+      "link": "https://www.netflix.com/title/81097791",
+      "director": [{
+        "name": "Michael Harte",
+        "image": "https://www.goldderby.com/wp-content/uploads/2023/11/Michael-Harte.jpg",
+        "imdb": "https://www.imdb.com/name/nm1192488/"
+      }],
+      "actors": []
+    },
+    
+    {
+      "item": 306,
+      "title": "American Murder: The Family Next Door",
+      "runtime": 82,
+      "mpaa": "Not Rated",
+      "poster": "https://caffeinatedpete.files.wordpress.com/2020/10/chris01.jpg",
+      "description": "In 'American Murder: The Family Next Door', a documentary film, explores the tragic case of the Watts family murders, where Chris Watts killed his pregnant wife Shanann and their two daughters, Bella and Celeste, in 2018. The film utilizes archival footage, social media posts, law enforcement recordings, and text messages to piece together the events leading up to the murders and their aftermath. Through interviews and evidence, 'American Murder' offers insight into the dynamics of the family and the disturbing realities behind the facade.",
+      "genre": ["documentary", "crime"],
+      "link": "https://www.netflix.com/title/81130130",
+      "director": [{
+        "name": "Jenny Popplewell",
+        "image": "https://d11p0alxbet5ud.cloudfront.net/Pictures/1024x536/7/7/6/1273776_jennypopplewell_203552.jpg",
+        "imdb": "https://www.imdb.com/name/nm1418469/"
+      }],
+      "actors": []
+    },
 
+    {    
+      "item": "307",
+      "title": "Girl In The Picture",
+      "runtime": 102,
+      "mpaa": "Not Rated",
+      "poster": "https://occ-0-90-92.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABXgTlx0lMAt4G0LYzyci35w8XtY16aMyRP5gGSlQ-lbxiwE5vlKq5SryJGEQSfezMlzv5JXmmxxwTk-Jm4uMded1rA5waKnUyjUImeyvYoJhcmKBSUzohTuWHJbfTeh1OwbQdQ.jpg?r=3aa",
+      "description": "In this documentary, a woman found dying by a road leaves behind a son, a man claiming to be her husband — and a mystery that unfolds like a nightmare.",
+	"genre": ["documentary", "mystery"],
+    "link": "https://www.netflix.com/title/81212487",
+    "director": [{
+      "name": "Skye Borgman",
+      "image": "https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2023-01/Skye-Borgman-te-230123-3e126c.jpg",
+      "imdb": "https://www.imdb.com/name/nm1453337/"
+    }],
+    "actors": []
+    },
 
+    {    
+      "item": "308",
+      "title": "Take Care Of Maya",
+      "runtime": 104,
+      "mpaa": "Not Rated",
+      "poster": "https://occ-0-90-92.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABePp2lE9pAVCoBPAvfnWUuWErkdp7MIkDyIS-SjjSx59sXcutQaxfLzW2yWTKbWK3gJmgJuHHJ6U5W5HoqKdvKD0Ufo53ZNimjQDeojGb2mGmMlgN3OQ2w0mYkJjNnVkHPb5KQ.jpg?r=b90",
+      "description": "In this documentary, an anguished couple in Florida battles authorities for custody of their ailing daughter after being accused of child abuse.",
+	"genre": ["documentary"],
+    "link": "https://www.netflix.com/title/81349305",
+    "director": [{
+    "name": "Henry Roosevelt",
+    "image": "https://cdn.realscreen.com/wp/wp-content/uploads/2017/05/savingbrintonweb.jpg",
+    "imdb": "https://www.imdb.com/name/nm3943473/?ref_=tt_ov_dr",
+    }],
+    "actors": []
+    },
+
+    {    
+      "item": "309",
+      "title": "Missing: The Lucie Blackman Case",
+      "runtime": 82,
+      "mpaa": "Not Rated",
+      "poster": "https://occ-0-90-92.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABU420B4JFxkiiPWWgbibibbBNuktBrwHVQgm2I5NJyioKRHKAx7ltIZFP8c9LYF0-ip0jNCovqYlthjgyE2TZBmg_sZSbYuwlh1SN-uGwlBq9HMoyHfudCzjXXwQ_rJgjimliw.jpg?r=325",
+      "description": "July 1, 2000. British 21-year-old Lucie Blackman goes missing in Tokyo, sparking an international investigation — and an unyielding quest for justice.",
+	"genre": ["documentary", "crime", "mystery"],
+    "link": "https://www.netflix.com/title/81671836",
+    "director": [{
+    "name": "Hyoe Yamamoto",
+    "image": "https://read.indie-visual.net/wp-content/uploads/2019/08/Yamamoto-Interview-Feature.jpg",
+    "imdb": "https://www.imdb.com/name/nm0945424/?ref_=tt_ov_dr",
+    }],
+    "actors": [{
+      "name": "Lucie Blackman",
+      "image": "https://media.glamourmagazine.co.uk/photos/64ae7469b673931dd09c9adf/16:9/w_1920,h_1080,c_limit/MISSING%20LUCIE%20BLACKMAN%20120723%20default.jpg",
+      "imdb": "https://www.imdb.com/name/nm15087864/?ref_=tt_cl_t_4"
+    }]
+    },
+
+    {    
+      "item": "310",
+      "title": "Lover Stalker Killer",
+      "runtime": 90,
+      "mpaa": "Not Rated",
+      "poster": "https://occ-0-90-92.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABbUS-rEb5Ev1X_yT_q2RcPBe8bi8oNgh3UKIOILxHV0mcv2j9EzJ35Tl-HABYmNxUuigtY_b0ce2olAorUl1A5t5ckwlgCKkIJU8XH2gbwP2gqcR3P_grZUOh6GSOEqlMKe-hTOoR8XSCoSgugLIA4yd-quNkq6PvQE541tv95rk-ov-N78w4mehK0CCDmRcvdFjprWfqGBvhDoUHpLC192HHr31WEZKznj_dLIlYtzRZjS2R6QQKLrEWhD0VK4RfbJvqsW49OzLC1eAm5OeE1B2ujwcurKk7leFhU8kwnNTpt6JriRskTWlpg.jpg?r=8a4",
+      "description": "In this twisting documentary, a mechanic tries online dating for the first time and meets a woman who takes romantic obsession to a deadly extreme.",
+	"genre": ["documentary", "thriller"],
+    "link": "https://www.netflix.com/title/81611991",
+    "director": [{
+    "name": "Sam Hobkinson",
+    "image": "https://images.squarespace-cdn.com/content/v1/5922aa508419c22a1e700247/42014390-7e36-4d71-8b3b-2675198d23e2/IMG_1010.jpg",
+    "imdb": "https://www.imdb.com/name/nm0387700/?ref_=tt_ov_dr",
+    }],
+    "actors": []
+    },
+
+    {    
+      "item": "311",
+      "title": "Victim/Suspect",
+      "runtime": 95,
+      "mpaa": "R",
+      "poster": "https://occ-0-90-92.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABWaGvEZ123zn_imxDxLXZUH9hcc_EN7Gz2JpnPVSm2Zu_L6C1KQ8QLmMm1NXorLreVB3kaScGvhJvj0xuWmCLYszL4rGqaRdKA7eu6QbBIUW81-DMQqB-MW-72J2joHKnAoYNw.jpg?r=940",
+      "description": "When a journalist digs into a case of a woman charged with falsely reporting a rape, a pattern emerges: authorities turning the tables on victims.",
+	"genre": ["documentary"],
+    "link": "https://www.netflix.com/title/81288561",
+    "director": [{
+    "name": "Nancy Schwartzman",
+    "image": "https://www.apbspeakers.com/media/jgpmjgcg/schwartzman_nancy_091119.jpg?rxy=0.44666666666666666,0.49586776859504134&height=775&quality=70&v=1d8f8ec5e919880)",
+    "imdb": "https://www.imdb.com/name/nm3626116/?ref_=tt_ov_dr",
+    }],
+    "actors": []
+    },
+
+    {
+      "item": 312,
+      "title": "Team Foxcatcher",
+      "runtime": 91,
+      "mpaa": "Not Rated",
+      "poster": "https://occ-0-90-92.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABaQLYl_3i8puIkpfHPnfWlG3HBptaz7UGxWWZzuweJBHU3FGtwG77vGAph2lCzZ3XVSvZOcYHmLWRzrKh9RF2spGzzR8qzavXnWokKftR138lgEI8VErmDA7iY6uHv4WLQ04.jpg?r=99b",
+      "description": "In 'Team Foxcatcher', a documentary film, examines the tragic events surrounding the life of multimillionaire John E. du Pont and his involvement with Olympic wrestling champions Mark Schultz and Dave Schultz. The film delves into du Pont's obsession with wrestling, his creation of the Foxcatcher wrestling team, and the events that led to the murder of Dave Schultz by du Pont in 1996. Through interviews and archival footage, 'Team Foxcatcher' offers insight into the complex relationships and motivations behind the tragedy.",
+      "genre": ["documentary", "crime"],
+      "link": "https://www.netflix.com/title/80044093",
+      "director": [{
+        "name": "Jon Greenhalgh",
+        "image": "https://images.squarespace-cdn.com/content/v1/59efbb9112abd9dcf18f3721/1509817855483-ETQ6O7KF8MODO9Q9OQ74/jg+deck+pic1.jpg",
+        "imdb": "https://www.imdb.com/name/nm1826017/"
+      }],
+      "actors": []
+    },
+    
+    {
+      "item": 313,
+      "title": "Voyeur",
+      "runtime": 96,
+      "mpaa": "Not Rated",
+      "poster": "https://occ-0-90-92.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABdXUCfBzmFeteGMc616GlG2fAULjMWB7POLWXgskbDSUei3weCvlQnByXkJqcXTlfbYASr3UfjlkSt7UG9UEr0LdK_iUOELv-VwwLPwGzMHT_YjG_rtHzSH02G6GX6xB8hiG_w.jpg?r=0ef",
+      "description": "In 'Voyeur', a documentary film, investigates the bizarre story of renowned journalist Gay Talese and the motel owner Gerald Foos. Talese becomes embroiled in Foos's decades-long obsession with voyeurism, as Foos secretly observed and documented his guests' intimate encounters through specially designed ceiling vents. The film delves into the ethical dilemmas faced by Talese and the complexities of privacy, consent, and journalistic integrity.",
+      "genre": ["documentary", "mystery"],
+      "link": "https://www.netflix.com/title/80176212",
+      "director": [{
+        "name": "Myles Kane",
+        "image": "https://m.media-amazon.com/images/M/MV5BOTE0YzMyNDktZDY3NC00NTVkLThhOGUtN2FjMGNlYTdhNjYyXkEyXkFqcGdeQXVyMTY5Nzk5MjEw._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm3493128/"
+      }, {
+        "name": "Josh Koury",
+        "image": "https://www.indiewire.com/wp-content/uploads/2012/04/josh_koury.jpg?w=450&h=322&crop=1",
+        "imdb": "https://www.imdb.com/name/nm3493127/"
+      }],
+      "actors": [{
+        "name": "Gay Talese",
+        "image": "https://hips.hearstapps.com/hmg-prod/images/p01335-02-082-6525a4796ba5d.jpg?crop=0.570xw:0.428xh;0.368xw,0.120xh&resize=1200:*",
+        "imdb": "https://www.imdb.com/name/nm0848134/"
+      }]
+    },
+    
+    {
+      "item": 314,
+      "title": "Nobody Speaks: Trials of the Free Press",
+      "runtime": 95,
+      "mpaa": "Not Rated",
+      "poster": "https://occ-0-90-92.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABRCtr6Hc7dmuIN_jOeYl-oEPa2iyPjF-TbUDykRA-emUiHm6h-ZlurLbKSPaf2vBKdMAnBt-jhsQFsnMnwHyVJ18pwcufl24a2_OyfRdLYN773LHK2L3zIp5OJlE3U97FEdSIg.jpg?r=549",
+      "description": "In 'Nobody Speaks: Trials of the Free Press', a documentary film, examines the challenges faced by the free press in modern society, particularly in the wake of high-profile legal battles involving media outlets. The film explores the implications of the Hulk Hogan vs. Gawker case, which led to Gawker's bankruptcy, as well as other instances of powerful individuals using legal means to silence or manipulate the press. Through interviews and analysis, 'Nobody Speaks' raises important questions about the role of the media in holding power to account and defending freedom of speech.",
+      "genre": ["documentary"],
+      "link": "https://www.netflix.com/title/80168227",
+      "director": [{
+        "name": "Brian Knappenberger",
+        "image": "https://cdn.vox-cdn.com/thumbor/EVOtQFvUhDTpodt4tb5uI3so9vE=/1400x788/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/8802489/463467652.jpg",
+        "imdb": "https://www.imdb.com/name/nm2043765/"
+      }],
+      "actors": []
+    },
+    
+    {
+      "item": 315,
+      "title": "FYRE: The Greatest Party That Never Happened",
+      "runtime": 97,
+      "mpaa": "Not Rated",
+      "poster": "https://occ-0-90-92.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABSAOHMHfR20KTVfEOTi802I7I0BVDr3uV-f_ShpLoHOKeDKabpgajEzca3Qzu4EJTCrY8OSlkxwjuoOmidxrw8dT5pAaNPNRhdgVjoh0u_TqfOaW7-4SFgZ1xVqDyXCQvkIJ0g.jpg?r=835",
+      "description": "In 'FYRE: The Greatest Party That Never Happened', a documentary film, explores the infamous Fyre Festival, a highly promoted and heavily hyped music festival that ultimately turned into a disastrous failure. The film delves into the behind-the-scenes chaos and mismanagement that led to the festival's collapse, as well as the fallout for attendees, investors, and those involved in its organization. Through interviews and footage, 'FYRE' provides a cautionary tale about the dangers of unchecked ambition and the power of social media.",
+      "genre": ["documentary", "comedy"],
+      "link": "https://www.netflix.com/title/81035279",
+      "director": [{
+        "name": "Chris Smith",
+        "image": "https://m.media-amazon.com/images/M/MV5BNzM0M2MwNDgtMzc2Zi00ZWI2LTliMTItNGNiYmMxZmQ1YmYxXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0801983/"
+      }],
+      "actors": [{
+        "name": "Billy McFarland",
+        "image": "https://media.vanityfair.com/photos/5c3f25e8a358ac6e49188c43/master/pass/JaRule-Billy-MacFarland.jpg",
+        "imdb": "https://www.imdb.com/name/nm9400460/"
+      }]
+    },
+    
+    {
+      "item": 316,
+      "title": "Athlete A",
+      "runtime": 103,
+      "mpaa": "PG-13",
+      "poster": "https://occ-0-90-92.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABVSNHIsVCj7WjH_YGyQes7qxdaAPoD_ivMm6nPtnc_HWXxWr-Ze2um1szQ-4Fd5P_dnDgmitYp1f-JSiMS1AWEc8eEhDEftF-RUr_qt_iE_Dk37QSH5rTWThR9cCf7HcIka1dw.jpg?r=94d",
+      "description": "In 'Athlete A', a documentary film, investigates the sexual abuse scandal involving Larry Nassar, the former USA Gymnastics national team doctor, and the subsequent investigation by journalists at the Indianapolis Star that exposed the widespread abuse within the organization. The film explores the experiences of the survivors, the culture of silence and complicity within USA Gymnastics, and the challenges they faced in seeking justice. Through interviews and archival footage, 'Athlete A' sheds light on the courage of the survivors and the importance of accountability and reform.",
+      "genre": ["documentary"],
+      "link": "https://www.netflix.com/title/81034185",
+      "director": [{
+        "name": "Bonni Cohen",
+        "image": "https://i.ytimg.com/vi/6vHZ-4AOuTo/maxresdefault.jpg",
+        "imdb": "https://www.imdb.com/name/nm0169372/"
+      }, {
+        "name": "Jon Shenk",
+        "image": "https://i.ytimg.com/vi/6vHZ-4AOuTo/maxresdefault.jpg",
+        "imdb": "https://www.imdb.com/name/nm0792019/"
+      }],
+      "actors": []
+    },
+
+    {
+      "item": 317,
+      "title": "The Tinder Swindler",
+      "runtime": 110,
+      "mpaa": "Not Rated",
+      "poster": "https://occ-0-90-92.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABRKBrGrthIrC-NZi1tQauJIBJBXWPZZhHyQzOLm0g2WUMv-q4OtegtvTPblYa9ZxgeQh48z1s8FQcIEl_ZdDq3pDyglg_3ChSYzGMzvN85yLEnYwOWdNU_S-blaPpkTTlJ-W.jpg?r=b69",
+      "description": "In 'The Tinder Swindler', a documentary film, investigates the story of Simon Leviev, who posed as a wealthy businessman on dating apps to scam women out of millions of dollars. The film follows the accounts of several women who fell victim to Leviev's charm and deceit, as well as the efforts to uncover his true identity and hold him accountable for his actions. Through interviews and reenactments, 'The Tinder Swindler' exposes the dark side of online dating and the dangers of falling for too-good-to-be-true promises.",
+      "genre": ["documentary", "crime"],
+      "link": "https://www.netflix.com/title/81254340",
+      "director": [{
+        "name": "Felipe Matos",
+        "image": "https://www.as-coa.org/sites/default/files/styles/event_hero_836x576_/public/Felipe%20Matos.jpg?h=c5067bc9&itok=oMd2s-4r",
+        "imdb": "https://www.imdb.com/name/nm6163401/"
+      }, {
+        "name": "Bianca van de Velde",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTM3NTUyNDYzNV5BMl5BanBnXkFtZTcwNjAzNzU3Nw@@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm4995951/"
+      }],
+      "actors": []
+    },
+    
+    {
+      "item": 318,
+      "title": "Tell Me Who I Am",
+      "runtime": 85,
+      "mpaa": "Not Rated",
+      "poster": "https://occ-0-90-92.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABfdzCbIBpN8CKaCf9VxkwaAUBtrIxiRWwrsz_NeIt3IoOYgOwh7g-WqdwniQxNmEo3-1RK8n3Jp3W4FxC6MMl6ICx8265pQHtEXlLMlGq0wQ8a23vjzZ7Z4BQ76F_KpSndw_.jpg?r=320",
+      "description": "After Alex loses his memory following a motorcycle accident, Marcus becomes his brother's keeper, reconstructing Alex's past and shielding him from a traumatic childhood secret. As Alex begins to uncover the truth about his past, the film delves into themes of memory, identity, and the complexities of brotherly love.",
+      "genre": ["documentary", "mystery"],
+      "link": "https://www.netflix.com/title/80214706",
+      "director": [{
+        "name": "Ed Perkins",
+        "image": "https://snworksceo.imgix.net/dth/9e294cad-b4b8-4e7b-9102-ec31cc4f6070.sized-1000x1000.JPG?w=1000",
+        "imdb": "https://www.imdb.com/name/nm4033718/"
+      }],
+      "actors": []
+    },
+
+    {
+      "item": 319,
+      "title": "Studio 54: The Documentary",
+      "runtime": 98,
+      "mpaa": "Not Rated",
+      "poster": "https://occ-0-90-92.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABQLcdG3dxZZ3W85kECtQg5lTb2R3Jpi9OqvsT7dyF_9wUi06ZOivWiUjiESSHcLWXG5Xe6Fwej9Z1hahRb41SDViIotCYikzs14.jpg?r=0b2",
+      "description": "In 'Studio 54: The Documentary', explores the rise and fall of the iconic nightclub Studio 54, which became synonymous with the hedonistic excesses of the 1970s disco era. The film delves into the club's origins, its meteoric rise to fame, and the celebrities, socialites, and regulars who frequented its doors. Through interviews with former staff, patrons, and archival footage, 'Studio 54' captures the glamour, decadence, and eventual downfall of one of the most legendary nightlife destinations in history.",
+      "genre": ["documentary"],
+      "link": "https://www.netflix.com/title/81004511",
+      "director": [{
+        "name": "Matt Tyrnauer",
+        "image": "https://deadline.com/wp-content/uploads/2019/01/matt-tyrnauer.jpg?w=681&h=383&crop=1",
+        "imdb": "https://www.imdb.com/name/nm1394634/"
+      }],
+      "actors": []
+    },
+
+    {
+      "item": 320,
+      "title": "Halftime",
+      "runtime": 90,
+      "mpaa": "Not Rated",
+      "poster": "https://occ-0-90-92.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABVPy2XSG3Tnk4geNggNkx01XbNh-aWzr7c41YZi-HSB0QmftP4pJi9QS3fOMwlaR2p03DEMNJN5DSZfZPJn-njYDw52962AWRL0JesJAWQZFT3ShAAuJU2UnLa1wvYeI1TgO.jpg?r=0d3",
+      "description": "Halftime, a documentary film, offers a behind-the-scenes look at the preparation and performance of Jennifer Lopez's highly anticipated halftime show at the 2020 Super Bowl. The film follows Lopez and her team as they navigate the challenges and pressures of putting together a spectacle that will captivate millions of viewers around the world. Through rehearsals, interviews, and intimate moments,",
+      "genre": ["documentary"],
+      "link": "https://www.netflix.com/title/81031929",
+      "director": [{
+        "name": "Michael John Warren",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTY0OTYzMTc5Ml5BMl5BanBnXkFtZTgwMjkxNDY4MjE@._V1_QL75_UX500_CR0,0,500,281_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0912827/"
+      }],
+      "actors": [{
+        "name": "Jennifer Lopez",
+      "image": "https://variety.com/wp-content/uploads/2024/02/Jennifer-Lopez-Variety-Cover-Story-1.jpg?crop=0px%2C178px%2C1918px%2C1080px&resize=1920%2C1080",
+      "imdb": "https://www.imdb.com/name/nm0000182/?ref_=tt_cl_t_2",}
+      ]
+    },
+    
+    
+    
 
     {
       "item": "n420",
