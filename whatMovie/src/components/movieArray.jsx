@@ -10571,8 +10571,207 @@ const moviesArray = [
   ]
 }
 ,
-
-
+{
+  "item": 353,
+  "title": "The Expendables",
+  "runtime": 103,
+  "mpaa": "R",
+  "poster": "https://img3.hulu.com/user/v3/artwork/57bcc8fc-98c2-4fc4-9329-7f37309aad39?base_image_bucket_name=image_manager&base_image=aacd7bc6-5024-4290-8027-d3a955c61ca8&size=600x338&format=jpeg",
+  "description": "The movie follows a team of mercenaries, known as 'The Expendables', who are hired to overthrow a ruthless dictator in a fictional South American country. Led by Barney Ross, the team consists of some of the world's deadliest soldiers, each with their own unique skills and specialties. As they embark on their mission, they must navigate treacherous terrain, enemy forces, and betrayal from within their own ranks.",
+  "genre": ["action", "adventure", "thriller"],
+  "link": "https://www.hulu.com/movie/the-expendables-57bcc8fc-98c2-4fc4-9329-7f37309aad39",
+  "director": [
+    {
+      "name": "Sylvester Stallone",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2024/02/1200/675/sylvester-stallone.jpg?ve=1&tl=1",
+      "imdb": "https://www.imdb.com/name/nm0000230/"
+    }
+  ],
+  "actors": [
+    {
+      "name": "Sylvester Stallone",
+        "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2024/02/1200/675/sylvester-stallone.jpg?ve=1&tl=1",
+        "imdb": "https://www.imdb.com/name/nm0000230/"
+    },
+    {
+      "name": "Jason Statham",
+      "image": "https://ew.com/thmb/bbpeT-u7BO2qVG43YbrTdg9arNo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/meg-fp-0002-2000-7ed63879f64c475b821774b972f82ae5.jpg",
+      "imdb": "https://www.imdb.com/name/nm0005458/?ref_=nv_sr_srsg_0_tt_3_nm_5_q_jason%2520stath"
+    },
+    {
+      "name": "Jet Li",
+      "image": "https://variety.com/wp-content/uploads/2013/05/jet-li1.jpg",
+      "imdb": "https://www.imdb.com/name/nm0001472/"
+    },
+    {
+      "name": "Dolph Lundgren",
+      "image": "https://www.hollywoodreporter.com/wp-content/uploads/2021/11/GettyImages-1084503800-H-2021.jpg?w=1296",
+      "imdb": "https://www.imdb.com/name/nm0000186/"
+    }
+  ]
+}
+,
+[
+  {
+    "item": 354,
+    "title": "The Expendables 2",
+    "runtime": 103,
+    "mpaa": "R",
+    "poster": "https://img.hulu.com/user/v3/artwork/4527fb32-681b-4c3e-8f98-9a75fe443865?base_image_bucket_name=image_manager&base_image=48393a44-2f1c-45ec-9f74-4b9360e6ccb6&size=600x338&format=jpeg",
+    "description": "In this installment, the team of mercenaries known as 'The Expendables' reunites for a new mission that takes them to Eastern Europe. Led by Barney Ross, the team must retrieve a valuable item from a crashed plane, but they find themselves up against a dangerous adversary seeking to acquire the same item. As they face off against formidable enemies and old acquaintances, the Expendables must rely on their skills, camaraderie, and sheer determination to accomplish their mission.",
+    "genre": ["action", "adventure", "thriller", "sequel"],
+    "link": "https://www.hulu.com/movie/the-expendables-2-4527fb32-681b-4c3e-8f98-9a75fe443865",
+    "director": [
+      {
+        "name": "Simon West",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjE2NjA2Njg4OV5BMl5BanBnXkFtZTcwMTcyNTEwOQ@@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0921082/"
+      }
+    ],
+    "actors": [
+      {
+        "name": "Sylvester Stallone",
+          "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2024/02/1200/675/sylvester-stallone.jpg?ve=1&tl=1",
+          "imdb": "https://www.imdb.com/name/nm0000230/"
+      },
+      {
+        "name": "Jason Statham",
+        "image": "https://ew.com/thmb/bbpeT-u7BO2qVG43YbrTdg9arNo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/meg-fp-0002-2000-7ed63879f64c475b821774b972f82ae5.jpg",
+        "imdb": "https://www.imdb.com/name/nm0005458/?ref_=nv_sr_srsg_0_tt_3_nm_5_q_jason%2520stath"
+      },
+      {
+        "name": "Jet Li",
+        "image": "https://variety.com/wp-content/uploads/2013/05/jet-li1.jpg",
+        "imdb": "https://www.imdb.com/name/nm0001472/"
+      },
+      {
+        "name": "Dolph Lundgren",
+        "image": "https://www.hollywoodreporter.com/wp-content/uploads/2021/11/GettyImages-1084503800-H-2021.jpg?w=1296",
+        "imdb": "https://www.imdb.com/name/nm0000186/"
+      }
+    ]
+  },
+  {
+    "item": 355,
+    "title": "The Expendables 3",
+    "runtime": 126,
+    "mpaa": "PG-13",
+    "poster": "https://img.hulu.com/user/v3/artwork/4527fb32-681b-4c3e-8f98-9a75fe443865?base_image_bucket_name=image_manager&base_image=48393a44-2f1c-45ec-9f74-4b9360e6ccb6&size=600x338&format=jpeg",
+    "description": "'The Expendables 3' is the third installment in the action-packed franchise directed by Patrick Hughes. In this film, Barney Ross and his team of mercenaries find themselves facing their most formidable enemy yet: Conrad Stonebanks, a former co-founder of the Expendables turned ruthless arms dealer. Determined to take down Stonebanks and put an end to his reign of terror, Ross recruits a new, younger team of Expendables to assist him in the mission. As the old guard and the new blood join forces, they must confront their pasts and fight together to save the future. 'The Expendables 3' delivers explosive action, epic battles, and a star-studded cast of action heroes.",
+    "genre": ["action", "adventure", "thriller", "sequel"],
+    "link": "https://www.hulu.com/movie/the-expendables-57bcc8fc-98c2-4fc4-9329-7f37309aad39",
+    "director": [
+      {
+        "name": "Patrick Hughes",
+        "image": "https://variety.com/wp-content/uploads/2021/11/Patrick-Hughes.jpg",
+        "imdb": "https://www.imdb.com/name/nm2076633/"
+      }
+    ],
+    "actors": [
+      {
+        "name": "Sylvester Stallone",
+          "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2024/02/1200/675/sylvester-stallone.jpg?ve=1&tl=1",
+          "imdb": "https://www.imdb.com/name/nm0000230/"
+      },
+      {
+        "name": "Jason Statham",
+        "image": "https://ew.com/thmb/bbpeT-u7BO2qVG43YbrTdg9arNo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/meg-fp-0002-2000-7ed63879f64c475b821774b972f82ae5.jpg",
+        "imdb": "https://www.imdb.com/name/nm0005458/?ref_=nv_sr_srsg_0_tt_3_nm_5_q_jason%2520stath"
+      },
+      {
+        "name": "Antonio Banderas",
+        "image": "https://www.undp.org/sites/g/files/zskgke326/files/styles/image_with_credit_caption_1392_x_651_/public/2021-05/shutterstock-Antonio-Banderas-95326390.jpg?itok=g_85lbar",
+        "imdb": "https://www.imdb.com/name/nm0000104/?ref_=fn_al_nm_1",
+      },
+      {
+        "name": "Jet Li",
+        "image": "https://variety.com/wp-content/uploads/2013/05/jet-li1.jpg",
+        "imdb": "https://www.imdb.com/name/nm0001472/"
+      }
+    ]
+  }
+]
+,
+{
+  "item": 355,
+  "title": "The Mummy",
+  "runtime": 125,
+  "mpaa": "PG-13",
+  "poster": "https://img1.hulu.com/user/v3/artwork/86bbcde2-caab-408d-ba4d-67d883f839af?base_image_bucket_name=image_manager&base_image=5fbfbffe-b832-4eb3-b7b6-f9766dd7df27&size=600x338&format=jpeg",
+  "description": "Set in 1926, the movie follows adventurer Rick O'Connell, Egyptologist Evelyn Carnahan, and her brother Jonathan as they uncover an ancient curse and awaken a mummy, Imhotep, who seeks immortality and revenge. As Imhotep wreaks havoc upon the world, Rick and Evelyn must race against time to stop him and prevent the unleashing of a devastating plague.",
+  "genre": ["action", "adventure", "fantasy"],
+  "link": "https://www.hulu.com/movie/the-mummy-c5f8d591-5654-4520-bda2-d6a8cc730a39",
+  "director": [
+    {
+      "name": "Stephen Sommers",
+      "image": "https://c8.alamy.com/comp/K3M7BN/van-helsing-director-writer-stephen-sommers-van-helsing-date-2004-K3M7BN.jpg",
+      "imdb": "https://www.imdb.com/name/nm0814264/"
+    }
+  ],
+  "actors": [
+    {
+      "name": "Brendan Fraser",
+      "image": "https://deadline.com/wp-content/uploads/2023/02/Brendan-Fraser.jpg?w=1000",
+      "imdb": "https://www.imdb.com/name/nm0000409/"
+    },
+    {
+      "name": "Rachel Weisz",
+      "image": "https://parade.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTkwNTc5MDE0NTUzMzc5OTY1/rachel-weisz.jpg",
+      "imdb": "https://www.imdb.com/name/nm0001838/"
+    },
+    {
+      "name": "John Hannah",
+      "image": "https://brieftake.com/wp-content/uploads/2020/02/john_f-585x388.jpg",
+      "imdb": "https://www.imdb.com/name/nm0001311/"
+    },
+    {
+      "name": "Arnold Vosloo",
+      "image": "https://www.looper.com/img/gallery/the-character-you-likely-forgot-the-mummys-arnold-vosloo-played-on-bones/l-intro-1654279480.jpg",
+      "imdb": "https://www.imdb.com/name/nm0903644/"
+    }
+  ]
+}
+,
+{
+  "item": 356,
+  "title": "The Mummy Returns",
+  "runtime": 130,
+  "mpaa": "PG-13",
+  "poster": "https://img1.hulu.com/user/v3/artwork/86bbcde2-caab-408d-ba4d-67d883f839af?base_image_bucket_name=image_manager&base_image=5fbfbffe-b832-4eb3-b7b6-f9766dd7df27&size=600x338&format=jpeg",
+  "description": "'The Mummy Returns' is an action-adventure film directed by Stephen Sommers and serves as a sequel to 'The Mummy'. Set in 1933, the movie follows adventurer Rick O'Connell, Egyptologist Evelyn Carnahan, and their son Alex as they face a new threat from the resurrected mummy Imhotep and his reincarnated lover Anck-Su-Namun. As Imhotep seeks to unleash an ancient evil known as the Scorpion King, Rick and Evelyn must race against time to stop him and save the world from destruction. Filled with epic action sequences, thrilling battles, and ancient mysteries, 'The Mummy Returns' is an exhilarating adventure that takes viewers on a journey through ancient Egypt.",
+  "genre": ["action", "adventure", "fantasy", "sequel"],
+  "link": "https://www.hulu.com/movie/the-mummy-returns-86bbcde2-caab-408d-ba4d-67d883f839af",
+  "director": [
+    {
+      "name": "Stephen Sommers",
+      "image": "https://c8.alamy.com/comp/K3M7BN/van-helsing-director-writer-stephen-sommers-van-helsing-date-2004-K3M7BN.jpg",
+      "imdb": "https://www.imdb.com/name/nm0814264/"
+    }
+  ],
+  "actors": [
+    {
+      "name": "Brendan Fraser",
+      "image": "https://deadline.com/wp-content/uploads/2023/02/Brendan-Fraser.jpg?w=1000",
+      "imdb": "https://www.imdb.com/name/nm0000409/"
+    },
+    {
+      "name": "Rachel Weisz",
+      "image": "https://parade.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTkwNTc5MDE0NTUzMzc5OTY1/rachel-weisz.jpg",
+      "imdb": "https://www.imdb.com/name/nm0001838/"
+    },
+    {
+      "name": "John Hannah",
+      "image": "https://brieftake.com/wp-content/uploads/2020/02/john_f-585x388.jpg",
+      "imdb": "https://www.imdb.com/name/nm0001311/"
+    },
+    {
+      "name": "Arnold Vosloo",
+      "image": "https://www.looper.com/img/gallery/the-character-you-likely-forgot-the-mummys-arnold-vosloo-played-on-bones/l-intro-1654279480.jpg",
+      "imdb": "https://www.imdb.com/name/nm0903644/"
+    }
+  ]
+}
+,
 
   ],
   // start peacock array
