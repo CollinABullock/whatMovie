@@ -10133,7 +10133,245 @@ const moviesArray = [
   ]
 }
 ,
+{
+  "item": 341,
+  "title": "Alien vs. Predator",
+  "runtime": 101,
+  "mpaa": "PG-13",
+  "poster": "https://img4.hulu.com/user/v3/artwork/7130e8e2-4216-40c6-a600-4b8a252ca201?base_image_bucket_name=image_manager&base_image=24176b7f-648b-437d-9a76-9c663c442c56&size=600x338&format=jpeg",
+  "description": "In 'Alien vs. Predator', a science fiction action film directed by Paul W.S. Anderson, follows a group of scientists and mercenaries who venture into an ancient pyramid in Antarctica. There, they become caught in a battle between two alien species: the xenomorphs (from the 'Alien' franchise) and the Predators. As the humans struggle to survive, they must also uncover the secrets of the pyramid and its connection to the extraterrestrial creatures.",
+  "genre": ["science-fiction", "action", "horror", "sequel"],
+  "link": "https://www.hulu.com/movie/avp-alien-vs-predator-7130e8e2-4216-40c6-a600-4b8a252ca201",
+  "director": [
+    {
+      "name": "Paul W.S. Anderson",
+    "image": "https://variety.com/wp-content/uploads/2016/12/director-paul-w-s-anderson-resident-evil.jpg?w=1000",
+    "imdb": "https://www.imdb.com/name/nm0027271/",
+    }
+  ],
+  "actors": [
+    {
+      "name": "Sanaa Lathan",
+      "image": "https://images.paramount.tech/uri/mgid:arc:imageassetref:bet.com:811dd2ee-5027-4a71-963a-99f267af51f9?quality=0.7&gen=ntrn&legacyStatusCode=true",
+      "imdb": "https://www.imdb.com/name/nm0005125/"
+    },
+    {
+      "name": "Raoul Bova",
+      "image": "https://facts.net/wp-content/uploads/2023/11/19-astounding-facts-about-raoul-bova-1699489518.jpg",
+      "imdb": "https://www.imdb.com/name/nm0100465/"
+    },
+    {
+      "name": "Lance Henriksen",
+      "image": "https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/rymdkyqkbmkh3acxmb1d.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000448/"
+    },
+    {
+      "name": "Ewen Bremner",
+      "image": "https://media.timeout.com/images/103696342/image.jpg",
+      "imdb": "https://www.imdb.com/name/nm0107060/"
+    }
+  ]
+}
+,
+{
+  "item": 342,
+  "title": "The Hunter",
+  "runtime": 102,
+  "mpaa": "R",
+  "poster": "https://img4.hulu.com/user/v3/artwork/0562c8a8-bc84-479f-97c4-eb74c3d4a806?base_image_bucket_name=image_manager&base_image=f1b72940-8ddd-44a5-9522-af30de974edc&size=600x338&format=jpeg",
+  "description": "In 'The Hunter', a gripping thriller film directed by Daniel Nettheim, follows the story of Martin, a skilled mercenary and professional hunter, who is hired by a mysterious biotech company to track down the last remaining Tasmanian tiger, a creature believed to be extinct. As Martin ventures into the Tasmanian wilderness, he encounters various challenges, including environmental activists, hostile locals, and his own inner demons. 'The Hunter' is a tense and atmospheric journey that explores themes of nature, survival, and redemption.",
+  "genre": ["drama", "thriller", "action"],
+  "link": "https://www.hulu.com/movie/the-hunter-0562c8a8-bc84-479f-97c4-eb74c3d4a806",
+  "director": [
+    {
+      "name": "Daniel Nettheim",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTU2MzY0MzQ4NV5BMl5BanBnXkFtZTcwNTYwODE0Nw@@._V1_FMjpg_UX1000_.jpg",
+      "imdb": "https://www.imdb.com/name/nm0627972/"
+    }
+  ],
+  "actors": [
+    {
+      "name": "Willem Dafoe",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe6Hvi13NmYEbgnHS11IP2mKe4HRmNgSSJrtasMlAp4dtozy1y",
+      "imdb": "https://www.imdb.com/name/nm0000353/"
+    },
+    {
+      "name": "Frances O'Connor",
+      "image": "https://www.telegraph.co.uk/content/dam/women/2018/02/16/TELEMMGLPICT000153760880_trans_NvBQzQNjv4Bq7Ie8PkSw6zJj0WOAbK6siUqxYMpFvkH0i-0P7ycN7Bs.jpeg",
+      "imdb": "https://www.imdb.com/name/nm0640318/"
+    },
+    {
+      "name": "Sam Neill",
+      "image": "https://www.hollywoodreporter.com/wp-content/uploads/2023/10/Sam-Neill-Sitges-Film-Festival-NEW-GettyImages-1180442124-H-2023.jpg?w=1296",
+      "imdb": "https://www.imdb.com/name/nm0000554/?ref_=nv_sr_srsg_0_tt_4_nm_4_q_sam%2520neill"
+    },
+    {
+      "name": "Morgana Davies",
+      "image": "https://queerty-prodweb.s3.amazonaws.com/2023/10/screen-shot-2023-10-20-at-23408-pm.png",
+      "imdb": "https://www.imdb.com/name/nm4566880/"
+    }
+  ]
+}
+,
 
+{
+  "item": 343,
+  "title": "Pearl Harbor",
+  "runtime": 183,
+  "mpaa": "PG-13",
+  "poster": "https://img2.hulu.com/user/v3/artwork/2d2d93bd-0358-409e-b0d9-82b3678d9903?base_image_bucket_name=image_manager&base_image=0bcb3525-5b83-4687-847d-6b54a4b3b3c4&size=600x338&format=jpeg",
+  "description": "Directed by Michael Bay, 'Pearl Harbor' is an epic war drama that depicts the events leading up to and during the Japanese attack on Pearl Harbor on December 7, 1941. The film follows the intertwined lives of two best friends, Rafe McCawley and Danny Walker, as they navigate their personal and professional relationships amidst the chaos of war.",
+  "genre": ["action", "drama", "romance", "war"],
+  "link": "https://www.hulu.com/movie/pearl-harbor-2d2d93bd-0358-409e-b0d9-82b3678d9903",
+  "director": [
+    {
+      "name": "Michael Bay",
+      "image": "https://m.media-amazon.com/images/M/MV5BZDBmMTI3MmQtM2QzZC00MDU2LWEwNDItZTRhZTMzMDFlZGU3XkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000881/"
+    }
+  ],
+  "actors": [
+    {
+      "name": "Ben Affleck",
+      "image": "https://ca-times.brightspotcdn.com/dims4/default/10ea0b4/2147483647/strip/true/crop/6316x4210+0+1/resize/2000x1333!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F7d%2Fd8%2Ff1ec7c954d10ab8f645895faa29b%2Fla-photos-1staff-885832-ca-ben-affleck-portrait-tender-bar-jlc-1213-12331.JPG",
+      "imdb": "https://www.imdb.com/name/nm0000255/"
+    },
+    {
+      "name": "Josh Hartnett",
+      "image": "https://variety.com/wp-content/uploads/2020/01/josh-hartnett.jpg?w=1000",
+      "imdb": "https://www.imdb.com/name/nm0001326/"
+    },
+    {
+      "name": "Kate Beckinsale",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/kate-beckinsale-attends-the-bach-mai-fashion-show-during-news-photo-1698950708.jpg?crop=1xw:0.375xh;center,top",
+      "imdb": "https://www.imdb.com/name/nm0000295/"
+    },
+    {
+      "name": "Cuba Gooding Jr.",
+      "image": "https://mediaproxy.salon.com/width/1200/height/675/https://media2.salon.com/2018/10/cuba-gooding-jr.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000421/"
+    }
+  ]
+}
+,
+{
+  "item": 344,
+  "title": "Blade Runner 2049",
+  "runtime": 164,
+  "mpaa": "R",
+  "poster": "https://img2.hulu.com/user/v3/artwork/fe644b0a-289d-4693-a7f6-64705315b07a?base_image_bucket_name=image_manager&base_image=c080f045-ae74-4cf8-a954-d918eabd821a&size=600x338&format=jpeg",
+  "description": "Directed by Denis Villeneuve, 'Blade Runner 2049' is a science fiction neo-noir film and a sequel to the 1982 cult classic 'Blade Runner'. Set thirty years after the events of the first film, the story follows K, a new blade runner who uncovers a long-buried secret that has the potential to plunge what's left of society into chaos. As K embarks on his journey to unravel the mystery, he crosses paths with Rick Deckard, a former blade runner, leading them both to confront their own identities and the nature of humanity itself.",
+  "genre": ["science-fiction", "drama", "mystery", "sequel", "film-noir"],
+  "link": "",
+  "director": [
+    {
+      "name": "Denis Villeneuve",
+      "image": "https://variety.com/wp-content/uploads/2024/01/GettyImages-1347326046.jpg?w=1000&h=563&crop=1",
+      "imdb": "https://www.imdb.com/name/nm0898288/",
+    }
+  ],
+  "actors": [
+    {
+      "name": "Ryan Gosling",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQo19mduM602yfQenqFCY0mcAVU-KFkgrnBJJ4O8F4gIM_SZIVX",
+      "imdb": "https://www.imdb.com/name/nm0331516/",
+    },
+    {
+      "name": "Harrison Ford",
+      "image": "https://www.hollywoodreporter.com/wp-content/uploads/2023/01/Harrison-Ford-Shrinking-Arrivals-GettyImages-1459853135-H-2023.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000148/",
+    },
+    {
+      "name": "Ana de Armas",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRKB1h7dIm2oMW3TxlhFrmUDWqc5UvaRoCXhlzn9EsBXxusvmOd",
+      "imdb": "https://www.imdb.com/name/nm1869101/",
+    },
+    {
+      "name": "Sylvia Hoeks",
+      "image": "https://m.media-amazon.com/images/M/MV5BNzg2N2Q2ODYtMmExMS00MWQwLTg4YTgtMmQ2YWEyNmNlM2QxXkEyXkFqcGdeQXVyNjUxMjc1OTM@._V1_.jpg",
+      "imdb": "https://www.imdb.com/name/nm2220507/"
+    }
+  ]
+}
+,
+{
+  "item": 345,
+  "title": "The Equalizer 2",
+  "runtime": 121,
+  "mpaa": "R",
+  "poster": "https://img1.hulu.com/user/v3/artwork/6012fa47-01c6-4341-b884-16d5eed8593a?base_image_bucket_name=image_manager&base_image=643cf1b1-4fcb-4918-b6d9-191c8c9b5947&size=600x338&format=jpeg",
+  "description": "Robert McCall, a retired CIA operative turned vigilante, seeks justice for those who have been wronged. When his friend and former colleague is murdered, McCall sets out to find the perpetrators and deliver his own brand of justice. As he delves deeper into the case, McCall uncovers a web of corruption that threatens those closest to him, leading to a dangerous confrontation with powerful enemies.",
+  "genre": ["action", "crime", "thriller", "sequel"],
+  "link": "https://www.hulu.com/movie/the-equalizer-2-6012fa47-01c6-4341-b884-16d5eed8593a",
+  "director": [
+    {
+      "name": "Antoine Fuqua",
+      "image": "https://deadline.com/wp-content/uploads/2021/12/Antoine-Fuqua-e1638564950313.jpg?w=681&h=383&crop=1",
+      "imdb": "https://www.imdb.com/name/nm0298807/",
+    }
+  ],
+  "actors": [
+    {
+      "name": "Denzel Washington", "image": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2022%2F01%2Fdenzel-washington-the-equalizer-3-currently-in-the-works-confirmed-001.jpg?cbr=1&q=90", "imdb": "https://www.imdb.com/name/nm0000243/"
+    },
+    {
+      "name": "Pedro Pascal",
+      "image": "https://variety.com/wp-content/uploads/2023/06/Variety-Actors-on-Actors-16x9-Pedro-Pascal.jpg?w=681&h=383&crop=1",
+      "imdb": "https://www.imdb.com/name/nm0050959/",
+    },
+    {
+      "name": "Ashton Sanders",
+      "image": "https://media1.popsugar-assets.com/files/thumbor/MfRIqdsbrKUr7lBmX1jpgJYKb4g=/0x0:1773x1181/1773x1181/top/filters:format_auto():quality(85):extract_cover()/2021/09/21/846/n/1922398/4b9c1502614a3013991ec0.58147768_.jpg",
+      "imdb": "https://www.imdb.com/name/nm6447327/"
+    },
+    {
+      "name": "Orson Bean",
+      "image": "https://m.media-amazon.com/images/M/MV5BYWMyZDNhNDctMjA1Zi00OWI0LWE4ZDYtYTY0YmQzNzk5YmQ3XkEyXkFqcGdeQXRodW1ibmFpbC1pbml0aWFsaXplcg@@._V1_.jpg",
+      "imdb": "https://www.imdb.com/name/nm0064057/"
+    }
+  ]
+}
+,
+{
+  "item": 346,
+  "title": "Sicario: Day of the Soldado",
+  "runtime": 122,
+  "mpaa": "R",
+  "poster": "https://img2.hulu.com/user/v3/artwork/6e3ce93e-79a8-4740-8cc4-5bf27b8706f0?base_image_bucket_name=image_manager&base_image=f4d77c43-f82d-4a39-828a-0727b8e1415e&size=600x338&format=jpeg",
+  "description": "Federal agent Matt Graver is tasked with combating drug cartels trafficking terrorists across the U.S.-Mexico border. When a deadly attack occurs on American soil, Graver enlists the help of undercover operative Alejandro Gillick to escalate the war against the cartels. However, their actions soon spiral out of control, leading to dangerous consequences and moral dilemmas.",
+  "genre": ["action", "crime", "drama", "sequel"],
+  "link": "https://www.hulu.com/movie/sicario-day-of-the-soldado-6e3ce93e-79a8-4740-8cc4-5bf27b8706f0",
+  "director": [
+    {
+      "name": "Stefano Sollima",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Stefano_Sollima.jpg",
+      "imdb": "https://www.imdb.com/name/nm1550943/"
+    }
+  ],
+  "actors": [
+    {
+      "name": "Benicio Del Toro",
+      "image": "https://m.media-amazon.com/images/M/MV5BYjNiYzg2ZmYtMjFkYS00NmJlLTg3ZTctMjFlMjI1MzE0NjIyXkEyXkFqcGdeQWpnYW1i._V1_.jpg",
+      "imdb": "https://www.imdb.com/name/nm0001125/",
+    },
+    {
+      "name": "Josh Brolin",
+      "image": "https://www.hollywoodreporter.com/wp-content/uploads/2022/04/GettyImages-1390903494.jpg?w=1296",
+      "imdb": "https://www.imdb.com/name/nm0000982/"
+    },
+    {
+      "name": "Isabela Merced",
+      "image": "https://m.media-amazon.com/images/M/MV5BN2VlYzEyZDgtMzJiZS00MzkzLWJjZGEtZWM0MjA1MTc3YzA0XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
+      "imdb": "https://www.imdb.com/name/nm4832920/"
+    },
+    {
+      "name": "Jeffrey Donovan",
+      "image": "https://variety.com/wp-content/uploads/2023/11/Jeffrey-Donovan-Law-Order.jpg",
+      "imdb": "https://www.imdb.com/name/nm0233227/"
+    }
+  ]
+}
+,
 
 
 
