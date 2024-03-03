@@ -3929,7 +3929,7 @@ const moviesArray = [
       "runtime": 113,
       "mpaa": "PG",
       "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/700f6eb5-f533-4f1e-9d36-78ef7b849237/82432b34d6b02e614a9432d570bc26c5d5f4fbe7.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=320",
-      "description": "In 'Star Trek II: The Wrath of Khan', the crew of the starship USS Enterprise faces off against Khan Noonien Singh, a genetically engineered tyrant seeking revenge on Captain James T. Kirk. As Khan unleashes a plan of vengeance that threatens the entire galaxy, Kirk and his crew must confront their past and overcome impossible odds to save themselves and the future of the Federation. 'Star Trek II: The Wrath of Khan' is a thrilling space adventure that explores themes of friendship, sacrifice, and the human spirit.",
+      "description": "The crew of the starship USS Enterprise faces off against Khan Noonien Singh, a genetically engineered tyrant seeking revenge on Captain James T. Kirk. As Khan unleashes a plan of vengeance that threatens the entire galaxy, Kirk and his crew must confront their past and overcome impossible odds to save themselves and the future of the Federation.",
       "genre": ["science-fiction", "action", "adventure", "classic", "sequel"],
       "link": "https://www.max.com/movies/star-trek-ii-the-wrath-of-khan/700f6eb5-f533-4f1e-9d36-78ef7b849237",
       "director": [{
@@ -3949,7 +3949,8 @@ const moviesArray = [
       }, {
         "name": "Leonard Nimoy",
         "image": "https://static01.nyt.com/images/2015/02/28/arts/28nimoy_video_hp/28nimoy_video_hp-superJumbo.jpg",
-        "imdb": "https://www.imdb.com/name/nm0000559/",},
+        "imdb": "https://www.imdb.com/name/nm0000559/",
+      },
         {
           "name": "James Doohan",
           "image": "https://images.prismic.io/star-trek-untold/OGVhYTBlNGEtNzA3Ny00NTQ2LTljYTMtYjQ4NzBmODdhM2Ey_09a69de15cf89bc7fe8c0642f906a4dd.jpg?auto=compress,format&rect=0,0,2800,1178&w=2800&h=1178",
@@ -10372,6 +10373,123 @@ const moviesArray = [
   ]
 }
 ,
+{
+  "item": 347,
+  "title": "Predator",
+  "runtime": 107,
+  "mpaa": "R",
+  "poster": "https://img1.hulu.com/user/v3/artwork/784d3d44-0cf3-429c-a372-bbf8ecbedba7?base_image_bucket_name=image_manager&base_image=ae43a5d2-045d-4cd8-87dc-0a43a4c59e33&size=600x338&format=jpeg",
+  "description": "A team of elite commandos, led by Major Alan 'Dutch' Schaefer, is sent on a mission to rescue hostages held by guerrilla fighters in the Central American jungle. However, they soon find themselves hunted by an extraterrestrial creature with advanced camouflage technology and deadly weapons. As the team members are picked off one by one, Dutch must use all his skills to survive and defeat the predator.",
+  "genre": ["action", "science-fiction", "thriller", "classic"],
+  "link": "https://www.hulu.com/movie/predator-784d3d44-0cf3-429c-a372-bbf8ecbedba7",
+  "director": [
+    {
+      "name": "John McTiernan",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLvFaTjcgEBTDfC65aqiqURENjozC-Ic162y79a5CE57HwmEZD",
+      "imdb": "https://www.imdb.com/name/nm0001532/",
+    }
+  ],
+  "actors": [
+    {
+      "name": "Arnold Schwarzenegger",
+      "image": "https://cdn.sanity.io/images/dm4o0ui7/production/ab8622774dfd8bc6b2107656cc1d648ff48279b3-1200x600.png",
+      "imdb": "https://www.imdb.com/name/nm0000216/?ref_=tt_ov_st",
+    },
+    {
+      "name": "Carl Weathers",
+      "image": "https://variety.com/wp-content/uploads/2024/02/Carl-Weathers-Dead-Obit.jpg?w=1000",
+      "imdb": "https://www.imdb.com/name/nm0001837/"
+    },
+    {
+      "name": "Bill Duke",
+      "image": "https://www.thespectrum.com/gcdn/presto/2018/11/06/PSTG/b0dec66b-353e-470a-addf-95c2561e0ceb-1._Bill_Duke_in_Predator_-_Twentieth_Century_Fox.jpg?crop=1122,632,x0,y0&width=660&height=372&format=pjpg&auto=webp",
+      "imdb": "https://www.imdb.com/name/nm0004886/"
+    },
+    {
+      "name": "Jesse Ventura",
+      "image": "https://images.foxtv.com/static.fox9.com/www.fox9.com/content/uploads/2020/10/1280/720/jesse-ventura.jpg?ve=1&tl=1",
+      "imdb": "https://www.imdb.com/name/nm0001818/"
+    }
+  ]
+}
+,
+{
+  "item": 348,
+  "title": "Inception",
+  "runtime": 148,
+  "mpaa": "PG-13",
+  "poster": "https://img3.hulu.com/user/v3/artwork/5519f425-9b21-48fb-8e67-aef24c76604a?base_image_bucket_name=image_manager&base_image=a67e9004-08b8-4612-9fda-8e828d3986bf&size=600x338&format=jpeg",
+  "description": "'Inception' is a mind-bending science fiction thriller directed by Christopher Nolan. The film follows Dom Cobb, a skilled thief who specializes in stealing secrets from deep within the subconscious during the dream state. Cobb is tasked with a seemingly impossible mission: to implant an idea into the mind of a corporate heir through the process of 'inception'. As Cobb and his team navigate through layers of dreams within dreams, they face numerous obstacles and must confront their own inner demons. 'Inception' is a visually stunning and intellectually stimulating film that explores the nature of reality, memory, and the power of the human mind.",
+  "genre": ["action", "adventure", "science-fiction"],
+  "link": "https://www.hulu.com/movie/inception-5519f425-9b21-48fb-8e67-aef24c76604a",
+  "director": [
+    {
+      "name": "Christopher Nolan",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/christopher-nolan-attends-the-oppenheimer-premiere-at-news-photo-1704643272.jpg",
+      "imdb": "https://www.imdb.com/name/nm0634240/",
+    }
+  ],
+  "actors": [
+    {
+      "name": "Leonardo DiCaprio",
+      "image": "https://phantom-marca.unidadeditorial.es/0e1996b37d1147008cea1fb6be3dc73a/resize/828/f/jpg/assets/multimedia/imagenes/2023/07/14/16893608205539.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000138/",
+    },
+    {
+      "name": "Joseph Gordon-Levitt",
+      "image": "https://www.hollywoodreporter.com/wp-content/uploads/2023/07/Joseph-Gordon-Levitt-HCA-Film-Awards-Show-GettyImages-1469365297-H-2023.jpg",
+      "imdb": "https://www.imdb.com/name/nm0330687/"
+    },
+    {
+      "name": "Elliot Page",
+      "image": "https://ew.com/thmb/dDgk_rJ7MR9KocqDHXsM2Wa1wk0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Elliot-Page-060923-df06ea6e845d4a03893f5400708f76bf.jpg",
+      "imdb": "https://www.imdb.com/name/nm0680983/"
+    },
+    {
+      "name": "Tom Hardy",
+      "image": "https://media.gq.com/photos/632b4e9763f2eae5a8460f51/16:9/w_2560%2Cc_limit/1340297096",
+      "imdb": "https://www.imdb.com/name/nm0362766/",
+    }
+  ]
+}
+,
+{
+  "item": 349,
+  "title": "Star Trek IV: The Voyage Home",
+  "runtime": 119,
+  "mpaa": "PG",
+  "poster": "https://img.hulu.com/user/v3/artwork/a40085ba-2df6-4835-ba31-741fac00c12d?base_image_bucket_name=image_manager&base_image=a170c934-2946-450d-b050-2af5be7cabed&size=600x338&format=jpeg",
+  "description": "'Star Trek IV: The Voyage Home' is a science fiction film directed by Leonard Nimoy and the fourth installment in the 'Star Trek' film series. In this adventure, the crew of the USS Enterprise travels back in time to 20th-century Earth to retrieve a pair of humpback whales, which are essential for saving their own time period from an alien probe. As they navigate the unfamiliar world of 1986 San Francisco, the crew must find a way to communicate with the whales and return them to the future before it's too late. 'Star Trek IV: The Voyage Home' is a humorous and heartwarming addition to the franchise, blending science fiction with environmental themes.",
+  "genre": ["adventure", "science-fiction", "sequel"],
+  "link": "https://www.hulu.com/movie/star-trek-iv-the-voyage-home-a40085ba-2df6-4835-ba31-741fac00c12d",
+  "director": [
+    {
+      "name": "Leonard Nimoy",
+      "image": "https://static01.nyt.com/images/2015/02/28/arts/28nimoy_video_hp/28nimoy_video_hp-superJumbo.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000559/",
+    }
+  ],
+  "actors": [
+    {
+      "name": "William Shatner",
+      "image": "https://m.media-amazon.com/images/M/MV5BODhmNmM0ZDctZTNiMi00ZjAwLWEzMmItYTg0Nzk0YzE2NDA5XkEyXkFqcGdeQW1pYnJ5YW50._V1_QL75_UX500_CR0,0,500,281_.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000638/",
+    }, {
+    "name": "DeForest Kelley",
+    "image": "https://treknews.net/wp-content/uploads/2020/01/deforest-kelley-100th-birthday.jpg",
+    "imdb": "https://www.imdb.com/name/nm0001420/"
+  }, {
+    "name": "Leonard Nimoy",
+    "image": "https://static01.nyt.com/images/2015/02/28/arts/28nimoy_video_hp/28nimoy_video_hp-superJumbo.jpg",
+    "imdb": "https://www.imdb.com/name/nm0000559/",
+  },
+    {
+      "name": "James Doohan",
+      "image": "https://images.prismic.io/star-trek-untold/OGVhYTBlNGEtNzA3Ny00NTQ2LTljYTMtYjQ4NzBmODdhM2Ey_09a69de15cf89bc7fe8c0642f906a4dd.jpg?auto=compress,format&rect=0,0,2800,1178&w=2800&h=1178",
+      "imdb": "https://www.imdb.com/name/nm0001149/"
+    }
+  ]
+}
 
 
 
