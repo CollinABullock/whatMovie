@@ -10014,6 +10014,26 @@ const moviesArray = [
   [
 
   ],
+  // start apple array
+  [
+
+  ],
+  // start disney array
+  [
+
+  ],
+  // start paramount array
+   [
+
+  ],
+  // start criterion array
+  [
+
+  ],
+  // start tubi array
+  [
+
+  ],
 ]
 
 const netflixArray = moviesArray[0];
@@ -10021,6 +10041,11 @@ const maxArray = moviesArray[1];
 const primeArray = moviesArray[2];
 const huluArray = moviesArray[3];
 const peacockArray = moviesArray[4];
+const appleArray = moviesArray[5];
+const disneyArray = moviesArray[6];
+const paramountArray = moviesArray[7];
+const criterionArray = moviesArray[8];
+const tubiArray = moviesArray[9];
 
 
-export {moviesArray, netflixArray, maxArray, primeArray, huluArray, peacockArray}
+export {moviesArray, netflixArray, maxArray, primeArray, huluArray, peacockArray, appleArray, disneyArray, paramountArray, criterionArray, tubiArray }
