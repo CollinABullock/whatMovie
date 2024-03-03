@@ -3719,6 +3719,45 @@ const moviesArray = [
   [
 
     {
+      "item": 335,
+      "title": "Spirited Away",
+      "runtime": 125,
+      "mpaa": "PG",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/3deab668-d0a4-4a8d-9bc8-0952a0ad836e/d24ed5a9b698985647bbb1c77772b9cb65a475a9.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=320",
+      "description": "In 'Spirited Away', a mesmerizing animated fantasy film directed by Hayao Miyazaki, follows the journey of a young girl named Chihiro who stumbles upon a mysterious and magical world after her parents are transformed into pigs. As Chihiro navigates through this strange realm, she encounters a host of peculiar creatures and must find a way to break the spell and return to the human world. 'Spirited Away' is a visually stunning and emotionally resonant masterpiece that captivates audiences of all ages.",
+      "genre": ["animation", "fantasy"],
+      "link": "https://www.max.com/movies/spirited-away/3deab668-d0a4-4a8d-9bc8-0952a0ad836e",
+      "director": [{
+        "name": "Hayao Miyazaki",
+        "image": "",
+        "imdb": "https://www.imdb.com/name/nm0594503/"
+      }],
+      "actors": [
+        {
+          "name": "Daveigh Chase",
+          "image": "",
+          "imdb": "https://www.imdb.com/name/nm0159886/"
+        },
+        {
+          "name": "Suzanne Pleshette",
+          "image": "",
+          "imdb": "https://www.imdb.com/name/nm0687123/"
+        },
+        {
+          "name": "Miyu Irino",
+          "image": "",
+          "imdb": "https://www.imdb.com/name/nm1082287/"
+        },
+        {
+          "name": "Susan Egan",
+          "image": "",
+          "imdb": "https://www.imdb.com/name/nm0250014/"
+        }
+      ]
+    }
+,    
+
+    {
       "item": 321,
       "title": "All the Beauty and the Bloodshed",
       "runtime": 85,
@@ -3855,39 +3894,37 @@ const moviesArray = [
       "title": "Star Trek II: The Wrath of Khan",
       "runtime": 113,
       "mpaa": "PG",
-      "poster": "",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/700f6eb5-f533-4f1e-9d36-78ef7b849237/82432b34d6b02e614a9432d570bc26c5d5f4fbe7.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=320",
       "description": "In 'Star Trek II: The Wrath of Khan', the crew of the starship USS Enterprise faces off against Khan Noonien Singh, a genetically engineered tyrant seeking revenge on Captain James T. Kirk. As Khan unleashes a plan of vengeance that threatens the entire galaxy, Kirk and his crew must confront their past and overcome impossible odds to save themselves and the future of the Federation. 'Star Trek II: The Wrath of Khan' is a thrilling space adventure that explores themes of friendship, sacrifice, and the human spirit.",
       "genre": ["science-fiction", "action", "adventure", "classic", "sequel"],
-      "link": "",
+      "link": "https://www.max.com/movies/star-trek-ii-the-wrath-of-khan/700f6eb5-f533-4f1e-9d36-78ef7b849237",
       "director": [{
         "name": "Nicholas Meyer",
-        "image": "",
+        "image": "https://www.hollywoodreporter.com/wp-content/uploads/2023/10/Nicholas-Meyer-Gerardmer-Fantastic-Film-Fest-GettyImages-1367411520-H-2023.jpg?w=1296",
         "imdb": "https://www.imdb.com/name/nm0582711/"
       }],
       "actors": [
         {
           "name": "William Shatner",
-          "image": "",
-          "imdb": "https://www.imdb.com/name/nm0000638/"
-        },
-        {
-          "name": "Leonard Nimoy",
-          "image": "",
-          "imdb": "https://www.imdb.com/name/nm0000559/"
-        },
-        {
-          "name": "DeForest Kelley",
-          "image": "",
-          "imdb": "https://www.imdb.com/name/nm0001416/"
-        },
+          "image": "https://m.media-amazon.com/images/M/MV5BODhmNmM0ZDctZTNiMi00ZjAwLWEzMmItYTg0Nzk0YzE2NDA5XkEyXkFqcGdeQW1pYnJ5YW50._V1_QL75_UX500_CR0,0,500,281_.jpg",
+          "imdb": "https://www.imdb.com/name/nm0000638/",
+        }, {
+        "name": "DeForest Kelley",
+        "image": "https://treknews.net/wp-content/uploads/2020/01/deforest-kelley-100th-birthday.jpg",
+        "imdb": "https://www.imdb.com/name/nm0001420/"
+      }, {
+        "name": "Leonard Nimoy",
+        "image": "https://static01.nyt.com/images/2015/02/28/arts/28nimoy_video_hp/28nimoy_video_hp-superJumbo.jpg",
+        "imdb": "https://www.imdb.com/name/nm0000559/",},
         {
           "name": "James Doohan",
-          "image": "",
+          "image": "https://images.prismic.io/star-trek-untold/OGVhYTBlNGEtNzA3Ny00NTQ2LTljYTMtYjQ4NzBmODdhM2Ey_09a69de15cf89bc7fe8c0642f906a4dd.jpg?auto=compress,format&rect=0,0,2800,1178&w=2800&h=1178",
           "imdb": "https://www.imdb.com/name/nm0001149/"
         }
       ]
     },
     
+
     
     
 
@@ -7439,6 +7476,42 @@ const moviesArray = [
     },
 
     {
+      "item": 329,
+      "title": "The Good, the Bad, and the Ugly",
+      "runtime": 161,
+      "mpaa": "R",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/442730a0-10b1-4ded-a3d5-ca359c0cc155/91c0b59c0fb6aaa9f2c76f4dd8f2c20e13c20f88.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=320",
+      "description": "Three gunslingers, Blondie, Tuco, and Angel Eyes, embark on a quest to find a buried treasure during the American Civil War. As they navigate through the brutal landscape of the Wild West, they encounter betrayal, deception, and epic gunfights. 'The Good, the Bad, and the Ugly' is renowned for its iconic characters, gripping storytelling, and unforgettable soundtrack, making it a timeless masterpiece of cinema.",
+      "genre": ["western", "foreign", 'classic'],
+      "link": "https://www.max.com/movies/good-the-bad-and-the-ugly/442730a0-10b1-4ded-a3d5-ca359c0cc155",
+      "director": [{
+        "name": "Sergio Leone",
+        "image": "https://m.media-amazon.com/images/M/MV5BYjNlZmVjMjYtYjdjOC00ZjgwLTkxOWYtMDgyZmY5NjcyMGZjXkEyXkFqcGdeQXVyNTAyNDQ2NjI@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm0001466/"
+      }],
+      "actors": [
+        {
+          "name": "Clint Eastwood",
+          "image": "https://hips.hearstapps.com/esquire/assets/16/31/1470229441-screen-shot-2016-08-03-at-85600-am.png",
+          "imdb": "https://www.imdb.com/name/nm0000142/",
+        },
+        {
+          "name": "Eli Wallach",
+          "image": "https://ichef.bbci.co.uk/news/624/mcs/media/images/75812000/jpg/_75812787_167b9325-2567-413e-979d-0776ffc4527f.jpg",
+          "imdb": "https://www.imdb.com/name/nm0908919/"
+        },
+        {
+          "name": "Lee Van Cleef",
+          "image": "https://miro.medium.com/v2/resize:fit:1400/1*0XMqpJwc8tzrveeja1WqmA.png",
+          "imdb": "https://www.imdb.com/name/nm0001812/"
+        }
+      ]
+    },
+
+
+    
+
+    {
       "item": "222",
       "title": "Grown Ups",
       "runtime": 102,
@@ -8894,6 +8967,169 @@ const moviesArray = [
         "imdb": "https://www.imdb.com/name/nm0000842/"
       }]
     },
+
+    {
+      "item": 331,
+      "title": "Judas and the Black Messiah",
+      "runtime": 126,
+      "mpaa": "R",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/986a5167-329c-4263-bd9f-01caa4e3d9a7/97becb3418e9c83ab9573b7e13a343e202b68b8f.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=320",
+      "description": "The true story of Fred Hampton, chairman of the Illinois Black Panther Party, and William O'Neal, the FBI informant who infiltrated the organization. As Hampton rises to prominence as a charismatic leader and advocate for social justice, O'Neal becomes entangled in a web of deceit and betrayal.",
+      "genre": ["biopic", "drama"],
+      "link": "",
+      "director": [{
+        "name": "Shaka King",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTc5ZWM5OGItZWQwYS00Y2UyLWI3ZmQtNDRjM2YzNTNjNTY4XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
+        "imdb": "https://www.imdb.com/name/nm1991099/"
+      }],
+      "actors": [
+        {
+          "name": "Daniel Kaluuya",
+        "image": "https://www.indiewire.com/wp-content/uploads/2019/11/Get-Out.jpg",
+        "imdb": "https://www.imdb.com/name/nm2257207/"
+        },
+        {
+          "name": "LaKeith Stanfield",
+          "image": "https://media.gq.com/photos/599ddf9b021601733ff6a615/16:9/w_2560%2Cc_limit/lakeith-stanfield.jpg",
+          "imdb": "https://www.imdb.com/name/nm3147750/"
+        },
+        {
+          "name": "Jesse Plemons",
+          "image": "https://img.texasmonthly.com/2021/06/jesse-plemons.jpg?auto=compress&crop=faces&fit=crop&fm=jpg&h=900&ixlib=php-3.3.1&q=45&w=1600",
+          "imdb": "https://www.imdb.com/name/nm0687146/"
+        },
+        {
+          "name": "Dominique Fishback",
+          "image": "https://variety.com/wp-content/uploads/2022/03/Dominique-Fishbeck.jpg?w=1000",
+          "imdb": "https://www.imdb.com/name/nm5166024/"
+        }
+      ]
+    }
+,    
+
+{
+  "item": 332,
+  "title": "Room",
+  "runtime": 118,
+  "mpaa": "R",
+  "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/6d2e7888-b410-4bfb-a638-a6a2ab5f37e1/c976f2dfa9ba54abf8d8d01922c0480a17ee2f2b.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=320",
+  "description": "In 'Room', a gripping drama film directed by Lenny Abrahamson, follows the harrowing story of Joy Newsome and her five-year-old son, Jack, who are held captive in a small shed by a man known as Old Nick. As Joy and Jack struggle to survive in their confined space, they form a powerful bond that sustains them through unimaginable circumstances. 'Room' is a poignant exploration of resilience, love, and the indomitable human spirit.",
+  "genre": ["drama"],
+  "link": "https://www.max.com/movies/room/6d2e7888-b410-4bfb-a638-a6a2ab5f37e1",
+  "director": [{
+    "name": "Lenny Abrahamson",
+    "image": "",
+    "imdb": "https://www.imdb.com/name/nm0009707/"
+  }],
+  "actors": [
+    {
+      "name": "Brie Larson",
+      "image": "https://people.com/thmb/2MILsdf35weyJcQtQAWYwrY0PfA=/400x262/filters:no_upscale():max_bytes(150000):strip_icc():focal(750x224:752x226)/sag-awards-2024-brie-larson-tout-022424-5d61b688c3834c0f9745692d3f083697.jpg",
+      "imdb": "https://www.imdb.com/name/nm0488953/",
+    },
+    {
+      "name": "Jacob Tremblay",
+      "image": "https://people.com/thmb/BR5BXJ6fRyC1Npb0EPJgZAanTL8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(979x225:981x227)/jacob-tremblay-the-little-mermaid-051223-5066f6b5f3d242deb6474a11c34605df.jpg",
+      "imdb": "https://www.imdb.com/name/nm5016878/"
+    },
+    {
+      "name": "Sean Bridgers",
+      "image": "https://trainwreckdsociety.files.wordpress.com/2017/08/seanbridgersjugface.png",
+      "imdb": "https://www.imdb.com/name/nm0108818/"
+    },
+    {
+      "name": "Joan Allen",
+      "image": "https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1688,w_3000,x_0,y_0/dpr_1.5/c_limit,w_1600/fl_lossy,q_auto/v1623139458/210503-stern-joan-allen-tease_onhudn",
+      "imdb": "https://www.imdb.com/name/nm0000260/"
+    },
+    {
+      "name": "William H. Macy",
+      "image": "https://variety.com/wp-content/uploads/2022/10/William-H-Macy_headshot93-e1666278479375.jpg?w=1000&h=563&crop=1",
+      "imdb": "https://www.imdb.com/name/nm0000513/"
+    }
+  ]
+}
+,
+
+{
+  "item": 333,
+  "title": "Godzilla vs. Kong",
+  "runtime": 113,
+  "mpaa": "PG-13",
+  "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/f1c6ef16-40b2-4ef5-89ed-547decd9e620/5dea83be6452c285c4bcf58f0f1c951146040f2b.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=320",
+  "description": "In 'Godzilla vs. Kong', a thrilling action-packed film directed by Adam Wingard, follows the epic clash between two iconic titans, Godzilla and Kong, as they battle for supremacy. As humanity looks on in awe and terror, the fate of the world hangs in the balance.",
+  "genre": ["action", "science-fiction", "disaster"],
+  "link": "https://www.max.com/movies/godzilla-vs-kong/f1c6ef16-40b2-4ef5-89ed-547decd9e620",
+  "director": [{
+    "name": "Adam Wingard",
+    "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/09/20/14/adam-wingard-blair-witch.jpg?width=1200",
+    "imdb": "https://www.imdb.com/name/nm0933250/"
+  }],
+  "actors": [
+    {
+      "name": "Alexander Skarsgård",
+      "image": "https://www.hollywoodreporter.com/wp-content/uploads/2022/04/4179_PP_D001_00695_RC-h-2022.jpg?w=1296",
+      "imdb": "https://www.imdb.com/name/nm0002907/"
+    },
+    {
+      "name": "Millie Bobby Brown",
+      "image": "https://assets.teenvogue.com/photos/5e4d5a38badfd6000806d228/16:9/w_2560%2Cc_limit/GettyImages-1200682231.jpg",
+      "imdb": "https://www.imdb.com/name/nm5611121/"
+    },
+    {
+      "name": "Rebecca Hall",
+      "image": "https://www.hollywoodreporter.com/wp-content/uploads/2021/08/Rebecca-Hall-attends-22The-Night-House22-Getty-H-2021.jpg?w=1296",
+      "imdb": "https://www.imdb.com/name/nm0356017/"
+    },
+    {
+      "name": "Brian Tyree Henry",
+      "image": "https://a.scpr.org/213247_cee6b174751105acd8ffdf64a08ccf62_original.jpg",
+      "imdb": "https://www.imdb.com/name/nm3078932/"
+    }
+  ]
+}
+,
+
+{
+  "item": 334,
+  "title": "Smallfoot",
+  "runtime": 96,
+  "mpaa": "PG",
+  "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/7933961a-b64e-4c42-8d5b-ddec6d51f03a/fbe3e3ec4ab70782598133b57ddbcaabe544face.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=320",
+  "description": "In 'Smallfoot', an animated adventure-comedy film directed by Karey Kirkpatrick, follows the story of a yeti named Migo who encounters a human, known as a 'smallfoot', despite the yeti community's belief that humans are mythical creatures. Determined to prove the existence of smallfoots, Migo embarks on a journey to the human world, where he discovers a whole new perspective on life. 'Smallfoot' is a heartwarming tale about friendship, courage, and the importance of questioning assumptions.",
+  "genre": ["animation", "comedy", "adventure", "kids"],
+  "link": "https://www.max.com/movies/smallfoot/7933961a-b64e-4c42-8d5b-ddec6d51f03a",
+  "director": [{
+    "name": "Karey Kirkpatrick",
+    "image": "https://m.media-amazon.com/images/M/MV5BMjAwOTYwMTU4M15BMl5BanBnXkFtZTcwMTc0MjA2Mg@@._V1_.jpg",
+    "imdb": "https://www.imdb.com/name/nm0456292/"
+  }],
+  "actors": [
+    {
+      "name": "Channing Tatum",
+      "image": "https://images.wsj.net/im-721591?width=1280&size=1.33333333",
+      "imdb": "https://www.imdb.com/name/nm1475594/"
+    },
+    {
+      "name": "James Corden",
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/240125134441-01-james-corden-2023-file.jpg?c=16x9&q=h_833,w_1480,c_fill",
+      "imdb": "https://www.imdb.com/name/nm0179479/"
+    },
+    {
+      "name": "Zendaya",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/zendaya-attends-the-dune-part-two-premiere-at-lincoln-news-photo-1708942668.jpg?crop=1xw:0.44055xh;center,top",
+      "imdb": "https://www.imdb.com/name/nm3918035/"
+    },
+    {
+      "name": "Common",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/common_photo_by_maarten_de_boer_getty_images_entertainment_getty_461469844.jpg?crop=1xw:0.75xh;center,top&resize=1200:*",
+      "imdb": "https://www.imdb.com/name/nm0179599/"
+    }
+  ]
+}
+,
+
+
 
     {
       "item": 273,
