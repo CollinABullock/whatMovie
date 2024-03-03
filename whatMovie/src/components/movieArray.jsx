@@ -10459,7 +10459,7 @@ const moviesArray = [
   "runtime": 119,
   "mpaa": "PG",
   "poster": "https://img.hulu.com/user/v3/artwork/a40085ba-2df6-4835-ba31-741fac00c12d?base_image_bucket_name=image_manager&base_image=a170c934-2946-450d-b050-2af5be7cabed&size=600x338&format=jpeg",
-  "description": "'Star Trek IV: The Voyage Home' is a science fiction film directed by Leonard Nimoy and the fourth installment in the 'Star Trek' film series. In this adventure, the crew of the USS Enterprise travels back in time to 20th-century Earth to retrieve a pair of humpback whales, which are essential for saving their own time period from an alien probe. As they navigate the unfamiliar world of 1986 San Francisco, the crew must find a way to communicate with the whales and return them to the future before it's too late. 'Star Trek IV: The Voyage Home' is a humorous and heartwarming addition to the franchise, blending science fiction with environmental themes.",
+  "description": "The crew of the USS Enterprise travels back in time to 20th-century Earth to retrieve a pair of humpback whales, which are essential for saving their own time period from an alien probe. As they navigate the unfamiliar world of 1986 San Francisco, the crew must find a way to communicate with the whales and return them to the future before it's too late..",
   "genre": ["adventure", "science-fiction", "sequel"],
   "link": "https://www.hulu.com/movie/star-trek-iv-the-voyage-home-a40085ba-2df6-4835-ba31-741fac00c12d",
   "director": [
@@ -10490,7 +10490,87 @@ const moviesArray = [
     }
   ]
 }
-
+,
+{
+  "item": 350,
+  "title": "X-Men Origins: Wolverine",
+  "runtime": 107,
+  "mpaa": "PG-13",
+  "poster": "https://img2.hulu.com/user/v3/artwork/82480f3f-6f11-4feb-8c4e-b32c0aca2c53?base_image_bucket_name=image_manager&base_image=7b56e1f7-c32e-41b8-bd56-64317821bf0a&size=600x338&format=jpeg",
+  "description": "This movie explores the backstory of the popular Marvel Comics character Wolverine, also known as Logan. It follows Logan's journey from his childhood as James Howlett, through his time serving in various wars, to his transformation into the mutant with adamantium claws. As Logan navigates a world filled with mutants and government conspiracies, he must confront his past and the dark forces that seek to control him.",
+  "genre": ["action", "adventure", "science-fiction", "comic-book"],
+  "link": "https://www.hulu.com/movie/x-men-origins-wolverine-82480f3f-6f11-4feb-8c4e-b32c0aca2c53",
+  "director": [
+    {
+      "name": "Gavin Hood",
+      "image": "https://vz.cnwimg.com/wp-content/uploads/2020/04/gh.jpg",
+      "imdb": "https://www.imdb.com/name/nm0390860/"
+    }
+  ],
+  "actors": [
+    {
+      "name": "Hugh Jackman",
+      "image": "https://media.gq.com/photos/58b9fda8803bdb766dd69ef7/16:9/w_1280,c_limit/wolverine.jpg",
+      "imdb": "https://www.imdb.com/name/nm0413168/"
+    },
+    {
+      "name": "Liev Schreiber",
+      "image": "https://media.npr.org/assets/img/2022/05/21/gettyimages-1397792718_custom-b735c82cb9285bbf005799ddac6623ad27a80d3f.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000630/"
+    },
+    {
+      "name": "Danny Huston",
+      "image": "https://m.media-amazon.com/images/M/MV5BZmNmYmY1ZjgtOTc1My00M2M1LTgxYmMtYTNkYmUwZDRkNDhiXkEyXkFqcGdeQWRpZWdtb25n._V1_QL75_UX500_CR0,0,500,281_.jpg",
+      "imdb": "https://www.imdb.com/name/nm0001379/"
+    },
+    {
+      "name": "Lynn Collins",
+      "image": "https://facts.net/wp-content/uploads/2023/10/25-surprising-facts-about-lynn-collins-1698199447.jpg",
+      "imdb": "https://www.imdb.com/name/nm0178956/"
+    }
+  ]
+}
+,
+{
+  "item": 351,
+  "title": "Geostorm",
+  "runtime": 109,
+  "mpaa": "PG-13",
+  "poster": "",
+  "description": "'Geostorm' is a disaster science fiction film directed by Dean Devlin. In a future where climate-controlling satellites have been deployed to prevent natural disasters, a malfunction in the system creates a series of catastrophic weather events, threatening to unleash a global geostorm that could wipe out humanity. Jake Lawson, the creator of the satellite program, is called upon to fix the malfunction and prevent the impending disaster. As he races against time, Jake uncovers a conspiracy that could lead to the end of the world as we know it. 'Geostorm' is a thrilling and action-packed film that explores the consequences of tampering with nature and the resilience of the human spirit in the face of disaster.",
+  "genre": ["action", "science-fiction", "thriller", "disaster"],
+  "link": "",
+  "director": [
+    {
+      "name": "Dean Devlin",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjIyODg1NjE1NV5BMl5BanBnXkFtZTgwODUzMzQ4MDE@._V1_.jpg",
+      "imdb": "https://www.imdb.com/name/nm0002041/"
+    }
+  ],
+  "actors": [
+    {
+      "name": "Gerard Butler",
+          "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQqBXNOrwyQm00UNO7CoVnzWyi6XMxN7rSZMgz9_XKobpCUp-52",
+          "imdb": "https://www.imdb.com/name/nm0124930/"
+    },
+    {
+      "name": "Jim Sturgess",
+      "image": "https://www.telegraph.co.uk/content/dam/men/2016/11/04/107316497_May0072205_The_Daily_Telegraph_Portrait_of_British_actor_Jim_Sturgess_photographed_on_the_trans_NvBQzQNjv4BqEduPGWXTgvtbFyMaMlYatt5HfJMDGz2ut_fb3D_DyLc.jpg",
+      "imdb": "https://www.imdb.com/name/nm0836345/"
+    },
+    {
+      "name": "Abbie Cornish",
+      "image": "https://www.bostonherald.com/wp-content/uploads/migration/2011/03/22/5f5904_032211cornish2.jpg?w=1024",
+      "imdb": "https://www.imdb.com/name/nm0180411/"
+    },
+    {
+      "name": "Alexandra Maria Lara",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTBiZjAzYTMtNWMxNy00YWRmLWE4ODItMGFiNTRjNzViOWQ4XkEyXkFqcGdeQXVyMTI3MDk3MzQ@._V1_.jpg",
+      "imdb": "https://www.imdb.com/name/nm0487148/"
+    }
+  ]
+}
+,
 
 
 
