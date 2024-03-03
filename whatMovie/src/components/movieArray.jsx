@@ -25,9 +25,9 @@ const moviesArray = [
     },
 
     {
-      "item": 301,
+      "item": "N301",
       "title": "Last Breath",
-      "runtime": "85 minutes",
+      "runtime": 85,
       "mpaa": "Not Rated",
       "poster": "https://occ-0-90-92.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABYmZw6rpsQiit_33C2Czyn4FX0WB2xYPFQTplpZa65XrLr3C8bbG6m7eu_iJx6HCD7NKAdvNDn01cGEfo-txC_rZQ2qEhWNDEkrC.jpg?r=42b",
       "description": "In 'Last Breath', a documentary film, follows the incredible true story of a deep-sea diver who becomes stranded on the seabed with only five minutes of oxygen remaining after his umbilical line snaps. As his colleagues work tirelessly to rescue him, the diver must confront his own mortality and fight to survive against all odds in the dark depths of the ocean.",
@@ -38,13 +38,17 @@ const moviesArray = [
         "image": "https://media.licdn.com/dms/image/C5622AQFFwHaCz5m_pw/feedshare-shrink_800/0/1629469865108?e=2147483647&v=beta&t=jT-kPYiA3S5R3RjI6UN1R2FCGvHpY_4-H8wJu-p_MTc",
         "imdb": "https://www.imdb.com/name/nm2735722/"
       }],
-      "actors": []
+      "actors": [{
+        "name": "Richard da Costa",
+        "image": "https://media.licdn.com/dms/image/C5622AQFFwHaCz5m_pw/feedshare-shrink_800/0/1629469865108?e=2147483647&v=beta&t=jT-kPYiA3S5R3RjI6UN1R2FCGvHpY_4-H8wJu-p_MTc",
+        "imdb": "https://www.imdb.com/name/nm2735722/"
+      }]
     }
     ,
     {
       "item": 302,
       "title": "Out of Thin Air",
-      "runtime": "85 minutes",
+      "runtime": 85,
       "mpaa": "Not Rated",
       "poster": "https://occ-0-90-92.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABa2Sl1akvN80VikqzzhSJVVZJjMrJrB5c67MMGmlYeihrstOV2vO4tz8qjpepLBkvk1iWQeyr-3iBgLOxC35DKF5_RXFSoBzizp0.jpg?r=4db",
       "description": "In 'Out of Thin Air', a documentary film, explores the notorious case of the disappearance of two men in Iceland in 1974. The film investigates the mysterious circumstances surrounding the case, including the controversial use of questionable interrogation tactics by the Icelandic police. Through interviews and archival footage, 'Out of Thin Air' delves into the complexities of memory, justice, and the power of storytelling.",
@@ -55,13 +59,17 @@ const moviesArray = [
         "image": "https://i.ytimg.com/vi/rl1520VlJSI/maxres2.jpg?sqp=-oaymwEoCIAKENAF8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYOSA7KH8wDw==&rs=AOn4CLBYLiS1hOEgTIIsLw-kXwuum-JrsQ",
         "imdb": "https://www.imdb.com/name/nm6055316/"
       }],
-      "actors": []
+      "actors": [{
+        "name": "Dylan Howitt",
+        "image": "https://i.ytimg.com/vi/rl1520VlJSI/maxres2.jpg?sqp=-oaymwEoCIAKENAF8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYOSA7KH8wDw==&rs=AOn4CLBYLiS1hOEgTIIsLw-kXwuum-JrsQ",
+        "imdb": "https://www.imdb.com/name/nm6055316/"
+      }],
     },
     
     {
       "item": 303,
       "title": "The Phantom",
-      "runtime": "90 minutes",
+      "runtime": 90,
       "mpaa": "Not Rated",
       "poster": "https://occ-0-90-92.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABfy3PVY24eGR4MvZ_q7IJM66afvYg2WLaulnovxnALylYd0XCFmeJpkoybBLxN0g-jIrGGmEgdGFo_bWVz6NXKQL1EPRYOec5xtH.jpg?r=419",
       "description": "In 'The Phantom', a documentary film, investigates the disappearance of a South Korean navy ship with 46 sailors on board. The film explores the events leading up to the ship's disappearance and the subsequent investigation to uncover the truth behind the tragedy. Through interviews with survivors, experts, and officials, 'The Phantom' sheds light on the complexities of maritime disasters and the quest for justice.",
@@ -73,7 +81,7 @@ const moviesArray = [
         "imdb": "https://www.imdb.com/name/nm1682101/"
       }],
       "actors": []
-    }
+    },
     
 
 
