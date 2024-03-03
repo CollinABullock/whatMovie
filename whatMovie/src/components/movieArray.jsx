@@ -3724,38 +3724,40 @@ const moviesArray = [
       "runtime": 125,
       "mpaa": "PG",
       "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/3deab668-d0a4-4a8d-9bc8-0952a0ad836e/d24ed5a9b698985647bbb1c77772b9cb65a475a9.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=320",
-      "description": "In 'Spirited Away', a mesmerizing animated fantasy film directed by Hayao Miyazaki, follows the journey of a young girl named Chihiro who stumbles upon a mysterious and magical world after her parents are transformed into pigs. As Chihiro navigates through this strange realm, she encounters a host of peculiar creatures and must find a way to break the spell and return to the human world. 'Spirited Away' is a visually stunning and emotionally resonant masterpiece that captivates audiences of all ages.",
+      "description": "A young girl named Chihiro stumbles upon a mysterious and magical world after her parents are transformed into pigs. As Chihiro navigates through this strange realm, she encounters a host of peculiar creatures and must find a way to break the spell and return to the human world.",
       "genre": ["animation", "fantasy"],
       "link": "https://www.max.com/movies/spirited-away/3deab668-d0a4-4a8d-9bc8-0952a0ad836e",
       "director": [{
         "name": "Hayao Miyazaki",
-        "image": "",
-        "imdb": "https://www.imdb.com/name/nm0594503/"
+        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ9_CR8hEkvsmPKEloLHKbm5AlrmKpS2M80IxUpIvep9WwOezXF",
+        "imdb": "https://www.imdb.com/name/nm0594503/",
       }],
       "actors": [
         {
           "name": "Daveigh Chase",
-          "image": "",
+          "image": "https://vz.cnwimg.com/wp-content/uploads/2015/04/GettyImages-108016193.jpg?x79707",
           "imdb": "https://www.imdb.com/name/nm0159886/"
         },
         {
           "name": "Suzanne Pleshette",
-          "image": "",
+          "image": "https://m.media-amazon.com/images/M/MV5BYTAxNDgyNjUtNDE0Zi00M2VhLTg5YjItMzc1NWE0Y2VhNjhmXkEyXkFqcGdeQXVyMTI3MDk3MzQ@._V1_.jpg",
           "imdb": "https://www.imdb.com/name/nm0687123/"
         },
         {
           "name": "Miyu Irino",
-          "image": "",
+          "image": "https://lh3.googleusercontent.com/JZ6tMQ053O_B4KqBPktya9hDJMxGiULKeJqZyeOpkU28A6A1dhwmKsE482Uh7cQNXDZqbyKlG-7QuIJY=w2400-h1000-p-l90-rj",
           "imdb": "https://www.imdb.com/name/nm1082287/"
         },
         {
           "name": "Susan Egan",
-          "image": "",
+          "image": "https://people.com/thmb/IrOHAp7O42LxEGgLc3FFc3LZtY0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(749x0:751x2)/Susan-Egan-Ultimate-Disney-Fan-Event72-11092022-2f534169295d4989bdd25a4e84f826a5.jpg",
           "imdb": "https://www.imdb.com/name/nm0250014/"
         }
       ]
     }
 ,    
+
+
 
     {
       "item": 321,
