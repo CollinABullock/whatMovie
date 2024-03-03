@@ -10012,7 +10012,7 @@ const moviesArray = [
       "item": 338,
       "title": "The Lost City",
       "runtime": 112,
-      "mpaa": PG-13,
+      "mpaa": "PG-13",
       "poster": "https://img4.hulu.com/user/v3/artwork/06b377ad-f0ca-4c81-89cc-113a3e744b4f?base_image_bucket_name=image_manager&base_image=25ea4f36-b86d-4b11-8f3f-baa0bc69e1bb&size=600x338&format=jpeg",
       "description": "The Lost City follows the story of a reclusive romance novelist who gets swept into a real-life adventure when a mysterious man shows up at her book signing claiming to be a treasure hunter. As they embark on a dangerous journey to find a legendary lost city, they must navigate treacherous terrain and outsmart deadly adversaries. ",
       "genre": ["adventure", "comedy", "romance"],
@@ -10101,7 +10101,7 @@ const moviesArray = [
   "poster": "https://img4.hulu.com/user/v3/artwork/184d0f39-341e-47c6-b3b8-d48b78959293?base_image_bucket_name=image_manager&base_image=6f2799ca-c7a9-4882-bd88-e9ec3008e772&size=600x338&format=jpeg",
   "description": "In 'Tombstone', a classic western film directed by George P. Cosmatos, follows the legendary gunfight at the O.K. Corral and the events leading up to it. Starring Kurt Russell, Val Kilmer, and Sam Elliott, the film portrays the lives of famous lawman Wyatt Earp, his brothers, and their friend Doc Holliday as they confront a gang of outlaws in the lawless town of Tombstone, Arizona. 'Tombstone' is a gripping and action-packed tale of honor, friendship, and justice in the Wild West.",
   "genre": ["western", "action", "drama"],
-  "link": "https://img4.hulu.com/user/v3/artwork/184d0f39-341e-47c6-b3b8-d48b78959293?base_image_bucket_name=image_manager&base_image=6f2799ca-c7a9-4882-bd88-e9ec3008e772&size=600x338&format=jpeg",
+  "link": "https://www.hulu.com/movie/tombstone-184d0f39-341e-47c6-b3b8-d48b78959293",
   "director": [
     {
       "name": "George P. Cosmatos",
