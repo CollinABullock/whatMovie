@@ -402,6 +402,7 @@ const moviesArray = [
     
     
     
+    
 
     {
       "item": "n420",
@@ -3158,7 +3159,7 @@ const moviesArray = [
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEdnkLrjpVJDcNcR5qmQHCgdsgOEpFmnYAqO0hApkmiQGLkaT9ZINqLLXgHPoJV3rlr30&usqp=CAU",
       "imdb": "https://www.imdb.com/name/nm0262635/",
     }, {
-      "name": "Song Kang Ho",
+      "name": "Kang-Ho Song",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7bMlKoo0ORq302AMo3Tc9RFwzqlZLZaYHD1-9bhapjdfHxJIb",
       "imdb": "https://www.imdb.com/name/nm0814280/"
     }, {
@@ -3716,6 +3717,112 @@ const moviesArray = [
 // start max array
 
   [
+
+    {
+      "item": 321,
+      "title": "All the Beauty and the Bloodshed",
+      "runtime": 85,
+      "mpaa": "Not Rated",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/9aabe565-ab76-45e8-861e-f868742452c6/338f16b9d0f56da699c9212a22c513483855db81.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=320",
+      "description": "In 'All the Beauty and the Bloodshed', a documentary film, explores the intersection of beauty pageants and true crime in small-town America. The film delves into the darker side of the pageant world, examining cases of murder, disappearances, and scandals that have rocked communities across the country. Through interviews with contestants, organizers, and law enforcement, 'All the Beauty and the Bloodshed' offers a compelling glimpse into the complexities of beauty, power, and tragedy.",
+      "genre": ["documentary", "crime"],
+      "link": "https://www.max.com/movies/all-the-beauty-and-the-bloodshed/9aabe565-ab76-45e8-861e-f868742452c6",
+      "director": [{
+        "name": "Laura Poitras",
+        "image": "https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fcom.ft.imagepublish.upp-prod-eu.s3.amazonaws.com%2F894eb56a-8024-11e4-adff-00144feabdc0?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1",
+        "imdb": "https://www.imdb.com/name/nm1860554/"
+      }],
+      "actors": [{
+        "name": "Nan Goldin",
+        "image": "https://d7hftxdivxxvm.cloudfront.net/?quality=80&resize_to=width&src=https%3A%2F%2Fartsy-media-uploads.s3.amazonaws.com%2Fd6vVx64IRpp2IVUzRF_qxQ%252F1970s_Nan%2Bin%2Bthe%2Bbathroom%2Bwith%2Broommate%2BSA_11977.jpg&width=910",
+        "imdb": "https://www.imdb.com/name/nm0325713/"
+      }]
+    },
+
+    {
+      "item": 322,
+      "title": "There's Something Wrong with Aunt Diane",
+      "runtime": 101,
+      "mpaa": "Not Rated",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/d873ef0d-ff3b-464c-abd3-8b0d69fa0b6a/a07a77ddbb7be8bb9011ecfcaf76290a6bc2b601.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=320",
+      "description": "In 'There's Something Wrong with Aunt Diane', a documentary film, investigates the tragic events surrounding the 2009 Taconic State Parkway crash, where Diane Schuler drove the wrong way on the highway, causing a collision that killed eight people, including herself and four children. The film delves into the circumstances leading up to the crash, including Schuler's actions and state of mind, as well as the aftermath and the impact on the families involved. Through interviews, archival footage, and expert analysis, 'There's Something Wrong with Aunt Diane' explores the complexities of human behavior and the search for answers in the face of unimaginable tragedy.",
+      "genre": ["documentary", "crime"],
+      "link": "https://www.max.com/movies/theres-something-wrong-with-aunt-diane/d873ef0d-ff3b-464c-abd3-8b0d69fa0b6a",
+      "director": [{
+        "name": "Liz Garbus",
+        "image": "https://media.cnn.com/api/v1/images/stellar/prod/221207154640-liz-garbus-file-012620.jpg?c=original",
+        "imdb": "https://www.imdb.com/name/nm0306826/"
+      }],
+      "actors": []
+    },
+    
+    {
+      "item": 323,
+      "title": "Parasite",
+      "runtime": 132,
+      "mpaa": "R",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/d5e3be11-eb8b-449f-89cf-db887ddee777/e8f596810f1dcbe4007065872a3e3552938bad37.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=320",
+      "description": "In 'Parasite', a South Korean black comedy thriller film, depicts the cunning schemes of the Kim family as they gradually infiltrate the wealthy Park household, posing as unrelated skilled workers. As the Kims exploit their newfound positions, tensions rise and secrets threaten to unravel their carefully constructed facade. 'Parasite' masterfully explores themes of social class, greed, and the complex dynamics between the haves and the have-nots.",
+      "genre": ["drama", "thriller", "comedy", "foreign"],
+      "link": "https://www.max.com/movies/parasite/d5e3be11-eb8b-449f-89cf-db887ddee777",
+      "director": [{
+        "name": "Bong Joon Ho",
+        "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/rockcms/2024-01/240112-bong-joon-ho-mn-1020-75b530.jpg",
+        "imdb": "https://www.imdb.com/name/nm0094435/",
+      }],
+      "actors": [
+        {
+          "name": "Kang-Ho Song",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7bMlKoo0ORq302AMo3Tc9RFwzqlZLZaYHD1-9bhapjdfHxJIb",
+      "imdb": "https://www.imdb.com/name/nm0814280/"
+        },
+        {
+          "name": "Sun-kyun Lee",
+          "image": "https://www.hollywoodreporter.com/wp-content/uploads/2023/12/GettyImages-1492131821.jpg?w=2000&h=1126&crop=1",
+          "imdb": "https://www.imdb.com/name/nm0492602/"
+        },
+        {
+          "name": "Yeo-jeong Jo",
+          "image": "https://6.soompi.io/wp-content/uploads/image/4d96d6308b7b4257803ea2fc10cb7e72.jpeg?s=900x600&e=t",
+          "imdb": "https://www.imdb.com/name/nm0421755/"
+        }
+      ]
+    },
+
+    {
+      "item": 325,
+      "title": "Her",
+      "runtime": 126,
+      "mpaa": "R",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/b88f46fe-2bb3-43e9-bf7f-36b133af1990/089a9dec0908d7a2fe6dc831118907983e32fc7d.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=320",
+      "description": "In 'Her', a science fiction romantic drama film, tells the story of Theodore Twombly, a lonely writer who develops an emotional connection with an artificially intelligent operating system named Samantha. As Theodore's relationship with Samantha deepens, he grapples with questions of identity, intimacy, and the nature of love in a technologically advanced society. 'Her' is a poignant exploration of human relationships and the ways in which technology intersects with our emotional lives.",
+      "genre": ["romance", "drama", "science-fiction"],
+      "link": "https://www.max.com/movies/her/b88f46fe-2bb3-43e9-bf7f-36b133af1990",
+      "director": [{
+        "name": "Spike Jonze",
+        "image": "https://variety.com/wp-content/uploads/2019/07/spike-jonze.jpg?w=1000",
+        "imdb": "https://www.imdb.com/name/nm0005069/"
+      }],
+      "actors": [
+        {
+          "name": "Joaquin Phoenix",
+          "image": "https://variety.com/wp-content/uploads/2018/03/shutterstock_editorial_9886170h.jpg?w=1000",
+          "imdb": "https://www.imdb.com/name/nm0001618/?ref_=tt_ov_st",
+        },
+        {
+          "name": "Scarlett Johansson",
+          "image": "https://dmn-dallas-news-prod.cdn.arcpublishing.com/resizer/UQ836S9qDWRgX1TYCkzykIuWIK8=/1660x1107/smart/filters:no_upscale()/cloudfront-us-east-1.images.arcpublishing.com/dmn/63MMCIXPOAOUKAMXJMW7HTAWCU.jpg",
+          "imdb": "https://www.imdb.com/name/nm0424060/",
+        },
+        {
+          "name": "Amy Adams",
+          "image": "https://akns-images.eonline.com/eol_images/Entire_Site/2023718/rs_1200x1200-230818082417-1200.enchanted-premiere-amy-adams-thumbnail-tb-081823.jpg?fit=around%7C660:372&output-quality=90&crop=660:372;center,top",
+          "imdb": "https://www.imdb.com/name/nm0010736/"
+        }
+      ]
+    },
+    
+    
 
     {
       "item": "m69",
