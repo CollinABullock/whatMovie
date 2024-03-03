@@ -3757,6 +3757,38 @@ const moviesArray = [
     }
 ,    
 
+{
+  "item": 336,
+  "title": "Alvin and the Chipmunks: The Squeakquel",
+  "runtime": 88,
+  "mpaa": "PG",
+  "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/6cc965e7-5290-4838-ba5a-8062140e86c2/3b6c2d8499a3f59805191d197adb3490e9c44e0d.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=320",
+  "description": "In 'Alvin and the Chipmunks: The Squeakquel', a family comedy film directed by Betty Thomas, follows the mischievous adventures of Alvin, Simon, and Theodore as they navigate the challenges of school life while also pursuing their dreams of becoming rock stars. When the Chipmunks face competition from a rival female singing group known as The Chipettes, they must learn the true meaning of friendship and teamwork. 'Alvin and the Chipmunks: The Squeakquel' is a fun-filled sequel that delights audiences with its catchy music and lovable characters.",
+  "genre": ["animation", "comedy", "kids"],
+  "link": "https://www.max.com/movies/alvin-and-the-chipmunks-the-squeakquel/6cc965e7-5290-4838-ba5a-8062140e86c2",
+  "director": [{
+    "name": "Betty Thomas",
+    "image": "https://www.hollywoodreporter.com/wp-content/uploads/2021/06/GettyImages-158364615-H-2021.jpg",
+    "imdb": "https://www.imdb.com/name/nm0858685/"
+  }],
+  "actors": [
+    {
+      "name": "Zachary Levi",
+      "image": "https://i.ytimg.com/vi/u8ulp5k6Y_o/maxresdefault.jpg",
+      "imdb": "https://www.imdb.com/name/nm1157048/"
+    },
+    {
+      "name": "David Cross",
+      "image": "https://cdn.nycitynewsservice.com/blogs.dir/9/files/2021/11/David-Cross-1152x759.jpg",
+      "imdb": "https://www.imdb.com/name/nm0189141/"
+    },
+    {
+      "name": "Jason Lee",
+      "image": "https://i.ytimg.com/vi/Wtn7OThBfrU/maxresdefault.jpg",
+      "imdb": "https://www.imdb.com/name/nm0005134/"
+    }
+  ]
+},
 
 
     {
@@ -4385,6 +4417,52 @@ const moviesArray = [
       "imdb": "https://www.imdb.com/name/nm0847361/",
     }]
     },
+
+    {
+      "item": 337,
+      "title": "Monsters vs. Aliens",
+      "runtime": 94,
+      "mpaa": "PG",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/ff40cd61-60c5-49aa-af0c-66577621ff25/6448b67a8cb917bd7cc460e5bd4fd08f998d02b0.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=320",
+      "description": "In 'Monsters vs. Aliens', a hilarious animated science fiction film directed by Rob Letterman and Conrad Vernon, follows a group of monsters who are recruited by the government to defend Earth from an alien invasion. Led by Susan Murphy, aka Ginormica, the monsters must put aside their differences and work together to save the planet.",
+      "genre": ["animation", "comedy", "sci-fi"],
+      "link": "https://www.max.com/movies/monsters-vs-aliens/ff40cd61-60c5-49aa-af0c-66577621ff25",
+      "director": [
+        {
+          "name": "Rob Letterman",
+          "image": "https://m.media-amazon.com/images/M/MV5BODYwMTE1NTEyNF5BMl5BanBnXkFtZTgwMTU3MzI5NjE@._V1_.jpg",
+          "imdb": "https://www.imdb.com/name/nm0501585/"
+        },
+        {
+          "name": "Conrad Vernon",
+          "image": "https://www.thewrap.com/wp-content/uploads/2016/09/conradvernon.jpg",
+          "imdb": "https://www.imdb.com/name/nm0970447/",
+        }
+      ],
+      "actors": [
+        {
+          "name": "Reese Witherspoon",
+          "image": "https://people.com/thmb/YnCqOXeOmPSr7jBMfmJ-eu0p5Wg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(879x412:881x414)/reese-witherspoon-attends-the-world-premiere-of-netflixs-your-place-or-mine-2000-8d59725ba98a4f519412cb7d345f4598.jpg",
+          "imdb": "https://www.imdb.com/name/nm0000702/"
+        },
+        {
+          "name": "Seth Rogen",
+          "image": "https://media.gq.com/photos/5cd9879fb41d09d10bcd7657/16:9/w_2560%2Cc_limit/seth-rogen-gq-cover-june-july-2019-11.jpg",
+          "imdb": "https://www.imdb.com/name/nm0736622/?ref_=nv_sr_srsg_0_tt_6_nm_2_q_seth%2520rogen",
+        },
+        {
+          "name": "Hugh Laurie",
+          "image": "https://media1.popsugar-assets.com/files/thumbor/W5QOtQJDJQPn_quiMOXVg7ybZhA=/0x251:4200x2351/fit-in/4200x2789/top/filters:format_auto():quality(85):upscale()/2023/11/02/783/n/48559432/3edd8b3a6543e108b935b3.57080625_.jpg",
+          "imdb": "https://www.imdb.com/name/nm0491402/"
+        },
+        {
+          "name": "Will Arnett",
+          "image": "https://i.guim.co.uk/img/media/748e201960d9d6fe2dac9c60e3ab9f7023d77101/0_487_4588_2751/master/4588.jpg?width=1200&quality=85&auto=format&fit=max&s=a2c9f4b48082403b37f2c03f4a5f16b3",
+          "imdb": "https://www.imdb.com/name/nm0004715/"
+        }
+      ]
+    },
+    
 
     {    
       "item": "117",
@@ -9927,14 +10005,22 @@ const moviesArray = [
     "imdb": "https://www.imdb.com/name/nm0000298/"
   }]
 }
-  ], [
+  ], 
+  // start hulu array
+  [
 
-  ]
+  ],
+  // start peacock array
+  [
+
+  ],
 ]
 
 const netflixArray = moviesArray[0];
 const maxArray = moviesArray[1];
 const primeArray = moviesArray[2];
 const huluArray = moviesArray[3];
+const peacockArray = moviesArray[4];
 
-export {moviesArray, netflixArray, maxArray, primeArray, huluArray}
+
+export {moviesArray, netflixArray, maxArray, primeArray, huluArray, peacockArray}

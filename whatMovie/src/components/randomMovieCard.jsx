@@ -40,7 +40,7 @@ export default function RandomMovie({ selectedRuntime  }) {
           serviceMovies = serviceMovies.concat(primeArray);
         } else if (service === "Hulu") {
           serviceMovies = serviceMovies.concat(huluArray);
-        }
+        } 
         // Add more conditions for other services if needed
       });
       filtered = serviceMovies.filter(movie => movie.runtime <= selectedRuntime);
@@ -144,7 +144,18 @@ if (preferredDirectors && preferredDirectors.length > 0) {
         />
         </a>
       );
-    } else {
+    } else if (hostname === 'www.hulu.com') {
+      return (
+        <a href={link} target="_blank" rel="noopener noreferrer">
+        <img
+          src="https://wallpapers.com/images/featured/hulu-fxo5g9d2z5nmrq7p.jpg"
+          alt="Hulu Logo"
+          style={{ width: '100px', height: 'auto' }}
+        />
+        </a>
+      );
+    } 
+    else {
       return (
         <a href={link} target="_blank" style={{ color: 'blue', textDecoration: 'none', cursor: 'pointer' }}>Watch Now</a>
       );
