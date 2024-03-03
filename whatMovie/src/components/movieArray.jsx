@@ -10008,6 +10008,135 @@ const moviesArray = [
   ], 
   // start hulu array
   [
+    {
+      "item": 338,
+      "title": "The Lost City",
+      "runtime": 112,
+      "mpaa": PG-13,
+      "poster": "https://img4.hulu.com/user/v3/artwork/06b377ad-f0ca-4c81-89cc-113a3e744b4f?base_image_bucket_name=image_manager&base_image=25ea4f36-b86d-4b11-8f3f-baa0bc69e1bb&size=600x338&format=jpeg",
+      "description": "The Lost City follows the story of a reclusive romance novelist who gets swept into a real-life adventure when a mysterious man shows up at her book signing claiming to be a treasure hunter. As they embark on a dangerous journey to find a legendary lost city, they must navigate treacherous terrain and outsmart deadly adversaries. ",
+      "genre": ["adventure", "comedy", "romance"],
+      "link": "https://www.hulu.com/movie/the-lost-city-06b377ad-f0ca-4c81-89cc-113a3e744b4f",
+      "director": [
+        {
+          "name": "Aaron Nee",
+          "image": "https://m.media-amazon.com/images/M/MV5BNTRmNTBhMzUtYTA4Yi00M2ZhLTgzYWMtZGJmZTc1ZWFmMTU4XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
+          "imdb": "https://www.imdb.com/name/nm0624099/"
+        },
+        {
+          "name": "Adam Nee",
+          "image": "https://reveel.net/blog/wp-content/uploads/2022/09/Adam-and-Aaron-Nee-1.webp",
+          "imdb": "https://www.imdb.com/name/nm0624099/"
+        }
+      ],
+      "actors": [
+        {
+          "name": "Sandra Bullock",
+          "image": "https://media.vanityfair.com/photos/623353678ca53d3267e25b7c/16:9/w_3599,h_2024,c_limit/1384684341",
+          "imdb": "https://www.imdb.com/name/nm0000113/?ref_=tt_cl_t_1",
+        },
+        {
+          "name": "Channing Tatum",
+          "image": "https://variety.com/wp-content/uploads/2022/02/Channing-Tatum-Variety-Cover-Story-6-16x9-1.jpg",
+          "imdb": "https://www.imdb.com/name/nm1475594/?ref_=tt_ov_st",
+        },
+        {
+          "name": "Daniel Radcliffe",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRXTIps_QBwp8xhnrTg9pNl_LIi6HbrxI-ytGBcMwS3C7mPYEgH",
+      "imdb": "https://www.imdb.com/name/nm0705356/"
+        },
+        {
+          "name": "Da'Vine Joy Randolph",
+          "image": "https://www.hollywoodreporter.com/wp-content/uploads/2024/02/DaVine-Joy-Randolph-SAG-Awards-Getty-H-2024.jpg?w=1296",
+          "imdb": "https://www.imdb.com/name/nm4186411/"
+        }
+      ]
+    }
+,  
+{
+  "item": 339,
+  "title": "Mr. & Mrs. Smith",
+  "runtime": 120,
+  "mpaa": "PG-13",
+  "poster": "https://img4.hulu.com/user/v3/artwork/708895f3-9ad3-43c0-a71f-864d1ea2c028?base_image_bucket_name=image_manager&base_image=bff4c944-94b1-475c-9662-b577596a0099&size=600x338&format=jpeg",
+  "description": "In 'Mr. & Mrs. Smith', a thrilling action-comedy film directed by Doug Liman, follows the story of a married couple, played by Brad Pitt and Angelina Jolie, who lead secret double lives as assassins working for competing agencies. When they are assigned to kill each other, their relationship is put to the ultimate test as they engage in a high-stakes game of cat and mouse.",
+  "genre": ["action", "comedy", "romance"],
+  "link": "https://www.hulu.com/movie/mr-mrs-smith-708895f3-9ad3-43c0-a71f-864d1ea2c028",
+  "director": [
+    {
+      "name": "Doug Liman",
+      "image": "https://www.hollywoodreporter.com/wp-content/uploads/2024/01/GettyImages-1458090820.jpg?w=1296",
+      "imdb": "https://www.imdb.com/name/nm0510731/"
+    }
+  ],
+  "actors": [
+    {
+      "name": "Brad Pitt",
+      "image": "https://m.media-amazon.com/images/M/MV5BMWRkMDE5MjUtN2MyYi00MzAyLWIwOWMtNWU0NzNkZDczOWUyXkEyXkFqcGdeQUlNRGJWaWRlb1RodW1ibmFpbFNlcnZpY2U@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+    },
+    {
+      "name": "Angelina Jolie",
+      "image": "https://ew.com/thmb/UTnAJFNJr0C83nOOcxuXObG5vh4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/angelina-jolie-092723-445c5d6f4c3a447c8913467dd1261b02.jpg",
+      "imdb": "https://www.imdb.com/name/nm0001401/"
+    },
+    {
+      "name": "Vince Vaughn",
+    "image": "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-181661-98943931_c.jpg",
+    "imdb": "https://www.imdb.com/name/nm0000681/"
+    },
+    {
+      "name": "Adam Brody",
+      "image": "https://media.gq.com/photos/5d5afe0a8e1da70008fd5e64/4:3/w_4056,h_3042,c_limit/adam-brody-140709_01_008_Cover-02.jpg",
+      "imdb": "https://www.imdb.com/name/nm0111013/"
+    }
+  ]
+}
+,
+
+{
+  "item": 340,
+  "title": "Tombstone",
+  "runtime": 130,
+  "mpaa": "R",
+  "poster": "https://img4.hulu.com/user/v3/artwork/184d0f39-341e-47c6-b3b8-d48b78959293?base_image_bucket_name=image_manager&base_image=6f2799ca-c7a9-4882-bd88-e9ec3008e772&size=600x338&format=jpeg",
+  "description": "In 'Tombstone', a classic western film directed by George P. Cosmatos, follows the legendary gunfight at the O.K. Corral and the events leading up to it. Starring Kurt Russell, Val Kilmer, and Sam Elliott, the film portrays the lives of famous lawman Wyatt Earp, his brothers, and their friend Doc Holliday as they confront a gang of outlaws in the lawless town of Tombstone, Arizona. 'Tombstone' is a gripping and action-packed tale of honor, friendship, and justice in the Wild West.",
+  "genre": ["western", "action", "drama"],
+  "link": "https://img4.hulu.com/user/v3/artwork/184d0f39-341e-47c6-b3b8-d48b78959293?base_image_bucket_name=image_manager&base_image=6f2799ca-c7a9-4882-bd88-e9ec3008e772&size=600x338&format=jpeg",
+  "director": [
+    {
+      "name": "George P. Cosmatos",
+      "image": "https://media.baselineresearch.com/images/134630/134630_full.jpg",
+      "imdb": "https://www.imdb.com/name/nm0182168/"
+    }
+  ],
+  "actors": [
+    {
+      "name": "Kurt Russell",
+      "image": "https://m.media-amazon.com/images/M/MV5BMGUwOTRiNTctMzI1My00NGFiLTkxZjktYmQ2ZTI0ZGEyNTY1XkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000621/"
+    },
+    {
+      "name": "Val Kilmer",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/4c927758a4dc45b69f2d3ad7b8a887be/960x0.jpg?height=503&width=711&fit=bounds",
+      "imdb": "https://www.imdb.com/name/nm0000174/"
+    },
+    {
+      "name": "Sam Elliott",
+      "image": "https://townsquare.media/site/204/files/2023/08/attachment-Sam-Elliott.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000385/"
+    },
+    {
+      "name": "Bill Paxton",
+      "image": "https://variety.com/wp-content/uploads/2015/09/bill-p.jpg?w=1000&h=563&crop=1",
+      "imdb": "https://www.imdb.com/name/nm0000200/"
+    }
+  ]
+}
+,
+
+
+
+
 
   ],
   // start peacock array
