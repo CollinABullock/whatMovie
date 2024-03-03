@@ -124,7 +124,7 @@ if (preferredDirectors && preferredDirectors.length > 0) {
           />
         </a>
       );
-    } else if (hostname === 'play.max.com') {
+    } else if (/^((www|play)\.)?max\.com$/.test(hostname)) {
       return (
         <a href={link} target="_blank" rel="noopener noreferrer">
         <img

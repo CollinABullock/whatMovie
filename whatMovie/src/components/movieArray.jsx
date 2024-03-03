@@ -3821,6 +3821,73 @@ const moviesArray = [
         }
       ]
     },
+
+    {
+      "item": 326,
+      "title": "A Ghost Story",
+      "runtime": 92,
+      "mpaa": "R",
+      "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/bca9efc3-418f-4778-94c4-f28159f40ed6/d1ba6e48162d7ec5f94e10fd2c32cbd880d77dd6.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=320",
+      "description": "In 'A Ghost Story', a supernatural drama film, explores the concept of time, memory, and grief through the lens of a ghost who remains in the house he once shared with his partner after his death. As the ghost observes the passage of time and the lives of those who come after him, the film contemplates the meaning of existence and the enduring power of love. 'A Ghost Story' is a haunting meditation on the human experience and the mysteries of the afterlife.",
+      "genre": ["drama", "fantasy", "indie"],
+      "link": "https://www.max.com/movies/ghost-story/bca9efc3-418f-4778-94c4-f28159f40ed6",
+      "director": [{
+        "name": "David Lowery",
+        "image": "https://variety.com/wp-content/uploads/2023/03/David-Lowery.jpg?w=1000",
+        "imdb": "https://www.imdb.com/name/nm2104653/"
+      }],
+      "actors": [
+        {
+          "name": "Casey Affleck",
+          "image": "https://d1nslcd7m2225b.cloudfront.net/Pictures/480xAny/7/4/5/1250745_Casey-Affleck.jpg",
+          "imdb": "https://www.imdb.com/name/nm0000729/"
+        },
+        {
+          "name": "Rooney Mara",
+          "image": "https://variety.com/wp-content/uploads/2023/01/GettyImages-1442448873.jpg",
+          "imdb": "https://www.imdb.com/name/nm1913734/"
+        },
+      ]
+    },
+    
+    {
+      "item": 327,
+      "title": "Star Trek II: The Wrath of Khan",
+      "runtime": 113,
+      "mpaa": "PG",
+      "poster": "",
+      "description": "In 'Star Trek II: The Wrath of Khan', the crew of the starship USS Enterprise faces off against Khan Noonien Singh, a genetically engineered tyrant seeking revenge on Captain James T. Kirk. As Khan unleashes a plan of vengeance that threatens the entire galaxy, Kirk and his crew must confront their past and overcome impossible odds to save themselves and the future of the Federation. 'Star Trek II: The Wrath of Khan' is a thrilling space adventure that explores themes of friendship, sacrifice, and the human spirit.",
+      "genre": ["science-fiction", "action", "adventure", "classic", "sequel"],
+      "link": "",
+      "director": [{
+        "name": "Nicholas Meyer",
+        "image": "",
+        "imdb": "https://www.imdb.com/name/nm0582711/"
+      }],
+      "actors": [
+        {
+          "name": "William Shatner",
+          "image": "",
+          "imdb": "https://www.imdb.com/name/nm0000638/"
+        },
+        {
+          "name": "Leonard Nimoy",
+          "image": "",
+          "imdb": "https://www.imdb.com/name/nm0000559/"
+        },
+        {
+          "name": "DeForest Kelley",
+          "image": "",
+          "imdb": "https://www.imdb.com/name/nm0001416/"
+        },
+        {
+          "name": "James Doohan",
+          "image": "",
+          "imdb": "https://www.imdb.com/name/nm0001149/"
+        }
+      ]
+    },
+    
     
     
 
