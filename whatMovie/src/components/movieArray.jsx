@@ -3725,7 +3725,7 @@ const moviesArray = [
       "mpaa": "PG",
       "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/3deab668-d0a4-4a8d-9bc8-0952a0ad836e/d24ed5a9b698985647bbb1c77772b9cb65a475a9.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=320",
       "description": "A young girl named Chihiro stumbles upon a mysterious and magical world after her parents are transformed into pigs. As Chihiro navigates through this strange realm, she encounters a host of peculiar creatures and must find a way to break the spell and return to the human world.",
-      "genre": ["animation", "fantasy", "anime"],
+      "genre": ["animation", "fantasy", "foreign", "anime"],
       "link": "https://www.max.com/movies/spirited-away/3deab668-d0a4-4a8d-9bc8-0952a0ad836e",
       "director": [{
         "name": "Hayao Miyazaki",
@@ -4343,7 +4343,7 @@ const moviesArray = [
       "mpaa": "PG-13",
       "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/e31c2dc2-cb8b-416e-9eda-769be3bb3a6b/d6211efbbeb91ac3736cf1b96afaf3208f09b6a5.jpg?submitted=1684673544124&host=wbd-images.prod-vod.h264.io&partner=beamcom&w=320",
       "description": "A cursed warrior stumbles into a bitter war between a girl raised by wolves and the people of Iron Town in this masterpiece from Hayao Miyazaki.",
-	"genre": ["animaation", "fantasy", "action", "foreign", "anime"],
+	"genre": ["animation", "fantasy", "action", "foreign", "anime"],
     "link": "https://play.max.com/video/watch/9790bf2c-b9fb-4825-bd69-dbb111768659/325c6c4f-383c-44e7-9d92-40c2711296a3",
     "director": [{
     "name": "Hayao Miyazaki",
