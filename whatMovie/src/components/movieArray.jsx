@@ -11809,6 +11809,41 @@ const moviesArray = [
   ]
 }
 ,
+{
+  "item": 386,
+  "title": "Monos",
+  "runtime": 102,
+  "mpaa": "R",
+  "poster": "https://img2.hulu.com/user/v3/artwork/351c7f48-df41-46cc-a94c-2e639f71d9ab?base_image_bucket_name=image_manager&base_image=5188c400-2563-4d7c-bd4b-84889770256e&size=600x338&format=jpeg",
+  "description": "In the remote mountains of Colombia, a group of teenage commandos, called 'Monos', are tasked with guarding a hostage and a conscripted milk cow for a shadowy force known only as 'The Organization'. As the situation spirals out of control, the young soldiers descend into chaos, fueled by their own desires, loyalties, and rivalries. 'Monos' is a mesmerizing and tense exploration of power, control, and the complexities of human nature.",
+  "genre": ["drama", "thriller", "foreign", 'action'],
+  "link": "https://www.hulu.com/movie/monos-351c7f48-df41-46cc-a94c-2e639f71d9ab",
+  "director": [
+    {
+      "name": "Alejandro Landes",
+      "image": "https://media.timeout.com/images/105542954/image.jpg",
+      "imdb": "https://www.imdb.com/name/nm0485680/"
+    }
+  ],
+  "actors": [
+    {
+      "name": "Moisés Arias",
+      "image": "https://facts.net/wp-content/uploads/2023/10/10-unbelievable-facts-about-moises-arias-1698048948.jpg",
+      "imdb": "https://www.imdb.com/name/nm1128075/"
+    },
+    {
+      "name": "Sofia Buenaventura",
+      "image": "https://m.media-amazon.com/images/M/MV5BZDA5Y2IzNjctOWZmNi00MDVjLWFmNWYtNzlmYzNhZDJkZTY2XkEyXkFqcGdeQXVyMTIzODA2MDkw._V1_.jpg",
+      "imdb": "https://www.imdb.com/name/nm11404557/"
+    },
+    {
+      "name": "Julián Giraldo",
+      "image": "https://content.internetvideoarchive.com/content/hdphotos/12452/012452/012452_960x720_126230_027.jpg",
+      "imdb": "https://www.imdb.com/name/nm8188996/"
+    }
+  ]
+}
+,
 
 
   ],
