@@ -8734,26 +8734,26 @@ const moviesArray = [
       "title": "My Spy",
       "runtime": 99,
       "mpaa": "PG-13",
-      "poster": "",
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/17293df9d4009c1a2a6bf9708d79e0bd33a7452c59c42e6e59a9afe020accdc0.jpg",
       "description": "In 'My Spy', a hardened CIA operative finds himself at the mercy of a precocious 9-year-old girl named Sophie after he's sent undercover to surveil her family. As he reluctantly teaches her the art of espionage, he finds himself falling for her charms, leading to hilarious and heartwarming moments.",
       "genre": ["action", "comedy", "family"],
-      "link": "",
+      "link": "https://www.amazon.com/My-Spy-Dave-Bautista/dp/B08DK7KZQ8",
       "director": [{
         "name": "Peter Segal",
-        "image": "",
-        "imdb": "https://www.imdb.com/name/nm0786833/"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Peter_Segal_WonderCon2008.jpg/1200px-Peter_Segal_WonderCon2008.jpg",
+    "imdb": "https://www.imdb.com/name/nm0781842/",
       }],
       "actors": [{
         "name": "Dave Bautista",
-        "image": "",
+        "image": "https://images.ladbible.com/resize?type=jpeg&quality=70&width=720&fit=contain&gravity=null&url=https://s3-images.sportbible.com/s3/content/e906c8595f6372c1c61292ead3129922.png",
         "imdb": "https://www.imdb.com/name/nm1176985/"
       }, {
         "name": "Chloe Coleman",
-        "image": "",
+        "image": "https://deadline.com/wp-content/uploads/2020/12/fta6yfC-e1607980231689.jpeg",
         "imdb": "https://www.imdb.com/name/nm8626704/"
       }, {
         "name": "Kristen Schaal",
-        "image": "",
+        "image": "https://www.washingtonpost.com/resizer/8u01Li-lX_tX4nrDsdoYf7UEJSg=/arc-anglerfish-washpost-prod-washpost/public/NQAWSLW4HII6ZPBVVEOQVFESHM.jpg",
         "imdb": "https://www.imdb.com/name/nm0773435/"
       }]
     },
