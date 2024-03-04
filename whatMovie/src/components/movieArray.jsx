@@ -6048,7 +6048,14 @@ const moviesArray = [
     "name": "Ben Mendelsohn",
     "image": "https://static.independent.co.uk/2024/02/08/11/Ben%20Mendelsohn%20Profile-1.jpg",
     "imdb": "https://www.imdb.com/name/nm0578853/"
-  }]
+  }, 
+    {
+      "name": "James Gandolfini",
+      "image": "https://ca-times.brightspotcdn.com/dims4/default/b053de8/2147483647/strip/true/crop/1989x1326+29+0/resize/1440x960!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fb0%2Ff7%2F21d8ca40a900222c57ef8fc74d25%2Fla-james-gandolfini-obit-19612013-pictures-021",
+      "imdb": "https://www.imdb.com/name/nm0001254/"
+    }
+    
+  ]
 },
 
 {
@@ -9099,7 +9106,7 @@ const moviesArray = [
   "link": "https://www.max.com/movies/room/6d2e7888-b410-4bfb-a638-a6a2ab5f37e1",
   "director": [{
     "name": "Lenny Abrahamson",
-    "image": "",
+    "image": "https://ew.com/thmb/Wk7ymP7Wgpd7J6rJ7AFVcOHFgfM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/lenny-abrahamson_0-960fbdce539c4280b4f611362cc0885a.jpg",
     "imdb": "https://www.imdb.com/name/nm0009707/"
   }],
   "actors": [
@@ -10738,7 +10745,7 @@ const moviesArray = [
   "runtime": 130,
   "mpaa": "PG-13",
   "poster": "https://img1.hulu.com/user/v3/artwork/86bbcde2-caab-408d-ba4d-67d883f839af?base_image_bucket_name=image_manager&base_image=5fbfbffe-b832-4eb3-b7b6-f9766dd7df27&size=600x338&format=jpeg",
-  "description": "'The Mummy Returns' is an action-adventure film directed by Stephen Sommers and serves as a sequel to 'The Mummy'. Set in 1933, the movie follows adventurer Rick O'Connell, Egyptologist Evelyn Carnahan, and their son Alex as they face a new threat from the resurrected mummy Imhotep and his reincarnated lover Anck-Su-Namun. As Imhotep seeks to unleash an ancient evil known as the Scorpion King, Rick and Evelyn must race against time to stop him and save the world from destruction. Filled with epic action sequences, thrilling battles, and ancient mysteries, 'The Mummy Returns' is an exhilarating adventure that takes viewers on a journey through ancient Egypt.",
+  "description": "Set in 1933, the movie follows adventurer Rick O'Connell, Egyptologist Evelyn Carnahan, and their son Alex as they face a new threat from the resurrected mummy Imhotep and his reincarnated lover Anck-Su-Namun. As Imhotep seeks to unleash an ancient evil known as the Scorpion King, Rick and Evelyn must race against time to stop him and save the world from destruction. Filled with epic action sequences, thrilling battles, and ancient mysteries.",
   "genre": ["action", "adventure", "fantasy", "sequel"],
   "link": "https://www.hulu.com/movie/the-mummy-returns-86bbcde2-caab-408d-ba4d-67d883f839af",
   "director": [
@@ -11420,7 +11427,146 @@ const moviesArray = [
   ]
 }
 ,
-
+{
+  "item": 374,
+  "title": "Predator 2",
+  "runtime": 108,
+  "mpaa": "R",
+  "poster": "https://img1.hulu.com/user/v3/artwork/9d6f9c88-3a8e-4e5a-85b8-f7cf01827f43?base_image_bucket_name=image_manager&base_image=970735b3-419c-430f-be5e-011c0ac35347&size=600x338&format=jpeg",
+  "description": "In 'Predator 2', the titular alien creature returns to Earth, this time hunting prey in the urban jungle of Los Angeles during a scorching heatwave. As the city's streets run red with violence, a tough cop named Mike Harrigan leads the charge against both the violent gangs terrorizing the city and the deadly extraterrestrial predator stalking its inhabitants.",
+  "genre": ["action", "science-fiction", "thriller", "sequel"],
+  "link": "https://www.hulu.com/movie/predator-2-9d6f9c88-3a8e-4e5a-85b8-f7cf01827f43",
+  "director": [
+    {
+      "name": "Stephen Hopkins",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjExMjE0NzY3NF5BMl5BanBnXkFtZTgwMzAyMzUyMDI@._V1_.jpg",
+      "imdb": "https://www.imdb.com/name/nm0394450/"
+    }
+  ],
+  "actors": [
+    {
+      "name": "Danny Glover",
+      "image": "https://variety.com/wp-content/uploads/2020/07/danny-glover.jpg?w=1000",
+      "imdb": "https://www.imdb.com/name/nm0000418/"
+    },
+    {
+      "name": "Gary Busey",
+      "image": "https://i.guim.co.uk/img/media/f85c66996476d2785446b5bf611d8f06906bcb5c/0_6_3152_1890/master/3152.jpg?width=700&quality=85&auto=format&fit=max&s=2ca6aaba0cda1fd84b1bb1f75127cb70",
+      "imdb": "https://www.imdb.com/name/nm0000997/"
+    },
+    {
+      "name": "Rubén Blades",
+      "image": "https://www.rollingstone.com/wp-content/uploads/2023/06/ruben-blades.jpg?w=1600&h=900&crop=1",
+      "imdb": "https://www.imdb.com/name/nm0001954/"
+    },
+    {
+      "name": "Maria Conchita Alonso",
+      "image": "https://m.media-amazon.com/images/M/MV5BMzVkMWI2MjYtODMxNi00N2ViLWE5MTYtMjdkYjk4NjE1MzcwXkEyXkFqcGdeQXRoaXJkLXBhcnR5LXZpZGVvLXVwZGF0ZXI@._V1_QL75_UX500_CR0,47,500,281_.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000743/"
+    }
+  ]
+}
+,
+{
+  "item": 375,
+  "title": "Monsters",
+  "runtime": 94,
+  "mpaa": "R",
+  "poster": "https://img2.hulu.com/user/v3/artwork/8704ea88-71f4-4910-91a2-a04947151e95?base_image_bucket_name=image_manager&base_image=626e2646-9cc1-456b-9cf6-20c177d47278&size=600x338&format=jpeg",
+  "description": "In 'Monsters', the world has been ravaged by the presence of gigantic alien creatures. The film follows a photojournalist tasked with escorting his boss's daughter through the infected zone of Mexico back to the safety of the United States. Along the way, they encounter the true horrors of the world and form a bond amidst the chaos and destruction.",
+  "genre": ["drama", "science-fiction", "thriller", "indie"],
+  "link": "https://www.hulu.com/movie/monsters-8704ea88-71f4-4910-91a2-a04947151e95",
+  "director": [
+    {
+      "name": "Gareth Edwards",
+      "image": "https://variety.com/wp-content/uploads/2020/02/gareth-edwards.jpg",
+      "imdb": "https://www.imdb.com/name/nm1940449/"
+    }
+  ],
+  "actors": [
+    {
+      "name": "Scoot McNairy",
+      "image": "https://www.hollywoodreporter.com/wp-content/uploads/2020/07/gettyimages-1204571409-h_2020.jpg?w=1500",
+      "imdb": "https://www.imdb.com/name/nm1058300/"
+    },
+    {
+      "name": "Whitney Able",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTQxNDM4NTA5N15BMl5BanBnXkFtZTcwNjY0NDc4Mw@@._V1_.jpg",
+      "imdb": "https://www.imdb.com/name/nm1749806/"
+    }
+  ]
+}
+,
+{
+  "item": 377,
+  "title": "The Creator",
+  "runtime": 133,
+  "mpaa": "PG-13",
+  "poster": "https://img3.hulu.com/user/v3/artwork/1f7c85b7-8614-404e-aa58-5af8702c1c89?base_image_bucket_name=image_manager&base_image=84d7c770-0295-4428-ae24-aac683fdcccc&size=600x338&format=jpeg",
+  "description": "As a future war between the human race and artificial intelligence rages on, ex-special forces agent Joshua is recruited to hunt down and kill the Creator, the elusive architect of advanced AI. The Creator has developed a mysterious weapon that has the power to end the war and all of mankind. As Joshua and his team of elite operatives venture into enemy-occupied territory, they soon discover the world-ending weapon is actually an AI in the form of a young child.",
+  "genre": ["science-fiction"],
+  "link": "https://www.hulu.com/movie/the-creator-1f7c85b7-8614-404e-aa58-5af8702c1c89",
+  "director": [
+    {
+      "name": "Gareth Edwards",
+      "image": "https://variety.com/wp-content/uploads/2020/02/gareth-edwards.jpg",
+      "imdb": "https://www.imdb.com/name/nm1940449/"
+    }
+  ],
+  "actors": [
+    {
+      "name": "John David Washington",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRZ5u6PlsVyzlDadnXK__XW5hy_Adal35E0bUENHoUjKHiyWg1W",
+      "imdb": "https://www.imdb.com/name/nm0913475/"
+    },
+    {
+      "name": "Madeleine Yuna Voyles",
+      "image": "https://tvshowstars.com/wp-content/uploads/2023/12/image-8850049.jpg",
+      "imdb": "https://www.imdb.com/name/nm12719194/"
+    },
+    {
+      "name": "Gemma Chan",
+      "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRhV09bvOLmwwQp3EYyXvf6sI1nyDS8D3FNDhNFj3rNhqWR4pCkgC1pnNj-rzdvMHQONJueXtCL6hX5X7E",
+      "imdb": "https://www.imdb.com/name/nm2110418/"
+    }
+  ]
+}
+,
+{
+  "item": 378,
+  "title": "Pig",
+  "runtime": 92,
+  "mpaa": "R",
+  "poster": "https://img.hulu.com/user/v3/artwork/542a32ed-7b3b-4aad-92e0-645e768a9073?base_image_bucket_name=image_manager&base_image=8fe434cc-eed4-47ff-9fbf-5858d2d9ef2a&size=600x338&format=jpeg",
+  "description": "In 'Pig', a truffle hunter who lives alone in the Oregonian wilderness is forced to return to his past in Portland in search of his beloved foraging pig after she is kidnapped. As he navigates through the city's underbelly, he confronts his own history and discovers unexpected connections in the culinary world.",
+  "genre": ["drama", "thriller"],
+  "link": "https://www.hulu.com/movie/pig-542a32ed-7b3b-4aad-92e0-645e768a9073",
+  "director": [
+    {
+      "name": "Michael Sarnoski",
+      "image": "https://deadline.com/wp-content/uploads/2022/01/AP21195180995743-e1641842061163.jpg",
+      "imdb": "https://www.imdb.com/name/nm3968825/?ref_=tt_ov_dr"
+    }
+  ],
+  "actors": [
+    {
+      "name": "Nicolas Cage",
+      "image": "https://variety.com/wp-content/uploads/2023/03/Nicolas-Cage-Variety-Award-092.jpg?w=1000&h=563&crop=1",
+      "imdb": "https://www.imdb.com/name/nm0000115/"
+    },
+    {
+      "name": "Alex Wolff",
+      "image": "https://variety.com/wp-content/uploads/2020/02/shutterstock_editorial_10546785cq.jpg",
+      "imdb": "https://www.imdb.com/name/nm1842974/"
+    },
+    {
+      "name": "Adam Arkin",
+      "image": "https://facts.net/wp-content/uploads/2023/10/13-intriguing-facts-about-adam-arkin-1697344489.jpg",
+      "imdb": "https://www.imdb.com/name/nm0035060/"
+    }
+  ]
+}
+,
 
   ],
   // start peacock array

@@ -28,6 +28,8 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
       }
       return acc;
     }, []);
+
+    
   
     const uniqueDirectors = new Set(); // Set to keep track of unique directors
     const filtered = searchTerm === '' ?
