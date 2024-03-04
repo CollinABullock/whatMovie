@@ -10426,7 +10426,7 @@ const moviesArray = [
   "runtime": 148,
   "mpaa": "PG-13",
   "poster": "https://img3.hulu.com/user/v3/artwork/5519f425-9b21-48fb-8e67-aef24c76604a?base_image_bucket_name=image_manager&base_image=a67e9004-08b8-4612-9fda-8e828d3986bf&size=600x338&format=jpeg",
-  "description": "'Inception' is a mind-bending science fiction thriller directed by Christopher Nolan. The film follows Dom Cobb, a skilled thief who specializes in stealing secrets from deep within the subconscious during the dream state. Cobb is tasked with a seemingly impossible mission: to implant an idea into the mind of a corporate heir through the process of 'inception'. As Cobb and his team navigate through layers of dreams within dreams, they face numerous obstacles and must confront their own inner demons. 'Inception' is a visually stunning and intellectually stimulating film that explores the nature of reality, memory, and the power of the human mind.",
+  "description": "The film follows Dom Cobb, a skilled thief who specializes in stealing secrets from deep within the subconscious during the dream state. Cobb is tasked with a seemingly impossible mission: to implant an idea into the mind of a corporate heir through the process of 'inception'. As Cobb and his team navigate through layers of dreams within dreams, they face numerous obstacles and must confront their own inner demons.",
   "genre": ["action", "adventure", "science-fiction"],
   "link": "https://www.hulu.com/movie/inception-5519f425-9b21-48fb-8e67-aef24c76604a",
   "director": [
@@ -11567,6 +11567,7 @@ const moviesArray = [
   ]
 }
 ,
+
 
   ],
   // start peacock array
