@@ -10,6 +10,9 @@ export default function RandomMovie({ selectedRuntime  }) {
   const [filteredMovies, setFilteredMovies] = useState([]);
   const [showModal, setShowModal] = useState(false);
   const [animationKey, setAnimationKey] = useState(0);
+  // setting up states to control the opening of the image modal as well as the source of the actor's image
+  const [actorImageModalOpen, setActorImageModalOpen] = useState(false);
+  const [actorImageSrc, setActorImageSrc] = useState('');
  
 
 
@@ -22,6 +25,19 @@ export default function RandomMovie({ selectedRuntime  }) {
     const filtered = allMovies.filter(movie => movie.runtime <= selectedRuntime);
     setFilteredMovies(filtered);
   }, [selectedRuntime]);
+
+  
+  // Function to handle opening actor's image modal, and the loading of the image source from the array
+  const handleActorImageModalOpen = (imageSrc) => {
+    setActorImageSrc(imageSrc);
+    setActorImageModalOpen(true);
+  };
+
+  // Function to handle closing actor's image modal and to prombtly clear the image src
+  const handleActorImageModalClose = () => {
+    setActorImageSrc('');
+    setActorImageModalOpen(false);
+  };
 
 
    const handleRandomMovie = () => {
@@ -236,24 +252,23 @@ if (preferredDirectors && preferredDirectors.length > 0) {
           )}
           {/* Actors Section */}
           {randomMovie && randomMovie.actors && (
-            <div>
-              <h5>Actors:</h5>
-              <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
-                {randomMovie.actors.map((actor, index) => (
-                  <div key={index} style={{ textAlign: 'center' }}>
-                    <a target="_blank" href={actor.imdb}>
-                      <img 
-                        src={actor.image} 
-                        alt={actor.name} 
-                        style={{ width: '100px', height: '80px', objectFit: 'cover' }} 
-                      />
-                      <p style={{ marginTop: '5px', fontSize: '14px' }}>{actor.name}</p>
-                    </a>
-                  </div>
-                ))}
-              </div>
-            </div>
-          )}
+  <div>
+    <h5>Actors:</h5>
+    <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
+      {randomMovie.actors.map((actor, index) => (
+        <div key={index} style={{ textAlign: 'center' }}>
+          <img
+            src={actor.image}
+            alt={actor.name}
+            style={{ width: '100px', height: '80px', objectFit: 'cover', cursor: 'pointer' }}
+            onClick={() => handleActorImageModalOpen(actor.image)}
+          />
+          <p style={{ marginTop: '5px', fontSize: '14px' }}>{actor.name}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+)}
         </Modal.Body>
         <Modal.Footer style={{backgroundColor: "#58355E", color: "#E4C3AD", textShadow: "text-shadow: 2px 2px 2px black;"}}>
           <Button variant="secondary" onClick={handleModalClose}>
@@ -261,6 +276,11 @@ if (preferredDirectors && preferredDirectors.length > 0) {
           </Button>
         </Modal.Footer>
       </Modal>
+      <Modal show={actorImageModalOpen} onHide={handleActorImageModalClose}>
+  <Modal.Body style={{backgroundColor: "transparent"}}>
+    <img src={actorImageSrc} alt="Actor" style={{ maxWidth: '100%', maxHeight: '100%', margin: "0 auto" }} />
+  </Modal.Body>
+</Modal>
     </div>
   );
 }
