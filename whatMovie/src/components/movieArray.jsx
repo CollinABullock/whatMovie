@@ -10772,6 +10772,46 @@ const moviesArray = [
   ]
 }
 ,
+{
+  "item": 357,
+  "title": "Godzilla",
+  "runtime": 139,
+  "mpaa": "PG-13",
+  "poster": "https://img4.hulu.com/user/v3/artwork/615329cc-b789-450a-b70d-6e155e4d8f87?base_image_bucket_name=image_manager&base_image=e397fec1-42f6-40c5-b2f4-2861840281b1&size=600x338&format=jpeg",
+  "description": "'Godzilla' is a science fiction monster film directed by Roland Emmerich. The movie follows the story of a giant mutated lizard, Godzilla, which wreaks havoc on New York City. As the military and scientists race to stop the creature, they uncover a conspiracy involving nuclear testing and a secret government organization. With the city in chaos and millions of lives at stake, a group of unlikely heroes must come together to save humanity from destruction. 'Godzilla' is a thrilling and action-packed film that reinvents the iconic monster for a new generation.",
+  "genre": ["action", "science-fiction", "thriller", "disaster"],
+  "link": "https://www.hulu.com/movie/godzilla-615329cc-b789-450a-b70d-6e155e4d8f87",
+  "director": [
+    {
+      "name": "Roland Emmerich",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjY1ODE3ODY1M15BMl5BanBnXkFtZTcwMzIwNTgwMw@@._V1_.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000386/"
+    }
+  ],
+  "actors": [
+    {
+      "name": "Matthew Broderick",
+      "image": "https://m.media-amazon.com/images/M/MV5BZDg5NGM3YTMtYjNjZS00MmQyLTk1YjItN2Y5YTkwOThmOGU0XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000111/"
+    },
+    {
+      "name": "Jean Reno",
+      "image": "https://deadline.com/wp-content/uploads/2023/02/GettyImages-1441806441-e1677087771843.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000606/"
+    },
+    {
+      "name": "Maria Pitillo",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTk5NjM5NDYzOV5BMl5BanBnXkFtZTcwMjQ2Mzk5MQ@@._V1_.jpg",
+      "imdb": "https://www.imdb.com/name/nm0686481/"
+    },
+    {
+      "name": "Hank Azaria",
+      "image": "https://static.independent.co.uk/2023/06/06/22/GettyImages-148149165020purple.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000275/"
+    }
+  ]
+}
+,
 
   ],
   // start peacock array
