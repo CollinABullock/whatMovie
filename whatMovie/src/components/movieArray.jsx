@@ -6554,7 +6554,7 @@ const moviesArray = [
   "mpaa": "R",
   "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/210edf20-b2a7-47de-9a1d-776121acd159/ac49dc54cfb97981b1c89fde27927e12d2a96325.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
   "description": "In 'Under the Skin', an alien entity assumes the form of a human woman and prowls the streets of Scotland, seducing and preying upon unsuspecting men. As she lures her victims into a fatal trap, she begins to experience the complexities of human emotions and empathy, ultimately questioning her own existence and purpose.",
-  "genre": ["science fiction", "horror", "drama"],
+  "genre": ["science-fiction", "horror", "drama"],
   "link": "https://play.max.com/video/watch/db5c05b3-53b7-4623-a959-cc9a37396afd/9028da54-7104-439d-bd1d-9db700607463",
   "director": [{
     "name": "Jonathan Glazer",
@@ -11602,6 +11602,108 @@ const moviesArray = [
   ]
 }
 ,
+{
+  "item": 380,
+  "title": "Deep Water",
+  "runtime": 115,
+  "mpaa": "R",
+  "poster": "https://img2.hulu.com/user/v3/artwork/2c4ae82e-2c1b-41d5-a651-82189d1c8b2c?base_image_bucket_name=image_manager&base_image=ea120849-e5a2-496c-a636-ef00832825d9&size=600x338&format=jpeg",
+  "description": "In 'Deep Water', a married couple's relationship takes a dark turn when they begin playing mind games with each other. As jealousy and suspicion escalate, they find themselves caught in a deadly game of cat and mouse that threatens to destroy everything they hold dear.",
+  "genre": ["drama", "mystery", "thriller", "romance"],
+  "link": "https://www.hulu.com/movie/deep-water-2c4ae82e-2c1b-41d5-a651-82189d1c8b2c",
+  "director": [
+    {
+      
+        "name": "Adrian Lyne",
+        "image": "https://alchetron.com/cdn/adrian-lyne-c07fde75-5743-4697-a92f-825fea8427c-resize-750.jpeg",
+        "imdb": "https://www.imdb.com/name/nm0001490/"
+    
+      
+    }
+  ],
+  "actors": [
+    {
+      "name": "Ben Affleck",
+      "image": "https://ca-times.brightspotcdn.com/dims4/default/10ea0b4/2147483647/strip/true/crop/6316x4210+0+1/resize/2000x1333!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F7d%2Fd8%2Ff1ec7c954d10ab8f645895faa29b%2Fla-photos-1staff-885832-ca-ben-affleck-portrait-tender-bar-jlc-1213-12331.JPG",
+      "imdb": "https://www.imdb.com/name/nm0000255/",
+    },
+    {
+      "name": "Ana de Armas",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRKB1h7dIm2oMW3TxlhFrmUDWqc5UvaRoCXhlzn9EsBXxusvmOd",
+      "imdb": "https://www.imdb.com/name/nm1869101/",
+    },
+    {
+      "name": "Tracy Letts",
+      "image": "https://cdn.britannica.com/87/127187-050-BDFA8CEB/Tracy-Letts-performance-Tony-Award-Whos-Afraid-2013.jpg?w=400&h=300&c=crop",
+      "imdb": "https://www.imdb.com/name/nm0504832/"
+    }
+  ]
+},
+{
+  "item": 381,
+  "title": "Sweet Virginia",
+  "runtime": 93,
+  "mpaa": "R",
+  "poster": "https://img2.hulu.com/user/v3/artwork/db4cc6bf-c373-4e60-a6ce-79daffc67aca?base_image_bucket_name=image_manager&base_image=5782dc2d-4fb8-4835-a6fe-28bae0126106&size=600x338&format=jpeg",
+  "description": "In 'Sweet Virginia', a former rodeo star who now manages a motel in a small Alaskan town finds himself drawn into a web of violence and deceit when a mysterious stranger arrives. As tensions escalate, secrets are revealed and loyalties are tested in this gritty thriller.",
+  "genre": ["crime", "drama", "thriller"],
+  "link": "https://www.hulu.com/movie/sweet-virginia-db4cc6bf-c373-4e60-a6ce-79daffc67aca",
+  "director": [
+    {
+      "name": "Jamie M. Dagg",
+      "image": "https://bloximages.newyork1.vip.townnews.com/kelownadailycourier.ca/content/tncms/assets/v3/editorial/2/bd/2bd30e8a-7052-5072-b28a-01a016aac3be/56b375c9311dc.image.jpg",
+      "imdb": "https://www.imdb.com/name/nm5590177/"
+    }
+  ],
+  "actors": [
+    {
+      "name": "Jon Bernthal",
+      "image": "https://parade.com/.image/t_share/MTkyMzExMjIyOTEyMTY1MTAw/2021-afi-fest-closing-night-premiere-of-warner-bros-king-richard---arrivals.jpg",
+      "imdb": "https://www.imdb.com/name/nm1256532/"
+    },
+    {
+      "name": "Christopher Abbott",
+      "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSY7jcsMLvXrm55FAxL81f7TBVRjCfFV3g7GelQ--ox2j8Zx7VCEs1ILUYx7tqFjL2XjRiQQa3ObOxs5_4",
+      "imdb": "https://www.imdb.com/name/nm3571592/"
+    },
+    {
+      "name": "Imogen Poots",
+      "image": "https://www.goldderby.com/wp-content/uploads/2022/06/Imogen-Poots-1.jpg",
+      "imdb": "https://www.imdb.com/name/nm1782299/"
+    }
+  ]
+}
+,
+{
+  "item": 382,
+  "title": "The Nightingale",
+  "runtime": 136,
+  "mpaa": "R",
+  "poster": "https://img3.hulu.com/user/v3/artwork/76bfebaf-d8ab-4566-b354-b8bdbfd01a18?base_image_bucket_name=image_manager&base_image=27c3e9b0-730b-4b88-a68c-41a5370a57b5&size=600x338&format=jpeg",
+  "description": "Set in 1825 in the penal colony of Van Diemen's Land (present-day Tasmania), 'The Nightingale' follows a young Irish convict woman seeking revenge for the brutal murder of her family by a British officer. She enlists the help of an Aboriginal tracker who has his own reasons for accompanying her on this dangerous journey through the wilderness.",
+  "genre": ["drama", "thriller", "history", "foreign"],
+  "link": "https://www.hulu.com/movie/the-nightingale-76bfebaf-d8ab-4566-b354-b8bdbfd01a18",
+  "director": [
+    {
+      "name": "Jennifer Kent",
+      "image": "https://www.hollywoodreporter.com/wp-content/uploads/2018/09/gettyimages-1027609614-h_2018.jpg?w=1296",
+      "imdb": "https://www.imdb.com/name/nm0448768/?ref_=tt_ov_dr",
+    }
+  ],
+  "actors": [
+    {
+      "name": "Aisling Franciosi",
+      "image": "https://focus.independent.ie/thumbor/sV-usE0sAHoIPnVKNX6bbjnzzFY=/0x192:1500x1017/960x640/prod-mh-ireland/45c65e62-c2c2-11ed-9ba0-0210609a3fe2.jpg",
+      "imdb": "https://www.imdb.com/name/nm4957233/?ref_=tt_ov_st"
+    },
+    {
+      "name": "Baykali Ganambarr",
+      "image": "https://m.media-amazon.com/images/M/MV5BN2RmZmM1MWEtYTQ5MC00Zjk2LTg2ZjUtNzg1OGJhMGNlOTVmXkEyXkFqcGdeQXRoaXJkLXBhcnR5LXZpZGVvLXVwZGF0ZXI@._V1_QL75_UX500_CR0,47,500,281_.jpg",
+      "imdb": "https://www.imdb.com/name/nm8849491/?ref_=tt_ov_st"
+    }
+  ]
+}
+
 
 
   ],
