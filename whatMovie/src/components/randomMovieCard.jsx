@@ -13,6 +13,8 @@ export default function RandomMovie({ selectedRuntime  }) {
   // setting up states to control the opening of the image modal as well as the source of the actor's image
   const [actorImageModalOpen, setActorImageModalOpen] = useState(false);
   const [actorImageSrc, setActorImageSrc] = useState('');
+  const [actorNameSrc, setActorNameSrc] = useState('');
+  const [actorIMDBSrc, setActorIMDBSrc] = useState('');
  
 
 
@@ -27,15 +29,19 @@ export default function RandomMovie({ selectedRuntime  }) {
   }, [selectedRuntime]);
 
   
-  // Function to handle opening actor's image modal, and the loading of the image source from the array
-  const handleActorImageModalOpen = (imageSrc) => {
+  // Function to handle opening actor's image modal, and the loading of the various details from the array
+  const handleActorImageModalOpen = (imageSrc, nameSrc, IMDBSrc) => {
     setActorImageSrc(imageSrc);
+    setActorNameSrc(nameSrc);
+    setActorIMDBSrc(IMDBSrc);
     setActorImageModalOpen(true);
   };
 
   // Function to handle closing actor's image modal and to prombtly clear the image src
   const handleActorImageModalClose = () => {
     setActorImageSrc('');
+    setActorNameSrc("");
+    setActorIMDBSrc("");
     setActorImageModalOpen(false);
   };
 
@@ -237,14 +243,15 @@ if (preferredDirectors && preferredDirectors.length > 0) {
               <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
                 {randomMovie.director.map((director, index) => (
                   <div key={index} style={{ textAlign: 'center' }}>
-                    <a target="_blank" href={director.imdb}>
+                    
                       <img 
                         src={director.image} 
                         alt={director.name} 
                         style={{ width: '120px', height: '100px', objectFit: 'cover' }} 
+                        onClick={() => handleActorImageModalOpen(director.image, director.name, director.IMDB)}
                       />
                       <p style={{ marginTop: '5px', fontSize: '14px' }}>{director.name}</p>
-                    </a>
+                    
                   </div>
                 ))}
               </div>
@@ -261,7 +268,7 @@ if (preferredDirectors && preferredDirectors.length > 0) {
             src={actor.image}
             alt={actor.name}
             style={{ width: '100px', height: '80px', objectFit: 'cover', cursor: 'pointer' }}
-            onClick={() => handleActorImageModalOpen(actor.image)}
+            onClick={() => handleActorImageModalOpen(actor.image, actor.name, actor.IMDB)}
           />
           <p style={{ marginTop: '5px', fontSize: '14px' }}>{actor.name}</p>
         </div>
@@ -277,9 +284,15 @@ if (preferredDirectors && preferredDirectors.length > 0) {
         </Modal.Footer>
       </Modal>
       <Modal show={actorImageModalOpen} onHide={handleActorImageModalClose}>
-  <Modal.Body style={{backgroundColor: "transparent"}}>
-    <img src={actorImageSrc} alt="Actor" style={{ maxWidth: '100%', maxHeight: '100%', margin: "0 auto" }} />
-  </Modal.Body>
+      <Modal.Body style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: "center" }}>
+    <img src={actorImageSrc} alt="Actor" style={{ maxWidth: '100%', maxHeight: '100%' }} /> <br/>
+    <h1 style={{ fontFamily: "SignWood", color: "whitesmoke", textShadow: "2px 2px 2px black" }}>{actorNameSrc}</h1>
+    <a href={actorIMDBSrc}><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/IMDB_Logo_2016.svg/2560px-IMDB_Logo_2016.svg.png" alt="imdb" style={{width: "25%", height: "25%", margin: "0 auto"}} /></a>
+  </div>
+</Modal.Body>
+
+
 </Modal>
     </div>
   );
