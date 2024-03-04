@@ -11703,7 +11703,112 @@ const moviesArray = [
     }
   ]
 }
-
+,
+{
+  "item": 383,
+  "title": "Terminal",
+  "runtime": 90,
+  "mpaa": "Not Rated",
+  "poster": "https://img4.hulu.com/user/v3/artwork/bd0b22d2-7438-40a5-88a8-80d2fe44ffb6?base_image_bucket_name=image_manager&base_image=a3a2e1c1-13c1-4670-9983-2355eb68e74d&size=600x338&format=jpeg",
+  "description": "In 'Terminal', two hitmen, a dying teacher, a janitor, and a waitress all have their lives intertwine in a twisted tale of love, revenge, and redemption set in a mysterious and surreal city.",
+  "genre": ["thriller", "drama", "crime"],
+  "link": "https://www.hulu.com/movie/terminal-bd0b22d2-7438-40a5-88a8-80d2fe44ffb6",
+  "director": [
+    {
+      "name": "Vaughn Stein",
+      "image": "https://variety.com/wp-content/uploads/2020/05/vaughn-stein.jpg",
+      "imdb": "https://www.imdb.com/name/nm2389363/?ref_=nmfm_nmfm_nm"
+    }
+  ],
+  "actors": [
+    {
+      "name": "Margot Robbie",
+      "image": "https://media.npr.org/assets/img/2015/03/02/margotrobbie-eb727edf7b18cbe8b755d8372cf271d4f4d6e3a7-s1100-c50.jpg",
+      "imdb": "https://www.imdb.com/name/nm3053338/?ref_=tt_ov_st",
+    },
+    {
+      "name": "Simon Pegg",
+      "image": "https://www.indiewire.com/wp-content/uploads/2022/07/Simon-Pegg.png",
+      "imdb": "https://www.imdb.com/name/nm0670408/"
+    },
+    {
+      "name": "Dexter Fletcher",
+      "image": "https://deadline.com/wp-content/uploads/2019/12/dexter.jpg?crop=118px%2C0px%2C862px%2C483px&resize=681%2C383",
+      "imdb": "https://www.imdb.com/name/nm0002077/"
+    }
+  ]
+}
+,
+{
+  "item": 384,
+  "title": "The Man Who Killed Hitler and Then the Bigfoot",
+  "runtime": 98,
+  "mpaa": "Not Rated",
+  "poster": "https://img1.hulu.com/user/v3/artwork/acf13d6a-2926-431c-a5d0-db81f4168f42?base_image_bucket_name=image_manager&base_image=5c7c483e-f845-4bae-93cd-abcb5e7c7130&size=600x338&format=jpeg",
+  "description": "Calvin Barr, a legendary American war veteran, is known for a covert mission during World War II in which he killed Adolf Hitler. Decades later, Calvin is approached by the government to track down and kill another mythical creature: the Bigfoot, which is believed to carry a deadly plague. As he embarks on this dangerous journey, Calvin reflects on his past and the consequences of his actions.",
+  "genre": ["drama", "adventure"],
+  "link": "https://www.hulu.com/movie/the-man-who-killed-hitler-and-then-the-bigfoot-acf13d6a-2926-431c-a5d0-db81f4168f42",
+  "director": [
+    {
+      "name": "Robert D. Krzykowski",
+      "image": "https://filmschoolradio.com/wp-content/uploads/2019/02/Robert-Krzykowski.jpg",
+      "imdb": "https://www.imdb.com/name/nm2865408/"
+    }
+  ],
+  "actors": [
+    {
+      "name": "Sam Elliott",
+      "image": "https://i.ytimg.com/vi/tf6ho5nN8v0/sddefault.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000385/"
+    },
+    {
+      "name": "Aidan Turner",
+      "image": "https://www.irishcentral.com/uploads/article-v2/2020/7/140582/AIDAN_turner_2022___getty___GettyImages-1450391489.jpg?t=1687210501",
+      "imdb": "https://www.imdb.com/name/nm2636108/"
+    },
+    {
+      "name": "Sean Bridgers",
+      "image": "https://trainwreckdsociety.files.wordpress.com/2017/08/seanbridgersjugface.png",
+      "imdb": "https://www.imdb.com/name/nm0108818/"
+    }
+  ]
+}
+,
+{
+  "item": 385,
+  "title": "I Kill Giants",
+  "runtime": 106,
+  "mpaa": "Not Rated",
+  "poster": "https://img3.hulu.com/user/v3/artwork/025e53a2-4539-4784-a42a-8b295b134408?base_image_bucket_name=image_manager&base_image=cc819b38-f9ff-4466-b1fb-98558d97a20d&size=600x338&format=jpeg",
+  "description": "In 'I Kill Giants', a troubled young girl named Barbara Thorson escapes into a fantasy world where she believes she is a skilled giant killer. As she battles these imaginary foes, Barbara must confront the very real struggles in her life, including bullies at school and family troubles at home. With the help of her new friend Sophia, Barbara learns to face her fears and confront the challenges in her life.",
+  "genre": ["drama", "fantasy"],
+  "link": "https://www.hulu.com/movie/i-kill-giants-025e53a2-4539-4784-a42a-8b295b134408",
+  "director": [
+    {
+      "name": "Anders Walter",
+      "image": "https://m.media-amazon.com/images/M/MV5BYTcwOTA1YjEtZjhlZS00MTc4LTk2NTItMzY1ZDQ0ZjhhODRlXkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_.jpg",
+      "imdb": "https://www.imdb.com/name/nm3441257/"
+    }
+  ],
+  "actors": [
+    {
+      "name": "Madison Wolfe",
+      "image": "https://pbs.twimg.com/media/DLqgTwVUEAAVVfH?format=jpg&name=large",
+      "imdb": "https://www.imdb.com/name/nm4813703/"
+    },
+    {
+      "name": "Imogen Poots",
+      "image": "https://www.goldderby.com/wp-content/uploads/2022/06/Imogen-Poots-1.jpg",
+      "imdb": "https://www.imdb.com/name/nm1782299/"
+    },
+    {
+      "name": "Sydney Wade",
+      "image": "https://static.wikia.nocookie.net/tardis/images/9/9a/Sydney_Wade.jpg/revision/latest?cb=20210423085728",
+      "imdb": "https://www.imdb.com/name/nm4983920/"
+    }
+  ]
+}
+,
 
 
   ],
