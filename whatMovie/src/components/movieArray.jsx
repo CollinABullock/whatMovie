@@ -10997,7 +10997,7 @@ const moviesArray = [
   "runtime": 95,
   "mpaa": "PG-13",
   "poster": "https://img4.hulu.com/user/v3/artwork/2e23bd07-9b1b-4c7d-a471-f9a2bdb13aaf?base_image_bucket_name=image_manager&base_image=0f960ec9-9c92-4db6-8754-260e324e7261&size=600x338&format=jpeg",
-  "description": "'Underwater' is a science-fiction horror film directed by William Eubank. The movie follows a team of underwater researchers who find themselves fighting for survival after their drilling station is struck by a catastrophic earthquake. As they struggle to escape the rapidly deteriorating facility, they encounter mysterious and deadly creatures lurking in the depths of the ocean. With time running out and their resources dwindling, the team must overcome unimaginable obstacles and confront their darkest fears in order to make it to the surface alive. 'Underwater' is a thrilling and suspenseful film that plunges viewers into the terrifying abyss of the ocean's depths.",
+  "description": "'Underwater' follows a team of underwater researchers who find themselves fighting for survival after their drilling station is struck by a catastrophic earthquake. As they struggle to escape the rapidly deteriorating facility, they encounter mysterious and deadly creatures lurking in the depths of the ocean. With time running out and their resources dwindling, the team must overcome unimaginable obstacles and confront their darkest fears in order to make it to the surface alive.",
   "genre": ["science-fiction", "horror", "thriller"],
   "link": "https://www.hulu.com/movie/underwater-2e23bd07-9b1b-4c7d-a471-f9a2bdb13aaf",
   "director": [
@@ -11107,6 +11107,245 @@ const moviesArray = [
       "name": "Harold Perrineau",
       "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_social_share_1200x630_center,f_auto,q_auto:best/rockcms/2023-05/harold-perrineau-lost-zz-230530-df96e7.jpg",
       "imdb": "https://www.imdb.com/name/nm0674782/"
+    }
+  ]
+}
+,
+{
+  "item": 366,
+  "title": "Alien",
+  "runtime": 117,
+  "mpaa": "R",
+  "poster": "https://img2.hulu.com/user/v3/artwork/27389b6b-bf27-45a6-afdf-cef0fe723cff?base_image_bucket_name=image_manager&base_image=69ab9c55-651d-45f4-8d2e-98450a32bdad&size=600x338&format=jpeg",
+  "description": "In Ridley Scott's 'Alien', the crew of the spaceship Nostromo encounters a deadly extraterrestrial creature after investigating a distress signal on a remote planet. As the crew members are picked off one by one, they must battle not only the alien menace but also the existential terror of being hunted in the isolated depths of space.",
+  "genre": ["horror", "science-fiction"],
+  "link": "https://www.hulu.com/movie/alien-27389b6b-bf27-45a6-afdf-cef0fe723cff",
+  "director": [
+    {
+      "name": "Ridley Scott",
+      "image": "https://static.dw.com/image/40728788_605.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000631/"
+    }
+  ],
+  "actors": [
+    {
+      "name": "Sigourney Weaver",
+      "image": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQ0RqT4ylW4KgRmsjqhRIoJW_Ok7NKWiy2y9JVc8hQ0cpxZtEoAz7RWtt1IJowHaSTKS8W0YasitoBpMBU",
+      "imdb": "https://www.imdb.com/name/nm0000244/",
+    },
+    {
+      "name": "Tom Skerritt",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2022/05/896/500/Tom_Skerritt.jpg?ve=1&tl=1",
+      "imdb": "https://www.imdb.com/name/nm0000649/"
+    },
+    {
+      "name": "John Hurt",
+      "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/01/28/09/john-hurt-1984.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000457/"
+    },
+    {
+      "name": "Ian Holm",
+      "image": "https://media.nbcmiami.com/2019/09/GettyImages-57166116-1.jpg?quality=85&strip=all&resize=1200%2C675",
+      "imdb": "https://www.imdb.com/name/nm0000453/"
+    }
+  ]
+}
+,
+{
+  "item": 367,
+  "title": "Alien Resurrection",
+  "runtime": 109,
+  "mpaa": "R",
+  "poster": "https://img1.hulu.com/user/v3/artwork/4da92623-1e5a-4d7f-a79f-cc16272aaf6e?base_image_bucket_name=image_manager&base_image=b7dc9793-2546-4f26-9043-a24939d07f84&size=600x338&format=jpeg",
+  "description": "In 'Alien Resurrection', two hundred years after the events of 'Alien 3', scientists on the outer space vessel USM Auriga clone Ellen Ripley in an attempt to extract the alien queen embryo that was inside her at the time of her death. However, the cloning process produces a new Ripley with some alien characteristics. As the crew struggles to control the situation, they soon find themselves fighting for survival against a new breed of deadly creatures.",
+  "genre": ["action", "horror", "science-fiction", "sequel"],
+  "link": "https://www.hulu.com/movie/alien-resurrection-4da92623-1e5a-4d7f-a79f-cc16272aaf6e",
+  "director": [
+    {
+      "name": "Jean-Pierre Jeunet",
+      "image": "https://variety.com/wp-content/uploads/2015/12/rexfeatures_1259439d.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000466/"
+    }
+  ],
+  "actors": [
+    {
+      "name": "Sigourney Weaver",
+      "image": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQ0RqT4ylW4KgRmsjqhRIoJW_Ok7NKWiy2y9JVc8hQ0cpxZtEoAz7RWtt1IJowHaSTKS8W0YasitoBpMBU",
+      "imdb": "https://www.imdb.com/name/nm0000244/",
+    },
+    {
+      "name": "Winona Ryder",
+      "image": "https://www.giantfreakinrobot.com/wp-content/uploads/2022/06/winona-ryder-stranger-things.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000213/"
+    },
+    {
+      "name": "Ron Perlman",
+      "image": "https://prd-rteditorial.s3-us-west-2.amazonaws.com/wp-content/uploads/2015/09/The-Last-Supper.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000579/"
+    },
+    {
+      "name": "Dominique Pinon",
+      "image": "https://www.outlandertvnews.com/wp-content/uploads/2015/06/Dominique-Pinon-Credit-Henri-J%C3%A9r%C3%B4me-Bertin.jpg",
+      "imdb": "https://www.imdb.com/name/nm0684950/"
+    }
+  ]
+},
+{
+  "item": 368,
+  "title": "Alien³",
+  "runtime": 114,
+  "mpaa": "R",
+  "poster": "https://img3.hulu.com/user/v3/artwork/a69c932d-881a-40b8-b154-dd913923feee?base_image_bucket_name=image_manager&base_image=e98470ce-8f6c-4abf-917d-117940527d1a&size=600x338&format=jpeg",
+  "description": "'Alien³' follows Ellen Ripley as she crash-lands on Fiorina 161, a desolate prison planet inhabited by male inmates with no knowledge of the alien creature she encountered in previous films. As Ripley discovers the presence of the deadly xenomorph aboard the facility, she must rally the prisoners to confront the terrifying threat, even as personal and political tensions threaten to tear them apart.",
+  "genre": ["action", "horror", "science-fiction", "sequel"],
+  "link": "https://www.hulu.com/movie/alien-3-a69c932d-881a-40b8-b154-dd913923feee",
+  "director": [
+    {
+      "name": "David Fincher",
+      "image": "https://www.premiumbeat.com/blog/wp-content/uploads/2022/11/featuredimage.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000399/"
+    }
+  ],
+  "actors": [
+    {
+      "name": "Sigourney Weaver",
+      "image": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQ0RqT4ylW4KgRmsjqhRIoJW_Ok7NKWiy2y9JVc8hQ0cpxZtEoAz7RWtt1IJowHaSTKS8W0YasitoBpMBU",
+      "imdb": "https://www.imdb.com/name/nm0000244/",
+    },
+    {
+      "name": "Charles S. Dutton",
+      "image": "https://vz.cnwimg.com/wp-content/uploads/2011/06/Charles-S.-Dutton.jpg",
+      "imdb": "https://www.imdb.com/name/nm0001168/"
+    },
+    {
+      "name": "Charles Dance",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article29872655.ece/ALTERNATES/s615/0_PAY-Charles-Dance-spotted-with-his-girlfriend-at-the-beach-in-Venice.jpg",
+      "imdb": "https://www.imdb.com/name/nm0001097/"
+    },
+    {
+      "name": "Paul McGann",
+      "image": "https://images.immediate.co.uk/production/volatile/sites/3/2022/10/DW1996McGann28-bfa5108.jpg?resize=768,574",
+      "imdb": "https://www.imdb.com/name/nm0001524/"
+    }
+  ]
+}
+,
+{
+  "item": 369,
+  "title": "The Omen",
+  "runtime": 110,
+  "mpaa": "R",
+  "poster": "https://img4.hulu.com/user/v3/artwork/89c917b9-cca0-426a-8080-b85b6f171b1f?base_image_bucket_name=image_manager&base_image=70fddab9-ba0a-41af-9dd4-23a65205a0b2&size=600x338&format=jpeg",
+  "description": "In the 2006 remake of 'The Omen', a couple adopts a young boy named Damien after their own child dies at birth. As Damien grows older, strange and ominous events begin to occur around him, leading his father to suspect that he may be the Antichrist foretold in religious prophecy. As the truth becomes increasingly clear, the family is drawn into a terrifying battle against evil forces.",
+  "genre": ["horror", "mystery", "remake"],
+  "link": "https://www.hulu.com/movie/the-omen-89c917b9-cca0-426a-8080-b85b6f171b1f",
+  "director": [
+    {
+      "name": "John Moore",
+      "image": "https://www.hollywoodreporter.com/wp-content/uploads/2016/05/gettyimages-160886041-h_2016.jpg?w=3000",
+      "imdb": "https://www.imdb.com/name/nm0601376/"
+    }
+  ],
+  "actors": [
+    {
+      "name": "Liev Schreiber",
+      "image": "https://media.npr.org/assets/img/2022/05/21/gettyimages-1397792718_custom-b735c82cb9285bbf005799ddac6623ad27a80d3f.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000630/"
+    },
+    {
+      "name": "Julia Stiles",
+      "image": "https://ew.com/thmb/IxgG-FFcCnrGllHigRoo_8F-tao=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/julia-stiles_0-79f4c55fe38f437cbc6d96d4cdc92386.jpg",
+      "imdb": "https://www.imdb.com/name/nm0005466/"
+    },
+    {
+      "name": "Seamus Davey-Fitzpatrick",
+      "image": "https://m.media-amazon.com/images/M/MV5BNDE4NDczNTQ3OF5BMl5BanBnXkFtZTgwOTU1MjIyMDI@._V1_.jpg",
+      "imdb": "https://www.imdb.com/name/nm1903845/"
+    },
+    {
+      "name": "David Thewlis",
+      "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2020/08/03/11/david-thewlis.jpg",
+      "imdb": "https://www.imdb.com/name/nm0858154/"
+    }
+  ]
+}
+,
+{
+  "item": 370,
+  "title": "Aliens vs. Predator: Requiem",
+  "runtime": 94,
+  "mpaa": "R",
+  "poster": "https://img4.hulu.com/user/v3/artwork/164aeec5-daba-4bf5-b333-4cc03bd229ba?base_image_bucket_name=image_manager&base_image=a977cdcf-ab26-4fc0-b3f1-04155fa4268e&size=600x338&format=jpeg",
+  "description": "In 'Aliens vs. Predator: Requiem', a small American town becomes the battleground for a deadly conflict between the extraterrestrial species of aliens and predators. As the creatures wreak havoc on the unsuspecting populace, a group of brave individuals must band together to survive and prevent the creatures from spreading their deadly infestation beyond the town's borders.",
+  "genre": ["action", "horror", "science-fiction"],
+  "link": "https://www.hulu.com/movie/aliens-vs-predator-requiem-164aeec5-daba-4bf5-b333-4cc03bd229ba",
+  "director": [
+    {
+      "name": "Colin Strause",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjAxODg2ODkyMV5BMl5BanBnXkFtZTcwODMzODUwNA@@._V1_.jpg",
+      "imdb": "https://www.imdb.com/name/nm1151546/"
+    },
+    {
+      "name": "Greg Strause",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjAxODg2ODkyMV5BMl5BanBnXkFtZTcwODMzODUwNA@@._V1_.jpg",
+      "imdb": "https://www.imdb.com/name/nm1151553/"
+    }
+  ],
+  "actors": [
+    {
+      "name": "Steven Pasquale",
+      "image": "https://media.playwrightshorizons.org/filer_public_thumbnails/filer_public/11/51/11518aaa-9ad2-4bc3-bc5a-2f9a91d71961/stephen_2922_square.jpg__960x480_q85_crop_subsampling-2_upscale.jpg",
+      "imdb": "https://www.imdb.com/name/nm1172354/"
+    },
+    {
+      "name": "Reiko Aylesworth",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjA3MzYwNTI3OF5BMl5BanBnXkFtZTcwMTYwNTE0Mg@@._V1_FMjpg_UX1000_.jpg",
+      "imdb": "https://www.imdb.com/name/nm0043930/"
+    },
+    {
+      "name": "John Ortiz",
+      "image": "https://deadline.com/wp-content/uploads/2022/01/160999_4564_V2.jpg",
+      "imdb": "https://www.imdb.com/name/nm0651341/"
+    },
+    {
+      "name": "Johnny Lewis",
+      "image": "https://lamag.com/.image/t_share/MTk3NTU1NzQ4NjkwOTk0ODgw/johnnylewis_h.jpg",
+      "imdb": "https://www.imdb.com/name/nm0507775/"
+    }
+  ]
+}
+,
+{
+  "item": 371,
+  "title": "Apollo 18",
+  "runtime": 86,
+  "mpaa": "PG-13",
+  "poster": "https://img4.hulu.com/user/v3/artwork/06579b36-1e85-4ef1-8fef-131e61fa771f?base_image_bucket_name=image_manager&base_image=af01236b-f0fb-49d0-8a06-c085da14f3c2&size=600x338&format=jpeg",
+  "description": "In 'Apollo 18', found footage purportedly from NASA's final classified mission to the moon reveals the harrowing truth behind the mission's abrupt termination. As the astronauts explore the lunar surface, they encounter inexplicable phenomena that threaten their lives and sanity, leading to a terrifying realization that they are not alone on the moon.",
+  "genre": ["horror", "science-fiction", "thriller", "found-footage"],
+  "link": "https://www.hulu.com/movie/prey-55349764-323e-4d0e-898f-a4c12c9bf615",
+  "director": [
+    {
+      "name": "Gonzalo López-Gallego",
+      "image": "https://www.shutterstock.com/preview-440/14316015d/d5e11f28/Shutterstock_14316015d.jpg",
+      "imdb": "https://www.imdb.com/name/nm0527226/"
+    }
+  ],
+  "actors": [
+    {
+      "name": "Warren Christie",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjE0MTEyMjgzNF5BMl5BanBnXkFtZTgwNTQ2MTk2NTE@._V1_.jpg",
+      "imdb": "https://www.imdb.com/name/nm0160435/"
+    },
+    {
+      "name": "Lloyd Owen",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTk2OGM0YTItYWVmNC00ZmExLWEzNjAtZGY4NGEyYjA2NjRjXkEyXkFqcGdeQXVyMzQ3Nzk5MTU@._V1_.jpg",
+      "imdb": "https://www.imdb.com/name/nm0654013/"
+    },
+    {
+      "name": "Ryan Robbins",
+      "image": "https://pbs.twimg.com/media/GAYPRAAWIAAggBe?format=jpg&name=large",
+      "imdb": "https://www.imdb.com/name/nm0730409/"
     }
   ]
 }
