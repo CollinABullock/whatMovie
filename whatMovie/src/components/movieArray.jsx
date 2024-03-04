@@ -10917,7 +10917,7 @@ const moviesArray = [
   "runtime": 116,
   "mpaa": "PG-13",
   "poster": "https://img.hulu.com/user/v3/artwork/3cd3aee0-cdf7-436e-815a-b4137289421a?base_image_bucket_name=image_manager&base_image=e1c23929-f49c-4579-960e-6024b20a960f&size=600x338&format=jpeg",
-  "description": "'Robin Hood' is an action-adventure film directed by Otto Bathurst. The movie offers a modern retelling of the classic legend of Robin Hood, a heroic outlaw who steals from the rich to give to the poor. Set in medieval England, the story follows Robin of Loxley, a former crusader, as he leads a rebellion against the corrupt Sheriff of Nottingham and the tyrannical rule of the English crown. With the help of his band of Merry Men and his love interest, Maid Marian, Robin Hood becomes a symbol of hope for the oppressed and downtrodden. 'Robin Hood' is a thrilling and action-packed adventure that explores themes of justice, freedom, and the power of the people.",
+  "description": "'Robin Hood' offers a modern retelling of the classic legend of Robin Hood, a heroic outlaw who steals from the rich to give to the poor. Set in medieval England, the story follows Robin of Loxley, a former crusader, as he leads a rebellion against the corrupt Sheriff of Nottingham and the tyrannical rule of the English crown. With the help of his band of Merry Men and his love interest, Maid Marian, Robin Hood becomes a symbol of hope for the oppressed and downtrodden.",
   "genre": ["action", "adventure", "drama"],
   "link": "https://www.hulu.com/movie/robin-hood-3cd3aee0-cdf7-436e-815a-b4137289421a",
   "director": [
@@ -11346,6 +11346,76 @@ const moviesArray = [
       "name": "Ryan Robbins",
       "image": "https://pbs.twimg.com/media/GAYPRAAWIAAggBe?format=jpg&name=large",
       "imdb": "https://www.imdb.com/name/nm0730409/"
+    }
+  ]
+}
+,
+{
+  "item": 372,
+  "title": "Day of the Dead",
+  "runtime": 90,
+  "mpaa": "R",
+  "poster": "https://img4.hulu.com/user/v3/artwork/0a25cb80-7279-4361-a1d7-d0addd1bf22f?base_image_bucket_name=image_manager&base_image=ce7cddb1-864e-4ac1-97ee-dd26f08c0959&size=600x338&format=jpeg",
+  "description": "In 'Day of the Dead', a small group of military personnel and scientists find themselves holed up in an underground bunker, attempting to find a solution to the zombie apocalypse that has overrun the world. As tensions rise and resources dwindle, they must confront not only the undead outside but also the growing mistrust and paranoia within their own ranks.",
+  "genre": ["horror", "science-fiction"],
+  "link": "https://www.hulu.com/movie/day-of-the-dead-0a25cb80-7279-4361-a1d7-d0addd1bf22f",
+  "director": [
+    {
+      "name": "George A. Romero",
+      "image": "https://www.hollywoodreporter.com/wp-content/uploads/2017/07/georgeromero.jpg",
+      "imdb": "https://www.imdb.com/name/nm0001681/"
+    }
+  ],
+  "actors": [
+    {
+      "name": "Lori Cardille",
+      "image": "https://media.gettyimages.com/id/472931320/photo/ryans-hope-gallery-shoot-date-november-12-1982-lori-cardille.jpg?s=612x612&w=gi&k=20&c=ue253PlbrrwdHxfPlH1z7XIJjOlXNgVuCLJB06RDL5w=",
+      "imdb": "https://www.imdb.com/name/nm0137066/"
+    },
+    {
+      "name": "Terry Alexander",
+      "image": "https://crypticrock.com/wp-content/uploads/2015/04/terry-slide.jpg",
+      "imdb": "https://www.imdb.com/name/nm0018697/"
+    },
+    {
+      "name": "Joseph Pilato",
+      "image": "https://m.media-amazon.com/images/M/MV5BNGUwNDg4NjgtZDVkZS00OGYzLTg0ZTUtODkwNTFhZDU4OTgxXkEyXkFqcGdeQXRoaXJkLXBhcnR5LXZpZGVvLXVwZGF0ZXI@._V1_QL75_UX500_CR0,47,500,281_.jpg",
+      "imdb": "https://www.imdb.com/name/nm0683371/"
+    }
+  ]
+}
+,
+{
+  "item": 373,
+  "title": "The Omen",
+  "runtime": 111,
+  "mpaa": "R",
+  "poster": "https://img.hulu.com/user/v3/artwork/a178d785-c776-4813-94dc-18e33bd3f614?base_image_bucket_name=image_manager&base_image=00e10944-eb49-42f4-8f89-e8a3e3b66f9e&size=600x338&format=jpeg",
+  "description": "In 'The Omen', a couple adopts a young boy named Damien after their own child dies at birth. As Damien grows older, strange and sinister events begin to occur around him, leading his parents to discover that their son may be the Antichrist foretold in the Book of Revelation. With the help of a determined photographer, they race against time to uncover the truth and prevent Damien from fulfilling his dark destiny.",
+  "genre": ["horror", "thriller"],
+  "link": "https://www.hulu.com/movie/the-omen-a178d785-c776-4813-94dc-18e33bd3f614",
+  "director": [
+    {
+      "name": "Richard Donner",
+      "image": "https://deadline.com/wp-content/uploads/2021/07/Richard-Donner.jpg",
+      "imdb": "https://www.imdb.com/name/nm0001149/"
+    }
+  ],
+  "actors": [
+    {
+      "name": "Gregory Peck",
+      "image": "https://cdn.britannica.com/56/211156-050-870734A1/Gregory-Peck-in--To-Kill-a-Mockingbird---directed-by-Robert-Mulligan.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000060/"
+    },
+    {
+      "name": "Lee Remick",
+      "image": "https://m.media-amazon.com/images/M/MV5BOTJiZGFiOWItMmE5NS00MTQ3LWIxZDQtZGNhNWQ3NzdjMjg4XkEyXkFqcGdeQXVyMzAwOTU1MTk@._V1_.jpg",
+      "imdb": "https://www.imdb.com/name/nm0001668/"
+    },
+    {
+      "name": "David Warner",
+      "image": "https://m.media-amazon.com/images/M/MV5BNjZhZGM3Y2ItODk0OS00MjhhLTkxNmYtNzFiODg0Y2I5YTAzXkEyXkFqcGdeQXRoaXJkLXBhcnR5LXZpZGVvLXVwZGF0ZXI@._V1_QL75_UX500_CR0,47,500,281_.jpg",
+      "imdb": "https://www.imdb.com/name/nm0001831/"
     }
   ]
 }
