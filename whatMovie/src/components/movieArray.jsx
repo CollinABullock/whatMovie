@@ -11567,6 +11567,41 @@ const moviesArray = [
   ]
 }
 ,
+{
+  "item": 379,
+  "title": "Nightmare Alley",
+  "runtime": 150,
+  "mpaa": "R",
+  "poster": "https://img.hulu.com/user/v3/artwork/dd010294-61c6-4ab5-b8d9-7326836717bc?base_image_bucket_name=image_manager&base_image=089a0af0-f588-4a62-8530-8b4d765d7a89&size=600x338&format=jpeg",
+  "description": "In 'Nightmare Alley', a down-and-out carnival worker teams up with a psychologist in a twisted game of deception and manipulation. As they navigate through the seedy underbelly of 1940s America, they find themselves entangled in a web of greed, betrayal, and murder.",
+  "genre": ["drama", "mystery", "thriller", "film-noir", "remake"],
+  "link": "https://www.hulu.com/movie/nightmare-alley-dd010294-61c6-4ab5-b8d9-7326836717bc",
+  "director": [
+    {
+      "name": "Guillermo del Toro",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQk5p15dyELCnVtHIz0MUu8YGmE3mW0XTDn5kLqqS-jCIc5IGmz",
+      "imdb": "https://www.imdb.com/name/nm0868219/",
+    }
+  ],
+  "actors": [
+    {
+      "name": "Bradley Cooper",
+      "image": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcTWMU-hTEfE9uijYMdXLmGszgxLyiWtA_lBOaTUq82IDM__vhe-JaCEK8Cx_OKdoXKZ8YCGL8Mf2PR6-7Q",
+      "imdb": "https://www.imdb.com/name/nm0177896/bio/"
+    },
+    {
+      "name": "Cate Blanchett",
+      "image": "https://www.ansa.it/webimages/news_base/2015/5/17/77694ac058574b420f373717098561e1.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000949/"
+    },
+    {
+      "name": "Rooney Mara",
+      "image": "https://variety.com/wp-content/uploads/2023/01/GettyImages-1442448873.jpg",
+      "imdb": "https://www.imdb.com/name/nm1913734/"
+    }
+  ]
+}
+,
 
 
   ],
