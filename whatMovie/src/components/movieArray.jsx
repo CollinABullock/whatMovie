@@ -3725,7 +3725,7 @@ const moviesArray = [
       "mpaa": "PG",
       "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/3deab668-d0a4-4a8d-9bc8-0952a0ad836e/d24ed5a9b698985647bbb1c77772b9cb65a475a9.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=320",
       "description": "A young girl named Chihiro stumbles upon a mysterious and magical world after her parents are transformed into pigs. As Chihiro navigates through this strange realm, she encounters a host of peculiar creatures and must find a way to break the spell and return to the human world.",
-      "genre": ["animation", "fantasy"],
+      "genre": ["animation", "fantasy", "anime"],
       "link": "https://www.max.com/movies/spirited-away/3deab668-d0a4-4a8d-9bc8-0952a0ad836e",
       "director": [{
         "name": "Hayao Miyazaki",
@@ -4343,7 +4343,7 @@ const moviesArray = [
       "mpaa": "PG-13",
       "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/e31c2dc2-cb8b-416e-9eda-769be3bb3a6b/d6211efbbeb91ac3736cf1b96afaf3208f09b6a5.jpg?submitted=1684673544124&host=wbd-images.prod-vod.h264.io&partner=beamcom&w=320",
       "description": "A cursed warrior stumbles into a bitter war between a girl raised by wolves and the people of Iron Town in this masterpiece from Hayao Miyazaki.",
-	"genre": ["animaation", "fantasy", "action", "foreign"],
+	"genre": ["animaation", "fantasy", "action", "foreign", "anime"],
     "link": "https://play.max.com/video/watch/9790bf2c-b9fb-4825-bd69-dbb111768659/325c6c4f-383c-44e7-9d92-40c2711296a3",
     "director": [{
     "name": "Hayao Miyazaki",
@@ -10263,7 +10263,7 @@ const moviesArray = [
   "poster": "https://img2.hulu.com/user/v3/artwork/fe644b0a-289d-4693-a7f6-64705315b07a?base_image_bucket_name=image_manager&base_image=c080f045-ae74-4cf8-a954-d918eabd821a&size=600x338&format=jpeg",
   "description": "Directed by Denis Villeneuve, 'Blade Runner 2049' is a science fiction neo-noir film and a sequel to the 1982 cult classic 'Blade Runner'. Set thirty years after the events of the first film, the story follows K, a new blade runner who uncovers a long-buried secret that has the potential to plunge what's left of society into chaos. As K embarks on his journey to unravel the mystery, he crosses paths with Rick Deckard, a former blade runner, leading them both to confront their own identities and the nature of humanity itself.",
   "genre": ["science-fiction", "drama", "mystery", "sequel", "film-noir"],
-  "link": "",
+  "link": "https://www.hulu.com/movie/blade-runner-2049-fe644b0a-289d-4693-a7f6-64705315b07a",
   "director": [
     {
       "name": "Denis Villeneuve",
@@ -10812,6 +10812,306 @@ const moviesArray = [
   ]
 }
 ,
+{
+  "item": 358,
+  "title": "I Am Number Four",
+  "runtime": 109,
+  "mpaa": "PG-13",
+  "poster": "https://img3.hulu.com/user/v3/artwork/15359af5-87f0-40c7-a7a2-454434ed9b4a?base_image_bucket_name=image_manager&base_image=8f99a8c9-ecf8-4046-941d-e0f191685ee1&size=600x338&format=jpeg",
+  "description": "John Smith is an an alien refugee hiding on Earth from a hostile alien race known as the Mogadorians. As John discovers his extraordinary powers, he must evade capture and protect himself and those he cares about from the deadly threats that pursue him. With the help of his guardian, Henri, and newfound allies, John embarks on a journey of self-discovery and courage as he fights to survive and fulfill his destiny.",
+  "genre": ["action", "science-fiction", "thriller"],
+  "link": "https://www.hulu.com/movie/i-am-number-four-15359af5-87f0-40c7-a7a2-454434ed9b4a",
+  "director": [
+    {
+      "name": "D.J. Caruso",
+      "image": "https://www.hollywoodreporter.com/wp-content/uploads/2018/12/gettyimages-634414454-h_2018.jpg?w=1296",
+      "imdb": "https://www.imdb.com/name/nm0140796/"
+    }
+  ],
+  "actors": [
+    {
+      "name": "Alex Pettyfer",
+      "image": "https://images.bauerhosting.com/legacy/empire-images/articles/58f3aaeb4dcbea891fa96859/alex-pettyfer.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=undefined&q=80",
+      "imdb": "https://www.imdb.com/name/nm1641117/"
+    },
+    {
+      "name": "Timothy Olyphant",
+      "image": "https://www.hollywoodreporter.com/wp-content/uploads/2020/05/timothy_olyphant_-_getty_-_h_2020_.jpg?w=1296",
+      "imdb": "https://www.imdb.com/name/nm0648249/"
+    },
+    {
+      "name": "Dianna Agron",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTE5MmViYjItZjMxMy00ZjVhLThiMWYtZmQzZWQ4Y2FiYjllXkEyXkFqcGdeQVRoaXJkUGFydHlJbmdlc3Rpb25Xb3JrZmxvdw@@._V1_QL75_UX500_CR0,0,500,281_.jpg",
+      "imdb": "https://www.imdb.com/name/nm1982597/"
+    },
+    {
+      "name": "Teresa Palmer",
+      "image": "https://fashionrepublicmagazine.com/wp-content/uploads/2023/06/Teresa-Palmer.jpg",
+      "imdb": "https://www.imdb.com/name/nm1954240/"
+    }
+  ]
+}
+,
+{
+  "item": 359,
+  "title": "Akira",
+  "runtime": 124,
+  "mpaa": "R",
+  "poster": "https://img2.hulu.com/user/v3/artwork/2c0baf22-e7af-4d40-a63b-bfc506bebbd2?base_image_bucket_name=image_manager&base_image=d34655c9-bc79-46a9-ae3b-50d2c1ccbf38&size=600x338&format=jpeg",
+  "description": "Set in a dystopian future, the movie follows the story of Kaneda and Tetsuo, two members of a motorcycle gang who become involved in a government conspiracy and a series of events involving psychic powers. As Tetsuo develops powerful telekinetic abilities, he becomes a target of government experiments and must confront his own inner demons..",
+  "genre": ["animation", "science-fiction", "action", "anime"],
+  "link": "https://www.hulu.com/movie/dub-akira-2c0baf22-e7af-4d40-a63b-bfc506bebbd2",
+  "director": [
+    {
+      "name": "Katsuhiro Otomo",
+      "image": "https://ik.imagekit.io/storybird/images/464e5fce-80c2-4412-95c9-ba7888e40459/1_381672182.png",
+      "imdb": "https://www.imdb.com/name/nm0653881/"
+    }
+  ],
+  "actors": []
+}
+,
+{
+  "item": 360,
+  "title": "Maze Runner: The Death Cure",
+  "runtime": 143,
+  "mpaa": "PG-13",
+  "poster": "https://img.hulu.com/user/v3/artwork/56997d10-279a-4555-ade8-cf21c1393546?base_image_bucket_name=image_manager&base_image=3b243af9-bd5a-4bf2-943e-f917ed5e96d2&size=600x338&format=jpeg",
+  "description": "'Maze Runner: The Death Cure' is a science-fiction action film directed by Wes Ball. The movie is the third installment in the 'Maze Runner' film series, based on the novels by James Dashner. Set in a dystopian future, the story follows Thomas and his fellow Gladers as they embark on a mission to rescue their captured friends from the mysterious organization known as WCKD. As they journey through the treacherous wasteland known as the Scorch, they uncover shocking secrets about their past and the true nature of the world they live in. 'Maze Runner: The Death Cure' is an epic conclusion to the thrilling saga, filled with heart-pounding action and stunning visuals.",
+  "genre": ["action", "science-fiction", "thriller", "teen", "sequel"],
+  "link": "https://www.hulu.com/movie/maze-runner-the-death-cure-56997d10-279a-4555-ade8-cf21c1393546",
+  "director": [
+    {
+      "name": "Wes Ball",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Wes_Ball_%2814758598956%29.jpg",
+      "imdb": "https://www.imdb.com/name/nm1790885/"
+    }
+  ],
+  "actors": [
+    {
+      "name": "Dylan O'Brien",
+      "image": "https://assets.teenvogue.com/photos/622a0e3f5147250d025c6e50/16:9/w_2560%2Cc_limit/GettyImages-1236524131.jpg",
+      "imdb": "https://www.imdb.com/name/nm3729721/"
+    },
+    {
+      "name": "Thomas Brodie-Sangster",
+      "image": "https://preview.redd.it/forever-young-thomas-brodie-sangster-from-11-to-25-to-33-v0-r3v1owulzfec1.jpg?width=640&crop=smart&auto=webp&s=dca633f18f191456e1dbb4ad6b02b441c00cd329",
+      "imdb": "https://www.imdb.com/name/nm1032473/"
+    },
+    {
+      "name": "Kaya Scodelario",
+      "image": "https://cdn01.justjaredjr.com/wp-content/uploads/headlines/2018/01/kaya-maze.jpg",
+      "imdb": "https://www.imdb.com/name/nm2546012/"
+    },
+    {
+      "name": "Giancarlo Esposito",
+      "image": "https://variety.com/wp-content/uploads/2022/03/Giancarlo-Esposito-e1646752967518.jpeg?w=1024",
+      "imdb": "https://www.imdb.com/name/nm0002064/"
+    }
+  ]
+}
+,
+{
+  "item": 361,
+  "title": "Robin Hood",
+  "runtime": 116,
+  "mpaa": "PG-13",
+  "poster": "https://img.hulu.com/user/v3/artwork/3cd3aee0-cdf7-436e-815a-b4137289421a?base_image_bucket_name=image_manager&base_image=e1c23929-f49c-4579-960e-6024b20a960f&size=600x338&format=jpeg",
+  "description": "'Robin Hood' is an action-adventure film directed by Otto Bathurst. The movie offers a modern retelling of the classic legend of Robin Hood, a heroic outlaw who steals from the rich to give to the poor. Set in medieval England, the story follows Robin of Loxley, a former crusader, as he leads a rebellion against the corrupt Sheriff of Nottingham and the tyrannical rule of the English crown. With the help of his band of Merry Men and his love interest, Maid Marian, Robin Hood becomes a symbol of hope for the oppressed and downtrodden. 'Robin Hood' is a thrilling and action-packed adventure that explores themes of justice, freedom, and the power of the people.",
+  "genre": ["action", "adventure", "drama"],
+  "link": "https://www.hulu.com/movie/robin-hood-3cd3aee0-cdf7-436e-815a-b4137289421a",
+  "director": [
+    {
+      "name": "Otto Bathurst",
+      "image": "https://s.yimg.com/ny/api/res/1.2/CsFU3TyBs_u7CJW8x5v1qA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQxNA--/https://media.zenfs.com/en-US/thewrap.com/e87c086378b556cbf99f2ff10b884a81",
+      "imdb": "https://www.imdb.com/name/nm0061152/"
+    }
+  ],
+  "actors": [
+    {
+      "name": "Taron Egerton",
+      "image": "https://www.nme.com/wp-content/uploads/2018/11/Taron-Egerton.jpg",
+      "imdb": "https://www.imdb.com/name/nm5473782/"
+    },
+    {
+      "name": "Jamie Foxx",
+      "image": "https://images.foxtv.com/static.fox5atlanta.com/www.fox5atlanta.com/content/uploads/2023/04/764/432/jamie-foxx.jpg?ve=1&tl=1",
+      "imdb": "https://www.imdb.com/name/nm0004937/"
+    },
+    {
+      "name": "Ben Mendelsohn",
+      "image": "https://media.gq.com/photos/65bd17467747117a19fec483/master/w_2560%2Cc_limit/ben.jpg",
+      "imdb": "https://www.imdb.com/name/nm0578853/"
+    },
+    {
+      "name": "Eve Hewson",
+      "image": "https://fashionrepublicmagazine.com/wp-content/uploads/2023/07/Eve-Hewson.jpg",
+      "imdb": "https://www.imdb.com/name/nm0384265/"
+    }
+  ]
+}
+,
+{
+  "item": 362,
+  "title": "Prometheus",
+  "runtime": 124,
+  "mpaa": "R",
+  "poster": "https://img2.hulu.com/user/v3/artwork/75c2abd5-6e53-4cab-9cb0-2901d6b93b03?base_image_bucket_name=image_manager&base_image=5c44fcd0-0ef4-4d66-a888-6a95cad44471&size=600x338&format=jpeg",
+  "description": "Serving as a prequel to the 'Alien' film series, the movie follows a team of scientists and explorers who embark on a journey to uncover the origins of humanity after discovering a series of ancient clues on Earth. Their expedition takes them to a distant moon, where they encounter a mysterious alien race and uncover a deadly secret that could threaten the future of humanity. As they delve deeper into the unknown, they must confront their own fears and the consequences of their discoveries.",
+  "genre": ["science-fiction", "horror", "mystery", "sequel"],
+  "link": "https://www.hulu.com/movie/prometheus-75c2abd5-6e53-4cab-9cb0-2901d6b93b03",
+  "director": [
+    {
+      "name": "Ridley Scott",
+      "image": "https://static.dw.com/image/40728788_605.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000631/"
+    }
+  ],
+  "actors": [
+    {
+      "name": "Noomi Rapace",
+      "image": "https://i.ytimg.com/vi/b2y9mO7yltI/maxresdefault.jpg",
+      "imdb": "https://www.imdb.com/name/nm0636426/",
+    },
+    {
+      "name": "Michael Fassbender",
+      "image": "https://variety.com/wp-content/uploads/2024/02/fassbender-e1709057463472.jpg?w=861",
+      "imdb": "https://www.imdb.com/name/nm1055413/",
+    },
+    {
+      "name": "Charlize Theron",
+        "image": "https://variety.com/wp-content/uploads/2023/08/GettyImages-1490338443-e1692731846946.jpg",
+        "imdb": "https://www.imdb.com/name/nm0000234/"
+    },
+    {
+      "name": "Idris Elba",
+      "image": "https://img.buzzfeed.com/buzzfeed-static/complex/images/c6pfzxavof3nf6emlmmb/idris-elba.jpg?output-format=jpg&output-quality=auto",
+      "imdb": "https://www.imdb.com/name/nm0252961/?ref_=tt_ov_st"
+    }
+  ]
+}
+,
+{
+  "item": 363,
+  "title": "Underwater",
+  "runtime": 95,
+  "mpaa": "PG-13",
+  "poster": "https://img4.hulu.com/user/v3/artwork/2e23bd07-9b1b-4c7d-a471-f9a2bdb13aaf?base_image_bucket_name=image_manager&base_image=0f960ec9-9c92-4db6-8754-260e324e7261&size=600x338&format=jpeg",
+  "description": "'Underwater' is a science-fiction horror film directed by William Eubank. The movie follows a team of underwater researchers who find themselves fighting for survival after their drilling station is struck by a catastrophic earthquake. As they struggle to escape the rapidly deteriorating facility, they encounter mysterious and deadly creatures lurking in the depths of the ocean. With time running out and their resources dwindling, the team must overcome unimaginable obstacles and confront their darkest fears in order to make it to the surface alive. 'Underwater' is a thrilling and suspenseful film that plunges viewers into the terrifying abyss of the ocean's depths.",
+  "genre": ["science-fiction", "horror", "thriller"],
+  "link": "https://www.hulu.com/movie/underwater-2e23bd07-9b1b-4c7d-a471-f9a2bdb13aaf",
+  "director": [
+    {
+      "name": "William Eubank",
+      "image": "https://media.baselineresearch.com/images/1185781/1185781_full.jpg",
+      "imdb": "https://www.imdb.com/name/nm1200280/"
+    }
+  ],
+  "actors": [
+    {
+      "name": "Kristen Stewart",
+      "image": "https://m.media-amazon.com/images/M/MV5BZGE0NGM4NjAtMDgyZC00NjAyLWE0ZTktYmRiMWY4NmE2ZjNkXkEyXkFqcGdeQXZ3ZXNsZXk@._V1_QL75_UX500_CR0,0,500,281_.jpg",
+      "imdb": "https://www.imdb.com/name/nm0829576/"
+    },
+    {
+      "name": "T.J. Miller",
+      "image": "https://pagesix.com/wp-content/uploads/sites/3/2018/04/tj-miller1.jpg?quality=75&strip=all",
+      "imdb": "https://www.imdb.com/name/nm2554352/"
+    },
+    {
+      "name": "Jessica Henwick",
+      "image": "https://deadline.com/wp-content/uploads/2021/06/Jessica-Henwick.jpg",
+      "imdb": "https://www.imdb.com/name/nm3725055/"
+    },
+    {
+      "name": "Vincent Cassel",
+      "image": "https://i.guim.co.uk/img/media/6885d05562e83bfdd4204aa11551f28fae04d924/0_0_6208_3726/master/6208.jpg?width=1200&quality=85&auto=format&fit=max&s=cc0d369024b5d2dfc157f8b81efa1a78",
+      "imdb": "https://www.imdb.com/name/nm0001993/"
+    }
+  ]
+}
+,
+{
+  "item": 364,
+  "title": "The Last Duel",
+  "runtime": 152,
+  "mpaa": "R",
+  "poster": "https://img.hulu.com/user/v3/artwork/5387fb0a-a16e-4118-a244-31056c6d396c?base_image_bucket_name=image_manager&base_image=7ff345e9-c6f1-48fb-8002-7a99614941de&size=600x338&format=jpeg",
+  "description": "Set in 14th-century France, the movie is based on the true story of the last sanctioned duel in France, fought between Jean de Carrouges and Jacques Le Gris. The duel is fought over allegations of rape made by Carrouges' wife, Marguerite, against Le Gris. As tensions escalate and loyalties are tested, the truth becomes increasingly difficult to discern.",
+  "genre": ["drama", "history"],
+  "link": "https://www.hulu.com/movie/the-last-duel-5387fb0a-a16e-4118-a244-31056c6d396c",
+  "director": [
+    {
+      "name": "Ridley Scott",
+      "image": "https://static.dw.com/image/40728788_605.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000631/"
+    }
+  ],
+  "actors": [
+    {
+      "name": "Matt Damon",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT9LHOr-9heRREg1kcbUk3wpeADWC2F80UMqnx-F7mB1Oda9wWf",
+      "imdb": "https://www.imdb.com/name/nm0000354/",
+    },
+    {
+      "name": "Adam Driver",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfHXwIoFRZIuw12sbWKGf6w0IEQ5wdnZzopg&usqp=CAU",
+      "imdb": "https://www.imdb.com/name/nm3485845/",
+    },
+    {
+      "name": "Jodie Comer",
+      "image": "https://www.hollywoodreporter.com/wp-content/uploads/2022/05/GettyImages-1396240738-H-2022.jpg?w=1296",
+      "imdb": "https://www.imdb.com/name/nm5089884/"
+    },
+    {
+      "name": "Ben Affleck",
+      "image": "https://ca-times.brightspotcdn.com/dims4/default/10ea0b4/2147483647/strip/true/crop/6316x4210+0+1/resize/2000x1333!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F7d%2Fd8%2Ff1ec7c954d10ab8f645895faa29b%2Fla-photos-1staff-885832-ca-ben-affleck-portrait-tender-bar-jlc-1213-12331.JPG",
+      "imdb": "https://www.imdb.com/name/nm0000255/",
+    }
+  ]
+}
+,
+{
+  "item": 365,
+  "title": "28 Weeks Later",
+  "runtime": 100,
+  "mpaa": "R",
+  "poster": "https://img.hulu.com/user/v3/artwork/6cd96079-fd77-4717-b30d-2b1ff6412a6e?base_image_bucket_name=image_manager&base_image=c7bc280f-2c91-430f-849e-0b8f5a550be2&size=600x338&format=jpeg",
+  "description": "In '28 Weeks Later', the survivors of the deadly Rage virus must navigate a post-apocalyptic London. As the city begins to rebuild, a new threat emerges, and the virus reappears, endangering everyone. Amidst the chaos, a group of survivors seeks refuge in a secure zone, but soon find themselves facing not only the infected but also the sinister machinations of those in power.",
+  "genre": ["horror", "science-fiction", "thriller", "sequel"],
+  "link": "https://www.hulu.com/movie/28-weeks-later-6cd96079-fd77-4717-b30d-2b1ff6412a6e",
+  "director": [
+    {
+      "name": "Juan Carlos Fresnadillo",
+      "image": "https://www.pinkvilla.com/images/2024-02/1704605035_screenshot-2024-02-16-at-4-17-19-pm.jpg",
+      "imdb": "https://www.imdb.com/name/nm0293866/"
+    }
+  ],
+  "actors": [
+    {
+      "name": "Jeremy Renner",
+      "image": "https://www.hollywoodreporter.com/wp-content/uploads/2024/02/GettyImages-1481548516-copy.jpg?w=1296",
+      "imdb": "https://www.imdb.com/name/nm0719637/"
+    },
+    {
+      "name": "Rose Byrne",
+      "image": "https://static.independent.co.uk/2022/07/08/14/shutterstock_editorial_12845769bn.jpg",
+      "imdb": "https://www.imdb.com/name/nm0126284/?ref_=tt_ov_st"
+    },
+    {
+      "name": "Robert Carlyle",
+      "image": "https://facts.net/wp-content/uploads/2023/10/12-intriguing-facts-about-robert-carlyle-1697024322.jpg",
+      "imdb": "https://www.imdb.com/name/nm0001015/"
+    },
+    {
+      "name": "Harold Perrineau",
+      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_social_share_1200x630_center,f_auto,q_auto:best/rockcms/2023-05/harold-perrineau-lost-zz-230530-df96e7.jpg",
+      "imdb": "https://www.imdb.com/name/nm0674782/"
+    }
+  ]
+}
+,
+
 
   ],
   // start peacock array
