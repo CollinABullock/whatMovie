@@ -1729,7 +1729,7 @@ const moviesArray = [
       "poster": "https://occ-0-90-92.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABVTqrmN0F5HJ_Ie0x5gm5H4CM_TglpgPzQpcvgVZN3-YQEf-U1nOVce3qZbqZ2MVbtROHn94CNQt-fba1VWRyu9bja90rbqi2RA.jpg?r=bca",
       "description": "Based on a true story, Erin Brockovich is a legal assistant who uncovers a massive environmental scandal involving contaminated water. Despite lacking formal legal training, she takes on a powerful corporation and fights for justice for the affected community.",
       "genre": ["biopic", "drama"],
-      "link": "",
+      "link": "https://www.netflix.com/title/60000165",
       "director": [{
         "name": "Steven Soderbergh",
         "image": "https://media.gq.com/photos/6086e2a2a300ae172cbcc456/16:9/w_2560%2Cc_limit/GettyImages-1314456484.jpeg",
@@ -9516,7 +9516,7 @@ const moviesArray = [
       "mpaa": "Not Rated",
       "poster": "https://m.media-amazon.com/images/S/pv-target-images/0590b4e52381e89da532a3d976ab8713ba492b0961c9c8f5e03abde8ecbba920.jpg",
       "description": "In 'Borderline', tensions rise when a group of individuals from different walks of life find themselves stranded at a remote border town. As they wait for transportation to their respective destinations, suspicion and mistrust grow among them. With each passing moment, secrets are revealed, alliances are formed, and the true nature of humanity is put to the test in this gripping tale of survival and intrigue.",
-      "genre": ["drama", "thriller"],
+      "genre": ["drama", "thriller", "film-noir", "classic"],
       "link": "https://www.amazon.com/gp/video/detail/B0CHDV1SZX/ref=atv_dp_amz_c_TS5124c5_1_3?jic=16%7CCgNhbGwSA2FsbA%3D%3D",
       "director": [{
         "name": "William A. Seiter",
