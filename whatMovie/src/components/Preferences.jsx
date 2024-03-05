@@ -28,6 +28,8 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
       }
       return acc;
     }, []);
+
+    
   
     const uniqueDirectors = new Set(); // Set to keep track of unique directors
     const filtered = searchTerm === '' ?
@@ -348,11 +350,12 @@ return (
                   {/* Image rendering */}
                   {director.image && (
                     <React.Fragment>
+                      <div style={{display: "flex", alignItems: "center"}}>
                       <img
                         className='filtered-director-img'
                         src={director.image}
                         alt={director.name}
-                        style={{ width: '170px', height: '150px', objectFit: "cover", marginBottom: '10px' }}
+                        style={{ width: '170px', height: '150px', objectFit: "cover", marginBottom: '10px', margin: "0 auto" }}
                       />
                       {/* Conditional rendering for the checkmark */}
                       {preferredDirectors.includes(director.name) && (
@@ -369,7 +372,9 @@ return (
                             <path fill="#FFFFFF" d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
                           </svg>
                         </div>
+                        
                       )}
+                      </div>
                     </React.Fragment>
                   )}
                   {/* Display director's name */}

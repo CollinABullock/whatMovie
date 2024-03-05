@@ -4,6 +4,7 @@
   color: #E4C3AD;
   font-family: Signwood;
   padding: 0px;
+  align-items: start;
 }
 
 .streaming-service-img {
@@ -71,7 +72,7 @@ margin: 10px !important;
 }
 
 .randomMovie {
-  width: 50%;
+  width: 100%;
   font-size: 4em; 
   background-color: red;
   color: whitesmoke; 
@@ -91,10 +92,11 @@ margin: 10px !important;
 .randomCard {
   margin: 0 auto;
   border: 0;
-  margin-top: -100px;
+  margin-top: -220px;
+  width: 80%;
  
   @media (max-width: 768px) {
-    margin-top: -200px !important;
+    margin-top: -320px !important;
     width: 100% !important;
  
 }

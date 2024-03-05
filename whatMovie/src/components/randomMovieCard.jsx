@@ -3,13 +3,18 @@ import Card from 'react-bootstrap/Card';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 import { motion } from "framer-motion";
-import { moviesArray, netflixArray, maxArray, primeArray } from './movieArray';
+import { moviesArray, netflixArray, maxArray, primeArray, huluArray } from './movieArray';
 
 export default function RandomMovie({ selectedRuntime  }) {
   const [randomMovie, setRandomMovie] = useState(null);
   const [filteredMovies, setFilteredMovies] = useState([]);
   const [showModal, setShowModal] = useState(false);
   const [animationKey, setAnimationKey] = useState(0);
+  // setting up states to control the opening of the image modal as well as the source of the actor's image
+  const [actorImageModalOpen, setActorImageModalOpen] = useState(false);
+  const [actorImageSrc, setActorImageSrc] = useState('');
+  const [actorNameSrc, setActorNameSrc] = useState('');
+  const [actorIMDBSrc, setActorIMDBSrc] = useState('');
  
 
 
@@ -22,6 +27,23 @@ export default function RandomMovie({ selectedRuntime  }) {
     const filtered = allMovies.filter(movie => movie.runtime <= selectedRuntime);
     setFilteredMovies(filtered);
   }, [selectedRuntime]);
+
+  
+  // Function to handle opening actor's image modal, and the loading of the various details from the array
+  const handleActorImageModalOpen = (imageSrc, nameSrc, IMDBSrc) => {
+    setActorImageSrc(imageSrc);
+    setActorNameSrc(nameSrc);
+    setActorIMDBSrc(IMDBSrc);
+    setActorImageModalOpen(true);
+  };
+
+  // Function to handle closing actor's image modal and to prombtly clear the image src
+  const handleActorImageModalClose = () => {
+    setActorImageSrc('');
+    setActorNameSrc("");
+    setActorIMDBSrc("");
+    setActorImageModalOpen(false);
+  };
 
 
    const handleRandomMovie = () => {
@@ -38,7 +60,9 @@ export default function RandomMovie({ selectedRuntime  }) {
           serviceMovies = serviceMovies.concat(maxArray);
         } else if (service === "Prime") {
           serviceMovies = serviceMovies.concat(primeArray);
-        }
+        } else if (service === "Hulu") {
+          serviceMovies = serviceMovies.concat(huluArray);
+        } 
         // Add more conditions for other services if needed
       });
       filtered = serviceMovies.filter(movie => movie.runtime <= selectedRuntime);
@@ -122,7 +146,7 @@ if (preferredDirectors && preferredDirectors.length > 0) {
           />
         </a>
       );
-    } else if (hostname === 'play.max.com') {
+    } else if (/^((www|play)\.)?max\.com$/.test(hostname)) {
       return (
         <a href={link} target="_blank" rel="noopener noreferrer">
         <img
@@ -142,7 +166,18 @@ if (preferredDirectors && preferredDirectors.length > 0) {
         />
         </a>
       );
-    } else {
+    } else if (hostname === 'www.hulu.com') {
+      return (
+        <a href={link} target="_blank" rel="noopener noreferrer">
+        <img
+          src="https://wallpapers.com/images/featured/hulu-fxo5g9d2z5nmrq7p.jpg"
+          alt="Hulu Logo"
+          style={{ width: '100px', height: 'auto' }}
+        />
+        </a>
+      );
+    } 
+    else {
       return (
         <a href={link} target="_blank" style={{ color: 'blue', textDecoration: 'none', cursor: 'pointer' }}>Watch Now</a>
       );
@@ -150,7 +185,7 @@ if (preferredDirectors && preferredDirectors.length > 0) {
   };
 
   return (
-    <div className='randomCard' style={{ textAlign: "center", width: "100%" }}>
+    <div className='randomCard' style={{ textAlign: "center", width: "60%" }}>
       {randomMovie ? (
         <motion.div
           key={animationKey}
@@ -208,14 +243,15 @@ if (preferredDirectors && preferredDirectors.length > 0) {
               <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
                 {randomMovie.director.map((director, index) => (
                   <div key={index} style={{ textAlign: 'center' }}>
-                    <a target="_blank" href={director.imdb}>
+                    
                       <img 
                         src={director.image} 
                         alt={director.name} 
                         style={{ width: '120px', height: '100px', objectFit: 'cover' }} 
+                        onClick={() => handleActorImageModalOpen(director.image, director.name, director.IMDB)}
                       />
                       <p style={{ marginTop: '5px', fontSize: '14px' }}>{director.name}</p>
-                    </a>
+                    
                   </div>
                 ))}
               </div>
@@ -223,24 +259,23 @@ if (preferredDirectors && preferredDirectors.length > 0) {
           )}
           {/* Actors Section */}
           {randomMovie && randomMovie.actors && (
-            <div>
-              <h5>Actors:</h5>
-              <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
-                {randomMovie.actors.map((actor, index) => (
-                  <div key={index} style={{ textAlign: 'center' }}>
-                    <a target="_blank" href={actor.imdb}>
-                      <img 
-                        src={actor.image} 
-                        alt={actor.name} 
-                        style={{ width: '100px', height: '80px', objectFit: 'cover' }} 
-                      />
-                      <p style={{ marginTop: '5px', fontSize: '14px' }}>{actor.name}</p>
-                    </a>
-                  </div>
-                ))}
-              </div>
-            </div>
-          )}
+  <div>
+    <h5>Actors:</h5>
+    <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
+      {randomMovie.actors.map((actor, index) => (
+        <div key={index} style={{ textAlign: 'center' }}>
+          <img
+            src={actor.image}
+            alt={actor.name}
+            style={{ width: '100px', height: '80px', objectFit: 'cover', cursor: 'pointer' }}
+            onClick={() => handleActorImageModalOpen(actor.image, actor.name, actor.IMDB)}
+          />
+          <p style={{ marginTop: '5px', fontSize: '14px' }}>{actor.name}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+)}
         </Modal.Body>
         <Modal.Footer style={{backgroundColor: "#58355E", color: "#E4C3AD", textShadow: "text-shadow: 2px 2px 2px black;"}}>
           <Button variant="secondary" onClick={handleModalClose}>
@@ -248,6 +283,17 @@ if (preferredDirectors && preferredDirectors.length > 0) {
           </Button>
         </Modal.Footer>
       </Modal>
+      <Modal show={actorImageModalOpen} onHide={handleActorImageModalClose}>
+      <Modal.Body style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: "center" }}>
+    <img src={actorImageSrc} alt="Actor" style={{ maxWidth: '100%', maxHeight: '100%' }} /> <br/>
+    <h1 style={{ fontFamily: "SignWood", color: "whitesmoke", textShadow: "2px 2px 2px black" }}>{actorNameSrc}</h1>
+    <a href={actorIMDBSrc}><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/IMDB_Logo_2016.svg/2560px-IMDB_Logo_2016.svg.png" alt="imdb" style={{width: "25%", height: "25%", margin: "0 auto"}} /></a>
+  </div>
+</Modal.Body>
+
+
+</Modal>
     </div>
   );
 }
