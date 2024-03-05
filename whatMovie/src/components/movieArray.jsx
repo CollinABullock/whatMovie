@@ -5686,7 +5686,7 @@ const moviesArray = [
   "poster": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/100424b5-6eb1-45bd-bc8c-c0459fde578a/f54a3c8e429f555c9c795cd7dee83e58315c0d0f.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
   "description": "Set in an alternate history where superheroes exist and have changed the course of world events, a group of retired vigilantes investigates the murder of one of their own. As they uncover a conspiracy that could alter the fate of humanity, they must confront their past and the moral ambiguity of their actions.",
   "genre": ["action", "drama", "mystery", "comic-book"],
-  "link": "",
+  "link": "https://play.max.com/movie/100424b5-6eb1-45bd-bc8c-c0459fde578a",
   "director": [{
     "name": "Zack Synder",
     "image": "https://dnm.nflximg.net/api/v6/2DuQlx0fM4wd1nzqm5BFBi6ILa8/AAAAQRkG0o6H2e9srDoKgYVGPoqGMQGX2DpEahimbzps-XdXK2Qc_sby0nJiRw3V0bePHNFOGKK3PdNwy1Z825FXZwDjmxVEuYKYQlsRdnmEnmK0XIzCGQ-PHCNrD8wJVCvhOqggGXSKLFhPBK7DxoiMtrO9.jpg?r=4ca",
