@@ -6,7 +6,7 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
   const [runtime, setRuntime] = useState(sessionStorage.getItem('selectedRuntime') || 240);
   const [selectedGenres, setSelectedGenres] = useState(JSON.parse(sessionStorage.getItem('selectedGenres')) || []);
   const [preferredGenres, setPreferredGenres] = useState(JSON.parse(sessionStorage.getItem('preferredGenres')) || []);
-  const [selectedService, setSelectedService] = useState([]);
+  const [selectedServices, setSelectedServices] = useState([]);
   const [uniqueGenres, setUniqueGenres] = useState([]);
   const [isStreamingServicesOpen, setStreamingServicesOpen] = useState(false); // State for streaming services visibility
   const [isRuntimeOpen, setIsRuntimeOpen] = useState(false); 
@@ -161,7 +161,7 @@ export default function MoviePreferenceComponent({ onPreferenceChange, data }) {
   ];
 
   const handleServiceClick = (serviceName) => {
-    setSelectedService(prevSelectedServices => {
+    setSelectedServices(prevSelectedServices => {
       const updatedServices = prevSelectedServices.includes(serviceName) ?
         prevSelectedServices.filter(service => service !== serviceName) :
         [...prevSelectedServices, serviceName];
@@ -223,11 +223,11 @@ return (
               height: '100px',
               objectFit: "cover",
               cursor: "pointer",
-              filter: selectedService.includes(service.name) ? "none" : "sepia(100%) hue-rotate(90deg)"
+              filter: selectedServices.includes(service.name) ? "none" : "sepia(100%) hue-rotate(90deg)"
             }}
             onClick={() => handleServiceClick(service.name)}
           />
-          {selectedService.includes(service.name) && (
+          {selectedServices.includes(service.name) && (
             <div style={{
               position: 'absolute',
               top: '5px',
@@ -549,7 +549,7 @@ return (
       setSelectedGenres([]);
       setPreferredGenres([]);
       setRuntime(240);
-      setSelectedService([]);
+      setSelectedServices([]);
       setPreferredDirectors([]);
       window.alert("Preferences have been reset. Happy viewing!");
     }}

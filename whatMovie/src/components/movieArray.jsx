@@ -11885,4 +11885,4 @@ const criterionArray = moviesArray[8];
 const tubiArray = moviesArray[9];
 
 
-export {moviesArray, netflixArray, maxArray, primeArray, huluArray, peacockArray, appleArray, disneyArray, paramountArray, criterionArray, tubiArray }
+export {moviesArray, netflixArray, maxArray, primeArray, huluArray, peacockArray, appleArray, disneyArray, paramountArray, criterionArray, tubiArray }g
