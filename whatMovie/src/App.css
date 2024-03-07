@@ -124,7 +124,7 @@ margin: 10px !important;
 @font-face {
   font-family: "Showtime";   
   src: local("Showtime"),
-    url("./fonts/showtime/Showtime.ttf") format("truetype");
+    url("./components/Showtime.ttf") format("truetype");
 }
 
 @font-face {
@@ -136,7 +136,7 @@ margin: 10px !important;
 @font-face {
   font-family: "Signwood";   
   src: local("Signwood-2Om7l"),
-    url("./fonts/signwood-font/Signwood-2Om7l.ttf") format("truetype");
+    url("./components/Signwood-2Om7l.ttf") format("truetype");
 }
 
 @font-face {
