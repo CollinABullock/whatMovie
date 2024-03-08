@@ -3618,7 +3618,7 @@ const moviesArray = [
     "actors": [{
       "name": "Ron Perlman",
       "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQEQMGZGDHTkHlBHShM7dMDS7THQOMZvXvstjDsXs_c1WeIdoQpPjMubbNEev4DhVBFgOl2cRF5ECKjOGY",
-      "imdb": "https://www.imdb.com/name/nm0000579/",
+      "imdb": "https://www.imdb.com/name/nm0000579/"
     }, {
       "name": "Selma Blair",
       "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSQSQFahBFMf1uX270J0B8E3fZGA7xuTN8Xd1uR33MHDFPdUvwm",
@@ -4029,7 +4029,7 @@ const moviesArray = [
     "director": [{
     "name": "James Cameron",
     "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQTffSHnEbSAPLrSn1CDMselzUqIzB7k1FWsM_wzaW9gNO6MKYYs47AZoD30L0LeKKIJW_JFLg2p1EMizU",
-    "imdb": "https://www.imdb.com/name/nm0000116/",
+    "imdb": "https://www.imdb.com/name/nm0000116/"
     }],
     "actors": [{
       "name": "Sam Worthington",
@@ -9795,7 +9795,7 @@ const moviesArray = [
       "actors": [{
         "name": "Julia Roberts",
         "image": "https://people.com/thmb/IhNIeEk1h5D2I6URYBtwRXb-S5s=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(703x165:705x167)/Julia-Roberts-on-the-tonight-show-tout-120623-7c30d086ccb44f09a9563abdb0427af6.jpg",
-        "imdb": "https://www.imdb.com/name/nm0000210/?ref_=tt_ov_st",
+        "imdb": "https://www.imdb.com/name/nm0000210/?ref_=tt_ov_st"
       }, {
         "name": "Hugh Grant",
         "image": "https://westernnews.media.clients.ellingtoncms.com/img/photos/2023/11/30/hugh-grant-brutally-honest-opinion-love-actually-ftr_t715.png?529764a1de2bdd0f74a9fb4f856b01a9d617b3e9",
@@ -11849,6 +11849,169 @@ const moviesArray = [
   ],
   // start peacock array
   [
+      {    
+    "item": "P436",
+    "title": "Oppenheimer",
+    "runtime": 180,
+    "mpaa": "R",
+    "poster": "https://www.peacocktv.com/dam/growth/assets/Campaign/P1/oppenheimer/oppenheimer-social.jpg",
+    "description": "During World War II, Lt. Gen. Leslie Groves Jr. appoints physicist J. Robert Oppenheimer to work on the top-secret Manhattan Project. Oppenheimer and a team of scientists spend years developing and designing the atomic bomb. Their work comes to fruition on July 16, 1945, as they witness the world's first nuclear explosion, forever changing the course of history.",
+"genre": ["biopic", "drama"],
+  "link": "https://www.peacocktv.com/stream-movies/oppenheimer",
+  "director": [{
+    "name": "Christopher Nolan",
+    "image": "https://hips.hearstapps.com/hmg-prod/images/christopher-nolan-attends-the-oppenheimer-premiere-at-news-photo-1704643272.jpg",
+    "imdb": "https://www.imdb.com/name/nm0634240/"
+  }],
+  "actors": [{
+    "name": "Cillian Murphy",
+    "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2024/02/21/a0ab1286-a64e-4cdc-8a99-25fd202a9350/thumbnail/1280x720/1f47d561ff5c069ee21d8507394dd4df/0221-cmo-cillianmurphy-intv-mid-2699502-640x360.jpg?v=873773698949ef4145348bb09cabd43d",
+    "imdb": "https://www.imdb.com/name/nm0614165/"
+  }, {
+    "name": "Robert Downey Jr.",
+    "image": "https://www.hollywoodreporter.com/wp-content/uploads/2023/06/Robert-Downey-Jr.-Getty-H-2023.jpg?w=1296",
+    "imdb": "https://www.imdb.com/name/nm0000375/"
+  }, {
+    "name": "Emily Blunt",
+    "image": "https://variety.com/wp-content/uploads/2023/09/GettyImages-1540936189.jpg?w=1024",
+    "imdb": "https://www.imdb.com/name/nm1289434/"
+  }, {
+    "name": "Florence Pugh",
+  "image": "https://media1.popsugar-assets.com/files/thumbor/QssutrME6tERtz-5fRr6nHFgLS0=/fit-in/792x528/top/filters:format_auto():upscale()/2023/01/12/747/n/1922398/tmp_kCwFvt_67ee3c82b10d784a_GettyImages-1446980033.jpg",
+  "imdb": "https://www.imdb.com/name/nm2185547/"
+  }]
+  }
+  ,
+  {
+    "item": "129",
+    "title": "Kick-Ass",
+    "runtime": 117,
+    "mpaa": "R",
+    "poster": "https://imageservice.disco.peacocktv.com/uuid/b8700949-f8da-37ff-bc59-5f70678e68ea/TITLE_TREATMENT?language=eng&territory=US&proposition=NBCUOTT&version=47ff2ddc-b9ff-39ca-afd8-19456cbee91d",
+    "description": "Dave Lizewski is an unnoticed high school student and comic book fan who one day decides to become a superhero, even though he has no powers, training or meaningful reason to do so.",
+    "genre": ["action", "comedy", "comic-book"],
+    "link": "https://www.peacocktv.com/watch-online/movies/action-and-adventure/kick-ass/56c20b1c-2447-3777-a737-722f262d48f3",
+    "director": [{
+      "name": "Matthew Vaughn",
+      "image": "https://www.hollywoodreporter.com/wp-content/uploads/2023/10/Matthew-Vaughn-getty-H-2023.jpg",
+      "imdb": "https://www.imdb.com/name/nm0891216/"
+    }],
+    "actors": [{
+      "name": "Aaron Taylor-Johnson",
+      "image": "https://manofmany.com/wp-content/uploads/2022/12/Aaron-Taylor-Honson-Bond-1200x900.png",
+      "imdb": "https://www.imdb.com/name/nm1093951/bio/",
+    }, {
+      "name": "Chloë Grace Moretz",
+      "image": "https://people.com/thmb/9IFHq7ro_NpRArFus-8z2TDvLSA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(749x0:751x2)/Chloe-Grace-40f6ae15bfc5493097f606b0a08d408f.jpg",
+      "imdb": "https://www.imdb.com/name/nm1631269/"
+    }, {
+      "name": "Nicolas Cage",
+      "image": "https://variety.com/wp-content/uploads/2023/03/Nicolas-Cage-Variety-Award-092.jpg?w=1000&h=563&crop=1",
+      "imdb": "https://www.imdb.com/name/nm0000115/"
+    }, {
+      "name": "Christopher Mintz-Plasse",
+      "image": "https://m.media-amazon.com/images/M/MV5BNDU4NjQyOTk1Nl5BMl5BanBnXkFtZTgwNzkxNTgxMzI@._V1_.jpg",
+      "imdb": "https://www.imdb.com/name/nm1561971/"
+    }]
+  }
+  ,
+  {
+    "item": "130",
+    "title": "One for the Money",
+    "runtime": 91,
+    "mpaa": "PG-13",
+    "poster": "https://imageservice.disco.peacocktv.com/uuid/4a4c81af-dd1e-3dbd-b831-253d33b32ada/TITLE_ART_16_9?language=eng&territory=US&proposition=NBCUOTT&version=26ec94fd-64d6-3275-995e-468fc86db061",
+    "description": "Unemployed and newly-divorced Stephanie Plum lands a job at her cousin's bail-bond business, where her first assignment puts her on the trail of a wanted local cop from her romantic past.",
+    "genre": ["comedy", "crime", "mystery"],
+    "link": "https://www.peacocktv.com/watch-online/movies/one-for-the-money/26b026f1-6883-3b73-81a6-32ef0824b6eb",
+    "director": [{
+      "name": "Julie Anne Robinson",
+      "image": "https://m.media-amazon.com/images/M/MV5BNGMxNWM3ODAtYzI1Yi00ZGRmLTlmMWQtNzc4M2FkNWU2M2I0XkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1_.jpg",
+      "imdb": "https://www.imdb.com/name/nm0732966/"
+    }],
+    "actors": [{
+      "name": "Katherine Heigl",
+      "image": "https://media.zenfs.com/en/bang_showbiz_628/3556a4b24c2928e8c1973e304d5c3a1b",
+      "imdb": "https://www.imdb.com/name/nm0001337/"
+    }, {
+      "name": "Jason O'Mara",
+      "image": "https://www.hollywoodreporter.com/wp-content/uploads/2016/08/jason_omara_getty_h_2016.jpg?w=1296",
+      "imdb": "https://www.imdb.com/name/nm0641924/"
+    }, {
+      "name": "Daniel Sunjata",
+      "image": "https://www.essence.com/wp-content/uploads/2022/01/PTQ2_203_040921_0141_a_1800x1200.jpg",
+      "imdb": "https://www.imdb.com/name/nm0838971/"
+    }, {
+      "name": "John Leguizamo",
+      "image": "https://images.hola.com/us/images/027f-17a87ad07fda-6c31393b7469-1000/horizontal-1200/prime-video-39-s-quot-the-power-quot-new-york-premiere.jpg",
+      "imdb": "https://www.imdb.com/name/nm0000491/"
+    }]
+  }
+  ,
+  {
+    "item": "131",
+    "title": "13 Assassins",
+    "runtime": 141,
+    "mpaa": "R",
+    "poster": "https://imageservice.disco.peacocktv.com/uuid/a2496c62-690d-37c8-988e-10e92d5ebe74/LAND_16_9?language=eng&territory=US&proposition=NBCUOTT&version=7594b1ba-582d-3f29-831d-55ffa5130cf0",
+    "description": "A group of assassins come together for a suicide mission to kill an evil lord.",
+    "genre": ["action", "drama", "thriller", "history", "foreign"],
+    "link": "https://www.peacocktv.com/watch-online/movies/13-assassins/8dc180d6-9168-3013-aae2-24c58c9f9c55",
+    "director": [{
+      "name": "Takashi Miike",
+      "image": "https://variety.com/wp-content/uploads/2022/10/Miike-Connect-2-lcr-res.jpg?w=1024",
+      "imdb": "https://www.imdb.com/name/nm0586281/"
+    }],
+    "actors": [{
+      "name": "Koji Yakusho",
+      "image": "https://i0.wp.com/www.thewrap.com/wp-content/uploads/2023/12/CMS-Koji-Yakusho.jpg?fit=990%2C557&ssl=1",
+      "imdb": "https://www.imdb.com/name/nm0946473/"
+    }, {
+      "name": "Takayuki Yamada",
+      "image": "https://variety.com/wp-content/uploads/2018/10/takayuki-yamada-landscape-crop-rexfeatures_8861210z.jpg?w=1000&h=563&crop=1",
+      "imdb": "https://www.imdb.com/name/nm1061979/"
+    }, {
+      "name": "Yusuke Iseya",
+      "image": "https://i0.wp.com/www.celebrity-cutouts.com/wp-content/uploads/2018/11/yusuke-iseya-moustache-celebrity-mask.png?fit=1200%2C600&ssl=1",
+      "imdb": "https://www.imdb.com/name/nm1026949/"
+    }, {
+      "name": "Goro Inagaki",
+      "image": "https://m.media-amazon.com/images/M/MV5BN2FlOTBiNzctODFhOS00NmZiLTllMDItZmM2YjJiZTJkZTU3XkEyXkFqcGdeQXVyMTI3MDk3MzQ@._V1_.jpg",
+      "imdb": "https://www.imdb.com/name/nm0407598/"
+    }]
+  },
+  {
+    "item": "132",
+    "title": "Season of the Witch",
+    "runtime": 95,
+    "mpaa": "PG-13",
+    "poster": "https://imageservice.disco.peacocktv.com/uuid/0779b3d7-e8ae-3557-91be-b949e31b339b/TITLE_ART_3_4/640/480?language=eng&territory=US&version=69ff98d8-1cdf-390e-9d42-9d03735f5c32&output-format=webp",
+    "description": "A knight and his friend are tasked with transporting a suspected witch to a monastery, where monks will perform a ritual to rid her of her supposed powers.",
+    "genre": ["action", "adventure", "fantasy"],
+    "link": "https://www.peacocktv.com/watch-online/movies/season-of-the-witch/9671be41-ee42-3cda-915a-7000426940a5",
+    "director": [{
+      "name": "Dominic Sena",
+      "image": "https://c8.alamy.com/comp/F6HWN5/jul-23-2002-hollywood-ca-usa-director-dominic-sena-actor-delroy-lindo-F6HWN5.jpg",
+      "imdb": "https://www.imdb.com/name/nm0786485/"
+    }],
+    "actors": [{
+      "name": "Nicolas Cage",
+        "image": "https://variety.com/wp-content/uploads/2023/03/Nicolas-Cage-Variety-Award-092.jpg?w=1000&h=563&crop=1",
+        "imdb": "https://www.imdb.com/name/nm0000115/"
+    }, {
+      "name": "Ron Perlman",
+      "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQEQMGZGDHTkHlBHShM7dMDS7THQOMZvXvstjDsXs_c1WeIdoQpPjMubbNEev4DhVBFgOl2cRF5ECKjOGY",
+      "imdb": "https://www.imdb.com/name/nm0000579/"
+    }, {
+      "name": "Claire Foy",
+      "image": "https://m.media-amazon.com/images/M/MV5BNTMyNjk2NjI0Ml5BMl5BanBnXkFtZTgwMDgxOTA5NDM@._CR229,77,1638,922_QL75_UX500_CR0,0,500,281_.jpg",
+      "imdb": "https://www.imdb.com/name/nm2946516/"
+    }, {
+      "name": "Stephen Graham",
+      "image": "https://m.media-amazon.com/images/M/MV5BZjU0MjhlN2ItZGIwZC00YTk2LTg5OTYtZmE1OGI3N2EyOGE0XkEyXkFqcGdeQWFybm8@._V1_QL75_UX500_CR0,0,500,281_.jpg",
+      "imdb": "https://www.imdb.com/name/nm0334475/"
+    }]
+  }
 
   ],
   // start apple array

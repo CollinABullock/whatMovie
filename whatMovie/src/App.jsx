@@ -4,7 +4,9 @@ import RandomMovie from './components/randomMovieCard';
 import Footer from './components/footer';
 import { useState, useEffect } from 'react';
 
-import { moviesArray, netflixArray, maxArray } from './components/movieArray';
+import { moviesArray, maxArray } from './components/movieArray';
+
+
 
 function App() {
   const [selectedRuntime, setSelectedRuntime] = useState(null);
